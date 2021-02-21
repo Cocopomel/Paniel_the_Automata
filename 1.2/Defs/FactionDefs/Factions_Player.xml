@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <FactionDef Abstract="True" Name="Paniel_PlayerBase">
+    <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
+    <colorSpectrum>
+      <li>(65, 65, 150)</li>
+    </colorSpectrum>
+  </FactionDef>  <!--스타트 팩션-->
+  <FactionDef ParentName="Paniel_PlayerBase">
+    <defName>Paniel_PlayerFaction</defName>
+    <label>Left Automata</label>
+    <description>...</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Paniel_Story</li>
+    </backstoryCategories>
+    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

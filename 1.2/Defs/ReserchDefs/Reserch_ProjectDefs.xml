@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectTagDef>
+    <defName>PanielStart</defName>
+  </ResearchProjectTagDef>
+
+  <ResearchTabDef>
+		<defName>PN_technology</defName>
+		<label>Automaton technology</label>
+	</ResearchTabDef>
+</Defs>

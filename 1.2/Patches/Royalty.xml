@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Paniel_Race"]/alienRace/thoughtSettings/canStillReceiveThoughts</xpath>
+          <value>
+            <li>AteFoodInappropriateForTitle</li>
+            <li>DecreeMet</li>
+            <li>DecreeFailed</li>
+            <li>Disinherited</li>
+            <li>NeuroquakeEcho</li>
+            <li>ReignedInThroneroom</li>
+            <li>OtherTravelerArrested</li>
+            <li>OtherTravelerSurgicallyViolated</li>
+            <li>PsychicEntropyOverloaded</li>
+            <li>AnimaScream</li>
+            <li>OtherTravelerDied</li>
+            <li>OtherTravelerArrested</li>
+            <li>OtherTravelerSurgicallyViolated</li>
+            <li>DecreeUnmet</li>
+            <li>PsychicLove</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/HediffDef[defName = "PanielBaseHediff"]/comps/li[@Class = "MoharHediffs.HediffCompProperties_HediffNullifier"]/hediffToNullify</xpath>
+          <value>
+            <li>BloodRot</li>
+            <li>Abasia</li>
+            <li>PsychicLove</li>
+            <li>Joyfuzz</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

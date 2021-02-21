@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--좋은 의견을 가진 오토마톤 죽었을때-->
+  <ThoughtDef>
+    <defName>PN_AutomatonWithGoodOpinionDied</defName>
+    <durationDays>20</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages> 
+      <li>
+        <label>favorite Automaton {0} died</label>
+        <description>...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--나쁜 의견을 가진 오토마톤 죽었을때-->
+  <ThoughtDef>
+    <defName>PN_AutomatonWithBadOpinionDied</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>hateful Automaton {0} died</label>
+        <description>...</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

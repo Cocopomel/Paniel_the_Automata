@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AutomataRace.AutomataRaceSettings>
+    <defName>Paniel_Race</defName>
+    <needBlacklists>      <!--Need def-->
+      <li>Beauty</li>
+      <li>Comfort</li>
+      <li>Outdoors</li>
+      <li>DrugDesire</li>
+      <li>RoomSize</li>
+    </needBlacklists>    <!--false 가 적용 / true 가 꺼짐-->
+    <socialActivated>true</socialActivated>
+    <skillDecayActivated>false</skillDecayActivated>
+    <infectionActivated>false</infectionActivated>
+    <medicineTendable>false</medicineTendable>
+    <deadThoughtOverrides>
+      <li>
+        <source>KnowColonistDied</source>
+      </li>
+      <li>
+        <source>PawnWithGoodOpinionDied</source>
+        <overwrite>PN_AutomatonWithGoodOpinionDied</overwrite>
+      </li>
+      <li>
+        <source>PawnWithBadOpinionDied</source>
+        <overwrite>PN_AutomatonWithBadOpinionDied</overwrite>
+      </li>
+      <li>
+        <source>ColonistLost</source>
+      </li>
+      <li>
+        <source>PawnWithGoodOpinionLost</source>
+      </li>
+      <li>
+        <source>PawnWithBadOpinionLost</source>
+      </li>
+    </deadThoughtOverrides>
+  </AutomataRace.AutomataRaceSettings>
+</Defs>

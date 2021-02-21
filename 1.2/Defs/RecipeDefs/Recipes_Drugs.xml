@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--==================================== 일반 연료 ====================================-->
+  <RecipeDef>
+    <defName>PN_Make_AutomatonFuel</defName>
+    <label>make PNL fuel x4</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel>4</PN_AutomatonFuel>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>PN_Make_AutomatonFuel_bulk</defName>
+    <label>make PNL fuel x16</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>4800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel>16</PN_AutomatonFuel>
+    </products>
+  </RecipeDef>
+
+  <!--==================================== 플러스 연료 ====================================-->
+  <RecipeDef>
+    <defName>PN_Make_AutomatonPlusFuel</defName>
+    <label>make PNL plus fuel x4</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel_Plus>4</PN_AutomatonFuel_Plus>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>PN_Make_AutomatonPlusFuel_bulk</defName>
+    <label>make PNL plus fuel x16</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>7200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel_Plus>16</PN_AutomatonFuel_Plus>
+    </products>
+  </RecipeDef>
+
+  <!--==================================== 프리미엄 연료 ====================================-->
+  <RecipeDef>
+    <defName>PN_Make_AutomatonPremiumFuel</defName>
+    <label>make PNL premium fuel x4</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+        <li>Ambrosia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel_Premium>4</PN_AutomatonFuel_Premium>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>PN_Make_AutomatonPremiumFuel_bulk</defName>
+    <label>make PNL premium fuel x16</label>
+    <description>Make Automaton fuel.</description>
+    <jobString>make Automaton fuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>12800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+      <li>CraftingSpot</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PsychoidLeaves</li>
+        <li>Chemfuel</li>
+        <li>Ambrosia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <PN_AutomatonFuel_Premium>16</PN_AutomatonFuel_Premium>
+    </products>
+  </RecipeDef>
+</Defs>

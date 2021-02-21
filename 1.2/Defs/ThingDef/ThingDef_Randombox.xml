@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase" Name="BasePackagedAutomaton" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <tradeability>None</tradeability>
+    <stackLimit>1</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>80.0</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+  </ThingDef>
+
+  <!--==================================== 급조 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_ImprovisedAutomaton</defName>
+    <label>packaged improvised automaton</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>30</weight>
+            <pawnKindDefName>Paniel_Randombox_Awful</pawnKindDefName>
+          </li>
+          <li>
+            <weight>70</weight>
+            <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 일반 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NormalAutomaton</defName>
+    <label>packaged automaton</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>60</weight>
+            <pawnKindDefName>Paniel_Randombox_Normal</pawnKindDefName>
+          </li>
+          <li>
+            <weight>39</weight>
+            <pawnKindDefName>Paniel_Randombox_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Randombox_Excellent</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 고급 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NobleAutomaton</defName>
+    <label>packaged noble automaton</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>60</weight>
+            <pawnKindDefName>Paniel_Randombox_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>39</weight>
+            <pawnKindDefName>Paniel_Randombox_Excellent</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Randombox_MasterworkA</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 로열 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_RoyalAutomaton</defName>
+    <label>packaged royal automaton</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>9</weight>
+            <pawnKindDefName>Paniel_Randombox_MasterworkB</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Randombox_Legendary</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 전투형 일반 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NormalAutomatonSoldier</defName>
+    <label>packaged automaton soldier</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>20</weight>
+            <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
+          </li>
+          <li>
+            <weight>40</weight>
+            <pawnKindDefName>Paniel_Soldier_Normal</pawnKindDefName>
+          </li>
+          <li>
+            <weight>30</weight>
+            <pawnKindDefName>Paniel_Soldier_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>10</weight>
+            <pawnKindDefName>Paniel_Soldier_Excellent</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 전투형 고급 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NobleAutomatonSoldier</defName>
+    <label>packaged noble automaton</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>45</weight>
+            <pawnKindDefName>Paniel_Soldier_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>50</weight>
+            <pawnKindDefName>Paniel_Soldier_Excellent</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4</weight>
+            <pawnKindDefName>Paniel_Soldier_MasterworkA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Soldier_Legendary</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 제작형 일반 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NormalAutomatonWorker</defName>
+    <label>packaged automaton worker</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>20</weight>
+            <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
+          </li>
+          <li>
+            <weight>40</weight>
+            <pawnKindDefName>Paniel_Worker_Normal</pawnKindDefName>
+          </li>
+          <li>
+            <weight>30</weight>
+            <pawnKindDefName>Paniel_Worker_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>10</weight>
+            <pawnKindDefName>Paniel_Worker_Excellent</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 제작형 고급 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NobleAutomatonWorker</defName>
+    <label>packaged noble automaton worker</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>45</weight>
+            <pawnKindDefName>Paniel_Worker_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>50</weight>
+            <pawnKindDefName>Paniel_Worker_Excellent</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4</weight>
+            <pawnKindDefName>Paniel_Worker_MasterworkA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Worker_Legendary</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 가정형 일반 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NormalAutomatonMaid</defName>
+    <label>packaged automaton maid</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>20</weight>
+            <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
+          </li>
+          <li>
+            <weight>40</weight>
+            <pawnKindDefName>Paniel_Maid_Normal</pawnKindDefName>
+          </li>
+          <li>
+            <weight>30</weight>
+            <pawnKindDefName>Paniel_Maid_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>10</weight>
+            <pawnKindDefName>Paniel_Maid_Excellent</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 가정형 고급 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton">
+    <defName>Packaged_NobleAutomatonMaid</defName>
+    <label>packaged noble automaton maid</label>
+    <description>test item</description>
+    <statBases>
+      <MarketValue>60</MarketValue>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>          <!--확률:개별weight값/전체weight합-->
+          <li>
+            <weight>45</weight>
+            <pawnKindDefName>Paniel_Maid_Good</pawnKindDefName>
+          </li>
+          <li>
+            <weight>50</weight>
+            <pawnKindDefName>Paniel_Maid_Excellent</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4</weight>
+            <pawnKindDefName>Paniel_Maid_MasterworkA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1</weight>
+            <pawnKindDefName>Paniel_Maid_Legendary</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

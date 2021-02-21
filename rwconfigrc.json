@@ -1,0 +1,16 @@
+{
+  "folders": {
+    "new-version": {
+      "About": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Paniel_the_Automata\\about",
+      "DefReferences": [
+        "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Data\\Core\\Defs"
+      ],
+      "AssemblyReferences": [],
+      "Assemblies": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Paniel_the_Automata\\1.2\\Assemblies",
+      "Defs": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Paniel_the_Automata\\1.2\\Defs",
+      "Textures": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Paniel_the_Automata\\Textures",
+      "Sounds": "",
+      "Patches": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Paniel_the_Automata\\Patches"
+    }
+  }
+}

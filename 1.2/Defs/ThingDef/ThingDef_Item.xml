@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--==================================== 미완성 오토마톤 ====================================-->
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedAutomaton</defName>
+    <label>unfinished automaton</label>
+    <description>An unfinished automaton.</description>
+    <statBases>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+
+  <!--==================================== 오토마톤 가죽 ====================================-->
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Automaton</defName>
+    <label>automaton skin</label>
+    <description>leather made for automaton production. looks like human leather.</description>
+    <graphicData>
+      <color>(255,240,227)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,240,227)</color>
+      <commonality>0.0025</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <!--==================================== 생체 뇌 ====================================-->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>PN_Brain</defName>
+    <label>brain</label>
+    <description>A biological human brain.</description>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!--==================================== 오토마톤 CPU ====================================-->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>PNProcessedBrain</defName>
+    <label>automaton CPU</label>
+    <description>A brain processed for automaton.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(190,190,190)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+    <!--<comps>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>240000</lifespanTicks>
+      </li>
+    </comps>-->
+  </ThingDef>
+
+  <!--==================================== 수리키트 ====================================-->
+  <ThingCategoryDef>
+    <defName>PNKit</defName>
+    <label>Automaton kit</label>
+    <parent>Manufactured</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
+  </ThingCategoryDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_RepairKit</defName>
+    <label>automaton repair kit</label>
+    <description>test repair kit</description>
+    <graphicData>
+      <texPath>Things/Item/Special/MechSerumHealer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <WorkToMake>350</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>PNKit</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <comps>
+
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 자가 수리 키트 ====================================-->
+  <ThingDef ParentName="MechSerumBase">
+    <defName>PN_SelfRepairKit</defName>
+    <label>automaton self repair kit</label>
+    <description>test repair kit</description>
+    <graphicData>
+      <texPath>Things/Item/Special/MechSerumHealer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <WorkToMake>700</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>PNKit</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use repair kit</useLabel>
+        <useDuration>600</useDuration>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectRepairKit">
+        <thingDefs>
+          <li>Paniel_Race</li>
+        </thingDefs>
+        <blockUnnecessaryUse>true</blockUnnecessaryUse>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
