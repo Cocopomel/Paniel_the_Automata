@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!--가챠급조-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_Automaton_Improvised</defName>
     <label>make improvised automaton</label>
     <description>...</description>
@@ -75,7 +75,7 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠일반-->
   <!--<RecipeDef>

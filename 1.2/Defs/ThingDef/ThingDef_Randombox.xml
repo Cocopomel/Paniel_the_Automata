@@ -12,8 +12,10 @@
     </statBases>
   </ThingDef>
 
+  <!--확률:개별weight값/전체weight합-->
+
   <!--==================================== 급조 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_ImprovisedAutomaton</defName>
     <label>packaged improvised automaton</label>
     <description>test item</description>
@@ -30,7 +32,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>30</weight>
             <pawnKindDefName>Paniel_Randombox_Awful</pawnKindDefName>
@@ -45,7 +47,7 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 일반 상자 ====================================-->
   <ThingDef ParentName="BasePackagedAutomaton">
@@ -65,7 +67,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>60</weight>
             <pawnKindDefName>Paniel_Randombox_Normal</pawnKindDefName>
@@ -104,7 +106,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>60</weight>
             <pawnKindDefName>Paniel_Randombox_Good</pawnKindDefName>
@@ -143,7 +145,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>9</weight>
             <pawnKindDefName>Paniel_Randombox_MasterworkB</pawnKindDefName>
@@ -178,7 +180,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>20</weight>
             <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
@@ -221,7 +223,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>45</weight>
             <pawnKindDefName>Paniel_Soldier_Good</pawnKindDefName>
@@ -264,7 +266,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>20</weight>
             <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
@@ -307,7 +309,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>45</weight>
             <pawnKindDefName>Paniel_Worker_Good</pawnKindDefName>
@@ -350,7 +352,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>20</weight>
             <pawnKindDefName>Paniel_Randombox_Poor</pawnKindDefName>
@@ -393,7 +395,7 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>          <!--확률:개별weight값/전체weight합-->
+        <samples>
           <li>
             <weight>45</weight>
             <pawnKindDefName>Paniel_Maid_Good</pawnKindDefName>
