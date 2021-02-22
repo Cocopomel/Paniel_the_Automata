@@ -641,7 +641,7 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>300</lifeExpectancy>
+      <lifeExpectancy>50</lifeExpectancy>
       <!-- Gore -->
       <leatherDef>Human</leatherDef>
       <useMeatFrom>Human</useMeatFrom>
