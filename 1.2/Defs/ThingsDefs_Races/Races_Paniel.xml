@@ -18,7 +18,7 @@
         <minAgeForAdulthood>0</minAgeForAdulthood>        <!--성인 배경 최소나이-->
         <!--약물 설정-->
         <chemicalSettings>
-          <!--대체다대체-->
+          <!--대체-->
           <!--<li>
             <chemical></chemical>
             <reactions>
