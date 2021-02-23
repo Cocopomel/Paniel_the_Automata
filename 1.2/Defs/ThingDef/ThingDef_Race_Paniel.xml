@@ -577,7 +577,7 @@
       <MedicalSurgerySuccessChance>1.1</MedicalSurgerySuccessChance>
       <!-- 테크 -->
       <ConstructionSpeed>1.1</ConstructionSpeed>
-      <ResearchSpeed>0.5</ResearchSpeed>
+      <ResearchSpeed>0.2</ResearchSpeed>
     </statBases>
     <!--맨손 전투-->
     <tools>

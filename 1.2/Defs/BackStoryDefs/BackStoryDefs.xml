@@ -97,6 +97,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
+    
     </skillGains>
     <workDisables>
       <li>ManualSkilled</li>
@@ -120,6 +121,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
+
     </skillGains>
     <workDisables>
     </workDisables>
@@ -138,50 +140,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>3</amount>
-      </li>
+
     </skillGains>
     <workDisables>
     </workDisables>
@@ -201,50 +160,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>6</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>6</amount>
-      </li>
+     
     </skillGains>
     <workDisables>
     </workDisables>
@@ -263,50 +179,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>9</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>9</amount>
-      </li>
+      
     </skillGains>
     <workDisables>
     </workDisables>
@@ -325,50 +198,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>12</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>12</amount>
-      </li>
+      
     </skillGains>
     <workDisables>
     </workDisables>
@@ -387,50 +217,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Melee</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Plants</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Medicine</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>15</amount>
-      </li>
+      
     </skillGains>
     <workDisables>
     </workDisables>
@@ -515,17 +302,6 @@
         <defName>TorturedArtist</defName>
       </li>
     </disallowedTraits>
-  </AlienRace.BackstoryDef>
-
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
-    <defName>Paniel_MilitiaA_Backstory</defName>
-    <title>Automaton Militia</title>
-    <titleShort>Militia</titleShort>
-    <baseDescription>backstory</baseDescription>
-    <slot>Adulthood</slot>
-    <skillGains>
-
-    </skillGains>
     <workDisables>
       <li>Artistic</li>
       <li>Social</li>
@@ -535,6 +311,36 @@
       <li>PlantWork</li>
       <li>Caring</li>
     </workDisables>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
+    <defName>Paniel_MilitiaA_Backstory</defName>
+    <title>Automaton Militia</title>
+    <titleShort>Militia</titleShort>
+    <baseDescription>backstory</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>1</amount>
+			</li>
+      <li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+    </skillGains>
     <spawnCategories>
       <li>Paniel_Story_Start</li>
       <li>Paniel_Story_MilitiaA</li>
@@ -552,23 +358,26 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>-2</amount>
-      </li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>2</amount>
+			</li>
       <li>
-        <defName>Mining</defName>
-        <amount>-2</amount>
-      </li>
+				<defName>Animals</defName>
+				<amount>2</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Crafting</li>
-      <li>PlantWork</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_MilitiaB</li>
     </spawnCategories>
@@ -585,23 +394,26 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Shooting</defName>
+				<amount>9</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>9</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
       <li>
-        <defName>Mining</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Crafting</li>
-      <li>PlantWork</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_SoldierA</li>
     </spawnCategories>
@@ -618,23 +430,26 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Shooting</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>4</amount>
+			</li>
       <li>
-        <defName>Mining</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Crafting</li>
-      <li>PlantWork</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_SoldierB</li>
     </spawnCategories>
@@ -651,23 +466,26 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Shooting</defName>
+				<amount>15</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>15</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>5</amount>
+			</li>
       <li>
-        <defName>Mining</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Animals</defName>
+				<amount>5</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Crafting</li>
-      <li>PlantWork</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Royalguard</li>
     </spawnCategories>
@@ -689,6 +507,14 @@
         <defName>Tough</defName>
       </li>
     </disallowedTraits>
+    <workDisables>
+      <li>Animals</li>
+      <li>Artistic</li>
+      <li>Social</li>
+      <li>Cooking</li>
+      <li>Caring</li>
+      <li>PlantWork</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
@@ -699,26 +525,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Construction</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>3</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
       <li>
-        <defName>Animals</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Animals</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Start</li>
       <li>Paniel_Story_ApprenticeA</li>
@@ -736,26 +558,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Construction</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>6</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Crafting</defName>
+				<amount>6</amount>
+			</li>
       <li>
-        <defName>Animals</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Animals</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_ApprenticeB</li>
     </spawnCategories>
@@ -772,26 +590,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-9</amount>
-      </li>
+				<defName>Construction</defName>
+				<amount>9</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>9</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-9</amount>
-      </li>
+				<defName>Crafting</defName>
+				<amount>9</amount>
+			</li>
       <li>
-        <defName>Animals</defName>
-        <amount>-9</amount>
-      </li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Animals</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_journeymanA</li>
     </spawnCategories>
@@ -808,26 +622,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-12</amount>
-      </li>
+				<defName>Construction</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>12</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-12</amount>
-      </li>
+				<defName>Crafting</defName>
+				<amount>12</amount>
+			</li>
       <li>
-        <defName>Animals</defName>
-        <amount>-12</amount>
-      </li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Animals</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_journeymanB</li>
     </spawnCategories>
@@ -844,26 +654,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-15</amount>
-      </li>
+				<defName>Construction</defName>
+				<amount>15</amount>
+			</li>
+			<li>
+				<defName>Mining</defName>
+				<amount>15</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-15</amount>
-      </li>
+				<defName>Crafting</defName>
+				<amount>15</amount>
+			</li>
       <li>
-        <defName>Animals</defName>
-        <amount>-15</amount>
-      </li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Animals</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
-      <li>Cooking</li>
-      <li>Caring</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Meister</li>
     </spawnCategories>
@@ -888,6 +694,12 @@
         <defName>TorturedArtist</defName>
       </li>
     </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+      <li>Mining</li>
+      <li>Intellectual</li>
+    </workDisables>
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
@@ -898,32 +710,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-3</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>-3</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>-3</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>-3</amount>
-      </li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Animals</li>
-      <li>Mining</li>
-      <li>PlantWork</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Start</li>
       <li>Paniel_Story_MaidA</li>
@@ -941,32 +743,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Cooking</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-6</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>-6</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>-6</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>-6</amount>
-      </li>
+				<defName>Medicine</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Animals</li>
-      <li>Mining</li>
-      <li>PlantWork</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_MaidB</li>
     </spawnCategories>
@@ -983,32 +775,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-9</amount>
-      </li>
+				<defName>Cooking</defName>
+				<amount>9</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>9</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-9</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>-9</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>-9</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>-9</amount>
-      </li>
+				<defName>Medicine</defName>
+				<amount>9</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Animals</li>
-      <li>Mining</li>
-      <li>PlantWork</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_HousemaidA</li>
     </spawnCategories>
@@ -1025,32 +807,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-12</amount>
-      </li>
+				<defName>Cooking</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>12</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-12</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>-12</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>-12</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>-12</amount>
-      </li>
+				<defName>Medicine</defName>
+				<amount>12</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Animals</li>
-      <li>Mining</li>
-      <li>PlantWork</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_HousemaidB</li>
     </spawnCategories>
@@ -1067,32 +839,22 @@
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>-15</amount>
-      </li>
+				<defName>Cooking</defName>
+				<amount>15</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>15</amount>
+			</li>
       <li>
-        <defName>Melee</defName>
-        <amount>-15</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
-        <amount>-15</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>-15</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>-15</amount>
-      </li>
+				<defName>Medicine</defName>
+				<amount>15</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>5</amount>
+			</li>
     </skillGains>
-    <workDisables>
-      <li>Artistic</li>
-      <li>Animals</li>
-      <li>Mining</li>
-      <li>PlantWork</li>
-    </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Ladysmaid</li>
     </spawnCategories>
