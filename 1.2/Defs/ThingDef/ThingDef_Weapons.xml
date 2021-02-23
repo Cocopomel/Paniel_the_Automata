@@ -510,7 +510,7 @@
         <defaultProjectile>PN_Bullet_HE</defaultProjectile>
         <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
-        <minRange>11.9</minRange>
+        <minRange>4.9</minRange>
         <range>49.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -531,7 +531,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
         <warmupTime>4.5</warmupTime>
-        <minRange>11.9</minRange>
+        <minRange>4.9</minRange>
         <range>49.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -586,7 +586,7 @@
       <damageDef>PN_Bomb_Cannon</damageDef>
       <!-- damage amount is the damage def default -->
       <speed>100</speed>
-      <explosionRadius>2.5</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
 
