@@ -638,6 +638,7 @@
     <defName>PN_RoyalRifle</defName>
     <label>automaton royal rifle</label>
     <description>...</description>
+    <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -650,6 +651,7 @@
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
@@ -672,7 +674,7 @@
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>25.9</range>
-        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <burstShotCount>2</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -680,7 +682,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>PN_Rifle</li>
+      <li>PN_RoyalRifle</li>
     </weaponTags>
     <tools>
       <li>
