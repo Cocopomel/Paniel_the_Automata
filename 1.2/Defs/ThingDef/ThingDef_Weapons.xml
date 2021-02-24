@@ -632,6 +632,93 @@
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
+  <!--==================================== 로열 트윈 피스톨 ====================================-->
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_TwinPistol</defName>
+    <label>automaton twin pistol</label>
+    <description>...</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNTwinpistol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.6</Mass>
+      <AccuracyTouch>0.15</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>25.9</range>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>12</burstShotCount>
+        <soundCast>Shot_Autopistol</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_TwinPistol</defName>
+    <label>automaton rifle bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
 
   <!--==================================== 로열 라이플 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
