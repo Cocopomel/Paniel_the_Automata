@@ -129,7 +129,7 @@
     <stages>
       <li>
         <label>colleague destroyed</label>
-        <description>My colleague was destroyed. Did she do her duty?</description>
+        <description>My colleague was destroyed. Did she fulfill her duties?</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
     </stages>
@@ -179,7 +179,7 @@
     <stages>
       <li>
         <label>witnessed ally automaton's destroyed</label>
-        <description>I saw one of our colleague destroyed. Did she do her duty?</description>
+        <description>I saw one of our colleague destroyed. Did she fulfill her duties?</description>
         <baseMoodEffect>0</baseMoodEffect>
       </li>
     </stages>
