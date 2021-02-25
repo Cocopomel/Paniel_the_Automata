@@ -422,6 +422,7 @@
       </hairSettings>
       <thoughtSettings>
         <replacerList>
+          <!--연료-->
           <li>
             <original>PN_Ateplusfuel_nopn</original>
             <replacer>PN_Ateplusfuel_yespn</replacer>
@@ -429,6 +430,35 @@
           <li>
             <original>PN_Atepremiumfuel_nopn</original>
             <replacer>PN_Atepremiumfuel_yespn</replacer>
+          </li>
+          <!--오토마톤사망실종-->
+          <li>
+            <original>PN_KnowColonyAutomatonDied</original>
+            <replacer>PN_KnowColonyAutomatonDiedforPN</replacer>
+          </li>
+          <li>
+            <original>PN_AutomatonWithGoodOpinionDied</original>
+            <replacer>PN_AutomatonWithGoodOpinionDiedforPN</replacer>
+          </li>
+          <li>
+            <original>PN_AutomatonWithBadOpinionDied</original>
+            <replacer>PN_AutomatonWithBadOpinionDiedforPN</replacer>
+          </li>
+          <li>
+            <original>PN_ColonyAutomatonLost</original>
+            <replacer>PN_ColonyAutomatonLostforPN</replacer>
+          </li>
+          <li>
+            <original>PN_AutomatonWithGoodOpinionLost</original>
+            <replacer>PN_AutomatonWithGoodOpinionLostforPN</replacer>
+          </li>
+          <li>
+            <original>PN_AutomatonWithBadOpinionLost</original>
+            <replacer>PN_AutomatonWithBadOpinionLostforPN</replacer>
+          </li>
+          <li>
+            <original>PN_WitnessedDestroyedAlly</original>
+            <replacer>PN_WitnessedDestroyedAllyforPN</replacer>
           </li>
         </replacerList>
         <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
@@ -441,6 +471,10 @@
           <li>BrawlerUnhappy</li>
           <li>PyromaniacHappy</li>
           <li>MoodOffsetTorturedArtist</li>
+          <li>NeedFood</li>
+          <li>NeedJoy</li>
+          <li>NeedRest</li>
+          <li>AnestheticHigh</li>
           <!--정착민 관련-->
           <li>KnowColonistExecuted</li>
           <li>KnowColonistDied</li>
@@ -506,9 +540,16 @@
           <li>Affair</li>
           <li>OpinionOfMyLover</li>
           <li>WantToSleepWithSpouseOrLover</li>
-          <!--연료-->
+          <!--오토마톤관련-->
           <li>PN_Ateplusfuel_yespn</li>
           <li>PN_Atepremiumfuel_yespn</li>
+          <li>PN_KnowColonyAutomatonDiedforPN</li>
+          <li>PN_AutomatonWithGoodOpinionDiedforPN</li>
+          <li>PN_AutomatonWithBadOpinionDiedforPN</li>
+          <li>PN_ColonyAutomatonLostforPN</li>
+          <li>PN_AutomatonWithGoodOpinionLostforPN</li>
+          <li>PN_AutomatonWithBadOpinionLostforPN</li>
+          <li>PN_WitnessedDestroyedAllyforPN</li>
         </canStillReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
@@ -546,7 +587,7 @@
       <!--스펙설정(일반)-->
       <MarketValue>2000</MarketValue>
       <Mass>70</Mass>
-      <MoveSpeed>4.8</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <Flammability>1.0</Flammability>
       <RoyalFavorValue>0</RoyalFavorValue>
       <ComfyTemperatureMax>24</ComfyTemperatureMax>
@@ -555,28 +596,31 @@
       <HungerRateMultiplier>0.2</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
       <ImmunityGainSpeed>0</ImmunityGainSpeed>
-      <CarryingCapacity>150</CarryingCapacity>
+      <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.99</PainShockThreshold>
-      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <ToxicSensitivity>0.4</ToxicSensitivity>
       <PsychicSensitivity>0</PsychicSensitivity>
       <GlobalLearningFactor>0</GlobalLearningFactor>
       <MeatAmount>0</MeatAmount>
       <LeatherAmount>0</LeatherAmount>
       <!-- 전투 -->
-      <MeleeDodgeChance>1.1</MeleeDodgeChance>
-      <MeleeHitChance>1.1</MeleeHitChance>
-      <AimingDelayFactor>1</AimingDelayFactor>
-      <NegotiationAbility>0.5</NegotiationAbility>
+      <MeleeDodgeChance>1.0</MeleeDodgeChance>
+      <MeleeHitChance>1.0</MeleeHitChance>
+      <AimingDelayFactor>1.0</AimingDelayFactor>
+      <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+      <!-- 사교 -->
+      <NegotiationAbility>1.0</NegotiationAbility>
+      <SellPriceFactor>0.8</SellPriceFactor>
       <SocialImpact>1.0</SocialImpact>
       <MentalBreakThreshold>0.30</MentalBreakThreshold>
       <!-- 작업 -->
-      <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
-      <MedicalTendSpeed>1.1</MedicalTendSpeed>
-      <MedicalTendQuality>1.1</MedicalTendQuality>
-      <MedicalOperationSpeed>1.1</MedicalOperationSpeed>
-      <MedicalSurgerySuccessChance>1.1</MedicalSurgerySuccessChance>
+      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
+      <MedicalTendSpeed>1.0</MedicalTendSpeed>
+      <MedicalTendQuality>1.0</MedicalTendQuality>
+      <MedicalOperationSpeed>1.0</MedicalOperationSpeed>
+      <MedicalSurgerySuccessChance>1.0</MedicalSurgerySuccessChance>
       <!-- 테크 -->
-      <ConstructionSpeed>1.1</ConstructionSpeed>
+      <ConstructionSpeed>1.0</ConstructionSpeed>
       <ResearchSpeed>0.2</ResearchSpeed>
     </statBases>
     <!--맨손 전투-->
@@ -586,14 +630,14 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>10.25</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -603,14 +647,14 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>10.25</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -620,19 +664,22 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>7.0</power>
+        <power>10.25</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.1</chanceFactor>
+        <chanceFactor>0.07</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>6.25</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>

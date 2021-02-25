@@ -38,7 +38,7 @@
       <Mass>1</Mass>
     </statBases>
     <tradeTags>
-      <li>PN_BodyPartsNormal</li>
+      <li>PN_BodyParts</li>
     </tradeTags>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
@@ -56,6 +56,9 @@
       <drawSize>0.80</drawSize>
       <color>(154,124,104)</color>
     </graphicData>
+    <tradeTags>
+      <li>PN_BodyPartsNormal</li>
+    </tradeTags>
     <statBases>
       <WorkToMake>15000</WorkToMake>
     </statBases>

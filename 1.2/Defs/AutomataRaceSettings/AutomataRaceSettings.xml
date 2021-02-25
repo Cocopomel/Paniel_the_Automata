@@ -16,6 +16,7 @@
     <deadThoughtOverrides>
       <li>
         <source>KnowColonistDied</source>
+        <overwrite>PN_KnowColonyAutomatonDied</overwrite>
       </li>
       <li>
         <source>PawnWithGoodOpinionDied</source>
@@ -27,12 +28,22 @@
       </li>
       <li>
         <source>ColonistLost</source>
+        <overwrite>PN_ColonyAutomatonLost</overwrite>
       </li>
       <li>
         <source>PawnWithGoodOpinionLost</source>
+        <overwrite>PN_AutomatonWithGoodOpinionLost</overwrite>
       </li>
       <li>
         <source>PawnWithBadOpinionLost</source>
+        <overwrite>PN_AutomatonWithBadOpinionLost</overwrite>
+      </li>
+      <li>
+        <source>WitnessedDeathAlly</source>
+        <overwrite>PN_WitnessedDestroyedAlly</overwrite>
+      </li>
+      <li>
+        <source>WitnessedDeathNonAlly</source>
       </li>
     </deadThoughtOverrides>
   </AutomataRace.AutomataRaceSettings>
