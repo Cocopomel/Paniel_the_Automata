@@ -69,9 +69,6 @@
             <defName>DrugDesire</defName>
           </li>
           <li>
-            <defName>NaturalMood</defName>
-          </li>
-          <li>
             <defName>Cannibal</defName>
           </li>
           <li>
@@ -461,96 +458,120 @@
             <replacer>PN_WitnessedDestroyedAllyforPN</replacer>
           </li>
         </replacerList>
-        <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
-        <canStillReceiveThoughts>
-          <!--<li></li>-->
-          <li>PsychicDrone</li>
-          <li>PsychicEmanatorSoothe</li>
-          <li>Aurora</li>
-          <li>Catharsis</li>
-          <li>BrawlerUnhappy</li>
-          <li>PyromaniacHappy</li>
-          <li>MoodOffsetTorturedArtist</li>
-          <li>NeedFood</li>
-          <li>NeedJoy</li>
-          <li>NeedRest</li>
-          <li>AnestheticHigh</li>
-          <!--정착민 관련-->
-          <li>KnowColonistExecuted</li>
-          <li>KnowColonistDied</li>
-          <li>PawnWithGoodOpinionDied</li>
-          <li>PawnWithBadOpinionDied</li>
-          <li>ColonistLost</li>
-          <li>PawnWithGoodOpinionLost</li>
-          <li>PawnWithBadOpinionLost</li>
-          <li>KnowColonistOrganHarvested</li>
-          <li>KnowBuriedInSarcophagus</li>
-          <li>ColonistBanished</li>
-          <li>ColonistBanishedToDie</li>
-          <li>FailedToRescueRelative</li>
-          <li>RescuedRelative</li>
-          <li>Rescued</li>
-          <li>OnDuty</li>
-          <li>SoldMyLovedOne</li>
-          <li>KilledColonist</li>
-          <li>ColonistLeftUnburied</li>
-          <!--상황-->
-          <li>GotMarried</li>
-          <li>AttendedWedding</li>
-          <li>AttendedParty</li>
-          <li>TerribleSpeech</li>
-          <li>UninspiringSpeech</li>
-          <li>EncouragingSpeech</li>
-          <li>InspirationalSpeech</li>
-          <!--대화/의견/관계-->
-          <li>Chitchat</li>
-          <li>DeepTalk</li>
-          <li>Slighted</li>
-          <li>Insulted</li>
-          <li>KindWords</li>
-          <li>KindWordsMood</li>
-          <li>RapportBuilt</li>
-          <li>HadAngeringFight</li>
-          <li>HadCatharticFight</li>
-          <li>HarmedMe</li>
-          <li>RescuedMe</li>
-          <li>RescuedMeByOfferingHelp</li>
-          <li>RecruitedMe</li>
-          <li>KilledMyFriend</li>
-          <li>KilledMyRival</li>
-          <li>KilledMyLover</li>
-          <li>KilledMyFiance</li>
-          <li>KilledMySpouse</li>
-          <!--로맨스-->
-          <li>RebuffedMyRomanceAttempt</li>
-          <li>RebuffedMyRomanceAttemptMood</li>
-          <li>FailedRomanceAttemptOnMe</li>
-          <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
-          <li>BrokeUpWithMe</li>
-          <li>BrokeUpWithMeMood</li>
-          <li>CheatedOnMe</li>
-          <li>CheatedOnMeMood</li>
-          <li>DivorcedMe</li>
-          <li>DivorcedMeMood</li>
-          <li>RejectedMyProposal</li>
-          <li>RejectedMyProposalMood</li>
-          <li>IRejectedTheirProposal</li>
-          <li>HoneymoonPhase</li>
-          <li>GotSomeLovin</li>
-          <li>Affair</li>
-          <li>OpinionOfMyLover</li>
-          <li>WantToSleepWithSpouseOrLover</li>
-          <!--오토마톤관련-->
-          <li>PN_Ateplusfuel_yespn</li>
-          <li>PN_Atepremiumfuel_yespn</li>
-          <li>PN_KnowColonyAutomatonDiedforPN</li>
-          <li>PN_AutomatonWithGoodOpinionDiedforPN</li>
-          <li>PN_AutomatonWithBadOpinionDiedforPN</li>
-          <li>PN_ColonyAutomatonLostforPN</li>
-          <li>PN_AutomatonWithGoodOpinionLostforPN</li>
-          <li>PN_AutomatonWithBadOpinionLostforPN</li>
-          <li>PN_WitnessedDestroyedAllyforPN</li>
-        </canStillReceiveThoughts>
+        <cannotReceiveThoughts>
+        <!--<li></li>-->
+        <!--memory death-->
+        <li>KnowGuestExecuted</li>
+        <li>KnowPrisonerDiedInnocent</li>
+        <li>BondedAnimalDied</li>
+        <!--memory eating-->
+        <li>AteLavishMeal</li>
+        <li>AteFineMeal</li>
+        <li>AteAwfulMeal</li>
+        <li>AteRawFood</li>
+        <li>AteHumanlikeMeatDirect</li>
+        <li>AteHumanlikeMeatDirectCannibal</li>
+        <li>AteHumanlikeMeatAsIngredient</li>
+        <li>AteHumanlikeMeatAsIngredientCannibal</li>
+        <li>AteInsectMeatDirect</li>
+        <li>AteInsectMeatAsIngredient</li>
+        <!--memory lost-->
+        <li>BondedAnimalLost</li>
+        <!--memory misc-->
+        <li>AteWithoutTable</li>
+        <li>SleepDisturbed</li>
+        <li>SleptOutside</li>
+        <li>SleptOnGround</li>
+        <li>SleptInCold</li>
+        <li>SleptInHeat</li>
+        <li>KnowPrisonerSold</li>
+        <li>FreedFromSlavery</li>
+        <li>ReleasedHealthyPrisoner</li>
+        <li>KnowGuestOrganHarvested</li>
+        <li>MyOrganHarvested</li>
+        <li>Nuzzled</li>
+        <li>SoakingWet</li>
+        <li>ButcheredHumanlikeCorpse</li>
+        <li>KnowButcheredHumanlikeCorpse</li>
+        <li>ObservedLayingCorpse</li>
+        <li>ObservedLayingRottingCorpse</li>
+        <li>WitnessedDeathNonAlly</li>
+        <li>ColonistBanished</li>
+        <li>ColonistBanishedToDie</li>
+        <li>BondedAnimalBanished</li>
+        <!--memory roomstat-->
+        <li>SleptInBedroom</li>
+        <li>SleptInBarracks</li>
+        <!--memory social-->
+        <li>SoldMyBondedAnimal</li>
+        <li>SoldMyBondedAnimalMood</li>
+        <li>ForcedMeToTakeDrugs</li>
+        <li>ForcedMeToTakeLuciferium</li>
+        <li>KilledMyBondedAnimal</li>
+        <!--situation general-->
+        <li>EnvironmentDark</li>
+        <li>ApparelDamaged</li>
+        <li>WrongApparelGender</li>
+        <li>DeadMansApparel</li>
+        <li>HumanLeatherApparelSad</li>
+        <li>HumanLeatherApparelHappy</li>
+        <!--situation need-->
+        <li>NeedComfort</li>
+        <li>NeedBeauty</li>
+        <li>NeedRoomSize</li>
+        <li>NeedOutdoors</li>
+        <li>DrugDesireFascination</li>
+        <li>DrugDesireFascinationSatisfied</li>
+        <li>DrugDesireInterest</li>
+        <li>DrugDesireInterestSatisfied</li>
+        <!--situation roomstat-->
+        <li>PrisonCell</li>
+        <li>PrisonBarracks</li>
+        <!--situation social-->
+        <li>Affair</li>
+        <li>Incestuous</li>
+        <li>Disfigured</li>
+        <li>HardWorkerVsLazy</li>
+        <li>TeetotalerVsChemicalInterest</li>
+        <li>TeetotalerVsAddict</li>
+        <li>ChemicalInterestVsTeetotaler</li>
+        <li>HoldingMePrisoner</li>
+        <li>Drunk</li>
+        <li>Pretty</li>
+        <li>Ugly</li>
+        <li>AnnoyingVoice</li>
+        <li>CreepyBreathing</li>
+        <li>Man</li>
+        <li>Woman</li>
+        <li>TranshumanistAppreciation</li>
+        <li>BodyPuristDisgust</li>
+        <li>ButcheredHumanlikeCorpseOpinion</li>
+        <li>AteRawHumanlikeMeat</li>
+        <li>KilledColonyAnimal</li>
+        <li>BondedAnimalMaster</li>
+        <li>NotBondedAnimalMaster</li>
+        <!--situation special-->
+        <li>SharedBed</li>
+        <li>Naked</li>
+        <li>Pain</li>
+        <li>Joywire</li>
+        <li>DoingPassionateWork</li>
+        <!--situation trait-->
+        <li>MasochistPain</li>
+        <li>ProsthophileNoProsthetic</li>
+        <li>ProsthophileHappy</li>
+        <li>ProsthophobeUnhappy</li>
+        <li>ClothedNudist</li>
+        <li>HappyNude</li>
+        <li>UndergrounderIndoors</li>
+        <li>UndergrounderUnderground</li>
+        <li>UndergrounderOutdoors</li>
+        <li>NightOwlDuringTheDay</li>
+        <li>NightOwlDuringTheNight</li>
+        <li>Greedy</li>
+        <li>Jealous</li>
+        <li>Ascetic</li>
+        </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
