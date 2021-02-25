@@ -4,14 +4,13 @@
     <defName>PanielBasicHediffSet</defName>
     <hediffGivers>
       <li Class="HediffGiver_Bleeding">
-        <hediff>BloodLoss</hediff>
+        <hediff>PN_OilLoss</hediff>
       </li>
       <li Class="HediffGiver_Hypothermia">
-        <hediff>Hypothermia</hediff>
-        <hediffInsectoid>HypothermicSlowdown</hediffInsectoid>
+        <hediff>PN_OverCooling</hediff>
       </li>
       <li Class="HediffGiver_Heat">
-        <hediff>Heatstroke</hediff>
+        <hediff>PN_Overheating</hediff>
       </li>
       <li Class="YORHG.YourOwnRace_HediffGiver">
         <hediff>PanielBaseHediff</hediff>

@@ -204,7 +204,6 @@
           <li>Scaria</li>
           <li>FoodPoisoning</li>
           <li>ResurrectionSickness</li>
-          <li>Anesthetic</li>
         </hediffToNullify>
         <showMessage>true</showMessage>
         <nullifyKey>PN_HediffNullifier</nullifyKey>
@@ -215,5 +214,174 @@
         <race>Paniel_Race</race>
       </li>
     </modExtensions>
+  </HediffDef>
+
+  <!--==================================== 오토마톤 출혈 ====================================-->
+  <HediffDef>
+    <defName>PN_OilLoss</defName>
+    <label>oil loss</label>
+    <description>...</description>
+    <lethalSeverity>1</lethalSeverity>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.15</minSeverity>
+        <label>minor</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.30</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.45</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.60</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.7</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--==================================== 오토마톤 과열 ====================================-->
+  <HediffDef>
+    <defName>PN_Overheating</defName>
+    <label>overheating</label>
+    <description>...</description>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <lethalSeverity>1</lethalSeverity>
+    <taleOnVisible>HeatstrokeRevealed</taleOnVisible>
+    <stages>
+      <li>
+        <label>initial</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.04</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.35</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.62</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.6</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--==================================== 오토마톤 과열 ====================================-->
+  <HediffDef>
+    <defName>PN_OverCooling</defName>
+    <label>overcooling</label>
+    <description>...</description>
+    <defaultLabelColor>(0.8, 0.8, 1)</defaultLabelColor>
+    <lethalSeverity>1</lethalSeverity>
+    <taleOnVisible>HypothermiaRevealed</taleOnVisible>
+    <stages>
+      <li>
+        <label>initial</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.04</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.35</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.62</minSeverity>
+        <lifeThreatening>true</lifeThreatening>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.6</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
 </Defs>

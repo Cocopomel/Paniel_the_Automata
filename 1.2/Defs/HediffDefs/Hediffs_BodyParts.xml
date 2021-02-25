@@ -117,21 +117,6 @@
     <recipeUsers>
       <li>Paniel_Race</li>
     </recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_RepairKit</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
-    </fixedIngredientFilter>
   </RecipeDef>
 
   <RecipeDef Name="PN_SurgeryInstallBodyPartArtificialBase" ParentName="PN_SurgeryInstallImplantBase" Abstract="True">
@@ -148,21 +133,6 @@
     <recipeUsers>
       <li>Paniel_Race</li>
     </recipeUsers>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_RepairKit</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
-    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--==================================== 부활 모듈 ====================================-->

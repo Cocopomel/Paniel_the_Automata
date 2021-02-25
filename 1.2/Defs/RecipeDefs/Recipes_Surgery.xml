@@ -6,6 +6,32 @@
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
     <workSkill>Medicine</workSkill>
     <workSkillLearnFactor>16</workSkillLearnFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_RepairKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PN_RepairKit</li>
+      </thingDefs>
+       <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -21,21 +47,6 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_RepairKit</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
-    </fixedIngredientFilter>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -51,21 +62,6 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_RepairKit</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
-    </fixedIngredientFilter>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -81,20 +77,5 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_RepairKit</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
-    </fixedIngredientFilter>
   </RecipeDef>
 </Defs>
