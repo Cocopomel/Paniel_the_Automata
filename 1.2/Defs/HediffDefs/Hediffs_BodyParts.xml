@@ -151,17 +151,17 @@
     <ingredients>
       <li>
         <filter>
-          <categories>
+          <thingDefs>
             <li>PN_RepairKit</li>
-          </categories>
+          </thingDefs>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <categories>
+      <thingDefs>
         <li>PN_RepairKit</li>
-      </categories>
+      </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -196,7 +196,7 @@
     </statBases>
   </ThingDef>
 
-  <RecipeDef ParentName="SurgeryInstallImplantBase">
+  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallResurrectModule</defName>
     <label>install resurrect module</label>
     <description>Install a resurrect module.</description>
@@ -226,7 +226,7 @@
     <addsHediff>PN_ResurrectModule</addsHediff>
   </RecipeDef>
 
-  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+  <RecipeDef ParentName="PN_SurgeryRemoveImplantBase">
     <defName>PN_RemoveResurrectModule</defName>
     <label>remove resurrect module</label>
     <description>Remove the resurrect module.</description>
@@ -239,17 +239,4 @@
   </RecipeDef>
 
   <!--==================================== 패닝 모듈 ====================================-->
-  <HediffDef ParentName="PN_ImplantHediffBase">
-    <defName>PN_FanningModule</defName>
-    <label>fanning module</label>
-    <labelNoun>a fanning module</labelNoun>
-    <description>An installed fanning module.</description>
-    <!--<descriptionHyperlinks>
-      <ThingDef>PN_ResurrectModule</ThingDef>
-    </descriptionHyperlinks>-->
-    <stages>
-
-    </stages>
-    <!--<spawnThingOnRemoved>PN_ResurrectModule</spawnThingOnRemoved>-->
-  </HediffDef>
 </Defs>

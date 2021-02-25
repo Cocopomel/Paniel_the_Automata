@@ -700,8 +700,6 @@
       <li>PN_Disassemble</li>
       <li>PN_Repair</li>
       <li>PN_Maintenance</li>
-      <li>PN_InstallResurrectModule</li>
-      <li>PN_RemoveResurrectModule</li>
     </recipes>
     <comps>
       <li Class="ZeroAge.CompProperties_ZeroAge"></li>

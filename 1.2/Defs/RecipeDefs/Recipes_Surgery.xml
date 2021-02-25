@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <RecipeDef Name="PN_Surgery" Abstract="True">
-    <effectWorking>Surgery</effectWorking>
+    <effectWorking>Repair</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
     <workSkill>Medicine</workSkill>
