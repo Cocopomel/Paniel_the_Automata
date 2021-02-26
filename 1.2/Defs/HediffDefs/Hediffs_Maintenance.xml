@@ -22,6 +22,7 @@
         </capMods>
         <statOffsets>
           <PsychicSensitivity>1.2</PsychicSensitivity>
+          <MentalBreakThreshold>0.08</MentalBreakThreshold>
           <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
           <MoveSpeed>-0.4</MoveSpeed>
         </statOffsets>
@@ -52,7 +53,7 @@
         </capMods>
         <statOffsets>
           <PsychicSensitivity>0.80</PsychicSensitivity>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
           <MoveSpeed>-0.2</MoveSpeed>
         </statOffsets>
@@ -86,7 +87,7 @@
         </capMods>
         <statOffsets>
           <PsychicSensitivity>0.0</PsychicSensitivity>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
           <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>

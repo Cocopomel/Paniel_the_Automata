@@ -45,6 +45,15 @@
       <li>
         <source>WitnessedDeathNonAlly</source>
       </li>
+      <li>
+        <source>ColonistBanished</source>
+      </li>
+      <li>
+        <source>ColonistBanishedToDie</source>
+      </li>
+      <li>
+        <source>PrisonerBanishedToDie</source>
+      </li>
     </deadThoughtOverrides>
   </AutomataRace.AutomataRaceSettings>
 </Defs>

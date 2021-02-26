@@ -496,8 +496,6 @@
         <li>ObservedLayingCorpse</li>
         <li>ObservedLayingRottingCorpse</li>
         <li>WitnessedDeathNonAlly</li>
-        <li>ColonistBanished</li>
-        <li>ColonistBanishedToDie</li>
         <li>BondedAnimalBanished</li>
         <!--memory roomstat-->
         <li>SleptInBedroom</li>
@@ -528,7 +526,6 @@
         <li>PrisonCell</li>
         <li>PrisonBarracks</li>
         <!--situation social-->
-        <li>Affair</li>
         <li>Incestuous</li>
         <li>Disfigured</li>
         <li>HardWorkerVsLazy</li>
@@ -571,6 +568,8 @@
         <li>Greedy</li>
         <li>Jealous</li>
         <li>Ascetic</li>
+        <!--misc-->
+        <li>Expectations</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
@@ -613,8 +612,8 @@
       <RoyalFavorValue>0</RoyalFavorValue>
       <ComfyTemperatureMax>24</ComfyTemperatureMax>
       <ComfyTemperatureMin>4</ComfyTemperatureMin>
-      <RestRateMultiplier>2</RestRateMultiplier>      <!--수면효율-->
-      <HungerRateMultiplier>0.2</HungerRateMultiplier>
+      <RestRateMultiplier>1.25</RestRateMultiplier>      <!--수면효율-->
+      <HungerRateMultiplier>0.25</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
       <ImmunityGainSpeed>0</ImmunityGainSpeed>
       <CarryingCapacity>100</CarryingCapacity>
