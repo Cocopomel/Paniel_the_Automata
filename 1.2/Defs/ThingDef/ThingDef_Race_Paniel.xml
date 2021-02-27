@@ -619,7 +619,7 @@
       <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.99</PainShockThreshold>
       <ToxicSensitivity>0.4</ToxicSensitivity>
-      <PsychicSensitivity>0</PsychicSensitivity>
+      <PsychicSensitivity>0.2</PsychicSensitivity>
       <GlobalLearningFactor>0</GlobalLearningFactor>
       <MeatAmount>0</MeatAmount>
       <LeatherAmount>0</LeatherAmount>
