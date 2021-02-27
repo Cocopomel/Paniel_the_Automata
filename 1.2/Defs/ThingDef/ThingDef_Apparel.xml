@@ -15,7 +15,7 @@
   <ThingDef Abstract="True" Name="PN_ApparelBase" ParentName="ApparelMakeableBase">
     <techLevel>Industrial</techLevel>
     <apparel>
-      <tags>
+      <tags Inherit="false">
         <li>PN_Apparel</li>
       </tags>
     </apparel>
