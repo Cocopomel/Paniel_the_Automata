@@ -836,7 +836,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
@@ -847,11 +847,9 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>0.7</warmupTime>
         <range>25.9</range>
-        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
-        <soundCast>Shot_Autocannon</soundCast>
+        <soundCast>Shot_NeedleGun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -886,7 +884,7 @@
     <label>automaton rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>24</damageAmountBase>
+      <damageAmountBase>22</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.35</armorPenetrationBase>
       <speed>70</speed>
