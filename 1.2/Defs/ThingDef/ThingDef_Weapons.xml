@@ -832,26 +832,55 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.55</AccuracyTouch>
-      <AccuracyShort>0.64</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
-    <verbs>
+    <comps>
       <li>
+        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
         <range>25.9</range>
         <soundCast>Shot_NeedleGun</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <desc>...</desc>
+        <label>quick shot</label>
+        <texPath>UI/Commands/Pew</texPath>
+        <accuracyTouch>0.0</accuracyTouch>
+        <accuracyShort>0.0</accuracyShort>
+        <accuracyMedium>0.0</accuracyMedium>
+        <accuracyLong>0.0</accuracyLong>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>31.9</range>
+        <soundCast>Shot_NeedleGun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <desc>...</desc>
+        <label>accurate shot</label>
+        <texPath>UI/Commands/Snipe</texPath>
+        <accuracyTouch>0.0</accuracyTouch>
+        <accuracyShort>0.10</accuracyShort>
+        <accuracyMedium>0.25</accuracyMedium>
+        <accuracyLong>0.25</accuracyLong>
       </li>
     </verbs>
     <weaponTags>
