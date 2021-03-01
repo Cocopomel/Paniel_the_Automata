@@ -82,7 +82,6 @@
           </li>
         </capMods>
         <statOffsets>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
           <ArmorRating_Sharp>0.46</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.092</ArmorRating_Blunt>
           <ArmorRating_Heat>0.115</ArmorRating_Heat>
@@ -104,7 +103,6 @@
           </li>
         </capMods>
         <statOffsets>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
           <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.104</ArmorRating_Blunt>
           <ArmorRating_Heat>0.13</ArmorRating_Heat>
@@ -130,8 +128,6 @@
           <ArmorRating_Sharp>0.58</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.116</ArmorRating_Blunt>
           <ArmorRating_Heat>0.145</ArmorRating_Heat>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-          <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -154,12 +150,12 @@
           <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.144</ArmorRating_Blunt>
           <ArmorRating_Heat>0.18</ArmorRating_Heat>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-          <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
     </stages>
   </HediffDef>
+
+  <!--==================================== 특화형 버프 ====================================-->
 
   <!--==================================== 오토마톤 기본 ====================================-->
   <HediffDef>
