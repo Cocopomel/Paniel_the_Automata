@@ -16,7 +16,7 @@
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <backstoryCategories>
-      <li>Paniel_Story</li>
+      <li>Paniel_Story_Start</li>
     </backstoryCategories>
     <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
