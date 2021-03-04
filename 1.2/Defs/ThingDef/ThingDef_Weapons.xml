@@ -163,6 +163,7 @@
       <shaderType>Transparent</shaderType>
     </graphicData>
   </ThingDef>
+
   <!--==================================== 체인소드 ====================================-->
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainsword</defName>
@@ -221,6 +222,7 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
+
   <!--==================================== 리볼버 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Revolver</defName>
@@ -456,8 +458,8 @@
     <label>automaton rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>18</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>1.0</stoppingPower>
       <speed>70</speed>
     </projectile>
     <graphicData>
@@ -719,6 +721,86 @@
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>
+
+  <!--==================================== 체인 롱소드 ====================================-->
+  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
+    <defName>PN_Chainlongsword</defName>
+    <label>automaton chain longsword</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNSwordLong</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponTags>
+      <li>PN_Chainsword</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+			<li Class="SYS.CompProperties_WeaponExtention">
+				<littleDown>True</littleDown>
+				<northOffset>
+					<position>(0.2,0,0.25)</position>
+					<angle>-45</angle>
+				</northOffset>
+				<southOffset>
+					<position>(-0.25,0.3,0.2)</position>
+					<angle>45</angle>
+				</southOffset>
+				<eastOffset>
+					<position>(0.15,0.3,0.2)</position>
+					<angle>-45</angle>
+				</eastOffset>
+				<westOffset>
+					<position>(-0.15,-0.3,0.2)</position>
+					<angle>45</angle>
+				</westOffset>
+			</li>
+    </comps>
+  </ThingDef>
 
   <!--==================================== 로열 트윈 피스톨 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
