@@ -55,5 +55,19 @@
         <source>PrisonerBanishedToDie</source>
       </li>
     </deadThoughtOverrides>
+    <conflictingPassions>
+      <li>Shooting</li>
+      <li>Melee</li>
+      <li>Construction</li>
+      <li>Mining</li>
+      <li>Cooking</li>
+      <li>Plants</li>
+      <li>Animals</li>
+      <li>Crafting</li>
+      <li>Artistic</li>
+      <li>Medicine</li>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </conflictingPassions>
   </AutomataRace.AutomataRaceSettings>
 </Defs>
