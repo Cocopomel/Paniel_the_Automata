@@ -33,13 +33,40 @@
 
       <li Class="CompProperties_Explosive">
         <compClass>AutomataRace.CompExplosiveInstant</compClass>
-        <explosiveRadius>0.5</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+        <explosiveRadius>1.5</explosiveRadius>
+        <explosiveDamageType>PN_CorpseBomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>PN_CorpseBomb</requiredDamageTypeToExplode>
         <wickTicks>200~750</wickTicks>
       </li>
     </comps>
   </AutomataRace.ThingDefInjectDef>
+
+  <DamageDef>
+    <defName>PN_CorpseBomb</defName>
+    <label>bomb</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died in an explosion.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultStoppingPower>0.5</defaultStoppingPower>
+    <defaultArmorPenetration>0.0</defaultArmorPenetration>
+    <buildingDamageFactor>1</buildingDamageFactor>
+    <plantDamageFactor>1</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
+  </DamageDef>
 
   <!--==================================== 고어 설정 ====================================-->
   <ThingDef ParentName="BaseFilth">
