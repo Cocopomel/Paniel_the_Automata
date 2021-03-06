@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <TraitDef>
+  <!--<TraitDef>
     <defName>PN_Trait_Automaton</defName>
     <commonality>0.001</commonality>
     <allowOnHostileSpawn>false</allowOnHostileSpawn>
@@ -26,5 +26,5 @@
       <li>Social</li>
       <li>Intellectual</li>
     </conflictingPassions>
-  </TraitDef>
+  </TraitDef>-->
 </Defs>

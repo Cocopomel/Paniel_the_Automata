@@ -56,9 +56,9 @@
         </chemicalSettings>
         <!--특성 강제 부여-->
         <forcedRaceTraitEntries>
-          <li>
+          <!--<li>
             <defName>PN_Trait_Automaton</defName>
-          </li>
+          </li>-->
           <li>
             <defName>Kind</defName>
           </li>
