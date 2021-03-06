@@ -81,10 +81,10 @@
 
   <RecipeDef ParentName="SurgeryFlesh">
     <defName>PN_ExtractBrain</defName>
-    <label>extract brain</label>
-    <description>extract brain.</description>
+    <label>extract central nervous</label>
+    <description>extract central nervous.</description>
     <workerClass>AutomataRace.Recipe_RemoveBrain</workerClass>
-    <jobString>Remove Brain.</jobString>
+    <jobString>Remove central nervous.</jobString>
     <workAmount>2000</workAmount>
     <surgerySuccessChanceFactor>1.2</surgerySuccessChanceFactor>
     <ingredients>
