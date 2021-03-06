@@ -44,6 +44,13 @@
       <MarketValue>500</MarketValue>
       <Mass>1</Mass>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>240000</lifespanTicks>
+        <expireEffect>RaisedRock_Collapse</expireEffect>
+      </li>
+    </comps>
+    <tickerType>Normal</tickerType>
   </ThingDef>
 
   <!--==================================== 수리키트 ====================================-->
