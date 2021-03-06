@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--=================================== 레시피 설정 ===================================-->
+  <AutomataRace.ThingDefInjectDef>
+    <defName>Recipe_PN_RemoveBrain_Inject</defName>
+    <conditions>
+      <li Class="AutomataRace.ThingDefInject.IsHumanlike"></li>
+      <li Class="AutomataRace.ThingDefInject.IsFlesh"></li>
+      <li Class="AutomataRace.ThingDefInject.IsDefNameEqual">
+        <not>true</not>
+        <defName>Paniel_Race</defName>
+      </li>
+    </conditions>
+    <recipes>
+      <li>PN_ExtractBrain</li>
+    </recipes>
+  </AutomataRace.ThingDefInjectDef>
+
   <!--==================================== 시체 설정 ====================================-->
-  <AutomataRace.ThingDefCompInjectDef>
-    <defName>Corpse_Paniel_Race</defName>
+  <AutomataRace.ThingDefInjectDef>
+    <defName>Comp_CorpseSelfDestruct_Inject</defName>
+    <conditions>
+      <li Class="AutomataRace.ThingDefInject.IsDefNameEqual">
+        <defName>Corpse_Paniel_Race</defName>
+      </li>
+    </conditions>
     <comps>
       <li Class="AutomataRace.CompProperties_SelfResurrect">
         <resurrectDelayTick>200</resurrectDelayTick>
@@ -18,7 +39,7 @@
         <wickTicks>200~750</wickTicks>
       </li>
     </comps>
-  </AutomataRace.ThingDefCompInjectDef>
+  </AutomataRace.ThingDefInjectDef>
 
   <!--==================================== 고어 설정 ====================================-->
   <ThingDef ParentName="BaseFilth">
