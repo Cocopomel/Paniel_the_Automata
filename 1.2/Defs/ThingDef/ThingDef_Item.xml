@@ -35,37 +35,15 @@
     </stuffProps>
   </ThingDef>
 
-  <!--==================================== 생체 뇌 ====================================-->
+  <!--==================================== 생체 중추신경 ====================================-->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>PN_Brain</defName>
-    <label>brain</label>
-    <description>A biological human brain.</description>
+    <label>central nervous</label>
+    <description>A biological human central nervous.</description>
     <statBases>
       <MarketValue>500</MarketValue>
       <Mass>1</Mass>
     </statBases>
-  </ThingDef>
-
-  <!--==================================== 오토마톤 CPU ====================================-->
-  <ThingDef ParentName="BodyPartNaturalBase">
-    <defName>PNProcessedBrain</defName>
-    <label>automaton CPU</label>
-    <description>A brain processed for automaton.</description>
-    <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-      <color>(190,190,190)</color>
-    </graphicData>
-    <statBases>
-      <MarketValue>500</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-    <!--<comps>
-      <li Class="CompProperties_Lifespan">
-        <lifespanTicks>240000</lifespanTicks>
-      </li>
-    </comps>-->
   </ThingDef>
 
   <!--==================================== 수리키트 ====================================-->
