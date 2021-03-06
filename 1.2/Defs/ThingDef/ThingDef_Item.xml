@@ -126,4 +126,35 @@
       </li>
     </comps>
   </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_AdministerSelfRepairKit</defName>
+    <label>administer self repair kit</label>
+    <description>Administer a self repair kit.</description>
+    <workerClass>Recipe_AdministerUsableItem</workerClass>
+    <jobString>Administering self repair kit.</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>600</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_SelfRepairKit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PN_SelfRepairKit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <recipeUsers>
+      <li>Paniel_Race</li>
+    </recipeUsers>
+  </RecipeDef>
 </Defs>
