@@ -194,7 +194,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>PNTorso</li>
+      <li>PNCore</li>
     </appliedOnFixedBodyParts>
     <addsHediff>PN_ResurrectModule</addsHediff>
   </RecipeDef>
