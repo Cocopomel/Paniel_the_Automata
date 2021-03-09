@@ -70,4 +70,23 @@
       <li>Intellectual</li>
     </conflictingPassions>
   </AutomataRace.AutomataRaceSettings>
+
+  <defName>Paniel_race_Settings</defName>
+  <pawnKindSettings>
+    <startingColonists>
+      <li>
+        <pawnKindEntries>
+          <li>
+            <kindDefs>
+              <li>Paniel_Colonist</li>
+            </kindDefs>
+            <chance>100.0</chance>
+          </li>
+        </pawnKindEntries>
+        <factionDefs>
+          <li>Paniel_PlayerFaction</li>
+        </factionDefs>
+      </li>
+    </startingColonists>
+  </pawnKindSettings>
 </Defs>
