@@ -157,4 +157,60 @@
       <li>Paniel_Race</li>
     </recipeUsers>
   </RecipeDef>
+
+  <!--==================================== 오토마톤 뉴로링크 ====================================-->
+  <ThingDef>
+    <defName>PN_PsychicAmplifier</defName>
+    <label>automaton psylink neuroformer</label>
+    <description>A consumable archotech-created device that forms or upgrades a psylink in the user's mind.\n\nThe user presses the device over the eyes, where it links to the brain directly and restructures part of it. Afterwards, the device disintegrates into worthless ash.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PsychicAmplifier</HediffDef>
+    </descriptionHyperlinks>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <techLevel>Archotech</techLevel>
+    <useHitPoints>true</useHitPoints>
+    <pathCost>14</pathCost>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <thingCategories>
+      <li>BodyPartsArchotech</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>-4</Beauty>
+      <Mass>1</Mass>
+      <MarketValue>2600</MarketValue>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Special/PsylinkNeuroformer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeTags>
+      <li>PsylinkNeuroformer</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Use neuroformer to form psylink</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>PsychicAmplifier</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <canUpgrade>true</canUpgrade>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>PsyAmpInstalled</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
 </Defs>
