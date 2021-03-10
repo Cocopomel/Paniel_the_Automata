@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RoyalTitleDef Abstract="True" Name="PN_BaseEmpireTitle">
+    <tags>
+      <li>EmpireAutomatonTitle</li>
+    </tags>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <recruitmentDifficultyOffset>0.2</recruitmentDifficultyOffset>
+  </RoyalTitleDef>
+
+  <RoyalTitleDef ParentName="PN_BaseEmpireTitle">
+    <defName>Freeholder</defName>
+    <label>freeholder</label>
+    <description>...</description>
+    <seniority>0</seniority>
+    <favorCost>1</favorCost>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+    <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+  </RoyalTitleDef>
+</Defs>
