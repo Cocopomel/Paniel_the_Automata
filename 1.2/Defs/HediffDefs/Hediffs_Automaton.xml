@@ -173,6 +173,7 @@
         <becomeVisible>false</becomeVisible>
         <painFactor>0</painFactor>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <naturalHealingFactor>0</naturalHealingFactor>
       </li>
     </stages>
     <comps>
