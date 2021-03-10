@@ -16,6 +16,12 @@
             <li>Joyfuzz</li>
           </value>
         </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+          <value>
+            <li>Paniel_PlayerFaction</li>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>
