@@ -125,7 +125,7 @@
         </li>
         <!--머리-->
         <li>
-          <def>Neck</def>
+          <def>PNNeck</def>
           <customLabel>neck</customLabel>
           <coverage>0.075</coverage>
           <height>Top</height>
