@@ -126,6 +126,12 @@
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
   </RecipeDef>
 
+  <RecipeDef Name="PN_SurgeryInstallBodyPartProstheticBase" ParentName="PN_SurgeryInstallBodyPartArtificialBase" Abstract="True">
+    <skillRequirements>
+      <Medicine>4</Medicine>
+    </skillRequirements>
+  </RecipeDef>
+
   <RecipeDef Name="PN_SurgeryRemoveImplantBase" ParentName="PN_Surgery" Abstract="True">
     <workerClass>Recipe_RemoveImplant</workerClass>
     <workAmount>2500</workAmount>
