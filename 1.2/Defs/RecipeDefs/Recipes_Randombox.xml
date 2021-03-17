@@ -844,10 +844,18 @@
       <li>
         <filter>
           <thingDefs>
+            <li>PN_Brain</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>20</count>
       </li>
       <li>
         <filter>
@@ -855,14 +863,26 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>90</count>
+        <count>160</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Leather_Automaton</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>ComponentIndustrial</li>
-        <li>Steel</li>
-      </thingDefs>
     </fixedIngredientFilter>
     <products>
       <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
@@ -873,6 +893,47 @@
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
 
-    <billEventHandlerClass>AutomataRace.CustomizableBillEventHandler_MakeAutomata</billEventHandlerClass>
+    <billWorker Class="AutomataRace.CustomizableBillWorker_MakeAutomata">
+      <!-- configurations -->
+      <baseMaterialCount>160</baseMaterialCount>
+      <componentTotalCount>20</componentTotalCount>
+      <componentIndustrialScore>5</componentIndustrialScore>
+      <componentSpacerScore>20</componentSpacerScore>
+      <useAIPersonaCoreScore>200</useAIPersonaCoreScore>
+      <craftingSkillRequirementsMin>1</craftingSkillRequirementsMin>
+      <craftingSkillRequirementsMax>16</craftingSkillRequirementsMax>
+
+      <!-- default values -->
+      <baseMaterial>Steel</baseMaterial>
+      <componentIndustrialCount>20</componentIndustrialCount>
+      <componentSpacerCount>0</componentSpacerCount>
+      <useAIPersonaCore>false</useAIPersonaCore>
+      <fixedIngredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>PN_Brain</li>
+            </thingDefs>
+          </filter>
+          <count>1</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Leather_Automaton</li>
+            </thingDefs>
+          </filter>
+          <count>50</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Chemfuel</li>
+            </thingDefs>
+          </filter>
+          <count>20</count>
+        </li>
+      </fixedIngredients>
+    </billWorker>
   </CustomizableRecipe.CustomizableRecipeDef>
 </Defs>
