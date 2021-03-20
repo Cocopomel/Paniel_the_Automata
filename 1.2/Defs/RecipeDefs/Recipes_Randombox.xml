@@ -244,7 +244,7 @@
   </RecipeDef>-->
 
   <!--가챠로열-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_Automaton_Royal</defName>
     <label>make royal automaton</label>
     <description>...</description>
@@ -343,10 +343,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠전투일반-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NormalAutomaton_Soldier</defName>
     <label>make automaton soldier</label>
     <description>...</description>
@@ -419,10 +419,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠전투고급-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NobleAutomaton_Soldier</defName>
     <label>make noble automaton soldier</label>
     <description>...</description>
@@ -503,10 +503,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠제작일반-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NormalAutomaton_Worker</defName>
     <label>make automaton worker</label>
     <description>...</description>
@@ -579,10 +579,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠제작고급-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NobleAutomaton_Worker</defName>
     <label>make noble automaton worker</label>
     <description>...</description>
@@ -663,10 +663,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠가정일반-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NormalAutomaton_Maid</defName>
     <label>make automaton maid</label>
     <description>...</description>
@@ -739,10 +739,10 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--가챠가정고급-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_NobleAutomaton_Maid</defName>
     <label>make noble automaton maid</label>
     <description>...</description>
@@ -823,9 +823,8 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
   
-  <!--가챠가정일반-->
   <CustomizableRecipe.CustomizableRecipeDef>
     <defName>PN_Make_NormalAutomaton_Test</defName>
     <label>make automaton test</label>
