@@ -884,7 +884,7 @@
     <fixedIngredientFilter>
     </fixedIngredientFilter>
     <products>
-      <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
+      <Packaged_NormalAutomaton>1</Packaged_NormalAutomaton>
     </products>
     <skillRequirements>
       <Crafting>1</Crafting>
