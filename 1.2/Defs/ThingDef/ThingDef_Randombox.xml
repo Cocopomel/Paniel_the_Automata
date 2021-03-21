@@ -62,26 +62,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
+      <li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
         <useLabel>Unpackage</useLabel>
       </li>
-      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
-        <samples>
-          <li>
-            <weight>60</weight>
-            <pawnKindDefName>Paniel_Randombox_Normal</pawnKindDefName>
-          </li>
-          <li>
-            <weight>39</weight>
-            <pawnKindDefName>Paniel_Randombox_Good</pawnKindDefName>
-          </li>
-          <li>
-            <weight>1</weight>
-            <pawnKindDefName>Paniel_Randombox_Excellent</pawnKindDefName>
-          </li>
-        </samples>
-      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGenerateAutomata"></li>
       <li Class="CompProperties_UseEffect">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>

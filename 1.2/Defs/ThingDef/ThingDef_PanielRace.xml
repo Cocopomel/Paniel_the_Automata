@@ -642,6 +642,9 @@
       <!-- 테크 -->
       <ConstructionSpeed>1.0</ConstructionSpeed>
       <ResearchSpeed>0.2</ResearchSpeed>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
     </statBases>
     <!--맨손 전투-->
     <tools>
@@ -770,6 +773,7 @@
       <li>PN_Maintenance</li>
     </recipes>
     <comps>
+      <li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
       <li Class="ZeroAge.CompProperties_ZeroAge"></li>
     </comps>
     <modExtensions>
