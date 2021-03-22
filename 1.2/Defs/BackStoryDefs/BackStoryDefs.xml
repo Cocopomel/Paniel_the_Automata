@@ -294,7 +294,7 @@
 
   <!--==================================== 꽝 ====================================-->
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
-    <defName>Paniel_Failure_Backstory</defName>
+    <defName>Paniel_FailureA_Backstory</defName>
     <title>Automaton Failure</title>
     <titleShort>Failure</titleShort>
     <baseDescription>backstory</baseDescription>
@@ -307,6 +307,29 @@
       <li>Intellectual</li>
       <li>Animals</li>
       <li>Violent</li>
+      <li>Cleaning</li>
+      <li>Firefighting</li>
+      <li>Hauling</li>
+      <li>ManualDumb</li>
+    </workDisables>
+    <spawnCategories>
+      <li>Paniel_Story_Failure</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
+    <defName>Paniel_FailureB_Backstory</defName>
+    <title>Automaton Failure</title>
+    <titleShort>Failure</titleShort>
+    <baseDescription>backstory</baseDescription>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualSkilled</li>
+      <li>Caring</li>
+      <li>Artistic</li>
+      <li>Social</li>
+      <li>Intellectual</li>
+      <li>Animals</li>
     </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Failure</li>
