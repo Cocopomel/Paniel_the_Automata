@@ -826,8 +826,8 @@
   </RecipeDef>-->
   
   <CustomizableRecipe.CustomizableRecipeDef>
-    <defName>PN_Make_NormalAutomaton_Test</defName>
-    <label>make automaton test</label>
+    <defName>PN_Make_Automaton</defName>
+    <label>make automaton</label>
     <description>...</description>
     <jobString>Making automaton.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

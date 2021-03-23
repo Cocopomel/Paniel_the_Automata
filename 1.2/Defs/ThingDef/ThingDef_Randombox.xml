@@ -62,6 +62,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
+      <li><compClass>CompQuality</compClass></li>
       <li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
