@@ -774,7 +774,6 @@
     </recipes>
     <comps>
       <li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
-      <li Class="ZeroAge.CompProperties_ZeroAge"></li>
     </comps>
     <modExtensions>
     </modExtensions>

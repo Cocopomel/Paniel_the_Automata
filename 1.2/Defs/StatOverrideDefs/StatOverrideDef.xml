@@ -13,6 +13,7 @@
     <thingDef>Paniel_Race</thingDef>
     <statDef>MarketValue</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_MarketValue_Automaton">
+      <multiplier>0.5</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 
