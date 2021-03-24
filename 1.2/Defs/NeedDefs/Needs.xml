@@ -6,6 +6,7 @@
 		<label>Automaton Fuel</label>
 		<description>...</description>
 		<listPriority>985</listPriority>
+    <baseLevel>1.0</baseLevel>
 		<fallPerDay>0.25</fallPerDay>
 		<freezeWhileSleeping>true</freezeWhileSleeping>
 		<showForCaravanMembers>true</showForCaravanMembers>
@@ -18,6 +19,7 @@
       <description>...</description>
       <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
       <listPriority>984</listPriority>
+      <baseLevel>1.0</baseLevel>
       <fallPerDay>0.0166</fallPerDay>
       <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>
