@@ -862,7 +862,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>160</count>
+        <count>150</count>
       </li>
       <li>
         <filter>
@@ -894,7 +894,7 @@
 
     <billWorker Class="AutomataRace.CustomizableBillWorker_MakeAutomata">
       <!-- configurations -->
-      <baseMaterialCount>160</baseMaterialCount>
+      <baseMaterialCount>150</baseMaterialCount>
       <componentTotalCount>20</componentTotalCount>
       <componentIndustrialScore>5</componentIndustrialScore>
       <componentSpacerScore>20</componentSpacerScore>
