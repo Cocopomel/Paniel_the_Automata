@@ -41,6 +41,12 @@
 
         <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
+					<thingDef>AIPersonaCore</thingDef>
+					<count>10</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
 					<thingDef>Plasteel</thingDef>
 					<count>750</count>
 				</li>
