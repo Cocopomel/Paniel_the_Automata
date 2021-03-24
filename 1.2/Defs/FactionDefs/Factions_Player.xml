@@ -11,7 +11,7 @@
     <label>Left Automata</label>
     <description>...</description>
     <isPlayer>true</isPlayer>
-    <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>
+    <basicMemberKind>Paniel_testColonistPawn</basicMemberKind> <!--테스트용-->
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
