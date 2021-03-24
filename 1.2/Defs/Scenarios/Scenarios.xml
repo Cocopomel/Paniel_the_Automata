@@ -32,6 +32,60 @@
           <closeSound>GameStartSting</closeSound>
         </li>
 
+        <!-- test item -->
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_Brain</thingDef>
+					<count>10</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Plasteel</thingDef>
+					<count>750</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>750</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Leather_Automaton</thingDef>
+					<count>200</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Chemfuel</thingDef>
+					<count>200</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>200</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentSpacer</thingDef>
+					<count>200</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>30</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_AutomatonFuel</thingDef>
+					<count>30</count>
+				</li>
       </parts>
     </scenario>
   </ScenarioDef>
