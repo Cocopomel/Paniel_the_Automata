@@ -3,6 +3,7 @@
   <AutomataRace.AutomataSpecializationDef>
     <defName>PN_Specialization_Combat</defName>
     <uiIconPath>UI/Icons/Combat</uiIconPath>
+    <tooltip>specialized combat.</tooltip>
     <recipeDefLabel>make combat automaton</recipeDefLabel>
     <packagedDefLabel>packaged combat automaton</packagedDefLabel>
   </AutomataRace.AutomataSpecializationDef>
@@ -10,12 +11,14 @@
   <AutomataRace.AutomataSpecializationDef>
     <defName>PN_Specialization_Engineer</defName>
     <uiIconPath>UI/Icons/Engineer</uiIconPath>
+    <tooltip>specialized engineering.</tooltip>
     <recipeDefLabel>make engineer automaton</recipeDefLabel>
     <packagedDefLabel>packaged engineer automaton</packagedDefLabel>
   </AutomataRace.AutomataSpecializationDef>
   
   <AutomataRace.AutomataSpecializationDef>
     <defName>PN_Specialization_Domestic</defName>
+    <tooltip>specialized housework.</tooltip>
     <uiIconPath>UI/Icons/Domestic</uiIconPath>
     <recipeDefLabel>make domestic automaton</recipeDefLabel>
     <packagedDefLabel>packaged domestic automaton</packagedDefLabel>
