@@ -570,6 +570,7 @@
           <li>Ascetic</li>
           <!--misc-->
           <li>Expectations</li>
+          <li>PN_Atefuel_nopn</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
