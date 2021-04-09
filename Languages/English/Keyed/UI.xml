@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+  <PN_AUTOMATA_MATERIAL>Main Material</PN_AUTOMATA_MATERIAL>
+
   <PN_BILL_WINDOW_TAB_APPEARANCE_TITLE>Appearance</PN_BILL_WINDOW_TAB_APPEARANCE_TITLE>
   <PN_BILL_WINDOW_TAB_APPEARANCE_TOOLTIP>Appearance is choiced randomly in four options when it assembled.</PN_BILL_WINDOW_TAB_APPEARANCE_TOOLTIP>
 
