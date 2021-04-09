@@ -10,7 +10,7 @@
       <li>
         <categories>
           <li>Paniel_Story_Awful</li>
-          <li>Paniel_Story_Basic</li>
+          <li>Paniel_Story_FailureA</li>
         </categories>
       </li>
     </backstoryFiltersOverride>
@@ -31,7 +31,7 @@
       <li>
         <categories>
           <li>Paniel_Story_Poor</li>
-          <li>Paniel_Story_Basic</li>
+          <li>Paniel_Story_FailureB</li>
         </categories>
       </li>
     </backstoryFiltersOverride>

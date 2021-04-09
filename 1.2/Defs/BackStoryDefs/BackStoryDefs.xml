@@ -314,7 +314,7 @@
       <li>ManualDumb</li>
     </workDisables>
     <spawnCategories>
-      <li>Paniel_Story_Failure</li>
+      <li>Paniel_Story_FailureA</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 
@@ -333,7 +333,7 @@
       <li>Animals</li>
     </workDisables>
     <spawnCategories>
-      <li>Paniel_Story_Failure</li>
+      <li>Paniel_Story_FailureB</li>
     </spawnCategories>
   </AlienRace.BackstoryDef>
 

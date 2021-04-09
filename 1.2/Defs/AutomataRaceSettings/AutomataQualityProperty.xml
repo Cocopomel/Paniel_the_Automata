@@ -6,15 +6,15 @@
     <pawnKindDefs>
       <li>
         <key>PN_Specialization_Combat</key>
-        <value>Paniel_Soldier_Normal</value>
+        <value>Paniel_Randombox_Awful</value>
       </li>
       <li>
         <key>PN_Specialization_Engineer</key>
-        <value>Paniel_Worker_Normal</value>
+        <value>Paniel_Randombox_Awful</value>
       </li>
       <li>
         <key>PN_Specialization_Domestic</key>
-        <value>Paniel_Maid_Normal</value>
+        <value>Paniel_Randombox_Awful</value>
       </li>
     </pawnKindDefs>
   </AutomataRace.AutomataQualityProperty>
@@ -25,15 +25,15 @@
     <pawnKindDefs>
       <li>
         <key>PN_Specialization_Combat</key>
-        <value>Paniel_Soldier_Normal</value>
+        <value>Paniel_Randombox_Poor</value>
       </li>
       <li>
         <key>PN_Specialization_Engineer</key>
-        <value>Paniel_Worker_Normal</value>
+        <value>Paniel_Randombox_Poor</value>
       </li>
       <li>
         <key>PN_Specialization_Domestic</key>
-        <value>Paniel_Maid_Normal</value>
+        <value>Paniel_Randombox_Poor</value>
       </li>
     </pawnKindDefs>
   </AutomataRace.AutomataQualityProperty>
