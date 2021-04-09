@@ -19,7 +19,6 @@
     <statBases>
       <MarketValue>60</MarketValue>
       <Mass>0.01</Mass>
-      <Nutrition>1</Nutrition>
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
