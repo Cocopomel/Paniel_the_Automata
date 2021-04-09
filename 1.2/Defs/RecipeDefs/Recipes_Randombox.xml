@@ -899,7 +899,7 @@
       <componentIndustrialScore>5</componentIndustrialScore>
       <componentSpacerScore>20</componentSpacerScore>
       <useAIPersonaCoreScore>200</useAIPersonaCoreScore>
-      <craftingSkillRequirementsMin>1</craftingSkillRequirementsMin>
+      <craftingSkillRequirementsMin>6</craftingSkillRequirementsMin>
       <craftingSkillRequirementsMax>16</craftingSkillRequirementsMax>
 
       <!-- default values -->
