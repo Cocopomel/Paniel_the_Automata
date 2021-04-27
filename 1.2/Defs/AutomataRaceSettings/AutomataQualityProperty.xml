@@ -17,6 +17,15 @@
         <value>Paniel_Randombox_Awful</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(100,90)</li>
+        <li>(110,70)</li>
+        <li>(120,30)</li>
+        <li>(130,10)</li>
+        <li>(140,0)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -36,6 +45,17 @@
         <value>Paniel_Randombox_Poor</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(100,150)</li>
+        <li>(110,130)</li>
+        <li>(120,90)</li>
+        <li>(130,70)</li>
+        <li>(140,40)</li>
+        <li>(150,10)</li>
+        <li>(160,0)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -55,6 +75,14 @@
         <value>Paniel_Maid_Normal</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(100,150)</li>
+        <li>(150,200)</li>
+        <li>(250,100)</li>
+        <li>(350,0)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -74,6 +102,16 @@
         <value>Paniel_Maid_Good</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(130,10)</li>
+        <li>(170,40)</li>
+        <li>(240,200)</li>
+        <li>(300,100)</li>
+        <li>(400,50)</li>
+        <li>(800,0)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -93,6 +131,15 @@
         <value>Paniel_Maid_Excellent</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(180,0)</li>
+        <li>(230,40)</li>
+        <li>(350,120)</li>
+        <li>(400,150)</li>
+        <li>(800,30)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -112,6 +159,15 @@
         <value>Paniel_Maid_Masterwork</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(225,0)</li>
+        <li>(300,40)</li>
+        <li>(350,100)</li>
+        <li>(400,100)</li>
+        <li>(800,60)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
   
   <AutomataRace.AutomataQualityProperty>
@@ -131,6 +187,13 @@
         <value>Paniel_Maid_Legendary</value>
       </li>
     </pawnKindDefs>
+    <scoreCurve>
+      <points>
+        <li>(360,0)</li>
+        <li>(400,30)</li>
+        <li>(800,60)</li>
+      </points>
+    </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
 
 </Defs>
