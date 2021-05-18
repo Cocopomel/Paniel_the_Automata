@@ -160,7 +160,7 @@
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
       <turretBurstCooldownTime>45</turretBurstCooldownTime>
       <turretTopDrawSize>3.0</turretTopDrawSize>
-      <turretTopOffset>(0, 0.27)</turretTopOffset>
+      <turretTopOffset>(0, 0.35)</turretTopOffset>
     </building>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
