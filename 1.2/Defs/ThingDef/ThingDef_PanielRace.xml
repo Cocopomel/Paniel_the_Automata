@@ -582,9 +582,13 @@
           <li>PN_ApparelBasicHat</li>
           <li>PN_ApparelCape</li>
           <li>PN_ApparelHousekeeper</li>
+          <li>PN_ApparelHousekeeperHat</li>
           <li>PN_ApparelWorker</li>
+          <li>PN_ApparelWorkerHat</li>
           <li>PN_ApparelSoldier</li>
+          <li>PN_ApparelSoldierHat</li>
           <li>PN_ApparelRoyalguard</li>
+          <li>PN_ApparelRoyalguardHat</li>
         </apparelList>
         <whiteApparelList>
 
