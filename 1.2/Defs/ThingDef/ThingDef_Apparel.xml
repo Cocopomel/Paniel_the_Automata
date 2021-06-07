@@ -29,6 +29,76 @@
     </thingCategories>
   </ThingDef>
 
+  <!--==================================== 간단한 의류 ====================================-->
+  <ThingDef ParentName="PN_ApparelBase">
+    <defName>PN_ApparelMilitia</defName>
+    <label>Paniel Simple uniform</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNMilitia1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNMilitia</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>PNApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
   <!--==================================== 기본옷 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelBasic</defName>
@@ -100,7 +170,7 @@
     <label>Paniel basic hat</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/PNbasichat1</texPath>
+      <texPath>Things/Apparel/hats/PNbasichat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -125,7 +195,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNbasichat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNbasichat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -372,33 +442,36 @@
     </colorGenerator>
   </ThingDef>
 
-  <!--==================================== 민병대 ====================================-->
+  <!--==================================== 병사 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
-    <defName>PN_ApparelMilitia</defName>
-    <label>Paniel militia uniform</label>
+    <defName>PN_ApparelSoldier</defName>
+    <label>Paniel soldier uniform</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/PNMilitia1</texPath>
+      <texPath>Things/Apparel/PNSoldier1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
     </graphicData>
-    <costStuffCount>90</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <Uranium>20</Uranium>
+    </costList>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>0.75</Mass>
-      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>6</EquipDelay>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>14</EquipDelay>
     </statBases>
     <equippedStatOffsets>
 
@@ -411,11 +484,12 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNMilitia</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PNSoldier</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
         <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>Paniel_Basic</li>
