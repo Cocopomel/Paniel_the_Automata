@@ -304,22 +304,25 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
     </graphicData>
-    <costStuffCount>90</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>10</Plasteel>
+      <DevilstrandCloth>80</DevilstrandCloth>
+    </costList>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>0.75</Mass>
-      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>6</EquipDelay>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>11</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <CookSpeed>0.1</CookSpeed>
@@ -380,22 +383,25 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
     </graphicData>
-    <costStuffCount>90</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>10</Plasteel>
+      <DevilstrandCloth>80</DevilstrandCloth>
+    </costList>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>4200</WorkToMake>
-      <Mass>0.75</Mass>
-      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>6</EquipDelay>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>11</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
@@ -455,8 +461,8 @@
     </graphicData>
     <costList>
       <ComponentSpacer>4</ComponentSpacer>
-      <Plasteel>100</Plasteel>
-      <Uranium>20</Uranium>
+      <Plasteel>20</Plasteel>
+      <DevilstrandCloth>100</DevilstrandCloth>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -529,8 +535,8 @@
     </graphicData>
     <costList>
       <ComponentSpacer>6</ComponentSpacer>
-      <Plasteel>150</Plasteel>
-      <Uranium>50</Uranium>
+      <Plasteel>50</Plasteel>
+      <Leather_Thrumbo>150</Leather_Thrumbo>
     </costList>
     <thingCategories>
       <li>Apparel</li>

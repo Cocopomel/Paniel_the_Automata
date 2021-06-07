@@ -577,12 +577,13 @@
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <apparelList>
+          <li>PN_ApparelSimple</li>
           <li>PN_ApparelBasic</li>
           <li>PN_ApparelBasicHat</li>
           <li>PN_ApparelCape</li>
           <li>PN_ApparelHousekeeper</li>
           <li>PN_ApparelWorker</li>
-          <li>PN_ApparelMilitia</li>
+          <li>PN_ApparelSoldier</li>
           <li>PN_ApparelRoyalguard</li>
         </apparelList>
         <whiteApparelList>
