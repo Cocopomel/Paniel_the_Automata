@@ -372,6 +372,69 @@
     </colorGenerator>
   </ThingDef>
 
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelHousekeeperHat</defName>
+    <label>Paniel housekeeper hat</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNHousekeeperhatA1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>5</Plasteel>
+      <DevilstrandCloth>20</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <WorkToMake>15750</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNHousekeeperhatA</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>PNApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
   <!--==================================== 작업복 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelWorker</defName>
@@ -422,6 +485,69 @@
       <layers>
         <li>OnSkin</li>
         <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>PNApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelWorkerHat</defName>
+    <label>Paniel worker hat</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNWorkerhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>5</Plasteel>
+      <DevilstrandCloth>20</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <WorkToMake>15750</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNWorkerhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
       </layers>
       <tags>
         <li>Paniel_Basic</li>
@@ -522,6 +648,69 @@
     </colorGenerator>
   </ThingDef>
 
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelSoldierHat</defName>
+    <label>Paniel soldier hat</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNSoldierhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>10</Plasteel>
+      <DevilstrandCloth>30</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNSoldierhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>PNApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
   <!--==================================== 근위대 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelRoyalguard</defName>
@@ -570,6 +759,69 @@
         <li>OnSkin</li>
         <li>Middle</li>
         <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>PNApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+    <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelRoyalguardHat</defName>
+    <label>Paniel royal guard hat</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalguardhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>15</Plasteel>
+      <Leather_Thrumbo>35</Leather_Thrumbo>
+    </costList>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalguardhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
       </layers>
       <tags>
         <li>Paniel_Basic</li>
