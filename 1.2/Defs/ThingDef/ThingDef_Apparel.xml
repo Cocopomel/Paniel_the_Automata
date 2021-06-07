@@ -31,11 +31,11 @@
 
   <!--==================================== 간단한 의류 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
-    <defName>PN_ApparelMilitia</defName>
+    <defName>PN_ApparelSimple</defName>
     <label>Paniel Simple uniform</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/PNMilitia1</texPath>
+      <texPath>Things/Apparel/PNSimple1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
@@ -68,7 +68,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNMilitia</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PNSimple</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
