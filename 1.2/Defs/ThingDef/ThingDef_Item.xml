@@ -40,6 +40,11 @@
     <defName>PN_Brain</defName>
     <label>central nervous</label>
     <description>A biological human central nervous.</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNCentralnervous</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
     <statBases>
       <MarketValue>500</MarketValue>
       <Mass>1</Mass>
@@ -66,10 +71,10 @@
     <defName>PN_RepairKit</defName>
     <label>automaton repair kit</label>
     <description>test repair kit</description>
-    <graphicData>
-      <texPath>Things/Item/Special/MechSerumHealer</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(154,124,104)</color>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNRepairkit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <stackLimit>10</stackLimit>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -93,10 +98,10 @@
     <defName>PN_SelfRepairKit</defName>
     <label>automaton self repair kit</label>
     <description>test repair kit</description>
-    <graphicData>
-      <texPath>Things/Item/Special/MechSerumHealer</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(154,124,104)</color>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNSelfRepairkit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <stackLimit>10</stackLimit>
     <statBases>
