@@ -586,7 +586,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <costList>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>5</ComponentSpacer>
       <Plasteel>20</Plasteel>
       <DevilstrandCloth>100</DevilstrandCloth>
     </costList>
@@ -723,9 +723,9 @@
       <drawSize>1</drawSize>
     </graphicData>
     <costList>
-      <ComponentSpacer>6</ComponentSpacer>
+      <ComponentSpacer>8</ComponentSpacer>
       <Plasteel>50</Plasteel>
-      <Leather_Thrumbo>150</Leather_Thrumbo>
+      <DevilstrandCloth>150</DevilstrandCloth>
     </costList>
     <thingCategories>
       <li>Apparel</li>
@@ -797,7 +797,7 @@
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
       <Plasteel>15</Plasteel>
-      <Leather_Thrumbo>35</Leather_Thrumbo>
+      <DevilstrandCloth>35</DevilstrandCloth>
     </costList>
     <statBases>
       <WorkToMake>26250</WorkToMake>
