@@ -76,18 +76,39 @@
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <techLevel>Industrial</techLevel>
     <stackLimit>10</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MarketValue>18</MarketValue>
-      <Mass>0.50</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>2</Mass>
       <Flammability>0.7</Flammability>
-      <WorkToMake>350</WorkToMake>
+      <WorkToMake>700</WorkToMake>
     </statBases>
     <thingCategories>
       <li>PNKit</li>
     </thingCategories>
     <tradeability>Sellable</tradeability>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>15</Steel>
+      <Chemfuel>2</Chemfuel>
+      <Leather_Automaton>5</Leather_Automaton>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite></researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <comps>
 
     </comps>
@@ -103,17 +124,39 @@
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <techLevel>Spacer</techLevel>
     <stackLimit>10</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <statBases>
       <MarketValue>18</MarketValue>
-      <Mass>0.50</Mass>
+      <Mass>2</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0.7</Flammability>
-      <WorkToMake>700</WorkToMake>
+      <WorkToMake>1500</WorkToMake>
     </statBases>
     <thingCategories>
       <li>PNKit</li>
     </thingCategories>
     <tradeability>Sellable</tradeability>
+    <costList>
+      <MechSerumHealer>1</MechSerumHealer>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>15</Steel>
+      <Chemfuel>2</Chemfuel>
+      <Leather_Automaton>5</Leather_Automaton>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite></researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
