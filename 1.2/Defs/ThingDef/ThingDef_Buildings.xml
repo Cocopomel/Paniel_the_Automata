@@ -91,10 +91,6 @@
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
-      <shadowData>
-        <volume>(1.5,0.35,1.4)</volume>
-        <offset>(0,0,-0.05)</offset>
-      </shadowData>
     </graphicData>
     <uiIconPath>Things/Building/PN_Artillery_Ui</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
@@ -119,24 +115,33 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
-      <li Class="CompProperties_Refuelable">
+      <!--<li Class="CompProperties_Refuelable">
         <fuelLabel>Shells Remaining</fuelLabel>
-        <fuelGizmoLabel>Belt</fuelGizmoLabel>
+        <fuelGizmoLabel>Shell</fuelGizmoLabel>
         <fuelFilter>
           <thingDefs>
             <li>Shell_HighExplosive</li>
           </thingDefs>
         </fuelFilter>
-        <fuelCapacity>21</fuelCapacity>
+        <fuelCapacity>8</fuelCapacity>
         <initialFuelPercent>0</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <fuelMultiplier>1</fuelMultiplier>
-        <!--<factorByDifficulty>true</factorByDifficulty>-->
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <outOfFuelMessage>Cannot shoot: Needs shells</outOfFuelMessage>
+        <outOfFuelMessage>Need shells</outOfFuelMessage>
         <fuelIconPath>Things/Building/PN_shellfuel</fuelIconPath>
+      </li>-->
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>4.5</fuelConsumptionRate>
+        <fuelCapacity>30.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
     </comps>
     <passability>PassThroughOnly</passability>
@@ -158,7 +163,7 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
-      <turretBurstCooldownTime>45</turretBurstCooldownTime>
+      <turretBurstCooldownTime>45</turretBurstCooldownTime>      <!--사격 쿨타임-->
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
     </building>
@@ -203,10 +208,10 @@
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>0.1</AccuracyTouch>
-      <AccuracyShort>0.1</AccuracyShort>
-      <AccuracyMedium>0.1</AccuracyMedium>
-      <AccuracyLong>0.996</AccuracyLong>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
       <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
@@ -220,18 +225,15 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_AutoMortarTurret</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <forcedMissRadius>5</forcedMissRadius>
+        <defaultProjectile>PN_Bullet_HE</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <forcedMissRadius>4</forcedMissRadius>
         <requireLineOfSight>false</requireLineOfSight>
-        <minRange>29.9</minRange>
+        <minRange>14.9</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
-        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCast>PNCannonSound</soundCast>
         <muzzleFlashScale>16</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
         <consumeFuelPerShot>1</consumeFuelPerShot>
       </li>
     </verbs>

@@ -9,6 +9,9 @@
 			<li>PN_AutomatonFuel_Addiction</li>
 			<li>PN_Maintenance</li>
 		</forcedHediffs>-->
+    <spawnCategories>
+			<li>PN_storys</li>
+		</spawnCategories>
   </AlienRace.BackstoryDef>
 
   <!--템플릿
