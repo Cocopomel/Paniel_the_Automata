@@ -22,7 +22,7 @@
     <thingDef>Paniel_Race</thingDef>
     <statDef>ArmorRating_Sharp</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
-      <addition>-0.5</addition>
+      <addition>-0.3</addition>
       <multiplier>1.0</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
