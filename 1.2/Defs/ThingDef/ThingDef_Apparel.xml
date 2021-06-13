@@ -229,7 +229,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>PN_ApparelCape</defName>
     <description>...</description>
-    <label>Paniel Cape</label>
+    <label>Paniel cape</label>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -295,8 +295,8 @@
 
   <!--==================================== 가정부 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
-    <defName>PN_ApparelHousekeeper</defName>
-    <label>Paniel housekeeper uniform</label>
+    <defName>PN_ApparelMaid</defName>
+    <label>Paniel maid uniform</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/PNHousekeeper1</texPath>
@@ -373,8 +373,8 @@
   </ThingDef>
 
   <ThingDef ParentName="PN_HatBase">
-    <defName>PN_ApparelHousekeeperHat</defName>
-    <label>Paniel housekeeper hat</label>
+    <defName>PN_ApparelMaidHat</defName>
+    <label>Paniel maid hat</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNHousekeeperhatA1</texPath>
