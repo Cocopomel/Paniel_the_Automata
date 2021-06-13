@@ -29,76 +29,6 @@
     </thingCategories>
   </ThingDef>
 
-  <!--==================================== 간단한 의류 ====================================-->
-  <ThingDef ParentName="PN_ApparelBase">
-    <defName>PN_ApparelSimple</defName>
-    <label>Paniel Simple uniform</label>
-    <description>...</description>
-    <graphicData>
-      <texPath>Things/Apparel/PNSimple1</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <costStuffCount>60</costStuffCount>
-    <stuffCategories>
-      <li>Fabric</li>
-      <li>Leathery</li>
-    </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1800</WorkToMake>
-      <Mass>0.5</Mass>
-      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-
-    </equippedStatOffsets>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNSimple</wornGraphicPath>
-      <useWornGraphicMask>true</useWornGraphicMask>
-      <layers>
-        <li>OnSkin</li>
-        <li>Middle</li>
-      </layers>
-      <tags>
-        <li>Paniel_Basic</li>
-      </tags>
-      <defaultOutfitTags>
-        <li>PNApparel</li>
-      </defaultOutfitTags>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options">
-      <options>
-        <li>
-          <weight>10</weight>
-          <only>(255,255,255)</only>
-        </li>
-        <li>
-          <weight>15</weight>
-          <only>(255,255,255)</only>
-        </li>
-        <li>
-          <weight>20</weight>
-          <only>(255,255,255)</only>
-        </li>
-      </options>
-    </colorGenerator>
-  </ThingDef>
-
   <!--==================================== 기본옷 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelBasic</defName>
@@ -441,7 +371,7 @@
     <label>Paniel worker uniform</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/PNWorker1</texPath>
+      <texPath>Things/Apparel/PNSimple1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
@@ -480,7 +410,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNWorker</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PNSimple</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
