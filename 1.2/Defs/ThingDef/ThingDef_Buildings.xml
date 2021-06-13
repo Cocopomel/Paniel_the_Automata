@@ -101,9 +101,9 @@
     <stealable>false</stealable>
     <size>(3,3)</size>
     <statBases>
-      <MaxHitPoints>250</MaxHitPoints>
+      <MaxHitPoints>220</MaxHitPoints>
       <Flammability>0.7</Flammability>
-      <WorkToBuild>20000</WorkToBuild>
+      <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
       <Beauty>-20</Beauty>
       <ShootingAccuracyTurret>0.996</ShootingAccuracyTurret>
@@ -115,12 +115,12 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
-      <!--<li Class="CompProperties_Refuelable">
+      <li Class="CompProperties_Refuelable">
         <fuelLabel>Shells Remaining</fuelLabel>
         <fuelGizmoLabel>Shell</fuelGizmoLabel>
         <fuelFilter>
           <thingDefs>
-            <li>Shell_HighExplosive</li>
+            <li>PN_Shell_HighExplosive</li>
           </thingDefs>
         </fuelFilter>
         <fuelCapacity>8</fuelCapacity>
@@ -130,18 +130,8 @@
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <fuelMultiplier>1</fuelMultiplier>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <outOfFuelMessage>Need shells</outOfFuelMessage>
+        <outOfFuelMessage>Cannot shoot: No shells</outOfFuelMessage>
         <fuelIconPath>Things/Building/PN_shellfuel</fuelIconPath>
-      </li>-->
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>4.5</fuelConsumptionRate>
-        <fuelCapacity>30.0</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </fuelFilter>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
     </comps>
     <passability>PassThroughOnly</passability>
@@ -158,12 +148,12 @@
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>29.9</specialDisplayRadius>
+    <specialDisplayRadius>14.9</specialDisplayRadius>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
-      <turretBurstCooldownTime>45</turretBurstCooldownTime>      <!--사격 쿨타임-->
+      <turretBurstCooldownTime>10</turretBurstCooldownTime>      <!--사격 쿨타임-->
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
     </building>
@@ -174,23 +164,6 @@
       <li>Mortars</li>
     </researchPrerequisites>
     <uiIconScale>0.6</uiIconScale>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_AutoMortarTurret</defName>
-    <label>High-explosive shell</label>
-    <thingClass>Projectile_Explosive</thingClass>
-    <graphicData>
-      <texPath>Things/Projectile/ShellHighExplosive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>true</flyOverhead>
-      <damageAmountBase>50</damageAmountBase>
-      <speed>88</speed>
-      <explosionRadius >3.9</explosionRadius >
-      <damageDef>Bomb</damageDef>
-    </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -208,10 +181,10 @@
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>0.5</AccuracyTouch>
-      <AccuracyShort>0.6</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.9</AccuracyLong>
+      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
       <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
@@ -225,8 +198,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_HE</defaultProjectile>
-        <warmupTime>2.0</warmupTime>
+        <defaultProjectile>PN_Bullet_Shell_HighExplosive</defaultProjectile>
+        <warmupTime>5.0</warmupTime>
         <forcedMissRadius>4</forcedMissRadius>
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>14.9</minRange>
@@ -237,5 +210,53 @@
         <consumeFuelPerShot>1</consumeFuelPerShot>
       </li>
     </verbs>
+  </ThingDef>
+
+    <ThingDef ParentName="MakeableShellBase">
+    <defName>PN_Shell_HighExplosive</defName>
+    <label>PnL high-explosive shell</label>
+    <description>A shell filled with high explosives. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Shell/Shell_HighExplosive</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>30~60</wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>25</Steel>
+      <Chemfuel>15</Chemfuel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Mortars</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+   <ThingDef ParentName="BaseBullet">
+    <defName>PN_Bullet_Shell_HighExplosive</defName>
+    <label>high-explosive shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>100</speed>
+      <explosionRadius>3.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
   </ThingDef>
 </Defs>
