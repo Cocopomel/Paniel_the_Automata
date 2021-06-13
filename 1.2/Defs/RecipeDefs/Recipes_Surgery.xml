@@ -98,6 +98,14 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>PN_Fuel</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
             <li>Steel</li>
           </thingDefs>
@@ -112,23 +120,15 @@
         </filter>
         <count>1</count>
       </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>PN_AutomatonFuel</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
         <li>ComponentIndustrial</li>
-        <li>PN_AutomatonFuel</li>
       </thingDefs>
       <categories>
         <li>Medicine</li>
+        <li>PN_Fuel</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>

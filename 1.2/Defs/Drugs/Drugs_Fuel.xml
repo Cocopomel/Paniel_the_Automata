@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <ThingCategoryDef>
+    <defName>PN_Fuel</defName>
+    <label>Automaton Fuel</label>
+    <parent>Drugs</parent>
+  </ThingCategoryDef>
   <!--==================================== 오토마톤 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel</defName>
@@ -63,9 +68,12 @@
         <wickTicks>70~150</wickTicks>
       </li>
     </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
+    <tradeTags Inherit="false">
+
     </tradeTags>
+    <thingCategories Inherit="false">
+      <li>PN_Fuel</li>
+    </thingCategories>
   </ThingDef>
 
   <ThoughtDef>
@@ -298,9 +306,12 @@
         <wickTicks>70~150</wickTicks>
       </li>
     </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
+    <tradeTags Inherit="false">
+
     </tradeTags>
+    <thingCategories Inherit="false">
+      <li>PN_Fuel</li>
+    </thingCategories>
   </ThingDef>
 
   <ThoughtDef>
@@ -391,9 +402,12 @@
         <wickTicks>70~150</wickTicks>
       </li>
     </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
+    <tradeTags Inherit="false">
+
     </tradeTags>
+    <thingCategories Inherit="false">
+      <li>PN_Fuel</li>
+    </thingCategories>
   </ThingDef>
 
   <ThoughtDef>
