@@ -28,7 +28,7 @@
       <thingDefs>
         <li>PN_RepairKit</li>
       </thingDefs>
-       <categories>
+      <categories>
         <li>Medicine</li>
       </categories>
     </fixedIngredientFilter>
@@ -96,8 +96,37 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_AutomatonFuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+        <li>PN_AutomatonFuel</li>
+      </thingDefs>
       <categories>
         <li>Medicine</li>
       </categories>

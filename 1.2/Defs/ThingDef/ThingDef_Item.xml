@@ -43,7 +43,7 @@
     <graphicData Inherit="false">
       <texPath>Things/Item/PNCentralnervous</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>0.8</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>500</MarketValue>
