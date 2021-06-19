@@ -10,8 +10,8 @@
 			<li>PN_Maintenance</li>
 		</forcedHediffs>-->
     <spawnCategories>
-			<li>PN_storys</li>
-		</spawnCategories>
+      <li>PN_storys</li>
+    </spawnCategories>
   </AlienRace.BackstoryDef>
 
   <!--템플릿
@@ -169,6 +169,7 @@
     </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Good</li>
+      <li>Paniel_Story_Testsubject</li>
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Good</li>
@@ -938,6 +939,75 @@
     </skillGains>
     <spawnCategories>
       <li>Paniel_Story_testStart</li>
+    </spawnCategories>
+    <!--<forcedHediffs>
+			<li></li>
+		</forcedHediffs>-->
+  </AlienRace.BackstoryDef>
+
+  <!--==================================== 실험체 ====================================-->
+
+  <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
+    <defName>Paniel_Testsubject_Backstory</defName>
+    <title>Automaton Test subject</title>
+    <titleShort>Test subject</titleShort>
+    <baseDescription>backstory</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <!--<li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>-->
+    </skillGains>
+    <workDisables>
+
+    </workDisables>
+    <spawnCategories>
+      <li>Paniel_Story_Testsubject</li>
     </spawnCategories>
     <!--<forcedHediffs>
 			<li></li>

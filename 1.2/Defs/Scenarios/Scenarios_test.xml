@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ScenarioDef>
-    <defName>Paniel_Scenarios</defName>
-    <label>Automaton test subject</label>
+  <ScenarioDef>
+    <defName>Paniel_testScenarios</defName>
+    <label>Paniel test</label>
     <description>test</description>
     <scenario>
       <summary>test</summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>Paniel_PlayerFaction</factionDef>
+        <factionDef>Paniel_testPlayerFaction</factionDef>
       </playerFaction>
       <parts>
 
         <!-- Config pages -->
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
-          <pawnCount>1</pawnCount>
+          <pawnCount>3</pawnCount>
           <pawnChoiceCount>6</pawnChoiceCount>
         </li>
 
         <!-- Player starting stuff spawn method-->
-        <li Class="ScenPart_Naked">
-          <def>Naked</def>
-          <context>PlayerStarter</context>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
         </li>
 
         <!-- Game start dialog -->

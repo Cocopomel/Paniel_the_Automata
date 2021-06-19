@@ -7,11 +7,41 @@
     </colorSpectrum>
   </FactionDef>  <!--스타트 팩션-->
   <FactionDef ParentName="Paniel_PlayerBase">
-    <defName>Paniel_PlayerFaction</defName>
+    <defName>Paniel_testPlayerFaction</defName>
     <label>Left Automata</label>
     <description>...</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Paniel_testColonistPawn</basicMemberKind> <!--테스트용-->
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Paniel_Story_Start</li>
+    </backstoryCategories>
+    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+
+  <FactionDef ParentName="Paniel_PlayerBase">
+    <defName>Paniel_PlayerFaction</defName>
+    <label>Left Automata</label>
+    <description>...</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
