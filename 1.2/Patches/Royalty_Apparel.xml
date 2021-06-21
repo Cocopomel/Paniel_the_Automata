@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "PN_ApparelRoyalguard"]</xpath>
+          <value>
+            <recipeMaker>
+              <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+              <workSkill>Crafting</workSkill>
+              <effectWorking>Tailor</effectWorking>
+              <soundWorking>Recipe_Tailor</soundWorking>
+              <recipeUsers>
+                <li>PN_AutomatonBench</li>
+              </recipeUsers>
+              <researchPrerequisite>CataphractArmor</researchPrerequisite>
+              <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+              <defaultIngredientFilter>
+                <categories>
+                  <li>Root</li>
+                </categories>
+                <disallowedThingDefs>
+                  <li>Gold</li>
+                  <li>Silver</li>
+                  <li>Plasteel</li>
+                  <li>Jade</li>
+                  <li>Uranium</li>
+                </disallowedThingDefs>
+              </defaultIngredientFilter>
+            </recipeMaker>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "PN_ApparelRoyalguardHat"]</xpath>
+          <value>
+            <recipeMaker>
+              <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+              <workSkill>Crafting</workSkill>
+              <effectWorking>Tailor</effectWorking>
+              <soundWorking>Recipe_Tailor</soundWorking>
+              <recipeUsers>
+                <li>PN_AutomatonBench</li>
+              </recipeUsers>
+              <researchPrerequisite>CataphractArmor</researchPrerequisite>
+              <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+              <defaultIngredientFilter>
+                <categories>
+                  <li>Root</li>
+                </categories>
+                <disallowedThingDefs>
+                  <li>Gold</li>
+                  <li>Silver</li>
+                  <li>Plasteel</li>
+                  <li>Jade</li>
+                  <li>Uranium</li>
+                </disallowedThingDefs>
+              </defaultIngredientFilter>
+            </recipeMaker>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
