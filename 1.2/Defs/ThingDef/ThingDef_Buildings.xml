@@ -19,8 +19,7 @@
     <size>(5,2)</size>
     <costList>
       <Steel>200</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -41,7 +40,7 @@
       <li>Make_ComponentSpacer</li>
     </recipes>
     <graphicData>
-      <texPath>Things/Building/Production/FabricationBench</texPath>
+      <texPath>Things/Building/PNAutomatonBench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(7,4)</drawSize>
