@@ -77,10 +77,13 @@
   </ThingDef>
 
   <!--==================================== 오토캐논 ====================================-->
-  <ThingDef ParentName="BuildingBase">
-    <defName>PN_Artillery_Base</defName>
+  <DesignatorDropdownGroupDef>
+    <defName>PN_Artillery_Dropdown</defName>
     <label>PnL Auto Artillery</label>
-    <description>...</description>
+  </DesignatorDropdownGroupDef>
+
+  <ThingDef Abstract="True" Name="PN_Artillery_Base" ParentName="BuildingBase">
+    <designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/PN_Artillery_Base</texPath>
@@ -143,7 +146,7 @@
     <costStuffCount>50</costStuffCount>
     <costList>
       <Steel>250</Steel>
-      <ComponentIndustrial>15</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -164,6 +167,26 @@
     </researchPrerequisites>
     <uiIconScale>0.6</uiIconScale>
   </ThingDef>
+
+  <ThingDef ParentName="PN_Artillery_Base">
+    <defName>PN_Artillery_Base_Brain</defName>
+    <label>PnL Auto Artillery</label>
+    <description>...</description>
+    <costList>
+      <PN_Brain>1</PN_Brain>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_Artillery_Base">
+    <defName>PN_Artillery_Base_Core</defName>
+    <label>PnL Auto Artillery</label>
+    <description>...</description>
+    <costList>
+      <PN_BrainCasing>1</PN_BrainCasing>
+    </costList>
+  </ThingDef>
+
+
 
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>PN_Artillery_Turret</defName>
