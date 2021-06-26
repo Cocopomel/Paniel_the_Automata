@@ -197,20 +197,20 @@
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.6</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
+        <label>shovel blade</label>
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
-        <cooldownTime>2.6</cooldownTime>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>shovel head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
