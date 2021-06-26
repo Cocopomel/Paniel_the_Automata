@@ -23,9 +23,9 @@
           </li>
         </capMods>
         <statOffsets>
-          <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
+          <!--<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.048</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.06</ArmorRating_Heat>
+          <ArmorRating_Heat>0.06</ArmorRating_Heat>-->
         </statOffsets>
       </li>
     </stages>
