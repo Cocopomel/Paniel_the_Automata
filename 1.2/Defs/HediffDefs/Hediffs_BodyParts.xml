@@ -54,7 +54,7 @@
       <texPath>Things/Item/Health/HealthItem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
-      <color>(154,124,104)</color>
+      <color>(247,180,130)</color>
     </graphicData>
     <tradeTags>
       <li>PN_BodyPartsNormal</li>
