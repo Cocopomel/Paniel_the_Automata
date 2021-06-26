@@ -25,6 +25,9 @@
     </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
   </ResearchProjectDef>
 
   <!--==================================== 뇌적출 ====================================-->
@@ -41,6 +44,9 @@
     </prerequisites>
     <researchViewX>1.0</researchViewX>
     <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
   </ResearchProjectDef>
 
   <!--==================================== 수리 키트 ====================================-->
