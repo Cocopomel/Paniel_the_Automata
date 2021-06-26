@@ -23,7 +23,7 @@
     <statDef>ArmorRating_Sharp</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
       <addition>0</addition>
-      <multiplier>0.73</multiplier>
+      <multiplier>0.5</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 
@@ -33,7 +33,7 @@
     <statDef>ArmorRating_Blunt</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
       <addition>0</addition>
-      <multiplier>0.73</multiplier>
+      <multiplier>0.5</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 
@@ -42,7 +42,7 @@
     <thingDef>Paniel_Race</thingDef>
     <statDef>ArmorRating_Heat</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
-      <multiplier>0.73</multiplier>
+      <multiplier>1.0</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 </Defs>
