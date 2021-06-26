@@ -5,7 +5,7 @@
     <label>Paniel test</label>
     <description>test</description>
     <scenario>
-      <summary>test</summary>
+      <summary>개발 테스트용 시나리오</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>Paniel_testPlayerFaction</factionDef>

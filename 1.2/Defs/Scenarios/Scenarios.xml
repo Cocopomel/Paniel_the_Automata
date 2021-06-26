@@ -5,7 +5,7 @@
     <label>Automaton test subject</label>
     <description>test</description>
     <scenario>
-      <summary>test</summary>
+      <summary>이 시나리오는 아직 완성되지 않았습니다.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>Paniel_PlayerFaction</factionDef>
@@ -16,7 +16,7 @@
         <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
           <def>ConfigPage_ConfigureStartingPawns</def>
           <pawnCount>1</pawnCount>
-          <pawnChoiceCount>6</pawnChoiceCount>
+          <pawnChoiceCount>2</pawnChoiceCount>
         </li>
 
         <!-- Player starting stuff spawn method-->
