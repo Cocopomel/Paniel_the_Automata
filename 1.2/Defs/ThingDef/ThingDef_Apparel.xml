@@ -288,9 +288,9 @@
       <ButcheryFleshSpeed>0.1</ButcheryFleshSpeed>
       <FoodPoisonChance>-0.05</FoodPoisonChance>
       <MedicalTendSpeed>0.1</MedicalTendSpeed>
+      <MedicalTendQuality>0.1</MedicalTendQuality>
       <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
-      <DrugCookingSpeed>0.1</DrugCookingSpeed>
-      <DrugSynthesisSpeed>0.1</DrugSynthesisSpeed>
+      <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -362,12 +362,17 @@
       <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Heat>0.90</ArmorRating_Heat>
-      <Insulation_Cold>12</Insulation_Cold> <!-- like a cloth jacket -->
+      <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <CookSpeed>0.05</CookSpeed>
+      <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
+      <MedicalTendSpeed>0.05</MedicalTendSpeed>
+      <MedicalTendQuality>0.05</MedicalTendQuality>
+      <MedicalOperationSpeed>0.05</MedicalOperationSpeed>
+      <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -444,10 +449,10 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
+      <ConstructSuccessChance>0.1</ConstructSuccessChance>
       <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
       <PlantWorkSpeed>0.1</PlantWorkSpeed>
-      <PlantHarvestYield>0.1</PlantHarvestYield>
-      <CarryingCapacity>20</CarryingCapacity>
+      <AnimalGatherSpeed>0.1</AnimalGatherSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -524,7 +529,10 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <ConstructSuccessChance>0.05</ConstructSuccessChance>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+      <PlantWorkSpeed>0.05</PlantWorkSpeed>
+      <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -601,7 +609,8 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
+      <MoveSpeed>0.2</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -679,7 +688,7 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.1</GeneralLaborSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -756,7 +765,8 @@
       <EquipDelay>17</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.3</GeneralLaborSpeed>
+      <MoveSpeed>0.2</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -834,7 +844,7 @@
       <EquipDelay>6</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
