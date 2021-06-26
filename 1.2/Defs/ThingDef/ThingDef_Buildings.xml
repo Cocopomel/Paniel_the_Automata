@@ -73,7 +73,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Fabrication</li>
+      <li>PNRP_Production</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -161,7 +161,7 @@
       <li>PlaceWorker_TurretTop</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>Mortars</li>
+      <li>PNRP_AutoArtillery</li>
     </researchPrerequisites>
     <uiIconScale>0.6</uiIconScale>
   </ThingDef>
@@ -212,7 +212,7 @@
     </verbs>
   </ThingDef>
 
-    <ThingDef ParentName="MakeableShellBase">
+  <ThingDef ParentName="MakeableShellBase">
     <defName>PN_Shell_HighExplosive</defName>
     <label>PnL high-explosive shell</label>
     <description>A shell filled with high explosives. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
@@ -234,11 +234,11 @@
       <Chemfuel>15</Chemfuel>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Mortars</researchPrerequisite>
+      <researchPrerequisite>PNRP_AutoArtillery</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
-   <ThingDef ParentName="BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>PN_Bullet_Shell_HighExplosive</defName>
     <label>high-explosive shell</label>
     <graphicData>

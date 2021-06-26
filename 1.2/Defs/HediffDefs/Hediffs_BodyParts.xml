@@ -73,7 +73,7 @@
       </skillRequirements>
       <!--<researchPrerequisite>Prosthetics</researchPrerequisite>-->
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>PN_AutomatonBench</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
@@ -106,7 +106,7 @@
       </skillRequirements>
       <!--<researchPrerequisite>Bionics</researchPrerequisite>-->
       <recipeUsers>
-        <li>FabricationBench</li>
+        <li>PN_AutomatonBench</li>
       </recipeUsers>
     </recipeMaker>
   </ThingDef>
@@ -173,6 +173,9 @@
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_ResurrectModule</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">

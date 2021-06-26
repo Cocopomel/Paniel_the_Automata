@@ -259,6 +259,15 @@
       <Plasteel>10</Plasteel>
       <DevilstrandCloth>80</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -336,6 +345,15 @@
       <Plasteel>5</Plasteel>
       <DevilstrandCloth>20</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <WorkToMake>15750</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
@@ -401,6 +419,15 @@
       <Plasteel>10</Plasteel>
       <DevilstrandCloth>80</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -475,6 +502,15 @@
       <Plasteel>5</Plasteel>
       <DevilstrandCloth>20</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <WorkToMake>15750</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
@@ -540,6 +576,15 @@
       <Plasteel>20</Plasteel>
       <DevilstrandCloth>100</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -612,6 +657,15 @@
       <Plasteel>10</Plasteel>
       <DevilstrandCloth>30</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <WorkToMake>21000</WorkToMake>
       <MaxHitPoints>150</MaxHitPoints>
@@ -662,7 +716,7 @@
   </ThingDef>
 
   <!--==================================== 근위대 ====================================-->
-  <ThingDef ParentName="PN_ApparelRoyaltyBase">
+  <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelRoyalguard</defName>
     <label>Paniel royal guard uniform</label>
     <description>...</description>
@@ -677,6 +731,15 @@
       <Plasteel>50</Plasteel>
       <DevilstrandCloth>150</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -735,7 +798,7 @@
     </colorGenerator>
   </ThingDef>
 
-  <ThingDef ParentName="PN_HatRoyaltyBase">
+  <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelRoyalguardHat</defName>
     <label>Paniel royal guard hat</label>
     <description>...</description>
@@ -749,6 +812,15 @@
       <Plasteel>15</Plasteel>
       <DevilstrandCloth>35</DevilstrandCloth>
     </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
     <statBases>
       <WorkToMake>26250</WorkToMake>
       <MaxHitPoints>180</MaxHitPoints>

@@ -13,10 +13,15 @@
     <stackLimit>100</stackLimit>
     <rotatable>false</rotatable>
     <statBases>
-      <MarketValue>60</MarketValue>
-      <Mass>0.01</Mass>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>18</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0.7</Flammability>
     </statBases>
-    <techLevel>Ultra</techLevel>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+    </costList>
+    <techLevel>Industrial</techLevel>
     <ingestible>
       <foodType>Processed</foodType>
       <baseIngestTicks>30</baseIngestTicks>
@@ -44,9 +49,19 @@
         <overdoseSeverityOffset>0</overdoseSeverityOffset>
       </li>
     </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
+    <tradeTags Inherit="false">
+
     </tradeTags>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <researchPrerequisite>PNRP_Production</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <soundWorking>Recipe_Drug</soundWorking>
+    </recipeMaker>
   </ThingDef>
 
   <!--==================================== 항생제 효과 ====================================-->

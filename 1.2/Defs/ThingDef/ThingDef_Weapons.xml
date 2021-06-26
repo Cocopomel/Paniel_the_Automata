@@ -44,8 +44,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
+        <li>PN_AutomatonBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
@@ -140,11 +139,10 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <comps>
       <li Class="CompProperties_BiocodableWeapon"/>
@@ -164,10 +162,69 @@
     </graphicData>
   </ThingDef>
 
+  <!--==================================== 삽 ====================================-->
+  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
+    <defName>PN_Shovel</defName>
+    <label>PnL shovel</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNShovel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponTags>
+      <li>PN_Shovel</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
   <!--==================================== 체인소드 ====================================-->
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainsword</defName>
-    <label>automaton chainsword</label>
+    <label>PnL chainsword</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNSword</texPath>
@@ -216,7 +273,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -226,7 +283,7 @@
   <!--==================================== 리볼버 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Revolver</defName>
-    <label>automaton revolver</label>
+    <label>PnL revolver</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNRevolver</texPath>
@@ -258,6 +315,7 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
     </recipeMaker>
     <comps>
       <li>
@@ -358,7 +416,7 @@
   <!--==================================== 레버액션 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Rifle</defName>
-    <label>automaton rifle</label>
+    <label>PnL rifle</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNRifle</texPath>
@@ -366,7 +424,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -468,10 +526,10 @@
     </graphicData>
   </ThingDef>
 
-   <!--==================================== 기관총 ====================================-->
+  <!--==================================== 기관총 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Machinegun</defName>
-    <label>automaton machine gun</label>
+    <label>PnL machine gun</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNMachinegun</texPath>
@@ -479,7 +537,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>MultibarrelWeapons</researchPrerequisite>
+      <researchPrerequisite>PNRP_MachineGun</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -561,7 +619,7 @@
   <!--==================================== 포터블 캐논 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon</defName>
-    <label>automaton Cannon</label>
+    <label>PnL Cannon</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNCannon</texPath>
@@ -569,7 +627,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>Mortars</researchPrerequisite>
+      <researchPrerequisite>PNRP_Cannon</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -728,7 +786,7 @@
   <!--==================================== 체인 롱소드 ====================================-->
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainlongsword</defName>
-    <label>automaton chain longsword</label>
+    <label>PnL chain longsword</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNSwordLong</texPath>
@@ -777,38 +835,38 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>LongBlades</researchPrerequisite>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <comps>
-			<li Class="SYS.CompProperties_WeaponExtention">
-				<littleDown>True</littleDown>
-				<northOffset>
-					<position>(0.2,0,0.25)</position>
-					<angle>-45</angle>
-				</northOffset>
-				<southOffset>
-					<position>(-0.25,0.3,0.2)</position>
-					<angle>45</angle>
-				</southOffset>
-				<eastOffset>
-					<position>(0.15,0.3,0.2)</position>
-					<angle>-45</angle>
-				</eastOffset>
-				<westOffset>
-					<position>(-0.15,-0.3,0.2)</position>
-					<angle>45</angle>
-				</westOffset>
-			</li>
+      <li Class="SYS.CompProperties_WeaponExtention">
+        <littleDown>True</littleDown>
+        <northOffset>
+          <position>(0.2,0,0.25)</position>
+          <angle>-45</angle>
+        </northOffset>
+        <southOffset>
+          <position>(-0.25,0.3,0.2)</position>
+          <angle>45</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(0.15,0.3,0.2)</position>
+          <angle>-45</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(-0.15,-0.3,0.2)</position>
+          <angle>45</angle>
+        </westOffset>
+      </li>
     </comps>
   </ThingDef>
 
   <!--==================================== 로열 트윈 피스톨 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_TwinPistol</defName>
-    <label>automaton twin pistol</label>
+    <label>PnL twin pistol</label>
     <description>...</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -817,7 +875,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -896,7 +954,7 @@
   <!--==================================== 로열 라이플 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
-    <label>automaton royal rifle</label>
+    <label>PnL royal rifle</label>
     <description>...</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -905,7 +963,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -1012,7 +1070,7 @@
   <!--==================================== 일회용 레일건 ====================================-->
   <ThingDef ParentName="PN_BaseGun">
     <defName>PN_PrototypeRailGun</defName>
-    <label>prototype rail gun</label>
+    <label>PnL prototype rail gun</label>
     <description>...</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>

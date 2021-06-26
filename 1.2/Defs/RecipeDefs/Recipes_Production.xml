@@ -12,7 +12,6 @@
     <workAmount>800</workAmount>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>TableMachining</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -45,7 +44,7 @@
       <Crafting>8</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
-    <researchPrerequisite></researchPrerequisite>
+    <researchPrerequisite>PNRP_SelfRepairKit</researchPrerequisite>
   </RecipeDef>
 
   <!--오토마톤 피부-->
@@ -61,8 +60,6 @@
     <allowMixingIngredients>true</allowMixingIngredients>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>HandTailoringBench</li>
-      <li>ElectricTailoringBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -100,6 +97,6 @@
       <Crafting>4</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
-    <researchPrerequisite></researchPrerequisite>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 </Defs>

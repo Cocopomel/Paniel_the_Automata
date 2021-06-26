@@ -11,8 +11,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -41,6 +39,7 @@
     <products>
       <PN_AutomatonFuel>4</PN_AutomatonFuel>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef>
@@ -53,8 +52,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -83,6 +80,7 @@
     <products>
       <PN_AutomatonFuel>16</PN_AutomatonFuel>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 
   <!--==================================== 플러스 연료 ====================================-->
@@ -96,8 +94,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -126,6 +122,7 @@
     <products>
       <PN_AutomatonFuel_Plus>4</PN_AutomatonFuel_Plus>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef>
@@ -138,8 +135,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -168,6 +163,7 @@
     <products>
       <PN_AutomatonFuel_Plus>16</PN_AutomatonFuel_Plus>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 
   <!--==================================== 프리미엄 연료 ====================================-->
@@ -181,8 +177,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -220,6 +214,7 @@
     <products>
       <PN_AutomatonFuel_Premium>4</PN_AutomatonFuel_Premium>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 
   <RecipeDef>
@@ -232,8 +227,6 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <recipeUsers>
       <li>PN_AutomatonBench</li>
-      <li>CraftingSpot</li>
-      <li>BiofuelRefinery</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -271,5 +264,6 @@
     <products>
       <PN_AutomatonFuel_Premium>16</PN_AutomatonFuel_Premium>
     </products>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
 </Defs>

@@ -86,7 +86,8 @@
     <workerClass>AutomataRace.Recipe_RemoveBrain</workerClass>
     <jobString>Remove central nervous.</jobString>
     <workAmount>2000</workAmount>
-    <surgerySuccessChanceFactor>1.2</surgerySuccessChanceFactor>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PNRP_Brain</researchPrerequisite>
     <ingredients>
       <li>
         <filter>
