@@ -8,7 +8,7 @@
   <!--==================================== 오토마톤 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel</defName>
-    <label>PNL fuel</label>
+    <label>PnL fuel</label>
     <description>...</description>
     <descriptionHyperlinks>
       <ThingDef>PN_Fuelantidote</ThingDef>
@@ -245,7 +245,7 @@
   <!--==================================== 플러스 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel_Plus</defName>
-    <label>PNL plus fuel</label>
+    <label>PnL plus fuel</label>
     <description>...</description>
     <descriptionHyperlinks>
       <ThingDef>PN_Fuelantidote</ThingDef>
@@ -340,7 +340,7 @@
   <!--==================================== 프리미엄 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel_Premium</defName>
-    <label>PNL premium fuel</label>
+    <label>PnL premium fuel</label>
     <description>...</description>
     <descriptionHyperlinks>
       <ThingDef>PN_Fuelantidote</ThingDef>
