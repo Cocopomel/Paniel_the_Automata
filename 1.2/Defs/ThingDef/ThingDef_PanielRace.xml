@@ -508,11 +508,13 @@
           <li>KilledMyBondedAnimal</li>
           <!--situation general-->
           <li>EnvironmentDark</li>
-          <li>ApparelDamaged</li>
           <li>WrongApparelGender</li>
           <li>DeadMansApparel</li>
           <li>HumanLeatherApparelSad</li>
           <li>HumanLeatherApparelHappy</li>
+          <li>Sick</li>
+          <li>EnvironmentCold</li>
+          <li>EnvironmentHot</li>
           <!--situation need-->
           <li>NeedComfort</li>
           <li>NeedBeauty</li>
