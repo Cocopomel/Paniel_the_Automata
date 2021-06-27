@@ -88,6 +88,7 @@
     <workAmount>2000</workAmount>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <researchPrerequisite>PNRP_Brain</researchPrerequisite>
+    <uiIconThing>PN_Brain</uiIconThing>
     <ingredients>
       <li>
         <filter>
