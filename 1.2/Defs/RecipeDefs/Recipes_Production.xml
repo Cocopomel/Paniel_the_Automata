@@ -68,7 +68,6 @@
             <li>Leathers</li>
           </categories>
           <disallowedThingDefs>
-            <li>Leather_Thrumbo</li>
             <li>Leather_Automaton</li>
           </disallowedThingDefs>
         </filter>
@@ -80,13 +79,16 @@
             <li>Chemfuel</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
         <li>Leathers</li>
       </categories>
+      <disallowedThingDefs>
+        <li>Leather_Automaton</li>
+      </disallowedThingDefs>
     </fixedIngredientFilter>
     <products>
       <Leather_Automaton>10</Leather_Automaton>
