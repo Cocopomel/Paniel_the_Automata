@@ -234,14 +234,31 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="MakeableShellBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>PN_Shell_HighExplosive</defName>
     <label>PnL high-explosive shell</label>
-    <description>A shell filled with high explosives. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
+    <description>...</description>
     <graphicData>
       <texPath>Things/Item/Resource/Shell/Shell_HighExplosive</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+    <techLevel>Industrial</techLevel>
+    <stackLimit>25</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>55</MarketValue>
+      <Mass>1.25</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>3.9</explosiveRadius>
@@ -251,15 +268,25 @@
         <wickTicks>30~60</wickTicks>
       </li>
     </comps>
+    <tickerType>Normal</tickerType>
     <costList>
       <Steel>25</Steel>
       <PN_AutomatonFuel>15</PN_AutomatonFuel>
     </costList>
     <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>800</workAmount>
+      <targetCountAdjustment>5</targetCountAdjustment>
+      <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="false">
         <li>PN_AutomatonBench</li>
       </recipeUsers>
       <researchPrerequisite>PNRP_AutoArtillery</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
   </ThingDef>
 
