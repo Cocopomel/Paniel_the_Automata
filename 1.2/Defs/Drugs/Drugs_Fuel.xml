@@ -81,7 +81,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>ate fuel</label>
+        <label>ate PnL fuel</label>
         <description>...</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
@@ -331,7 +331,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>ate fuel</label>
+        <label>ate PnL fuel</label>
         <description>...</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
@@ -426,7 +426,7 @@
     <durationDays>1</durationDays>
     <stages>
       <li>
-        <label>ate fuel</label>
+        <label>ate PnL fuel</label>
         <description>...</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
