@@ -125,7 +125,7 @@
             <li>PN_Shell_HighExplosive</li>
           </thingDefs>
         </fuelFilter>
-        <fuelCapacity>8</fuelCapacity>
+        <fuelCapacity>5</fuelCapacity>
         <initialFuelPercent>0</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
@@ -150,7 +150,7 @@
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>14.9</specialDisplayRadius>
+    <specialDisplayRadius>29.9</specialDisplayRadius>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
@@ -212,19 +212,18 @@
       <Mass>40</Mass>
       <Flammability>0</Flammability>
     </statBases>
-    <weaponTags Inherit="false">
-      <li>Artillery_BaseDestroyer</li>
+    <weaponTags Inherit="False">
+      <li>Artillery</li>
     </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-        <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Shell_HighExplosive</defaultProjectile>
         <warmupTime>5.0</warmupTime>
-        <forcedMissRadius>4</forcedMissRadius>
+        <forcedMissRadius>3</forcedMissRadius>
         <requireLineOfSight>false</requireLineOfSight>
-        <minRange>14.9</minRange>
+        <minRange>29.9</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>PNCannonSound</soundCast>
