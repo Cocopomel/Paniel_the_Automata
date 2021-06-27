@@ -3,7 +3,7 @@
   <!--==================================== 오토마톤 항생제 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_antibiotics</defName>
-    <label>PNL antibiotics</label>
+    <label>PnL antibiotics</label>
     <description>...</description>
     <tradeability>None</tradeability>
     <graphicData>
