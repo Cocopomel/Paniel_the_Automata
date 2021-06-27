@@ -34,23 +34,7 @@
             <ingestible>false</ingestible>
           </li>
           <li>
-            <chemical>Ambrosia</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>Smokeleaf</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
             <chemical>GoJuice</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>Alcohol</chemical>
-            <ingestible>false</ingestible>
-          </li>
-          <li>
-            <chemical>WakeUp</chemical>
             <ingestible>false</ingestible>
           </li>
         </chemicalSettings>
