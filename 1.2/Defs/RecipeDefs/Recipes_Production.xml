@@ -69,6 +69,7 @@
           </categories>
           <disallowedThingDefs>
             <li>Leather_Thrumbo</li>
+            <li>Leather_Automaton</li>
           </disallowedThingDefs>
         </filter>
         <count>10</count>
