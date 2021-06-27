@@ -172,7 +172,7 @@
   <!--==================================== 연료 해독제 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_Fuelantidote</defName>
-    <label>PNL fuel Antidote</label>
+    <label>PnL fuel Antidote</label>
     <description>...</description>
     <tradeability>None</tradeability>
     <graphicData>
