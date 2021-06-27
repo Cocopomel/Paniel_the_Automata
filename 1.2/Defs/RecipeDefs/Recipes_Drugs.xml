@@ -31,10 +31,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel>4</PN_AutomatonFuel>
@@ -72,10 +69,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel>16</PN_AutomatonFuel>
@@ -114,10 +108,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel_Plus>4</PN_AutomatonFuel_Plus>
@@ -155,10 +146,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel_Plus>16</PN_AutomatonFuel_Plus>
@@ -205,11 +193,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-        <li>Ambrosia</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel_Premium>4</PN_AutomatonFuel_Premium>
@@ -255,11 +239,7 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PsychoidLeaves</li>
-        <li>Chemfuel</li>
-        <li>Ambrosia</li>
-      </thingDefs>
+
     </fixedIngredientFilter>
     <products>
       <PN_AutomatonFuel_Premium>16</PN_AutomatonFuel_Premium>

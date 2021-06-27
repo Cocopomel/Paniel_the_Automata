@@ -84,9 +84,6 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>Chemfuel</li>
-      </thingDefs>
       <categories>
         <li>Leathers</li>
       </categories>

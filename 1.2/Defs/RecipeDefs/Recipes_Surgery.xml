@@ -25,9 +25,6 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_RepairKit</li>
-      </thingDefs>
       <categories>
         <li>Medicine</li>
       </categories>
@@ -124,10 +121,6 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>Steel</li>
-        <li>ComponentIndustrial</li>
-      </thingDefs>
       <categories>
         <li>Medicine</li>
         <li>PN_Fuel</li>
