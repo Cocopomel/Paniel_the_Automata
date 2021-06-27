@@ -185,6 +185,19 @@
       <MarketValue>60</MarketValue>
       <Mass>0.01</Mass>
     </statBases>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <researchPrerequisite>PNRP_Production</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <techLevel>Ultra</techLevel>
     <ingestible>
       <foodType>Processed</foodType>
