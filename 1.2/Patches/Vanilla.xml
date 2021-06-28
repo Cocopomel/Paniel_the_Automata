@@ -6,4 +6,10 @@
       <li>PN_AutomatonBench</li>
     </value>
   </Operation>
+  <!--<Operation Class="PatchOperationAdd">
+    <xpath>*[defName = "Corpse_Paniel_Race"]</xpath>
+    <value>
+      <alwaysHaulable>false</alwaysHaulable>
+    </value>
+  </Operation>-->
 </Patch>

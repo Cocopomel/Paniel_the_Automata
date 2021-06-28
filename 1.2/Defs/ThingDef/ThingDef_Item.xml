@@ -65,7 +65,7 @@
     <graphicData Inherit="false">
       <texPath>Things/Item/PNCentralnervous</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.8</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <thingCategories Inherit="false">
       <li>PN_BrainCoreCatagory</li>
@@ -93,7 +93,7 @@
     <graphicData Inherit="false">
       <texPath>Things/Item/PNBrainCore</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.8</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <thingCategories Inherit="false">
       <li>PN_BrainCoreCatagory</li>

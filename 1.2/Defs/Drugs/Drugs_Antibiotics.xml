@@ -7,8 +7,9 @@
     <description>...</description>
     <tradeability>None</tradeability>
     <graphicData>
-      <texPath>Things/Drugs/Paniel_Fuelantidote</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNAntibiotics</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1</drawSize>
     </graphicData>
     <stackLimit>100</stackLimit>
     <rotatable>false</rotatable>
@@ -20,6 +21,7 @@
     </statBases>
     <costList>
       <Neutroamine>2</Neutroamine>
+      <PsychoidLeaves>4</PsychoidLeaves>
     </costList>
     <techLevel>Industrial</techLevel>
     <ingestible>

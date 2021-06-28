@@ -226,8 +226,8 @@
         <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
       </li>
     </comps>
-    <tradeTags>
-      <li>ExoticMisc</li>
+    <tradeTags Inherit="false">
+
     </tradeTags>
   </ThingDef>
 
