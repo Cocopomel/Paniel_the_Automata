@@ -2,7 +2,7 @@
 <Defs>
   <ThingCategoryDef>
     <defName>PN_AutomatonCatagory</defName>
-    <label>Automaton</label>
+    <label>PnL Industry</label>
     <parent>Manufactured</parent>
     <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
@@ -52,13 +52,61 @@
   <!--==================================== 브레인 코어 ====================================-->
   <ThingCategoryDef>
     <defName>PN_BrainCoreCatagory</defName>
-    <label>Automaton core</label>
+    <label>automaton core</label>
     <parent>PN_AutomatonCatagory</parent>
     <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
   </ThingCategoryDef>
 
-  <ThingDef ParentName="BodyPartNaturalBase">
+  <ThingDef ParentName="BodyPartBase">
+    <defName>PN_BrainEmpty</defName>
+    <label>Empty case</label>
+    <description>...</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNCentralnervous_empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <isTechHediff>false</isTechHediff>
+    <thingCategories Inherit="false">
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>700</WorkToMake>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <stackLimit>10</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>5</Steel>
+      <PN_AutomatonFuel>1</PN_AutomatonFuel>
+    </costList>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_Brain</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <comps>
+
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBase">
     <defName>PN_Brain</defName>
     <label>central nervous</label>
     <description>A biological human central nervous.</description>
@@ -74,6 +122,7 @@
       <MarketValue>500</MarketValue>
       <Mass>1</Mass>
     </statBases>
+    <isTechHediff>false</isTechHediff>
     <tradeTags Inherit="false">
 
     </tradeTags>
@@ -95,6 +144,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
+    <isTechHediff>false</isTechHediff>
     <thingCategories Inherit="false">
       <li>PN_BrainCoreCatagory</li>
     </thingCategories>

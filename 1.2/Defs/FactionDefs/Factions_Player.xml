@@ -3,7 +3,7 @@
   <FactionDef Abstract="True" Name="Paniel_PlayerBase">
     <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
     <colorSpectrum>
-      <li>(247, 180, 130)</li>
+      <li>(255, 255, 255)</li>
     </colorSpectrum>
   </FactionDef>  <!--스타트 팩션-->
   <FactionDef ParentName="Paniel_PlayerBase">
@@ -38,7 +38,7 @@
 
   <FactionDef ParentName="Paniel_PlayerBase">
     <defName>Paniel_PlayerFaction</defName>
-    <label>Left Automata</label>
+    <label>Test Subject</label>
     <description>...</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>

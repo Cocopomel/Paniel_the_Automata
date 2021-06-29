@@ -58,7 +58,7 @@
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
-    <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -73,7 +73,7 @@
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
-    <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
   </RecipeDef>
 
   <RecipeDef ParentName="SurgeryFlesh">
@@ -97,24 +97,8 @@
       </li>
       <li>
         <filter>
-          <categories>
-            <li>PN_Fuel</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
           <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>PN_BrainEmpty</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -123,7 +107,6 @@
     <fixedIngredientFilter>
       <categories>
         <li>Medicine</li>
-        <li>PN_Fuel</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>

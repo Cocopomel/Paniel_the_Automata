@@ -144,6 +144,9 @@
           <li>
             <defName>Immunity</defName>
           </li>
+          <li>
+            <defName>TooSmart</defName>
+          </li>
         </disallowedTraits>
         <additionalTraits>0</additionalTraits>
         <immuneToXenophobia>true</immuneToXenophobia>

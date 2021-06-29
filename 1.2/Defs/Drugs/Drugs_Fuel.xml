@@ -5,14 +5,12 @@
     <label>Automaton Fuel</label>
     <parent>Drugs</parent>
   </ThingCategoryDef>
+  
   <!--==================================== 오토마톤 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel</defName>
     <label>PnL fuel</label>
     <description>...</description>
-    <descriptionHyperlinks>
-      <ThingDef>PN_Fuelantidote</ThingDef>
-    </descriptionHyperlinks>
     <tickerType>Normal</tickerType>
     <tradeability>None</tradeability>
     <graphicData>
@@ -51,7 +49,7 @@
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>PN_Chemical_Fuel</chemical>
-        <addictiveness>1</addictiveness>
+        <addictiveness>0.000000001</addictiveness>
         <needLevelOffset>0.25</needLevelOffset>
         <listOrder>1028</listOrder>
       </li>
@@ -125,6 +123,7 @@
     <label>Automaton Fuel</label>
     <addictionHediff>PN_AutomatonFuel_Addiction</addictionHediff>
     <canBinge>false</canBinge>
+    <onGeneratedAddictedToleranceChance>0</onGeneratedAddictedToleranceChance>
   </ChemicalDef>
 
   <HediffDef ParentName="AddictionBase">
@@ -169,8 +168,192 @@
     </modExtensions>
   </HediffDef>
 
-  <!--==================================== 연료 해독제 ====================================-->
+  <!--==================================== 플러스 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
+    <defName>PN_AutomatonFuel_Plus</defName>
+    <label>PnL plus fuel</label>
+    <description>...</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>Things/Drugs/Paniel_Fuel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>60</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>210</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>25</chairSearchRadius>
+      <drugCategory>Medical</drugCategory>
+      <tasteThought>PN_Ateplusfuel_nopn</tasteThought>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PN_ateFuel</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>PN_Chemical_Fuel</chemical>
+        <addictiveness>0.000000001</addictiveness>
+        <needLevelOffset>0.25</needLevelOffset>
+        <listOrder>1029</listOrder>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+        <startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
+    </comps>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <thingCategories Inherit="false">
+      <li>PN_Fuel</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThoughtDef>
+    <defName>PN_Ateplusfuel_nopn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate PnL fuel</label>
+        <description>...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PN_Ateplusfuel_yespn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate plus fuel</label>
+        <description>I ate a really tasty fuel. Yum!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--==================================== 프리미엄 연료 ====================================-->
+  <ThingDef ParentName="DrugPillBase">
+    <defName>PN_AutomatonFuel_Premium</defName>
+    <label>PnL premium fuel</label>
+    <description>...</description>
+    <tickerType>Normal</tickerType>
+    <tradeability>None</tradeability>
+    <graphicData>
+      <texPath>Things/Drugs/Paniel_Fuel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>60</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>210</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>25</chairSearchRadius>
+      <drugCategory>Medical</drugCategory>
+      <tasteThought>PN_Atepremiumfuel_nopn</tasteThought>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PN_ateFuel</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>PN_Chemical_Fuel</chemical>
+        <addictiveness>0.000000001</addictiveness>
+        <needLevelOffset>0.25</needLevelOffset>
+        <listOrder>1030</listOrder>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+        <startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
+    </comps>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <thingCategories Inherit="false">
+      <li>PN_Fuel</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThoughtDef>
+    <defName>PN_Atepremiumfuel_nopn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate PnL fuel</label>
+        <description>...</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PN_Atepremiumfuel_yespn</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate premium fuel</label>
+        <description>That fuel was amazing. It provided energy to my body and my soul.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--==================================== 연료 해독제 ====================================-->
+  <!--<ThingDef ParentName="DrugPillBase">
     <defName>PN_Fuelantidote</defName>
     <label>PnL fuel Antidote</label>
     <description>...</description>
@@ -229,10 +412,10 @@
     <tradeTags Inherit="false">
 
     </tradeTags>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 연료 해독제 효과 ====================================-->
-  <HediffDef>
+  <!--<HediffDef>
     <defName>PN_FuelAntidoteEffect</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>Antidote Effect</label>
@@ -253,195 +436,5 @@
         <debug>false</debug>
       </li>
     </comps>
-  </HediffDef>
-
-  <!--==================================== 플러스 연료 ====================================-->
-  <ThingDef ParentName="DrugPillBase">
-    <defName>PN_AutomatonFuel_Plus</defName>
-    <label>PnL plus fuel</label>
-    <description>...</description>
-    <descriptionHyperlinks>
-      <ThingDef>PN_Fuelantidote</ThingDef>
-    </descriptionHyperlinks>
-    <tickerType>Normal</tickerType>
-    <tradeability>None</tradeability>
-    <graphicData>
-      <texPath>Things/Drugs/Paniel_Fuel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <stackLimit>100</stackLimit>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MarketValue>60</MarketValue>
-      <Mass>0.01</Mass>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <ingestible>
-      <foodType>Processed</foodType>
-      <baseIngestTicks>210</baseIngestTicks>
-      <ingestSound>Ingest_Drink</ingestSound>
-      <ingestHoldOffsetStanding>
-        <northDefault>
-          <offset>(0.18,0,0)</offset>
-        </northDefault>
-      </ingestHoldOffsetStanding>
-      <ingestCommandString>Drink {0}</ingestCommandString>
-      <ingestReportString>Drinking {0}.</ingestReportString>
-      <useEatingSpeedStat>false</useEatingSpeedStat>
-      <chairSearchRadius>25</chairSearchRadius>
-      <drugCategory>Medical</drugCategory>
-      <tasteThought>PN_Ateplusfuel_nopn</tasteThought>
-      <outcomeDoers>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>PN_ateFuel</hediffDef>
-          <severity>1</severity>
-        </li>
-      </outcomeDoers>
-    </ingestible>
-    <comps>
-      <li Class="CompProperties_Drug">
-        <chemical>PN_Chemical_Fuel</chemical>
-        <addictiveness>1</addictiveness>
-        <needLevelOffset>0.25</needLevelOffset>
-        <listOrder>1029</listOrder>
-      </li>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>1.1</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
-        <startWickOnDamageTaken>
-          <li>Flame</li>
-        </startWickOnDamageTaken>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-        <preExplosionSpawnChance>1</preExplosionSpawnChance>
-        <wickTicks>70~150</wickTicks>
-      </li>
-    </comps>
-    <tradeTags Inherit="false">
-
-    </tradeTags>
-    <thingCategories Inherit="false">
-      <li>PN_Fuel</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThoughtDef>
-    <defName>PN_Ateplusfuel_nopn</defName>
-    <durationDays>1</durationDays>
-    <stages>
-      <li>
-        <label>ate PnL fuel</label>
-        <description>...</description>
-        <baseMoodEffect>-4</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-
-  <ThoughtDef>
-    <defName>PN_Ateplusfuel_yespn</defName>
-    <durationDays>1</durationDays>
-    <stages>
-      <li>
-        <label>ate plus fuel</label>
-        <description>I ate a really tasty fuel. Yum!</description>
-        <baseMoodEffect>5</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-
-  <!--==================================== 프리미엄 연료 ====================================-->
-  <ThingDef ParentName="DrugPillBase">
-    <defName>PN_AutomatonFuel_Premium</defName>
-    <label>PnL premium fuel</label>
-    <description>...</description>
-    <descriptionHyperlinks>
-      <ThingDef>PN_Fuelantidote</ThingDef>
-    </descriptionHyperlinks>
-    <tickerType>Normal</tickerType>
-    <tradeability>None</tradeability>
-    <graphicData>
-      <texPath>Things/Drugs/Paniel_Fuel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <stackLimit>100</stackLimit>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MarketValue>60</MarketValue>
-      <Mass>0.01</Mass>
-    </statBases>
-    <techLevel>Neolithic</techLevel>
-    <ingestible>
-      <foodType>Processed</foodType>
-      <baseIngestTicks>210</baseIngestTicks>
-      <ingestSound>Ingest_Drink</ingestSound>
-      <ingestHoldOffsetStanding>
-        <northDefault>
-          <offset>(0.18,0,0)</offset>
-        </northDefault>
-      </ingestHoldOffsetStanding>
-      <ingestCommandString>Drink {0}</ingestCommandString>
-      <ingestReportString>Drinking {0}.</ingestReportString>
-      <useEatingSpeedStat>false</useEatingSpeedStat>
-      <chairSearchRadius>25</chairSearchRadius>
-      <drugCategory>Medical</drugCategory>
-      <tasteThought>PN_Atepremiumfuel_nopn</tasteThought>
-      <outcomeDoers>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>PN_ateFuel</hediffDef>
-          <severity>1</severity>
-        </li>
-      </outcomeDoers>
-    </ingestible>
-    <comps>
-      <li Class="CompProperties_Drug">
-        <chemical>PN_Chemical_Fuel</chemical>
-        <addictiveness>1</addictiveness>
-        <needLevelOffset>0.25</needLevelOffset>
-        <listOrder>1030</listOrder>
-      </li>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>1.1</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
-        <startWickOnDamageTaken>
-          <li>Flame</li>
-        </startWickOnDamageTaken>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-        <preExplosionSpawnChance>1</preExplosionSpawnChance>
-        <wickTicks>70~150</wickTicks>
-      </li>
-    </comps>
-    <tradeTags Inherit="false">
-
-    </tradeTags>
-    <thingCategories Inherit="false">
-      <li>PN_Fuel</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThoughtDef>
-    <defName>PN_Atepremiumfuel_nopn</defName>
-    <durationDays>1</durationDays>
-    <stages>
-      <li>
-        <label>ate PnL fuel</label>
-        <description>...</description>
-        <baseMoodEffect>-4</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-
-  <ThoughtDef>
-    <defName>PN_Atepremiumfuel_yespn</defName>
-    <durationDays>1</durationDays>
-    <stages>
-      <li>
-        <label>ate premium fuel</label>
-        <description>That fuel was amazing. It provided energy to my body and my soul.</description>
-        <baseMoodEffect>12</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
+  </HediffDef>-->
 </Defs>

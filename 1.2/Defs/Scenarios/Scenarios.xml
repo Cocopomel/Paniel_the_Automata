@@ -2,10 +2,10 @@
 <Defs>
 <ScenarioDef>
     <defName>Paniel_Scenarios</defName>
-    <label>Automaton test subject</label>
-    <description>test</description>
+    <label>Initial Testing Program: Automaton</label>
+    <description>PnL Industry has launched their newest product with superior intelligence capability. They scheduled initial testing program to measure its survivability under extreme(or harsh) conditions such as Rim World.\n\nParticipating test subject can perform researches and acquire skills identical to typical human beings. However, under harsh circumstances, these test subjects seem to be "mentally unstable."\n\nTip : Boomabear produces chemfuel.</description>
     <scenario>
-      <summary>이 시나리오는 아직 완성되지 않았습니다.</summary>
+      <summary>PnL Industry wants to test a new type of automaton.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>Paniel_PlayerFaction</factionDef>
@@ -25,6 +25,18 @@
           <context>PlayerStarter</context>
         </li>
 
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <visible>false</visible>
+          <method>DropPods</method>
+        </li>
+
+        <!-- Starting research -->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>PNRP_Production</project>
+        </li>
+
         <!-- Game start dialog -->
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
@@ -32,65 +44,17 @@
           <closeSound>GameStartSting</closeSound>
         </li>
 
-        <!-- test item -->
+        <!-- Player starting things -->
         <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>PN_Brain</thingDef>
-					<count>10</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>AIPersonaCore</thingDef>
-					<count>10</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Plasteel</thingDef>
-					<count>750</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Steel</thingDef>
-					<count>750</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Leather_Automaton</thingDef>
-					<count>200</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>Chemfuel</thingDef>
-					<count>200</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>ComponentIndustrial</thingDef>
-					<count>200</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>ComponentSpacer</thingDef>
-					<count>200</count>
-				</li>
-
-        <li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>MealSurvivalPack</thingDef>
-					<count>30</count>
+					<thingDef>PN_BrainCasing</thingDef>
+					<count>3</count>
 				</li>
 
         <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>PN_AutomatonFuel</thingDef>
-					<count>30</count>
+					<count>60</count>
 				</li>
       </parts>
     </scenario>

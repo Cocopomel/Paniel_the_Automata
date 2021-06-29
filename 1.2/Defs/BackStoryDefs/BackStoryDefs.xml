@@ -1006,11 +1006,16 @@
     <workDisables>
 
     </workDisables>
-    <spawnCategories>
+    <spawnCategories Inherit="false">
       <li>Paniel_Story_Testsubject</li>
     </spawnCategories>
-    <!--<forcedHediffs>
-			<li></li>
-		</forcedHediffs>-->
+    <forcedHediffs>
+			<!--<li></li>-->
+		</forcedHediffs>
+    <forcedTraits>
+        <!--<li>
+            <defName></defName>
+        </li>-->
+    </forcedTraits>
   </AlienRace.BackstoryDef>
 </Defs>
