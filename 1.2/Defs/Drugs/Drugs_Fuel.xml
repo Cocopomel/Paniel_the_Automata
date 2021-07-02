@@ -14,9 +14,11 @@
     <tickerType>Normal</tickerType>
     <tradeability>None</tradeability>
     <graphicData>
-      <texPath>Things/Drugs/Paniel_Fuel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNFuel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <stackLimit>100</stackLimit>
     <rotatable>false</rotatable>
     <statBases>

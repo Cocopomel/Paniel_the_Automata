@@ -132,7 +132,7 @@
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <fuelMultiplier>1</fuelMultiplier>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <outOfFuelMessage>Cannot shoot: No shells</outOfFuelMessage>
+        <outOfFuelMessage>Cannot shoot: No PnL shells</outOfFuelMessage>
         <fuelIconPath>Things/Building/PN_shellfuel</fuelIconPath>
       </li>
     </comps>
@@ -238,8 +238,9 @@
     <label>PnL high-explosive shell</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Shell/Shell_HighExplosive</texPath>
+      <texPath>Things/Item/PNShellHE</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Industrial</techLevel>
     <stackLimit>25</stackLimit>
