@@ -954,7 +954,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
-      <!--<li>
+      <li>
         <defName>Shooting</defName>
         <amount>2</amount>
       </li>
@@ -967,19 +967,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Cooking</defName>
-        <amount>2</amount>
-      </li>
-      <li>
         <defName>Plants</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Animals</defName>
         <amount>2</amount>
       </li>
       <li>
@@ -987,35 +975,53 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Artistic</defName>
-        <amount>2</amount>
-      </li>
-      <li>
         <defName>Medicine</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Social</defName>
         <amount>2</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
         <amount>2</amount>
-      </li>-->
+      </li>
     </skillGains>
     <workDisables>
-
+      <li>Artistic</li>
     </workDisables>
     <spawnCategories Inherit="false">
       <li>Paniel_Story_Testsubject</li>
     </spawnCategories>
     <forcedHediffs>
-			<!--<li></li>-->
-		</forcedHediffs>
+      <!--<li></li>-->
+    </forcedHediffs>
     <forcedTraits>
-        <!--<li>
+      <!--<li>
             <defName></defName>
         </li>-->
     </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>2</degree>
+      </li>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>1</degree>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>2</degree>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>1</degree>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>-2</degree>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
 </Defs>

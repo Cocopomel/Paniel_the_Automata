@@ -144,6 +144,102 @@
     </recipeUsers>
   </RecipeDef>
 
+  <!--==================================== 실험 모듈 ====================================-->
+  <HediffDef ParentName="PN_ImplantHediffBase">
+    <defName>PN_ExperimentalModuleHediff</defName>
+    <label>Experimental Module</label>
+    <description>...</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ExperimentalModule</ThingDef>
+    </descriptionHyperlinks>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>1.0</PsychicSensitivity>
+          <GlobalLearningFactor>2.0</GlobalLearningFactor>
+          <ResearchSpeed>1.0</ResearchSpeed>
+          <MentalBreakThreshold>0.08</MentalBreakThreshold>
+        </statOffsets>
+        <mentalStateGivers>
+          <li>
+            <mentalState>FireStartingSpree</mentalState>
+            <mtbDays>240</mtbDays>
+          </li>
+          <li>
+            <mentalState>WanderConfused</mentalState>
+            <mtbDays>30</mtbDays>
+          </li>
+          <li>
+            <mentalState>Berserk</mentalState>
+            <mtbDays>240</mtbDays>
+          </li>
+          <li>
+            <mentalState>Tantrum</mentalState>
+            <mtbDays>120</mtbDays>
+          </li>
+          <li>
+            <mentalState>InsultingSpree</mentalState>
+            <mtbDays>60</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>BrainShock</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <ThingDef ParentName="PN_BodyPartNormalBase">
+    <defName>PN_ExperimentalModule</defName>
+    <label>automaton experimental module</label>
+    <description>...</description>
+    <descriptionHyperlinks>
+      <RecipeDef>PN_InstallExperimentalModule</RecipeDef>
+    </descriptionHyperlinks>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <AIPersonaCore>1</AIPersonaCore>
+    </costList>
+    <statBases>
+      <Mass>0.3</Mass>
+    </statBases>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <techHediffsTags>
+      <li>PN_TestsubjectHadiff</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+    <defName>PN_InstallExperimentalModule</defName>
+    <label>install experimental module</label>
+    <description>Install a experimental module.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ExperimentalModule</ThingDef>
+      <HediffDef>PN_ExperimentalModuleHediff</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing experimental module.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_ExperimentalModule</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>PNBrain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>PN_ExperimentalModuleHediff</addsHediff>
+  </RecipeDef>
+
   <!--==================================== 부활 모듈 ====================================-->
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ResurrectModule</defName>
@@ -198,9 +294,6 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>PN_ResurrectModule</li>
-      </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>PNCore</li>
