@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 폰카인드 베이스 
+	<PawnKindDef Name="PanielBasePawnKind" Abstract="True">
+		<race>Paniel_Race</race>
+		<defaultFactionType>PN_LiberatedFaction</defaultFactionType>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<invNutrition>2</invNutrition>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<minGenerationAge>15</minGenerationAge>
+		<maxGenerationAge>15</maxGenerationAge>
+	</PawnKindDef>-->
+	
+  <!--템플릿
+	<PawnKindDef ParentName="PanielBasePawnKind">
+		<defName>PN_</defName>
+		<label>Paniel </label>
+		<combatPower>50</combatPower>
+		<isFighter>false</isFighter>
+		<itemQuality>Normal</itemQuality>
+		<apparelTags>
+			<li></li>
+		</apparelTags>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li></li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<apparelMoney>200~400</apparelMoney>
+		<weaponTags>
+			<li>Gun</li>
+			<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<weaponMoney>65~250</weaponMoney>		
+		<techHediffsChance>0.06</techHediffsChance>
+		<techHediffsMoney>50~600</techHediffsMoney>
+		<techHediffsTags>
+			<li>simple</li>
+		</techHediffsTags>	
+	</PawnKindDef>
+  -->
+</Defs>

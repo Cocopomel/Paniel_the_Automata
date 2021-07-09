@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectTagDef>
+    <defName>PanielStart</defName>
+  </ResearchProjectTagDef>
+
+  <ResearchTabDef>
+    <defName>PN_technology</defName>
+    <label>PnL technology</label>
+  </ResearchTabDef>
+
+  <!--==================================== 기본 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_Production</defName>
+    <label>automaton production</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BiofuelRefining</li>
+      <li>PsychiteRefining</li>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <!--==================================== 뇌적출 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_Brain</defName>
+    <label>core analysis</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_BrainCasing</defName>
+    <label>core casing</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Brain</li>
+      <li>Bionics</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+
+  <!--==================================== 수리 키트 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_SelfRepairKit</defName>
+    <label>self repair kit</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_ResurrectModule</defName>
+    <label>resurrect module</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_SelfRepairKit</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 의상 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierB_Apparel</defName>
+    <label>spelcialization cloth</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>Devilstrand</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierC_Apparel</defName>
+    <label>advanced cloth</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PNRP_TierB_Apparel</li>
+      <li>ReconArmor</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 무기 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_AutomatonWeapons</defName>
+    <label>basic weapons</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>PNRP_MachineGun</defName>
+    <label>machine gun</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>GasOperation</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Cannon</defName>
+    <label>portable cannon</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>Mortars</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_AutoArtillery</defName>
+    <label>auto artillery</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Cannon</li>
+      <li>HeavyTurrets</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_RoyalWeapons</defName>
+    <label>advanced weapons</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>ChargedShot</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+</Defs>

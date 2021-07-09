@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <!-- 티어B메이드 -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelMaid"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelMaidHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <!-- 티어B워커 -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelWorker"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelWorkerHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <!-- 티어B솔져 -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelSoldier"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelSoldierHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <!-- 티어C로얄가드 -->
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalguard"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalguardHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+</Operation>
+</Patch>
