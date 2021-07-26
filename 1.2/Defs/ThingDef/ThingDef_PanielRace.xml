@@ -161,6 +161,7 @@
           <useGenderedHeads>false</useGenderedHeads>
           <customDrawSize>(1, 1)</customDrawSize>
           <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+          <headBodyPartDef>PNHead</headBodyPartDef>
           <!--색상관련-->
           <colorChannels>
             <li>
@@ -335,7 +336,7 @@
             <li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
               <path>Paniel/Face/Face</path>
-              <bodyPart>Head</bodyPart>
+              <bodyPart>head case</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
               <layerInvert>false</layerInvert>
@@ -476,7 +477,6 @@
           <li>ReleasedHealthyPrisoner</li>
           <li>KnowGuestOrganHarvested</li>
           <li>MyOrganHarvested</li>
-          <li>Nuzzled</li>
           <li>SoakingWet</li>
           <li>ButcheredHumanlikeCorpse</li>
           <li>KnowButcheredHumanlikeCorpse</li>
@@ -792,7 +792,12 @@
         </li>
       </startingColonists>
       <alienslavekinds>
-
+        <li>
+          <kindDefs>
+            <li>Paniel_ColonistPawn</li>
+          </kindDefs>
+          <chance>100.0</chance>
+        </li>
       </alienslavekinds>
       <alienrefugeekinds>
 

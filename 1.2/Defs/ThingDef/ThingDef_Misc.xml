@@ -34,14 +34,14 @@
       <li Class="CompProperties_Explosive">
         <compClass>AutomataRace.CompExplosiveInstant</compClass>
         <explosiveRadius>1.5</explosiveRadius>
-        <explosiveDamageType>PN_CorpseBomb</explosiveDamageType>
-        <requiredDamageTypeToExplode>PN_CorpseBomb</requiredDamageTypeToExplode>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <requiredDamageTypeToExplode>Bomb</requiredDamageTypeToExplode>
         <wickTicks>200~750</wickTicks>
       </li>
     </comps>
   </AutomataRace.ThingDefInjectDef>
 
-  <DamageDef>
+  <!--<DamageDef>
     <defName>PN_CorpseBomb</defName>
     <label>bomb</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
@@ -66,7 +66,7 @@
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
-  </DamageDef>
+  </DamageDef>-->
 
   <!--==================================== 고어 설정 ====================================-->
   <ThingDef ParentName="BaseFilth">

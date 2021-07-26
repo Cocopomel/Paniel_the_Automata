@@ -183,6 +183,7 @@
           <li>Scaria</li>
           <li>FoodPoisoning</li>
           <li>ResurrectionSickness</li>
+          <li>PsychiteAddiction</li>
         </hediffToNullify>
         <showMessage>true</showMessage>
         <nullifyKey>PN_HediffNullifier</nullifyKey>

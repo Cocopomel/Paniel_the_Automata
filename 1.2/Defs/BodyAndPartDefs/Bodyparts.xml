@@ -90,7 +90,7 @@
 
   <BodyPartDef>
     <defName>PNCore</defName>
-    <label>automaton core</label>
+    <label>engine core</label>
     <hitPoints>15</hitPoints>
     <bleedRate>5</bleedRate>
     <skinCovered>false</skinCovered>
@@ -152,14 +152,14 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-  <!--<BodyPartDef>
+  <BodyPartDef>
         <defName>PNHead</defName>
         <label>head case</label>
         <hitPoints>25</hitPoints>
         <skinCovered>true</skinCovered>
         <canSuggestAmputation>false</canSuggestAmputation>
         <bleedRate>2</bleedRate>
-    </BodyPartDef>-->
+    </BodyPartDef>
 
   <BodyPartDef>
     <defName>PNSkull</defName>
@@ -175,7 +175,7 @@
 
   <BodyPartDef>
     <defName>PNBrain</defName>
-    <label>automaton brain</label>
+    <label>brain core</label>
     <hitPoints>10</hitPoints>
     <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
     <delicate>true</delicate>

@@ -71,7 +71,7 @@
         </li>
         <li>
           <def>PNCore</def>
-          <customLabel>automaton core</customLabel>
+          <customLabel>engine core</customLabel>
           <coverage>0.020</coverage>
           <depth>Inside</depth>
           <groups>
@@ -134,7 +134,7 @@
           </groups>
           <parts>
             <li>
-              <def>Head</def>
+              <def>PNHead</def>
               <customLabel>head case</customLabel>
               <coverage>0.80</coverage>
               <groups>
@@ -155,7 +155,7 @@
                   <parts>
                     <li>
                       <def>PNBrain</def>
-                      <customLabel>automaton brain</customLabel>
+                      <customLabel>brain core</customLabel>
                       <coverage>0.8</coverage>
                       <groups>
                         <li>UpperHead</li>

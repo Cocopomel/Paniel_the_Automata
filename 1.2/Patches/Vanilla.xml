@@ -7,9 +7,19 @@
     </value>
   </Operation>
   <!--<Operation Class="PatchOperationAdd">
-    <xpath>*[defName = "Corpse_Paniel_Race"]</xpath>
+    <xpath>*/WorkGiverDef[defName="ChatWithPrisoner"]</xpath>
     <value>
-      <alwaysHaulable>false</alwaysHaulable>
+      <workTags>
+        <li>PN_noPrisoner</li>
+      </workTags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/WorkGiverDef[defName="Research"]</xpath>
+    <value>
+      <workTags>
+        <li>PN_noResearch</li>
+      </workTags>
     </value>
   </Operation>-->
 </Patch>
