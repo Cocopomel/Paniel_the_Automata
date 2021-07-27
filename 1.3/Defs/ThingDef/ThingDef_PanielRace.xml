@@ -153,7 +153,14 @@
         <alienPartGenerator>
           <atlasScale>2</atlasScale>
           <aliencrowntypes>
-            <li>HeadsAverage_Normal</li>
+            <li>PNHead1</li>
+            <li>PNHead2</li>
+            <li>PNHead3</li>
+            <li>PNHead4</li>
+            <li>PNHead5</li>
+            <li>PNHead6</li>
+            <li>PNHead7</li>
+            <li>PNHead8</li>
           </aliencrowntypes>
           <alienbodytypes>
             <li>Female</li>
@@ -411,7 +418,7 @@
       <graphicPaths>
         <li>
           <body>Paniel/Body/</body>
-          <head>Paniel/Head/</head>
+          <head>Paniel/Head/Heads/</head>
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>
@@ -420,9 +427,9 @@
           <key>HairDef</key>
           <value>
             <hasStyle>true</hasStyle>
-            <styleTags>
+            <styleTagsOverride>
               <li>PanielHair</li>
-            </styleTags>
+            </styleTagsOverride>
           </value>
         </li>
         <li>
