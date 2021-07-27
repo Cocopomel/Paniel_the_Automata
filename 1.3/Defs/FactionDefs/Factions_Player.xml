@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <FactionDef Abstract="True" Name="Paniel_PlayerBase">
+  <FactionDef Abstract="True" Name="Paniel_PlayerBase" ParentName="FactionBase">
     <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
     <colorSpectrum>
       <li>(255, 255, 255)</li>

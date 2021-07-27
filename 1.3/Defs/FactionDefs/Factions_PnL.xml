@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <FactionDef>
+  <FactionDef ParentName="FactionBase">
     <defName>PN_indistryFaction</defName>
     <label>PnL_hidden</label>
     <pawnSingular>Automaton</pawnSingular>
@@ -11,9 +11,6 @@
     <hidden>true</hidden>
     <autoFlee>false</autoFlee>
     <techLevel>Industrial</techLevel>
-    <hairTags>
-      <li>PanielHair</li>
-    </hairTags>
     <backstoryFilters>
       <li>
         <categories>

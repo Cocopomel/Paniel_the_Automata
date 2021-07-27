@@ -1,82 +1,87 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <StyleItemCategoryDef>
+    <defName>PanielHair</defName>
+    <label>Paniel hair</label>
+  </StyleItemCategoryDef>
+
   <HairDef>
     <defName>Paniel_HairA</defName>
     <label>Paniel HairA</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairA</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairB</defName>
     <label>Paniel HairB</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairB</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairC</defName>
     <label>Paniel HairC</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairC</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairD</defName>
     <label>Paniel HairD</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairD</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairE</defName>
     <label>Paniel HairE</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairE</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairF</defName>
     <label>Paniel HairF</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairF</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairG</defName>
     <label>Paniel HairG</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairG</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 
   <HairDef>
     <defName>Paniel_HairH</defName>
     <label>Paniel HairH</label>
-    <hairGender>Any</hairGender>
+    <styleGender>Any</styleGender>
     <texPath>Paniel/Hair/Paniel_HairH</texPath>
-    <hairTags>
+    <styleTags>
       <li>PanielHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
 </Defs>

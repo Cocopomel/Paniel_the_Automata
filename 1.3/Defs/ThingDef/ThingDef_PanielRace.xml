@@ -151,6 +151,7 @@
         <additionalTraits>0</additionalTraits>
         <immuneToXenophobia>true</immuneToXenophobia>
         <alienPartGenerator>
+          <atlasScale>2</atlasScale>
           <aliencrowntypes>
             <li>HeadsAverage_Normal</li>
           </aliencrowntypes>
@@ -197,19 +198,22 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
-              <layerOffset>-0.268</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
               <offsets>
                 <south>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.165)</Female>
                   </bodyTypes>
                 </south>
                 <north>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.5)</Female>
                   </bodyTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.15)</Female>
                   </bodyTypes>
@@ -225,20 +229,23 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <layerOffset>-0.268</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
               <angle>0</angle>
               <offsets>
                 <south>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.43,0.565)</Female>
                   </bodyTypes>
                 </south>
                 <north>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
@@ -254,20 +261,23 @@
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <layerOffset>-0.268</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
               <angle>0</angle>
               <offsets>
                 <south>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <north>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.885)</Female>
                   </bodyTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.565)</Female>
                   </bodyTypes>
@@ -283,20 +293,23 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <layerOffset>-0.268</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
               <angle>0</angle>
               <offsets>
                 <south>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.565)</Female>
                   </bodyTypes>
                 </south>
                 <north>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
@@ -312,20 +325,23 @@
               <inFrontOfBody>true</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <layerOffset>-0.268</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
               <angle>0</angle>
               <offsets>
                 <south>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <north>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.885)</Female>
                   </bodyTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.268</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.565)</Female>
                   </bodyTypes>
@@ -333,7 +349,7 @@
               </offsets>
             </li>
 
-            <li Class="MoharCustomHAR.MoharBodyAddon">
+            <!--<li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
               <path>Paniel/Face/Face</path>
               <bodyPart>head case</bodyPart>
@@ -388,7 +404,7 @@
                   </li>
                 </hideIfJob>
               </jobParams>
-            </li>
+            </li>-->
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
@@ -399,12 +415,29 @@
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-        <hairTags>
-          <li>PanielHair</li>
-        </hairTags>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTags>
+              <li>PanielHair</li>
+            </styleTags>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <thoughtSettings>
         <replacerList>
           <!--연료-->
@@ -455,7 +488,6 @@
           <!--memory eating-->
           <li>AteLavishMeal</li>
           <li>AteFineMeal</li>
-          <li>AteAwfulMeal</li>
           <li>AteRawFood</li>
           <li>AteHumanlikeMeatDirect</li>
           <li>AteHumanlikeMeatDirectCannibal</li>

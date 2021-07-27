@@ -145,7 +145,7 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
     <comps>
-      <li Class="CompProperties_BiocodableWeapon"/>
+      
     </comps>
   </ThingDef>
 
@@ -769,14 +769,15 @@
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Sharp</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>32</defaultDamage>
+    <defaultDamage>50</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactor>3.125</buildingDamageFactor>
-    <plantDamageFactor>3.125</plantDamageFactor>
+    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+    <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
-    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
     <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
     <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
     <soundExplosion>Explosion_Bomb</soundExplosion>
@@ -1129,7 +1130,7 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
-      <li Class="CompProperties_BiocodableWeapon"/>
+      
     </comps>
     <equippedAngleOffset>45</equippedAngleOffset>
   </ThingDef>

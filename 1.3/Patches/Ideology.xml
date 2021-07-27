@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/CultureDef[defName = *]/styleItemTags</xpath>
+          <value>
+            <li>
+              <tag>PanielHair</tag>
+              <baseWeight>0.0001</baseWeight>
+              <weightFactor>0.0001</weightFactor>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
