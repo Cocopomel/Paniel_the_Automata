@@ -3,8 +3,6 @@
   <AutomataRace.AutomataRaceSettings>
     <defName>Paniel_Race</defName>
     <needBlacklists>      <!--Need def-->
-      <li>Beauty</li>
-      <li>Comfort</li>
       <li>Outdoors</li>
       <li>DrugDesire</li>
       <li>RoomSize</li>
