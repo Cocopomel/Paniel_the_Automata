@@ -8,6 +8,7 @@
     <description>...</description>
     <causesNeed>PN_Need_Maintenance</causesNeed>
     <scenarioCanAdd>false</scenarioCanAdd>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
     <stages>
       <li>
         <label>urgent</label>
