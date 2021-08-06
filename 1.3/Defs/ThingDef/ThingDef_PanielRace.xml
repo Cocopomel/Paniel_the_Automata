@@ -151,7 +151,7 @@
         <additionalTraits>0</additionalTraits>
         <immuneToXenophobia>true</immuneToXenophobia>
         <alienPartGenerator>
-          <atlasScale>2</atlasScale>
+          <atlasScale>4</atlasScale>
           <aliencrowntypes>
             <li>PNHead1</li>
             <li>PNHead2</li>
@@ -206,6 +206,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <south>
                   <layerOffset>-0.268</layerOffset>
@@ -237,6 +238,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -269,6 +271,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -301,6 +304,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -333,6 +337,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
