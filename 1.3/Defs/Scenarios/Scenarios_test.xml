@@ -92,6 +92,18 @@
 					<thingDef>PN_AutomatonFuel</thingDef>
 					<count>30</count>
 				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_Fueldrumcan</thingDef>
+					<count>75</count>
+				</li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_Shell_HighExplosive</thingDef>
+					<count>75</count>
+				</li>
       </parts>
     </scenario>
   </ScenarioDef>

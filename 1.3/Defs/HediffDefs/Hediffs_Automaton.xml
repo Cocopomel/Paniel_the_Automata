@@ -8,6 +8,7 @@
     <maxSeverity>1</maxSeverity>
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
   </HediffDef>
 
   <HediffDef ParentName="PanielSynchroBase">

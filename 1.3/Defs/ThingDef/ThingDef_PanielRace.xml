@@ -151,7 +151,7 @@
         <additionalTraits>0</additionalTraits>
         <immuneToXenophobia>true</immuneToXenophobia>
         <alienPartGenerator>
-          <atlasScale>2</atlasScale>
+          <atlasScale>4</atlasScale>
           <aliencrowntypes>
             <li>PNHead1</li>
             <li>PNHead2</li>
@@ -167,6 +167,7 @@
           </alienbodytypes>
           <headOffset>(-0.09, 0.0)</headOffset>
           <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
           <customDrawSize>(1, 1)</customDrawSize>
           <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
           <headBodyPartDef>PNHead</headBodyPartDef>
@@ -206,6 +207,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <south>
                   <layerOffset>-0.268</layerOffset>
@@ -237,6 +239,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -269,6 +272,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -301,6 +305,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -333,6 +338,7 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
               <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
                 <south>
@@ -491,19 +497,12 @@
           <!--memory death-->
           <li>KnowGuestExecuted</li>
           <li>KnowPrisonerDiedInnocent</li>
-          <li>BondedAnimalDied</li>
           <!--memory eating-->
-          <li>AteLavishMeal</li>
-          <li>AteFineMeal</li>
           <li>AteRawFood</li>
           <li>AteHumanlikeMeatDirect</li>
-          <li>AteHumanlikeMeatDirectCannibal</li>
           <li>AteHumanlikeMeatAsIngredient</li>
-          <li>AteHumanlikeMeatAsIngredientCannibal</li>
           <li>AteInsectMeatDirect</li>
           <li>AteInsectMeatAsIngredient</li>
-          <!--memory lost-->
-          <li>BondedAnimalLost</li>
           <!--memory misc-->
           <li>AteWithoutTable</li>
           <li>SleepDisturbed</li>
@@ -512,38 +511,25 @@
           <li>SleptInCold</li>
           <li>SleptInHeat</li>
           <li>KnowPrisonerSold</li>
-          <li>FreedFromSlavery</li>
           <li>ReleasedHealthyPrisoner</li>
           <li>KnowGuestOrganHarvested</li>
-          <li>MyOrganHarvested</li>
           <li>SoakingWet</li>
           <li>ButcheredHumanlikeCorpse</li>
           <li>KnowButcheredHumanlikeCorpse</li>
+          <li>ButcheredHumanlikeCorpseOpinion</li>
           <li>ObservedLayingCorpse</li>
           <li>ObservedLayingRottingCorpse</li>
-          <li>WitnessedDeathNonAlly</li>
-          <li>BondedAnimalBanished</li>
+          <li>DeniedJoining</li>
           <!--memory roomstat-->
-          <li>SleptInBedroom</li>
           <li>SleptInBarracks</li>
           <!--memory social-->
-          <li>SoldMyBondedAnimal</li>
-          <li>SoldMyBondedAnimalMood</li>
-          <li>ForcedMeToTakeDrugs</li>
-          <li>ForcedMeToTakeLuciferium</li>
-          <li>KilledMyBondedAnimal</li>
           <!--situation general-->
           <li>EnvironmentDark</li>
-          <li>WrongApparelGender</li>
-          <li>DeadMansApparel</li>
           <li>HumanLeatherApparelSad</li>
-          <li>HumanLeatherApparelHappy</li>
           <li>Sick</li>
           <li>EnvironmentCold</li>
           <li>EnvironmentHot</li>
           <!--situation need-->
-          <li>NeedComfort</li>
-          <li>NeedBeauty</li>
           <li>NeedRoomSize</li>
           <li>NeedOutdoors</li>
           <li>DrugDesireFascination</li>
@@ -551,7 +537,6 @@
           <li>DrugDesireInterest</li>
           <li>DrugDesireInterestSatisfied</li>
           <!--situation roomstat-->
-          <li>PrisonCell</li>
           <li>PrisonBarracks</li>
           <!--situation social-->
           <li>Incestuous</li>
@@ -560,7 +545,6 @@
           <li>TeetotalerVsChemicalInterest</li>
           <li>TeetotalerVsAddict</li>
           <li>ChemicalInterestVsTeetotaler</li>
-          <li>HoldingMePrisoner</li>
           <li>Drunk</li>
           <li>Pretty</li>
           <li>Ugly</li>
@@ -573,7 +557,6 @@
           <li>ButcheredHumanlikeCorpseOpinion</li>
           <li>AteRawHumanlikeMeat</li>
           <li>KilledColonyAnimal</li>
-          <li>BondedAnimalMaster</li>
           <li>NotBondedAnimalMaster</li>
           <!--situation special-->
           <li>SharedBed</li>
@@ -599,6 +582,31 @@
           <!--misc-->
           <li>Expectations</li>
           <li>PN_Atefuel_nopn</li>
+
+          <!--[Royalty]-->
+          <!--<li MayRequire="Ludeon.RimWorld.Royalty"></li>-->
+
+          <!--[Ideology]-->
+          <!--<li MayRequire="Ludeon.RimWorld.Ideology"></li>-->
+
+          <!--Thoughts_IdeoBuilding-->
+          <!--Thoughts_IdeoRaiding-->
+          <!--Thoughts_IdeoRole-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleLost</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleEmpty</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentStandard</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentDisapproved</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentHorrible</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentAbhorrent</li>
+          <!--Thoughts_Memory_Social-->
+          <!--Thoughts_Memory_Terror-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">ObservedTerror</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">ObservedGibbetCage</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">ObservedSkullspike</li>
+          <!--Thoughts_Ritual-->
+          <!--Thoughts_Ritual_Quality-->
+          <!--Thoughts_Situational-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
