@@ -34,7 +34,6 @@
     <costList>
       <Steel>150</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
-      <PN_AutomatonFuel>20</PN_AutomatonFuel>
     </costList>
     <inspectorTabs>
       <li>ITab_Shells</li>
@@ -83,8 +82,8 @@
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
-      <turretBurstWarmupTime>2.0</turretBurstWarmupTime>
-      <turretBurstCooldownTime>2.0</turretBurstCooldownTime>
+      <turretBurstWarmupTime>1.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>3.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
     </building>
@@ -117,10 +116,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <warmupTime>4.0</warmupTime>
-        <forcedMissRadius>2</forcedMissRadius>
-        <forcedMissRadiusClassicMortars>2</forcedMissRadiusClassicMortars>
+        <forcedMissRadius>1</forcedMissRadius>
+        <forcedMissRadiusClassicMortars>1</forcedMissRadiusClassicMortars>
         <isMortar>true</isMortar>
-        <requireLineOfSight>true</requireLineOfSight>
+        <requireLineOfSight>false</requireLineOfSight>
         <minRange>11.9</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
