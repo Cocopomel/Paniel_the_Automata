@@ -99,4 +99,37 @@
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>PNRP_Production</researchPrerequisite>
   </RecipeDef>
+
+  <RecipeDef>
+    <defName>PN_Drum_Subdivision</defName>
+    <label>subdivide drum can</label>
+    <description>...</description>
+    <jobString>Making automaton skin.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>800</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_Fueldrumcan</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_AutomatonFuel>10</PN_AutomatonFuel>
+      <Steel>5</Steel>
+    </products>
+    <skillRequirements>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>PNRP_Production</researchPrerequisite>
+  </RecipeDef>
 </Defs>

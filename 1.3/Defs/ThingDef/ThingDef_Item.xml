@@ -332,4 +332,63 @@
       <li>Paniel_Race</li>
     </recipeUsers>
   </RecipeDef>
+
+  <!--==================================== 연료 드럼 ====================================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_Fueldrumcan</defName>
+    <label>PnL fuel drum can</label>
+    <description>...</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PN_fueldrum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <stackLimit>25</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>51.5</MarketValue>
+      <Mass>5.5</Mass>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <costList>
+      <PN_AutomatonFuel>10</PN_AutomatonFuel>
+      <Steel>5</Steel>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <researchPrerequisite>PNRP_Production</researchPrerequisite>
+      <skillRequirements>
+
+      </skillRequirements>
+    </recipeMaker>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.37</explosiveExpandPerStackcount>
+        <startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>1</preExplosionSpawnChance>
+        <wickTicks>70~150</wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
 </Defs>

@@ -167,6 +167,7 @@
           </alienbodytypes>
           <headOffset>(-0.09, 0.0)</headOffset>
           <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
           <customDrawSize>(1, 1)</customDrawSize>
           <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
           <headBodyPartDef>PNHead</headBodyPartDef>

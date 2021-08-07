@@ -19,11 +19,14 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <uiIconForStackCount>1</uiIconForStackCount>
-    <stackLimit>100</stackLimit>
+    <stackLimit>150</stackLimit>
     <rotatable>false</rotatable>
     <statBases>
-      <MarketValue>60</MarketValue>
-      <Mass>0.01</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.2</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>

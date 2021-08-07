@@ -97,6 +97,7 @@
     <uiIconPath>Things/Building/PN_Artillery_Ui</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <thingCategories>
       <li>BuildingsSecurity</li>
     </thingCategories>
@@ -160,7 +161,9 @@
       <turretTopOffset>(0, 0.35)</turretTopOffset>
     </building>
     <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>PNRP_AutoArtillery</li>
@@ -198,7 +201,6 @@
       <drawSize>(6.0,6.0)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <menuHidden>true</menuHidden>
     <destroyOnDrop>true</destroyOnDrop>
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
@@ -221,7 +223,7 @@
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <defaultProjectile>PN_Bullet_Shell_HighExplosive</defaultProjectile>
         <warmupTime>5.0</warmupTime>
-        <forcedMissRadius>3</forcedMissRadius>
+        <forcedMissRadius>8</forcedMissRadius>
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>29.9</minRange>
         <range>500</range>
