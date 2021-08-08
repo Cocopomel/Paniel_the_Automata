@@ -10,6 +10,9 @@
       <Mass>80.0</Mass>
       <Flammability>0.2</Flammability>
     </statBases>
+    <thingCategories Inherit="false">
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
   </ThingDef>
 
   <!--확률:개별weight값/전체weight합-->
