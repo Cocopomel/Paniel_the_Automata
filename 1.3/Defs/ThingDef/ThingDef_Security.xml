@@ -2,6 +2,7 @@
 <Defs>
   <!--==================================== 오토캐논 ====================================-->
   <ThingDef Name="PN_BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
+    <designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
