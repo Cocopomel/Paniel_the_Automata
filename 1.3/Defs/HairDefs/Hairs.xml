@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <StyleItemCategoryDef>
+  <!--<StyleItemCategoryDef>
     <defName>PanielHair</defName>
     <label>Paniel hair</label>
   </StyleItemCategoryDef>
@@ -83,5 +83,5 @@
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
-  </HairDef>
+  </HairDef>-->
 </Defs>
