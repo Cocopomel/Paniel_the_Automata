@@ -108,7 +108,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(6.0,6.0)</drawSize>
     </graphicData>
-    <recoilPower>10</recoilPower>
+    <recoilPower>20</recoilPower>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <weaponTags Inherit="false">
     </weaponTags>
