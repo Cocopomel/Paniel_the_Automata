@@ -7,7 +7,8 @@
     <match Class="PatchOperationSequence">
       <success>Always</success>
       <operations>
-        <li Class="PatchOperationAdd">
+        <!--헤어패치-->
+        <!--<li Class="PatchOperationAdd">
           <xpath>/Defs/CultureDef[defName = *]/styleItemTags</xpath>
           <value>
             <li>
@@ -16,7 +17,7 @@
               <weightFactor>0.0001</weightFactor>
             </li>
           </value>
-        </li>
+        </li>-->
       </operations>
     </match>
   </Operation>

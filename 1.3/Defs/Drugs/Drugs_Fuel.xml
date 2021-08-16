@@ -174,7 +174,7 @@
   </HediffDef>
 
   <!--==================================== 플러스 연료 ====================================-->
-  <ThingDef ParentName="DrugPillBase">
+  <!--<ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel_Plus</defName>
     <label>PnL plus fuel</label>
     <description>...</description>
@@ -239,7 +239,7 @@
     <thingCategories Inherit="false">
       <li>PN_Fuel</li>
     </thingCategories>
-  </ThingDef>
+  </ThingDef>-->
 
   <ThoughtDef>
     <defName>PN_Ateplusfuel_nopn</defName>
@@ -266,7 +266,7 @@
   </ThoughtDef>
 
   <!--==================================== 프리미엄 연료 ====================================-->
-  <ThingDef ParentName="DrugPillBase">
+  <!--<ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel_Premium</defName>
     <label>PnL premium fuel</label>
     <description>...</description>
@@ -331,7 +331,7 @@
     <thingCategories Inherit="false">
       <li>PN_Fuel</li>
     </thingCategories>
-  </ThingDef>
+  </ThingDef>-->
 
   <ThoughtDef>
     <defName>PN_Atepremiumfuel_nopn</defName>

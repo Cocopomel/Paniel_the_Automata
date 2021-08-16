@@ -78,7 +78,7 @@
   </RecipeDef>
 
   <!--==================================== 플러스 연료 ====================================-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_AutomatonPlusFuel</defName>
     <label>make PNL plus fuel x4</label>
     <description>Make Automaton fuel.</description>
@@ -152,10 +152,10 @@
       <PN_AutomatonFuel_Plus>16</PN_AutomatonFuel_Plus>
     </products>
     <researchPrerequisite>PNRP_Production</researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--==================================== 프리미엄 연료 ====================================-->
-  <RecipeDef>
+  <!--<RecipeDef>
     <defName>PN_Make_AutomatonPremiumFuel</defName>
     <label>make PNL premium fuel x4</label>
     <description>Make Automaton fuel.</description>
@@ -245,5 +245,5 @@
       <PN_AutomatonFuel_Premium>16</PN_AutomatonFuel_Premium>
     </products>
     <researchPrerequisite>PNRP_Production</researchPrerequisite>
-  </RecipeDef>
+  </RecipeDef>-->
 </Defs>

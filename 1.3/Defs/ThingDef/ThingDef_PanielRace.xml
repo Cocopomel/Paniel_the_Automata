@@ -29,14 +29,14 @@
             </reactions>
           </li>-->
           <!--금지-->
-          <li>
+          <!--<li>
             <chemical>Psychite</chemical>
             <ingestible>false</ingestible>
           </li>
           <li>
             <chemical>GoJuice</chemical>
             <ingestible>false</ingestible>
-          </li>
+          </li>-->
         </chemicalSettings>
         <!--특성 강제 부여-->
         <forcedRaceTraitEntries>
@@ -153,14 +153,15 @@
         <alienPartGenerator>
           <atlasScale>4</atlasScale>
           <aliencrowntypes>
-            <li>PNHead1</li>
+            <!--<li>PNHead1</li>
             <li>PNHead2</li>
             <li>PNHead3</li>
             <li>PNHead4</li>
             <li>PNHead5</li>
             <li>PNHead6</li>
             <li>PNHead7</li>
-            <li>PNHead8</li>
+            <li>PNHead8</li>-->
+            <li>HeadsAverage_Normal</li>
           </aliencrowntypes>
           <alienbodytypes>
             <li>Female</li>
@@ -200,6 +201,38 @@
           <bodyAddons>
             <li>
               <drawSize>1</drawSize>
+              <path>Paniel/HairAddon/PanielHair</path>
+              <bodyPart>PNHead</bodyPart>
+              <shaderType>CutoutComplex</shaderType>
+              <inFrontOfBody>false</inFrontOfBody>
+              <colorChannel>hair</colorChannel>
+              <drawnInBed>true</drawnInBed>
+              <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>true</drawnDesiccated>
+              <offsets>
+                <north>
+                  <layerOffset>-0.275</layerOffset>
+                  <bodyTypes>
+                    <Female>(0,0.895)</Female>
+                  </bodyTypes>
+                </north>
+                <south>
+                  <layerOffset>-0.3251</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.42,0.56)</Female>
+                  </bodyTypes>
+                </south>
+                <east>
+                  <layerOffset>-0.3251</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.43,0.56)</Female>
+                  </bodyTypes>
+                </east>
+              </offsets>
+            </li>
+
+            <li>
+              <drawSize>1</drawSize>
               <path>Paniel/Tail/PanielTail</path>
               <bodyPart>tail</bodyPart>
               <shaderType>CutoutComplex</shaderType>
@@ -209,20 +242,20 @@
               <defaultOffset>Tail</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
               <offsets>
-                <south>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(-0.41,0.165)</Female>
-                  </bodyTypes>
-                </south>
                 <north>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.5)</Female>
                   </bodyTypes>
                 </north>
+                <south>
+                  <layerOffset>-0.309</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.41,0.165)</Female>
+                  </bodyTypes>
+                </south>
                 <east>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.309</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.15)</Female>
                   </bodyTypes>
@@ -242,53 +275,20 @@
               <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
-                <south>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(-0.43,0.565)</Female>
-                  </bodyTypes>
-                </south>
                 <north>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <east>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
-
-            <li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Ear/PanielLeftEarSide</path>
-              <bodyPart>left hearing sensor</bodyPart>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>true</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
-              <drawnInBed>true</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
-              <drawnDesiccated>false</drawnDesiccated>
-              <angle>0</angle>
-              <offsets>
-                <south>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <north>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.279</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.885)</Female>
                   </bodyTypes>
                 </north>
+                <south>
+                  <layerOffset>-0.324</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.43,0.565)</Female>
+                  </bodyTypes>
+                </south>
                 <east>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.326</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.565)</Female>
                   </bodyTypes>
@@ -308,53 +308,20 @@
               <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
-                <south>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(-0.41,0.565)</Female>
-                  </bodyTypes>
-                </south>
                 <north>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <east>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
-
-            <li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Ear/PanielRightEarSide</path>
-              <bodyPart>right hearing sensor</bodyPart>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>true</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
-              <drawnInBed>true</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
-              <drawnDesiccated>false</drawnDesiccated>
-              <angle>0</angle>
-              <offsets>
-                <south>
-                  <layerOffset>-0.268</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <north>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.279</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.885)</Female>
                   </bodyTypes>
                 </north>
+                <south>
+                  <layerOffset>-0.324</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.41,0.565)</Female>
+                  </bodyTypes>
+                </south>
                 <east>
-                  <layerOffset>-0.268</layerOffset>
+                  <layerOffset>-0.326</layerOffset>
                   <bodyTypes>
                     <Female>(-0.41,0.565)</Female>
                   </bodyTypes>
@@ -362,30 +329,34 @@
               </offsets>
             </li>
 
-            <!--<li Class="MoharCustomHAR.MoharBodyAddon">
+            <li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
               <path>Paniel/Face/Face</path>
-              <bodyPart>head case</bodyPart>
+              <bodyPart>PNHead</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
               <drawIfDead>false</drawIfDead>
-              <layerOffset>-0.326</layerOffset>
+              <defaultOffset>Tail</defaultOffset>
+              <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
-                <south>
-                  <bodyTypes>
-                    <Female>(-0.42,0.56)</Female>
-                  </bodyTypes>
-                </south>
-                <north>
+              <north>
+                  <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.86)</Female>
                   </bodyTypes>
                 </north>
+                <south>
+                  <layerOffset>-0.325</layerOffset>
+                  <bodyTypes>
+                    <Female>(-0.42,0.56)</Female>
+                  </bodyTypes>
+                </south>
                 <east>
+                  <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
                     <Female>(-0.43,0.56)</Female>
                   </bodyTypes>
@@ -417,25 +388,31 @@
                   </li>
                 </hideIfJob>
               </jobParams>
-            </li>-->
+            </li>
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
       <graphicPaths>
         <li>
           <body>Paniel/Body/</body>
-          <head>Paniel/Head/Heads/</head>
+          <head>Paniel/Head/</head>
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>
       <styleSettings>
-        <li>
+        <!--<li>
           <key>HairDef</key>
           <value>
             <hasStyle>true</hasStyle>
             <styleTagsOverride>
               <li>PanielHair</li>
             </styleTagsOverride>
+          </value>
+        </li>-->
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
           </value>
         </li>
         <li>
