@@ -138,7 +138,38 @@
     </stages>
   </HediffDef>
 
-  <!--==================================== 특화형 버프 ====================================-->
+  <!--==================================== 면역 ====================================-->
+  <HediffDef>
+    <defName>PN_Immune_System</defName>
+    <label>Automaton immune module</label>
+    <description>...</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <makeImmuneTo>
+          <li>Malaria</li>
+          <li>SleepingSickness</li>
+          <li>Plague</li>
+          <li>FibrousMechanites</li>
+          <li>GutWorms</li>
+          <li>Flu</li>
+          <li>MuscleParasites</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+    <modExtensions>
+      <li Class="YORHG.HediffDefModExtension">
+        <race>Paniel_Race</race>
+      </li>
+    </modExtensions>
+  </HediffDef>
 
   <!--==================================== 오토마톤 기본 ====================================-->
   <HediffDef>

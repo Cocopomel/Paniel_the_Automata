@@ -24,6 +24,9 @@
       <li Class="YORHG.YourOwnRace_HediffGiver">
         <hediff>PN_Maintenance</hediff>
       </li>
+      <li Class="YORHG.YourOwnRace_HediffGiver">
+        <hediff>PN_Immune_System</hediff>
+      </li>
     </hediffGivers>
   </HediffGiverSetDef>
 </Defs>
