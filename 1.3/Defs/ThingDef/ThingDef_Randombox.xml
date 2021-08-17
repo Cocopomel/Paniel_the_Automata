@@ -11,9 +11,17 @@
       <Flammability>0.2</Flammability>
     </statBases>
     <thingCategories Inherit="false">
-      <li>PN_AutomatonCatagory</li>
+      <li>PN_PackagedCatagory</li>
     </thingCategories>
   </ThingDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PackagedCatagory</defName>
+    <label>packaged automaton</label>
+    <parent>PN_AutomatonCatagory</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+  </ThingCategoryDef>
 
   <!--확률:개별weight값/전체weight합-->
 
