@@ -3,7 +3,7 @@
   <!--==================================== 초월 공학 ====================================-->
 
   <!-- 눈 -->
-  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+  <!--<RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallArchotechEye</defName>
     <label>install archotech eye</label>
     <description>Install an archotech eye.</description>
@@ -31,10 +31,10 @@
       <li>PNEye</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechEye</addsHediff>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!-- 팔 -->
-  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+  <!--<RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallArchotechArm</defName>
     <label>install archotech arm</label>
     <description>Install an archotech arm.</description>
@@ -62,10 +62,10 @@
       <li>PNShoulder</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechArm</addsHediff>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!-- 다리 -->
-  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+  <!--<RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallArchotechLeg</defName>
     <label>install archotech leg</label>
     <description>Install an archotech leg.</description>
@@ -93,12 +93,12 @@
       <li>PNLeg</li>
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechLeg</addsHediff>
-  </RecipeDef>
+  </RecipeDef>-->
 
   <!--==================================== 일반 ====================================-->
 
   <!-- Joywire -->
-  <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
+  <!--<RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>InstallJoywire</defName>
     <label>install joywire</label>
     <description>Install a joywire.</description>
@@ -126,5 +126,5 @@
       <li>PNBrain</li>
     </appliedOnFixedBodyParts>
     <addsHediff>Joywire</addsHediff>
-  </RecipeDef>
+  </RecipeDef>-->
 </Defs>
