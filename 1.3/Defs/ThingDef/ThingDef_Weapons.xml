@@ -28,6 +28,7 @@
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
+    <relicChance>0</relicChance>
   </ThingDef>
 
   <!--==================================== 근접 베이스 ====================================-->
@@ -54,6 +55,9 @@
     <weaponTags>
       <li>PN_Melee</li>
     </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef Name="PN_BaseMeleeWeapon_Sharp" ParentName="PN_BaseMeleeWeapon" Abstract="True">
@@ -79,6 +83,9 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
+    <weaponClasses>
+      <li>MeleePiercer</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef Name="PN_BaseMeleeWeapon_Blunt" ParentName="PN_BaseMeleeWeapon" Abstract="True">
@@ -103,6 +110,9 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
+    <weaponClasses>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
   </ThingDef>
 
   <!--==================================== 원거리 베이스 ====================================-->
@@ -131,6 +141,9 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef Name="PN_BaseMakeableGun" ParentName="PN_BaseGun" Abstract="True">
@@ -145,7 +158,7 @@
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
     <comps>
-      
+
     </comps>
   </ThingDef>
 
@@ -381,6 +394,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>ShortShots</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
@@ -599,6 +615,9 @@
       </li>
     </tools>
     <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
@@ -721,6 +740,10 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.6</MoveSpeed>
     </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+      <li>LongShots</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
@@ -862,6 +885,9 @@
         </westOffset>
       </li>
     </comps>
+    <weaponClasses>
+
+    </weaponClasses>
   </ThingDef>
 
   <!--==================================== 로열 트윈 피스톨 ====================================-->
@@ -934,6 +960,10 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponClasses>
+      <li>ShortShots</li>
+      <li>Ultratech</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
@@ -1050,6 +1080,9 @@
       </li>
     </tools>
     <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
@@ -1130,7 +1163,7 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
-      
+
     </comps>
     <equippedAngleOffset>45</equippedAngleOffset>
   </ThingDef>
