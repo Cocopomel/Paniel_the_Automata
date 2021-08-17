@@ -105,7 +105,7 @@
     <defName>PN_Flesh</defName>
     <corpseCategory>PN_CorpseCategory</corpseCategory>
     <damageEffecter>Damage_HitMechanoid</damageEffecter>
-    <genericWounds>
+    <!--<genericWounds>
       <li>
         <texture>Things/Pawn/Wounds/WoundMechA</texture>
       </li>
@@ -211,6 +211,6 @@
           </li>
         </wounds>
       </li>
-    </hediffWounds>
+    </hediffWounds>-->
   </FleshTypeDef>
 </Defs>
