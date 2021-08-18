@@ -97,7 +97,7 @@
     <defName>Paniel_Awful_Backstory</defName>
     <title>Automaton (awful)</title>
     <titleShort>Awful</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is made wrong. Seriously.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -122,7 +122,7 @@
     <defName>Paniel_Poor_Backstory</defName>
     <title>Automaton (poor)</title>
     <titleShort>Poor</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is made wrong.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -142,7 +142,7 @@
     <defName>Paniel_Normal_Backstory</defName>
     <title>Automaton (normal)</title>
     <titleShort>Normal</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>It's an ordinary automaton.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -163,7 +163,7 @@
     <defName>Paniel_Good_Backstory</defName>
     <title>Automaton (good)</title>
     <titleShort>Good</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>It's a well-made automaton.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -184,7 +184,7 @@
     <defName>Paniel_Excellent_Backstory</defName>
     <title>Automaton (excellent)</title>
     <titleShort>Excellent</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>It's a very well-made automaton. It's impeccable.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -204,7 +204,7 @@
     <defName>Paniel_Masterwork_Backstory</defName>
     <title>Automaton (masterwork)</title>
     <titleShort>Masterwork</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>It's an automaton perfected by Meister. Everything works perfectly.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -224,7 +224,7 @@
     <defName>Paniel_Legendary_Backstory</defName>
     <title>Automaton (legendary)</title>
     <titleShort>Legendary</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>It's an incredibly perfect automaton. It's showing performance that goes beyond its original intentions.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -309,7 +309,7 @@
     <defName>Paniel_FailureA_Backstory</defName>
     <title>Automaton Failure</title>
     <titleShort>Failure</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is made wrong. Seriously.</baseDescription>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualSkilled</li>
@@ -333,7 +333,7 @@
     <defName>Paniel_FailureB_Backstory</defName>
     <title>Automaton Failure</title>
     <titleShort>Failure</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is made wrong.</baseDescription>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualSkilled</li>
@@ -373,7 +373,7 @@
     <defName>Paniel_MilitiaA_Backstory</defName>
     <title>Automaton Militia</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is mainly used by militias.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -410,7 +410,7 @@
     <defName>Paniel_MilitiaB_Backstory</defName>
     <title>Automaton Militia</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is mainly used by militias.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -446,7 +446,7 @@
     <defName>Paniel_SoldierA_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -482,7 +482,7 @@
     <defName>Paniel_SoldierB_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -518,7 +518,7 @@
     <defName>Paniel_Royalguard_Backstory</defName>
     <title>Automaton Royal guard</title>
     <titleShort>Royal guard</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used by the Royal Guard.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -577,7 +577,7 @@
     <defName>Paniel_ApprenticeA_Backstory</defName>
     <title>Automaton Apprentice</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -610,7 +610,7 @@
     <defName>Paniel_ApprenticeB_Backstory</defName>
     <title>Automaton Apprentice</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -642,7 +642,7 @@
     <defName>Paniel_JourneymanA_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used to assist the meister.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -674,7 +674,7 @@
     <defName>Paniel_JourneymanB_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used to assist the meister.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -706,7 +706,7 @@
     <defName>Paniel_Meister_Backstory</defName>
     <title>Automaton Meister</title>
     <titleShort>Meister</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton has better crafting skills than humans.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -762,7 +762,7 @@
     <defName>Paniel_MaidA_Backstory</defName>
     <title>Automaton Maid</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -795,7 +795,7 @@
     <defName>Paniel_MaidB_Backstory</defName>
     <title>Automaton Maid</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -825,9 +825,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_HousemaidA_Backstory</defName>
-    <title>Automaton House maid</title>
-    <titleShort>House Maid</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <title>Automaton Housekeeper maid</title>
+    <titleShort>Housekeeper Maid</titleShort>
+    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -857,9 +857,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_HousemaidB_Backstory</defName>
-    <title>Automaton House maid</title>
-    <titleShort>House Maid</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <title>Automaton Housekeeper maid</title>
+    <titleShort>Housekeeper</titleShort>
+    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -891,7 +891,7 @@
     <defName>Paniel_Ladysmaid_Backstory</defName>
     <title>Automaton Lady's maid</title>
     <titleShort>Lady's maid</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton is used as a royal servant.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -958,7 +958,7 @@
     <defName>Paniel_Testsubject_Backstory</defName>
     <title>Automaton Test subject</title>
     <titleShort>Test subject</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDescription>This automaton was built to test a new module at PnL industry. It is showing signs of mental instability.</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
