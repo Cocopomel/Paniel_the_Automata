@@ -36,7 +36,7 @@
   <FactionDef ParentName="Paniel_PlayerBase">
     <defName>Paniel_PlayerFaction</defName>
     <label>Test Subject</label>
-    <description>...</description>
+    <description>This is the settlement where PnL industry is experimenting.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>
     <pawnSingular>colonist</pawnSingular>

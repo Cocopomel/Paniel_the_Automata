@@ -4,7 +4,7 @@
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_antibiotics</defName>
     <label>PnL antibiotics</label>
-    <description>...</description>
+    <description>Warning: Do not use on humans.\nThis antibiotics is for automaton only.\n\nAntibiotics for new diseases unknown to Rimworld.</description>
     <tradeability>None</tradeability>
     <graphicData>
       <texPath>Things/Item/PNAntibiotics</texPath>

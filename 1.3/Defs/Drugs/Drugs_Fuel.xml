@@ -10,7 +10,7 @@
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel</defName>
     <label>PnL fuel</label>
-    <description>...</description>
+    <description>Warning: Do not use on humans.\nThis drug is for automaton only.\n\nFuel needed to move the automaton. Psychite is added for the mental stability of Automaton.</description>
     <tickerType>Normal</tickerType>
     <tradeability>None</tradeability>
     <graphicData>
