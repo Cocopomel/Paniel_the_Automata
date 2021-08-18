@@ -11,17 +11,9 @@
       <Flammability>0.2</Flammability>
     </statBases>
     <thingCategories Inherit="false">
-      <li>PN_PackagedCatagory</li>
+      <li>PN_AutomatonCatagory</li>
     </thingCategories>
   </ThingDef>
-
-  <ThingCategoryDef>
-    <defName>PN_PackagedCatagory</defName>
-    <label>packaged automaton</label>
-    <parent>PN_AutomatonCatagory</parent>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
-    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
-  </ThingCategoryDef>
 
   <!--확률:개별weight값/전체weight합-->
 
@@ -87,7 +79,7 @@
   </ThingDef>
 
   <!--==================================== 고급 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NobleAutomaton</defName>
     <label>packaged noble automaton</label>
     <description>test item</description>
@@ -123,10 +115,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 로열 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_RoyalAutomaton</defName>
     <label>packaged royal automaton</label>
     <description>test item</description>
@@ -158,10 +150,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 전투형 일반 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonSoldier</defName>
     <label>packaged automaton soldier</label>
     <description>test item</description>
@@ -201,10 +193,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 전투형 고급 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NobleAutomatonSoldier</defName>
     <label>packaged noble automaton</label>
     <description>test item</description>
@@ -244,10 +236,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 제작형 일반 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonWorker</defName>
     <label>packaged automaton worker</label>
     <description>test item</description>
@@ -287,10 +279,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 제작형 고급 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NobleAutomatonWorker</defName>
     <label>packaged noble automaton worker</label>
     <description>test item</description>
@@ -330,10 +322,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 가정형 일반 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonMaid</defName>
     <label>packaged automaton maid</label>
     <description>test item</description>
@@ -373,10 +365,10 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 가정형 고급 상자 ====================================-->
-  <ThingDef ParentName="BasePackagedAutomaton">
+  <!--<ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NobleAutomatonMaid</defName>
     <label>packaged noble automaton maid</label>
     <description>test item</description>
@@ -416,5 +408,5 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 </Defs>
