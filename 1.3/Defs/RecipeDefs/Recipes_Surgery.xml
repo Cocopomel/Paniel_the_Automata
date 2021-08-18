@@ -15,20 +15,20 @@
         </filter>
         <count>1</count>
       </li>
-      <li>
+      <!--<li>
         <filter>
           <categories>
             <li>Medicine</li>
           </categories>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
     </ingredients>
-    <fixedIngredientFilter>
+    <!--<fixedIngredientFilter>
       <categories>
         <li>Medicine</li>
       </categories>
-    </fixedIngredientFilter>
+    </fixedIngredientFilter>-->
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">

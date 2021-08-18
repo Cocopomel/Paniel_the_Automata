@@ -118,7 +118,11 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
         </statOffsets>
+        <!--<statFactors>
+          <IncomingDamageFactor>0.10</IncomingDamageFactor>
+        </statFactors>-->
       </li>
     </stages>
   </HediffDef>
@@ -137,7 +141,11 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
         </statOffsets>
+        <!--<statFactors>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statFactors>-->
       </li>
     </stages>
   </HediffDef>

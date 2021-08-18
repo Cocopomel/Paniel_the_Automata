@@ -215,7 +215,7 @@
     </thingCategories>
     <tradeability>Sellable</tradeability>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <Steel>15</Steel>
       <Chemfuel>2</Chemfuel>
       <Leather_Automaton>5</Leather_Automaton>
@@ -265,7 +265,7 @@
     <tradeability>Sellable</tradeability>
     <costList>
       <MechSerumHealer>1</MechSerumHealer>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <Steel>15</Steel>
       <Chemfuel>2</Chemfuel>
       <Leather_Automaton>5</Leather_Automaton>
