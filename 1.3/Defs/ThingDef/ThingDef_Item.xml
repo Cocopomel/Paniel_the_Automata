@@ -155,6 +155,7 @@
       <Flammability>0.7</Flammability>
     </statBases>
     <costList>
+      <PN_Brain>1</PN_Brain>
       <ComponentSpacer>1</ComponentSpacer>
       <Steel>15</Steel>
       <PN_AutomatonFuel>2</PN_AutomatonFuel>
