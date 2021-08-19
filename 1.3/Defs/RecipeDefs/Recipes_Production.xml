@@ -130,6 +130,6 @@
     <skillRequirements>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
-    <researchPrerequisite>PNRP_Production</researchPrerequisite>
+    <researchPrerequisite></researchPrerequisite>
   </RecipeDef>
 </Defs>
