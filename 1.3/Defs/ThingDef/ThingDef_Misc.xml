@@ -33,7 +33,7 @@
 
       <li Class="CompProperties_Explosive">
         <compClass>AutomataRace.CompExplosiveInstant</compClass>
-        <explosiveRadius>1.5</explosiveRadius>
+        <explosiveRadius>1.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Bomb</requiredDamageTypeToExplode>
         <wickTicks>200~750</wickTicks>
