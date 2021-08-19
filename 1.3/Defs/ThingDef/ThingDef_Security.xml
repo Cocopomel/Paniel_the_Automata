@@ -186,12 +186,8 @@
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
   </ThingCategoryDef>
 
-  <ThingDef ParentName="ResourceBase">
-    <defName>PN_Shell_HighExplosive</defName>
-    <label>PnL high-explosive shell</label>
-    <description>...</description>
+  <ThingDef ParentName="ResourceBase" Name="PN_ShellBase" Abstract="True">
     <graphicData>
-      <texPath>Things/Item/PNShellHE</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -201,32 +197,11 @@
     <healthAffectsPrice>false</healthAffectsPrice>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <projectileWhenLoaded>PN_Bullet_Shell_HighExplosive</projectileWhenLoaded>
-    <statBases>
-      <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>55</MarketValue>
-      <Mass>1.25</Mass>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>1.5</DeteriorationRate>
-    </statBases>
     <thingCategories>
       <li>PN_Shell</li>
     </thingCategories>
     <tradeability>Sellable</tradeability>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>3.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
-        <wickTicks>30~60</wickTicks>
-      </li>
-    </comps>
     <tickerType>Normal</tickerType>
-    <costList>
-      <Steel>25</Steel>
-      <PN_AutomatonFuel>15</PN_AutomatonFuel>
-    </costList>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <effectWorking>Cook</effectWorking>
@@ -242,6 +217,36 @@
         <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_ShellBase">
+    <defName>PN_Shell_HighExplosive</defName>
+    <label>PnL high-explosive shell</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Item/PNShellHE</texPath>
+    </graphicData>
+    <projectileWhenLoaded>PN_Bullet_Shell_HighExplosive</projectileWhenLoaded>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>55</MarketValue>
+      <Mass>1.25</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>30~60</wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>25</Steel>
+      <PN_AutomatonFuel>15</PN_AutomatonFuel>
+    </costList>
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">

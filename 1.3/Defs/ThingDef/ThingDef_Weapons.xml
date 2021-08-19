@@ -315,7 +315,7 @@
       <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.15</AccuracyMedium>
       <AccuracyLong>0.05</AccuracyLong>
-      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>PN_Revolver</li>
@@ -331,49 +331,21 @@
       <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
     </recipeMaker>
     <comps>
-      <li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
     </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_Revolver_Volley</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>12.9</range>
-        <burstShotCount>6</burstShotCount>
-        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>Shot_Revolver</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>volley shot</label>
-        <texPath>UI/Commands/Pew</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.0</accuracyShort>
-        <accuracyMedium>0.0</accuracyMedium>
-        <accuracyLong>0.0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_Revolver_Single</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>25.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>Shot_Revolver</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>triple shot</label>
-        <texPath>UI/Commands/Snipe</texPath>
-        <accuracyTouch>0.30</accuracyTouch>
-        <accuracyShort>0.30</accuracyShort>
-        <accuracyMedium>0.30</accuracyMedium>
-        <accuracyLong>0.30</accuracyLong>
-      </li>
+      <li Class="TorgueAnty.Verb_Properties_ShotGun">
+				<verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>PN_Bullet_Revolver_Volley</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>12.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>ShotAnty_G</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<pelletCount>6</pelletCount>
+			</li>
     </verbs>
     <tools>
       <li>
@@ -397,21 +369,6 @@
     <weaponClasses>
       <li>ShortShots</li>
     </weaponClasses>
-  </ThingDef>
-
-  <ThingDef ParentName="PN_BaseBullet">
-    <defName>PN_Bullet_Revolver_Single</defName>
-    <label>automaton revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
-      <speed>55</speed>
-    </projectile>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
@@ -582,8 +539,8 @@
         <defaultProjectile>Bullet_Minigun</defaultProjectile>
         <warmupTime>3.0</warmupTime>
         <range>30.9</range>
-        <burstShotCount>40</burstShotCount>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>60</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -680,7 +637,7 @@
         <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>3.0</warmupTime>
         <minRange>4.9</minRange>
-        <range>49.9</range>
+        <range>54.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <targetParams>
@@ -701,7 +658,7 @@
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
         <warmupTime>4.5</warmupTime>
         <minRange>4.9</minRange>
-        <range>49.9</range>
+        <range>54.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
@@ -925,17 +882,18 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
+      <li Class="TorgueAnty.Verb_Properties_ShotGun">
+        <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
         <warmupTime>1</warmupTime>
         <range>25.9</range>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>15</burstShotCount>
         <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <pelletCount>2</pelletCount>
       </li>
     </verbs>
     <weaponTags>
@@ -971,7 +929,7 @@
     <label>automaton rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
+      <damageAmountBase>6</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
       <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>70</speed>
@@ -1010,51 +968,24 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
-    <comps>
-      <li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
-    </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+      <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
         <range>25.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_NeedleGun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>quick shot</label>
-        <texPath>UI/Commands/Pew</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.0</accuracyShort>
-        <accuracyMedium>0.0</accuracyMedium>
-        <accuracyLong>0.0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>2.3</warmupTime>
-        <range>31.9</range>
-        <soundCast>Shot_NeedleGun</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>accurate shot</label>
-        <texPath>UI/Commands/Snipe</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.10</accuracyShort>
-        <accuracyMedium>0.25</accuracyMedium>
-        <accuracyLong>0.25</accuracyLong>
       </li>
     </verbs>
     <weaponTags>
@@ -1090,9 +1021,9 @@
     <label>automaton rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>22</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <armorPenetrationBase>0.42</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
     <graphicData>
@@ -1132,11 +1063,11 @@
       <li>
         <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_PrototypeRailGun</defaultProjectile>
-        <forcedMissRadius>1.9</forcedMissRadius>
+        <defaultProjectile>PN_Bullet_RailGun</defaultProjectile>
+        <forcedMissRadius>0.1</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>35.9</range>
+        <range>54.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1169,19 +1100,47 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>PN_Bullet_PrototypeRailGun</defName>
-    <label>Prototype Rail Gun Bullet</label>
+    <defName>PN_Bullet_RailGun</defName>
+    <label>prototype railgun bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <thingClass>Projectile_DoomsdayRocket</thingClass>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
-      <!-- Use default damage from explosion def -->
-      <explosionRadius>7.8</explosionRadius>
-      <speed>50</speed>
+      <damageDef>PN_Bomb_RailGun</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>205</speed>
+      <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
+
+  <DamageDef>
+    <defName>PN_Bomb_RailGun</defName>
+    <label>bomb</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died in an explosion.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <minDamageToFragment>300</minDamageToFragment>
+    <defaultDamage>500</defaultDamage>
+    <defaultStoppingPower>5.0</defaultStoppingPower>
+    <defaultArmorPenetration>2.0</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+    <plantDamageFactor>4</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(0, 0, 0)</explosionColorCenter>
+    <explosionColorEdge>(0, 0, 0)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <combatLogRules>Damage_Bomb</combatLogRules>
+  </DamageDef>
 </Defs>
