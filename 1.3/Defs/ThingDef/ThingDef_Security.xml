@@ -2,7 +2,7 @@
 <Defs>
   <!--==================================== 오토캐논 ====================================-->
   <ThingDef Name="PN_BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
-    <designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>
+    <!--<designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>-->
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -83,7 +83,7 @@
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
-      <turretBurstWarmupTime>1.0</turretBurstWarmupTime>
+      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
       <turretBurstCooldownTime>3.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
@@ -108,7 +108,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(6.0,6.0)</drawSize>
     </graphicData>
-    <recoilPower>20</recoilPower>
+    <recoilPower>30</recoilPower>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <weaponTags Inherit="false">
     </weaponTags>
@@ -116,11 +116,11 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-        <warmupTime>4.0</warmupTime>
+        <warmupTime>5.5</warmupTime>
         <forcedMissRadius>1</forcedMissRadius>
         <forcedMissRadiusClassicMortars>1</forcedMissRadiusClassicMortars>
         <isMortar>true</isMortar>
-        <requireLineOfSight>false</requireLineOfSight>
+        <requireLineOfSight>true</requireLineOfSight>
         <minRange>11.9</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
@@ -155,7 +155,7 @@
     </building>
   </ThingDef>
 
-  <DesignatorDropdownGroupDef>
+  <!--<DesignatorDropdownGroupDef>
     <defName>PN_Artillery_Dropdown</defName>
     <label>PnL Auto Artillery</label>
   </DesignatorDropdownGroupDef>
@@ -167,7 +167,7 @@
     <costList>
       <PN_Brain>1</PN_Brain>
     </costList>
-  </ThingDef>
+  </ThingDef>-->
 
   <ThingDef ParentName="PN_BaseArtilleryBuilding">
     <defName>PN_Artillery_Base_Core</defName>
@@ -255,7 +255,7 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <speed>100</speed>
+      <speed>205</speed>
       <explosionRadius>3.9</explosionRadius>
       <flyOverhead>true</flyOverhead>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
