@@ -44,7 +44,7 @@
     </pawnKindDefs>
     <scoreCurve>
       <points>
-        <li>(100,100)</li>
+        <li>(100,60)</li>
         <li>(200,0)</li>
       </points>
     </scoreCurve>
@@ -69,7 +69,7 @@
     </pawnKindDefs>
     <scoreCurve>
       <points>
-        <li>(100,200)</li>
+        <li>(100,150)</li>
         <li>(250,50)</li>
       </points>
     </scoreCurve>
@@ -94,8 +94,8 @@
     </pawnKindDefs>
     <scoreCurve>
       <points>
-        <li>(180,0)</li>
-        <li>(900,720)</li>
+        <li>(100,80)</li>
+        <li>(900,420)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -120,7 +120,7 @@
     <scoreCurve>
       <points>
         <li>(250,0)</li>
-        <li>(900,650)</li>
+        <li>(900,850)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
