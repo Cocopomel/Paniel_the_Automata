@@ -114,7 +114,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Awful</li>
-      <li>PN_Base_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -134,7 +133,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Poor</li>
-      <li>PN_Base_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -155,7 +153,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Normal</li>
-      <li>PN_Normal_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -176,7 +173,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Good</li>
-      <li>PN_Normal_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -196,7 +192,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Excellent</li>
-      <li>PN_Noble_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -216,7 +211,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Masterwork</li>
-      <li>PN_Noble_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
@@ -237,7 +231,6 @@
     </spawnCategories>
     <forcedHediffs>
       <li>Paniel_Synchro_Legendary</li>
-      <li>PN_Royal_booting</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 

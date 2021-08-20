@@ -57,10 +57,22 @@
     <stages>
       <li>
         <capMods>
-          <!--<li>
+          <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.1</offset>
-          </li>-->
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.05</offset>
+          </li>
         </capMods>
         <statOffsets>
         </statOffsets>
@@ -79,8 +91,21 @@
             <capacity>Consciousness</capacity>
             <offset>0.10</offset>
           </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
         </capMods>
         <statOffsets>
+          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -95,10 +120,23 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.10</offset>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
           </li>
         </capMods>
         <statOffsets>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -115,10 +153,22 @@
             <capacity>Consciousness</capacity>
             <offset>0.20</offset>
           </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.25</offset>
+          </li>
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
@@ -136,12 +186,24 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.20</offset>
+            <offset>0.25</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.50</offset>
           </li>
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.25</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.75</IncomingDamageFactor>
@@ -150,65 +212,7 @@
     </stages>
   </HediffDef>
 
-  <!--==================================== 등급 버프 ====================================-->
-
-  <!--기본-->
-  <HediffDef>
-    <defName>PN_Base_booting</defName>
-    <label>boot up automaton (Base)</label>
-    <description>...</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1</maxSeverity>
-    <initialSeverity>1</initialSeverity>
-    <isBad>false</isBad>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-    <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
-        <bodyDef>PanielBody</bodyDef>
-        <hediffAndBodypart>
-          <li>
-            <hediff>BaseGradeEye</hediff>
-            <bodyPartLabel>left sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeEye</hediff>
-            <bodyPartLabel>right sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeEar</hediff>
-            <bodyPartLabel>left hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeEar</hediff>
-            <bodyPartLabel>right hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeArm</hediff>
-            <bodyPartLabel>left shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeArm</hediff>
-            <bodyPartLabel>right shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeLeg</hediff>
-            <bodyPartLabel>left leg</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>BaseGradeLeg</hediff>
-            <bodyPartLabel>right leg</bodyPartLabel>
-          </li>
-        </hediffAndBodypart>
-        <debug>false</debug>
-      </li>
-    </comps>
-  </HediffDef>
+  <!--==================================== 등급 버프 (정식 런칭때 삭제예정) ====================================-->
 
   <HediffDef Abstract="True" Name="PN_Base_Implant" ParentName="AddedBodyPartBase">
     <woundAnchorRange>0</woundAnchorRange>
@@ -256,63 +260,6 @@
 
   <!--일반(노말/굿)-->
 
-  <HediffDef>
-    <defName>PN_Normal_booting</defName>
-    <label>boot up automaton (normal)</label>
-    <description>...</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1</maxSeverity>
-    <initialSeverity>1</initialSeverity>
-    <isBad>false</isBad>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-    <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
-        <bodyDef>PanielBody</bodyDef>
-        <hediffAndBodypart>
-          <li>
-            <hediff>NormalGradeEye</hediff>
-            <bodyPartLabel>left sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeEye</hediff>
-            <bodyPartLabel>right sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeEar</hediff>
-            <bodyPartLabel>left hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeEar</hediff>
-            <bodyPartLabel>right hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeArm</hediff>
-            <bodyPartLabel>left shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeArm</hediff>
-            <bodyPartLabel>right shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeLeg</hediff>
-            <bodyPartLabel>left leg</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NormalGradeLeg</hediff>
-            <bodyPartLabel>right leg</bodyPartLabel>
-          </li>
-        </hediffAndBodypart>
-        <debug>false</debug>
-      </li>
-    </comps>
-  </HediffDef>
-
   <HediffDef Abstract="True" Name="PN_Normal_Implant" ParentName="AddedBodyPartBase">
     <woundAnchorRange>0</woundAnchorRange>
     <displayWound>true</displayWound>
@@ -358,63 +305,6 @@
   </HediffDef>
 
   <!--노블(엑셀/마스터)-->
-
-  <HediffDef>
-    <defName>PN_Noble_booting</defName>
-    <label>boot up a automaton (noble)</label>
-    <description>...</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1</maxSeverity>
-    <initialSeverity>1</initialSeverity>
-    <isBad>false</isBad>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-    <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
-        <bodyDef>PanielBody</bodyDef>
-        <hediffAndBodypart>
-          <li>
-            <hediff>NobleGradeEye</hediff>
-            <bodyPartLabel>left sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeEye</hediff>
-            <bodyPartLabel>right sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeEar</hediff>
-            <bodyPartLabel>left hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeEar</hediff>
-            <bodyPartLabel>right hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeArm</hediff>
-            <bodyPartLabel>left shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeArm</hediff>
-            <bodyPartLabel>right shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeLeg</hediff>
-            <bodyPartLabel>left leg</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>NobleGradeLeg</hediff>
-            <bodyPartLabel>right leg</bodyPartLabel>
-          </li>
-        </hediffAndBodypart>
-        <debug>false</debug>
-      </li>
-    </comps>
-  </HediffDef>
 
   <HediffDef Abstract="True" Name="PN_Noble_Implant" ParentName="AddedBodyPartBase">
     <woundAnchorRange>0</woundAnchorRange>
@@ -462,69 +352,11 @@
 
   <!--로얄(레전더리)-->
 
-  <HediffDef>
-    <defName>PN_Royal_booting</defName>
-    <label>boot up a automaton (royal)</label>
-    <description>...</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>1</maxSeverity>
-    <initialSeverity>1</initialSeverity>
-    <isBad>false</isBad>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
-      </li>
-    </stages>
-    <comps>
-      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
-        <bodyDef>PanielBody</bodyDef>
-        <hediffAndBodypart>
-          <li>
-            <hediff>RoyalGradeEye</hediff>
-            <bodyPartLabel>left sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeEye</hediff>
-            <bodyPartLabel>right sight sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeEar</hediff>
-            <bodyPartLabel>left hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeEar</hediff>
-            <bodyPartLabel>right hearing sensor</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeArm</hediff>
-            <bodyPartLabel>left shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeArm</hediff>
-            <bodyPartLabel>right shoulder</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeLeg</hediff>
-            <bodyPartLabel>left leg</bodyPartLabel>
-          </li>
-          <li>
-            <hediff>RoyalGradeLeg</hediff>
-            <bodyPartLabel>right leg</bodyPartLabel>
-          </li>
-        </hediffAndBodypart>
-        <debug>false</debug>
-      </li>
-    </comps>
-  </HediffDef>
-
   <HediffDef Abstract="True" Name="PN_Royal_Implant" ParentName="AddedBodyPartBase">
     <woundAnchorRange>0</woundAnchorRange>
     <displayWound>true</displayWound>
     <scenarioCanAdd>false</scenarioCanAdd>
     <addedPartProps>
-      <solid>true</solid>
       <partEfficiency>1.50</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
