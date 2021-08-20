@@ -295,7 +295,7 @@
         <thingDefs>
           <li>Paniel_Race</li>
         </thingDefs>
-        <blockUnnecessaryUse>true</blockUnnecessaryUse>
+        <blockUnnecessaryUse>false</blockUnnecessaryUse>
       </li>
       <li Class="CompProperties_UseEffect">
         <compClass>CompUseEffect_DestroySelf</compClass>
