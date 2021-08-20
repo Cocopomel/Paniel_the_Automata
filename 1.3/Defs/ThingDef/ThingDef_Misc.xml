@@ -34,8 +34,10 @@
       <li Class="CompProperties_Explosive">
         <compClass>AutomataRace.CompExplosiveInstant</compClass>
         <explosiveRadius>1.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <requiredDamageTypeToExplode>Bomb</requiredDamageTypeToExplode>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
         <wickTicks>200~750</wickTicks>
       </li>
     </comps>
