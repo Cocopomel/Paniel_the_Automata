@@ -28,7 +28,7 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>8</count>
       </li>
       <li>
         <filter>
@@ -72,16 +72,16 @@
     <billWorker Class="AutomataRace.CustomizableBillWorker_MakeAutomata">
       <!-- configurations -->
       <baseMaterialCount>150</baseMaterialCount>
-      <componentTotalCount>10</componentTotalCount>
-      <componentIndustrialScore>10</componentIndustrialScore>
-      <componentSpacerScore>40</componentSpacerScore>
-      <useAIPersonaCoreScore>200</useAIPersonaCoreScore>
-      <craftingSkillRequirementsMin>6</craftingSkillRequirementsMin>
+      <componentTotalCount>8</componentTotalCount>
+      <componentIndustrialScore>32</componentIndustrialScore>
+      <componentSpacerScore>200</componentSpacerScore>
+      <useAIPersonaCoreScore>504</useAIPersonaCoreScore>
+      <craftingSkillRequirementsMin>8</craftingSkillRequirementsMin>
       <craftingSkillRequirementsMax>16</craftingSkillRequirementsMax>
 
       <!-- default values -->
       <baseMaterial>Steel</baseMaterial>
-      <componentIndustrialCount>10</componentIndustrialCount>
+      <componentIndustrialCount>8</componentIndustrialCount>
       <componentSpacerCount>0</componentSpacerCount>
       <useAIPersonaCore>false</useAIPersonaCore>
       <fixedIngredients>
