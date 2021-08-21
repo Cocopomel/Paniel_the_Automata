@@ -17,6 +17,9 @@
       <tags Inherit="false">
         <li>PN_Apparel</li>
       </tags>
+      <defaultOutfitTags Inherit="false">
+        <li>PNApparel</li>
+      </defaultOutfitTags>
     </apparel>
     <thingCategories Inherit="False">
       <li>PNApparel</li>
@@ -72,7 +75,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -133,7 +136,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -202,7 +205,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -287,7 +290,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -364,7 +367,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -446,7 +449,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -521,7 +524,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -602,7 +605,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -674,7 +677,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -786,7 +789,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -858,7 +861,7 @@
         <li>Paniel_Basic</li>
       </tags>
       <defaultOutfitTags>
-        <li>PNApparel</li>
+
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
