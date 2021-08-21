@@ -214,7 +214,6 @@
     <thingCategories>
       <li>PNKit</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
     <costList>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Steel>15</Steel>
@@ -263,7 +262,6 @@
     <thingCategories>
       <li>PNKit</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
     <costList>
       <MechSerumHealer>1</MechSerumHealer>
       <ComponentIndustrial>1</ComponentIndustrial>

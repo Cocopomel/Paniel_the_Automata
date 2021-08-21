@@ -45,17 +45,26 @@
         <thingDef>PN_antibiotics</thingDef>
         <countRange>2~6</countRange>
       </li>
-      <!--<li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <totalPriceRange>1000~2000</totalPriceRange>
-      </li>-->
 
-      <!-- Techprints -->
-      <!-- none -->
+      <!-- Automaton -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_RepairKit</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_SelfRepairKit</thingDef>
+        <countRange>-2~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_BrainCasing</thingDef>
+        <countRange>2~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Automaton</thingDef>
+        <countRange>50~200</countRange>
+      </li>
 
       <!-- Weapons -->
-      <!-- none -->
 
       <!-- Apparel -->
 
