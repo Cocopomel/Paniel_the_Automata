@@ -156,7 +156,7 @@
       <li>
         <label>required</label>
         <lifeThreatening>true</lifeThreatening>
-        <deathMtbDays>10</deathMtbDays>
+        <deathMtbDays>15</deathMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
