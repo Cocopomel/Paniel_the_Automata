@@ -600,6 +600,17 @@
           <li>PN_ApparelSoldierHat</li>
           <li>PN_ApparelRoyalguard</li>
           <li>PN_ApparelRoyalguardHat</li>
+          <!--바닐라-->
+          <li>Apparel_ShieldBelt</li>
+          <li>Apparel_PsychicShockLance</li>
+          <li>Apparel_PsychicInsanityLance</li>
+          <li>Apparel_SmokepopBelt</li>
+          <li>OrbitalTargeterBombardment</li>
+          <li>OrbitalTargeterPowerBeam</li>
+          <li>TornadoGenerator</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
         </apparelList>
         <whiteApparelList>
 
