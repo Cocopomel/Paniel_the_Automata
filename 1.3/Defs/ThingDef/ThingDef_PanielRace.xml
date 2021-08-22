@@ -166,7 +166,7 @@
           <alienbodytypes>
             <li>Female</li>
           </alienbodytypes>
-          <headOffset>(-0.09, 0.0)</headOffset>
+          <headOffset>(-0.1, 0.0)</headOffset>
           <useGenderedHeads>false</useGenderedHeads>
           <useGenderedBodies>false</useGenderedBodies>
           <customDrawSize>(1, 1)</customDrawSize>
