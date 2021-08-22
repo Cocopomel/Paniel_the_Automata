@@ -646,7 +646,7 @@
       <ImmunityGainSpeed>0</ImmunityGainSpeed>
       <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.99</PainShockThreshold>
-      <ToxicSensitivity>0.4</ToxicSensitivity>
+      <ToxicSensitivity>0.2</ToxicSensitivity>
       <PsychicSensitivity>0.2</PsychicSensitivity>
       <GlobalLearningFactor>0</GlobalLearningFactor>
       <MeatAmount>0</MeatAmount>
