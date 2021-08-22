@@ -58,6 +58,12 @@
           <thingDef>PN_AutomatonFuel</thingDef>
           <count>60</count>
         </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>PN_SelfRepairKit</thingDef>
+          <count>3</count>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>
