@@ -162,23 +162,15 @@
         </statOffsets>
         <mentalStateGivers>
           <li>
-            <mentalState>FireStartingSpree</mentalState>
-            <mtbDays>240</mtbDays>
-          </li>
-          <li>
             <mentalState>WanderConfused</mentalState>
-            <mtbDays>30</mtbDays>
-          </li>
-          <li>
-            <mentalState>Berserk</mentalState>
-            <mtbDays>240</mtbDays>
-          </li>
-          <li>
-            <mentalState>Tantrum</mentalState>
             <mtbDays>120</mtbDays>
           </li>
           <li>
-            <mentalState>InsultingSpree</mentalState>
+            <mentalState>Tantrum</mentalState>
+            <mtbDays>240</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_OwnRoom</mentalState>
             <mtbDays>60</mtbDays>
           </li>
         </mentalStateGivers>

@@ -12,7 +12,6 @@
     <label>PnL fuel</label>
     <description>Warning: Do not use on humans.\nThis drug is for automaton only.\n\nFuel needed to move the automaton. Psychite is added for the mental stability of Automaton.</description>
     <tickerType>Normal</tickerType>
-    <tradeability>None</tradeability>
     <graphicData>
       <texPath>Things/Item/PNFuel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -42,7 +41,7 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <chairSearchRadius>25</chairSearchRadius>
-      <drugCategory>Medical</drugCategory>
+      <drugCategory>Hard</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>PN_ateFuel</hediffDef>
@@ -156,7 +155,7 @@
       <li>
         <label>required</label>
         <lifeThreatening>true</lifeThreatening>
-        <deathMtbDays>10</deathMtbDays>
+        <deathMtbDays>15</deathMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>

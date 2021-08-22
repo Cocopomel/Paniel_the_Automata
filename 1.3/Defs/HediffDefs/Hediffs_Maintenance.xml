@@ -53,7 +53,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.60</PsychicSensitivity>
+          <PsychicSensitivity>0.40</PsychicSensitivity>
           <MentalBreakThreshold>0.04</MentalBreakThreshold>
           <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
           <MoveSpeed>-0.2</MoveSpeed>
@@ -64,16 +64,16 @@
         <minSeverity>0.75</minSeverity>
         <restFallFactor>1.0</restFallFactor>
         <capMods>
-          <li>
+          <!--<li>
             <capacity>Consciousness</capacity>
             <offset>0</offset>
-          </li>
+          </li>-->
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.20</PsychicSensitivity>
+          <!--<PsychicSensitivity>0.20</PsychicSensitivity>
           <MentalBreakThreshold>0</MentalBreakThreshold>
           <WorkSpeedGlobal>0.0</WorkSpeedGlobal>
-          <MoveSpeed>0.0</MoveSpeed>
+          <MoveSpeed>0.0</MoveSpeed>-->
         </statOffsets>
       </li>
       <li>
@@ -83,13 +83,13 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.0</offset>
+            <offset>0.05</offset>
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.0</PsychicSensitivity>
+          <PsychicSensitivity>-0.20</PsychicSensitivity>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
