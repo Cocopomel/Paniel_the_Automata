@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<PN_LowMaintenance>Low maintenance</PN_LowMaintenance>
+	<PN_LowMaintenanceDesc>These colonists are in a low maintenance and may have a break at any time:\n\n{0}</PN_LowMaintenanceDesc>
+</LanguageData>
