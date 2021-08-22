@@ -225,7 +225,7 @@
                 <east>
                   <layerOffset>-0.3251</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.43,0.56)</Female>
+                    <Female>(-0.42,0.56)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -358,7 +358,7 @@
                 <east>
                   <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.43,0.56)</Female>
+                    <Female>(-0.42,0.56)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
