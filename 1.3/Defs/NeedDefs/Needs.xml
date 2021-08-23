@@ -17,12 +17,6 @@
     <needClass>AutomataRace.Need_Maintenance</needClass>
     <label>Maintenance</label>
     <description>The maintenance status of the automaton.\nIf it is low, it will cause malfunction.\n\nMaintenance is required every year (60 rimworld days).</description>
-    <descriptionHyperlinks>
-      <ThingDef>PN_RepairKit</ThingDef>
-      <ThingDef>PN_SelfRepairKit</ThingDef>
-      <RecipeDef>PN_Maintenance</RecipeDef>
-      <RecipeDef>PN_Repair</RecipeDef>
-    </descriptionHyperlinks>
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <listPriority>984</listPriority>
     <baseLevel>1.0</baseLevel>
