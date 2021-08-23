@@ -373,7 +373,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_Revolver_Volley</defName>
-    <label>automaton revolver bullet</label>
+    <label>PnL revolver bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -486,7 +486,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_Rifle</defName>
-    <label>automaton rifle bullet</label>
+    <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
@@ -579,7 +579,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_Machinegun</defName>
-    <label>automaton machinegun bullet</label>
+    <label>PnL machinegun bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
@@ -705,7 +705,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>PN_Bullet_HE</defName>
-    <label>automaton he bullet</label>
+    <label>PnL he bullet</label>
     <graphicData>
       <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -722,7 +722,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_AP</defName>
-    <label>automaton ap bullet</label>
+    <label>PnL ap bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
@@ -926,7 +926,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_TwinPistol</defName>
-    <label>automaton rifle bullet</label>
+    <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>6</damageAmountBase>
@@ -1018,7 +1018,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_RoyalRifle</defName>
-    <label>automaton rifle bullet</label>
+    <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>20</damageAmountBase>
