@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<NeedDef ParentName="DrugAddictionNeedBase">
-		<defName>PN_Need_Fuel</defName>
-		<needClass>Need_Chemical</needClass>
-		<label>Automaton Fuel</label>
-		<description>...</description>
-		<listPriority>985</listPriority>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>PN_Need_Fuel</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Automaton Fuel</label>
+    <description>The amount of fuel used by the automaton.</description>
+    <listPriority>985</listPriority>
     <baseLevel>1.0</baseLevel>
-		<fallPerDay>0.25</fallPerDay>
-		<freezeWhileSleeping>true</freezeWhileSleeping>
-		<showForCaravanMembers>true</showForCaravanMembers>
+    <fallPerDay>0.25</fallPerDay>
+    <freezeWhileSleeping>true</freezeWhileSleeping>
+    <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>
-  
+
   <NeedDef>
-      <defName>PN_Need_Maintenance</defName>
-      <needClass>AutomataRace.Need_Maintenance</needClass>
-      <label>Maintenance</label>
-      <description>...</description>
-      <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
-      <listPriority>984</listPriority>
-      <baseLevel>1.0</baseLevel>
-      <fallPerDay>0.0166</fallPerDay>
-      <showForCaravanMembers>true</showForCaravanMembers>
+    <defName>PN_Need_Maintenance</defName>
+    <needClass>AutomataRace.Need_Maintenance</needClass>
+    <label>Maintenance</label>
+    <description>The maintenance status of the automaton.\nIf it is low, it will cause malfunction.\n\nMaintenance is required every year (60 rimworld days).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_RepairKit</ThingDef>
+      <ThingDef>PN_SelfRepairKit</ThingDef>
+      <RecipeDef>PN_Maintenance</RecipeDef>
+      <RecipeDef>PN_Repair</RecipeDef>
+    </descriptionHyperlinks>
+    <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
+    <listPriority>984</listPriority>
+    <baseLevel>1.0</baseLevel>
+    <fallPerDay>0.0166</fallPerDay>
+    <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>
 </Defs>

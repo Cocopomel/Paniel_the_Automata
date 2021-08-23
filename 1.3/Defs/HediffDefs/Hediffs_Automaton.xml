@@ -156,7 +156,7 @@
   <HediffDef>
     <defName>PN_Overheating</defName>
     <label>overheating</label>
-    <description>...</description>
+    <description>A generalized disruption to body functioning caused by excessive exposure to heat and sun. The victim becomes dizzy, weak, and confused. Recovery is quick once in a cool area, but if heat exposure continues, overheating gets worse until death.</description>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
     <lethalSeverity>1</lethalSeverity>
     <taleOnVisible>HeatstrokeRevealed</taleOnVisible>
@@ -213,7 +213,7 @@
   <HediffDef>
     <defName>PN_OverCooling</defName>
     <label>overcooling</label>
-    <description>...</description>
+    <description>Dangerously low core body temperature. Unless re-warmed, overcooling gets worse and ends in death. Recovery is quick once the victim is re-warmed. Avoid overcooling by wearing warm clothes in cold environments.</description>
     <defaultLabelColor>(0.8, 0.8, 1)</defaultLabelColor>
     <lethalSeverity>1</lethalSeverity>
     <taleOnVisible>HypothermiaRevealed</taleOnVisible>

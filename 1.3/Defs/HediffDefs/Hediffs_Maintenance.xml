@@ -5,7 +5,13 @@
     <hediffClass>AutomataRace.Hediff_Maintenance</hediffClass>
     <label>Maintenance</label>    <!--정비상태-->
     <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
-    <description>...</description>
+    <description>The maintenance status of the automaton.\nIf it is low, it will cause malfunction.\n\nMaintenance is required every year (60 rimworld days).</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_RepairKit</ThingDef>
+      <ThingDef>PN_SelfRepairKit</ThingDef>
+      <RecipeDef>PN_Maintenance</RecipeDef>
+      <RecipeDef>PN_Repair</RecipeDef>
+    </descriptionHyperlinks>
     <causesNeed>PN_Need_Maintenance</causesNeed>
     <scenarioCanAdd>false</scenarioCanAdd>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>

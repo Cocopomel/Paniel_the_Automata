@@ -14,7 +14,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Awful</defName>
     <label>Automaton (awful)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated awful grade.</description>
     <stages>
       <li>
         <capMods>
@@ -35,7 +35,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Poor</defName>
     <label>Automaton (poor)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated poor grade.</description>
     <stages>
       <li>
         <capMods>
@@ -53,7 +53,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Normal</defName>
     <label>Automaton (normal)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated normal grade.</description>
     <stages>
       <li>
         <capMods>
@@ -83,7 +83,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Good</defName>
     <label>Automaton (good)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated good grade.</description>
     <stages>
       <li>
         <capMods>
@@ -114,7 +114,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Excellent</defName>
     <label>Automaton (excellent)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated excellent grade.</description>
     <stages>
       <li>
         <capMods>
@@ -145,7 +145,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Masterwork</defName>
     <label>Automaton (masterwork)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated masterwork grade.</description>
     <stages>
       <li>
         <capMods>
@@ -180,7 +180,7 @@
   <HediffDef ParentName="PanielSynchroBase">
     <defName>Paniel_Synchro_Legendary</defName>
     <label>Automaton (legendary)</label>
-    <description>Sync Rate</description>
+    <description>This pawn is an automaton.\nAfter production, it was rated legendary grade.</description>
     <stages>
       <li>
         <capMods>

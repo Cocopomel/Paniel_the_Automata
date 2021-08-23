@@ -4,13 +4,13 @@
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_antibiotics</defName>
     <label>PnL antibiotics</label>
-    <description>Warning: Do not use on humans.\nThis antibiotics is for automaton only.\n\nAntibiotics for new diseases unknown to Rimworld.</description>
+    <description>Warning: Do not use on humans.\nThis antibiotics is for automaton only.\n\nAutomaton antibiotics for unknown diseases.\n(Used for diseases added by mod.)</description>
     <graphicData>
       <texPath>Things/Item/PNAntibiotics</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1</drawSize>
     </graphicData>
-    <stackLimit>100</stackLimit>
+    <stackLimit>25</stackLimit>
     <rotatable>false</rotatable>
     <statBases>
       <WorkToMake>600</WorkToMake>
@@ -110,15 +110,22 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="DiseaseBase">
+  <HediffDef>
     <defName>PN_AB_Effect</defName>
-    <label>automaton antibiotics</label>
-    <description>...</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>PnL antibiotics</label>
+    <description>Antibiotics are working.</description>
+    <descriptionHyperlinks>
+    <ThingDef>PN_antibiotics</ThingDef>
+    </descriptionHyperlinks>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
-    <initialSeverity>1</initialSeverity>
+    <maxSeverity>0.50</maxSeverity>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1</severityPerDay>
+        <severityPerDay>-0.25</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
     <stages>
@@ -127,7 +134,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <postFactor>0.6</postFactor>
+            <postFactor>0.8</postFactor>
           </li>
           <li>
             <capacity>Moving</capacity>
@@ -135,7 +142,7 @@
           </li>
           <li>
             <capacity>Manipulation</capacity>
-            <postFactor>0.9</postFactor>
+            <postFactor>0.8</postFactor>
           </li>
         </capMods>
         <statOffsets>
@@ -144,7 +151,7 @@
       </li>
       <li>
         <label>active</label>
-        <minSeverity>0.2</minSeverity>
+        <minSeverity>0.1</minSeverity>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -152,11 +159,11 @@
           </li>
           <li>
             <capacity>Moving</capacity>
-            <postFactor>0.8</postFactor>
+            <postFactor>0.6</postFactor>
           </li>
           <li>
             <capacity>Manipulation</capacity>
-            <postFactor>0.9</postFactor>
+            <postFactor>0.6</postFactor>
           </li>
         </capMods>
         <statOffsets>
@@ -165,11 +172,11 @@
       </li>
       <li>
         <label>injected</label>
-        <minSeverity>0.8</minSeverity>
+        <minSeverity>0.4</minSeverity>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <postFactor>0.6</postFactor>
+            <postFactor>0.8</postFactor>
           </li>
           <li>
             <capacity>Moving</capacity>
@@ -177,7 +184,7 @@
           </li>
           <li>
             <capacity>Manipulation</capacity>
-            <postFactor>0.9</postFactor>
+            <postFactor>0.8</postFactor>
           </li>
         </capMods>
         <statOffsets>

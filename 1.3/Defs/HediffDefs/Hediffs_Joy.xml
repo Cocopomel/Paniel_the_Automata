@@ -4,7 +4,7 @@
     <defName>Paniel_Joy</defName>
     <label>Sync State</label>
     <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
-    <description>test</description>
+    <description>State affected by recreation.\n\nA high recreation has a beneficial effect.</description>
     <stages>
       <li>
         <label>low</label>
