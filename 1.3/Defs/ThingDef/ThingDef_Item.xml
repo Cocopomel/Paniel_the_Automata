@@ -119,8 +119,9 @@
       <li>PN_BrainCoreCatagory</li>
     </thingCategories>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>548</MarketValue>
       <Mass>1</Mass>
+      <Flammability>0.7</Flammability>
     </statBases>
     <isTechHediff>false</isTechHediff>
     <tradeTags Inherit="false">
@@ -149,7 +150,6 @@
       <li>PN_BrainCoreCatagory</li>
     </thingCategories>
     <statBases>
-      <MarketValue>500</MarketValue>
       <Mass>1</Mass>
       <WorkToMake>13000</WorkToMake>
       <Flammability>0.7</Flammability>
@@ -205,7 +205,6 @@
     <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MarketValue>18</MarketValue>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.7</Flammability>
@@ -253,7 +252,6 @@
     <stackLimit>25</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <statBases>
-      <MarketValue>18</MarketValue>
       <Mass>2</Mass>
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0.7</Flammability>
