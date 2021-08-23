@@ -64,6 +64,17 @@
           <thingDef>PN_SelfRepairKit</thingDef>
           <count>3</count>
         </li>
+
+        <!-- Disable Incident -->
+        <li Class="ScenPart_DisableIncident">
+          <def>DisableIncident</def>
+          <incident>WandererJoin</incident>
+        </li>
+        
+        <li Class="ScenPart_DisableIncident">
+          <def>DisableIncident</def>
+          <incident>StrangerInBlackJoin</incident>
+        </li>
       </parts>
     </scenario>
   </ScenarioDef>
