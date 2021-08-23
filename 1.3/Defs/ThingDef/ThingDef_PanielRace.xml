@@ -29,14 +29,14 @@
             </reactions>
           </li>-->
           <!--금지-->
-          <!--<li>
+          <li>
             <chemical>Psychite</chemical>
             <ingestible>false</ingestible>
           </li>
           <li>
             <chemical>GoJuice</chemical>
             <ingestible>false</ingestible>
-          </li>-->
+          </li>
         </chemicalSettings>
         <!--특성 강제 부여-->
         <forcedRaceTraitEntries>
@@ -558,6 +558,12 @@
           <li>Ascetic</li>
           <!--misc-->
           <li>PN_Atefuel_nopn</li>
+          <li>PsychiteWithdrawal</li>
+          <li>YayoHigh</li>
+          <li>PsychiteTeaHigh</li>
+          <li>FlakeHigh</li>
+          <li>GoJuiceHigh</li>
+          <li>GoJuiceWithdrawal</li>
 
           <!--[Royalty]-->
           <!--<li MayRequire="Ludeon.RimWorld.Royalty"></li>-->
@@ -657,7 +663,7 @@
       <AimingDelayFactor>1.0</AimingDelayFactor>
       <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
       <!-- 사교 -->
-      <NegotiationAbility>1.0</NegotiationAbility>
+      <NegotiationAbility>0.8</NegotiationAbility>
       <SellPriceFactor>0.8</SellPriceFactor>
       <SocialImpact>1.0</SocialImpact>
       <MentalBreakThreshold>0.30</MentalBreakThreshold>
