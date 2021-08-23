@@ -33,7 +33,7 @@
           <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
           <MoveSpeed>-0.4</MoveSpeed>
         </statOffsets>
-        <mentalStateGivers>
+        <!--<mentalStateGivers>
           <li>
             <mentalState>WanderConfused</mentalState>
             <mtbDays>30</mtbDays>
@@ -46,7 +46,7 @@
             <mentalState>Tantrum</mentalState>
             <mtbDays>30</mtbDays>
           </li>
-        </mentalStateGivers>
+        </mentalStateGivers>-->
       </li>
       <li>
         <label>required</label>
