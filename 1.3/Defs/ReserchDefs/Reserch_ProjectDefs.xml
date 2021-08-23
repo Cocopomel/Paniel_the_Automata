@@ -133,7 +133,7 @@
 
   <ResearchProjectDef>
     <defName>PNRP_AutomatonWeapons</defName>
-    <label>basic weapons</label>
+    <label>PnL weapons</label>
     <description>...</description>
     <tab>PN_technology</tab>
     <baseCost>300</baseCost>
@@ -178,7 +178,7 @@
 
   <ResearchProjectDef>
     <defName>PNRP_AutoArtillery</defName>
-    <label>auto artillery</label>
+    <label>PnL artillery</label>
     <description>...</description>
     <tab>PN_technology</tab>
     <baseCost>1200</baseCost>
