@@ -201,7 +201,7 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Industrial</techLevel>
-    <stackLimit>10</stackLimit>
+    <stackLimit>25</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
@@ -250,7 +250,7 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Spacer</techLevel>
-    <stackLimit>10</stackLimit>
+    <stackLimit>25</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <statBases>
       <MarketValue>18</MarketValue>
