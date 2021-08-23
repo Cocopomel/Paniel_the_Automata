@@ -5,18 +5,21 @@
     <colorSpectrum>
       <li>(255, 255, 255)</li>
     </colorSpectrum>
-  </FactionDef>  <!--스타트 팩션-->
+  </FactionDef>
+
+  <!--스타트 팩션-->
+
   <FactionDef ParentName="Paniel_PlayerBase">
     <defName>Paniel_testPlayerFaction</defName>
     <label>Left Automata</label>
     <description>...</description>
     <isPlayer>true</isPlayer>
-    <basicMemberKind>Paniel_testColonistPawn</basicMemberKind> <!--테스트용-->
+    <basicMemberKind>Paniel_testColonistPawn</basicMemberKind>    <!--테스트용-->
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <backstoryCategories>
-      <li>Paniel_Story_Start</li>
+      <li>Offworld</li>
     </backstoryCategories>
     <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
@@ -43,7 +46,7 @@
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <backstoryCategories>
-      <li>Paniel_Story_Start</li>
+      <li>Offworld</li>
     </backstoryCategories>
     <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
