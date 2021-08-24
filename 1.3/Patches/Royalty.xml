@@ -611,7 +611,7 @@
               <defName>PN_Make_PsychicAmplifier_Automaton</defName>
               <label>make automaton psylink</label>
               <description>...</description>
-              <jobString>Making automaton skin.</jobString>
+              <jobString>Making automaton psylink.</jobString>
               <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
               <effectWorking>Cook</effectWorking>
               <soundWorking>Recipe_Machining</soundWorking>
