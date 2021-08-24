@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Paniel_Race.label>파니엘</Paniel_Race.label>
+  <Paniel_Race.description>오토마톤 종족입니다.</Paniel_Race.description>
+  <Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Paniel_Race.tools.0.label>왼주먹</Paniel_Race.tools.0.label>
+  <Paniel_Race.tools.1.label>오른주먹</Paniel_Race.tools.1.label>
+  <Paniel_Race.tools.2.label>이빨</Paniel_Race.tools.2.label>
+  <Paniel_Race.tools.3.label>머리</Paniel_Race.tools.3.label>
+</LanguageData>

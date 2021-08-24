@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PNRP_Production.label>오토마톤 제작</PNRP_Production.label>
+  <PNRP_Production.description>오토마톤을 제작하는 방법에 대해 연구합니다.</PNRP_Production.description>
+  <PNRP_Brain.label>두뇌 코어 분석</PNRP_Brain.label>
+  <PNRP_Brain.description>오토마톤에 사용되는 두뇌 코어를 분석합니다.</PNRP_Brain.description>
+  <PNRP_BrainCasing.label>코어 보관법</PNRP_BrainCasing.label>
+  <PNRP_BrainCasing.description>중추 신경계를 장기간 보관하는 방법을 연구합니다.</PNRP_BrainCasing.description>
+  <PNRP_SelfRepairKit.label>자가 수리 키트</PNRP_SelfRepairKit.label>
+  <PNRP_SelfRepairKit.description>치료 혈청과 수리 키트를 결합하는 방법에 대해 연구합니다.</PNRP_SelfRepairKit.description>
+  <PNRP_ResurrectModule.label>부활 모듈</PNRP_ResurrectModule.label>
+  <PNRP_ResurrectModule.description>오토마톤에 부활 혈청을 장착하는 방법에 대해 연구합니다.</PNRP_ResurrectModule.description>
+  <PNRP_TierB_Apparel.label>특화 의상</PNRP_TierB_Apparel.label>
+  <PNRP_TierB_Apparel.description>오토마톤 종류에 맞는 특화된 의상을 연구합니다.</PNRP_TierB_Apparel.description>
+  <PNRP_TierC_Apparel.label>진보된 의상</PNRP_TierC_Apparel.label>
+  <PNRP_TierC_Apparel.description>보다 진보된 오토마톤 의상을 연구합니다.</PNRP_TierC_Apparel.description>
+  <PNRP_AutomatonWeapons.label>PnL 무기</PNRP_AutomatonWeapons.label>
+  <PNRP_AutomatonWeapons.description>PnL 인더스트리 무기를 제작하는 방법을 연구합니다.</PNRP_AutomatonWeapons.description>
+  <PNRP_MachineGun.label>PnL 기관총</PNRP_MachineGun.label>
+  <PNRP_MachineGun.description>PnL 기관총을 제작하는 방법을 연구합니다.</PNRP_MachineGun.description>
+  <PNRP_Cannon.label>PnL 휴대용 캐논</PNRP_Cannon.label>
+  <PNRP_Cannon.description>PnL 휴대용 캐논을 제작하는 방법을 연구합니다.</PNRP_Cannon.description>
+  <PNRP_AutoArtillery.label>PnL 아틸러리 캐논</PNRP_AutoArtillery.label>
+  <PNRP_AutoArtillery.description>PnL 아틸러리 캐논을 건설하는 방법을 연구합니다.</PNRP_AutoArtillery.description>
+  <PNRP_RoyalWeapons.label>PnL 왕실근위대 무기</PNRP_RoyalWeapons.label>
+  <PNRP_RoyalWeapons.description>고급 PnL 무기를 제작하는 방법을 연구합니다.</PNRP_RoyalWeapons.description>
+</LanguageData>

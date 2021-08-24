@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PN_Fuel.label>Automaton Fuel</PN_Fuel.label>
+  <PN_BodyPartsAutomaton.label>Automaton</PN_BodyPartsAutomaton.label>
+  <PNApparel.label>Paniel Apparel</PNApparel.label>
+  <PNHeadgear.label>Paniel Headgear</PNHeadgear.label>
+  <PNRoyalApparel.label>Royal Apparel</PNRoyalApparel.label>
+  <PNRoyalHeadgear.label>Royal Headgear</PNRoyalHeadgear.label>
+  <PN_AutomatonCatagory.label>PnL Industry</PN_AutomatonCatagory.label>
+  <PN_BrainCoreCatagory.label>automaton core</PN_BrainCoreCatagory.label>
+  <PNKit.label>Repair kit</PNKit.label>
+  <PN_CorpseCategory.label>Automaton corpses</PN_CorpseCategory.label>
+  <PN_Shell.label>PnL Shell</PN_Shell.label>
+</LanguageData>
