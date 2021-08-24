@@ -101,7 +101,7 @@
 
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>PN_Artillery_Turret</defName>
-    <label>PnL Auto Artillery Turret</label>
+    <label>PnL Artillery Turret</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Building/PN_Artillery_Turret</texPath>
@@ -171,7 +171,7 @@
 
   <ThingDef ParentName="PN_BaseArtilleryBuilding">
     <defName>PN_Artillery_Base_Core</defName>
-    <label>PnL Auto Artillery</label>
+    <label>PnL Artillery cannon</label>
     <description>...</description>
     <costList>
       <PN_BrainCasing>1</PN_BrainCasing>
