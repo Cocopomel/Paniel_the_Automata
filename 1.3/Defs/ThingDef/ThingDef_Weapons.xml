@@ -595,7 +595,7 @@
   <!--==================================== 포터블 캐논 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon</defName>
-    <label>PnL Cannon</label>
+    <label>PnL portable cannon</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Weapons/PNCannon</texPath>
