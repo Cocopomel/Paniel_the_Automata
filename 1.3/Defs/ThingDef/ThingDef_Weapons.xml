@@ -334,18 +334,18 @@
     </comps>
     <verbs>
       <li Class="TorgueAnty.Verb_Properties_ShotGun">
-				<verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>PN_Bullet_Revolver_Volley</defaultProjectile>
-				<warmupTime>0.5</warmupTime>
-				<range>12.9</range>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>ShotAnty_G</soundCast>
-				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<pelletCount>6</pelletCount>
-			</li>
+        <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_Revolver_Volley</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12.9</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>ShotAnty_G</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <pelletCount>6</pelletCount>
+      </li>
     </verbs>
     <tools>
       <li>
@@ -633,6 +633,24 @@
       <li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_AP</defaultProjectile>
+        <warmupTime>4.5</warmupTime>
+        <minRange>4.9</minRange>
+        <range>54.9</range>
+        <soundCast>PNCannonSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>AP</label>
+        <texPath>UI/Commands/AP</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_HE</defaultProjectile>
         <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>3.0</warmupTime>
@@ -646,25 +664,7 @@
         <muzzleFlashScale>14</muzzleFlashScale>
         <desc>...</desc>
         <label>HE</label>
-        <texPath>UI/Commands/Pew</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_AP</defaultProjectile>
-        <warmupTime>4.5</warmupTime>
-        <minRange>4.9</minRange>
-        <range>54.9</range>
-        <soundCast>PNCannonSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
-        <label>AP</label>
-        <texPath>UI/Commands/Snipe</texPath>
+        <texPath>UI/Commands/SC</texPath>
         <accuracyTouch>0</accuracyTouch>
         <accuracyShort>0</accuracyShort>
         <accuracyMedium>0</accuracyMedium>
