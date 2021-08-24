@@ -343,7 +343,7 @@
               <drawnDesiccated>false</drawnDesiccated>
               <angle>0</angle>
               <offsets>
-              <north>
+                <north>
                   <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
                     <Female>(0,0.86)</Female>
@@ -607,6 +607,8 @@
           <li>PN_ApparelRoyalguard</li>
           <li>PN_ApparelRoyalguardHat</li>
           <!--바닐라-->
+        </apparelList>
+        <whiteApparelList>
           <li>Apparel_ShieldBelt</li>
           <li>Apparel_PsychicShockLance</li>
           <li>Apparel_PsychicInsanityLance</li>
@@ -617,9 +619,6 @@
           <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
-        </apparelList>
-        <whiteApparelList>
-
         </whiteApparelList>
         <weaponList>
 
