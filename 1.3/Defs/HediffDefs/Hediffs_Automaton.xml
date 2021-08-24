@@ -44,6 +44,7 @@
     <maxSeverity>1</maxSeverity>
     <initialSeverity>1</initialSeverity>
     <isBad>false</isBad>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
     <stages>
       <li>
         <becomeVisible>false</becomeVisible>
