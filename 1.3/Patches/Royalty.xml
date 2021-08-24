@@ -606,6 +606,47 @@
                 <li Class="CompProperties_Forbiddable"/>
               </comps>
             </ThingDef>
+
+            <RecipeDef>
+              <defName>PN_Make_PsychicAmplifier_Automaton</defName>
+              <label>make automaton psylink</label>
+              <description>...</description>
+              <jobString>Making automaton skin.</jobString>
+              <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+              <effectWorking>Cook</effectWorking>
+              <soundWorking>Recipe_Machining</soundWorking>
+              <workAmount>2000</workAmount>
+              <allowMixingIngredients>true</allowMixingIngredients>
+              <recipeUsers>
+                <li>PN_AutomatonBench</li>
+              </recipeUsers>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>PsychicAmplifier</li>
+                    </thingDefs>
+                  </filter>
+                  <count>1</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>ComponentIndustrial</li>
+                    </thingDefs>
+                  </filter>
+                  <count>2</count>
+                </li>
+              </ingredients>
+              <products>
+                <PN_PsychicAmplifier>1</PN_PsychicAmplifier>
+              </products>
+              <skillRequirements>
+                <Crafting>6</Crafting>
+              </skillRequirements>
+              <workSkill>Crafting</workSkill>
+              <researchPrerequisite>PNRP_Brain</researchPrerequisite>
+            </RecipeDef>
           </value>
         </li>
       </operations>
