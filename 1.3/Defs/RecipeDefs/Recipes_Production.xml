@@ -104,7 +104,7 @@
     <defName>PN_Drum_Subdivision</defName>
     <label>subdivide drum can</label>
     <description>...</description>
-    <jobString>Making automaton skin.</jobString>
+    <jobString>Subdividing drum can.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
