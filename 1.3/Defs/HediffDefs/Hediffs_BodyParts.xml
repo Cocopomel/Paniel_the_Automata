@@ -176,12 +176,6 @@
         </mentalStateGivers>
       </li>
     </stages>
-    <comps>
-      <li Class="HediffCompProperties_ReactOnDamage">
-        <damageDefIncoming>EMP</damageDefIncoming>
-        <createHediff>BrainShock</createHediff>
-      </li>
-    </comps>
   </HediffDef>
 
   <ThingDef ParentName="PN_BodyPartNormalBase">

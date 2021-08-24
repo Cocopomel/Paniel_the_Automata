@@ -9,7 +9,9 @@
   <PN_AutomatonFuel.ingestible.ingestCommandString>{0} 마시기</PN_AutomatonFuel.ingestible.ingestCommandString>
   <PN_AutomatonFuel.ingestible.ingestReportString>{0} 마시는중.</PN_AutomatonFuel.ingestible.ingestReportString>
   <PN_ExperimentalModule.label>실험 모듈</PN_ExperimentalModule.label>
+  <PN_ExperimentalModule.description>PnL 인더스트리에서 실험중인 오토마톤 모듈입니다.\n\n오토마톤을 더욱 사람같이 만들지만 정신적으로 불안정하게 된다는 부작용이 보고되었습니다.\n\n경고 : 이 모듈을 장착한 오토마톤은 주기적으로 정신 광란을 일으킵니다.</PN_ExperimentalModule.description>
   <PN_ResurrectModule.label>부활 모듈</PN_ResurrectModule.label>
+  <PN_ResurrectModule.description>부활 혈청을 이용한 오토마톤 모듈입니다.\n이 모듈을 장착한 오토마톤은 죽은 뒤 몇 초후에 부활합니다.</PN_ResurrectModule.description>
   <PN_ApparelBasic.label>파니엘 셔츠와 부츠</PN_ApparelBasic.label>
   <PN_ApparelBasic.description>평범한 파니엘이 입고 다니는 오토마톤 유니폼.</PN_ApparelBasic.description>
   <PN_ApparelBasicHat.label>파니엘 모자</PN_ApparelBasicHat.label>
