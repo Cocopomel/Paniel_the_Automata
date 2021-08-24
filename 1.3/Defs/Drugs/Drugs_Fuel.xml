@@ -27,9 +27,9 @@
       <Flammability>2.0</Flammability>
       <DeteriorationRate>1.0</DeteriorationRate>
     </statBases>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Ultra</techLevel>
     <ingestible>
-      <foodType>Processed</foodType>
+      <drugCategory>Medical</drugCategory>
       <baseIngestTicks>210</baseIngestTicks>
       <ingestSound>Ingest_Drink</ingestSound>
       <ingestHoldOffsetStanding>
@@ -41,7 +41,6 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <chairSearchRadius>25</chairSearchRadius>
-      <drugCategory>Hard</drugCategory>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>PN_ateFuel</hediffDef>
@@ -139,6 +138,7 @@
     <causesNeed>PN_Need_Fuel</causesNeed>
     <scenarioCanAdd>false</scenarioCanAdd>
     <everCurableByItem>false</everCurableByItem>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
