@@ -70,10 +70,15 @@
           <def>DisableIncident</def>
           <incident>WandererJoin</incident>
         </li>
-        
+
         <li Class="ScenPart_DisableIncident">
           <def>DisableIncident</def>
           <incident>StrangerInBlackJoin</incident>
+        </li>
+
+        <li Class="ScenPart_DisableIncident">
+          <def>DisableIncident</def>
+          <incident>WandererJoinAbasia</incident>
         </li>
       </parts>
     </scenario>
