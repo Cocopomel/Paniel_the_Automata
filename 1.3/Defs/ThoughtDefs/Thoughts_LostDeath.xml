@@ -11,7 +11,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>colony automaton destroyed</label>
+        <label>our automaton destroyed</label>
         <description>One of our automaton destroyed. That automaton was our property.</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -28,8 +28,8 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>favorite Automaton {0} destroyed</label>
-        <description>My friend was destroyed. very sad...</description>
+        <label>my friend {0} destroyed</label>
+        <description>Such a wonderful automaton, gone forever. The universe gets darker every day.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
@@ -42,7 +42,7 @@
     <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>hateful Automaton {0} destroyed</label>
+        <label>my rival {0} destroyed</label>
         <description>That scrap was finally destroyed.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
@@ -61,7 +61,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>witnessed ally automaton's destroyed</label>
+        <label>witnessed ally's destroyed</label>
         <description>I saw one of our automaton destroyed. That automaton was our property.</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -79,7 +79,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>colleague destroyed</label>
+        <label>our automaton destroyed</label>
         <description>My colleague was destroyed. Did she fulfill her duties?</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -96,7 +96,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>favorite colleague {0} destroyed</label>
+        <label>my friend {0} destroyed</label>
         <description>My friend was destroyed. It's so sad that we can't carry out our duties with her.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
@@ -110,7 +110,7 @@
     <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>hateful Automaton {0} destroyed</label>
+        <label>my rival {0} destroyed</label>
         <description>That scrap was finally destroyed.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
@@ -129,7 +129,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>witnessed ally automaton's destroyed</label>
+        <label>witnessed ally's destroyed</label>
         <description>I saw one of our colleague destroyed. Did she fulfill her duties?</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -147,7 +147,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>colony automaton lost</label>
+        <label>our automaton lost</label>
         <description>One of our automaton lost. That automaton was our property.</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -164,8 +164,8 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>favorite Automaton {0} lost</label>
-        <description>I lost my friend. very sad...</description>
+        <label>my friend {0} lost</label>
+        <description>Such a wonderful automaton, lost. The universe gets darker every day.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
@@ -178,7 +178,7 @@
     <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>hateful Automaton {0} lost</label>
+        <label>my rival {0} lost</label>
         <description>That scrap was finally disappeared.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
@@ -196,7 +196,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>colony automaton lost</label>
+        <label>our automaton lost</label>
         <description>My colleague was lost. Did she do her duty?</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
@@ -213,7 +213,7 @@
     </nullifyingTraits>
     <stages>
       <li>
-        <label>favorite Automaton {0} lost</label>
+        <label>my friend {0} lost</label>
         <description>My friend was lost. It's so sad that we can't carry out our duties with her.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
@@ -227,7 +227,7 @@
     <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>hateful Automaton {0} lost</label>
+        <label>my rival {0} lost</label>
         <description>That scrap was finally disappeared.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
