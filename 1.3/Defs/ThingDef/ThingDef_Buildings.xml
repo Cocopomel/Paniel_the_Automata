@@ -36,7 +36,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <recipes>
-      <li>Make_ComponentIndustrial</li>
+      <li>PN_Make_ComponentIndustrial</li>
       <li>Make_ComponentSpacer</li>
     </recipes>
     <graphicData>
