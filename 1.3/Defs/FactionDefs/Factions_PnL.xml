@@ -14,6 +14,9 @@
     <backstoryCategories>
       <li>Offworld</li>
     </backstoryCategories>
+    <allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
     <allowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
