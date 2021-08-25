@@ -5,7 +5,7 @@
     <label>Automaton Fuel</label>
     <parent>Drugs</parent>
   </ThingCategoryDef>
-  
+
   <!--==================================== 오토마톤 연료 ====================================-->
   <ThingDef ParentName="DrugPillBase">
     <defName>PN_AutomatonFuel</defName>
@@ -45,6 +45,12 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>PN_ateFuel</hediffDef>
           <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>PN_deletFuel</hediffDef>
+          <severity>1</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
         </li>
       </outcomeDoers>
       <tasteThought>PN_Atefuel_nopn</tasteThought>
@@ -70,7 +76,7 @@
       </li>
     </comps>
     <tradeTags Inherit="false">
-
+      <li>PN_Fuel</li>
     </tradeTags>
     <thingCategories Inherit="false">
       <li>PN_Fuel</li>
@@ -112,11 +118,36 @@
           <li>
             <hediff>DrugOverdose</hediff>
           </li>
+          <li>
+            <hediff>PN_deletFuel</hediff>
+          </li>
         </hediffAndBodypart>
         <bodyDefBlackList>
           <li>PanielBody</li>
         </bodyDefBlackList>
         <debug>false</debug>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PN_deletFuel</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Ate automaton fuel</label>
+    <labelNoun>Ate Automaton Fuel</labelNoun>
+    <description>...</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToNullify>
+					<li>PN_AutomatonFuel_Addiction</li>	
+				</hediffToNullify>
+				<bodyDefBlackList>
+					<li>PanielBody</li>
+				</bodyDefBlackList>
       </li>
     </comps>
   </HediffDef>
