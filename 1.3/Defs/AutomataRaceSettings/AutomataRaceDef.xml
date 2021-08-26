@@ -761,6 +761,8 @@
       <baseHealthScale>1.2</baseHealthScale>      <!--몸빵-->
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>30</gestationPeriodDays>
+      <nameGenerator>PN_NamerFemale</nameGenerator>
+    	<nameGeneratorFemale>PN_NamerFemale</nameGeneratorFemale>
       <litterSizeCurve>
         <points>
           <li>(0, 0)</li>
