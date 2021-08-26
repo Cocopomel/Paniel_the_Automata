@@ -7,6 +7,7 @@
         <li>PNSN->Names/Automaton/PNSN</li>
         <li>PN09->Names/Automaton/PN09</li>
         <li>PNAZ->Names/Automaton/PNAZ</li>
+        <li>PNNick->Names/Automaton/PNNick</li>
         <li>PNDbPnL->Names/Automaton/PNDbPnL</li>
       </rulesFiles>
     </rulePack>
@@ -19,7 +20,7 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>PNFirstNamer->[PNSN][PN09][PN09][PN09][PNAZ][PNAZ][PN09]</li>
+        <li>PNFirstNamer->[PNSN][PN09][PN09][PN09][PNAZ][PNAZ]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
