@@ -229,6 +229,9 @@
                   </bodyTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
             </li>
 
             <li>
@@ -261,6 +264,9 @@
                   </bodyTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
             </li>
 
             <li>
@@ -294,6 +300,9 @@
                   </bodyTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
             </li>
 
             <li>
@@ -327,6 +336,9 @@
                   </bodyTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
             </li>
 
             <li Class="MoharCustomHAR.MoharBodyAddon">
@@ -388,6 +400,9 @@
                   </li>
                 </hideIfJob>
               </jobParams>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -762,7 +777,7 @@
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>30</gestationPeriodDays>
       <nameGenerator>PN_NamerFemale</nameGenerator>
-    	<nameGeneratorFemale>PN_NamerFemale</nameGeneratorFemale>
+      <nameGeneratorFemale>PN_NamerFemale</nameGeneratorFemale>
       <litterSizeCurve>
         <points>
           <li>(0, 0)</li>
