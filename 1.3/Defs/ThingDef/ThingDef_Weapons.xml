@@ -631,6 +631,35 @@
       <Steel>150</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+    </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -720,6 +749,33 @@
     <comps>
       <li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
+      </li>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNCannon_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNCannon_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
       </li>
     </comps>
     <verbs>
@@ -1209,7 +1265,33 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
       </li>
-
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNPrototypeRailGun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNPrototypeRailGun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
     </comps>
     <equippedAngleOffset>45</equippedAngleOffset>
   </ThingDef>
