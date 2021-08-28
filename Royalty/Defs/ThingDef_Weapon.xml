@@ -3,6 +3,29 @@
 
   <!--==================================== 베이스 ====================================-->
 
+  <RulePackDef>
+    <defName>PN_NamerChainSwordfirst</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>PNof->Names/Weapon/PNof</li>
+        <li>PNChainSword->Names/Weapon/PNChainSword</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>PN_NamerChainSword</defName>
+    <include>
+      <li>PN_NamerFirst</li>
+      <li>PN_NamerChainSwordfirst</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_weapon_name->[PNChainSword] [PNof] [PNFirstNamer]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
   <ThingDef Abstract="True" Name="PN_MeleeWeaponUltratech" ParentName="PN_BaseWeapon">
     <techLevel>Ultra</techLevel>
     <statBases>
@@ -53,9 +76,6 @@
       </li>
       <li Class="CompProperties_BladelinkWeapon">
         <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_GeneratedName">
-        <nameMaker>NamerWeaponBladelink</nameMaker>
       </li>
     </comps>
     <smeltable>true</smeltable>
@@ -184,5 +204,10 @@
         <armorPenetration>0.9</armorPenetration>
       </li>
     </tools>
+    <comps>
+    <li Class="CompProperties_GeneratedName">
+        <nameMaker>PN_NamerChainSword</nameMaker>
+      </li>
+    </comps>
   </ThingDef>
 </Defs>
