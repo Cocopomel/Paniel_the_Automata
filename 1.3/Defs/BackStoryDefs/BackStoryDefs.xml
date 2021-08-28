@@ -5,9 +5,9 @@
     <bodyTypeMale>Female</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <forcedHediffs>
-			<li>PanielBaseHediff</li>
+			<!--<li>PanielBaseHediff</li>
 			<li>PN_AutomatonFuel_Addiction</li>
-			<li>PN_Maintenance</li>
+			<li>PN_Maintenance</li>-->
 		</forcedHediffs>
     <spawnCategories>
       <li>PN_storys</li>
