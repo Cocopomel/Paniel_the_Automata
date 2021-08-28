@@ -813,8 +813,9 @@
       </hediffGiverSets>
     </race>
     <butcherProducts>
-      <Steel>60</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Leather_Automaton>25</Leather_Automaton>
     </butcherProducts>
     <recipes>
       <li>Anesthetize</li>

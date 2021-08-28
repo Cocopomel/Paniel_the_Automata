@@ -4,7 +4,6 @@
     <defName>PN_AutomatonCatagory</defName>
     <label>PnL Industry</label>
     <parent>Manufactured</parent>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
   </ThingCategoryDef>
 
@@ -17,7 +16,7 @@
       <Flammability>0.5</Flammability>
     </statBases>
     <graphicData>
-      <texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+      <texPath>Things/Item/UnfinishedAutomaton</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stuffCategories Inherit="false" />
@@ -54,7 +53,6 @@
     <defName>PN_BrainCoreCatagory</defName>
     <label>automaton core</label>
     <parent>PN_AutomatonCatagory</parent>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
   </ThingCategoryDef>
 
@@ -187,7 +185,6 @@
     <defName>PNKit</defName>
     <label>Repair kit</label>
     <parent>PN_AutomatonCatagory</parent>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
   </ThingCategoryDef>
 

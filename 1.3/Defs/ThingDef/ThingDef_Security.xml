@@ -182,7 +182,6 @@
     <defName>PN_Shell</defName>
     <label>PnL Shell</label>
     <parent>PN_AutomatonCatagory</parent>
-    <resourceReadoutRoot>true</resourceReadoutRoot>
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
   </ThingCategoryDef>
 

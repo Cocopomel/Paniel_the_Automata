@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ResourceBase" Name="BasePackagedAutomaton" Abstract="True">
+  <ThingDef Name="BasePackagedAutomaton" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
     <tradeability>None</tradeability>
     <stackLimit>1</stackLimit>
-    <useHitPoints>true</useHitPoints>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>80.0</Mass>
       <Flammability>0.2</Flammability>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
     <thingCategories Inherit="false">
       <li>PN_AutomatonCatagory</li>
     </thingCategories>
+    <smeltable>true</smeltable>
   </ThingDef>
 
   <!--확률:개별weight값/전체weight합-->
@@ -65,7 +78,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <comps>
-      <li><compClass>CompQuality</compClass></li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
       <li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>

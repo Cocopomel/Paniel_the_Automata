@@ -133,7 +133,7 @@
     <researchPrerequisite></researchPrerequisite>
   </RecipeDef>
 
-    <RecipeDef>
+  <RecipeDef>
     <defName>PN_Make_ComponentIndustrial</defName>
     <label>make component</label>
     <description>Make a component.</description>
@@ -167,4 +167,51 @@
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>Fabrication</researchPrerequisite>
   </RecipeDef>
+
+  <!--<RecipeDef>
+    <defName>PN_Disassemble_AutomatonPackage</defName>
+    <label>disassemble automaton package</label>
+    <description>...</description>
+    <jobString>disassembling package.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+        <li>Packaged_NormalAutomaton</li>
+      </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+     <thingDefs>
+        <li>Packaged_NormalAutomaton</li>
+      </thingDefs>
+      <categories>
+        <li>PN_AutomatonCatagory</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Packaged_NormalAutomaton</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Leather_Automaton>25</Leather_Automaton>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite></researchPrerequisite>
+  </RecipeDef>-->
 </Defs>
