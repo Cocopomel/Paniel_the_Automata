@@ -64,7 +64,7 @@
     </techHediffsTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="PanielPlayerBasePawnKind">
+  <!--<PawnKindDef ParentName="PanielPlayerBasePawnKind">
     <defName>Paniel_Randombox_Good</defName>
     <label>Paniel Randombox Good</label>
     <chemicalAddictionChance>0</chemicalAddictionChance>
@@ -168,7 +168,7 @@
     <techHediffsTags>
 
     </techHediffsTags>
-  </PawnKindDef>
+  </PawnKindDef>-->
 
   <!--가챠 특화 전투형-->
   <PawnKindDef ParentName="PanielPlayerBasePawnKind" Name="PanielSoldierBasePawnKind" Abstract="True">

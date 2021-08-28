@@ -168,7 +168,7 @@
     <researchPrerequisite>Fabrication</researchPrerequisite>
   </RecipeDef>
 
-  <!--<RecipeDef>
+  <RecipeDef>
     <defName>PN_Disassemble_AutomatonPackage</defName>
     <label>disassemble automaton package</label>
     <description>...</description>
@@ -183,20 +183,22 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-        <li>Packaged_NormalAutomaton</li>
-      </thingDefs>
+          <categories>
+            <li>PN_PackagedCatagory</li>
+          </categories>
         </filter>
         <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-     <thingDefs>
-        <li>Packaged_NormalAutomaton</li>
-      </thingDefs>
       <categories>
-        <li>PN_AutomatonCatagory</li>
+        <li>PN_PackagedCatagory</li>
       </categories>
+      <!--<disallowedThingDefs>
+        <li>Packaged_NormalAutomatonSoldier</li>
+        <li>Packaged_NormalAutomatonWorker</li>
+        <li>Packaged_NormalAutomatonMaid</li>
+      </disallowedThingDefs>-->
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
@@ -213,5 +215,5 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite></researchPrerequisite>
-  </RecipeDef>-->
+  </RecipeDef>
 </Defs>
