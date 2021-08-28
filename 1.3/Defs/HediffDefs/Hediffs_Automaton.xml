@@ -86,6 +86,7 @@
           <li>GoJuiceHigh</li>
           <li>GoJuiceAddiction</li>
           <li>GoJuiceTolerance</li>
+          <li>Pregnant</li>
         </hediffToNullify>
         <showMessage>true</showMessage>
         <nullifyKey>PN_HediffNullifier</nullifyKey>
