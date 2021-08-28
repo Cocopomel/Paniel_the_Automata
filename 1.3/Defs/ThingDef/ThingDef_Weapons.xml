@@ -761,19 +761,19 @@
         </fullGraphicData>
         <drawPosition>Back</drawPosition>
         <northOffset>
-          <position>(0,0.3,0.05)</position>
+          <position>(0,0.3,-0.05)</position>
           <angle>25</angle>
         </northOffset>
         <southOffset>
-          <position>(0,-0.3,0.05)</position>
+          <position>(0,-0.3,-0.05)</position>
           <angle>-25</angle>
         </southOffset>
         <eastOffset>
-          <position>(-0.15,-0.3,0.05)</position>
+          <position>(-0.15,-0.3,-0.05)</position>
           <angle>70</angle>
         </eastOffset>
         <westOffset>
-          <position>(0.15,-0.3,0.05)</position>
+          <position>(0.15,-0.3,-0.05)</position>
           <angle>-70</angle>
         </westOffset>
       </li>
