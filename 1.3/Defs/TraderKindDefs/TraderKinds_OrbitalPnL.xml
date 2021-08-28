@@ -64,6 +64,12 @@
         <countRange>50~200</countRange>
       </li>
 
+      <li Class="StockGenerator_Category">
+        <categoryDef>PN_TMPackagedCatagory</categoryDef>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <totalPriceRange>3000~4000</totalPriceRange>
+      </li>
+
       <!-- Weapons -->
 
       <!-- Apparel -->

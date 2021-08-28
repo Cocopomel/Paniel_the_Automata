@@ -7,6 +7,13 @@
     <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
   </ThingCategoryDef>
 
+  <ThingCategoryDef>
+    <defName>PN_TMPackagedCatagory</defName>
+    <label>PnL automaton™</label>
+    <parent>PN_PackagedCatagory</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+  </ThingCategoryDef>
+
   <ThingDef Name="BasePackagedAutomaton" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -14,12 +21,12 @@
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
-    <tradeability>None</tradeability>
     <stackLimit>1</stackLimit>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>80.0</Mass>
       <Flammability>0.2</Flammability>
+      <WorkToMake>48000</WorkToMake>
     </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
@@ -30,9 +37,17 @@
     <pathCost>14</pathCost>
     <allowedArchonexusCount>-1</allowedArchonexusCount>
     <thingCategories Inherit="false">
-      <li>PN_PackagedCatagory</li>
+      <li>PN_TMPackagedCatagory</li>
     </thingCategories>
-    <smeltable>true</smeltable>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>75</Plasteel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+      <PN_BrainCasing>1</PN_BrainCasing>
+      <Leather_Automaton>50</Leather_Automaton>
+      <Chemfuel>20</Chemfuel>
+    </costList>
   </ThingDef>
 
   <!--==================================== 일반 상자 ====================================-->
@@ -40,8 +55,9 @@
     <defName>Packaged_NormalAutomaton</defName>
     <label>packaged automaton</label>
     <description>test item</description>
+    <tradeability>None</tradeability>
     <statBases>
-      <MarketValue>60</MarketValue>
+      <MarketValue>1520</MarketValue>
     </statBases>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>
@@ -61,16 +77,19 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
+    <thingCategories Inherit="false">
+      <li>PN_PackagedCatagory</li>
+    </thingCategories>
   </ThingDef>
 
   <!--고급부품4짜리-->  <!--확률:개별weight값/전체weight합-->
   <!--==================================== 전투형 일반 상자 ====================================-->
   <ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonSoldier</defName>
-    <label>PnL automaton™ (soldier)</label>
+    <label>PnL automaton™ (Combat)</label>
     <description>test item</description>
     <statBases>
-      <MarketValue>60</MarketValue>
+
     </statBases>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>
@@ -114,10 +133,10 @@
   <!--==================================== 제작형 일반 상자 ====================================-->
   <ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonWorker</defName>
-    <label>PnL automaton™ (worker)</label>
+    <label>PnL automaton™ (Engineer)</label>
     <description>test item</description>
     <statBases>
-      <MarketValue>60</MarketValue>
+
     </statBases>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>
@@ -161,10 +180,10 @@
   <!--==================================== 가정형 일반 상자 ====================================-->
   <ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomatonMaid</defName>
-    <label>PnL automaton™ (maid)</label>
+    <label>PnL automaton™ (Domestic)</label>
     <description>test item</description>
     <statBases>
-      <MarketValue>60</MarketValue>
+
     </statBases>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>

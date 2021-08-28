@@ -16,7 +16,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>2~4</countRange>
+        <countRange>-1~2</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
@@ -48,11 +48,17 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_BrainCasing</thingDef>
-        <countRange>1~2</countRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Automaton</thingDef>
         <countRange>20~60</countRange>
+      </li>
+
+      <li Class="StockGenerator_Category">
+        <categoryDef>PN_TMPackagedCatagory</categoryDef>
+        <thingDefCountRange>-2~1</thingDefCountRange>
+        <totalPriceRange>3000~4000</totalPriceRange>
       </li>
 
       <!-- Weapons -->
