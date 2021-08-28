@@ -6,20 +6,18 @@
       <li>PN_AutomatonBench</li>
     </value>
   </Operation>
-  <!--<Operation Class="PatchOperationAdd">
-    <xpath>*/WorkGiverDef[defName="ChatWithPrisoner"]</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName = "OutlanderCivil"]</xpath>
     <value>
-      <workTags>
-        <li>PN_noPrisoner</li>
-      </workTags>
+      <caravanTraderKinds>
+        <li>PN_Caravan_PnLindustry</li>
+      </caravanTraderKinds>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/WorkGiverDef[defName="Research"]</xpath>
+  <!--<Operation Class="PatchOperationAdd">
+    <xpath>*/FactionDef[defName="OutlanderRough"]/caravanTraderKinds</xpath>
     <value>
-      <workTags>
-        <li>PN_noResearch</li>
-      </workTags>
+        <li>PN_Caravan_PnLindustry</li>
     </value>
   </Operation>-->
 </Patch>
