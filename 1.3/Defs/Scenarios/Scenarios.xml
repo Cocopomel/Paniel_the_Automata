@@ -76,7 +76,7 @@
           <incident>StrangerInBlackJoin</incident>
         </li>
 
-        <li Class="ScenPart_DisableIncident">
+        <li Class="ScenPart_DisableIncident" MayRequire="Ludeon.RimWorld.Royalty">
           <def>DisableIncident</def>
           <incident>WandererJoinAbasia</incident>
         </li>
