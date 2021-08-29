@@ -248,6 +248,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <!--<meleeHitSound>PNChainswordSound</meleeHitSound>-->
     <weaponTags>
       <li>PN_Chainsword</li>
     </weaponTags>
@@ -823,11 +824,11 @@
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Sharp</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>50</defaultDamage>
+    <defaultDamage>40</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>3</buildingDamageFactorPassable>
     <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
@@ -948,11 +949,11 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.15</AccuracyTouch>
-      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
@@ -963,10 +964,10 @@
         <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
-        <warmupTime>1</warmupTime>
-        <range>25.9</range>
+        <warmupTime>0.5</warmupTime>
+        <range>15.9</range>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>12</burstShotCount>
         <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1008,7 +1009,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>6</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
-      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <armorPenetrationBase>0.09</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
     <graphicData>
@@ -1045,7 +1046,7 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
@@ -1085,11 +1086,11 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>0.7</warmupTime>
+        <warmupTime>1</warmupTime>
         <range>25.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>Shot_Autocannon</soundCast>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
