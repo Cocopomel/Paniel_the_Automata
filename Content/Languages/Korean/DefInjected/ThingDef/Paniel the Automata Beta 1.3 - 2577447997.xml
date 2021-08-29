@@ -64,8 +64,6 @@
   <PN_Artillery_Base_Core.comps.3.outOfFuelMessage>사격 불가: PnL 연료 필요</PN_Artillery_Base_Core.comps.3.outOfFuelMessage>
   <PN_Artillery_Base_Core.label>PnL 아틸러리 캐논</PN_Artillery_Base_Core.label>
   <PN_Artillery_Base_Core.description>PnL 인더스트리에서 제작한 아틸러리 캐논입니다. 직사만 가능합니다.\n\n내장된 두뇌 코어가 조준 계산을 대신 해줘 빠른 속도로 발사할 수 있습니다.</PN_Artillery_Base_Core.description>
-  <PN_Shell_HighExplosive.label>PnL 고폭탄</PN_Shell_HighExplosive.label>
-  <PN_Shell_HighExplosive.description>PnL 인더스트리에서 제작한 아틸러리 캐논 전용 고폭탄입니다.</PN_Shell_HighExplosive.description>
   <PN_Bullet_Shell_HighExplosive.label>고폭탄</PN_Bullet_Shell_HighExplosive.label>
   <PN_Shovel.label>PnL 야전삽</PN_Shovel.label>
   <PN_Shovel.description>PnL 인더스트리에서 제작한 야전삽입니다.</PN_Shovel.description>

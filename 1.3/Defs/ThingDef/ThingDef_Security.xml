@@ -78,6 +78,7 @@
       <WorkToBuild>15000</WorkToBuild>
       <Mass>200</Mass>
       <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
     </statBases>
     <building>
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
@@ -96,7 +97,7 @@
       <li>PNRP_AutoArtillery</li>
     </researchPrerequisites>
     <uiIconPath>Things/Building/PN_Artillery_Ui</uiIconPath>
-    <uiIconScale>0.6</uiIconScale>
+    <uiIconScale>0.9</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -112,13 +113,19 @@
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <weaponTags Inherit="false">
     </weaponTags>
+    <!--<statBases>
+      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.98</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+    </statBases>-->
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-        <warmupTime>5.5</warmupTime>
-        <forcedMissRadius>1</forcedMissRadius>
-        <forcedMissRadiusClassicMortars>1</forcedMissRadiusClassicMortars>
+        <warmupTime>9.5</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <forcedMissRadiusClassicMortars>0</forcedMissRadiusClassicMortars>
         <isMortar>true</isMortar>
         <requireLineOfSight>true</requireLineOfSight>
         <minRange>11.9</minRange>
@@ -144,13 +151,13 @@
         </filter>
       </fixedStorageSettings>
       <defaultStorageSettings>
-        <filter>
+        <!--<filter>
           <categories>
             <li>PN_Shell</li>
           </categories>
           <disallowedThingDefs>
           </disallowedThingDefs>
-        </filter>
+        </filter>-->
       </defaultStorageSettings>
     </building>
   </ThingDef>
@@ -218,14 +225,16 @@
     </recipeMaker>
   </ThingDef>
 
+  <!--고폭탄-->
+
   <ThingDef ParentName="PN_ShellBase">
-    <defName>PN_Shell_HighExplosive</defName>
-    <label>PnL high-explosive shell</label>
+    <defName>PN_Shell_HE</defName>
+    <label>PnL HE shell</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Item/PNShellHE</texPath>
     </graphicData>
-    <projectileWhenLoaded>PN_Bullet_Shell_HighExplosive</projectileWhenLoaded>
+    <projectileWhenLoaded>PN_Bullet_Shell_HE</projectileWhenLoaded>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>55</MarketValue>
@@ -249,8 +258,8 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseBullet">
-    <defName>PN_Bullet_Shell_HighExplosive</defName>
-    <label>high-explosive shell</label>
+    <defName>PN_Bullet_Shell_HE</defName>
+    <label>PnL HE shell</label>
     <graphicData>
       <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -266,6 +275,161 @@
       <soundExplode>MortarBomb_Explode</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
+  <!--관통탄-->
+
+  <ThingDef ParentName="PN_ShellBase">
+    <defName>PN_Shell_HESH</defName>
+    <label>PnL HESH shell</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Item/PNShellHE</texPath>
+    </graphicData>
+    <projectileWhenLoaded>PN_Bullet_Shell_HESH</projectileWhenLoaded>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>55</MarketValue>
+      <Mass>1.25</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>30~60</wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>25</Steel>
+      <PN_AutomatonFuel>15</PN_AutomatonFuel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_Shell_HESH</defName>
+    <label>armor-piercing shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>PN_HESHbomb</damageDef>
+      <speed>205</speed>
+      <explosionRadius>0.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+
+  <DamageDef ParentName="Bomb">
+    <defName>PN_HESHbomb</defName>
+    <defaultDamage>120</defaultDamage>
+    <defaultStoppingPower>5.0</defaultStoppingPower>
+    <defaultArmorPenetration>1.30</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+    <plantDamageFactor>1</plantDamageFactor>
+  </DamageDef>
+
+   <!--확산 소이탄-->
+
+  <ThingDef ParentName="PN_ShellBase">
+    <defName>PN_Shell_CI</defName>
+    <label>PnL CI shell</label>
+    <description>Cluster Incendiary</description>
+    <graphicData>
+      <texPath>Things/Item/PNShellHE</texPath>
+    </graphicData>
+    <projectileWhenLoaded>PN_Bullet_Shell_CI</projectileWhenLoaded>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>55</MarketValue>
+      <Mass>1.25</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <wickTicks>30~60</wickTicks>
+      </li>
+    </comps>
+    <costList>
+      <Steel>25</Steel>
+      <PN_AutomatonFuel>15</PN_AutomatonFuel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_Shell_CI</defName>
+    <label>armor-piercing shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>TorgueAnty.Projectile_Torgue_Rocket</thingClass>
+    <projectile Class="TorgueAnty.TorgueProjectileProps">
+      <damageDef>PN_CIbomb</damageDef>
+      <speed>205</speed>
+      <explosionRadius>0.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarBomb_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <subProjectile>PN_Bullet_Shell_CI_Sub</subProjectile>
+			<clusterCount>18</clusterCount>
+			<clusterRadius>8.1</clusterRadius>
+    </projectile>
+  </ThingDef>
+
+  <DamageDef ParentName="Bomb">
+    <defName>PN_CIbomb</defName>
+    <defaultDamage>10</defaultDamage>
+    <defaultStoppingPower>5.0</defaultStoppingPower>
+    <defaultArmorPenetration>1.30</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+    <plantDamageFactor>1</plantDamageFactor>
+  </DamageDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>PN_Bullet_Shell_CI_Sub</defName>
+    <label>PnL CI shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellIncendiary</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <speed>6.5</speed>
+      <explosionRadius>2.1</explosionRadius>
+			<arcHeightFactor>60</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+      <flyOverhead>true</flyOverhead>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>MortarIncendiary_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
   </ThingDef>
 </Defs>

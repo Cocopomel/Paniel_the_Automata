@@ -101,7 +101,19 @@
 
         <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>PN_Shell_HighExplosive</thingDef>
+					<thingDef>PN_Shell_HE</thingDef>
+					<count>75</count>
+				</li>
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_Shell_HESH</thingDef>
+					<count>75</count>
+				</li>
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PN_Shell_CI</thingDef>
 					<count>75</count>
 				</li>
       </parts>
