@@ -70,4 +70,39 @@
 
     <defaultFaction>PN_indistryFaction</defaultFaction>
   </AutomataRace.AutomataRaceSettings>
+
+  <AlienRace.RaceSettings>
+    <defName>Paniel_Race_Setting</defName>
+    <pawnKindSettings>
+      <startingColonists>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>Paniel_Testsubject</li>
+              </kindDefs>
+              <chance>100.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>Paniel_PlayerFaction</li>
+          </factionDefs>
+        </li>
+      </startingColonists>
+      <alienslavekinds>
+        <!--<li>
+          <kindDefs>
+            <li>Paniel_ColonistPawn</li>
+          </kindDefs>
+          <chance>100.0</chance>
+        </li>-->
+      </alienslavekinds>
+      <alienrefugeekinds>
+
+      </alienrefugeekinds>
+      <alienwandererkinds>
+
+      </alienwandererkinds>
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
 </Defs>
