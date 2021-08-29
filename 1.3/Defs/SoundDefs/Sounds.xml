@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<!-- 레버액션 -->
 	<SoundDef>
 		<defName>PNRifleSound</defName>
@@ -20,6 +21,7 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
 	<!-- 포터블 캐논 -->
 	<SoundDef>
 		<defName>PNCannonSound</defName>
@@ -39,5 +41,47 @@
 				</pitchRange>
 			</li>
 		</subSounds>
-	</SoundDef>	
+	</SoundDef>
+
+	<!-- 로열라이플 -->
+	<SoundDef>
+		<defName>PNRoyalRifleSound</defName>
+		<eventNames />
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/PNRoyalRifleSound</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<!-- 체인소드 -->
+	<!--<SoundDef>
+		<defName>PNChainswordSound</defName>
+		<eventNames />
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/PNChainsword</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>-->
 </Defs>
