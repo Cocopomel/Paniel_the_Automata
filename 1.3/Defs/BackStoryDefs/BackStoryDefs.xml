@@ -920,6 +920,10 @@
     <baseDescription>backstory</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
+    <li>
+        <defName>Shooting</defName>
+        <amount>15</amount>
+      </li>
       <li>
         <defName>Construction</defName>
         <amount>18</amount>
