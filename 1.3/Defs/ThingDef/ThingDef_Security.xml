@@ -392,7 +392,7 @@
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
       <subProjectile>PN_Bullet_Shell_CI_Sub</subProjectile>
-			<clusterCount>18</clusterCount>
+			<clusterCount>20</clusterCount>
 			<clusterRadius>8.1</clusterRadius>
     </projectile>
   </ThingDef>
@@ -419,11 +419,11 @@
     <projectile>
       <damageDef>Flame</damageDef>
       <speed>6.5</speed>
-      <explosionRadius>2.1</explosionRadius>
+      <explosionRadius>2.4</explosionRadius>
 			<arcHeightFactor>60</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+      <preExplosionSpawnChance>0.27</preExplosionSpawnChance>
       <flyOverhead>true</flyOverhead>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarIncendiary_Explode</soundExplode>
