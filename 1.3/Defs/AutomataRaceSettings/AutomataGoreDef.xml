@@ -79,7 +79,7 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <Beauty>-30</Beauty>
-      <Cleanliness>-10</Cleanliness>
+      <Cleanliness>-15</Cleanliness>
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>2.0</Flammability>
     </statBases>
@@ -88,6 +88,7 @@
       <color>(51, 51, 51, 180)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
