@@ -207,25 +207,25 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>hair</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
               <drawnDesiccated>true</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
               <offsets>
                 <north>
                   <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
-                    <Female>(0,0.895)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.3251</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.42,0.56)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.3251</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.42,0.56)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -242,25 +242,25 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
+              <defaultOffset>Center</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <north>
                   <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
-                    <Female>(0,0.5)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.309</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.41,0.165)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.309</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.41,0.15)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -277,26 +277,26 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
               <angle>0</angle>
               <offsets>
                 <north>
                   <layerOffset>-0.279</layerOffset>
                   <bodyTypes>
-                    <Female>(0,0.885)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.324</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.43,0.565)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.326</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.41,0.565)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -313,26 +313,26 @@
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
               <drawnInBed>true</drawnInBed>
-              <defaultOffset>Tail</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
               <angle>0</angle>
               <offsets>
                 <north>
                   <layerOffset>-0.279</layerOffset>
                   <bodyTypes>
-                    <Female>(0,0.885)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.324</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.41,0.565)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.326</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.41,0.565)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
@@ -351,26 +351,26 @@
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
               <drawIfDead>false</drawIfDead>
-              <defaultOffset>Tail</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
               <angle>0</angle>
               <offsets>
                 <north>
                   <layerOffset>-0.275</layerOffset>
                   <bodyTypes>
-                    <Female>(0,0.86)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.42,0.56)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
-                    <Female>(-0.42,0.56)</Female>
+                    <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
