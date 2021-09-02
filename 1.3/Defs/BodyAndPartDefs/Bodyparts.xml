@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <BodyPartDef Abstract="True" Name="PN_BodyPartDefBase">
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+  </BodyPartDef>
   <!--몸통-->
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNTorso</defName>
     <label>torso case</label>
     <hitPoints>40</hitPoints>
@@ -10,7 +15,7 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNRibcage</defName>
     <label>ribcage frame</label>
     <hitPoints>30</hitPoints>
@@ -24,7 +29,7 @@
     <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNSternum</defName>
     <label>sternum frame</label>
     <hitPoints>20</hitPoints>
@@ -38,7 +43,7 @@
     <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNPelvis</defName>
     <label>pelvis frame</label>
     <hitPoints>25</hitPoints>
@@ -52,7 +57,7 @@
     <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNSpine</defName>
     <label>spine frame</label>
     <hitPoints>25</hitPoints>
@@ -66,7 +71,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNTail</defName>
     <label>tail</label>
     <hitPoints>30</hitPoints>
@@ -78,7 +83,7 @@
 
   <!--장기-->
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNStomach</defName>
     <label>energy absorbing part</label>
     <hitPoints>20</hitPoints>
@@ -88,7 +93,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNCore</defName>
     <label>engine core</label>
     <hitPoints>15</hitPoints>
@@ -101,7 +106,7 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNLung</defName>
     <label>breathing part</label>
     <hitPoints>15</hitPoints>
@@ -112,7 +117,7 @@
     <spawnThingOnRemoved>Lung</spawnThingOnRemoved>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNKidney</defName>
     <label>oil filter</label>
     <hitPoints>15</hitPoints>
@@ -123,7 +128,7 @@
     <spawnThingOnRemoved>Kidney</spawnThingOnRemoved>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNLiver</defName>
     <label>water filter</label>
     <hitPoints>20</hitPoints>
@@ -138,7 +143,7 @@
 
   <!--머리-->
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNNeck</defName>
     <label>neck</label>
     <hitPoints>25</hitPoints>
@@ -152,16 +157,16 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-  <BodyPartDef>
-        <defName>PNHead</defName>
-        <label>head case</label>
-        <hitPoints>25</hitPoints>
-        <skinCovered>true</skinCovered>
-        <canSuggestAmputation>false</canSuggestAmputation>
-        <bleedRate>2</bleedRate>
-    </BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
+    <defName>PNHead</defName>
+    <label>head case</label>
+    <hitPoints>25</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>2</bleedRate>
+  </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNSkull</defName>
     <label>skull frame</label>
     <hitPoints>25</hitPoints>
@@ -173,7 +178,7 @@
     <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNBrain</defName>
     <label>brain core</label>
     <hitPoints>10</hitPoints>
@@ -186,7 +191,7 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNEye</defName>
     <label>sight sensor</label>
     <hitPoints>10</hitPoints>
@@ -206,7 +211,7 @@
     </hitChanceFactors>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNEar</defName>
     <label>hearing sensor</label>
     <hitPoints>12</hitPoints>
@@ -218,7 +223,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNNose</defName>
     <label>olfactory sensor</label>
     <hitPoints>10</hitPoints>
@@ -230,7 +235,7 @@
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNJaw</defName>
     <label>jaw</label>
     <hitPoints>20</hitPoints>
@@ -248,7 +253,7 @@
 
   <!--팔-->
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNShoulder</defName>
     <label>shoulder</label>
     <hitPoints>30</hitPoints>
@@ -258,7 +263,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNClavicle</defName>
     <label>clavicle frame</label>
     <hitPoints>25</hitPoints>
@@ -272,7 +277,7 @@
     <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNArm</defName>
     <label>arm</label>
     <hitPoints>30</hitPoints>
@@ -282,7 +287,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNHumerus</defName>
     <label>humerus frame</label>
     <hitPoints>25</hitPoints>
@@ -295,7 +300,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNRadius</defName>
     <label>radius frame</label>
     <hitPoints>20</hitPoints>
@@ -308,7 +313,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNHand</defName>
     <label>hand</label>
     <hitPoints>20</hitPoints>
@@ -319,7 +324,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNFinger</defName>
     <label>finger</label>
     <hitPoints>8</hitPoints>
@@ -333,13 +338,13 @@
 
   <!--다리-->
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNWaist</defName>
     <label>utility slot</label>
     <conceptual>true</conceptual>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNLeg</defName>
     <label>leg</label>
     <hitPoints>30</hitPoints>
@@ -349,7 +354,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNFemur</defName>
     <label>femur frame</label>
     <hitPoints>25</hitPoints>
@@ -362,7 +367,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNTibia</defName>
     <label>tibia frame</label>
     <hitPoints>25</hitPoints>
@@ -375,7 +380,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNFoot</defName>
     <label>foot</label>
     <hitPoints>25</hitPoints>
@@ -386,7 +391,7 @@
     </tags>
   </BodyPartDef>
 
-  <BodyPartDef>
+  <BodyPartDef ParentName="PN_BodyPartDefBase">
     <defName>PNToe</defName>
     <label>toe</label>
     <hitPoints>8</hitPoints>
