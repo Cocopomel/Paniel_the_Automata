@@ -299,7 +299,7 @@
 
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_EMP</defName>
-    <label>cluster EMP shell</label>
+    <label>PnL cluster EMP shell</label>
     <description>Cluster EMP</description>
     <graphicData>
       <texPath>Things/Item/PNShellHE</texPath>
