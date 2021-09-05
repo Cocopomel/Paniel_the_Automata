@@ -100,7 +100,7 @@
       </li>
     </comps>
     <costList>
-      <Shell_HighExplosive>4</Shell_HighExplosive>
+      <Shell_HighExplosive>5</Shell_HighExplosive>
       <Chemfuel>20</Chemfuel>
     </costList>
   </ThingDef>
@@ -251,7 +251,7 @@
       </li>
     </comps>
     <costList>
-      <Shell_Incendiary>4</Shell_Incendiary>
+      <Shell_Incendiary>5</Shell_Incendiary>
       <Chemfuel>20</Chemfuel>
     </costList>
   </ThingDef>
@@ -323,7 +323,7 @@
       </li>
     </comps>
     <costList>
-      <Shell_EMP>4</Shell_EMP>
+      <Shell_EMP>5</Shell_EMP>
       <Chemfuel>20</Chemfuel>
     </costList>
   </ThingDef>
@@ -403,7 +403,7 @@
       </li>
     </comps>
     <costList>
-      <Shell_Firefoam>4</Shell_Firefoam>
+      <Shell_Firefoam>5</Shell_Firefoam>
       <Chemfuel>20</Chemfuel>
     </costList>
   </ThingDef>
@@ -483,7 +483,7 @@
       </li>
     </comps>
     <costList>
-      <Shell_Smoke>4</Shell_Smoke>
+      <Shell_Smoke>5</Shell_Smoke>
       <Chemfuel>20</Chemfuel>
     </costList>
   </ThingDef>
