@@ -115,7 +115,7 @@
     </graphicData>
     <projectile Class="TorgueAnty.TorgueProjectileProps">
       <subProjectile>PN_Bullet_Shell_HE_Sub</subProjectile>
-      <clusterCount>14</clusterCount>
+      <clusterCount>12</clusterCount>
       <clusterRadius>6.9</clusterRadius>
     </projectile>
   </ThingDef>
@@ -147,8 +147,6 @@
   <DamageDef ParentName="Bomb">
     <defName>PN_CL_Bomb</defName>
     <workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
-    <minDamageToFragment>9</minDamageToFragment>
-    <defaultDamage>30</defaultDamage>
   </DamageDef>
 
   <!--관통탄-->

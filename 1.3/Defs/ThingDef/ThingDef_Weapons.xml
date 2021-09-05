@@ -464,7 +464,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>30.9</range>
+        <range>36.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -481,7 +481,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>2.3</warmupTime>
-        <range>36.9</range>
+        <range>44.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -489,7 +489,7 @@
         <label>accurate shot</label>
         <texPath>UI/Commands/Snipe</texPath>
         <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.10</accuracyShort>
+        <accuracyShort>0.25</accuracyShort>
         <accuracyMedium>0.25</accuracyMedium>
         <accuracyLong>0.25</accuracyLong>
       </li>
@@ -561,7 +561,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -640,7 +640,7 @@
     <label>PnL machinegun bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
       <stoppingPower>1.0</stoppingPower>
       <speed>70</speed>
     </projectile>
@@ -676,7 +676,7 @@
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
       <AccuracyLong>0.75</AccuracyLong>
-      <RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -719,7 +719,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
-        <warmupTime>4.5</warmupTime>
+        <warmupTime>3.0</warmupTime>
         <minRange>4.9</minRange>
         <range>54.9</range>
         <soundCast>PNCannonSound</soundCast>
@@ -791,7 +791,7 @@
     <projectile>
       <damageDef>PN_Bomb_Cannon</damageDef>
       <speed>100</speed>
-      <explosionRadius>1.9</explosionRadius>
+      <explosionRadius>2.4</explosionRadius>
     </projectile>
   </ThingDef>
 
@@ -814,9 +814,7 @@
   <DamageDef ParentName="Bomb">
     <defName>PN_Bomb_Cannon</defName>
     <label>bomb</label>
-    <defaultDamage>40</defaultDamage>
-    <buildingDamageFactorImpassable>5</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>3</buildingDamageFactorPassable>
+    <defaultDamage>50</defaultDamage>
   </DamageDef>
 
   <!--==================================== 체인 롱소드 ====================================-->
@@ -929,11 +927,11 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.45</AccuracyTouch>
-      <AccuracyShort>0.35</AccuracyShort>
-      <AccuracyMedium>0.25</AccuracyMedium>
-      <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.64</AccuracyTouch>
+      <AccuracyShort>0.57</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
@@ -944,11 +942,11 @@
         <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
-        <range>15.9</range>
+        <warmupTime>0.35</warmupTime>
+        <range>9.9</range>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <burstShotCount>12</burstShotCount>
-        <soundCast>Shot_Autopistol</soundCast>
+        <burstShotCount>7</burstShotCount>
+        <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
         <pelletCount>2</pelletCount>
@@ -987,13 +985,13 @@
     <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>6</damageAmountBase>
+      <damageAmountBase>4</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
       <armorPenetrationBase>0.09</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_big</texPath>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -1033,6 +1031,9 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <comps>
+      <li>
+        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
+      </li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
@@ -1062,16 +1063,39 @@
       </li>
     </comps>
     <verbs>
-      <li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>30.9</range>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>PNRoyalRifleSound</soundCast>
+        <range>36.9</range>
+        <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
+        <desc>...</desc>
+        <label>quick shot</label>
+        <texPath>UI/Commands/Pew</texPath>
+        <accuracyTouch>0.0</accuracyTouch>
+        <accuracyShort>0.0</accuracyShort>
+        <accuracyMedium>0.0</accuracyMedium>
+        <accuracyLong>0.0</accuracyLong>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>44.9</range>
+        <soundCast>PNRifleSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <desc>...</desc>
+        <label>accurate shot</label>
+        <texPath>UI/Commands/Snipe</texPath>
+        <accuracyTouch>0.0</accuracyTouch>
+        <accuracyShort>0.25</accuracyShort>
+        <accuracyMedium>0.25</accuracyMedium>
+        <accuracyLong>0.25</accuracyLong>
       </li>
     </verbs>
     <weaponTags>
@@ -1114,6 +1138,305 @@
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <!--==================================== 로열 LSW ====================================-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalLSW</defName>
+    <label>PnL royal LSW</label>
+    <description>...</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalLSW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.6</Mass>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li>
+        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
+      </li>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+    </comps>
+    <verbs>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_bomb</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>Frag</label>
+        <texPath>UI/Commands/HE</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_Flame</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>Incendiary</label>
+        <texPath>UI/Commands/Flame</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_EMP</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>EMP</label>
+        <texPath>UI/Commands/EMP</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_Smoke</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>Smoke</label>
+        <texPath>UI/Commands/Smoke</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+      <li Class="AdditionalVerb.VerbProperties_Custom">
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_FF</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <desc>...</desc>
+        <label>Firefoam</label>
+        <texPath>UI/Commands/FF</texPath>
+        <accuracyTouch>0</accuracyTouch>
+        <accuracyShort>0</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_LSW_bomb</defName>
+    <label>PnL LSW bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>2.4</explosionRadius>
+      <damageDef>Bomb</damageDef>
+      <speed>40</speed>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_LSW_Flame</defName>
+    <label>PnL LSW bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>2.4</explosionRadius>
+      <damageDef>Flame</damageDef>
+      <speed>40</speed>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_LSW_EMP</defName>
+    <label>PnL LSW bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>3.5</explosionRadius>
+      <damageDef>EMP</damageDef>
+      <speed>40</speed>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_LSW_Smoke</defName>
+    <label>PnL LSW bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>3.5</explosionRadius>
+      <damageDef>Smoke</damageDef>
+      <speed>40</speed>
+      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_LSW_FF</defName>
+    <label>PnL LSW bullet</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>3.5</explosionRadius>
+      <damageDef>Extinguish</damageDef>
+      <speed>40</speed>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+      <explosionEffect>ExtinguisherExplosion</explosionEffect>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
