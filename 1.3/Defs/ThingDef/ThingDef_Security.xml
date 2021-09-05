@@ -60,8 +60,8 @@
           </thingDefs>
         </fuelFilter>
         <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
-        <fuelCapacity>30</fuelCapacity>
-        <fuelMultiplier>30</fuelMultiplier>
+        <fuelCapacity>15</fuelCapacity>
+        <fuelMultiplier>15</fuelMultiplier>
         <initialFuelPercent>1</initialFuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
