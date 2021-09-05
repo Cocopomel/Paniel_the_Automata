@@ -59,6 +59,16 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_RepairKit</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
