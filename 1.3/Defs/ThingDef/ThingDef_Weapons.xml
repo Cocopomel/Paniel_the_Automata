@@ -1026,7 +1026,7 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>50</Plasteel>
@@ -1066,10 +1066,9 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>1</warmupTime>
-        <range>25.9</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <warmupTime>0.7</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>1</burstShotCount>
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1108,10 +1107,10 @@
     <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>22</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <armorPenetrationBase>0.42</armorPenetrationBase>
-      <speed>70</speed>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>100</speed>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/Bullet_big</texPath>
