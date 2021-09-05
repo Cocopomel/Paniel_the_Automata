@@ -1147,7 +1147,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
     <label>PnL royal LSW</label>
-    <description>...</description>
+    <description>Light Support Weapon</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalLSW</texPath>
