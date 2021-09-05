@@ -213,8 +213,8 @@
     <costList>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Steel>15</Steel>
-      <Chemfuel>2</Chemfuel>
-      <Leather_Automaton>5</Leather_Automaton>
+      <Chemfuel>5</Chemfuel>
+      <Leather_Automaton>10</Leather_Automaton>
     </costList>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
