@@ -143,11 +143,11 @@
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
         <hediffToNullify>
-					<li>PN_AutomatonFuel_Addiction</li>	
-				</hediffToNullify>
-				<bodyDefBlackList>
-					<li>PanielBody</li>
-				</bodyDefBlackList>
+          <li>PN_AutomatonFuel_Addiction</li>
+        </hediffToNullify>
+        <bodyDefBlackList>
+          <li>PanielBody</li>
+        </bodyDefBlackList>
       </li>
     </comps>
   </HediffDef>
@@ -171,21 +171,22 @@
     <everCurableByItem>false</everCurableByItem>
     <isBad>false</isBad>
     <comps>
-      <li Class="HediffCompProperties_Discoverable">
+      <!--<li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
         <discoverLetterLabel>Automaton fuel required</discoverLetterLabel>
-        <discoverLetterText>...</discoverLetterText>
+        <discoverLetterText>{0} ran out of fuel and switched to emergency power.\n\nEmergency power will only run for 15 days, after which {0} will destroy.\n\nPlease check fuel stock and refuel {0}.</discoverLetterText>
         <letterType>NegativeEvent</letterType>
         <messageType>NegativeEvent</messageType>
-      </li>
+      </li>-->
     </comps>
     <stages>
       <li>
-        <becomeVisible>false</becomeVisible>
+      <!--<becomeVisible>false</becomeVisible>-->
       </li>
       <li>
-        <label>required</label>
+        <!--<label>required</label>-->
         <lifeThreatening>true</lifeThreatening>
+        <becomeVisible>false</becomeVisible>
         <deathMtbDays>15</deathMtbDays>
         <capMods>
           <li>
