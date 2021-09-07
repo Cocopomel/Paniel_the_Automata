@@ -658,9 +658,9 @@
       <MoveSpeed>4.6</MoveSpeed>
       <Flammability>1.0</Flammability>
       <RoyalFavorValue>0</RoyalFavorValue>
-      <ComfyTemperatureMax>24</ComfyTemperatureMax>
+      <ComfyTemperatureMax>38</ComfyTemperatureMax>
       <ComfyTemperatureMin>4</ComfyTemperatureMin>
-      <RestRateMultiplier>1.25</RestRateMultiplier>      <!--수면효율-->
+      <RestRateMultiplier>1.00</RestRateMultiplier>      <!--수면효율-->
       <HungerRateMultiplier>0.25</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
       <ImmunityGainSpeed>0</ImmunityGainSpeed>
@@ -669,6 +669,7 @@
       <ToxicSensitivity>0.2</ToxicSensitivity>
       <PsychicSensitivity>0.2</PsychicSensitivity>
       <GlobalLearningFactor>0</GlobalLearningFactor>
+      <FoodPoisonChance>0.0</FoodPoisonChance>
       <MeatAmount>0</MeatAmount>
       <LeatherAmount>0</LeatherAmount>
       <!-- 전투 -->
@@ -676,9 +677,12 @@
       <MeleeHitChance>1.0</MeleeHitChance>
       <AimingDelayFactor>1.0</AimingDelayFactor>
       <ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
       <!-- 사교 -->
       <NegotiationAbility>0.8</NegotiationAbility>
-      <SellPriceFactor>0.8</SellPriceFactor>
+      <SellPriceFactor>1.0</SellPriceFactor>
       <SocialImpact>1.0</SocialImpact>
       <MentalBreakThreshold>0.30</MentalBreakThreshold>
       <!-- 작업 -->
@@ -689,10 +693,7 @@
       <MedicalSurgerySuccessChance>1.0</MedicalSurgerySuccessChance>
       <!-- 테크 -->
       <ConstructionSpeed>1.0</ConstructionSpeed>
-      <ResearchSpeed>0.2</ResearchSpeed>
-      <ArmorRating_Sharp>0</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0</ArmorRating_Blunt>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ResearchSpeed>0.1</ResearchSpeed>
     </statBases>
     <!--맨손 전투-->
     <tools>

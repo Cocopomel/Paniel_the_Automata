@@ -13,7 +13,7 @@
     <thingDef>Paniel_Race</thingDef>
     <statDef>MarketValue</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_MarketValue_Automaton">
-      <multiplier>0.51</multiplier>
+      <multiplier>1.00</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 
@@ -23,7 +23,7 @@
     <statDef>ArmorRating_Sharp</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
       <addition>0</addition>
-      <multiplier>0.51</multiplier>
+      <multiplier>0.73</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 
@@ -33,7 +33,7 @@
     <statDef>ArmorRating_Blunt</statDef>
     <worker Class="AutomataRace.StatOverrideWorker_ArmorRating_Automaton">
       <addition>0</addition>
-      <multiplier>0.51</multiplier>
+      <multiplier>0.73</multiplier>
     </worker>
   </CustomizableRecipe.StatOverrideDef>
 

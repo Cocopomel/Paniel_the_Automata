@@ -136,7 +136,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <IncomingDamageFactor>-0.05</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -168,7 +168,7 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
@@ -203,7 +203,7 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.25</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.30</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.75</IncomingDamageFactor>
