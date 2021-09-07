@@ -561,7 +561,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -601,10 +601,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Machinegun</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
+        <warmupTime>2.6</warmupTime>
         <range>30.9</range>
         <burstShotCount>40</burstShotCount>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -640,7 +640,7 @@
     <label>PnL machinegun bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>9</damageAmountBase>
+      <damageAmountBase>8</damageAmountBase>
       <stoppingPower>1.0</stoppingPower>
       <speed>70</speed>
     </projectile>
@@ -719,7 +719,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
+        <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
         <range>54.9</range>
         <soundCast>PNCannonSound</soundCast>
@@ -738,7 +738,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_HE</defaultProjectile>
         <forcedMissRadius>0.01</forcedMissRadius>
-        <warmupTime>3.0</warmupTime>
+        <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
         <range>54.9</range>
         <soundCast>PNCannonSound</soundCast>
@@ -927,10 +927,10 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.64</AccuracyTouch>
-      <AccuracyShort>0.57</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
+      <AccuracyTouch>0.57</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.14</AccuracyMedium>
+      <AccuracyLong>0.03</AccuracyLong>
       <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -1131,7 +1131,7 @@
     <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>24</damageAmountBase>
+      <damageAmountBase>25</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.38</armorPenetrationBase>
       <speed>100</speed>
