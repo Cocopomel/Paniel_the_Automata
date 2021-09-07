@@ -5,10 +5,10 @@
     <bodyTypeMale>Female</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <forcedHediffs>
-			<!--<li>PanielBaseHediff</li>
+      <!--<li>PanielBaseHediff</li>
 			<li>PN_AutomatonFuel_Addiction</li>
 			<li>PN_Maintenance</li>-->
-		</forcedHediffs>
+    </forcedHediffs>
     <spawnCategories>
       <li>PN_storys</li>
     </spawnCategories>
@@ -358,7 +358,6 @@
       <li>Cooking</li>
       <li>Crafting</li>
       <li>PlantWork</li>
-      <li>Caring</li>
     </workDisables>
   </AlienRace.BackstoryDef>
 
@@ -378,16 +377,8 @@
         <amount>6</amount>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>1</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>1</amount>
-      </li>
-      <li>
         <defName>Animals</defName>
-        <amount>1</amount>
+        <amount>6</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -415,16 +406,12 @@
         <amount>9</amount>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>2</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>2</amount>
-      </li>
-      <li>
         <defName>Animals</defName>
-        <amount>2</amount>
+        <amount>9</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -451,15 +438,11 @@
         <amount>12</amount>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>3</amount>
-      </li>
-      <li>
         <defName>Animals</defName>
+        <amount>12</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
         <amount>3</amount>
       </li>
     </skillGains>
@@ -487,16 +470,12 @@
         <amount>15</amount>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>4</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>4</amount>
-      </li>
-      <li>
         <defName>Animals</defName>
-        <amount>4</amount>
+        <amount>15</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>5</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -523,16 +502,12 @@
         <amount>18</amount>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>5</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>5</amount>
-      </li>
-      <li>
         <defName>Animals</defName>
-        <amount>5</amount>
+        <amount>18</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>7</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -585,10 +560,6 @@
         <defName>Crafting</defName>
         <amount>6</amount>
       </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>1</amount>
-      </li>
     </skillGains>
     <spawnCategories>
       <li>Paniel_Story_Start</li>
@@ -620,7 +591,7 @@
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>2</amount>
+        <amount>1</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -684,7 +655,7 @@
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>4</amount>
+        <amount>5</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -716,7 +687,7 @@
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>5</amount>
+        <amount>7</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -770,10 +741,6 @@
         <defName>Medicine</defName>
         <amount>6</amount>
       </li>
-      <li>
-        <defName>Social</defName>
-        <amount>1</amount>
-      </li>
     </skillGains>
     <spawnCategories>
       <li>Paniel_Story_Start</li>
@@ -805,7 +772,7 @@
       </li>
       <li>
         <defName>Social</defName>
-        <amount>2</amount>
+        <amount>1</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -869,7 +836,7 @@
       </li>
       <li>
         <defName>Social</defName>
-        <amount>4</amount>
+        <amount>5</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -901,7 +868,7 @@
       </li>
       <li>
         <defName>Social</defName>
-        <amount>5</amount>
+        <amount>7</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -920,7 +887,7 @@
     <baseDescription>backstory</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
-    <li>
+      <li>
         <defName>Shooting</defName>
         <amount>15</amount>
       </li>
