@@ -181,12 +181,13 @@
     </comps>
     <stages>
       <li>
+      <label>stable</label>
       <!--<becomeVisible>false</becomeVisible>-->
       </li>
       <li>
-        <!--<label>required</label>-->
+        <label>required</label>
         <lifeThreatening>true</lifeThreatening>
-        <becomeVisible>false</becomeVisible>
+        <!--<becomeVisible>false</becomeVisible>-->
         <deathMtbDays>15</deathMtbDays>
         <capMods>
           <li>
