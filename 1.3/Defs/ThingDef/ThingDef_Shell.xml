@@ -152,13 +152,13 @@
   <!--관통탄-->
 
   <ThingDef ParentName="PN_ShellBase">
-    <defName>PN_Shell_HESH</defName>
-    <label>PnL HESH shell</label>
+    <defName>PN_Shell_AP</defName>
+    <label>PnL AP shell</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Item/PNShellHE</texPath>
     </graphicData>
-    <projectileWhenLoaded>PN_Bullet_Shell_HESH</projectileWhenLoaded>
+    <projectileWhenLoaded>PN_Bullet_Shell_AP</projectileWhenLoaded>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>1.25</Mass>
@@ -188,8 +188,8 @@
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet_Shell">
-    <defName>PN_Bullet_Shell_HESH</defName>
-    <label>HESH shell</label>
+    <defName>PN_Bullet_Shell_AP</defName>
+    <label>AP shell</label>
     <graphicData>
       <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -197,7 +197,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>PN_HESHbomb</damageDef>
+      <damageDef>PN_APbomb</damageDef>
       <speed>205</speed>
       <explosionRadius>0.9</explosionRadius>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
@@ -208,17 +208,17 @@
   </ThingDef>
 
   <DamageDef ParentName="Bomb">
-    <defName>PN_HESHbomb</defName>
+    <defName>PN_APbomb</defName>
     <workerClass>DamageWorker_Stab</workerClass>
     <stabChanceOfForcedInternal>1.0</stabChanceOfForcedInternal>
     <overkillPctToDestroyPart>0.6~1.0</overkillPctToDestroyPart>
-    <armorCategory>Blunt</armorCategory>
-    <defaultDamage>195</defaultDamage>
+    <armorCategory>Sharp</armorCategory>
+    <defaultDamage>98</defaultDamage>
     <minDamageToFragment>200</minDamageToFragment>
     <defaultStoppingPower>5.0</defaultStoppingPower>
-    <defaultArmorPenetration>1.30</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>0.5</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>0.5</buildingDamageFactorPassable>
+    <defaultArmorPenetration>1.20</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
     <plantDamageFactor>1</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
   </DamageDef>

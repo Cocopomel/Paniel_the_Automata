@@ -107,7 +107,7 @@
 
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>PN_Shell_HESH</thingDef>
+					<thingDef>PN_Shell_AP</thingDef>
 					<count>75</count>
 				</li>
 
