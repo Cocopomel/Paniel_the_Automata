@@ -702,7 +702,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10.25</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -719,7 +719,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10.25</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -748,7 +748,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.25</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
