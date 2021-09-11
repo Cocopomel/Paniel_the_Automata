@@ -264,7 +264,8 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -341,7 +342,8 @@
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.10</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -417,7 +419,7 @@
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.25</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
       <AimingDelayFactor>-0.20</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -497,7 +499,7 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
       <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
@@ -927,7 +929,7 @@
       <EquipDelay>13</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.40</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.35</WorkSpeedGlobal>
       <AimingDelayFactor>-0.30</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
@@ -1008,7 +1010,7 @@
       <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.20</GeneralLaborSpeed>
+      <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
       <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
