@@ -24,6 +24,37 @@
             <li>Paniel_PlayerFaction</li>
           </value>
         </li>
+        <!-- 연구 -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName = "PNRP_TierC_Apparel"]/baseCost</xpath>
+          <value>
+            <baseCost>500</baseCost>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName = "PNRP_TierC_Apparel"]/prerequisites</xpath>
+          <value>
+            <prerequisites>
+              <li>PNRP_TierB_Apparel</li>
+              <li>CataphractArmor</li>
+            </prerequisites>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName = "PNRP_Brain"]/baseCost</xpath>
+          <value>
+            <baseCost>500</baseCost>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName = "PNRP_Brain"]/prerequisites</xpath>
+          <value>
+            <prerequisites>
+              <li>PNRP_Production</li>
+              <li>BrainWiring</li>
+            </prerequisites>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

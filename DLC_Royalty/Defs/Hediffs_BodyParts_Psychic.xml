@@ -94,6 +94,6 @@
       <Crafting>6</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
-    <researchPrerequisite>PNRP_Brain</researchPrerequisite>
+    <researchPrerequisite>PNRP_PsychicAmplifier</researchPrerequisite>
   </RecipeDef>
 </Defs>
