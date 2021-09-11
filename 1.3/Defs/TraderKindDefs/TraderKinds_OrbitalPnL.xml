@@ -71,17 +71,21 @@
       </li>
 
       <!-- Weapons -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_PrototypeRailGun</thingDef>
+        <countRange>1~3</countRange>
+      </li>
 
       <!-- Apparel -->
 
       <!-- Implants -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ResurrectModule</thingDef>
-        <countRange>-6~1</countRange>
+        <countRange>-9~1</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ExperimentalModule</thingDef>
-        <countRange>-12~1</countRange>
+        <countRange>-9~1</countRange>
       </li>
 
       <!-- Buildings -->
