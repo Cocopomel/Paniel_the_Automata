@@ -956,21 +956,28 @@
       <li>PN_RoyalRifle</li>
     </weaponTags>
     <tools>
-      <li>
-        <label>stock</label>
+       <li>
+        <label>grip</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
         <power>9</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>kick</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
-        <label>barrel</label>
+        <label>Close shot</label>
         <capacities>
-          <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>9</power>
+        <power>21</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
