@@ -213,7 +213,7 @@
     <stabChanceOfForcedInternal>1.0</stabChanceOfForcedInternal>
     <overkillPctToDestroyPart>0.6~1.0</overkillPctToDestroyPart>
     <armorCategory>Sharp</armorCategory>
-    <defaultDamage>98</defaultDamage>
+    <defaultDamage>125</defaultDamage>
     <minDamageToFragment>200</minDamageToFragment>
     <defaultStoppingPower>5.0</defaultStoppingPower>
     <defaultArmorPenetration>1.20</defaultArmorPenetration>
