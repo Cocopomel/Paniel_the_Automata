@@ -12,13 +12,14 @@
       <drawSize>(3,3)</drawSize>
     </graphicData>
     <minifiedDef>MinifiedThing</minifiedDef>
-    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <!--<altitudeLayer>MoteOverhead</altitudeLayer>-->
+    <altitudeLayer>Building</altitudeLayer>
     <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,0)</interactionCellOffset>    <!--상호작용 위치-->
+    <interactionCellOffset>(0,0,-3)</interactionCellOffset>    <!--상호작용 위치-->
     <stealable>false</stealable>
     <size>(3,3)</size>
     <passability>PassThroughOnly</passability>
-    <pathCost>10</pathCost>
+    <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
     <thingCategories>
       <li>BuildingsSecurity</li>
@@ -84,7 +85,7 @@
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
       <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
-      <turretBurstCooldownTime>3.0</turretBurstCooldownTime>
+      <turretBurstCooldownTime>7.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
     </building>
@@ -122,12 +123,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-        <warmupTime>9.5</warmupTime>
+        <warmupTime>2.0</warmupTime>
         <forcedMissRadius>0</forcedMissRadius>
         <forcedMissRadiusClassicMortars>0</forcedMissRadiusClassicMortars>
         <!--<isMortar>true</isMortar>-->
         <requireLineOfSight>false</requireLineOfSight>
-        <minRange>11.9</minRange>
+        <minRange>29.9</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>PNCannonSound</soundCast>
@@ -150,30 +151,10 @@
         </filter>
       </fixedStorageSettings>
       <defaultStorageSettings>
-        <!--<filter>
-          <categories>
-            <li>PN_Shell</li>
-          </categories>
-          <disallowedThingDefs>
-          </disallowedThingDefs>
-        </filter>-->
+
       </defaultStorageSettings>
     </building>
   </ThingDef>
-
-  <!--<DesignatorDropdownGroupDef>
-    <defName>PN_Artillery_Dropdown</defName>
-    <label>PnL Auto Artillery</label>
-  </DesignatorDropdownGroupDef>
-
-  <ThingDef ParentName="PN_BaseArtilleryBuilding">
-    <defName>PN_Artillery_Base_Brain</defName>
-    <label>PnL Auto Artillery</label>
-    <description>...</description>
-    <costList>
-      <PN_Brain>1</PN_Brain>
-    </costList>
-  </ThingDef>-->
 
   <ThingDef ParentName="PN_BaseArtilleryBuilding">
     <defName>PN_Artillery_Base_Core</defName>
