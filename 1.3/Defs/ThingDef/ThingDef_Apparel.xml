@@ -121,7 +121,7 @@
       <EquipDelay>0.8</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <SocialImpact>0.10</SocialImpact>
+
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -264,7 +264,7 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -341,7 +341,7 @@
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>-0.10</GeneralLaborSpeed>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -417,8 +417,8 @@
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
-      <MoveSpeed>0.2</MoveSpeed>
+      <GeneralLaborSpeed>-0.25</GeneralLaborSpeed>
+      <AimingDelayFactor>-0.20</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -497,7 +497,8 @@
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.1</GeneralLaborSpeed>
+      <GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
+      <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -572,7 +573,10 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-
+      <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -650,10 +654,10 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.05</MiningYield>
       <ConstructSuccessChance>0.05</ConstructSuccessChance>
-      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
-      <PlantWorkSpeed>0.05</PlantWorkSpeed>
-      <AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+      <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -728,13 +732,12 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <CookSpeed>0.1</CookSpeed>
-      <ButcheryFleshSpeed>0.1</ButcheryFleshSpeed>
-      <FoodPoisonChance>-0.05</FoodPoisonChance>
-      <MedicalTendSpeed>0.1</MedicalTendSpeed>
-      <MedicalTendQuality>0.1</MedicalTendQuality>
-      <MedicalOperationSpeed>0.1</MedicalOperationSpeed>
-      <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+      <FoodPoisonChance>-0.10</FoodPoisonChance>
+      <PlantHarvestYield>0.10</PlantHarvestYield>
+      <MedicalTendQuality>0.15</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.10</NegotiationAbility>
+      <SocialImpact>0.10</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -812,12 +815,12 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <CookSpeed>0.05</CookSpeed>
-      <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
-      <MedicalTendSpeed>0.05</MedicalTendSpeed>
-      <MedicalTendQuality>0.05</MedicalTendQuality>
-      <MedicalOperationSpeed>0.05</MedicalOperationSpeed>
+      <FoodPoisonChance>-0.05</FoodPoisonChance>
+      <PlantHarvestYield>0.05</PlantHarvestYield>
+      <MedicalTendQuality>0.10</MedicalTendQuality>
       <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.05</NegotiationAbility>
+      <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -924,8 +927,8 @@
       <EquipDelay>13</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.3</GeneralLaborSpeed>
-      <MoveSpeed>0.2</MoveSpeed>
+      <GeneralLaborSpeed>-0.40</GeneralLaborSpeed>
+      <AimingDelayFactor>-0.30</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -1005,7 +1008,8 @@
       <EquipDelay>4</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
+      <GeneralLaborSpeed>-0.20</GeneralLaborSpeed>
+      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
