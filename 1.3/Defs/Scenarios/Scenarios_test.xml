@@ -35,7 +35,7 @@
         <!-- test item -->
         <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>PN_Brain</thingDef>
+					<thingDef>PN_BrainCasing</thingDef>
 					<count>10</count>
 				</li>
 
