@@ -125,7 +125,7 @@
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/hats/PNbasichat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
@@ -311,7 +311,7 @@
     <label>PnL militia goggles</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/hats/PNWorkerhat1</texPath>
+      <texPath>Things/Apparel/hats/PNmilitiahat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -343,14 +343,13 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
         <li>Eyes</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/hats/PNWorkerhat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNmilitiahat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -420,7 +419,8 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <Flammability>-0.20</Flammability>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -500,7 +500,8 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-      <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.05</AimingDelayFactor>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -930,7 +931,8 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.35</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.30</AimingDelayFactor>
+      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <Flammability>-0.35</Flammability>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -1011,7 +1013,8 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
-      <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
