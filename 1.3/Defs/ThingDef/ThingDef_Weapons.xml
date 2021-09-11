@@ -194,7 +194,7 @@
     </thingSetMakerTags>
     <statBases>
       <WorkToMake>8000</WorkToMake>
-      <Mass>2</Mass>
+      <Mass>1.2</Mass>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -236,6 +236,11 @@
         <li>FueledSmithy</li>
       </recipeUsers>
     </recipeMaker>
+    <equippedStatOffsets>
+      <MiningSpeed>0.15</MiningSpeed>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+      <ConstructionSpeed>0.15</ConstructionSpeed>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--==================================== 체인소드 ====================================-->
@@ -299,6 +304,95 @@
         <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.25</PlantWorkSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <!--==================================== 체인 롱소드 ====================================-->
+  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
+    <defName>PN_Chainlongsword</defName>
+    <label>PnL chain longsword</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNSwordLong</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponTags>
+      <li>PN_Chainsword</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+      <li Class="SYS.CompProperties_WeaponExtention">
+        <littleDown>True</littleDown>
+        <northOffset>
+          <position>(0.2,0,0.25)</position>
+          <angle>-45</angle>
+        </northOffset>
+        <southOffset>
+          <position>(-0.25,0.3,0.2)</position>
+          <angle>45</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(0.15,0.3,0.2)</position>
+          <angle>-45</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(-0.15,-0.3,0.2)</position>
+          <angle>45</angle>
+        </westOffset>
+      </li>
+    </comps>
+    <weaponClasses>
+
+    </weaponClasses>
   </ThingDef>
 
   <!--==================================== 리볼버 ====================================-->
@@ -422,7 +516,7 @@
       <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>75</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <comps>
@@ -565,7 +659,7 @@
     </statBases>
     <costList>
       <Steel>150</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="SYS.CompProperties_Sheath">
@@ -680,7 +774,7 @@
     </statBases>
     <costList>
       <Steel>150</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <comps>
       <li>
@@ -817,92 +911,6 @@
     <defaultDamage>50</defaultDamage>
   </DamageDef>
 
-  <!--==================================== 체인 롱소드 ====================================-->
-  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
-    <defName>PN_Chainlongsword</defName>
-    <label>PnL chain longsword</label>
-    <description>...</description>
-    <graphicData>
-      <texPath>Things/Weapons/PNSwordLong</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <weaponTags>
-      <li>PN_Chainsword</li>
-    </weaponTags>
-    <costStuffCount>100</costStuffCount>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
-    <statBases>
-      <WorkToMake>18000</WorkToMake>
-      <Mass>2</Mass>
-    </statBases>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <tools>
-      <li>
-        <label>handle</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>edge</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <recipeMaker>
-      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <comps>
-      <li Class="SYS.CompProperties_WeaponExtention">
-        <littleDown>True</littleDown>
-        <northOffset>
-          <position>(0.2,0,0.25)</position>
-          <angle>-45</angle>
-        </northOffset>
-        <southOffset>
-          <position>(-0.25,0.3,0.2)</position>
-          <angle>45</angle>
-        </southOffset>
-        <eastOffset>
-          <position>(0.15,0.3,0.2)</position>
-          <angle>-45</angle>
-        </eastOffset>
-        <westOffset>
-          <position>(-0.15,-0.3,0.2)</position>
-          <angle>45</angle>
-        </westOffset>
-      </li>
-    </comps>
-    <weaponClasses>
-
-    </weaponClasses>
-  </ThingDef>
-
   <!--==================================== 로열 트윈 피스톨 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_TwinPistol</defName>
@@ -934,7 +942,7 @@
       <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>75</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <verbs>
@@ -956,7 +964,7 @@
       <li>PN_RoyalRifle</li>
     </weaponTags>
     <tools>
-       <li>
+      <li>
         <label>grip</label>
         <capacities>
           <li>Blunt</li>
@@ -977,8 +985,9 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>21</power>
+        <power>20</power>
         <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.09</armorPenetration>
       </li>
     </tools>
     <weaponClasses>
@@ -1034,7 +1043,7 @@
       <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>50</Plasteel>
+      <Plasteel>75</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <comps>
@@ -1149,12 +1158,12 @@
     </graphicData>
   </ThingDef>
 
-  <!--==================================== 로열 LSW ====================================-->
+  <!--==================================== 로열 LSW (멀티런쳐) ====================================-->
 
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
-    <label>PnL royal LSW</label>
-    <description>Light Support Weapon</description>
+    <label>PnL multiple launcher</label>
+    <description>launcher</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalLSW</texPath>
@@ -1173,12 +1182,12 @@
     </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
-      <Mass>4.6</Mass>
+      <Mass>7</Mass>
       <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>75</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
     </costList>
     <comps>
       <li>
@@ -1357,7 +1366,7 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>2.4</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
       <damageDef>Bomb</damageDef>
       <speed>40</speed>
       <ai_IsIncendiary>true</ai_IsIncendiary>
@@ -1375,7 +1384,7 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>2.4</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
       <damageDef>Flame</damageDef>
       <speed>40</speed>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
@@ -1395,7 +1404,7 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>3.5</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
       <damageDef>EMP</damageDef>
       <speed>40</speed>
       <arcHeightFactor>0.2</arcHeightFactor>
@@ -1412,7 +1421,7 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>3.5</explosionRadius>
+      <explosionRadius>2.4</explosionRadius>
       <damageDef>Smoke</damageDef>
       <speed>40</speed>
       <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
@@ -1432,7 +1441,7 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>3.5</explosionRadius>
+      <explosionRadius>2.4</explosionRadius>
       <damageDef>Extinguish</damageDef>
       <speed>40</speed>
       <arcHeightFactor>0.2</arcHeightFactor>
@@ -1460,7 +1469,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>1250</MarketValue>
       <Mass>8</Mass>
       <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
     </statBases>
@@ -1552,7 +1561,6 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>BombSuper</damageDef>
-      <!-- damage amount is the damage def default -->
       <speed>205</speed>
       <explosionRadius>1.9</explosionRadius>
     </projectile>
