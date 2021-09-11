@@ -115,7 +115,7 @@
     </graphicData>
     <projectile Class="TorgueAnty.TorgueProjectileProps">
       <subProjectile>PN_Bullet_Shell_HE_Sub</subProjectile>
-      <clusterCount>12</clusterCount>
+      <clusterCount>16</clusterCount>
       <clusterRadius>6.9</clusterRadius>
     </projectile>
   </ThingDef>
@@ -130,9 +130,9 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>PN_CL_Bomb</damageDef>
+      <damageDef>Bomb</damageDef>
       <speed>6.5</speed>
-      <explosionRadius>2.4</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
       <arcHeightFactor>60</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <flyOverhead>true</flyOverhead>
@@ -146,7 +146,7 @@
 
   <DamageDef ParentName="Bomb">
     <defName>PN_CL_Bomb</defName>
-    <workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>
+    <!---<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>-->
   </DamageDef>
 
   <!--관통탄-->
@@ -175,14 +175,16 @@
       </li>
     </comps>
     <costList>
-      <Steel>15</Steel>
-      <Chemfuel>25</Chemfuel>
+      <Uranium>10</Uranium>
+      <Steel>25</Steel>
+      <Chemfuel>30</Chemfuel>
     </costList>
     <costListForDifficulty>
       <difficultyVar>classicMortars</difficultyVar>
       <costList>
+        <Uranium>15</Uranium>
         <Steel>25</Steel>
-        <Chemfuel>25</Chemfuel>
+        <Chemfuel>30</Chemfuel>
       </costList>
     </costListForDifficulty>
   </ThingDef>
