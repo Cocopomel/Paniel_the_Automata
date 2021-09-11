@@ -51,7 +51,7 @@
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
       <li Class="CompProperties_Refuelable">
-        <fuelLabel>Shots until core burn</fuelLabel>
+        <fuelLabel>Shots until core overload</fuelLabel>
         <fuelGizmoLabel>Core overload</fuelGizmoLabel>
         <outOfFuelMessage>Cannot shoot: Needs new core</outOfFuelMessage>
         <fuelFilter>
