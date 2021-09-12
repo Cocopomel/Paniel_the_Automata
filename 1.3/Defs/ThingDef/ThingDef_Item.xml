@@ -385,4 +385,36 @@
       </li>
     </comps>
   </ThingDef>
+
+  <!--==================================== 로열 부품 ====================================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_ComponentRoyal</defName>
+    <label>PnL royal component</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Item/PNComponentRoyal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>800</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeTags Inherit="false">
+      <li>PN_RoyalComp</li>
+    </tradeTags>
+    <thingSetMakerTags Inherit="false">
+      
+    </thingSetMakerTags>
+  </ThingDef>
 </Defs>

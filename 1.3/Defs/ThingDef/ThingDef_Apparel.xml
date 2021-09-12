@@ -907,8 +907,9 @@
     <costStuffCount>150</costStuffCount>
     <costList>
       <ComponentSpacer>6</ComponentSpacer>
-      <DevilstrandCloth>75</DevilstrandCloth>
-      <Leather_Thrumbo>75</Leather_Thrumbo>
+      <PN_ComponentRoyal>2</PN_ComponentRoyal>
+      <Hyperweave>45</Hyperweave>
+      <Leather_Thrumbo>30</Leather_Thrumbo>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -924,7 +925,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.98</StuffEffectMultiplierArmor>
       <Insulation_Cold>36</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>13</EquipDelay>
@@ -989,8 +990,9 @@
     <costStuffCount>50</costStuffCount>
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
-      <DevilstrandCloth>25</DevilstrandCloth>
-      <Leather_Thrumbo>25</Leather_Thrumbo>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <Hyperweave>20</Hyperweave>
+      <Leather_Thrumbo>10</Leather_Thrumbo>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1006,7 +1008,7 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.98</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
@@ -1064,11 +1066,12 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>120</costStuffCount>
+    <costStuffCount>100</costStuffCount>
     <costList>
-      <ComponentSpacer>5</ComponentSpacer>
-      <DevilstrandCloth>60</DevilstrandCloth>
-      <Leather_Thrumbo>60</Leather_Thrumbo>
+      <ComponentSpacer>4</ComponentSpacer>
+      <PN_ComponentRoyal>2</PN_ComponentRoyal>
+      <Hyperweave>30</Hyperweave>
+      <Leather_Thrumbo>20</Leather_Thrumbo>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1084,7 +1087,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.89</StuffEffectMultiplierArmor>
       <Insulation_Cold>36</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>10</EquipDelay>
@@ -1100,6 +1103,7 @@
       <MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
       <NegotiationAbility>0.20</NegotiationAbility>
       <SocialImpact>0.20</SocialImpact>
+      <Flammability>-0.20</Flammability>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -1155,9 +1159,10 @@
     </stuffCategories>
     <costStuffCount>40</costStuffCount>
     <costList>
-      <ComponentSpacer>1</ComponentSpacer>
-      <DevilstrandCloth>20</DevilstrandCloth>
-      <Leather_Thrumbo>20</Leather_Thrumbo>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <Hyperweave>15</Hyperweave>
+      <Leather_Thrumbo>5</Leather_Thrumbo>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1173,7 +1178,7 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.89</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
