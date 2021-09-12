@@ -35,7 +35,7 @@
     <label>core analysis</label>
     <description>...</description>
     <tab>PN_technology</tab>
-    <baseCost>2000</baseCost>
+    <baseCost>2500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PNRP_Production</li>
@@ -133,7 +133,7 @@
     <label>royal apparel</label>
     <description>...</description>
     <tab>PN_technology</tab>
-    <baseCost>6000</baseCost>
+    <baseCost>6500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PNRP_TierB_Apparel</li>
