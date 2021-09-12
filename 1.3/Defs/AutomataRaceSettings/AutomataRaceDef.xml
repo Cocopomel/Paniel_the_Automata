@@ -199,6 +199,7 @@
           </colorChannels>
           <!--신체 부착물-->
           <bodyAddons>
+
             <li>
               <drawSize>1</drawSize>
               <path>Paniel/Hairs/Addon/Hair</path>
@@ -234,16 +235,19 @@
               </hiddenUnderApparelTag>
             </li>
 
-            <li>
+            <li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
-              <path>Paniel/Tail/PanielTail</path>
-              <bodyPart>tail</bodyPart>
+              <path>Paniel/Heads/Face/Face</path>
+              <bodyPart>PNHead</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
+              <layerInvert>false</layerInvert>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
-              <defaultOffset>Center</defaultOffset>
+              <drawIfDead>false</drawIfDead>
               <drawnDesiccated>false</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
+              <angle>0</angle>
               <offsets>
                 <north>
                   <layerOffset>-0.275</layerOffset>
@@ -252,18 +256,44 @@
                   </bodyTypes>
                 </north>
                 <south>
-                  <layerOffset>-0.309</layerOffset>
+                  <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
-                  <layerOffset>-0.309</layerOffset>
+                  <layerOffset>-0.325</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
+              <jobParams>
+                <hideIfJob>
+                  <li>
+                    <job>LayDown</job>
+                    <postureOrMoving>
+                      <postures>
+                        <li>LayingInBed</li>
+                        <li>LayingOnGroundFaceUp</li>
+                        <li>LayingOnGroundNormal</li>
+                      </postures>
+                      <moving>false</moving>
+                    </postureOrMoving>
+                  </li>
+                  <li>
+                    <job>Wait_Downed</job>
+                    <postureOrMoving>
+                      <postures>
+                        <li>LayingInBed</li>
+                        <li>LayingOnGroundFaceUp</li>
+                        <li>LayingOnGroundNormal</li>
+                      </postures>
+                      <moving>false</moving>
+                    </postureOrMoving>
+                  </li>
+                </hideIfJob>
+              </jobParams>
               <hiddenUnderApparelTag>
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
@@ -341,19 +371,16 @@
               </hiddenUnderApparelTag>
             </li>
 
-            <li Class="MoharCustomHAR.MoharBodyAddon">
+            <li>
               <drawSize>1</drawSize>
-              <path>Paniel/Heads/Face/Face</path>
-              <bodyPart>PNHead</bodyPart>
+              <path>Paniel/Tail/PanielTail</path>
+              <bodyPart>tail</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
-              <layerInvert>false</layerInvert>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
-              <drawIfDead>false</drawIfDead>
+              <defaultOffset>Center</defaultOffset>
               <drawnDesiccated>false</drawnDesiccated>
-              <alignWithHead>true</alignWithHead>
-              <angle>0</angle>
               <offsets>
                 <north>
                   <layerOffset>-0.275</layerOffset>
@@ -362,48 +389,23 @@
                   </bodyTypes>
                 </north>
                 <south>
-                  <layerOffset>-0.325</layerOffset>
+                  <layerOffset>-0.309</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
-                  <layerOffset>-0.325</layerOffset>
+                  <layerOffset>-0.309</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
-              <jobParams>
-                <hideIfJob>
-                  <li>
-                    <job>LayDown</job>
-                    <postureOrMoving>
-                      <postures>
-                        <li>LayingInBed</li>
-                        <li>LayingOnGroundFaceUp</li>
-                        <li>LayingOnGroundNormal</li>
-                      </postures>
-                      <moving>false</moving>
-                    </postureOrMoving>
-                  </li>
-                  <li>
-                    <job>Wait_Downed</job>
-                    <postureOrMoving>
-                      <postures>
-                        <li>LayingInBed</li>
-                        <li>LayingOnGroundFaceUp</li>
-                        <li>LayingOnGroundNormal</li>
-                      </postures>
-                      <moving>false</moving>
-                    </postureOrMoving>
-                  </li>
-                </hideIfJob>
-              </jobParams>
               <hiddenUnderApparelTag>
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
             </li>
+
           </bodyAddons>
         </alienPartGenerator>
       </generalSettings>
