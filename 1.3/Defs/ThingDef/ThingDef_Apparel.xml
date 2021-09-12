@@ -231,7 +231,7 @@
     <label>PnL militia uniform</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/PNSimple1</texPath>
+      <texPath>Things/Apparel/PNMilitia1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
@@ -275,7 +275,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/PNSimple</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PNMilitia</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -311,7 +311,7 @@
     <label>PnL militia goggles</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/hats/PNmilitiahat1</texPath>
+      <texPath>Things/Apparel/hats/PNMilitiahat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -349,7 +349,7 @@
         <li>UpperHead</li>
         <li>Eyes</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/hats/PNmilitiahat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNMilitiahat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -735,7 +735,7 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <FoodPoisonChance>-0.10</FoodPoisonChance>
+      <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.10</PlantHarvestYield>
       <MedicalTendQuality>0.15</MedicalTendQuality>
       <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
@@ -786,7 +786,7 @@
     <label>PnL maid hat</label>
     <description>...</description>
     <graphicData>
-      <texPath>Things/Apparel/hats/PNHousekeeperhatA1</texPath>
+      <texPath>Things/Apparel/hats/PNHousekeeperhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -818,7 +818,7 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <FoodPoisonChance>-0.05</FoodPoisonChance>
+      <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.05</PlantHarvestYield>
       <MedicalTendQuality>0.10</MedicalTendQuality>
       <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
@@ -829,7 +829,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/hats/PNHousekeeperhatA</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNHousekeeperhat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
@@ -1021,6 +1021,180 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/hats/PNRoyalguardhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어C 로열메이드 ====================================-->
+  <ThingDef ParentName="PN_RoyalApparelBase">
+    <defName>PN_ApparelRoyalmaid</defName>
+    <label>PnL royal maid uniform</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNRoyalmaid1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>120</costStuffCount>
+    <costList>
+      <ComponentSpacer>5</ComponentSpacer>
+      <DevilstrandCloth>60</DevilstrandCloth>
+      <Leather_Thrumbo>60</Leather_Thrumbo>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.30</GeneralLaborSpeed>
+      <MiningYield>0.20</MiningYield>
+      <ConstructSuccessChance>0.20</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+      <ButcheryFleshEfficiency>0.20</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.20</PlantHarvestYield>
+      <MedicalTendQuality>0.30</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.20</NegotiationAbility>
+      <SocialImpact>0.20</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNRoyalmaid</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmaidHat</defName>
+    <label>PnL royal maid hat</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmaidhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <DevilstrandCloth>20</DevilstrandCloth>
+      <Leather_Thrumbo>20</Leather_Thrumbo>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+      <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.10</PlantHarvestYield>
+      <MedicalTendQuality>0.15</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.10</NegotiationAbility>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmaidhat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
