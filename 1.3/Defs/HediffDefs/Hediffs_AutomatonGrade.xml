@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!--==================================== 동조율 ====================================-->
-  <HediffDef Abstract="True" Name="PanielSynchroBase">
+
+  <!--==================================== 베이스 ====================================-->
+
+  <!--싱크 베이스-->
+
+  <HediffDef Abstract="True" Name="PN_Sync_Base">
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -11,9 +15,27 @@
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Awful</defName>
-    <label>Automaton (awful)</label>
+  <!--필터-->
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_Give_Base">
+    <label>Automaton</label>
+    <description>...</description>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+    <!--<comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>Paniel_Synchro_Awful</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>-->
+  </HediffDef>
+
+  <!--등급 베이스-->
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncAwful_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated awful grade.</description>
     <stages>
       <li>
@@ -23,18 +45,11 @@
             <offset>-0.30</offset>
           </li>
         </capMods>
-        <statOffsets>
-          <!--<ArmorRating_Sharp>0.24</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.048</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.06</ArmorRating_Heat>-->
-        </statOffsets>
       </li>
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Poor</defName>
-    <label>Automaton (poor)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncPoor_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated poor grade.</description>
     <stages>
       <li>
@@ -50,9 +65,7 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Normal</defName>
-    <label>Automaton (normal)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncNormal_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated normal grade.</description>
     <stages>
       <li>
@@ -80,9 +93,7 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Good</defName>
-    <label>Automaton (good)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncGood_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated good grade.</description>
     <stages>
       <li>
@@ -111,9 +122,7 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Excellent</defName>
-    <label>Automaton (excellent)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncExcellent_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated excellent grade.</description>
     <stages>
       <li>
@@ -142,9 +151,7 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Masterwork</defName>
-    <label>Automaton (masterwork)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncMasterwork_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated masterwork grade.</description>
     <stages>
       <li>
@@ -177,9 +184,7 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PanielSynchroBase">
-    <defName>Paniel_Synchro_Legendary</defName>
-    <label>Automaton (legendary)</label>
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncLegendary_Base">
     <description>This pawn is an automaton.\nAfter production, it was rated legendary grade.</description>
     <stages>
       <li>
@@ -212,186 +217,317 @@
     </stages>
   </HediffDef>
 
-  <!--==================================== 등급 버프 (정식 런칭때 삭제예정) ====================================-->
+  <!--==================================== 전투형 ====================================-->
 
-  <HediffDef Abstract="True" Name="PN_Base_Implant" ParentName="AddedBodyPartBase">
-    <woundAnchorRange>0</woundAnchorRange>
-    <displayWound>true</displayWound>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>1.0</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
+  <!--평범-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Normal_Combat</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncNormal_Combat</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
       </li>
-    </stages>
+    </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Base_Implant">
-    <defName>BaseGradeEye</defName>
-    <label>automaton eye (base)</label>
-    <labelNoun>a automaton eye</labelNoun>
-    <description>..</description>
+  <HediffDef ParentName="PN_SyncNormal_Base">
+    <defName>PN_SyncNormal_Combat</defName>
+    <label>Combat Automaton (norm)</label>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Base_Implant">
-    <defName>BaseGradeEar</defName>
-    <label>automaton ear (base)</label>
-    <labelNoun>a automaton ear</labelNoun>
-    <description>..</description>
-  </HediffDef>
+  <!--상급-->
 
-  <HediffDef ParentName="PN_Base_Implant">
-    <defName>BaseGradeArm</defName>
-    <label>automaton arm (base)</label>
-    <labelNoun>a automaton arm</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_Base_Implant">
-    <defName>BaseGradeLeg</defName>
-    <label>automaton leg (base)</label>
-    <labelNoun>a automaton leg</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <!--일반(노말/굿)-->
-
-  <HediffDef Abstract="True" Name="PN_Normal_Implant" ParentName="AddedBodyPartBase">
-    <woundAnchorRange>0</woundAnchorRange>
-    <displayWound>true</displayWound>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>1.10</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Good_Combat</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncGood_Combat</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
       </li>
-    </stages>
+    </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Normal_Implant">
-    <defName>NormalGradeEye</defName>
-    <label>automaton eye (normal)</label>
-    <labelNoun>a automaton eye</labelNoun>
-    <description>..</description>
+  <HediffDef ParentName="PN_SyncGood_Base">
+    <defName>PN_SyncGood_Combat</defName>
+    <label>Combat Automaton (good)</label>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Normal_Implant">
-    <defName>NormalGradeEar</defName>
-    <label>automaton ear (normal)</label>
-    <labelNoun>a automaton ear</labelNoun>
-    <description>..</description>
-  </HediffDef>
+  <!--완벽-->
 
-  <HediffDef ParentName="PN_Normal_Implant">
-    <defName>NormalGradeArm</defName>
-    <label>automaton arm (normal)</label>
-    <labelNoun>a automaton arm</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_Normal_Implant">
-    <defName>NormalGradeLeg</defName>
-    <label>automaton leg (normal)</label>
-    <labelNoun>a automaton leg</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <!--노블(엑셀/마스터)-->
-
-  <HediffDef Abstract="True" Name="PN_Noble_Implant" ParentName="AddedBodyPartBase">
-    <woundAnchorRange>0</woundAnchorRange>
-    <displayWound>true</displayWound>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <addedPartProps>
-      <solid>true</solid>
-      <partEfficiency>1.25</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Excellent_Combat</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncExcellent_Combat</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
       </li>
-    </stages>
+    </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Noble_Implant">
-    <defName>NobleGradeEye</defName>
-    <label>automaton eye (noble)</label>
-    <labelNoun>a automaton eye</labelNoun>
-    <description>..</description>
+  <HediffDef ParentName="PN_SyncExcellent_Base">
+    <defName>PN_SyncExcellent_Combat</defName>
+    <label>Combat Automaton (exc)</label>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Noble_Implant">
-    <defName>NobleGradeEar</defName>
-    <label>automaton ear (noble)</label>
-    <labelNoun>a automaton ear</labelNoun>
-    <description>..</description>
-  </HediffDef>
+  <!--걸작-->
 
-  <HediffDef ParentName="PN_Noble_Implant">
-    <defName>NobleGradeArm</defName>
-    <label>automaton arm (noble)</label>
-    <labelNoun>a automaton arm</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_Noble_Implant">
-    <defName>NobleGradeLeg</defName>
-    <label>automaton leg (noble)</label>
-    <labelNoun>a automaton leg</labelNoun>
-    <description>..</description>
-  </HediffDef>
-
-  <!--로얄(레전더리)-->
-
-  <HediffDef Abstract="True" Name="PN_Royal_Implant" ParentName="AddedBodyPartBase">
-    <woundAnchorRange>0</woundAnchorRange>
-    <displayWound>true</displayWound>
-    <scenarioCanAdd>false</scenarioCanAdd>
-    <addedPartProps>
-      <partEfficiency>1.50</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-    <stages>
-      <li>
-        <becomeVisible>false</becomeVisible>
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Masterwork_Combat</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncMasterwork_Combat</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
       </li>
-    </stages>
+    </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Royal_Implant">
-    <defName>RoyalGradeEye</defName>
-    <label>automaton eye (royal)</label>
-    <labelNoun>a automaton eye</labelNoun>
-    <description>..</description>
+  <HediffDef ParentName="PN_SyncMasterwork_Base">
+    <defName>PN_SyncMasterwork_Combat</defName>
+    <label>Combat Automaton (mast)</label>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Royal_Implant">
-    <defName>RoyalGradeEar</defName>
-    <label>automaton ear (royal)</label>
-    <labelNoun>a automaton ear</labelNoun>
-    <description>..</description>
+  <!--전설-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Legendary_Combat</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncLegendary_Combat</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Royal_Implant">
-    <defName>RoyalGradeArm</defName>
-    <label>automaton arm (royal)</label>
-    <labelNoun>a automaton arm</labelNoun>
-    <description>..</description>
+  <HediffDef ParentName="PN_SyncLegendary_Base">
+    <defName>PN_SyncLegendary_Combat</defName>
+    <label>Combat Automaton (legd)</label>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Royal_Implant">
-    <defName>RoyalGradeLeg</defName>
-    <label>automaton leg (royal)</label>
-    <labelNoun>a automaton leg</labelNoun>
-    <description>..</description>
+<!--==================================== 제작형 ====================================-->
+
+  <!--평범-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Normal_Engineer</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncNormal_Engineer</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncNormal_Base">
+    <defName>PN_SyncNormal_Engineer</defName>
+    <label>Engineer Automaton (norm)</label>
+  </HediffDef>
+
+  <!--상급-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Good_Engineer</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncGood_Engineer</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncGood_Base">
+    <defName>PN_SyncGood_Engineer</defName>
+    <label>Engineer Automaton (good)</label>
+  </HediffDef>
+
+  <!--완벽-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Excellent_Engineer</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncExcellent_Engineer</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncExcellent_Base">
+    <defName>PN_SyncExcellent_Engineer</defName>
+    <label>Engineer Automaton (exc)</label>
+  </HediffDef>
+
+  <!--걸작-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Masterwork_Engineer</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncMasterwork_Engineer</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncMasterwork_Base">
+    <defName>PN_SyncMasterwork_Engineer</defName>
+    <label>Engineer Automaton (mast)</label>
+  </HediffDef>
+
+  <!--전설-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Legendary_Engineer</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncLegendary_Engineer</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncLegendary_Base">
+    <defName>PN_SyncLegendary_Engineer</defName>
+    <label>Engineer Automaton (legd)</label>
+  </HediffDef>
+
+  <!--==================================== 가정형 ====================================-->
+
+  <!--평범-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Normal_Domestic</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncNormal_Domestic</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncNormal_Base">
+    <defName>PN_SyncNormal_Domestic</defName>
+    <label>Domestic Automaton (norm)</label>
+  </HediffDef>
+
+  <!--상급-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Good_Domestic</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncGood_Domestic</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncGood_Base">
+    <defName>PN_SyncGood_Domestic</defName>
+    <label>Domestic Automaton (good)</label>
+  </HediffDef>
+
+  <!--완벽-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Excellent_Domestic</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncExcellent_Domestic</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncExcellent_Base">
+    <defName>PN_SyncExcellent_Domestic</defName>
+    <label>Domestic Automaton (exc)</label>
+  </HediffDef>
+
+  <!--걸작-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Masterwork_Domestic</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncMasterwork_Domestic</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncMasterwork_Base">
+    <defName>PN_SyncMasterwork_Domestic</defName>
+    <label>Domestic Automaton (mast)</label>
+  </HediffDef>
+
+  <!--전설-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Legendary_Domestic</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncLegendary_Domestic</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncLegendary_Base">
+    <defName>PN_SyncLegendary_Domestic</defName>
+    <label>Domestic Automaton (legd)</label>
+  </HediffDef>
+
+  <!--==================================== 기타 ====================================-->
+
+  <!--실험체-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Testsubject</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncGood_Testsubject</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncGood_Base">
+    <defName>PN_SyncGood_Testsubject</defName>
+    <label>Automaton Test subject</label>
+  </HediffDef>
+
+  <!--꽝끔찍-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Awful_Failure</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncAwful_Failure</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncAwful_Base">
+    <defName>PN_SyncAwful_Failure</defName>
+    <label>Automaton Failure (awfl)</label>
+  </HediffDef>
+
+  <!--꽝빈약-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <defName>PN_Give_Poor_Failure</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_SyncGood_Failure</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_SyncPoor_Base">
+    <defName>PN_SyncGood_Failure</defName>
+    <label>Automaton Failure (poor)</label>
   </HediffDef>
 </Defs>

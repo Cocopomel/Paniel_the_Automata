@@ -42,20 +42,20 @@
   <PN_OverCooling.stages.2.label>가벼움</PN_OverCooling.stages.2.label>
   <PN_OverCooling.stages.3.label>심각함</PN_OverCooling.stages.3.label>
   <PN_OverCooling.stages.4.label>극심함</PN_OverCooling.stages.4.label>
-  <Paniel_Synchro_Awful.label>오토마톤 (끔찍)</Paniel_Synchro_Awful.label>
-  <Paniel_Synchro_Awful.description>이 폰은 오토마톤입니다. 제작된 후 끔찍 등급 판정을 받았습니다.</Paniel_Synchro_Awful.description>
-  <Paniel_Synchro_Poor.label>오토마톤 (빈약)</Paniel_Synchro_Poor.label>
-  <Paniel_Synchro_Poor.description>이 폰은 오토마톤입니다. 제작된 후 빈약 등급 판정을 받았습니다.</Paniel_Synchro_Poor.description>
-  <Paniel_Synchro_Normal.label>오토마톤 (평범)</Paniel_Synchro_Normal.label>
-  <Paniel_Synchro_Normal.description>이 폰은 오토마톤입니다. 제작된 후 평범 등급 판정을 받았습니다.</Paniel_Synchro_Normal.description>
-  <Paniel_Synchro_Good.label>오토마톤 (상급)</Paniel_Synchro_Good.label>
-  <Paniel_Synchro_Good.description>이 폰은 오토마톤입니다. 제작된 후 상급 등급 판정을 받았습니다.</Paniel_Synchro_Good.description>
-  <Paniel_Synchro_Excellent.label>오토마톤 (완벽)</Paniel_Synchro_Excellent.label>
-  <Paniel_Synchro_Excellent.description>이 폰은 오토마톤입니다. 제작된 후 완벽 등급 판정을 받았습니다.</Paniel_Synchro_Excellent.description>
-  <Paniel_Synchro_Masterwork.label>오토마톤 (걸작)</Paniel_Synchro_Masterwork.label>
-  <Paniel_Synchro_Masterwork.description>이 폰은 오토마톤입니다. 제작된 후 걸작 등급 판정을 받았습니다.</Paniel_Synchro_Masterwork.description>
-  <Paniel_Synchro_Legendary.label>오토마톤 (전설)</Paniel_Synchro_Legendary.label>
-  <Paniel_Synchro_Legendary.description>이 폰은 오토마톤입니다. 제작된 후 전설 등급 판정을 받았습니다.</Paniel_Synchro_Legendary.description>
+  <PN_Synchro_Awful.label>오토마톤 (끔찍)</PN_Synchro_Awful.label>
+  <PN_Synchro_Awful.description>이 폰은 오토마톤입니다. 제작된 후 끔찍 등급 판정을 받았습니다.</PN_Synchro_Awful.description>
+  <PN_Synchro_Poor.label>오토마톤 (빈약)</PN_Synchro_Poor.label>
+  <PN_Synchro_Poor.description>이 폰은 오토마톤입니다. 제작된 후 빈약 등급 판정을 받았습니다.</PN_Synchro_Poor.description>
+  <PN_Synchro_Normal.label>오토마톤 (평범)</PN_Synchro_Normal.label>
+  <PN_Synchro_Normal.description>이 폰은 오토마톤입니다. 제작된 후 평범 등급 판정을 받았습니다.</PN_Synchro_Normal.description>
+  <PN_Synchro_Good.label>오토마톤 (상급)</PN_Synchro_Good.label>
+  <PN_Synchro_Good.description>이 폰은 오토마톤입니다. 제작된 후 상급 등급 판정을 받았습니다.</PN_Synchro_Good.description>
+  <PN_Synchro_Excellent.label>오토마톤 (완벽)</PN_Synchro_Excellent.label>
+  <PN_Synchro_Excellent.description>이 폰은 오토마톤입니다. 제작된 후 완벽 등급 판정을 받았습니다.</PN_Synchro_Excellent.description>
+  <PN_Synchro_Masterwork.label>오토마톤 (걸작)</PN_Synchro_Masterwork.label>
+  <PN_Synchro_Masterwork.description>이 폰은 오토마톤입니다. 제작된 후 걸작 등급 판정을 받았습니다.</PN_Synchro_Masterwork.description>
+  <PN_Synchro_Legendary.label>오토마톤 (전설)</PN_Synchro_Legendary.label>
+  <PN_Synchro_Legendary.description>이 폰은 오토마톤입니다. 제작된 후 전설 등급 판정을 받았습니다.</PN_Synchro_Legendary.description>
   <BaseGradeEye.label>automaton eye (base)</BaseGradeEye.label>
   <BaseGradeEye.labelNoun>a automaton eye</BaseGradeEye.labelNoun>
   <BaseGradeEye.description>..</BaseGradeEye.description>
