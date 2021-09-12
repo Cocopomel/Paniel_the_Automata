@@ -201,7 +201,7 @@
           <bodyAddons>
             <li>
               <drawSize>1</drawSize>
-              <path>Paniel/HairAddon/PanielHair</path>
+              <path>Paniel/Hairs/Addon/Hair</path>
               <bodyPart>PNHead</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
@@ -343,7 +343,7 @@
 
             <li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
-              <path>Paniel/Face/Face</path>
+              <path>Paniel/Heads/Face/Face</path>
               <bodyPart>PNHead</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
@@ -410,7 +410,7 @@
       <graphicPaths>
         <li>
           <body>Paniel/Body/</body>
-          <head>Paniel/Head/</head>
+          <head>Paniel/Heads/</head>
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>

@@ -9,7 +9,7 @@
     <defName>Paniel_HairA</defName>
     <label>Paniel HairA</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairA</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairA</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -19,7 +19,7 @@
     <defName>Paniel_HairB</defName>
     <label>Paniel HairB</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairB</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairB</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -29,7 +29,7 @@
     <defName>Paniel_HairC</defName>
     <label>Paniel HairC</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairC</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairC</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -39,7 +39,7 @@
     <defName>Paniel_HairD</defName>
     <label>Paniel HairD</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairD</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairD</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -49,7 +49,7 @@
     <defName>Paniel_HairE</defName>
     <label>Paniel HairE</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairE</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairE</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -59,7 +59,7 @@
     <defName>Paniel_HairF</defName>
     <label>Paniel HairF</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairF</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairF</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -69,7 +69,7 @@
     <defName>Paniel_HairG</defName>
     <label>Paniel HairG</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairG</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairG</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
@@ -79,7 +79,7 @@
     <defName>Paniel_HairH</defName>
     <label>Paniel HairH</label>
     <styleGender>Any</styleGender>
-    <texPath>Paniel/Hair/Paniel_HairH</texPath>
+    <texPath>Paniel/Hairs/Paniel_HairH</texPath>
     <styleTags>
       <li>PanielHair</li>
     </styleTags>
