@@ -53,7 +53,7 @@
     <defName>PN_BrainCoreCatagory</defName>
     <label>automaton core</label>
     <parent>PN_AutomatonCatagory</parent>
-    <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
+    <iconPath>Things/Item/PNBrainCore</iconPath>
   </ThingCategoryDef>
 
   <ThingDef ParentName="BodyPartBase">
