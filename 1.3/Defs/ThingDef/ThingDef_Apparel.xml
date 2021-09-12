@@ -464,7 +464,7 @@
 
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelSoldierHat</defName>
-    <label>PnL soldier hat</label>
+    <label>PnL soldier side cap</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNSoldierhat1</texPath>
@@ -540,7 +540,7 @@
   <!--==================================== 티어B 작업복 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelWorker</defName>
-    <label>PnL worker uniform</label>
+    <label>PnL engineer uniform</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/PNWorker1</texPath>
@@ -622,7 +622,7 @@
 
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelWorkerHat</defName>
-    <label>PnL worker hat</label>
+    <label>PnL Engineer newsie cap</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNWorkerhat1</texPath>
@@ -699,7 +699,7 @@
   <!--==================================== 티어B 메이드 ====================================-->
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelMaid</defName>
-    <label>PnL maid uniform</label>
+    <label>PnL housekeeper uniform</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/PNHousekeeper1</texPath>
@@ -783,7 +783,7 @@
 
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelMaidHat</defName>
-    <label>PnL maid hat</label>
+    <label>PnL housekeeper hat</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNHousekeeperhat1</texPath>
@@ -977,7 +977,7 @@
 
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalguardHat</defName>
-    <label>PnL royal guard hat</label>
+    <label>PnL royal guard beret</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalguardhat1</texPath>
@@ -1147,7 +1147,7 @@
 
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmaidHat</defName>
-    <label>PnL royal maid hat</label>
+    <label>PnL royal maid headband</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalmaidhat1</texPath>
