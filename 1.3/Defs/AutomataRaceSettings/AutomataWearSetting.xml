@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WearSetting.WearSettingDef>
+    <defName>PN_WearSetting</defName>
+    <targetRace>Paniel_Race</targetRace>
+    <wearSetting>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_ApparelRoyalguardHat_Commander</li>
+        </wearList>
+        <condition>
+					<hediffDef>
+						<li>PN_SyncLegendary_Combat</li>
+					</hediffDef>
+				</condition>
+        <cantReason>CantReasonHediff</cantReason>
+      </li>
+    </wearSetting>
+  </WearSetting.WearSettingDef>
+</Defs>
