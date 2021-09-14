@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!--==================================== 전투 지휘 모듈 ====================================-->
+
+  <HediffDef ParentName="PN_Give_Base">
+    <label>filter(CCModule)</label>
+    <defName>PN_Give_CCModule</defName>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToApply>PN_CombatCommand</hediffToApply>
+        <bodyDef>PanielBody</bodyDef>
+        <bodyPartDef>PNBrain</bodyPartDef>
+      </li>
+    </comps>
+  </HediffDef>
+
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_CombatCommand</defName>
     <label>combat command module</label>
     <description>By encouraging and commanding nearby allies, this person can enhance their focus in combat and thus their battle performance.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
-      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
-      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <!--<li Class="HediffCompProperties_RemoveIfApparelDropped" />-->
+      <!--<li Class="HediffCompProperties_DisappearsOnDeath"/>-->
       <li Class="HediffCompProperties_GiveHediffsInRange">
         <range>9.9</range>
         <mote>Mote_CombatCommand</mote>
@@ -46,8 +61,10 @@
         <statOffsets>
           <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
           <MeleeHitChance>2</MeleeHitChance>
-          <AimingDelayFactor>-0.20</AimingDelayFactor>
         </statOffsets>
+        <statFactors>
+          <AimingDelayFactor>0.80</AimingDelayFactor>
+        </statFactors>
       </li>
     </stages>
   </HediffDef>

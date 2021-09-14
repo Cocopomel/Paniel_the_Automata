@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <WearSetting.WearSettingDef>
+  <!--<WearSetting.WearSettingDef>
     <defName>PN_WearSetting</defName>
     <targetRace>Paniel_Race</targetRace>
     <wearSetting>
@@ -16,5 +16,5 @@
         <cantReason>CantReasonHediff</cantReason>
       </li>
     </wearSetting>
-  </WearSetting.WearSettingDef>
+  </WearSetting.WearSettingDef>-->
 </Defs>

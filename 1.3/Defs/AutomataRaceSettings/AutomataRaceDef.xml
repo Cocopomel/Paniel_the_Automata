@@ -628,7 +628,6 @@
           <li>PN_ApparelRoyalguardHat</li>
           <li>PN_ApparelRoyalmaid</li>
           <li>PN_ApparelRoyalmaidHat</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ApparelRoyalguardHat_Commander</li>
           <!--바닐라-->
         </apparelList>
         <whiteApparelList>
