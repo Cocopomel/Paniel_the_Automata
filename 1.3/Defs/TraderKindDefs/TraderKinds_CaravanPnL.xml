@@ -48,7 +48,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_BrainCasing</thingDef>
-        <countRange>1~2</countRange>
+        <countRange>0~2</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Automaton</thingDef>
