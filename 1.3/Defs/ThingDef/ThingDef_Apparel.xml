@@ -412,14 +412,14 @@
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>12</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.83</StuffEffectMultiplierArmor>
       <Insulation_Cold>32</Insulation_Cold>
       <Insulation_Heat>9</Insulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <MeleeDodgeChance>1</MeleeDodgeChance>
       <Flammability>-0.20</Flammability>
     </equippedStatOffsets>
     <apparel>
@@ -493,15 +493,16 @@
       <WorkToMake>21000</WorkToMake>
       <Mass>1.5</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.83</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.05</AimingDelayFactor>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
       <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+      <MeleeHitChance>1</MeleeHitChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -570,7 +571,7 @@
       <MaxHitPoints>280</MaxHitPoints>
       <Mass>9</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
       <Insulation_Cold>32</Insulation_Cold>
       <Insulation_Heat>9</Insulation_Heat>
       <EquipDelay>7</EquipDelay>
@@ -651,7 +652,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>1</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
@@ -729,7 +730,7 @@
       <MaxHitPoints>280</MaxHitPoints>
       <Mass>9</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
       <Insulation_Cold>32</Insulation_Cold>
       <Insulation_Heat>9</Insulation_Heat>
       <EquipDelay>7</EquipDelay>
@@ -812,7 +813,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Mass>1</Mass>
       <Flammability>0.6</Flammability>
-      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.72</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
@@ -932,7 +933,7 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.35</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.20</AimingDelayFactor>
+      <MeleeDodgeChance>3</MeleeDodgeChance>
       <Flammability>-0.35</Flammability>
     </equippedStatOffsets>
     <apparel>
@@ -1015,7 +1016,7 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <apparel>
