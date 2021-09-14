@@ -18,7 +18,7 @@
   <!--필터-->
 
   <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_Give_Base">
-    <label>Automaton</label>
+    <label>filter</label>
     <description>...</description>
     <stages>
       <li>
@@ -175,7 +175,6 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.10</IncomingDamageFactor>
@@ -208,7 +207,6 @@
         </capMods>
         <statOffsets>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
-          <IncomingDamageFactor>-0.30</IncomingDamageFactor>
         </statOffsets>
         <!--<statFactors>
           <IncomingDamageFactor>0.75</IncomingDamageFactor>
@@ -222,6 +220,7 @@
   <!--평범-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade C norm)</label>
     <defName>PN_Give_Normal_Combat</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -239,6 +238,7 @@
   <!--상급-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade C good)</label>
     <defName>PN_Give_Good_Combat</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -256,6 +256,7 @@
   <!--완벽-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade C exc)</label>
     <defName>PN_Give_Excellent_Combat</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -273,6 +274,7 @@
   <!--걸작-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade C mast)</label>
     <defName>PN_Give_Masterwork_Combat</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -285,11 +287,37 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Combat</defName>
     <label>Combat Automaton (mast)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.30</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--전설-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade C legd)</label>
     <defName>PN_Give_Legendary_Combat</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -302,13 +330,39 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Combat</defName>
     <label>Combat Automaton (legd)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.50</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>-0.30</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
-<!--==================================== 제작형 ====================================-->
+  <!--==================================== 제작형 ====================================-->
 
   <!--평범-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade E norm)</label>
     <defName>PN_Give_Normal_Engineer</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -326,6 +380,7 @@
   <!--상급-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade E good)</label>
     <defName>PN_Give_Good_Engineer</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -343,6 +398,7 @@
   <!--완벽-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade E exc)</label>
     <defName>PN_Give_Excellent_Engineer</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -360,6 +416,7 @@
   <!--걸작-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade E mast)</label>
     <defName>PN_Give_Masterwork_Engineer</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -372,11 +429,37 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Engineer</defName>
     <label>Engineer Automaton (mast)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.30</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--전설-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade E legd)</label>
     <defName>PN_Give_Legendary_Engineer</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -389,6 +472,31 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Engineer</defName>
     <label>Engineer Automaton (legd)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.50</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--==================================== 가정형 ====================================-->
@@ -396,6 +504,7 @@
   <!--평범-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade D norm)</label>
     <defName>PN_Give_Normal_Domestic</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -413,6 +522,7 @@
   <!--상급-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade D good)</label>
     <defName>PN_Give_Good_Domestic</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -430,6 +540,7 @@
   <!--완벽-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade D exc)</label>
     <defName>PN_Give_Excellent_Domestic</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -447,6 +558,7 @@
   <!--걸작-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade D mast)</label>
     <defName>PN_Give_Masterwork_Domestic</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -459,11 +571,37 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Domestic</defName>
     <label>Domestic Automaton (mast)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.30</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--전설-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade D legd)</label>
     <defName>PN_Give_Legendary_Domestic</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -476,6 +614,31 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Domestic</defName>
     <label>Domestic Automaton (legd)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.50</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--==================================== 기타 ====================================-->
@@ -483,6 +646,7 @@
   <!--실험체-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade test)</label>
     <defName>PN_Give_Testsubject</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -500,6 +664,7 @@
   <!--꽝끔찍-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade awfl)</label>
     <defName>PN_Give_Awful_Failure</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
@@ -517,6 +682,7 @@
   <!--꽝빈약-->
 
   <HediffDef ParentName="PN_Give_Base">
+    <label>filter(PNgrade poor)</label>
     <defName>PN_Give_Poor_Failure</defName>
     <comps>
       <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
