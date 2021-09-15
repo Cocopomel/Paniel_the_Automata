@@ -24,6 +24,9 @@
     <thingCategories Inherit="False">
       <li>PNApparel</li>
     </thingCategories>
+    <recipeMaker>
+      <useIngredientsForColor>false</useIngredientsForColor>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef Abstract="True" Name="PN_HatBase" ParentName="PN_ApparelBase">

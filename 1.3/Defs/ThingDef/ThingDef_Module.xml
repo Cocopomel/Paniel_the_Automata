@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>PNModule</defName>
+    <label>PnL module system</label>
+    <drawOrder>-5</drawOrder>
+  </ApparelLayerDef>
+
+  <ThingCategoryDef>
+    <defName>PNApparelModule</defName>
+    <label>PnL Module</label>
+    <parent>ApparelUtility</parent>
+  </ThingCategoryDef>
+
+  <ThingDef Name="PN_ApparelModuleBase" ParentName="ApparelNoQualityBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>25</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>PNModule</li>
+      </layers>
+    </apparel>
+    <thingCategories>
+      <li>PNApparelModule</li>
+    </thingCategories>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <smeltable>true</smeltable>
+  </ThingDef>
+
+  <ThingDef Name="PN_ApparelModuleIndustrial" ParentName="PN_ApparelModuleBase" Abstract="True">
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+  </ThingDef>
+
+  <ThingDef Name="PN_ApparelModuleSpacer" ParentName="PN_ApparelModuleBase" Abstract="True">
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleSpacer</texPath>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+  </ThingDef>
+
+  <!--<ThingDef ParentName="PN_ApparelModule">
+    <defName></defName>
+    <label></label>
+    <description></description>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+    </statBases>
+    <thingSetMakerTags>
+
+    </thingSetMakerTags>
+    <costList>
+
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff></hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>-->
+</Defs>

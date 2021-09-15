@@ -613,6 +613,13 @@
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
         <apparelList>
+
+          <!--[Royalty]-->
+          <!--<li MayRequire="Ludeon.RimWorld.Royalty"></li>-->
+          <!--[Ideology]-->
+          <!--<li MayRequire="Ludeon.RimWorld.Ideology"></li>-->
+
+          <!--의상-->
           <li>PN_ApparelBasic</li>
           <li>PN_ApparelBasicHat</li>
           <li>PN_ApparelCape</li>
@@ -628,9 +635,14 @@
           <li>PN_ApparelRoyalguardHat</li>
           <li>PN_ApparelRoyalmaid</li>
           <li>PN_ApparelRoyalmaidHat</li>
-          <!--바닐라-->
+
+          <!--모듈-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
+
         </apparelList>
         <whiteApparelList>
+
+          <!--바닐라-->
           <li>Apparel_ShieldBelt</li>
           <li>Apparel_PsychicShockLance</li>
           <li>Apparel_PsychicInsanityLance</li>
@@ -641,6 +653,7 @@
           <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
+
         </whiteApparelList>
         <weaponList>
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PN_ApparelModuleSpacer">
+    <defName>PN_OfficerModule</defName>
+    <label>officer module</label>
+    <description>...</description>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>80</Plasteel>
+      <Uranium>10</Uranium>
+    </costList>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_OfficerModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_OfficerModuleHediff</defName>
+    <label>officer module</label>
+    <description>...</description>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_OfficerCommandAbility</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
