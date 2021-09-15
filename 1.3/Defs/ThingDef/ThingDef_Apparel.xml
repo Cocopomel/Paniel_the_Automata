@@ -33,6 +33,9 @@
     <thingCategories Inherit="False">
       <li>PNHeadgear</li>
     </thingCategories>
+    <apparel>
+      <forceRenderUnderHair>true</forceRenderUnderHair>
+    </apparel>
   </ThingDef>
 
   <!--==================================== 기본옷 ====================================-->
@@ -892,6 +895,9 @@
     <thingCategories Inherit="False">
       <li>PNRoyalHeadgear</li>
     </thingCategories>
+    <apparel>
+      <forceRenderUnderHair>true</forceRenderUnderHair>
+    </apparel>
   </ThingDef>
 
   <!--==================================== 티어C 근위대 ====================================-->

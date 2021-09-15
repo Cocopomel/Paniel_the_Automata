@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!--==================================== 장교 모듈 ====================================-->
+
   <ThingDef ParentName="PN_ApparelModuleSpacer">
     <defName>PN_OfficerModule</defName>
     <label>officer module</label>
     <description>...</description>
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+    </statBases>
     <costList>
-      <ComponentSpacer>3</ComponentSpacer>
-      <Plasteel>80</Plasteel>
-      <Uranium>10</Uranium>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PN_ComponentRoyal>2</PN_ComponentRoyal>
     </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
         <hediff>PN_OfficerModuleHediff</hediff>

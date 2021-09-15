@@ -10,8 +10,8 @@
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-    <iconPath>UI/Abilities/CombatCommand</iconPath>
-    <warmupMoteSocialSymbol>UI/Abilities/CombatCommand</warmupMoteSocialSymbol>
+    <iconPath>UI/Abilities/PNOfficerCommand</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/PNOfficerCommand</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>

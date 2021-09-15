@@ -157,7 +157,7 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>1.0</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -172,7 +172,7 @@
       <li>GasOperation</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>2.8</researchViewY>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -187,7 +187,7 @@
       <li>Mortars</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -205,7 +205,7 @@
       <li>PNRP_BrainCasing</li>
     </hiddenPrerequisites>
     <researchViewX>5.0</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -220,6 +220,6 @@
       <li>ChargedShot</li>
     </prerequisites>
     <researchViewX>5.0</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 </Defs>

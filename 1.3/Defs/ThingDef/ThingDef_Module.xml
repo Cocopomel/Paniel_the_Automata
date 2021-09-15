@@ -9,7 +9,7 @@
   <ThingCategoryDef>
     <defName>PNApparelModule</defName>
     <label>PnL Module</label>
-    <parent>ApparelUtility</parent>
+    <parent>PNApparel</parent>
   </ThingCategoryDef>
 
   <ThingDef Name="PN_ApparelModuleBase" ParentName="ApparelNoQualityBase" Abstract="True">
@@ -76,7 +76,7 @@
     <label></label>
     <description></description>
     <statBases>
-      <WorkToMake>14000</WorkToMake>
+      <WorkToMake></WorkToMake>
     </statBases>
     <thingSetMakerTags>
 
@@ -85,7 +85,7 @@
 
     </costList>
     <recipeMaker>
-      <researchPrerequisite>ShieldBelt</researchPrerequisite>
+      <researchPrerequisite></researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>

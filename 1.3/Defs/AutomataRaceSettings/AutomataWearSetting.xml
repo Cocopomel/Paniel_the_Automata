@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!--<WearSetting.WearSettingDef>
-    <defName>PN_WearSetting</defName>
+  <WearSetting.WearSettingDef>
+    <defName>PN_WearSetting_OfficerModule</defName>
     <targetRace>Paniel_Race</targetRace>
     <wearSetting>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_ApparelRoyalguardHat_Commander</li>
+          <li>PN_OfficerModule</li>
         </wearList>
         <condition>
 					<hediffDef>
@@ -16,5 +16,5 @@
         <cantReason>CantReasonHediff</cantReason>
       </li>
     </wearSetting>
-  </WearSetting.WearSettingDef>-->
+  </WearSetting.WearSettingDef>
 </Defs>
