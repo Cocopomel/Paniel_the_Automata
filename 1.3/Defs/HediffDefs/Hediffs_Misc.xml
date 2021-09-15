@@ -37,7 +37,7 @@
     <defName>PN_EMPShock</defName>
     <label>EMP shock</label>
     <labelNoun>a EMP shock</labelNoun>
-    <description>After-effects of an electrical shock to the module. This is generally cause by feedback from module hit by EMP pulses.</description>
+    <description>After-effects of an electrical shock to the automaton. This is generally cause by feedback from automaton hit by EMP pulses.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
