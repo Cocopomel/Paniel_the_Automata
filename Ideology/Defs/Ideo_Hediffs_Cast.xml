@@ -26,10 +26,10 @@
         <hediff>PN_OfficerCommandBuff</hediff>
       </li>
       <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
-				<triggeredHediff>
-					<li>PN_OfficerCommandOverload</li>
-				</triggeredHediff>
-			</li>
+        <triggeredHediff>
+          <li>PN_OfficerCommandOverload</li>
+        </triggeredHediff>
+      </li>
     </comps>
     <stages>
       <li>
@@ -49,6 +49,32 @@
     </stages>
     <isBad>false</isBad>
   </HediffDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>PN_Mote_OfficerCommandBuff</defName>
+    <thingClass>MoteAttached</thingClass>
+    <mote>
+      <fadeInTime>5</fadeInTime>
+      <solidTime>5</solidTime>
+      <fadeOutTime>15</fadeOutTime>
+      <needsMaintenance>True</needsMaintenance>
+    </mote>
+    <graphicData>
+      <texPath>Things/Mote/PNOfficerCommandBuff</texPath>
+      <shaderType>MoteProximityScannerRadius</shaderType>
+      <color>(1, 0.1, 0.1, 0.35)</color>
+      <drawOffset>(0,0,0.5)</drawOffset>
+      <drawSize>1</drawSize>
+      <shaderParameters>
+        <_smokeScrollSpeed>0.1</_smokeScrollSpeed>
+        <_rotationSpeed>0.05</_rotationSpeed>
+        <_smokeAmount>0.1</_smokeAmount>
+        <!--<_MainTex>/Things/Mote/PNOfficerCommandBuff</_MainTex>
+        <_ScanTex>/Things/Mote/PNOfficerCommandBuff</_ScanTex>
+        <_SmokeTex>/Things/Mote/PNOfficerCommandBuff</_SmokeTex>-->
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
 
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_OfficerCommandBuff</defName>
@@ -71,7 +97,6 @@
       <li>
         <statOffsets>
           <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-          <MeleeHitChance>2</MeleeHitChance>
         </statOffsets>
         <statFactors>
           <AimingDelayFactor>0.80</AimingDelayFactor>
@@ -79,6 +104,41 @@
       </li>
     </stages>
   </HediffDef>
+
+  <ThoughtDef>
+    <defName>PN_OfficerCommandThought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>PN_OfficerCommandBuff</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>command from automaton</label>
+        <description>I can't believe I have to follow the command of automaton.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PN_OfficerCommandThoughtforPN</defName>
+    <workerClass>MoharThoughts.RaceBPHediff</workerClass>
+    <stages>
+      <li>
+        <label>command from officer</label>
+        <description>officer is with me!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <MoharThoughts.MTWDef>
+    <defName>PNMTW_OfficerCommandThoughtforPN</defName>
+    <thought>PN_OfficerCommandThoughtforPN</thought>
+    <race>Paniel_Race</race>
+    <hediff>PN_OfficerCommandBuff</hediff>
+    <bodyPart>PNBrain</bodyPart>
+    <bpNum>1</bpNum>
+  </MoharThoughts.MTWDef>
 
   <HediffDef>
     <defName>PN_OfficerCommandOverload</defName>

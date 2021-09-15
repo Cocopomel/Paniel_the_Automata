@@ -485,6 +485,11 @@
             <original>PN_WitnessedDestroyedAlly</original>
             <replacer>PN_WitnessedDestroyedAllyforPN</replacer>
           </li>
+
+          <!--이데올로기-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">
+            <original>PN_OfficerCommandThought</original>
+          </li>
         </replacerList>
         <cannotReceiveThoughts>
           <!--<li></li>-->
@@ -573,7 +578,7 @@
           <li>Greedy</li>
           <li>Jealous</li>
           <li>Ascetic</li>
-          <!--misc-->
+          <!--Misc-->
           <li>PN_Atefuel_nopn</li>
           <li>PsychiteWithdrawal</li>
           <li>YayoHigh</li>
@@ -606,6 +611,9 @@
           <!--Thoughts_Ritual_Quality-->
           <!--Thoughts_Situational-->
           <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
+
+          <!--Misc-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->
