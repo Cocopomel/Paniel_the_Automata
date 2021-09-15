@@ -33,4 +33,26 @@
     </stages>
   </HediffDef>
 
+  <HediffDef>
+    <defName>PN_EMPShock</defName>
+    <label>EMP shock</label>
+    <labelNoun>a EMP shock</labelNoun>
+    <description>After-effects of an electrical shock to the module. This is generally cause by feedback from module hit by EMP pulses.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>2500~3500</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
 </Defs>
