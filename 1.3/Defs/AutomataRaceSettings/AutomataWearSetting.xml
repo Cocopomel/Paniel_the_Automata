@@ -9,11 +9,16 @@
           <li>PN_OfficerModule</li>
         </wearList>
         <condition>
-					<hediffDef>
-						<li>PN_SyncLegendary_Combat</li>
-					</hediffDef>
-				</condition>
-        <cantReason>CantReasonHediff</cantReason>
+          <hediffDef>
+            <li>PN_SyncLegendary_Combat</li>
+          </hediffDef>
+        </condition>
+        <cantReason>CantReason_OfficerModule</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+        <forceDropMessage>ForceDropHediff</forceDropMessage>
       </li>
     </wearSetting>
   </WearSetting.WearSettingDef>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <CantReasonHediff>Hediff Limitaion : {5}</CantReasonHediff>
+  <CantReason_OfficerModule>module that can only be installed by (legd) grade combat model.</CantReason_OfficerModule>
+  <ForceDropHediff>{6} cannot wear {7} because {6}'s module system is unstable.</ForceDropHediff>
 </LanguageData>
