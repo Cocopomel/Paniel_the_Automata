@@ -14,7 +14,7 @@
       <li>PNRP_TierB_Apparel</li>
     </prerequisites>
     <researchViewX>4.0</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -26,9 +26,10 @@
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PNRP_TierC_Apparel</li>
+      <li>PNRP_TierB_Module</li>
     </prerequisites>
     <researchViewX>6.0</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

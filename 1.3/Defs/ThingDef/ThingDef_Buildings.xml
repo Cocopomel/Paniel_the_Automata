@@ -93,7 +93,7 @@
       </shadowData>
     </graphicData>
     <researchPrerequisites>
-      <li>Cryptosleep</li>
+      <li>PNRP_CryptosleepCasket</li>
     </researchPrerequisites>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
