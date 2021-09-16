@@ -124,7 +124,7 @@
     <stages>
       <li>
         <label>command from automaton</label>
-        <description>I can't believe I have to follow the command of automaton.</description>
+        <description>I can't believe I have to follow the commands of an automaton.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
@@ -136,7 +136,7 @@
     <stages>
       <li>
         <label>command from officer</label>
-        <description>officer is with me. we will be able to win this battle under officer command.</description>
+        <description>The officer is with us. We will be able to win this battle under the officer's command.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
@@ -159,7 +159,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>40000</disappearsAfterTicks>
+        <disappearsAfterTicks>100000</disappearsAfterTicks>
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
