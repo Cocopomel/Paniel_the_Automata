@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--
+  [모듈 목록]
+
+  근접 버프
+  사격 버프
+  의료 버프
+  생산 버프
+  농업 버프
+  채굴 버프
+  -->
+
   <!--==================================== 전투 지휘 모듈 ====================================-->
 
   <HediffDef ParentName="RoleStatBuff">
@@ -125,7 +136,7 @@
     <stages>
       <li>
         <label>command from officer</label>
-        <description>officer is with me!</description>
+        <description>officer is with me. we will be able to win this battle under officer command.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
@@ -164,4 +175,5 @@
       </li>
     </stages>
   </HediffDef>
+
 </Defs>
