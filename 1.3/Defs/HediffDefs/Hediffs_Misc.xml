@@ -49,7 +49,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.1</setMax>
+            <setMax>0.5</setMax>
           </li>
         </capMods>
       </li>
