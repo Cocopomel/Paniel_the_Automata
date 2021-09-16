@@ -232,7 +232,7 @@
 
   <HediffDef ParentName="PN_SyncNormal_Base">
     <defName>PN_SyncNormal_Combat</defName>
-    <label>Combat Automaton (norm)</label>
+    <label>Combat model (norm)</label>
   </HediffDef>
 
   <!--상급-->
@@ -250,7 +250,7 @@
 
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Combat</defName>
-    <label>Combat Automaton (good)</label>
+    <label>Combat model (good)</label>
   </HediffDef>
 
   <!--완벽-->
@@ -268,7 +268,7 @@
 
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Combat</defName>
-    <label>Combat Automaton (exc)</label>
+    <label>Combat model (exc)</label>
   </HediffDef>
 
   <!--걸작-->
@@ -286,7 +286,7 @@
 
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Combat</defName>
-    <label>Combat Automaton (mast)</label>
+    <label>Combat model (mast)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -329,7 +329,7 @@
 
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Combat</defName>
-    <label>Combat Automaton (legd)</label>
+    <label>Combat model (legd)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -374,7 +374,7 @@
 
   <HediffDef ParentName="PN_SyncNormal_Base">
     <defName>PN_SyncNormal_Engineer</defName>
-    <label>Engineer Automaton (norm)</label>
+    <label>Engineer model (norm)</label>
   </HediffDef>
 
   <!--상급-->
@@ -392,7 +392,7 @@
 
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Engineer</defName>
-    <label>Engineer Automaton (good)</label>
+    <label>Engineer model (good)</label>
   </HediffDef>
 
   <!--완벽-->
@@ -410,7 +410,7 @@
 
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Engineer</defName>
-    <label>Engineer Automaton (exc)</label>
+    <label>Engineer model (exc)</label>
   </HediffDef>
 
   <!--걸작-->
@@ -428,7 +428,7 @@
 
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Engineer</defName>
-    <label>Engineer Automaton (mast)</label>
+    <label>Engineer model (mast)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -471,7 +471,7 @@
 
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Engineer</defName>
-    <label>Engineer Automaton (legd)</label>
+    <label>Engineer model (legd)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -516,7 +516,7 @@
 
   <HediffDef ParentName="PN_SyncNormal_Base">
     <defName>PN_SyncNormal_Domestic</defName>
-    <label>Domestic Automaton (norm)</label>
+    <label>Domestic model (norm)</label>
   </HediffDef>
 
   <!--상급-->
@@ -534,7 +534,7 @@
 
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Domestic</defName>
-    <label>Domestic Automaton (good)</label>
+    <label>Domestic model (good)</label>
   </HediffDef>
 
   <!--완벽-->
@@ -552,7 +552,7 @@
 
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Domestic</defName>
-    <label>Domestic Automaton (exc)</label>
+    <label>Domestic model (exc)</label>
   </HediffDef>
 
   <!--걸작-->
@@ -570,7 +570,7 @@
 
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Domestic</defName>
-    <label>Domestic Automaton (mast)</label>
+    <label>Domestic model (mast)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -613,7 +613,7 @@
 
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Domestic</defName>
-    <label>Domestic Automaton (legd)</label>
+    <label>Domestic model (legd)</label>
     <stages Inherit="false">
       <li>
         <capMods>
@@ -658,7 +658,7 @@
 
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Testsubject</defName>
-    <label>Automaton Test subject</label>
+    <label>Test model</label>
   </HediffDef>
 
   <!--꽝끔찍-->
@@ -676,7 +676,7 @@
 
   <HediffDef ParentName="PN_SyncAwful_Base">
     <defName>PN_SyncAwful_Failure</defName>
-    <label>Automaton Failure (awfl)</label>
+    <label>Failure (awfl)</label>
   </HediffDef>
 
   <!--꽝빈약-->
@@ -694,6 +694,6 @@
 
   <HediffDef ParentName="PN_SyncPoor_Base">
     <defName>PN_SyncGood_Failure</defName>
-    <label>Automaton Failure (poor)</label>
+    <label>Failure (poor)</label>
   </HediffDef>
 </Defs>
