@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Paniel the Secret of PnL</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "PN_Brain"]/thingCategories</xpath>
+          <value>
+            <li>PN_BrainCoreCatagory</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = "PN_BrainCasing"]</xpath>
+          <value>
+            <recipeMaker>
+              <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+              <workSkill>Crafting</workSkill>
+              <effectWorking>Smith</effectWorking>
+              <soundWorking>Recipe_Smith</soundWorking>
+              <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+              <skillRequirements>
+                <Crafting>8</Crafting>
+              </skillRequirements>
+              <researchPrerequisite>PNRP_BrainCasing</researchPrerequisite>
+              <recipeUsers>
+                <li>PN_AutomatonBench</li>
+              </recipeUsers>
+            </recipeMaker>
+          </value>
+        </li>
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>
