@@ -16,7 +16,7 @@
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-    <groupDef>PNModule_day</groupDef>
+    <groupDef>PNModule_2day</groupDef>
     <hotKey>Misc12</hotKey>
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>

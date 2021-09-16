@@ -4,8 +4,8 @@
   <!--==================================== 쿨타임 설정====================================-->
 
   <AbilityGroupDef>
-    <defName>PNModule_day</defName>
-    <cooldownTicks>60000</cooldownTicks>
+    <defName>PNModule_2day</defName>
+    <cooldownTicks>120000</cooldownTicks>
   </AbilityGroupDef>
 
   <HediffDef Name="PN_ApparelModuleHediffBase" Abstract="True">
@@ -45,10 +45,16 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>60000</disappearsAfterTicks>
+        <disappearsAfterTicks>120000</disappearsAfterTicks>
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+        <hediffToNullify>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommand</li>
+        </hediffToNullify>
+        <showMessage>false</showMessage>
+      </li>
     </comps>
     <stages>
       <li>
