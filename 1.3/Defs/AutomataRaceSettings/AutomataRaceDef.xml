@@ -614,6 +614,7 @@
 
           <!--Misc-->
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>        <!--착용 장비 관련-->

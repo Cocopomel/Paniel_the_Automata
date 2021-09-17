@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--==================================== 난사광 모듈 ====================================-->
+  <!--==================================== 장교 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleSpacer">
-    <defName>PN_TriggerhappyModule</defName>
-    <label>rapid fire module</label>
-    <description>CAUTION: This module can only be installed on (exc), (mast), (legd) combat model.</description>
+    <defName>PN_OfficerModule</defName>
+    <label>officer module</label>
+    <description>CAUTION: This module can only be installed on (legd) combat model.</description>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+    </statBases>
     <costList>
-      <ComponentSpacer>3</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <Plasteel>45</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PN_ComponentRoyal>3</PN_ComponentRoyal>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
@@ -23,22 +27,164 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_TriggerhappyModuleHediff</hediff>
+        <hediff>PN_OfficerModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelModuleHediffBase">
-    <defName>PN_TriggerhappyModuleHediff</defName>
-    <label>rapid fire module</label>
+    <defName>PN_OfficerModuleHediff</defName>
+    <label>officer module</label>
     <description>...</description>
     <stages>
 
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
-        <abilityDef>PN_TriggerhappyAbility</abilityDef>
+        <abilityDef>PN_OfficerCommandAbility</abilityDef>
+      </li>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>PN_EMPShock</createHediff>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!--==================================== 마이스터 모듈 ====================================-->
+  <ThingDef ParentName="PN_ApparelModuleSpacer">
+    <defName>PN_MeisterModule</defName>
+    <label>meister module</label>
+    <description>CAUTION: This module can only be installed on (legd) engineer model.</description>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+    </statBases>
+    <costList>
+      <Plasteel>45</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_MeisterModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_MeisterModuleHediff</defName>
+    <label>meister module</label>
+    <description>...</description>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_MeisterAdviceAbility</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!--==================================== 집중 의료 모듈 ====================================-->
+  <ThingDef ParentName="PN_ApparelModuleSpacer">
+    <defName>PN_IntensiveMedicalModule</defName>
+    <label>intensive medical module</label>
+    <description>CAUTION: This module can only be installed on (legd) domestic model.</description>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+    </statBases>
+    <costList>
+      <Plasteel>45</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_IntensiveMedicalModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_IntensiveMedicalModuleHediff</defName>
+    <label>intensive medical module</label>
+    <description>...</description>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_IntensiveMedicalAbility</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!--==================================== 야전 의료 모듈 ====================================-->
+  <ThingDef ParentName="PN_ApparelModuleSpacer">
+    <defName>PN_FieldMedicModule</defName>
+    <label>field medic module</label>
+    <description>CAUTION: This module can only be installed on (legd) combat or domestic model.</description>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+    </statBases>
+    <costList>
+      <Plasteel>45</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_FieldMedicModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_FieldMedicModuleHediff</defName>
+    <label>intensive medical module</label>
+    <description>...</description>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_FieldMedicAbility</abilityDef>
       </li>
     </comps>
   </HediffDef>

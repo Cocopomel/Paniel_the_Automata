@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================================== 난사광 모듈 ====================================-->
+  <ThingDef ParentName="PN_ApparelModuleIndustrial">
+    <defName>PN_TriggerHappyModule</defName>
+    <label>rapid fire module</label>
+    <description>CAUTION: This module can only be installed on (exc), (mast), (legd) combat model.</description>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_TriggerHappyModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_TriggerHappyModuleHediff</defName>
+    <label>rapid fire module</label>
+    <description>...</description>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_TriggerHappyAbility</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

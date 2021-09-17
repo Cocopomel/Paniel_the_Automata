@@ -27,6 +27,10 @@
     <defName>PNModule_3hour</defName>
     <cooldownTicks>7500</cooldownTicks>
   </AbilityGroupDef>
+  <AbilityGroupDef>
+    <defName>PNModule_rightoff</defName>
+    <cooldownTicks>120</cooldownTicks>
+  </AbilityGroupDef>
 
   <HediffDef Name="PN_ApparelModuleHediffBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>

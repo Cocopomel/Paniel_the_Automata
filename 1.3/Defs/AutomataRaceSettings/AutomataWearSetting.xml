@@ -4,6 +4,8 @@
     <defName>PN_WearSetting_OfficerModule</defName>
     <targetRace>Paniel_Race</targetRace>
     <wearSetting>
+
+      <!--지휘 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
           <li>PN_OfficerModule</li>
@@ -20,6 +22,9 @@
         <forceDrop>true</forceDrop>
         <forceDropMessage>ForceDropHediff</forceDropMessage>
       </li>
+
+      <!--난사광모듈-->
+
     </wearSetting>
   </WearSetting.WearSettingDef>
 </Defs>
