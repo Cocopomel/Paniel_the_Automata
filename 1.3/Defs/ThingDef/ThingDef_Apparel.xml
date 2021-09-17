@@ -583,7 +583,7 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
       <MiningYield>0.10</MiningYield>
       <ConstructSuccessChance>0.10</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
@@ -664,7 +664,7 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
       <MiningYield>0.05</MiningYield>
       <ConstructSuccessChance>0.05</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
@@ -742,6 +742,7 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
       <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.10</PlantHarvestYield>
       <MedicalTendQuality>0.15</MedicalTendQuality>
@@ -825,6 +826,7 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
       <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.05</PlantHarvestYield>
       <MedicalTendQuality>0.10</MedicalTendQuality>
@@ -935,7 +937,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.98</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.92</StuffEffectMultiplierArmor>
       <Insulation_Cold>36</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>13</EquipDelay>
@@ -1018,7 +1020,7 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.98</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.92</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
@@ -1097,13 +1099,13 @@
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.89</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.83</StuffEffectMultiplierArmor>
       <Insulation_Cold>36</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.30</GeneralLaborSpeed>
+      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
       <MiningYield>0.20</MiningYield>
       <ConstructSuccessChance>0.20</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
@@ -1188,13 +1190,13 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>2</Mass>
       <Flammability>0.4</Flammability>
-      <StuffEffectMultiplierArmor>0.89</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.83</StuffEffectMultiplierArmor>
       <Insulation_Cold>4</Insulation_Cold>
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
       <MiningYield>0.10</MiningYield>
       <ConstructSuccessChance>0.10</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
