@@ -166,11 +166,11 @@
     <stages>
       <li>
         <statFactors>
-          <GeneralLaborSpeed>1.20</GeneralLaborSpeed>
-          <MiningSpeed>1.20</MiningSpeed>
-          <DeepDrillingSpeed>1.20</DeepDrillingSpeed>
-          <SmoothingSpeed>1.20</SmoothingSpeed>
-          <ConstructionSpeed>1.20</ConstructionSpeed>
+          <GeneralLaborSpeed>1.30</GeneralLaborSpeed>
+          <MiningSpeed>1.30</MiningSpeed>
+          <DeepDrillingSpeed>1.30</DeepDrillingSpeed>
+          <SmoothingSpeed>1.30</SmoothingSpeed>
+          <ConstructionSpeed>1.30</ConstructionSpeed>
         </statFactors>
       </li>
     </stages>
