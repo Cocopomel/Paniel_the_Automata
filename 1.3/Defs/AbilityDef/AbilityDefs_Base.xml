@@ -8,6 +8,26 @@
     <cooldownTicks>120000</cooldownTicks>
   </AbilityGroupDef>
 
+  <AbilityGroupDef>
+    <defName>PNModule_1day</defName>
+    <cooldownTicks>60000</cooldownTicks>
+  </AbilityGroupDef>
+
+  <AbilityGroupDef>
+    <defName>PNModule_12hour</defName>
+    <cooldownTicks>30000</cooldownTicks>
+  </AbilityGroupDef>
+
+  <AbilityGroupDef>
+    <defName>PNModule_6hour</defName>
+    <cooldownTicks>15000</cooldownTicks>
+  </AbilityGroupDef>
+
+  <AbilityGroupDef>
+    <defName>PNModule_3hour</defName>
+    <cooldownTicks>7500</cooldownTicks>
+  </AbilityGroupDef>
+
   <HediffDef Name="PN_ApparelModuleHediffBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <comps>

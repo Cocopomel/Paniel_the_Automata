@@ -61,6 +61,9 @@
       <texPath>Things/Item/PNModuleIndustrial</texPath>
     </graphicData>
     <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+    </statBases>
   </ThingDef>
 
   <ThingDef Name="PN_ApparelModuleSpacer" ParentName="PN_ApparelModuleBase" Abstract="True">
@@ -69,6 +72,9 @@
       <texPath>Things/Item/PNModuleSpacer</texPath>
     </graphicData>
     <techLevel>Spacer</techLevel>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+    </statBases>
   </ThingDef>
 
   <!--<ThingDef ParentName="PN_ApparelModule">

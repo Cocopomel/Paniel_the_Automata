@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--==================================== 장교 모듈 ====================================-->
-
+  <!--==================================== 난사광 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleSpacer">
-    <defName>PN_OfficerModule</defName>
-    <label>officer module</label>
-    <description>...</description>
-    <statBases>
-      <WorkToMake>14000</WorkToMake>
-    </statBases>
+    <defName>PN_TriggerhappyModule</defName>
+    <label>rapid fire module</label>
+    <description>CAUTION: This module can only be installed on (exc), (mast), (legd) combat model.</description>
     <costList>
-      <ComponentSpacer>5</ComponentSpacer>
-      <PN_ComponentRoyal>2</PN_ComponentRoyal>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
@@ -27,26 +23,22 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_OfficerModuleHediff</hediff>
+        <hediff>PN_TriggerhappyModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelModuleHediffBase">
-    <defName>PN_OfficerModuleHediff</defName>
-    <label>officer module</label>
+    <defName>PN_TriggerhappyModuleHediff</defName>
+    <label>rapid fire module</label>
     <description>...</description>
     <stages>
 
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
-        <abilityDef>PN_OfficerCommandAbility</abilityDef>
-      </li>
-      <li Class="HediffCompProperties_ReactOnDamage">
-        <damageDefIncoming>EMP</damageDefIncoming>
-        <createHediff>PN_EMPShock</createHediff>
+        <abilityDef>PN_TriggerhappyAbility</abilityDef>
       </li>
     </comps>
   </HediffDef>

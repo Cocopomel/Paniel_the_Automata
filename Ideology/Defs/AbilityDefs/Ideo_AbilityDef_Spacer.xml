@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--==================================== 장교 모듈 ====================================-->
+  <!--Ability_Duration-->
+  <!--1 day = 60000 tick = 1000 (real time 1000s)-->
+  <!--1 hour = 2500 tick = 41.666-->
 
+  <!--==================================== 난사광 모듈 ====================================-->
   <AbilityDef>
-    <defName>PN_OfficerCommandAbility</defName>
-    <label>officer command</label>
-    <description>Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
+    <defName>PN_TriggerhappyAbility</defName>
+    <label>rapid fire</label>
+    <description>...</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
-    <iconPath>UI/Abilities/PNOfficerCommand</iconPath>
-    <warmupMoteSocialSymbol>UI/Abilities/PNOfficerCommand</warmupMoteSocialSymbol>
+    <iconPath>UI/Abilities/PNTriggerhappy</iconPath>
+    <warmupMoteSocialSymbol>UI/Abilities/PNTriggerhappy</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
@@ -21,13 +24,12 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>333</Ability_Duration>
-      <Ability_EffectRadius>9.9</Ability_EffectRadius>
+      <Ability_Duration>84</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <warmupTime>0.5</warmupTime>
-      <range>9.9</range>
+      <range>-1</range>
       <drawAimPie>False</drawAimPie>
       <requireLineOfSight>False</requireLineOfSight>
       <targetParams>
@@ -42,11 +44,11 @@
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
-        <hediffDef>PN_OfficerCommand</hediffDef>
-        <onlyBrain>True</onlyBrain>
+        <hediffDef>PN_Triggerhappy</hediffDef>
         <onlyApplyToSelf>True</onlyApplyToSelf>
         <replaceExisting>true</replaceExisting>
       </li>
     </comps>
   </AbilityDef>
+
 </Defs>
