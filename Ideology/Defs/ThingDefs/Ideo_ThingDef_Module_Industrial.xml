@@ -5,7 +5,10 @@
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
     <defName>PN_TriggerHappyModule</defName>
     <label>rapid fire module</label>
-    <description>CAUTION: This module can only be installed on (exc), (mast), (legd) combat model.</description>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module allows automaton to use rapid fire ability.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>PN_TriggerHappyAbility</AbilityDef>
+    </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>

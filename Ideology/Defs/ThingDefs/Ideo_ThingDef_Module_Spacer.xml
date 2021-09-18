@@ -5,7 +5,10 @@
   <ThingDef ParentName="PN_ApparelModuleSpacer">
     <defName>PN_OfficerModule</defName>
     <label>officer module</label>
-    <description>CAUTION: This module can only be installed on (legd) combat model.</description>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd)\n\nThis module allows automaton to use officer command ability.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>PN_OfficerCommandAbility</AbilityDef>
+    </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
     </statBases>
@@ -55,7 +58,10 @@
   <ThingDef ParentName="PN_ApparelModuleSpacer">
     <defName>PN_MeisterModule</defName>
     <label>meister module</label>
-    <description>CAUTION: This module can only be installed on (legd) engineer model.</description>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nEngineer model (legd)\n\nThis module allows automaton to use meister's advice ability.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>PN_MeisterAdviceAbility</AbilityDef>
+    </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
     </statBases>
@@ -101,7 +107,11 @@
   <ThingDef ParentName="PN_ApparelModuleSpacer">
     <defName>PN_IntensiveMedicalModule</defName>
     <label>intensive medical module</label>
-    <description>CAUTION: This module can only be installed on (legd) domestic model.</description>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd)\n\nThis module allows automaton to use intensive medical mode ability.\nAnd if automaton activates intensive medical mode, immunity drive ability can be used.</description>
+    <descriptionHyperlinks>
+     <AbilityDef>PN_IntensiveMedicalAbility</AbilityDef>
+     <AbilityDef>PN_ImmunityDriveAbility</AbilityDef>
+    </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
     </statBases>
@@ -147,7 +157,12 @@
   <ThingDef ParentName="PN_ApparelModuleSpacer">
     <defName>PN_FieldMedicModule</defName>
     <label>field medic module</label>
-    <description>CAUTION: This module can only be installed on (legd) combat or domestic model.</description>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd)\nCombat model (legd)\n\nThis module allows automaton to use field medic mode ability.\nAnd if automaton activates field medic mod, injection stim pack ability can be used.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>PN_FieldMedicAbility</AbilityDef>
+      <AbilityDef>PN_StimPackAbility</AbilityDef>
+      <HediffDef>PN_StimPackSideEffect</HediffDef>
+    </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
     </statBases>

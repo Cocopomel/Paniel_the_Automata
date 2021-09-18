@@ -16,7 +16,7 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_TriggerHappy</defName>
     <label>module active (rapid fire)</label>
-    <description>...</description>
+    <description>rapid fire</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>

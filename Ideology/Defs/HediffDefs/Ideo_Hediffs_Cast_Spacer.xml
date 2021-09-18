@@ -127,7 +127,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>97500</disappearsAfterTicks>
+        <disappearsAfterTicks>100000</disappearsAfterTicks>
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
@@ -240,7 +240,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>97500</disappearsAfterTicks>
+        <disappearsAfterTicks>52500</disappearsAfterTicks>
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
@@ -273,12 +273,12 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_ImmunityDrive</defName>
     <label>immunity drive</label>
-    <description>...</description>
+    <description>immunity drive</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
         <statFactors>
-          <ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+          <ImmunityGainSpeed>1.25</ImmunityGainSpeed>
         </statFactors>
       </li>
     </stages>
@@ -302,7 +302,7 @@
           <MoveSpeed>0.4</MoveSpeed>
         </statOffsets>
         <statFactors>
-          <MedicalTendSpeed>1.30</MedicalTendSpeed>
+          <MedicalTendSpeed>1.50</MedicalTendSpeed>
         </statFactors>
       </li>
     </stages>
@@ -313,7 +313,7 @@
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
       <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
-          <li>PN_IntensiveMedicalOverload</li>
+          <li>PN_OfficerCommandOverload</li>
         </triggeredHediff>
       </li>
       <li Class="HediffCompProperties_GiveAbility">

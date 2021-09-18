@@ -9,7 +9,7 @@
   <AbilityDef>
     <defName>PN_OfficerCommandAbility</defName>
     <label>officer command</label>
-    <description>...</description>
+    <description>Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -24,7 +24,7 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>334</Ability_Duration>
+      <Ability_Duration>250</Ability_Duration>
       <Ability_EffectRadius>9.9</Ability_EffectRadius>
     </statBases>
     <verbProperties>
@@ -57,7 +57,7 @@
   <AbilityDef>
     <defName>PN_MeisterAdviceAbility</defName>
     <label>meister's advice</label>
-    <description>...</description>
+    <description>Call on person and give advice on the work.</description>
     <jobDef>CastAbilityOnThingMelee</jobDef>
     <iconPath>UI/Abilities/PNMeisterAdvice</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNMeisterAdvice</warmupMoteSocialSymbol>
@@ -99,7 +99,7 @@
   <AbilityDef>
     <defName>PN_IntensiveMedicalAbility</defName>
     <label>intensive medical mode</label>
-    <description>...</description>
+    <description>This ability makes users more proficient in medical work.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -109,7 +109,7 @@
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-    <groupDef>PNModule_2day</groupDef>
+    <groupDef>PNModule_1day</groupDef>
     <hotKey>Misc12</hotKey>
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
@@ -145,7 +145,7 @@
   <AbilityDef>
     <defName>PN_ImmunityDriveAbility</defName>
     <label>Immunity drive</label>
-    <description>Offer moral support that energizes the body, boosting someone's immunity gain for one day.</description>
+    <description>Offer module support that energizes the body, boosting someone's immunity gain for one day.</description>
     <groupDef>PNModule_rightoff</groupDef>
     <iconPath>UI/Abilities/PNImmunityDrive</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNImmunityDrive</warmupMoteSocialSymbol>
@@ -181,8 +181,8 @@
   <!--==================================== 야전 의료 모듈 ====================================-->
   <AbilityDef>
     <defName>PN_FieldMedicAbility</defName>
-    <label>Field medic mode</label>
-    <description>...</description>
+    <label>field medic mode</label>
+    <description>This ability enables users to provide rapid medical support in the field.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -197,7 +197,7 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>334</Ability_Duration>
+      <Ability_Duration>250</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -228,7 +228,7 @@
   <AbilityDef>
     <defName>PN_StimPackAbility</defName>
     <label>injection stim pack</label>
-    <description>...</description>
+    <description>Inject a drug similar to A into the person. It is not addictive, but side effects occur when the effect is over.</description>
     <groupDef>PNModule_rightoff</groupDef>
     <iconPath>UI/Abilities/PNStimPack</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNStimPack</warmupMoteSocialSymbol>

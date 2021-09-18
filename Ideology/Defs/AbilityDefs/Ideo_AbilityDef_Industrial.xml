@@ -9,7 +9,7 @@
   <AbilityDef>
     <defName>PN_TriggerHappyAbility</defName>
     <label>rapid fire</label>
-    <description>...</description>
+    <description>This ability allows users to shoot quickly, but lowers the hit rate.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
