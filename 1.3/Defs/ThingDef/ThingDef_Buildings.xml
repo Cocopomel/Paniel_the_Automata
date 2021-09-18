@@ -78,7 +78,7 @@
 
   <!--==================================== 오토마톤 동면관 ====================================-->
 
-  <ThingDef ParentName="BuildingBase">
+  <!--<ThingDef ParentName="BuildingBase">
     <defName>PN_CryptosleepCasket</defName>
     <label>Automaton cryptosleep casket</label>
     <description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</description>
@@ -143,5 +143,5 @@
     </inspectorTabs>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-  </ThingDef>
+  </ThingDef>-->
 </Defs>

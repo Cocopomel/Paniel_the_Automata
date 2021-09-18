@@ -187,9 +187,8 @@
     <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
-  <!--CryptosleepCasket-->
-
-  <ResearchProjectDef>
+  <!--==================================== 동면관 ====================================-->
+  <!--<ResearchProjectDef>
     <defName>PNRP_CryptosleepCasket</defName>
     <label>automaton cryptosleep</label>
     <description>...</description>
@@ -202,7 +201,7 @@
     </prerequisites>
     <researchViewX>3.0</researchViewX>
     <researchViewY>1.4</researchViewY>
-  </ResearchProjectDef>
+  </ResearchProjectDef>-->
 
 
 </Defs>
