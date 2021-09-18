@@ -19,7 +19,7 @@
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-    <groupDef>PNModule_2day</groupDef>
+    <groupDef>PNModule_6hour</groupDef>
     <hotKey>Misc12</hotKey>
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
