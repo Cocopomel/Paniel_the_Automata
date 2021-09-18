@@ -15,7 +15,7 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
+      <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>

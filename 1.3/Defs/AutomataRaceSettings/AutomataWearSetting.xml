@@ -86,6 +86,28 @@
         <forceDrop>true</forceDrop>
       </li>
 
+      <!--난사광 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_TriggerHappyModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Combat</li>
+            <li>PN_SyncMasterwork_Combat</li>
+            <li>PN_SyncExcellent_Combat</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
     </wearSetting>
   </WearSetting.WearSettingDef>
 </Defs>

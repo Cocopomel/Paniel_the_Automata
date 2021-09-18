@@ -62,7 +62,13 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>PN_SelfRepairKit</thingDef>
-          <count>3</count>
+          <count>5</count>
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>PN_Shovel</thingDef>
+          <stuff>Steel</stuff>
         </li>
 
         <!-- Disable Incident -->
