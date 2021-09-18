@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <CantReason_OfficerModule>module that can only be installed by (legd) grade combat model.</CantReason_OfficerModule>
-  <ForceDropHediff>{6} cannot wear {7} because {6}'s module system is unstable.</ForceDropHediff>
+  <PN_CantReason_orhediff>Incompatible model or module system unstable.\n\n[Compatible model list]\n\n{11}\n\n</PN_CantReason_orhediff>
 </LanguageData>

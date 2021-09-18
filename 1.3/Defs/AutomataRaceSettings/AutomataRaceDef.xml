@@ -646,6 +646,9 @@
 
           <!--모듈-->
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
 
         </apparelList>
         <whiteApparelList>

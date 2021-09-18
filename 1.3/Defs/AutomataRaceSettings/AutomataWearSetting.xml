@@ -11,19 +11,80 @@
           <li>PN_OfficerModule</li>
         </wearList>
         <condition>
-          <hediffDef>
+          <orHediffDef>
             <li>PN_SyncLegendary_Combat</li>
-          </hediffDef>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable</li>
+          </forbiddenHediffDef>
         </condition>
-        <cantReason>CantReason_OfficerModule</cantReason>
+        <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
           <li>PN_ModuleUnstable</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
-        <forceDropMessage>ForceDropHediff</forceDropMessage>
       </li>
 
-      <!--난사광모듈-->
+      <!--마이스터 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_MeisterModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Engineer</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--집중의료 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_IntensiveMedicalModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--야전의료 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_FieldMedicModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Combat</li>
+            <li>PN_SyncLegendary_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
 
     </wearSetting>
   </WearSetting.WearSettingDef>
