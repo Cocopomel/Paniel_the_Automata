@@ -331,20 +331,20 @@
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
-        <painFactor>0.2</painFactor>
-        <restFallFactor>0.25</restFallFactor>
+        <painFactor>0.5</painFactor>
+        <restFallFactor>0.5</restFallFactor>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.15</offset>
+            <offset>0.10</offset>
           </li>
           <li>
             <capacity>Sight</capacity>
-            <offset>0.25</offset>
+            <offset>0.20</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>0.40</offset>
+            <offset>0.30</offset>
           </li>
         </capMods>
         <statOffsets>
@@ -403,17 +403,17 @@
       <li>
         <label>extreme</label>
         <minSeverity>0</minSeverity>
-        <painFactor>2</painFactor>
+        <painFactor>3</painFactor>
         <restFallFactorOffset>0.3</restFallFactorOffset>
         <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.15</offset>
+            <offset>-0.20</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.40</offset>
+            <offset>-0.50</offset>
           </li>
           <li>
             <capacity>Sight</capacity>
