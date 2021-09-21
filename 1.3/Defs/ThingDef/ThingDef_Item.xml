@@ -271,8 +271,8 @@
     <label>PnL fuel drum can</label>
     <description>...</description>
     <graphicData Inherit="false">
-      <texPath>Things/Item/PN_fueldrum</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNFuleDrum</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Industrial</techLevel>
