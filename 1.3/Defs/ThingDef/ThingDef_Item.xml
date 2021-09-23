@@ -280,7 +280,7 @@
     <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <MarketValue>51.5</MarketValue>
       <Mass>5.5</Mass>
       <Flammability>0.4</Flammability>
@@ -316,7 +316,7 @@
         <startWickOnDamageTaken>
           <li>Flame</li>
         </startWickOnDamageTaken>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.05</startWickHitPointsPercent>
         <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
         <preExplosionSpawnChance>1</preExplosionSpawnChance>
         <wickTicks>70~150</wickTicks>
