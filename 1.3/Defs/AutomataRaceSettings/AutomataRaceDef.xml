@@ -649,6 +649,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappyModule</li>
 
         </apparelList>
         <whiteApparelList>
