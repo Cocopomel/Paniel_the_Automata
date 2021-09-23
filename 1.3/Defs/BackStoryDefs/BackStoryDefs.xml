@@ -376,15 +376,15 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Animals</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -405,15 +405,15 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Animals</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Medicine</defName>
@@ -437,15 +437,15 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Animals</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Medicine</defName>
@@ -469,15 +469,15 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Animals</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Medicine</defName>
@@ -556,15 +556,15 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Crafting</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -585,15 +585,15 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Crafting</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
@@ -617,15 +617,15 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Crafting</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
@@ -649,15 +649,15 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Mining</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Crafting</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
@@ -737,15 +737,15 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Plants</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Medicine</defName>
-        <amount>6</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <spawnCategories>
@@ -766,15 +766,15 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Plants</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Medicine</defName>
-        <amount>9</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Social</defName>
@@ -798,15 +798,15 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Plants</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Medicine</defName>
-        <amount>12</amount>
+        <amount>9</amount>
       </li>
       <li>
         <defName>Social</defName>
@@ -830,15 +830,15 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Plants</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Medicine</defName>
-        <amount>15</amount>
+        <amount>12</amount>
       </li>
       <li>
         <defName>Social</defName>
