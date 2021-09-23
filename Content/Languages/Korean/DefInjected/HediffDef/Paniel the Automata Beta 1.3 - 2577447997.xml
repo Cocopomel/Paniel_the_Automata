@@ -117,7 +117,7 @@
   <Paniel_Joy.stages.3.label>높음</Paniel_Joy.stages.3.label>
   <Paniel_Joy.stages.4.label>매우높음</Paniel_Joy.stages.4.label>
   <PN_Maintenance.label>유지관리</PN_Maintenance.label>
-  <PN_Maintenance.description>오토마톤의 유지 관리 상태입니다. 이 수치가 낮으면 고장을 일으킬 수 있습니다.\n\n 유지관리 주기는 대략 1년입니다. (림월드 60일)</PN_Maintenance.description>
+  <PN_Maintenance.description>오토마톤의 유지 관리 상태입니다. 이 수치가 낮으면 고장을 일으킬 수 있습니다.\n\n 유지관리 주기는 대략 2년입니다. (림월드 120일)</PN_Maintenance.description>
   <PN_Maintenance.stages.0.label>시급함</PN_Maintenance.stages.0.label>
   <PN_Maintenance.stages.1.label>필요함</PN_Maintenance.stages.1.label>
   <PN_Maintenance.stages.2.label>안정됨</PN_Maintenance.stages.2.label>
