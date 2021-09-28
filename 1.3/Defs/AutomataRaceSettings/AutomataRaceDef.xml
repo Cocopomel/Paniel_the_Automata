@@ -650,6 +650,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappyModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQCModule</li>
 
         </apparelList>
         <whiteApparelList>
