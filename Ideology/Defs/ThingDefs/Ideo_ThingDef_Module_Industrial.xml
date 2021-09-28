@@ -11,8 +11,9 @@
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -36,13 +37,67 @@
   <HediffDef ParentName="PN_ApparelModuleHediffBase">
     <defName>PN_TriggerHappyModuleHediff</defName>
     <label>rapid fire module</label>
-    <description>...</description>
+    <description>rapid fire module</description>
     <stages>
 
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
         <abilityDef>PN_TriggerHappyAbility</abilityDef>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!--==================================== 근접전 모듈 ====================================-->
+  <ThingDef ParentName="PN_ApparelModuleIndustrial">
+    <defName>PN_CQCModule</defName>
+    <label>CQC module</label>
+    <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module increases the automaton's close quarters combat stat, and allows automaton to use CQC ability.</description>
+    <descriptionHyperlinks>
+      <AbilityDef>PN_CQCAbility</AbilityDef>
+      <HediffDef>PN_CQCModuleHediff</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <Steel>45</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <apparel>
+      <tags>
+
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>PN_CQCModuleHediff</hediff>
+        <part>PNTorso</part>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+    <defName>PN_CQCModuleHediff</defName>
+    <label>CQC module</label>
+    <description>close quarters combat module</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>2</MeleeHitChance>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility">
+        <abilityDef>PN_CQCAbility</abilityDef>
       </li>
     </comps>
   </HediffDef>
