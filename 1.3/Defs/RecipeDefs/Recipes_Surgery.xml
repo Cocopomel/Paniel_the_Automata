@@ -85,4 +85,54 @@
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
   </RecipeDef>
+
+  <AutomataRace.ThingDefInjectDef>
+    <defName>Recipe_PN_RemoveBrain_Inject</defName>
+    <conditions>
+      <li Class="AutomataRace.ThingDefInject.IsHumanlike"></li>
+      <li Class="AutomataRace.ThingDefInject.IsFlesh"></li>
+      <li Class="AutomataRace.ThingDefInject.IsDefNameEqual">
+        <not>true</not>
+        <defName>Paniel_Race</defName>
+      </li>
+    </conditions>
+    <recipes>
+      <li>PN_ExtractBrain</li>
+    </recipes>
+  </AutomataRace.ThingDefInjectDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>PN_ExtractBrain</defName>
+    <label>extract central nervous</label>
+    <description>extract central nervous.</description>
+    <workerClass>AutomataRace.Recipe_RemoveBrain</workerClass>
+    <jobString>Remove central nervous.</jobString>
+    <workAmount>2000</workAmount>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PNRP_Brain</researchPrerequisite>
+    <uiIconThing>PN_Brain</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PN_BrainEmpty</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
 </Defs>

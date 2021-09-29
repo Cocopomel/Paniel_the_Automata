@@ -30,6 +30,40 @@
     </tags>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>PNRP_Brain</defName>
+    <label>core analysis</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>2500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>Prosthetics</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_BrainCasing</defName>
+    <label>core casing</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PNRP_Brain</li>
+      <li>Bionics</li>
+    </prerequisites>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
   <!--==================================== 수리 키트 ====================================-->
 
   <ResearchProjectDef>
