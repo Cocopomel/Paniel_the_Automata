@@ -53,6 +53,7 @@
       </options>
     </colorGenerator>
     <smeltable>true</smeltable>
+    <tradeability>Buyable</tradeability>
   </ThingDef>
 
   <ThingDef Name="PN_ApparelModuleIndustrial" ParentName="PN_ApparelModuleBase" Abstract="True">

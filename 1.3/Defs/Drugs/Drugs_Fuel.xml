@@ -78,6 +78,7 @@
     <tradeTags Inherit="false">
       <li>PN_Fuel</li>
     </tradeTags>
+    <tradeability>Buyable</tradeability>
     <thingCategories Inherit="false">
       <li>PN_Fuel</li>
     </thingCategories>

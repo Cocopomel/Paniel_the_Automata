@@ -90,15 +90,20 @@
         </li>
       </startingColonists>
       <alienslavekinds>
-        <!--<li>
+        <li>
           <kindDefs>
-            <li>Paniel_ColonistPawn</li>
+            <li>Slave</li>
           </kindDefs>
           <chance>100.0</chance>
-        </li>-->
+        </li>
       </alienslavekinds>
       <alienrefugeekinds>
-
+        <li>
+          <kindDefs>
+            <li>Slave</li>
+          </kindDefs>
+          <chance>100.0</chance>
+        </li>
       </alienrefugeekinds>
       <alienwandererkinds>
 

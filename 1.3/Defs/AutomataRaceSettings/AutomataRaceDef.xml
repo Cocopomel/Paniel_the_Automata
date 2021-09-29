@@ -10,6 +10,7 @@
 		</descriptionHyperlinks>
         -->
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <tradeability>None</tradeability>
     <alienRace>
       <generalSettings>
         <maleGenderProbability>0.00000000001</maleGenderProbability>

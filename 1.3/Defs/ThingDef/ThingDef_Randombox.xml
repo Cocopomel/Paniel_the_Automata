@@ -36,6 +36,7 @@
     <rotatable>false</rotatable>
     <pathCost>14</pathCost>
     <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <tradeability>Buyable</tradeability>
     <thingCategories Inherit="false">
       <li>PN_TMPackagedCatagory</li>
     </thingCategories>

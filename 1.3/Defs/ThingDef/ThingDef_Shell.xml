@@ -23,7 +23,7 @@
     <thingCategories>
       <li>PN_Shell</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
+    <tradeability>Buyable</tradeability>
     <tickerType>Normal</tickerType>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

@@ -42,6 +42,7 @@
     <tradeTags Inherit="false">
 
     </tradeTags>
+    <tradeability>Buyable</tradeability>
     <stuffProps>
       <color>(255,240,227)</color>
       <commonality>0.0025</commonality>
@@ -86,6 +87,7 @@
     <tradeTags Inherit="false">
 
     </tradeTags>
+    <tradeability>Buyable</tradeability>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -132,6 +134,7 @@
         <expireEffect>RaisedRock_Collapse</expireEffect>
       </li>
     </comps>
+    <tradeability>Buyable</tradeability>
     <tickerType>Normal</tickerType>
   </ThingDef>
 
@@ -162,6 +165,7 @@
     <tradeTags Inherit="false">
 
     </tradeTags>
+    <tradeability>Buyable</tradeability>
     <comps>
 
     </comps>
@@ -234,6 +238,7 @@
     <comps>
 
     </comps>
+    <tradeability>Buyable</tradeability>
   </ThingDef>
 
   <!--==================================== 자가 수리 키트 ====================================-->
@@ -295,6 +300,7 @@
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
+    <tradeability>Buyable</tradeability>
   </ThingDef>
 
   <RecipeDef>
@@ -351,7 +357,7 @@
     <thingCategories>
       <li>PN_AutomatonCatagory</li>
     </thingCategories>
-    <tradeability>Sellable</tradeability>
+    <tradeability>Buyable</tradeability>
     <costList>
       <PN_AutomatonFuel>10</PN_AutomatonFuel>
       <Steel>5</Steel>
@@ -414,6 +420,7 @@
     <tradeTags Inherit="false">
       <li>PN_RoyalComp</li>
     </tradeTags>
+    <tradeability>Buyable</tradeability>
     <thingSetMakerTags Inherit="false">
       
     </thingSetMakerTags>
