@@ -20,8 +20,8 @@
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<minGenerationAge>1</minGenerationAge>
 		<maxGenerationAge>1</maxGenerationAge>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
+		<initialWillRange>99</initialWillRange>
+    <initialResistanceRange>99</initialResistanceRange>
 	</PawnKindDef>
 
 	<!-- 정착민 -->

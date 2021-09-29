@@ -20,8 +20,6 @@
     <techHediffsTags>
 
     </techHediffsTags>
-    <initialWillRange>2~4</initialWillRange>
-    <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielPlayerBasePawnKind">
@@ -43,8 +41,6 @@
     <techHediffsTags>
 
     </techHediffsTags>
-    <initialWillRange>2~4</initialWillRange>
-    <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielPlayerBasePawnKind">
@@ -66,8 +62,6 @@
     <techHediffsTags>
 
     </techHediffsTags>
-    <initialWillRange>11~14</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <!--<PawnKindDef ParentName="PanielPlayerBasePawnKind">
@@ -203,8 +197,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>11~14</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielSoldierBasePawnKind">
@@ -218,8 +210,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>12~15</initialWillRange>
-    <initialResistanceRange>25~39</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielSoldierBasePawnKind">
@@ -233,8 +223,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>14~17</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielSoldierBasePawnKind">
@@ -248,8 +236,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>15~18</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielSoldierBasePawnKind">
@@ -263,8 +249,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>16~19</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <!--가챠 특화 제작형-->
@@ -295,8 +279,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>11~14</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielWorkerBasePawnKind">
@@ -310,8 +292,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>12~15</initialWillRange>
-    <initialResistanceRange>25~39</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielWorkerBasePawnKind">
@@ -325,8 +305,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>14~17</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielWorkerBasePawnKind">
@@ -340,8 +318,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>15~18</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielWorkerBasePawnKind">
@@ -355,8 +331,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>16~19</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <!--가챠 특화 가정형-->
@@ -388,8 +362,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>11~14</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielMaidBasePawnKind">
@@ -403,8 +375,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>12~15</initialWillRange>
-    <initialResistanceRange>25~39</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielMaidBasePawnKind">
@@ -418,8 +388,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>14~17</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielMaidBasePawnKind">
@@ -433,8 +401,6 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>15~18</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 
   <PawnKindDef ParentName="PanielMaidBasePawnKind">
@@ -448,7 +414,5 @@
         </categories>
       </li>
     </backstoryFiltersOverride>
-    <initialWillRange>16~19</initialWillRange>
-    <initialResistanceRange>38~58</initialResistanceRange>
   </PawnKindDef>
 </Defs>
