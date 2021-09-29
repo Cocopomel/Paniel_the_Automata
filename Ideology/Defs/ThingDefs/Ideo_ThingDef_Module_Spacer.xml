@@ -36,10 +36,13 @@
     </comps>
   </ThingDef>
 
-  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+  <HediffDef ParentName="PN_ApparelSpacerModuleHediffBase">
     <defName>PN_OfficerModuleHediff</defName>
     <label>officer module</label>
-    <description>...</description>
+    <description>The hediff created by installing officer module.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_OfficerModule</ThingDef>
+    </descriptionHyperlinks>
     <stages>
 
     </stages>
@@ -89,16 +92,23 @@
     </comps>
   </ThingDef>
 
-  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+  <HediffDef ParentName="PN_ApparelSpacerModuleHediffBase">
     <defName>PN_MeisterModuleHediff</defName>
     <label>meister module</label>
-    <description>...</description>
+    <description>The hediff created by installing meister module.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_MeisterModule</ThingDef>
+    </descriptionHyperlinks>
     <stages>
 
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
         <abilityDef>PN_MeisterAdviceAbility</abilityDef>
+      </li>
+      <li Class="HediffCompProperties_ReactOnDamage">
+        <damageDefIncoming>EMP</damageDefIncoming>
+        <createHediff>PN_EMPShock</createHediff>
       </li>
     </comps>
   </HediffDef>
@@ -109,8 +119,8 @@
     <label>intensive medical module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd)\n\nThis module allows automaton to use intensive medical mode ability.\nAnd if automaton activates intensive medical mode, immunity drive ability can be used.</description>
     <descriptionHyperlinks>
-     <AbilityDef>PN_IntensiveMedicalAbility</AbilityDef>
-     <AbilityDef>PN_ImmunityDriveAbility</AbilityDef>
+      <AbilityDef>PN_IntensiveMedicalAbility</AbilityDef>
+      <AbilityDef>PN_ImmunityDriveAbility</AbilityDef>
     </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
@@ -139,10 +149,13 @@
     </comps>
   </ThingDef>
 
-  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+  <HediffDef ParentName="PN_ApparelSpacerModuleHediffBase">
     <defName>PN_IntensiveMedicalModuleHediff</defName>
     <label>intensive medical module</label>
-    <description>...</description>
+    <description>The hediff created by installing intensive medical module.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_IntensiveMedicalModule</ThingDef>
+    </descriptionHyperlinks>
     <stages>
 
     </stages>
@@ -190,10 +203,13 @@
     </comps>
   </ThingDef>
 
-  <HediffDef ParentName="PN_ApparelModuleHediffBase">
+  <HediffDef ParentName="PN_ApparelSpacerModuleHediffBase">
     <defName>PN_FieldMedicModuleHediff</defName>
-    <label>intensive medical module</label>
-    <description>...</description>
+    <label>field medical module</label>
+    <description>The hediff created by installing intensive field medical module.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_FieldMedicModule</ThingDef>
+    </descriptionHyperlinks>
     <stages>
 
     </stages>

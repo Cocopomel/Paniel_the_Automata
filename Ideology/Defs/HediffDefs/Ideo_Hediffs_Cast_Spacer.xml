@@ -32,18 +32,18 @@
     </comps>
     <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.20</offset>
-          </li>
-        </capMods>
         <statOffsets>
-
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
         </statOffsets>
         <statFactors>
-
+          <AimingDelayFactor>0.80</AimingDelayFactor>
         </statFactors>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
     <isBad>false</isBad>
@@ -127,7 +127,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>100000</disappearsAfterTicks>
+        <disappearsAfterTicks>60000</disappearsAfterTicks>
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
@@ -160,24 +160,83 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_MeisterAdvice</defName>
     <label>meister's advice</label>
-    <description>The sense of being got advice from the meister.</description>
+    <description>By encouraging and advising nearby allies, this person can enhance their focus in engineer work performance.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="HediffCompProperties_GiveHediffsInRange">
+        <range>9.9</range>
+        <mote>Mote_WorkCommand</mote>
+        <hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetColonists>true</onlyTargetColonists>
+        </targetingParameters>
+        <hediff>PN_MeisterAdviceBuff</hediff>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+        <triggeredHediff>
+          <li>PN_OfficerCommandOverload</li>
+        </triggeredHediff>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+
+        </capMods>
+        <statOffsets>
+
+        </statOffsets>
+        <statFactors>
+          <MiningSpeed>1.25</MiningSpeed>
+          <DeepDrillingSpeed>1.25</DeepDrillingSpeed>
+          <GeneralLaborSpeed>1.25</GeneralLaborSpeed>
+          <ConstructionSpeed>1.25</ConstructionSpeed>
+          <DrugCookingSpeed>1.25</DrugCookingSpeed>
+        </statFactors>
+      </li>
+    </stages>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef ParentName="RoleStatBuff">
+    <defName>PN_MeisterAdviceBuff</defName>
+    <label>meister's advice</label>
+    <description>The sense of being got advice from the meister.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+      <li Class="HediffCompProperties_Link">
+        <requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+        <maxDistance>10</maxDistance>
+        <customMote>Mote_WorkCommandLinkLine</customMote>
+      </li>
     </comps>
     <isBad>false</isBad>
     <stages>
       <li>
         <statFactors>
-          <GeneralLaborSpeed>1.20</GeneralLaborSpeed>
-          <MiningSpeed>1.20</MiningSpeed>
-          <DeepDrillingSpeed>1.20</DeepDrillingSpeed>
-          <SmoothingSpeed>1.20</SmoothingSpeed>
-          <ConstructionSpeed>1.20</ConstructionSpeed>
+          <MiningSpeed>1.25</MiningSpeed>
+          <DeepDrillingSpeed>1.25</DeepDrillingSpeed>
+          <GeneralLaborSpeed>1.25</GeneralLaborSpeed>
+          <ConstructionSpeed>1.25</ConstructionSpeed>
+          <DrugCookingSpeed>1.25</DrugCookingSpeed>
         </statFactors>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>
@@ -185,7 +244,7 @@
   <ThoughtDef>
     <defName>PN_MeisterAdviceThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>PN_MeisterAdvice</hediff>
+    <hediff>PN_MeisterAdviceBuff</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
@@ -200,7 +259,7 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_IntensiveMedical</defName>
     <label>module active (intensive medical)</label>
-    <description>...</description>
+    <description>The hediff created by activating intensive medical ability.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
@@ -208,10 +267,10 @@
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
         <statFactors>
-          <MedicalTendSpeed>1.15</MedicalTendSpeed>
-          <MedicalTendQuality>1.15</MedicalTendQuality>
-          <MedicalOperationSpeed>1.15</MedicalOperationSpeed>
-          <MedicalSurgerySuccessChance>1.15</MedicalSurgerySuccessChance>
+          <MedicalTendSpeed>1.20</MedicalTendSpeed>
+          <MedicalTendQuality>1.20</MedicalTendQuality>
+          <MedicalOperationSpeed>1.20</MedicalOperationSpeed>
+          <MedicalSurgerySuccessChance>1.20</MedicalSurgerySuccessChance>
         </statFactors>
       </li>
     </stages>
@@ -222,7 +281,7 @@
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
       <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
-          <li>PN_IntensiveMedicalOverload</li>
+          <li>PN_OfficerCommandOverload</li>
         </triggeredHediff>
       </li>
       <li Class="HediffCompProperties_GiveAbility">
@@ -230,43 +289,6 @@
       </li>
     </comps>
     <isBad>false</isBad>
-  </HediffDef>
-
-  <HediffDef>
-    <defName>PN_IntensiveMedicalOverload</defName>
-    <label>module overloaded</label>
-    <labelNoun>module overloaded</labelNoun>
-    <description>module overloaded</description>
-    <hediffClass>HediffWithComps</hediffClass>
-    <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>52500</disappearsAfterTicks>
-        <showRemainingTime>True</showRemainingTime>
-      </li>
-      <li Class="HediffCompProperties_DisappearsOnDeath"/>
-    </comps>
-    <stages>
-      <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.30</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.50</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>-0.50</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>-0.50</offset>
-          </li>
-        </capMods>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--면역증진-->
@@ -294,7 +316,7 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_FieldMedic</defName>
     <label>module active (field medic)</label>
-    <description>...</description>
+    <description>The hediff created by activating field medic ability.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
@@ -327,7 +349,7 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_StimPack</defName>
     <label>stim pack injected</label>
-    <description>....</description>
+    <description>stim pack injected</description>
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>

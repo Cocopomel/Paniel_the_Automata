@@ -649,8 +649,15 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
+          
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappyModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQCModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MinerModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ArchitectModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_SkilledWorkerModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_FarmerModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ChefModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NurseModule</li>
 
         </apparelList>
         <whiteApparelList>

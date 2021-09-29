@@ -32,13 +32,26 @@
     <cooldownTicks>120</cooldownTicks>
   </AbilityGroupDef>
 
-  <HediffDef Name="PN_ApparelModuleHediffBase" Abstract="True">
+  <HediffDef Name="PN_ApparelIndustrialModuleHediffBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_RemoveIfApparelDropped" />
       <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+        </triggeredHediff>
+      </li>
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+
+  <HediffDef Name="PN_ApparelSpacerModuleHediffBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+        <triggeredHediff>
+          <li>PN_ModuleUnstable_Spacer</li>
         </triggeredHediff>
       </li>
     </comps>
@@ -62,7 +75,43 @@
   <!--불안정-->
 
   <HediffDef>
-    <defName>PN_ModuleUnstable</defName>
+    <defName>PN_ModuleUnstable_Industrial</defName>
+    <label>module system unstable</label>
+    <labelNoun>module overloaded</labelNoun>
+    <description>module overloaded</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>20000</disappearsAfterTicks>
+        <showRemainingTime>True</showRemainingTime>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath"/>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>PN_ModuleUnstable_Spacer</defName>
     <label>module system unstable</label>
     <labelNoun>module overloaded</labelNoun>
     <description>module overloaded</description>
@@ -73,31 +122,25 @@
         <showRemainingTime>True</showRemainingTime>
       </li>
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
-      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
-        <hediffToNullify>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommand</li>
-        </hediffToNullify>
-        <showMessage>false</showMessage>
-      </li>
     </comps>
     <stages>
       <li>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.20</offset>
+            <offset>-0.30</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.30</offset>
+            <offset>-0.50</offset>
           </li>
           <li>
             <capacity>Sight</capacity>
-            <offset>-0.30</offset>
+            <offset>-0.50</offset>
           </li>
           <li>
             <capacity>Manipulation</capacity>
-            <offset>-0.30</offset>
+            <offset>-0.50</offset>
           </li>
         </capMods>
       </li>

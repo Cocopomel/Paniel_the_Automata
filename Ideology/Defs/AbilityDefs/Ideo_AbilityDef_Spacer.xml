@@ -9,7 +9,7 @@
   <AbilityDef>
     <defName>PN_OfficerCommandAbility</defName>
     <label>officer command</label>
-    <description>Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
+    <description>Create an aura that boosts the combat skills of everyone nearby. The effect lasts 6 hours and remains attached to the user for the duration.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -57,32 +57,37 @@
   <AbilityDef>
     <defName>PN_MeisterAdviceAbility</defName>
     <label>meister's advice</label>
-    <description>Call on person and give advice on the work.</description>
-    <jobDef>CastAbilityOnThingMelee</jobDef>
+    <description>Create an aura that boosts the engineer skills of everyone nearby. The effect lasts 12 hours and remains attached to the user for the duration.</description>
+    <jobDef>CastAbilityOnThing</jobDef>
+    <targetRequired>False</targetRequired>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
     <iconPath>UI/Abilities/PNMeisterAdvice</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNMeisterAdvice</warmupMoteSocialSymbol>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-    <groupDef>PNModule_3hour</groupDef>
+    <groupDef>PNModule_2day</groupDef>
     <hotKey>Misc12</hotKey>
-    <uiOrder>2</uiOrder>
-    <warmupStartSound>WorkDrive_Warmup</warmupStartSound>
+    <uiOrder>3</uiOrder>
+    <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>42</Ability_Duration>
+      <Ability_Duration>500</Ability_Duration>
+      <Ability_EffectRadius>9.9</Ability_EffectRadius>
     </statBases>
     <verbProperties>
-      <verbClass>Verb_CastAbilityTouch</verbClass>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>0.5</warmupTime>
+      <range>9.9</range>
       <drawAimPie>False</drawAimPie>
-      <range>-1</range>
-      <warmupTime>3.0</warmupTime>
+      <requireLineOfSight>False</requireLineOfSight>
       <targetParams>
-        <canTargetAnimals>false</canTargetAnimals>
-        <canTargetSelf>false</canTargetSelf>
+        <canTargetSelf>true</canTargetSelf>
+        <canTargetPawns>false</canTargetPawns>
         <canTargetBuildings>false</canTargetBuildings>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
         <canTargetMechs>false</canTargetMechs>
-        <onlyTargetColonists>true</onlyTargetColonists>
       </targetParams>
     </verbProperties>
     <comps>
@@ -90,7 +95,8 @@
         <compClass>CompAbilityEffect_GiveHediff</compClass>
         <hediffDef>PN_MeisterAdvice</hediffDef>
         <onlyBrain>True</onlyBrain>
-        <applicableToMechs>False</applicableToMechs>
+        <onlyApplyToSelf>True</onlyApplyToSelf>
+        <replaceExisting>true</replaceExisting>
       </li>
     </comps>
   </AbilityDef>

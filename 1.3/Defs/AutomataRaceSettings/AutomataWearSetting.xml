@@ -15,12 +15,14 @@
             <li>PN_SyncLegendary_Combat</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>
@@ -35,12 +37,14 @@
             <li>PN_SyncLegendary_Engineer</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>
@@ -55,12 +59,14 @@
             <li>PN_SyncLegendary_Domestic</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>
@@ -76,12 +82,14 @@
             <li>PN_SyncLegendary_Domestic</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>
@@ -98,12 +106,14 @@
             <li>PN_SyncExcellent_Combat</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>
@@ -120,12 +130,158 @@
             <li>PN_SyncExcellent_Combat</li>
           </orHediffDef>
           <forbiddenHediffDef>
-            <li>PN_ModuleUnstable</li>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
           </forbiddenHediffDef>
         </condition>
         <cantReason>PN_CantReason_orhediff</cantReason>
         <forceDropHediff>
-          <li>PN_ModuleUnstable</li>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--광부 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_MinerModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Engineer</li>
+            <li>PN_SyncMasterwork_Engineer</li>
+            <li>PN_SyncExcellent_Engineer</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--건축 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_ArchitectModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Engineer</li>
+            <li>PN_SyncMasterwork_Engineer</li>
+            <li>PN_SyncExcellent_Engineer</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--제작 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_SkilledWorkerModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Engineer</li>
+            <li>PN_SyncMasterwork_Engineer</li>
+            <li>PN_SyncExcellent_Engineer</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--농부 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_FarmerModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Domestic</li>
+            <li>PN_SyncMasterwork_Domestic</li>
+            <li>PN_SyncExcellent_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--셰프 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_ChefModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Domestic</li>
+            <li>PN_SyncMasterwork_Domestic</li>
+            <li>PN_SyncExcellent_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--간호 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <wearList>
+          <li>PN_NurseModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Domestic</li>
+            <li>PN_SyncMasterwork_Domestic</li>
+            <li>PN_SyncExcellent_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
         </forceDropHediff>
         <forceDrop>true</forceDrop>
       </li>

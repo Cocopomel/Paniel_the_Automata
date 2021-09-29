@@ -742,7 +742,6 @@
       <EquipDelay>7</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
       <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.10</PlantHarvestYield>
       <MedicalTendQuality>0.15</MedicalTendQuality>
@@ -826,7 +825,6 @@
       <EquipDelay>1</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
       <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
       <PlantHarvestYield>0.05</PlantHarvestYield>
       <MedicalTendQuality>0.10</MedicalTendQuality>
