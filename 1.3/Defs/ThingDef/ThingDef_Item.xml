@@ -327,7 +327,7 @@
   <!--==================================== 로열 부품 ====================================-->
   <ThingDef ParentName="ResourceBase">
     <defName>PN_ComponentRoyal</defName>
-    <label>PnL royal component</label>
+    <label>PnL component</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Item/PNComponentRoyal</texPath>
