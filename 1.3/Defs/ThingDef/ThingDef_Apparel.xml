@@ -27,6 +27,9 @@
     <recipeMaker>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
   </ThingDef>
 
   <ThingDef Abstract="True" Name="PN_HatBase" ParentName="PN_ApparelBase">
