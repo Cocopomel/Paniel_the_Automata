@@ -63,7 +63,7 @@
     </graphicData>
     <techLevel>Industrial</techLevel>
     <statBases>
-      <WorkToMake>60000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
     </statBases>
   </ThingDef>
 
@@ -74,7 +74,7 @@
     </graphicData>
     <techLevel>Spacer</techLevel>
     <statBases>
-      <WorkToMake>45000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
   </ThingDef>
 
