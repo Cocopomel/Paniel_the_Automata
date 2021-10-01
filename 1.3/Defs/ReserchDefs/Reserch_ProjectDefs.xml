@@ -59,6 +59,7 @@
     <prerequisites>
       <li>PNRP_Brain</li>
       <li>Bionics</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">BrainWiring<li>
     </prerequisites>
     <researchViewX>5.0</researchViewX>
     <researchViewY>0</researchViewY>
