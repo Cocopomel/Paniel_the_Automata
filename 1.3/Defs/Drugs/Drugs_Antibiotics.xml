@@ -120,11 +120,12 @@
     </descriptionHyperlinks>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
-    <maxSeverity>0.50</maxSeverity>
+    <maxSeverity>1.00</maxSeverity>
+    <initialSeverity>1.0</initialSeverity>
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.25</severityPerDay>
+        <severityPerDay>-0.5</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
@@ -151,7 +152,28 @@
       </li>
       <li>
         <label>active</label>
-        <minSeverity>0.1</minSeverity>
+        <minSeverity>0.25</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ImmunityGainSpeed>5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+      <li>
+        <label>active</label>
+        <minSeverity>0.75</minSeverity>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -172,7 +194,7 @@
       </li>
       <li>
         <label>injected</label>
-        <minSeverity>0.4</minSeverity>
+        <minSeverity>0.9</minSeverity>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
