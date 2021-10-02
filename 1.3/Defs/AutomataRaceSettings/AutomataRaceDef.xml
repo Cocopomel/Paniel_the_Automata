@@ -705,7 +705,7 @@
       <ComfyTemperatureMax>38</ComfyTemperatureMax>
       <ComfyTemperatureMin>4</ComfyTemperatureMin>
       <RestRateMultiplier>1.00</RestRateMultiplier>      <!--수면효율-->
-      <HungerRateMultiplier>0.25</HungerRateMultiplier>
+      <HungerRateMultiplier>0.20</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
       <ImmunityGainSpeed>0</ImmunityGainSpeed>
       <CarryingCapacity>100</CarryingCapacity>
