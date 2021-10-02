@@ -157,7 +157,7 @@
   <!--==================================== 블러디드 체인소드 ====================================-->
 
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
-    <defName>PN_PN_Chainsword_Bladelink</defName>
+    <defName>PN_Chainsword_Bladelink</defName>
     <label>PnL blooded chain sword</label>
     <description>...</description>
     <statBases>
