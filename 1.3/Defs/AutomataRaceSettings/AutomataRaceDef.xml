@@ -621,6 +621,7 @@
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
+        <onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
         <apparelList>
 
           <!--[Royalty]-->
@@ -650,7 +651,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
-          
+
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappyModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQCModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MinerModule</li>
@@ -682,6 +683,9 @@
         <buildingList>
           <!--<li>PN_CryptosleepCasket</li>-->
         </buildingList>
+        <foodList>
+          <li>PN_AutomatonFuel</li>
+        </foodList>
       </raceRestriction>
       <!--관계설정-->
       <relationSettings>
