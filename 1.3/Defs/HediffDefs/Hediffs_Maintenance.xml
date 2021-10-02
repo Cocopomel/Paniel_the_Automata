@@ -30,27 +30,27 @@
         <statOffsets>
           <PsychicSensitivity>1.0</PsychicSensitivity>
           <MentalBreakThreshold>0.16</MentalBreakThreshold>
-          <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-          <MoveSpeed>-0.4</MoveSpeed>
+          <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+          <MoveSpeed>-0.8</MoveSpeed>
         </statOffsets>
-        <!--<mentalStateGivers>
+        <mentalStateGivers>
           <li>
             <mentalState>WanderConfused</mentalState>
             <mtbDays>30</mtbDays>
           </li>
           <li>
-            <mentalState>Berserk</mentalState>
-            <mtbDays>60</mtbDays>
+            <mentalState>Wander_OwnRoom</mentalState>
+            <mtbDays>30</mtbDays>
           </li>
           <li>
             <mentalState>Tantrum</mentalState>
             <mtbDays>30</mtbDays>
           </li>
-        </mentalStateGivers>-->
+        </mentalStateGivers>
       </li>
       <li>
         <label>required</label>
-        <minSeverity>0.30</minSeverity>
+        <minSeverity>0.25</minSeverity>
         <restFallFactor>1.2</restFallFactor>
         <capMods>
           <li>
@@ -61,8 +61,8 @@
         <statOffsets>
           <PsychicSensitivity>0.40</PsychicSensitivity>
           <MentalBreakThreshold>0.08</MentalBreakThreshold>
-          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
-          <MoveSpeed>-0.2</MoveSpeed>
+          <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+          <MoveSpeed>-0.4</MoveSpeed>
         </statOffsets>
       </li>
       <li>
@@ -95,7 +95,7 @@
         <statOffsets>
           <PsychicSensitivity>-0.20</PsychicSensitivity>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-          <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
@@ -106,4 +106,31 @@
 			</li>
 		</modExtensions>
   </HediffDef>
+
+  <ThoughtDef>
+    <defName>PN_Maintenance_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>PN_Maintenance</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Maintenance urgent</label>
+        <description>I feel weird. I don't think my body is mine.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Maintenance required</label>
+        <description>I can't move my body well.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>     
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Maintenance flawless</label>
+        <description>Feeling make again!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>   
+    </stages>
+  </ThoughtDef>
 </Defs>
