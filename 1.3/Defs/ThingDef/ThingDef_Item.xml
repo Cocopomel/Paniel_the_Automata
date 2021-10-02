@@ -141,7 +141,7 @@
   <ThingDef ParentName="BodyPartBase">
     <defName>PN_BrainCasing</defName>
     <label>Automaton brain core</label>
-    <description>A brain core used to make automatons.</description>
+    <description>A brain core used to make automata.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNBrainCore</texPath>
       <graphicClass>Graphic_Single</graphicClass>

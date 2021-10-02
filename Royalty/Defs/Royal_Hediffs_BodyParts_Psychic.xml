@@ -59,7 +59,7 @@
   <RecipeDef>
     <defName>PN_Make_PsychicAmplifier_Automaton</defName>
     <label>make automaton psylink</label>
-    <description>...</description>
+    <description>make automaton psylink</description>
     <jobString>Making automaton psylink.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>

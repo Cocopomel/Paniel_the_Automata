@@ -33,7 +33,7 @@
   <ResearchProjectDef>
     <defName>PNRP_Brain</defName>
     <label>core analysis</label>
-    <description>Researching methods of extracting the central nervous system to make automatons.</description>
+    <description>Researching methods of extracting the central nervous system to make automata.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>

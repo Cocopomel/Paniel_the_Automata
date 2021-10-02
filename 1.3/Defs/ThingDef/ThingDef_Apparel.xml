@@ -238,7 +238,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelMilitia</defName>
     <label>PnL militia uniform</label>
-    <description>A uniform worn by the militia on automatons. The built-in parts work with the automaton to give it a decent defense.</description>
+    <description>A uniform worn by the militia on automata. The built-in parts work with the automaton to give it a decent defense.</description>
     <graphicData>
       <texPath>Things/Apparel/PNMilitia1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -318,7 +318,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelMilitiaHat</defName>
     <label>PnL militia goggles</label>
-    <description>A goggles worn by the militia on automatons. The built-in parts work with the automaton to give it a decent defense.</description>
+    <description>A goggles worn by the militia on automata. The built-in parts work with the automaton to give it a decent defense.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNMilitiahat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -392,7 +392,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelSoldier</defName>
     <label>PnL soldier uniform</label>
-    <description>This is the uniform worn by the military on automatons. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <description>This is the uniform worn by the military on automata. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/PNSoldier1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -474,7 +474,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelSoldierHat</defName>
     <label>PnL soldier side cap</label>
-    <description>This is the hat worn by the military on automatons. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <description>This is the hat worn by the military on automata. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNSoldierhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
