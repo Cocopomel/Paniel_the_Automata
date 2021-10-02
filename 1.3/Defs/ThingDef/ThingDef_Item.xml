@@ -345,7 +345,7 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <techLevel>Industrial</techLevel>
-    <stackLimit>25</stackLimit>
+    <stackLimit>75</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
