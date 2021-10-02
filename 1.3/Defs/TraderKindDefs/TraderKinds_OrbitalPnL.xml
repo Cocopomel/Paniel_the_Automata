@@ -37,7 +37,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-        <countRange>25~75</countRange>
+        <countRange>10~25</countRange>
       </li>
 
       <!-- Drugs -->
@@ -81,6 +81,10 @@
       <!-- Weapons -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_PrototypeRailGun</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
+        <weaponTag>PN_Bladelink</weaponTag>
         <countRange>0~1</countRange>
       </li>
 
