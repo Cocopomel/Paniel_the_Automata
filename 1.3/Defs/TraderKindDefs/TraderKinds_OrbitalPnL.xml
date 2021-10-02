@@ -39,6 +39,10 @@
         <thingDef>Hyperweave</thingDef>
         <countRange>10~25</countRange>
       </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <countRange>50~75</countRange>
+      </li>
 
       <!-- Drugs -->
       <li Class="StockGenerator_SingleDef">
