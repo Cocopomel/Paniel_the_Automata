@@ -2,13 +2,13 @@
 <Defs>
   <ApparelLayerDef>
     <defName>PNModule</defName>
-    <label>PnL module system</label>
+    <label>Automaton module system</label>
     <drawOrder>-5</drawOrder>
   </ApparelLayerDef>
 
   <ThingCategoryDef>
     <defName>PNApparelModule</defName>
-    <label>PnL Module</label>
+    <label>Automaton Module</label>
     <parent>PNApparel</parent>
   </ThingCategoryDef>
 

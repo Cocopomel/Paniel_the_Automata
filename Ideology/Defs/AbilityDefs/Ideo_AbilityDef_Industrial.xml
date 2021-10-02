@@ -54,7 +54,7 @@
   <!--==================================== 근접전 모듈 ====================================-->
   <AbilityDef>
     <defName>PN_CQCAbility</defName>
-    <label>rapid fire</label>
+    <label>CQC mode</label>
     <description>This ability increases users to close quarters combat stat, but lowers the shooting accuracy.</description>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>

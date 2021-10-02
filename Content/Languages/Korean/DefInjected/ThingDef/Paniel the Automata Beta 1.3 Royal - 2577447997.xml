@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-  <PN_PsychicAmplifier.label>오토마톤 정신력 증폭기</PN_PsychicAmplifier.label>
-  <PN_PsychicAmplifier.description>오토마톤용으로 개조된 정신력 증폭기입니다.\n\n사용자의 정신에 초능력을 형성하거나 업그레이드하는 초월공학제 소모품입니다.\n\n장치를 사용하면 눈을 통해 뇌에 직접 접촉하여 초능력을 부여하고 사라집니다.</PN_PsychicAmplifier.description>
-  <PN_PsychicAmplifier.comps.0.useLabel>정신력 증폭기 사용</PN_PsychicAmplifier.comps.0.useLabel>
-</LanguageData>

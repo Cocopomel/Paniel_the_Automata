@@ -244,8 +244,8 @@
   <!--==================================== 자가 수리 키트 ====================================-->
   <ThingDef ParentName="MechSerumBase">
     <defName>PN_SelfRepairKit</defName>
-    <label>Repair kit combined with healer mech serum. It can be used alone without an operator, and the user can self-repair.</label>
-    <description>test repair kit</description>
+    <label>self repair kit</label>
+    <description>Repair kit combined with healer mech serum. It can be used alone without an operator, and the user can self-repair.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNSelfRepairkit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -287,7 +287,7 @@
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
-        <useLabel>Use repair kit</useLabel>
+        <useLabel>Use self repair kit</useLabel>
         <useDuration>600</useDuration>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectRepairKit">
@@ -397,7 +397,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_ComponentRoyal</defName>
     <label>PnL component</label>
-    <description>This is a component used in special products of PnL. It's tightly sealed, so reverse engineering looks difficult.</description>
+    <description>This is a component used in special products of PnL Industry. It's tightly sealed, so reverse engineering looks difficult.</description>
     <graphicData>
       <texPath>Things/Item/PNComponentRoyal</texPath>
       <graphicClass>Graphic_Single</graphicClass>

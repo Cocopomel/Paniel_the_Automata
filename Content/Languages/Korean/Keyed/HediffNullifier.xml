@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	<PN_HediffNullifier>{0}(은)는 {1}(을)를 면역했습니다. 사유 : {0}(은)는 오토마톤입니다</PN_HediffNullifier>
-	<limitedUsage>({0} usage left)</limitedUsage>
-</LanguageData>

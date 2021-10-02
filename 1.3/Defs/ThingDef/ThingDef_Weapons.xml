@@ -998,7 +998,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_TwinPistol</defName>
-    <label>PnL rifle bullet</label>
+    <label>PnL twin pistol bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>4</damageAmountBase>
@@ -1456,7 +1456,7 @@
   <ThingDef ParentName="PN_BaseGun">
     <defName>PN_PrototypeRailGun</defName>
     <label>PnL prototype rail gun</label>
-    <description>caution : Automaton exclusive weapon.\n\nAn experimental railgun that fires powerful explosions in a narrow area.</description>
+    <description>An experimental railgun that fires powerful explosions in a narrow area.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <graphicData>

@@ -6,7 +6,7 @@
     <label>Automaton Fuel</label>
     <description>The amount of fuel used by the automaton.</description>
     <listPriority>985</listPriority>
-    <fallPerDay>0.25</fallPerDay>
+    <fallPerDay>0.5</fallPerDay>
     <freezeWhileSleeping>true</freezeWhileSleeping>
     <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>

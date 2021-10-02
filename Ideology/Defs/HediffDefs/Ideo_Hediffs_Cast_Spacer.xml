@@ -159,7 +159,7 @@
   <!--==================================== 마이스터 모듈 ====================================-->
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_MeisterAdvice</defName>
-    <label>meister's advice</label>
+    <label>module active (meister)</label>
     <description>By encouraging and advising nearby allies, this person can enhance their focus in engineer work performance.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
@@ -208,7 +208,7 @@
   <HediffDef ParentName="RoleStatBuff">
     <defName>PN_MeisterAdviceBuff</defName>
     <label>meister's advice</label>
-    <description>The sense of being got advice from the meister.</description>
+    <description>work abilities are boosted thanks to being near someone who is using the meister's advice ability.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
@@ -248,7 +248,7 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>command from automaton</label>
+        <label>advice from automaton</label>
         <description>I can't believe I have to follow the advice of an automaton.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>

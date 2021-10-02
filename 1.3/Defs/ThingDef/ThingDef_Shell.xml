@@ -154,7 +154,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_AP</defName>
     <label>PnL AP shell</label>
-    <description>A special shell that hits a single target with great force. Difficult to hit against moving enemies. Explodes when damaged.</description>
+    <description>A special shell that hits a single target with huge damaged. Difficult to hit against moving enemies. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAP</texPath>
     </graphicData>
