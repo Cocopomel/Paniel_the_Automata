@@ -69,7 +69,7 @@
   <HediffDef>
     <defName>PN_AB_Bridge</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>de-hibernation</label>
+    <label>antibiotics Bridge</label>
     <description>...</description>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -93,7 +93,7 @@
   <HediffDef>
     <defName>PN_AB_EffectBridge</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>de-hibernation</label>
+    <label>antibiotics Bridge</label>
     <description>...</description>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>

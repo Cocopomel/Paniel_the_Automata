@@ -664,7 +664,7 @@
 
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Testsubject</defName>
-    <label>Test model</label>
+    <label>Test model (good)</label>
   </HediffDef>
 
   <!--꽝끔찍-->
