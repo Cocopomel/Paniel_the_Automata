@@ -79,7 +79,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_HE</defName>
     <label>PnL cluster HE shell</label>
-    <description>...</description>
+    <description>A high explosion cluster bomb that scatters submunitions when it hits a target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellHE</texPath>
     </graphicData>
@@ -154,7 +154,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_AP</defName>
     <label>PnL AP shell</label>
-    <description>...</description>
+    <description>A special shell that hits a single target with great force. Difficult to hit against moving enemies. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAP</texPath>
     </graphicData>
@@ -230,7 +230,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_CI</defName>
     <label>PnL cluster incendiary shell</label>
-    <description>Cluster Incendiary</description>
+    <description>A cluster incendiary bomb that scatters submunitions when it hits a target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellIN</texPath>
     </graphicData>
@@ -302,7 +302,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_EMP</defName>
     <label>PnL cluster EMP shell</label>
-    <description>Cluster EMP</description>
+    <description>A cluster EMP bomb that scatters submunitions when it hits a target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellEM</texPath>
     </graphicData>
@@ -377,7 +377,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_FF</defName>
     <label>PnL cluster Firefoam shell</label>
-    <description>Cluster Firefoam</description>
+    <description>A cluster firefoam bomb that scatters submunitions when it hits a target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellFF</texPath>
     </graphicData>
@@ -461,7 +461,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_Smoke</defName>
     <label>PnL cluster smoke shell</label>
-    <description>Cluster Incendiary</description>
+    <description>A cluster smoke bomb that scatters submunitions when it hits a target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellSM</texPath>
     </graphicData>
@@ -538,7 +538,7 @@
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_AG</defName>
     <label>PnL antigrain shell</label>
-    <description>...</description>
+    <description>An ultra-tech warhead powered by a grain of antimatter. Usually used by spacecraft or glitterworld war machines, it creates a huge explosion and starts fires around the target. Explodes when damaged.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAG</texPath>
     </graphicData>

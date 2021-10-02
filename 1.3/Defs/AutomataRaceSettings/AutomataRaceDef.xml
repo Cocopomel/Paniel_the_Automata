@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Paniel_Race</defName>
     <label>Paniel</label>
-    <description>Paniel the Automata</description>
+    <description>This pawn is automaton designed by pnl.</description>
     <!--하이퍼링크
     <descriptionHyperlinks>
 			<ThingDef></ThingDef>

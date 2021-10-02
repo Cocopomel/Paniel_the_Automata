@@ -45,7 +45,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelBasic</defName>
     <label>PnL basic shirt and boots</label>
-    <description>...</description>
+    <description>This is a basic paniel costume. It consists of a shirt and boots.</description>
     <graphicData>
       <texPath>Things/Apparel/PNBasic1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -108,7 +108,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelBasicHat</defName>
     <label>PnL basic hat</label>
-    <description>...</description>
+    <description>This is a basic paniel hat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNbasichat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -169,7 +169,7 @@
   <!--==================================== 케이프 ====================================-->
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>PN_ApparelCape</defName>
-    <description>...</description>
+    <description>This is a basic paniel cape. It has excellent performance in heat dissipation and insulation.</description>
     <label>PnL cape</label>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -238,7 +238,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelMilitia</defName>
     <label>PnL militia uniform</label>
-    <description>...</description>
+    <description>A uniform worn by the militia on automatons. The built-in parts work with the automaton to give it a decent defense.</description>
     <graphicData>
       <texPath>Things/Apparel/PNMilitia1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -318,7 +318,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelMilitiaHat</defName>
     <label>PnL militia goggles</label>
-    <description>...</description>
+    <description>A goggles worn by the militia on automatons. The built-in parts work with the automaton to give it a decent defense.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNMilitiahat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -392,7 +392,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelSoldier</defName>
     <label>PnL soldier uniform</label>
-    <description>...</description>
+    <description>This is the uniform worn by the military on automatons. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/PNSoldier1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -474,7 +474,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelSoldierHat</defName>
     <label>PnL soldier side cap</label>
-    <description>...</description>
+    <description>This is the hat worn by the military on automatons. Built-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNSoldierhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -551,7 +551,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelWorker</defName>
     <label>PnL engineer uniform</label>
-    <description>...</description>
+    <description>This is the uniform worn by the Automaton at the factory. The built-in parts work with the automaton to give you adequate defense. It also has a function to assist the user's work.</description>
     <graphicData>
       <texPath>Things/Apparel/PNWorker1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -633,7 +633,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelWorkerHat</defName>
     <label>PnL Engineer newsie cap</label>
-    <description>...</description>
+    <description>This is the hat worn by the Automaton at the factory. The built-in parts work with the automaton to give you adequate defense. It also has a function to assist the user's work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNWorkerhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -710,7 +710,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelMaid</defName>
     <label>PnL housekeeper uniform</label>
-    <description>...</description>
+    <description>This is the uniform worn by the automaton in the noble mansion. The built-in parts work with the automaton to give you adequate defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/PNHousekeeper1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -794,7 +794,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelMaidHat</defName>
     <label>PnL housekeeper hat</label>
-    <description>...</description>
+    <description>This is the hat worn by the automaton in the noble mansion. The built-in parts work with the automaton to give you adequate defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNHousekeeperhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -907,7 +907,7 @@
   <ThingDef ParentName="PN_RoyalApparelBase">
     <defName>PN_ApparelRoyalguard</defName>
     <label>PnL royal guard uniform</label>
-    <description>...</description>
+    <description>A uniform worn by the royal guards on Automaton. Built-in parts work with the automaton to provide excellent defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/PNRoyalguard1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -991,7 +991,7 @@
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalguardHat</defName>
     <label>PnL royal guard beret</label>
-    <description>...</description>
+    <description>A hat worn by the royal guards on Automaton. Built-in parts work with the automaton to provide excellent defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalguardhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1069,7 +1069,7 @@
   <ThingDef ParentName="PN_RoyalApparelBase">
     <defName>PN_ApparelRoyalmaid</defName>
     <label>PnL royal maid uniform</label>
-    <description>...</description>
+    <description>This is the uniform worn by the automaton in the royal palace. The built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/PNRoyalmaid1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1161,7 +1161,7 @@
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmaidHat</defName>
     <label>PnL royal maid headband</label>
-    <description>...</description>
+    <description>This is the hat worn by the automaton in the royal palace. The built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalmaidhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>

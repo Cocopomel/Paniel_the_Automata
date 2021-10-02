@@ -3,7 +3,7 @@
   <CustomizableRecipe.CustomizableRecipeDef>
     <defName>PN_Make_Automaton</defName>
     <label>make automaton</label>
-    <description>...</description>
+    <description>make automaton</description>
     <jobString>Making automaton.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>

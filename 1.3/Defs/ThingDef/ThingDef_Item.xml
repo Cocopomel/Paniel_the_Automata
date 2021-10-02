@@ -61,7 +61,7 @@
   <ThingDef ParentName="BodyPartBase">
     <defName>PN_BrainEmpty</defName>
     <label>Empty case</label>
-    <description>...</description>
+    <description>A case specially designed to contain the central nervous system.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNCentralnervous_empty</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -110,7 +110,7 @@
   <ThingDef ParentName="BodyPartBase">
     <defName>PN_Brain</defName>
     <label>central nervous</label>
-    <description>A biological human central nervous.</description>
+    <description>A biological human central nervous. It doesn't look like it can be stored for long.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNCentralnervous</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -141,7 +141,7 @@
   <ThingDef ParentName="BodyPartBase">
     <defName>PN_BrainCasing</defName>
     <label>Automaton brain core</label>
-    <description>...</description>
+    <description>A brain core used to make automatons.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNBrainCore</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -196,7 +196,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_RepairKit</defName>
     <label>automaton repair kit</label>
-    <description>test repair kit</description>
+    <description>A kit containing various materials to repair the automaton.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNRepairkit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -244,7 +244,7 @@
   <!--==================================== 자가 수리 키트 ====================================-->
   <ThingDef ParentName="MechSerumBase">
     <defName>PN_SelfRepairKit</defName>
-    <label>automaton self repair kit</label>
+    <label>Repair kit combined with healer mech serum. It can be used alone without an operator, and the user can self-repair.</label>
     <description>test repair kit</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNSelfRepairkit</texPath>
@@ -338,7 +338,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_Fueldrumcan</defName>
     <label>PnL fuel drum can</label>
-    <description>...</description>
+    <description>A drum for efficient and safe PnL fuel storage. It has high durability and low flammability.</description>
     <graphicData Inherit="false">
       <texPath>Things/Item/PNFuleDrum</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -397,7 +397,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_ComponentRoyal</defName>
     <label>PnL component</label>
-    <description>...</description>
+    <description>This is a component used in special products of PnL. It's tightly sealed, so reverse engineering looks difficult.</description>
     <graphicData>
       <texPath>Things/Item/PNComponentRoyal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
