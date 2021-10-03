@@ -885,7 +885,7 @@
     <projectile>
       <damageDef>PN_Bomb_Cannon</damageDef>
       <speed>100</speed>
-      <explosionRadius>2.4</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
 
