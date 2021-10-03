@@ -59,7 +59,7 @@
       <li Class="CompProperties_Drug">
         <chemical>PN_Chemical_Fuel</chemical>
         <addictiveness>0.000000001</addictiveness>
-        <needLevelOffset>0.50</needLevelOffset>
+        <needLevelOffset>0.25</needLevelOffset>
         <listOrder>1028</listOrder>
       </li>
       <li Class="CompProperties_Explosive">
