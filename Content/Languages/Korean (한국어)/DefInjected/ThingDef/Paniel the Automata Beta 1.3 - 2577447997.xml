@@ -19,10 +19,10 @@
   <PN_ApparelBasicHat.description>기본적인 파니엘 모자.</PN_ApparelBasicHat.description>
   <PN_ApparelCape.description>기본적인 파니엘 케이프. 단열과 방열에 모두 뛰어난 성능을 보입니다.</PN_ApparelCape.description>
   <PN_ApparelCape.label>파니엘 케이프</PN_ApparelCape.label>
-  <PN_ApparelMilitia.label>파니엘 민병대 유니폼</PN_ApparelMilitia.label>
-  <PN_ApparelMilitia.description>민병대에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공합니다.</PN_ApparelMilitia.description>
-  <PN_ApparelMilitiaHat.label>파니엘 민병대 고글</PN_ApparelMilitiaHat.label>
-  <PN_ApparelMilitiaHat.description>민병대에서 오토마톤에게 씌우는 고글.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공합니다.</PN_ApparelMilitiaHat.description>
+  <PN_ApparelMilitia.label>파니엘 밀리샤 유니폼</PN_ApparelMilitia.label>
+  <PN_ApparelMilitia.description>밀리샤에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공합니다.</PN_ApparelMilitia.description>
+  <PN_ApparelMilitiaHat.label>파니엘 밀리샤 고글</PN_ApparelMilitiaHat.label>
+  <PN_ApparelMilitiaHat.description>밀리샤에서 오토마톤에게 씌우는 고글.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공합니다.</PN_ApparelMilitiaHat.description>
   <PN_ApparelSoldier.label>파니엘 병사 유니폼</PN_ApparelSoldier.label>
   <PN_ApparelSoldier.description>군대에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 뛰어난 방어력을 제공합니다. 그러나 전투 이외의 상황에선 별다른 도움이 되지 않습니다.</PN_ApparelSoldier.description>
   <PN_ApparelSoldierHat.label>파니엘 병사 모자</PN_ApparelSoldierHat.label>
