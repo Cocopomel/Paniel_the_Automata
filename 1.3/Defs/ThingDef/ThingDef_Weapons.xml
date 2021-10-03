@@ -558,7 +558,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>36.9</range>
+        <range>30.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -575,7 +575,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>2.3</warmupTime>
-        <range>44.9</range>
+        <range>36.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1084,7 +1084,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>36.9</range>
+        <range>30.9</range>
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
