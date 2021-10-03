@@ -679,6 +679,15 @@
         </whiteApparelList>
         <weaponList>
 
+          <li>PN_Chainsword</li>
+          <li>PN_Chainlongsword</li>
+          <li>PN_Revolver</li>
+          <li>PN_TwinPistol</li>
+          <li>PN_RoyalRifle</li>
+          <li>PN_RoyalLSW</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalSaber_Bladelink</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_Chainsword_Bladelink</li>
+
         </weaponList>
         <buildingList>
           <!--<li>PN_CryptosleepCasket</li>-->

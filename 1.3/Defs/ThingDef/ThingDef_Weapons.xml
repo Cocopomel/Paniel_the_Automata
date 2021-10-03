@@ -247,7 +247,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainsword</defName>
     <label>PnL chainsword</label>
-    <description>caution : Automaton exclusive weapon.\n\nA sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData>
       <texPath>Things/Weapons/PNSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -313,7 +313,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainlongsword</defName>
     <label>PnL chain longsword</label>
-    <description>caution : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData>
       <texPath>Things/Weapons/PNSwordLong</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -399,7 +399,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Revolver</defName>
     <label>PnL revolver</label>
-    <description>caution : Automaton exclusive weapon.\n\nA revolver similar to a shotgun that fires from six barrels at once. It can be loaded quickly by linking with the automaton.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA revolver similar to a shotgun that fires from six barrels at once. It can be loaded quickly by linking with the automaton.</description>
     <graphicData>
       <texPath>Things/Weapons/PNRevolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -915,7 +915,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_TwinPistol</defName>
     <label>PnL twin pistol</label>
-    <description>caution : Automaton exclusive weapon.\n\nA dual pistol that fires a lot of bullets at a close range. Used by the Royal Guard's Special Forces Automaton. In conjunction with the automaton, it enables fast reloading and gives the user high melee combat ability.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA dual pistol that fires a lot of bullets at a close range. Used by the Royal Guard's Special Forces Automaton. In conjunction with the automaton, it enables fast reloading and gives the user high melee combat ability.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNTwinpistol</texPath>
@@ -1016,7 +1016,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
     <label>PnL royal rifle</label>
-    <description>royla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalRifle</texPath>
@@ -1163,7 +1163,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
     <label>PnL multiple launcher</label>
-    <description>A launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalLSW</texPath>

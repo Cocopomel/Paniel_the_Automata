@@ -209,8 +209,8 @@
 
   <ResearchProjectDef>
     <defName>PNRP_RoyalWeapons</defName>
-    <label>advanced weapons</label>
-    <description>Research how to craft Royal PnL weapons.</description>
+    <label>Royal weapons</label>
+    <description>Research how to craft Royal PnL weapons.\n\n[caution] : Royal weapons are exclusively for Paniel.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Spacer</techLevel>
