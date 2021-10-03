@@ -5,7 +5,7 @@
   <PN_antibiotics.description>경고 : 사람에게 사용하지 마십시오.\n이 항생제는 오토마톤 전용입니다.\n\n기존에 알려지지 않은 질병을 치료하기 위한 오토마톤 항생제\n(모드로 추가된 질병에 사용합니다.)</PN_antibiotics.description>
   <PN_antibiotics.ingestible.ingestCommandString>{0} 주입</PN_antibiotics.ingestible.ingestCommandString>
   <PN_antibiotics.ingestible.ingestReportString>{0} 주입중.</PN_antibiotics.ingestible.ingestReportString>
-  <PN_AutomatonFuel.label>PnL 연료를 필요로 하는 상태</PN_AutomatonFuel.label>
+  <PN_AutomatonFuel.label>PnL 연료</PN_AutomatonFuel.label>
   <PN_AutomatonFuel.description>경고 : 사람에게 사용하지 마십시오.\n이 연료는 오토마톤 전용입니다.\n\n오토마톤이 사용하는 연료. 정신적 안정을 위해 대량의 사이카이트가 농축되어 있습니다.</PN_AutomatonFuel.description>
   <PN_AutomatonFuel.ingestible.ingestCommandString>{0} 마시기</PN_AutomatonFuel.ingestible.ingestCommandString>
   <PN_AutomatonFuel.ingestible.ingestReportString>{0} 마시는중.</PN_AutomatonFuel.ingestible.ingestReportString>
@@ -65,7 +65,7 @@
   <PN_ComponentRoyal.label>PnL 부품</PN_ComponentRoyal.label>
   <PN_ComponentRoyal.description>PnL Industry에서 특별한 제품을 제작할때 사용하는 부품. 단단하게 봉인되어 있어 역설계는 힘들어 보입니다.</PN_ComponentRoyal.description>
   <Packaged_NormalAutomaton.label>포장된 오토마톤</Packaged_NormalAutomaton.label>
-  <Packaged_NormalAutomaton.description>테스트용 아이템</Packaged_NormalAutomaton.description>
+  <Packaged_NormalAutomaton.description>오토마톤이 포장되어 있는 상자입니다. 어떤 등급이 나올까요?</Packaged_NormalAutomaton.description>
   <Packaged_NormalAutomaton.comps.2.useLabel>포장 해체</Packaged_NormalAutomaton.comps.2.useLabel>
   <Packaged_NormalAutomatonSoldier.label>PnL 오토마톤™ (전투형)</Packaged_NormalAutomatonSoldier.label>
   <Packaged_NormalAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonSoldier.description>
@@ -110,7 +110,7 @@
   <PN_Shell_AG.description>번화계의 대형 병기에서 운용하는 초소형 탄두입니다. 반물질 반응을 이용하여 대폭발을 일으키고 화재를 발생시킵니다. 피해를 받으면 폭발합니다.</PN_Shell_AG.description>
   <PN_Bullet_Shell_AG.label>반물질탄</PN_Bullet_Shell_AG.label>
   <PN_Shovel.label>PnL 야전삽</PN_Shovel.label>
-  <PN_Shovel.description>작은 삽. 농사와 채굴, 건축에 유용합니다.</PN_Shovel.description>
+  <PN_Shovel.description>작은 삽. 농사와 채굴, 건축에 유용합니다. 삽으로 맞으면 많이 아플 것 같습니다.</PN_Shovel.description>
   <PN_Shovel.tools.0.label>손잡이</PN_Shovel.tools.0.label>
   <PN_Shovel.tools.1.label>삽날</PN_Shovel.tools.1.label>
   <PN_Shovel.tools.2.label>삽머리</PN_Shovel.tools.2.label>
@@ -132,7 +132,9 @@
   <PN_Rifle.label>PnL 라이플</PN_Rifle.label>
   <PN_Rifle.description>PnL Industry에서 생산한 레버 액션 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_Rifle.description>
   <PN_Rifle.verbs.0.label>신속 사격</PN_Rifle.verbs.0.label>
+  <PN_Rifle.verbs.0.desc>빠르게 사격하지만 사정거리와 명중률이 낮습니다.</PN_Rifle.verbs.0.desc>
   <PN_Rifle.verbs.1.label>정밀 사격</PN_Rifle.verbs.1.label>
+  <PN_Rifle.verbs.1.desc>느리게 사격하지만 사정거리와 명중률이 높습니다.</PN_Rifle.verbs.1.desc>
   <PN_Rifle.tools.0.label>개머리판</PN_Rifle.tools.0.label>
   <PN_Rifle.tools.1.label>총열</PN_Rifle.tools.1.label>
   <PN_Bullet_Rifle.label>라이플탄</PN_Bullet_Rifle.label>
@@ -156,7 +158,9 @@
   <PN_RoyalRifle.label>PnL 로열 라이플</PN_RoyalRifle.label>
   <PN_RoyalRifle.description>근위대에서 사용하기 위해 PnL Industry에서 제작한 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_RoyalRifle.description>
   <PN_RoyalRifle.verbs.0.label>신속 사격</PN_RoyalRifle.verbs.0.label>
+  <PN_RoyalRifle.verbs.0.desc>빠르게 사격하지만 사정거리와 명중률이 낮습니다.</PN_RoyalRifle.verbs.0.desc>
   <PN_RoyalRifle.verbs.1.label>정밀 사격</PN_RoyalRifle.verbs.1.label>
+  <PN_RoyalRifle.verbs.1.desc>느리게 사격하지만 사정거리와 명중률이 높습니다.</PN_RoyalRifle.verbs.1.desc>
   <PN_RoyalRifle.tools.0.label>개머리판</PN_RoyalRifle.tools.0.label>
   <PN_RoyalRifle.tools.1.label>총열</PN_RoyalRifle.tools.1.label>
   <PN_Bullet_RoyalRifle.label>라이플탄</PN_Bullet_RoyalRifle.label>

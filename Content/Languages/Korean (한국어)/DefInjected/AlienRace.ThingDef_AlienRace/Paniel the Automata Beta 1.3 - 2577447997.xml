@@ -2,8 +2,6 @@
 <LanguageData>
   <Paniel_Race.label>파니엘</Paniel_Race.label>
   <Paniel_Race.description>PnL Industry에서 디자인한 오토마톤입니다.</Paniel_Race.description>
-  <Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>피부</Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-  <Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</Paniel_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
   <Paniel_Race.tools.0.label>왼주먹</Paniel_Race.tools.0.label>
   <Paniel_Race.tools.1.label>오른주먹</Paniel_Race.tools.1.label>
   <Paniel_Race.tools.2.label>이빨</Paniel_Race.tools.2.label>
