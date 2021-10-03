@@ -110,13 +110,13 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>Paniel_ColonistPawn</li>
+                <li>Colonist</li>
               </kindDefs>
               <chance>100.0</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
-            <li>Paniel_PlayerFaction</li>
+            <li>OutlanderCivil</li>
           </factionDefs>
         </li>
       </alienwandererkinds>
