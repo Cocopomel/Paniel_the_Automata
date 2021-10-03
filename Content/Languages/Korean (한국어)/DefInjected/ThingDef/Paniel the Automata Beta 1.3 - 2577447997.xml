@@ -115,17 +115,17 @@
   <PN_Shovel.tools.1.label>삽날</PN_Shovel.tools.1.label>
   <PN_Shovel.tools.2.label>삽머리</PN_Shovel.tools.2.label>
   <PN_Chainsword.label>PnL 체인소드</PN_Chainsword.label>
-  <PN_Chainsword.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n회전하는 체인 톱날이 달린 검. 오토마톤과 연결되어 작동합니다.</PN_Chainsword.description>
+  <PN_Chainsword.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n회전하는 체인 톱날이 달린 검. 오토마톤과 연결되어 작동합니다.</PN_Chainsword.description>
   <PN_Chainsword.tools.0.label>손잡이</PN_Chainsword.tools.0.label>
   <PN_Chainsword.tools.1.label>칼끝</PN_Chainsword.tools.1.label>
   <PN_Chainsword.tools.2.label>칼날</PN_Chainsword.tools.2.label>
   <PN_Chainlongsword.label>PnL 체인 롱소드</PN_Chainlongsword.label>
-  <PN_Chainlongsword.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n회전하는 체인 톱날이 달린 롱소드. 오토마톤과 연결되어 작동합니다.</PN_Chainlongsword.description>
+  <PN_Chainlongsword.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n회전하는 체인 톱날이 달린 롱소드. 오토마톤과 연결되어 작동합니다.</PN_Chainlongsword.description>
   <PN_Chainlongsword.tools.0.label>손잡이</PN_Chainlongsword.tools.0.label>
   <PN_Chainlongsword.tools.1.label>칼끝</PN_Chainlongsword.tools.1.label>
   <PN_Chainlongsword.tools.2.label>칼날</PN_Chainlongsword.tools.2.label>
   <PN_Revolver.label>PnL 리볼버</PN_Revolver.label>
-  <PN_Revolver.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n여섯개의 총열에서 모든 탄을 한번에 발싸하는 샷건 대용 무기. 오토마톤과 연결되어 빠른 재장전을 합니다.</PN_Revolver.description>
+  <PN_Revolver.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n여섯개의 총열에서 모든 탄을 한번에 발싸하는 샷건 대용 무기. 오토마톤과 연결되어 빠른 재장전을 합니다.</PN_Revolver.description>
   <PN_Revolver.tools.0.label>손잡이</PN_Revolver.tools.0.label>
   <PN_Revolver.tools.1.label>총열</PN_Revolver.tools.1.label>
   <PN_Bullet_Revolver_Volley.label>리볼버탄</PN_Bullet_Revolver_Volley.label>
@@ -150,13 +150,13 @@
   <PN_Bullet_HE.label>고폭탄</PN_Bullet_HE.label>
   <PN_Bullet_AP.label>관통탄</PN_Bullet_AP.label>
   <PN_TwinPistol.label>PnL 트윈 피스톨</PN_TwinPistol.label>
-  <PN_TwinPistol.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n많은 총알을 빠르게 흩뿌리는 쌍권총. 근위대의 특수부대 오토마톤이 사용합니다. 오토마톤과 연동하여 빠른 재장전이 가능하고 근접전 능력을 향상시켜 줍니다.</PN_TwinPistol.description>
+  <PN_TwinPistol.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n많은 총알을 빠르게 흩뿌리는 쌍권총. 근위대의 특수부대 오토마톤이 사용합니다. 오토마톤과 연동하여 빠른 재장전이 가능하고 근접전 능력을 향상시켜 줍니다.</PN_TwinPistol.description>
   <PN_TwinPistol.tools.0.label>손잡이</PN_TwinPistol.tools.0.label>
   <PN_TwinPistol.tools.1.label>발차기</PN_TwinPistol.tools.1.label>
   <PN_TwinPistol.tools.2.label>근접사격</PN_TwinPistol.tools.2.label>
   <PN_Bullet_TwinPistol.label>트윈피스톨탄</PN_Bullet_TwinPistol.label>
   <PN_RoyalRifle.label>PnL 로열 라이플</PN_RoyalRifle.label>
-  <PN_RoyalRifle.description>근위대에서 사용하기 위해 PnL Industry에서 제작한 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_RoyalRifle.description>
+  <PN_RoyalRifle.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_RoyalRifle.description>
   <PN_RoyalRifle.verbs.0.label>신속 사격</PN_RoyalRifle.verbs.0.label>
   <PN_RoyalRifle.verbs.0.desc>빠르게 사격하지만 사정거리와 명중률이 낮습니다.</PN_RoyalRifle.verbs.0.desc>
   <PN_RoyalRifle.verbs.1.label>정밀 사격</PN_RoyalRifle.verbs.1.label>
@@ -165,7 +165,7 @@
   <PN_RoyalRifle.tools.1.label>총열</PN_RoyalRifle.tools.1.label>
   <PN_Bullet_RoyalRifle.label>라이플탄</PN_Bullet_RoyalRifle.label>
   <PN_RoyalLSW.label>PnL 멀티 런쳐</PN_RoyalLSW.label>
-  <PN_RoyalLSW.description>다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW.description>
+  <PN_RoyalLSW.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW.description>
   <PN_RoyalLSW.verbs.0.label>폭발</PN_RoyalLSW.verbs.0.label>
   <PN_RoyalLSW.verbs.1.label>소이</PN_RoyalLSW.verbs.1.label>
   <PN_RoyalLSW.verbs.2.label>전자기</PN_RoyalLSW.verbs.2.label>
@@ -186,12 +186,12 @@
   <PN_PsychicAmplifier.description>오토마톤용으로 개조된 정신력 증폭기입니다.\n\n사용자의 정신에 초능력을 형성하거나 업그레이드하는 초월공학제 소모품입니다.\n\n장치를 사용하면 눈을 통해 코어에 직접 접촉하여 초능력을 부여하고 사라집니다.</PN_PsychicAmplifier.description>
   <PN_PsychicAmplifier.comps.0.useLabel>정신력 증폭기 사용</PN_PsychicAmplifier.comps.0.useLabel>
   <PN_RoyalSaber_Bladelink.label>PnL 로열 세이버</PN_RoyalSaber_Bladelink.label>
-  <PN_RoyalSaber_Bladelink.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n근위대 오토마톤이 사용하는 검. 무엇이든 베는 날카로운 칼날을 가지고 있습니다. 또한 오토마톤과 연동하여 추가 화상 데미지를 입힙니다.\n이 무기에는 인식기술이 있어 한 사람만 인식할 수 있습니다. 이 지능적인 무기는 사용자를 도와 빠른 속도로 공격, 정확성 및 분석을 통해 적을 짓밟을 수 있습니다. 한번 인식하면, 다른 사람에게 사용되는 것을 거부합니다.</PN_RoyalSaber_Bladelink.description>
+  <PN_RoyalSaber_Bladelink.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대 오토마톤이 사용하는 검. 무엇이든 베는 날카로운 칼날을 가지고 있습니다. 또한 오토마톤과 연동하여 추가 화상 데미지를 입힙니다.\n이 무기에는 인식기술이 있어 한 사람만 인식할 수 있습니다. 이 지능적인 무기는 사용자를 도와 빠른 속도로 공격, 정확성 및 분석을 통해 적을 짓밟을 수 있습니다. 한번 인식하면, 다른 사람에게 사용되는 것을 거부합니다.</PN_RoyalSaber_Bladelink.description>
   <PN_RoyalSaber_Bladelink.tools.0.label>손잡이</PN_RoyalSaber_Bladelink.tools.0.label>
   <PN_RoyalSaber_Bladelink.tools.1.label>칼끝</PN_RoyalSaber_Bladelink.tools.1.label>
   <PN_RoyalSaber_Bladelink.tools.2.label>칼날</PN_RoyalSaber_Bladelink.tools.2.label>
   <PN_Chainsword_Bladelink.label>PnL 피묻은 체인 소드</PN_Chainsword_Bladelink.label>
-  <PN_Chainsword_Bladelink.description>주의 : 이 무기는 오토마톤 전용입니다.\n\n사연이 많아 보이는 체인 소드. 무슨 이유인지 평범한 체인 소드보다 뛰어난 성능을 가지고 있습니다.\n이 무기에는 인식기술이 있어 한 사람만 인식할 수 있습니다. 이 지능적인 무기는 사용자를 도와 빠른 속도로 공격, 정확성 및 분석을 통해 적을 짓밟을 수 있습니다. 한번 인식하면, 다른 사람에게 사용되는 것을 거부합니다.</PN_Chainsword_Bladelink.description>
+  <PN_Chainsword_Bladelink.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n사연이 많아 보이는 체인 소드. 무슨 이유인지 평범한 체인 소드보다 뛰어난 성능을 가지고 있습니다.\n이 무기에는 인식기술이 있어 한 사람만 인식할 수 있습니다. 이 지능적인 무기는 사용자를 도와 빠른 속도로 공격, 정확성 및 분석을 통해 적을 짓밟을 수 있습니다. 한번 인식하면, 다른 사람에게 사용되는 것을 거부합니다.</PN_Chainsword_Bladelink.description>
   <PN_Chainsword_Bladelink.tools.0.label>손잡이</PN_Chainsword_Bladelink.tools.0.label>
   <PN_Chainsword_Bladelink.tools.1.label>칼끝</PN_Chainsword_Bladelink.tools.1.label>
   <PN_Chainsword_Bladelink.tools.2.label>칼날</PN_Chainsword_Bladelink.tools.2.label>
