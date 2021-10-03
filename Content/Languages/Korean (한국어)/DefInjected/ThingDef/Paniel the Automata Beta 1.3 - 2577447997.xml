@@ -178,8 +178,8 @@
   <PN_Bullet_LSW_EMP.label>멀티런쳐 유탄</PN_Bullet_LSW_EMP.label>
   <PN_Bullet_LSW_Smoke.label>멀티런쳐 유탄</PN_Bullet_LSW_Smoke.label>
   <PN_Bullet_LSW_FF.label>멀티런쳐 유탄</PN_Bullet_LSW_FF.label>
-  <PN_PrototypeRailGun.label>PnL 시제형 레일건</PN_PrototypeRailGun.label>
-  <PN_PrototypeRailGun.description>좁은 범위에 강력한 폭발을 일으키는 실험용 레일건.</PN_PrototypeRailGun.description>
+  <PN_PrototypeRailGun.label>PnL 프로토타입 레일건</PN_PrototypeRailGun.label>
+  <PN_PrototypeRailGun.description>좁은 범위에 강력한 폭발을 일으키는 실험용 레일건.\n한 번 발사하면 고장나서 쓸 수 없습니다.</PN_PrototypeRailGun.description>
   <PN_PrototypeRailGun.tools.0.label>총열</PN_PrototypeRailGun.tools.0.label>
   <PN_Bullet_RailGun.label>시제형 레일건탄</PN_Bullet_RailGun.label>
   <PN_PsychicAmplifier.label>오토마톤 정신력 증폭기</PN_PsychicAmplifier.label>

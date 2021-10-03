@@ -1456,7 +1456,7 @@
   <ThingDef ParentName="PN_BaseGun">
     <defName>PN_PrototypeRailGun</defName>
     <label>PnL prototype rail gun</label>
-    <description>An experimental railgun that fires powerful explosions in a narrow area.</description>
+    <description>An experimental railgun that fires powerful explosions in a narrow area.\nOnce fired, it will break down and cannot be used.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <graphicData>
