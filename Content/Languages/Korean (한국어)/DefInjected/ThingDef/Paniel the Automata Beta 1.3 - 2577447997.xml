@@ -31,9 +31,9 @@
   <PN_ApparelWorker.description>공단에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelWorker.description>
   <PN_ApparelWorkerHat.label>파니엘 엔지니어 모자</PN_ApparelWorkerHat.label>
   <PN_ApparelWorkerHat.description>공단에서 오토마톤에게 씌우는 모자.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelWorkerHat.description>
-  <PN_ApparelMaid.label>파니엘 메이드 유니폼</PN_ApparelMaid.label>
+  <PN_ApparelMaid.label>파니엘 하우스키퍼 유니폼</PN_ApparelMaid.label>
   <PN_ApparelMaid.description>귀족 저택에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelMaid.description>
-  <PN_ApparelMaidHat.label>파니엘 메이드 모자</PN_ApparelMaidHat.label>
+  <PN_ApparelMaidHat.label>파니엘 하우스키퍼 모자</PN_ApparelMaidHat.label>
   <PN_ApparelMaidHat.description>귀족 저택에서 오토마톤에게 씌우는 모자.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 적당한 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelMaidHat.description>
   <PN_ApparelRoyalguard.label>파니엘 근위대 유니폼</PN_ApparelRoyalguard.label>
   <PN_ApparelRoyalguard.description>왕실 근위대에서 오토마톤에게 입히는 유니폼.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 아주 뛰어난 방어력을 제공합니다. 그러나 전투 이외의 상황에선 별다른 도움이 되지 않습니다.</PN_ApparelRoyalguard.description>
