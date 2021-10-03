@@ -68,13 +68,13 @@
   <Packaged_NormalAutomaton.description>오토마톤이 포장되어 있는 상자입니다. 어떤 등급이 나올까요?</Packaged_NormalAutomaton.description>
   <Packaged_NormalAutomaton.comps.2.useLabel>포장 해체</Packaged_NormalAutomaton.comps.2.useLabel>
   <Packaged_NormalAutomatonSoldier.label>PnL 오토마톤™ (전투형)</Packaged_NormalAutomatonSoldier.label>
-  <Packaged_NormalAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonSoldier.description>
+  <Packaged_NormalAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39%\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonSoldier.description>
   <Packaged_NormalAutomatonSoldier.comps.0.useLabel>포장 해체</Packaged_NormalAutomatonSoldier.comps.0.useLabel>
   <Packaged_NormalAutomatonWorker.label>PnL 오토마톤™ (제작형)</Packaged_NormalAutomatonWorker.label>
-  <Packaged_NormalAutomatonWorker.description>제작형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 제작형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonWorker.description>
+  <Packaged_NormalAutomatonWorker.description>제작형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 제작형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39%\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonWorker.description>
   <Packaged_NormalAutomatonWorker.comps.0.useLabel>포장 해체</Packaged_NormalAutomatonWorker.comps.0.useLabel>
   <Packaged_NormalAutomatonMaid.label>PnL 오토마톤™ (가정형)</Packaged_NormalAutomatonMaid.label>
-  <Packaged_NormalAutomatonMaid.description>가정형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 가정형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonMaid.description>
+  <Packaged_NormalAutomatonMaid.description>가정형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 가정형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39%\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonMaid.description>
   <Packaged_NormalAutomatonMaid.comps.0.useLabel>포장 해체</Packaged_NormalAutomatonMaid.comps.0.useLabel>
   <PN_Artillery_Turret.label>PnL 아틸러리 터렛</PN_Artillery_Turret.label>
   <PN_Artillery_Turret.description>PnL 인더스트리에서 디자인한 곡사포. 오토마톤 두뇌 코어를 사용하여 높은 명중률을 가지고 있습니다. 그러나 과도한 계산으로 코어가 과부화 되기 때문에 주기적으로 코어를 교체해야 합니다.</PN_Artillery_Turret.description>
