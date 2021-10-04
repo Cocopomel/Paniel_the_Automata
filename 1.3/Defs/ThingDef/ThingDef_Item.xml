@@ -58,7 +58,7 @@
   </ThingCategoryDef>
 
   <!--중추신경케이스-->
-  <ThingDef ParentName="BodyPartBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>PN_BrainEmpty</defName>
     <label>Empty case</label>
     <description>A case specially designed to contain the central nervous system.</description>
