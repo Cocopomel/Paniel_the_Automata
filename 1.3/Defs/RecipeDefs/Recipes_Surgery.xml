@@ -59,7 +59,7 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
-    <ingredients>
+    <ingredients Inherit="false">
       <li>
         <filter>
           <thingDefs>
