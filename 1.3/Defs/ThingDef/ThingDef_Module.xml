@@ -9,7 +9,7 @@
   <ThingCategoryDef>
     <defName>PNApparelModule</defName>
     <label>Automaton Module</label>
-    <parent>PNApparel</parent>
+    <parent>PN_AutomatonCatagory</parent>
   </ThingCategoryDef>
 
   <ThingDef Name="PN_ApparelModuleBase" ParentName="ApparelNoQualityBase" Abstract="True">
@@ -34,6 +34,11 @@
       </skillRequirements>
     </recipeMaker>
     <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <ignoredByNonViolent>true</ignoredByNonViolent>
+      <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
@@ -53,7 +58,7 @@
       </options>
     </colorGenerator>
     <smeltable>true</smeltable>
-    <tradeability>Buyable</tradeability>
+    <tradeability>None</tradeability>
     <tradeTags Inherit="false">
 
     </tradeTags>
