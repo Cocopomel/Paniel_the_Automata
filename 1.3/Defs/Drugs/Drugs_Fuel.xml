@@ -22,7 +22,7 @@
     <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <MarketValue>4.2</MarketValue>
+      <MarketValue>6.1</MarketValue>
       <Mass>0.05</Mass>
       <Flammability>2.0</Flammability>
       <DeteriorationRate>1.0</DeteriorationRate>

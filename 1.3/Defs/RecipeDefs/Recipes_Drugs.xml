@@ -19,7 +19,7 @@
             <li>PsychoidLeaves</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>8</count>
       </li>
       <li>
         <filter>
@@ -57,7 +57,7 @@
             <li>PsychoidLeaves</li>
           </thingDefs>
         </filter>
-        <count>16</count>
+        <count>32</count>
       </li>
       <li>
         <filter>
