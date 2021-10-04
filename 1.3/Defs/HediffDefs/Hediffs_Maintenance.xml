@@ -18,13 +18,13 @@
     <stages>
       <li>
         <label>urgent</label>
-        <minSeverity>0.10</minSeverity>
+        <minSeverity>0.1</minSeverity>
         <becomeVisible>true</becomeVisible>
-        <restFallFactor>1.4</restFallFactor>
+        <restFallFactor>1.50</restFallFactor>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.15</offset>
+            <offset>-0.20</offset>
           </li>
         </capMods>
         <statOffsets>
@@ -50,12 +50,12 @@
       </li>
       <li>
         <label>required</label>
-        <minSeverity>0.25</minSeverity>
-        <restFallFactor>1.2</restFallFactor>
+        <minSeverity>0.2</minSeverity>
+        <restFallFactor>1.25</restFallFactor>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.05</offset>
+            <offset>-0.10</offset>
           </li>
         </capMods>
         <statOffsets>
@@ -67,8 +67,7 @@
       </li>
       <li>
         <label>stable</label>
-        <minSeverity>0.75</minSeverity>
-        <restFallFactor>1.0</restFallFactor>
+        <minSeverity>0.80</minSeverity>
         <capMods>
           <!--<li>
             <capacity>Consciousness</capacity>
@@ -85,7 +84,6 @@
       <li>
         <label>flawless</label>
         <minSeverity>1</minSeverity>
-        <restFallFactor>0.8</restFallFactor>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -94,7 +92,7 @@
         </capMods>
         <statOffsets>
           <PsychicSensitivity>-0.20</PsychicSensitivity>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
           <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
