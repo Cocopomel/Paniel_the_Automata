@@ -63,7 +63,7 @@
   <ThingDef Name="PN_BaseWeapon_Bladelink" ParentName="PN_BaseWeapon" Abstract="True">
     <techLevel>Ultra</techLevel>
     <tradeNeverStack>true</tradeNeverStack>
-    <relicChance>0</relicChance>
+    <relicChance>1</relicChance>
     <weaponTags>
       <li>PN_Bladelink</li>
     </weaponTags>
@@ -77,6 +77,7 @@
       <li Class="CompProperties_BladelinkWeapon">
         <biocodeOnEquip>true</biocodeOnEquip>
       </li>
+      <li Class="CompProperties_Styleable"></li>
     </comps>
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>

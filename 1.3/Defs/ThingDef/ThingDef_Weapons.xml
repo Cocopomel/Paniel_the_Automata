@@ -917,6 +917,7 @@
     <label>PnL twin pistol</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA dual pistol that fires a lot of bullets at a close range. Used by the Royal Guard's Special Forces Automaton. In conjunction with the automaton, it enables fast reloading and gives the user high melee combat ability.</description>
     <techLevel>Spacer</techLevel>
+    <relicChance>1</relicChance>
     <graphicData>
       <texPath>Things/Weapons/PNTwinpistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -945,6 +946,9 @@
       <Plasteel>75</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+    </comps>
     <verbs>
       <li Class="TorgueAnty.Verb_Properties_ShotGun">
         <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
@@ -1018,6 +1022,7 @@
     <label>PnL royal rifle</label>
     <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
     <techLevel>Spacer</techLevel>
+    <relicChance>1</relicChance>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1050,6 +1055,7 @@
       <li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
       </li>
+      <li Class="CompProperties_Styleable"></li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
