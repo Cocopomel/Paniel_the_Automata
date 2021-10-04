@@ -28,25 +28,11 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>1.0</PsychicSensitivity>
+          <PsychicSensitivity>0.80</PsychicSensitivity>
           <MentalBreakThreshold>0.16</MentalBreakThreshold>
           <WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
           <MoveSpeed>-0.8</MoveSpeed>
         </statOffsets>
-        <mentalStateGivers>
-          <li>
-            <mentalState>WanderConfused</mentalState>
-            <mtbDays>30</mtbDays>
-          </li>
-          <li>
-            <mentalState>Wander_OwnRoom</mentalState>
-            <mtbDays>30</mtbDays>
-          </li>
-          <li>
-            <mentalState>Tantrum</mentalState>
-            <mtbDays>30</mtbDays>
-          </li>
-        </mentalStateGivers>
       </li>
       <li>
         <label>required</label>
@@ -85,10 +71,7 @@
         <label>flawless</label>
         <minSeverity>1</minSeverity>
         <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.05</offset>
-          </li>
+
         </capMods>
         <statOffsets>
           <PsychicSensitivity>-0.20</PsychicSensitivity>
@@ -112,12 +95,12 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>Maintenance urgent</label>
+        <label>Maintenance (urgent)</label>
         <description>I feel weird. I don't think my body is mine.</description>
-        <baseMoodEffect>-10</baseMoodEffect>
+        <baseMoodEffect>-15</baseMoodEffect>
       </li>
       <li>
-        <label>Maintenance required</label>
+        <label>Maintenance (required)</label>
         <description>I can't move my body well.</description>
         <baseMoodEffect>-5</baseMoodEffect>
       </li>     
@@ -125,8 +108,8 @@
         <visible>false</visible>
       </li>
       <li>
-        <label>Maintenance flawless</label>
-        <description>Feeling make again!</description>
+        <label>Maintenance (flawless)</label>
+        <description>I feel like I'm made new!</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>   
     </stages>
