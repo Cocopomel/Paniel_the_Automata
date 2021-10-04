@@ -35,7 +35,7 @@
     <label>core analysis</label>
     <description>Researching methods of extracting the central nervous system to make automata.</description>
     <tab>PN_technology</tab>
-    <baseCost>500</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PNRP_Production</li>
@@ -54,7 +54,7 @@
     <label>core casing</label>
     <description>Researching methods of long-term storage of the central nervous system.</description>
     <tab>PN_technology</tab>
-    <baseCost>500</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>PNRP_Brain</li>
