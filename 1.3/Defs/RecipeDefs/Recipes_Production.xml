@@ -4,7 +4,7 @@
   <RecipeDef>
     <defName>PN_upgrade_SelfRepairKit</defName>
     <label>upgrade automaton repair kit</label>
-    <description>...</description>
+    <description>upgrade automaton repair kit</description>
     <jobString>Upgrading automaton repair kit.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -51,7 +51,7 @@
   <RecipeDef>
     <defName>PN_Make_Leather_Automaton</defName>
     <label>make automaton skin x10</label>
-    <description>...</description>
+    <description>make automaton skin x10</description>
     <jobString>Making automaton skin.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -103,7 +103,7 @@
   <RecipeDef>
     <defName>PN_Drum_Subdivision</defName>
     <label>subdivide drum can</label>
-    <description>...</description>
+    <description>subdivide drum can</description>
     <jobString>Subdividing drum can.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -171,7 +171,7 @@
   <RecipeDef>
     <defName>PN_Disassemble_AutomatonPackage</defName>
     <label>disassemble automaton package</label>
-    <description>...</description>
+    <description>disassemble automaton package</description>
     <jobString>disassembling package.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>

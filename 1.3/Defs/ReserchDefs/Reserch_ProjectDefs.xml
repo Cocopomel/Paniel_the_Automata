@@ -14,7 +14,7 @@
   <ResearchProjectDef>
     <defName>PNRP_Production</defName>
     <label>automaton production</label>
-    <description>...</description>
+    <description>Research how to craft an automaton.</description>
     <tab>PN_technology</tab>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
@@ -33,7 +33,7 @@
   <ResearchProjectDef>
     <defName>PNRP_Brain</defName>
     <label>core analysis</label>
-    <description>...</description>
+    <description>Researching methods of extracting the central nervous system to make automata.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -52,7 +52,7 @@
   <ResearchProjectDef>
     <defName>PNRP_BrainCasing</defName>
     <label>core casing</label>
-    <description>...</description>
+    <description>Researching methods of long-term storage of the central nervous system.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Spacer</techLevel>
@@ -70,7 +70,7 @@
   <ResearchProjectDef>
     <defName>PNRP_SelfRepairKit</defName>
     <label>self repair kit</label>
-    <description>...</description>
+    <description>Research how to combine healer mech serum with repair kits.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -85,7 +85,7 @@
   <ResearchProjectDef>
     <defName>PNRP_ResurrectModule</defName>
     <label>resurrect module</label>
-    <description>...</description>
+    <description>Research how to embed the resurrector mech serum into the Automaton.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -101,7 +101,7 @@
   <ResearchProjectDef>
     <defName>PNRP_TierA_Apparel</defName>
     <label>militia apparel</label>
-    <description>...</description>
+    <description>Research how to craft a militia uniform.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -117,7 +117,7 @@
   <ResearchProjectDef>
     <defName>PNRP_TierB_Apparel</defName>
     <label>spelcialization apparel</label>
-    <description>...</description>
+    <description>Research how to make specialized uniforms.</description>
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
@@ -132,7 +132,7 @@
   <ResearchProjectDef>
     <defName>PNRP_TierC_Apparel</defName>
     <label>royal apparel</label>
-    <description>...</description>
+    <description>Research how to craft royal uniforms.</description>
     <tab>PN_technology</tab>
     <baseCost>6500</baseCost>
     <techLevel>Spacer</techLevel>
@@ -149,7 +149,7 @@
   <ResearchProjectDef>
     <defName>PNRP_AutomatonWeapons</defName>
     <label>PnL weapons</label>
-    <description>...</description>
+    <description>Research how to craft basic PnL weapons.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -164,7 +164,7 @@
   <ResearchProjectDef>
     <defName>PNRP_MachineGun</defName>
     <label>machine gun</label>
-    <description>...</description>
+    <description>Research how to craft basic PnL machine gun.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -179,7 +179,7 @@
   <ResearchProjectDef>
     <defName>PNRP_Cannon</defName>
     <label>portable cannon</label>
-    <description>...</description>
+    <description>Research how to craft basic PnL portable cannon.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -195,7 +195,7 @@
   <ResearchProjectDef>
     <defName>PNRP_AutoArtillery</defName>
     <label>PnL artillery</label>
-    <description>...</description>
+    <description>Research how to craft basic PnL artillery.</description>
     <tab>PN_technology</tab>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -209,8 +209,8 @@
 
   <ResearchProjectDef>
     <defName>PNRP_RoyalWeapons</defName>
-    <label>advanced weapons</label>
-    <description>...</description>
+    <label>Royal weapons</label>
+    <description>Research how to craft Royal PnL weapons.\n\n[caution] : Royal weapons are exclusively for Paniel.</description>
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Spacer</techLevel>

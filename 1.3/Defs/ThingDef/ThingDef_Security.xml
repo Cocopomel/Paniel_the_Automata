@@ -103,7 +103,7 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>PN_Artillery_Turret</defName>
     <label>PnL Artillery Turret</label>
-    <description>...</description>
+    <description>Howitzer designed by PnL Industries. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
     <graphicData>
       <texPath>Things/Building/PN_Artillery_Turret</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -159,7 +159,7 @@
   <ThingDef ParentName="PN_BaseArtilleryBuilding">
     <defName>PN_Artillery_Base_Core</defName>
     <label>PnL Artillery cannon</label>
-    <description>...</description>
+    <description>Howitzer designed by PnL Industries. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
     <costList>
       <PN_BrainCasing>1</PN_BrainCasing>
     </costList>

@@ -2,7 +2,7 @@
 <Defs>
   <FactionDef ParentName="FactionBase">
     <defName>PN_indistryFaction</defName>
-    <label>PnL_hidden</label>
+    <label>PnL Industry</label>
     <pawnSingular>Automaton</pawnSingular>
     <pawnsPlural>Automata</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>

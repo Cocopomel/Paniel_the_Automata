@@ -3,7 +3,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Paniel_Race</defName>
     <label>Paniel</label>
-    <description>Paniel the Automata</description>
+    <description>This pawn is automaton designed by PnL Industry.</description>
     <!--하이퍼링크
     <descriptionHyperlinks>
 			<ThingDef></ThingDef>
@@ -678,6 +678,15 @@
 
         </whiteApparelList>
         <weaponList>
+
+          <li>PN_Chainsword</li>
+          <li>PN_Chainlongsword</li>
+          <li>PN_Revolver</li>
+          <li>PN_TwinPistol</li>
+          <li>PN_RoyalRifle</li>
+          <li>PN_RoyalLSW</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalSaber_Bladelink</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_Chainsword_Bladelink</li>
 
         </weaponList>
         <buildingList>

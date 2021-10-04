@@ -39,7 +39,7 @@
     <jobString>Disasembling.</jobString>
     <soundWorking>Interact_Repair</soundWorking>
     <effectWorking>Repair</effectWorking>
-    <workAmount>500</workAmount>
+    <workAmount>2000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
@@ -54,7 +54,7 @@
     <jobString>Reparing.</jobString>
     <soundWorking>Interact_Repair</soundWorking>
     <effectWorking>Repair</effectWorking>
-    <workAmount>500</workAmount>
+    <workAmount>2000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
@@ -79,7 +79,7 @@
     <jobString>Maintenance.</jobString>
     <soundWorking>Interact_Repair</soundWorking>
     <effectWorking>Repair</effectWorking>
-    <workAmount>500</workAmount>
+    <workAmount>2000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>

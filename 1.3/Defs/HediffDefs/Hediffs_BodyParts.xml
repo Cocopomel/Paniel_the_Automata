@@ -148,7 +148,7 @@
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ExperimentalModuleHediff</defName>
     <label>Experimental Module</label>
-    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: Automatons equipped with this module will periodically mental break.</description>
+    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this module will periodically mental break.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
     </descriptionHyperlinks>
@@ -181,7 +181,7 @@
   <ThingDef ParentName="PN_BodyPartNormalBase">
     <defName>PN_ExperimentalModule</defName>
     <label>automaton experimental module</label>
-    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: Automatons equipped with this module will periodically mental break.</description>
+    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this module will periodically mental break.</description>
     <descriptionHyperlinks>
       <RecipeDef>PN_InstallExperimentalModule</RecipeDef>
     </descriptionHyperlinks>

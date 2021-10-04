@@ -96,7 +96,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Awful_Backstory</defName>
     <title>Automaton (awful)</title>
-    <titleShort>Awful</titleShort>
+    <titleShort>Automaton (awfl)</titleShort>
     <baseDescription>This automaton is made wrong. Seriously.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
@@ -120,7 +120,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Poor_Backstory</defName>
     <title>Automaton (poor)</title>
-    <titleShort>Poor</titleShort>
+    <titleShort>Automaton (poor)</titleShort>
     <baseDescription>This automaton is made wrong.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
@@ -139,7 +139,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Normal_Backstory</defName>
     <title>Automaton (normal)</title>
-    <titleShort>Normal</titleShort>
+    <titleShort>Automaton (norm)</titleShort>
     <baseDescription>It's an ordinary automaton.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
@@ -159,7 +159,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Good_Backstory</defName>
     <title>Automaton (good)</title>
-    <titleShort>Good</titleShort>
+    <titleShort>Automaton (good)</titleShort>
     <baseDescription>It's a well-made automaton.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
@@ -179,8 +179,8 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Excellent_Backstory</defName>
     <title>Automaton (excellent)</title>
-    <titleShort>Excellent</titleShort>
-    <baseDescription>It's a very well-made automaton.</baseDescription>
+    <titleShort>Automaton (exc)</titleShort>
+    <baseDescription>It's a very well-made automaton. It is mainly used by nobles.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -198,8 +198,8 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Masterwork_Backstory</defName>
     <title>Automaton (masterwork)</title>
-    <titleShort>Masterwork</titleShort>
-    <baseDescription>It's an automaton perfected by Meister. Everything works perfectly.</baseDescription>
+    <titleShort>Automaton (mast)</titleShort>
+    <baseDescription>It's an automaton perfected by Meister. Everything works perfectly. It is mainly used by nobles.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -217,8 +217,8 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Legendary_Backstory</defName>
     <title>Automaton (legendary)</title>
-    <titleShort>Legendary</titleShort>
-    <baseDescription>It's an incredibly perfect automaton. It's showing performance that goes beyond its original intentions.</baseDescription>
+    <titleShort>Automaton (legd)</titleShort>
+    <baseDescription>It's an incredibly perfect automaton. It's showing performance that goes beyond its original intentions. It is mainly used by royalty.</baseDescription>
     <slot>Childhood</slot>
     <skillGains>
 

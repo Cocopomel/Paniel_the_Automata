@@ -76,9 +76,9 @@
 
   <HediffDef>
     <defName>PN_ModuleUnstable_Industrial</defName>
-    <label>module system unstable</label>
-    <labelNoun>module overloaded</labelNoun>
-    <description>module overloaded</description>
+    <label>module system (unstable)</label>
+    <labelNoun>module system (unstable)</labelNoun>
+    <description>The module system is unstable. The module cannot be mounted until the system is stable.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
@@ -124,9 +124,9 @@
   </HediffDef>
   <HediffDef>
     <defName>PN_ModuleUnstable_Spacer</defName>
-    <label>module system unstable</label>
-    <labelNoun>module overloaded</labelNoun>
-    <description>module overloaded</description>
+    <label>module system (unstable)</label>
+    <labelNoun>module system (unstable)</labelNoun>
+    <description>The module system is unstable. The module cannot be mounted until the system is stable.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">

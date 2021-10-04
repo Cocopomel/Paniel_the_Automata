@@ -93,7 +93,7 @@
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
     <defName>PN_RoyalSaber_Bladelink</defName>
     <label>PnL royal saber</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA sword that uses the Royal Guard Automaton. It can cut anything with its sharp cutting power. It also uses the power of the automaton to inflict additional burn damage with the heated blade.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>2</Mass>
@@ -157,9 +157,9 @@
   <!--==================================== 블러디드 체인소드 ====================================-->
 
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
-    <defName>PN_PN_Chainsword_Bladelink</defName>
+    <defName>PN_Chainsword_Bladelink</defName>
     <label>PnL blooded chain sword</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA bloody chain sword that seems to have many stories. For some reason, it has a much better performance than a normal chain sword.\nThis weapon has an onboard persona that can bond to only a single person. The wielder and intelligent weapon can synchronize their reflexes and attack with frightening speed, accuracy, and creativity. Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else.</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>2</Mass>

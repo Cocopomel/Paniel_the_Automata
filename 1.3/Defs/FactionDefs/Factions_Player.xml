@@ -11,8 +11,8 @@
 
   <FactionDef ParentName="Paniel_PlayerBase">
     <defName>Paniel_testPlayerFaction</defName>
-    <label>Left Automata</label>
-    <description>...</description>
+    <label>PnL test site</label>
+    <description>This settlement is being used for PnL Industry's experiments.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>Paniel_testColonistPawn</basicMemberKind>    <!--테스트용-->
     <pawnSingular>colonist</pawnSingular>

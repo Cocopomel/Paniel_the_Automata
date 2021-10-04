@@ -234,7 +234,7 @@
   <AbilityDef>
     <defName>PN_StimPackAbility</defName>
     <label>injection stim pack</label>
-    <description>Inject a drug similar to A into the person. It is not addictive, but side effects occur when the effect is over.</description>
+    <description>Inject drugs that increase physical stat into the target. It is not addictive, but side effects occur when the effect is over.</description>
     <groupDef>PNModule_rightoff</groupDef>
     <iconPath>UI/Abilities/PNStimPack</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNStimPack</warmupMoteSocialSymbol>

@@ -4,7 +4,7 @@
   <HediffDef>
     <defName>PN_Immune_System</defName>
     <label>Automaton immune module</label>
-    <description>...</description>
+    <description>Automaton immune module</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -103,7 +103,7 @@
   <HediffDef>
     <defName>PN_OilLoss</defName>
     <label>oil loss</label>
-    <description>...</description>
+    <description>A reduction in the normal oil volume. Minor oil loss has relatively mild effects, but when oil loss becomes severe, internal device becomes badly impaired and the victim loses the ability to move. Extreme oil loss leads to explosion.</description>
     <lethalSeverity>1</lethalSeverity>
     <stages>
       <li>

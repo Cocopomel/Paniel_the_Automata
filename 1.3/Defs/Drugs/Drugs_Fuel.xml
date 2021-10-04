@@ -165,7 +165,7 @@
     <defName>PN_AutomatonFuel_Addiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>Automaton Fuel</label>
-    <description>...</description>
+    <description>A condition that requires PnL fuel.</description>
     <defaultLabelColor>(222,90,90)</defaultLabelColor>
     <causesNeed>PN_Need_Fuel</causesNeed>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -183,12 +183,10 @@
     <stages>
       <li>
       <label>stable</label>
-      <becomeVisible>false</becomeVisible>
       </li>
       <li>
         <label>required</label>
         <lifeThreatening>true</lifeThreatening>
-        <becomeVisible>false</becomeVisible>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>

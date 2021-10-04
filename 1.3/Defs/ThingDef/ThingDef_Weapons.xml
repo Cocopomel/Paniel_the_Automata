@@ -179,7 +179,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Blunt">
     <defName>PN_Shovel</defName>
     <label>PnL shovel</label>
-    <description>...</description>
+    <description>It's a small shovel. Useful for farming, mining and construction. It looks powerful even when used as a weapon.</description>
     <graphicData>
       <texPath>Things/Weapons/PNShovel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -247,7 +247,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainsword</defName>
     <label>PnL chainsword</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData>
       <texPath>Things/Weapons/PNSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -313,7 +313,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_Chainlongsword</defName>
     <label>PnL chain longsword</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData>
       <texPath>Things/Weapons/PNSwordLong</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -399,7 +399,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Revolver</defName>
     <label>PnL revolver</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA revolver similar to a shotgun that fires from six barrels at once. It can be loaded quickly by linking with the automaton.</description>
     <graphicData>
       <texPath>Things/Weapons/PNRevolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -417,7 +417,7 @@
       <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.15</AccuracyMedium>
       <AccuracyLong>0.05</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>PN_Revolver</li>
@@ -491,7 +491,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Rifle</defName>
     <label>PnL rifle</label>
-    <description>...</description>
+    <description>Lever action rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
     <graphicData>
       <texPath>Things/Weapons/PNRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -558,12 +558,12 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>36.9</range>
+        <range>30.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>quick shot</label>
+        <desc>It fires quickly, but has a low accuracy and range.</desc>
+        <label>rapid fire</label>
         <texPath>UI/Commands/Pew</texPath>
         <accuracyTouch>0.0</accuracyTouch>
         <accuracyShort>0.0</accuracyShort>
@@ -575,12 +575,12 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>2.3</warmupTime>
-        <range>44.9</range>
+        <range>36.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>accurate shot</label>
+        <desc>It fires slowly, but has a high accuracy and range.</desc>
+        <label>accurate fire</label>
         <texPath>UI/Commands/Snipe</texPath>
         <accuracyTouch>0.0</accuracyTouch>
         <accuracyShort>0.25</accuracyShort>
@@ -632,7 +632,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Machinegun</defName>
     <label>PnL machine gun</label>
-    <description>...</description>
+    <description>Machine gin produced by PnL industry.</description>
     <graphicData>
       <texPath>Things/Weapons/PNMachinegun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -748,7 +748,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon</defName>
     <label>PnL portable cannon</label>
-    <description>...</description>
+    <description>portable cannon produced by PnL industry. It can fire high-explosive and penetrating rounds.</description>
     <graphicData>
       <texPath>Things/Weapons/PNCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -819,7 +819,7 @@
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
+        <desc>Single target bullet with high penetration.</desc>
         <label>AP</label>
         <texPath>UI/Commands/AP</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -841,7 +841,7 @@
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
+        <desc>Creates a small explosion on hit.</desc>
         <label>HE</label>
         <texPath>UI/Commands/HE</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -885,7 +885,7 @@
     <projectile>
       <damageDef>PN_Bomb_Cannon</damageDef>
       <speed>100</speed>
-      <explosionRadius>2.4</explosionRadius>
+      <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
 
@@ -915,7 +915,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_TwinPistol</defName>
     <label>PnL twin pistol</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA dual pistol that fires a lot of bullets at a close range. Used by the Royal Guard's Special Forces Automaton. In conjunction with the automaton, it enables fast reloading and gives the user high melee combat ability.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNTwinpistol</texPath>
@@ -998,7 +998,7 @@
 
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_TwinPistol</defName>
-    <label>PnL rifle bullet</label>
+    <label>PnL twin pistol bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>4</damageAmountBase>
@@ -1016,7 +1016,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
     <label>PnL royal rifle</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalRifle</texPath>
@@ -1084,12 +1084,12 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
-        <range>36.9</range>
+        <range>30.9</range>
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>quick shot</label>
+        <desc>It fires quickly, but has a low accuracy and range.</desc>
+        <label>rapid fire</label>
         <texPath>UI/Commands/Pew</texPath>
         <accuracyTouch>0.0</accuracyTouch>
         <accuracyShort>0.0</accuracyShort>
@@ -1105,8 +1105,8 @@
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>...</desc>
-        <label>accurate shot</label>
+        <desc>It fires slowly, but has a high accuracy and range.</desc>
+        <label>accurate fire</label>
         <texPath>UI/Commands/Snipe</texPath>
         <accuracyTouch>0.0</accuracyTouch>
         <accuracyShort>0.25</accuracyShort>
@@ -1163,7 +1163,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
     <label>PnL multiple launcher</label>
-    <description>launcher</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalLSW</texPath>
@@ -1233,7 +1233,6 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
         <label>Frag</label>
         <texPath>UI/Commands/HE</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -1255,7 +1254,6 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
         <label>Incendiary</label>
         <texPath>UI/Commands/Flame</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -1277,7 +1275,6 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
         <label>EMP</label>
         <texPath>UI/Commands/EMP</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -1299,7 +1296,6 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
         <label>Smoke</label>
         <texPath>UI/Commands/Smoke</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -1321,7 +1317,6 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>...</desc>
         <label>Firefoam</label>
         <texPath>UI/Commands/FF</texPath>
         <accuracyTouch>0</accuracyTouch>
@@ -1461,7 +1456,7 @@
   <ThingDef ParentName="PN_BaseGun">
     <defName>PN_PrototypeRailGun</defName>
     <label>PnL prototype rail gun</label>
-    <description>...</description>
+    <description>An experimental railgun that fires powerful explosions in a narrow area.\nOnce fired, it will break down and cannot be used.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <graphicData>

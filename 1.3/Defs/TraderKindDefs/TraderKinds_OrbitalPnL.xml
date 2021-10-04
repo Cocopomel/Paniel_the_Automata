@@ -37,7 +37,11 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-        <countRange>25~75</countRange>
+        <countRange>25~50</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <countRange>50~75</countRange>
       </li>
 
       <!-- Drugs -->
@@ -57,7 +61,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_SelfRepairKit</thingDef>
-        <countRange>-2~1</countRange>
+        <countRange>0~1</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_BrainCasing</thingDef>
@@ -81,6 +85,10 @@
       <!-- Weapons -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_PrototypeRailGun</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
+        <weaponTag>PN_Bladelink</weaponTag>
         <countRange>0~1</countRange>
       </li>
 
