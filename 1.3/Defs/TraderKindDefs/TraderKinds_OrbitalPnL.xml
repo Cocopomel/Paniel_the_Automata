@@ -65,7 +65,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_BrainCasing</thingDef>
-        <countRange>3~6</countRange>
+        <countRange>6~10</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Automaton</thingDef>
@@ -73,7 +73,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ComponentRoyal</thingDef>
-        <countRange>1~3</countRange>
+        <countRange>3~9</countRange>
       </li>
 
       <li Class="StockGenerator_Category">
