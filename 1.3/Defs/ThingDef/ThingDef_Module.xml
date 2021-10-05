@@ -14,7 +14,7 @@
 
   <ThingDef Name="PN_ApparelModuleBase" ParentName="ApparelNoQualityBase" Abstract="True">
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Mass>4</Mass>
       <Flammability>0.4</Flammability>
       <EquipDelay>25</EquipDelay>
