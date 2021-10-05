@@ -20,11 +20,19 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <countRange>150~300</countRange>
+        <countRange>75~150</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
         <countRange>50~150</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hyperweave</thingDef>
+        <countRange>10~15</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <countRange>20~30</countRange>
       </li>
 
       <!-- Drugs -->
@@ -53,6 +61,10 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Automaton</thingDef>
         <countRange>20~60</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_ComponentRoyal</thingDef>
+        <countRange>2~4</countRange>
       </li>
 
       <li Class="StockGenerator_Category">
