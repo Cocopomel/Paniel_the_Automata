@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <TraderKindDef ParentName="BaseOutlanderTraderKind">
+  <!--<TraderKindDef ParentName="BaseOutlanderTraderKind">
     <defName>PN_Base_PnLindustry</defName>
     <stockGenerators>
 
-      <!-- PnL -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
         <countRange>10~15</countRange>
@@ -50,5 +49,5 @@
       </li>
 
     </stockGenerators>
-  </TraderKindDef>
+  </TraderKindDef>-->
 </Defs>

@@ -8,11 +8,11 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAttributeAdd">
+  <!--<Operation Class="PatchOperationAttributeAdd">
     <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]</xpath>
     <attribute>Name</attribute>
     <value>BaseOutlanderTraderKind</value>
-  </Operation>
+  </Operation>-->
 
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName = "OutlanderCivil"]</xpath>
@@ -20,9 +20,9 @@
       <caravanTraderKinds>
         <li>PN_Caravan_PnLindustry</li>
       </caravanTraderKinds>
-      <baseTraderKinds>
+      <!--<baseTraderKinds>
         <li>PN_Base_PnLindustry</li>
-      </baseTraderKinds>
+      </baseTraderKinds>-->
     </value>
   </Operation>
 
