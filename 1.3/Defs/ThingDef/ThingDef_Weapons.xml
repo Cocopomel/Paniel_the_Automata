@@ -937,10 +937,10 @@
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
       <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyShort>0.45</AccuracyShort>
       <AccuracyMedium>0.14</AccuracyMedium>
       <AccuracyLong>0.03</AccuracyLong>
-      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
@@ -956,7 +956,7 @@
         <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
         <warmupTime>0.35</warmupTime>
         <range>12.9</range>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <burstShotCount>7</burstShotCount>
         <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -1007,7 +1007,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>4</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
-      <armorPenetrationBase>0.09</armorPenetrationBase>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>70</speed>
     </projectile>
     <graphicData>
