@@ -274,7 +274,6 @@
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-      <AimingDelayFactor>-0.10</AimingDelayFactor>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
