@@ -412,7 +412,7 @@
     </thingSetMakerTags>
     <statBases>
       <WorkToMake>18000</WorkToMake>
-      <Mass>1.4</Mass>
+      <Mass>1.6</Mass>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.35</AccuracyShort>
       <AccuracyMedium>0.15</AccuracyMedium>
@@ -935,7 +935,7 @@
     </thingSetMakerTags>
     <statBases>
       <WorkToMake>45000</WorkToMake>
-      <Mass>4.6</Mass>
+      <Mass>3.2</Mass>
       <AccuracyTouch>0.57</AccuracyTouch>
       <AccuracyShort>0.45</AccuracyShort>
       <AccuracyMedium>0.14</AccuracyMedium>
