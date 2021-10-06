@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!--==================================== 오토캐논 ====================================-->
-  <ThingDef Name="PN_BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
+  <ThingDef ParentName="BuildingBase">
+    <defName>PN_Artillery_Base_Core</defName>
+    <label>PnL Artillery cannon</label>
+    <description>Howitzer designed by PnL Industries. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
     <!--<designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>-->
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -36,6 +39,7 @@
     <costList>
       <Steel>150</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
+      <PN_BrainCasing>1</PN_BrainCasing>
     </costList>
     <inspectorTabs>
       <li>ITab_Shells</li>
@@ -154,14 +158,5 @@
 
       </defaultStorageSettings>
     </building>
-  </ThingDef>
-
-  <ThingDef ParentName="PN_BaseArtilleryBuilding">
-    <defName>PN_Artillery_Base_Core</defName>
-    <label>PnL Artillery cannon</label>
-    <description>Howitzer designed by PnL Industries. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
-    <costList>
-      <PN_BrainCasing>1</PN_BrainCasing>
-    </costList>
   </ThingDef>
 </Defs>

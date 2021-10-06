@@ -151,6 +151,7 @@
     <thingCategories Inherit="false">
       <li>PN_BrainCoreCatagory</li>
     </thingCategories>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <statBases>
       <Mass>1</Mass>
       <WorkToMake>13000</WorkToMake>
