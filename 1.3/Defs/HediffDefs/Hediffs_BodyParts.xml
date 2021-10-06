@@ -156,7 +156,7 @@
       <li>
         <statOffsets>
           <PsychicSensitivity>1.0</PsychicSensitivity>
-          <GlobalLearningFactor>1.75</GlobalLearningFactor>
+          <GlobalLearningFactor>1.20</GlobalLearningFactor>
           <ResearchSpeed>0.9</ResearchSpeed>
           <MentalBreakThreshold>0.08</MentalBreakThreshold>
         </statOffsets>
