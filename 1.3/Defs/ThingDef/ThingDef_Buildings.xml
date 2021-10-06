@@ -36,8 +36,7 @@
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <recipes>
-      <li>PN_Make_ComponentIndustrial</li>
-      <li>Make_ComponentSpacer</li>
+
     </recipes>
     <graphicData>
       <texPath>Things/Building/PNAutomatonBench</texPath>

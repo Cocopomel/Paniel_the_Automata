@@ -134,41 +134,6 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>PN_Make_ComponentIndustrial</defName>
-    <label>make component</label>
-    <description>Make a component.</description>
-    <jobString>Making component.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>5000</workAmount>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>12</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Steel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </products>
-    <skillRequirements>
-      <Crafting>8</Crafting>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
-    <researchPrerequisite>Fabrication</researchPrerequisite>
-  </RecipeDef>
-
-  <RecipeDef>
     <defName>PN_Disassemble_AutomatonPackage</defName>
     <label>disassemble automaton package</label>
     <description>disassemble automaton package</description>
