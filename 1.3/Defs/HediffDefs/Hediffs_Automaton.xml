@@ -3,8 +3,8 @@
   <!--==================================== 면역 ====================================-->
   <HediffDef>
     <defName>PN_Immune_System</defName>
-    <label>Automaton immune module</label>
-    <description>Automaton immune module</description>
+    <label>Automaton immune system</label>
+    <description>Automaton immune system</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
@@ -51,6 +51,9 @@
         <painFactor>0</painFactor>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
         <naturalHealingFactor>0</naturalHealingFactor>
+        <statFactors>
+          <InjuryHealingFactor>0</InjuryHealingFactor>
+        </statFactors>
       </li>
     </stages>
     <comps>
