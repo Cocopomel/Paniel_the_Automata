@@ -55,7 +55,7 @@
   <ThingDef ParentName="BasePackagedAutomaton">
     <defName>Packaged_NormalAutomaton</defName>
     <label>packaged automaton</label>
-    <description>test item</description>
+    <description>It's a box packed with automaton.</description>
     <tradeability>None</tradeability>
     <statBases>
       <MarketValue>1520</MarketValue>
