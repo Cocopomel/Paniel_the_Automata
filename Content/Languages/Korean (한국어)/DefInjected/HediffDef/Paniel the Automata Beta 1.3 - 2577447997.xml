@@ -16,8 +16,8 @@
   <PN_AutomatonFuel_Addiction.description>PnL 연료를 필요로 하는 상태</PN_AutomatonFuel_Addiction.description>
   <PN_AutomatonFuel_Addiction.stages.0.label>안정됨</PN_AutomatonFuel_Addiction.stages.0.label>
   <PN_AutomatonFuel_Addiction.stages.1.label>필요함</PN_AutomatonFuel_Addiction.stages.1.label>
-  <PN_Immune_System.label>오토마톤 면역 모듈</PN_Immune_System.label>
-  <PN_Immune_System.description>오토마톤 면역 모듈</PN_Immune_System.description>
+  <PN_Immune_System.label>오토마톤 면역 시스템</PN_Immune_System.label>
+  <PN_Immune_System.description>오토마톤 면역 시스템</PN_Immune_System.description>
   <PanielBaseHediff.label>오토마톤 기본</PanielBaseHediff.label>
   <PanielBaseHediff.description>이 폰은 오토마톤입니다.</PanielBaseHediff.description>
   <PN_OilLoss.label>오일 누출</PN_OilLoss.label>
@@ -77,11 +77,11 @@
   <PN_SyncAwful_Failure.label>실패작 (끔찍)</PN_SyncAwful_Failure.label>
   <PN_SyncGood_Failure.description>이 오토마톤은 생산된 후 빈약 등급을 받았습니다.</PN_SyncGood_Failure.description>
   <PN_SyncGood_Failure.label>실패작 (빈약)</PN_SyncGood_Failure.label>
-  <PN_ExperimentalModuleHediff.label>실험 모듈</PN_ExperimentalModuleHediff.label>
-  <PN_ExperimentalModuleHediff.description>PnL 인더스트리에서 실험중인 오토마톤 모듈입니다.\n\n오토마톤을 더욱 사람같이 만들지만 정신적으로 불안정하게 된다는 부작용이 보고되었습니다.\n\n경고 : 이 모듈을 장착한 오토마톤은 주기적으로 정신 광란을 일으킵니다.</PN_ExperimentalModuleHediff.description>
-  <PN_ResurrectModule.label>부활 모듈</PN_ResurrectModule.label>
-  <PN_ResurrectModule.labelNoun>부활 모듈</PN_ResurrectModule.labelNoun>
-  <PN_ResurrectModule.description>부활 혈청을 이용한 오토마톤 모듈입니다.\n이 모듈을 장착한 오토마톤은 죽은 뒤 몇 초후에 부활합니다.</PN_ResurrectModule.description>
+  <PN_ExperimentalModuleHediff.label>실험 임플란트</PN_ExperimentalModuleHediff.label>
+  <PN_ExperimentalModuleHediff.description>PnL 인더스트리에서 실험중인 오토마톤 임플란트입니다.\n\n오토마톤을 더욱 사람같이 만들지만 정신적으로 불안정하게 된다는 부작용이 보고되었습니다.\n\n경고 : 이 임플란트를 장착한 오토마톤은 주기적으로 정신 광란을 일으킵니다.</PN_ExperimentalModuleHediff.description>
+  <PN_ResurrectModule.label>부활 임플란트</PN_ResurrectModule.label>
+  <PN_ResurrectModule.labelNoun>부활 임플란트</PN_ResurrectModule.labelNoun>
+  <PN_ResurrectModule.description>부활 혈청을 이용한 오토마톤 임플란트입니다.\n이 임플란트를 장착한 오토마톤은 죽은 뒤 몇 초후에 부활합니다.</PN_ResurrectModule.description>
   <Paniel_Joy.label>싱크로율</Paniel_Joy.label>
   <Paniel_Joy.description>재미와 연동되는 오토마톤 상태.\n\n재미 수치가 높으면 이로운 효과를 줍니다.</Paniel_Joy.description>
   <Paniel_Joy.stages.0.label>매우낮음</Paniel_Joy.stages.0.label>

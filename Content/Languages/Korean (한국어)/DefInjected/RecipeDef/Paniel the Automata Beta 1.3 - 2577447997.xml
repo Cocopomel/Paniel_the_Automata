@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PN_InstallExperimentalModule.label>실험 모듈 설치</PN_InstallExperimentalModule.label>
-  <PN_InstallExperimentalModule.description>실험 모듈 설치</PN_InstallExperimentalModule.description>
-  <PN_InstallExperimentalModule.jobString>실험 모듈 설치중.</PN_InstallExperimentalModule.jobString>
-  <PN_InstallResurrectModule.label>부활 모듈 설치</PN_InstallResurrectModule.label>
-  <PN_InstallResurrectModule.description>부활 모듈 설치</PN_InstallResurrectModule.description>
-  <PN_InstallResurrectModule.jobString>부활 모듈 설치중.</PN_InstallResurrectModule.jobString>
-  <PN_RemoveResurrectModule.label>부활 모듈 제거</PN_RemoveResurrectModule.label>
-  <PN_RemoveResurrectModule.description>부활 모듈 제거</PN_RemoveResurrectModule.description>
-  <PN_RemoveResurrectModule.jobString>부활 모듈 제거중.</PN_RemoveResurrectModule.jobString>
+  <PN_InstallExperimentalModule.label>실험 임플란트 설치</PN_InstallExperimentalModule.label>
+  <PN_InstallExperimentalModule.description>실험 임플란트 설치</PN_InstallExperimentalModule.description>
+  <PN_InstallExperimentalModule.jobString>실험 임플란트 설치중.</PN_InstallExperimentalModule.jobString>
+  <PN_InstallResurrectModule.label>부활 임플란트 설치</PN_InstallResurrectModule.label>
+  <PN_InstallResurrectModule.description>부활 임플란트 설치</PN_InstallResurrectModule.description>
+  <PN_InstallResurrectModule.jobString>부활 임플란트 설치중.</PN_InstallResurrectModule.jobString>
+  <PN_RemoveResurrectModule.label>부활 임플란트 제거</PN_RemoveResurrectModule.label>
+  <PN_RemoveResurrectModule.description>부활 임플란트 제거</PN_RemoveResurrectModule.description>
+  <PN_RemoveResurrectModule.jobString>부활 임플란트 제거중.</PN_RemoveResurrectModule.jobString>
   <PN_Make_AutomatonFuel.label>PnL 연료 만들기 x4</PN_Make_AutomatonFuel.label>
   <PN_Make_AutomatonFuel.description>PnL 연료 만들기</PN_Make_AutomatonFuel.description>
   <PN_Make_AutomatonFuel.jobString>PnL 연료 만들기</PN_Make_AutomatonFuel.jobString>

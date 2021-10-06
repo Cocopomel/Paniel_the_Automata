@@ -144,11 +144,11 @@
     </recipeUsers>
   </RecipeDef>
 
-  <!--==================================== 실험 모듈 ====================================-->
+  <!--==================================== 실험적 임플란트 ====================================-->
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ExperimentalModuleHediff</defName>
-    <label>Experimental Module</label>
-    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this module will periodically mental break.</description>
+    <label>Experimental implant</label>
+    <description>This is a implant being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this implant will periodically mental break.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
     </descriptionHyperlinks>
@@ -163,11 +163,11 @@
         <mentalStateGivers>
           <li>
             <mentalState>WanderConfused</mentalState>
-            <mtbDays>120</mtbDays>
+            <mtbDays>60</mtbDays>
           </li>
           <li>
             <mentalState>Tantrum</mentalState>
-            <mtbDays>240</mtbDays>
+            <mtbDays>120</mtbDays>
           </li>
           <li>
             <mentalState>Wander_OwnRoom</mentalState>
@@ -180,8 +180,8 @@
 
   <ThingDef ParentName="PN_BodyPartNormalBase">
     <defName>PN_ExperimentalModule</defName>
-    <label>automaton experimental module</label>
-    <description>This is a module being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this module will periodically mental break.</description>
+    <label>automaton experimental implant</label>
+    <description>This is a implant being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this implant will periodically mental break.</description>
     <descriptionHyperlinks>
       <RecipeDef>PN_InstallExperimentalModule</RecipeDef>
     </descriptionHyperlinks>
@@ -201,13 +201,13 @@
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallExperimentalModule</defName>
-    <label>install experimental module</label>
-    <description>Install a experimental module.</description>
+    <label>install experimental implant</label>
+    <description>Install a experimental implant.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
       <HediffDef>PN_ExperimentalModuleHediff</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing experimental module.</jobString>
+    <jobString>Installing experimental implant.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -226,12 +226,12 @@
     <addsHediff>PN_ExperimentalModuleHediff</addsHediff>
   </RecipeDef>
 
-  <!--==================================== 부활 모듈 ====================================-->
+  <!--==================================== 부활 임플란트 ====================================-->
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ResurrectModule</defName>
-    <label>resurrect module</label>
-    <labelNoun>a resurrect module</labelNoun>
-    <description>This is the module using resurrector mech serum.\nAn automaton equipped with this module resurrection after death in a few seconds.</description>
+    <label>resurrect implant</label>
+    <labelNoun>a resurrect implant</labelNoun>
+    <description>This is the implant using resurrector mech serum.\nAn automaton equipped with this implant resurrection after death in a few seconds.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ResurrectModule</ThingDef>
     </descriptionHyperlinks>
@@ -243,8 +243,8 @@
 
   <ThingDef ParentName="PN_BodyPartNormalBase">
     <defName>PN_ResurrectModule</defName>
-    <label>automaton resurrect module</label>
-    <description>This is the module using resurrector mech serum.\nAn automaton equipped with this module resurrection after death in a few seconds.</description>
+    <label>automaton resurrect implant</label>
+    <description>This is the implant using resurrector mech serum.\nAn automaton equipped with this implant resurrection after death in a few seconds.</description>
     <descriptionHyperlinks>
       <RecipeDef>PN_InstallResurrectModule</RecipeDef>
     </descriptionHyperlinks>
@@ -262,13 +262,13 @@
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallResurrectModule</defName>
-    <label>install resurrect module</label>
-    <description>Install a resurrect module.</description>
+    <label>install resurrect implant</label>
+    <description>Install a resurrect implant.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ResurrectModule</ThingDef>
       <HediffDef>PN_ResurrectModule</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing resurrect module.</jobString>
+    <jobString>Installing resurrect implant.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -289,13 +289,13 @@
 
   <RecipeDef ParentName="PN_SurgeryRemoveImplantBase">
     <defName>PN_RemoveResurrectModule</defName>
-    <label>remove resurrect module</label>
-    <description>Remove the resurrect module.</description>
+    <label>remove resurrect implant</label>
+    <description>Remove the resurrect implant.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ResurrectModule</ThingDef>
       <HediffDef>PN_ResurrectModule</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Removing resurrect module.</jobString>
+    <jobString>Removing resurrect implant.</jobString>
     <removesHediff>PN_ResurrectModule</removesHediff>
   </RecipeDef>
 
