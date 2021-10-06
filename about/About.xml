@@ -8,6 +8,29 @@
 	</supportedVersions>
 	<description>
 Paniel the Automata
+
+Humanoid alien race mod
+
+[Created by]
+
+Demi : Project manager, xml
+gguake : Assemblies, xml
+Euri : Pawn textures, Apparel textures
+Nemonian : Building textures, Weapon textures, Item textures
+Latki : Thumbnail
+
+[Special Thanks]
+
+erdelf : Make Humanoid Alien Races 2.0 mod.
+goudaquiche : Make MoHAR framework.
+Roo : helped a lot in making this mode.
+NukaFrog : Provides useful assemblies.
+SutSutMan : Provides useful assembly.
+ChJees : This mod inspired by Androids mod.
+Madeline, Gloomylynx, Farmradish, horsefry, Space_Engineer, SR0752.
+
+and Rimworld Korea Discord members.
+and Rimworld minor gallery members.
 	</description>
 	<modDependencies>
 		<li>
