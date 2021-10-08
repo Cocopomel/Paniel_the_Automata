@@ -73,7 +73,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ComponentRoyal</thingDef>
-        <countRange>6~12</countRange>
+        <countRange>12~16</countRange>
       </li>
 
       <li Class="StockGenerator_Category">
