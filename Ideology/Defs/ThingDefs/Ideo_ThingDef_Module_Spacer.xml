@@ -50,10 +50,6 @@
       <li Class="HediffCompProperties_GiveAbility">
         <abilityDef>PN_OfficerCommandAbility</abilityDef>
       </li>
-      <li Class="HediffCompProperties_ReactOnDamage">
-        <damageDefIncoming>EMP</damageDefIncoming>
-        <createHediff>PN_EMPShock</createHediff>
-      </li>
     </comps>
   </HediffDef>
 
@@ -105,10 +101,6 @@
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
         <abilityDef>PN_MeisterAdviceAbility</abilityDef>
-      </li>
-      <li Class="HediffCompProperties_ReactOnDamage">
-        <damageDefIncoming>EMP</damageDefIncoming>
-        <createHediff>PN_EMPShock</createHediff>
       </li>
     </comps>
   </HediffDef>
