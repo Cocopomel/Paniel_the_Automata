@@ -81,7 +81,7 @@
   <PN_Artillery_Base_Core.comps.3.fuelLabel>코어 과부하까지 남은 발사 수</PN_Artillery_Base_Core.comps.3.fuelLabel>
   <PN_Artillery_Base_Core.comps.3.fuelGizmoLabel>코어 내구도</PN_Artillery_Base_Core.comps.3.fuelGizmoLabel>
   <PN_Artillery_Base_Core.comps.3.outOfFuelMessage>사격 불가: 코어 교체 필요</PN_Artillery_Base_Core.comps.3.outOfFuelMessage>
-  <PN_Artillery_Base_Core.label>PnL 아틸러리 캐논</PN_Artillery_Base_Core.label>
+  <PN_Artillery_Base_Core.label>PnL 아틸러리</PN_Artillery_Base_Core.label>
   <PN_Artillery_Base_Core.description>PnL 인더스트리에서 디자인한 곡사포. 오토마톤 두뇌 코어를 사용하여 높은 명중률을 가지고 있습니다. 그러나 과도한 계산으로 코어가 과부화 되기 때문에 주기적으로 코어를 교체해야 합니다.</PN_Artillery_Base_Core.description>
   <PN_Shell_HE.label>PnL 확산 고폭탄</PN_Shell_HE.label>
   <PN_Shell_HE.description>착탄하면 주변에 자탄을 흩뿌리는 고폭탄. 피해를 받으면 폭발합니다.</PN_Shell_HE.description>
