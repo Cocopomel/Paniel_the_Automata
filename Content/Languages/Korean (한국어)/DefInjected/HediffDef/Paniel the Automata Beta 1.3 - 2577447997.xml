@@ -102,8 +102,8 @@
   <PN_EMPShock.label>EMP 충격</PN_EMPShock.label>
   <PN_EMPShock.labelNoun>EMP 충격</PN_EMPShock.labelNoun>
   <PN_EMPShock.description>오토마톤이 EMP에 피격된 효과.</PN_EMPShock.description>
-  <PN_TriggerHappy.label>모듈 작동 (속사)</PN_TriggerHappy.label>
-  <PN_TriggerHappy.description>속사 능력을 사용하여 생성된 상태</PN_TriggerHappy.description>
+  <PN_TriggerHappy.label>모듈 작동 (신속 사격)</PN_TriggerHappy.label>
+  <PN_TriggerHappy.description>신속 사격 능력을 사용하여 생성된 상태</PN_TriggerHappy.description>
   <PN_TriggerHappyOverload.label>모듈 과부화</PN_TriggerHappyOverload.label>
   <PN_TriggerHappyOverload.labelNoun>모듈 과부화</PN_TriggerHappyOverload.labelNoun>
   <PN_TriggerHappyOverload.description>모듈 과부화</PN_TriggerHappyOverload.description>
@@ -123,11 +123,11 @@
   <PN_MeisterAdvice.description>주변의 동료들을 격려하고 조언함으로써, 작업 능력을 향상시키는 상태.</PN_MeisterAdvice.description>
   <PN_MeisterAdviceBuff.label>마이스터의 조언</PN_MeisterAdviceBuff.label>
   <PN_MeisterAdviceBuff.description>근처에 조언을 하는 사람이 있어 작업 능력이 상승된 상태.</PN_MeisterAdviceBuff.description>
-  <PN_IntensiveMedical.label>모듈 작동 (집중치료)</PN_IntensiveMedical.label>
+  <PN_IntensiveMedical.label>모듈 작동 (집중 치료)</PN_IntensiveMedical.label>
   <PN_IntensiveMedical.description>집중 의료 능력을 사용해 생성된 상태.</PN_IntensiveMedical.description>
   <PN_ImmunityDrive.label>면역 증진</PN_ImmunityDrive.label>
   <PN_ImmunityDrive.description>면역 증진</PN_ImmunityDrive.description>
-  <PN_FieldMedic.label>모듈 작동 (야전의료)</PN_FieldMedic.label>
+  <PN_FieldMedic.label>모듈 작동 (야전 의료)</PN_FieldMedic.label>
   <PN_FieldMedic.description>야전 의료 능력을 사용해 생성된 상태.</PN_FieldMedic.description>
   <PN_StimPack.label>스팀팩 주입됨</PN_StimPack.label>
   <PN_StimPack.description>스팀팩 주입됨.</PN_StimPack.description>
