@@ -42,7 +42,12 @@
       <ThingDef>PN_TriggerHappyModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
-
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+          <AimingDelayFactor>-0.20</AimingDelayFactor>
+        </statOffsets>
+      </li>
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">

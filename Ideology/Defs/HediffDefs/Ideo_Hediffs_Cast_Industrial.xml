@@ -21,10 +21,10 @@
     <stages>
       <li>
         <statOffsets>
-          <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
         </statOffsets>
         <statFactors>
-          <AimingDelayFactor>0.60</AimingDelayFactor>
+          <AimingDelayFactor>0.70</AimingDelayFactor>
         </statFactors>
       </li>
     </stages>
