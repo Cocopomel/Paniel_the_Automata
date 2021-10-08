@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PN_InstallExperimentalModule.label>실험 임플란트 설치</PN_InstallExperimentalModule.label>
-  <PN_InstallExperimentalModule.description>실험 임플란트 설치</PN_InstallExperimentalModule.description>
-  <PN_InstallExperimentalModule.jobString>실험 임플란트 설치중.</PN_InstallExperimentalModule.jobString>
+  <PN_InstallExperimentalModule.label>커스텀 코어 임플란트 설치</PN_InstallExperimentalModule.label>
+  <PN_InstallExperimentalModule.description>커스텀 코어 임플란트 설치</PN_InstallExperimentalModule.description>
+  <PN_InstallExperimentalModule.jobString>커스텀 코어 임플란트 설치중.</PN_InstallExperimentalModule.jobString>
   <PN_InstallResurrectModule.label>부활 임플란트 설치</PN_InstallResurrectModule.label>
   <PN_InstallResurrectModule.description>부활 임플란트 설치</PN_InstallResurrectModule.description>
   <PN_InstallResurrectModule.jobString>부활 임플란트 설치중.</PN_InstallResurrectModule.jobString>

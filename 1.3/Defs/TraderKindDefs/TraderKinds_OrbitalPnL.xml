@@ -99,10 +99,6 @@
         <thingDef>PN_ResurrectModule</thingDef>
         <countRange>-9~1</countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_ExperimentalModule</thingDef>
-        <countRange>-9~1</countRange>
-      </li>
 
       <!-- Buildings -->
 

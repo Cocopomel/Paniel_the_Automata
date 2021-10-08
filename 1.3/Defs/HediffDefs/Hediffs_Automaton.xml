@@ -6,7 +6,7 @@
     <label>Automaton immune system</label>
     <description>Automaton immune system</description>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
     <scenarioCanAdd>false</scenarioCanAdd>
     <maxSeverity>1</maxSeverity>
     <initialSeverity>1</initialSeverity>
@@ -31,6 +31,35 @@
         <race>Paniel_Race</race>
       </li>
     </modExtensions>
+  </HediffDef>
+
+  <!--==================================== 학습 제한 ====================================-->
+  <HediffDef>
+    <defName>PN_Learning_Limit_System</defName>
+    <label>Automaton learning limit system</label>
+    <description>Automaton learning limit system</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <statFactors>
+          <GlobalLearningFactor>0</GlobalLearningFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+        <triggeredHediff>
+          <li>PN_Ex_filterA</li>
+        </triggeredHediff>
+      </li>
+    </comps>
   </HediffDef>
 
   <!--==================================== 오토마톤 기본 ====================================-->

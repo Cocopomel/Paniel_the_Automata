@@ -75,7 +75,7 @@
         </capMods>
         <statOffsets>
           <PsychicSensitivity>-0.20</PsychicSensitivity>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
           <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>

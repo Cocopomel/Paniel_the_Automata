@@ -723,7 +723,7 @@
       <PainShockThreshold>0.99</PainShockThreshold>
       <ToxicSensitivity>0.2</ToxicSensitivity>
       <PsychicSensitivity>0.6</PsychicSensitivity>
-      <GlobalLearningFactor>0.25</GlobalLearningFactor>
+      <GlobalLearningFactor>0.00</GlobalLearningFactor>
       <FoodPoisonChance>0.0</FoodPoisonChance>
       <MeatAmount>0</MeatAmount>
       <LeatherAmount>0</LeatherAmount>

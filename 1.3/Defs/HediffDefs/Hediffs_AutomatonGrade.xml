@@ -223,10 +223,17 @@
     <label>filter(PNgrade C norm)</label>
     <defName>PN_Give_Normal_Combat</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncNormal_Combat</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncNormal_Combat</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -241,10 +248,17 @@
     <label>filter(PNgrade C good)</label>
     <defName>PN_Give_Good_Combat</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncGood_Combat</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncGood_Combat</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -259,10 +273,17 @@
     <label>filter(PNgrade C exc)</label>
     <defName>PN_Give_Excellent_Combat</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncExcellent_Combat</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncExcellent_Combat</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -277,10 +298,17 @@
     <label>filter(PNgrade C mast)</label>
     <defName>PN_Give_Masterwork_Combat</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncMasterwork_Combat</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncMasterwork_Combat</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -321,10 +349,17 @@
     <label>filter(PNgrade C legd)</label>
     <defName>PN_Give_Legendary_Combat</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncLegendary_Combat</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncLegendary_Combat</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -367,10 +402,17 @@
     <label>filter(PNgrade E norm)</label>
     <defName>PN_Give_Normal_Engineer</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncNormal_Engineer</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncNormal_Engineer</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -385,10 +427,17 @@
     <label>filter(PNgrade E good)</label>
     <defName>PN_Give_Good_Engineer</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncGood_Engineer</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncGood_Engineer</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -403,10 +452,17 @@
     <label>filter(PNgrade E exc)</label>
     <defName>PN_Give_Excellent_Engineer</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncExcellent_Engineer</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncExcellent_Engineer</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -421,10 +477,17 @@
     <label>filter(PNgrade E mast)</label>
     <defName>PN_Give_Masterwork_Engineer</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncMasterwork_Engineer</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncMasterwork_Engineer</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -465,10 +528,17 @@
     <label>filter(PNgrade E legd)</label>
     <defName>PN_Give_Legendary_Engineer</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncLegendary_Engineer</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncLegendary_Engineer</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -511,10 +581,17 @@
     <label>filter(PNgrade D norm)</label>
     <defName>PN_Give_Normal_Domestic</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncNormal_Domestic</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncNormal_Domestic</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -529,10 +606,17 @@
     <label>filter(PNgrade D good)</label>
     <defName>PN_Give_Good_Domestic</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncGood_Domestic</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncGood_Domestic</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -547,10 +631,17 @@
     <label>filter(PNgrade D exc)</label>
     <defName>PN_Give_Excellent_Domestic</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncExcellent_Domestic</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncExcellent_Domestic</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -565,10 +656,17 @@
     <label>filter(PNgrade D mast)</label>
     <defName>PN_Give_Masterwork_Domestic</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncMasterwork_Domestic</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncMasterwork_Domestic</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -609,10 +707,17 @@
     <label>filter(PNgrade D legd)</label>
     <defName>PN_Give_Legendary_Domestic</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncLegendary_Domestic</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncLegendary_Domestic</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -665,6 +770,42 @@
   <HediffDef ParentName="PN_SyncGood_Base">
     <defName>PN_SyncGood_Testsubject</defName>
     <label>Test model (good)</label>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <PsychicSensitivity>1.0</PsychicSensitivity>
+          <ResearchSpeed>0.9</ResearchSpeed>
+          <GlobalLearningFactor>1.50</GlobalLearningFactor>
+          <MentalBreakThreshold>0.12</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--개조당함-->
+
+  <HediffDef ParentName="PN_SyncNormal_Base">
+    <defName>PN_SyncNormal_Modified</defName>
+    <label>modified model</label>
+    <description>This pawn is an automaton.\nAfter production, It has been modified in an unauthorized way.</description>
   </HediffDef>
 
   <!--꽝끔찍-->
@@ -673,10 +814,17 @@
     <label>filter(PNgrade awfl)</label>
     <defName>PN_Give_Awful_Failure</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncAwful_Failure</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncAwful_Failure</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
@@ -691,15 +839,22 @@
     <label>filter(PNgrade poor)</label>
     <defName>PN_Give_Poor_Failure</defName>
     <comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>PN_SyncGood_Failure</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+				<bodyDef>PanielBody</bodyDef>
+				<hediffAndBodypart>
+					<li>
+						<hediff>PN_SyncPoor_Failure</hediff>
+					</li>
+					<li>
+						<hediff>PN_Learning_Limit_System</hediff>
+					</li>
+				</hediffAndBodypart>
+			</li>
     </comps>
   </HediffDef>
 
   <HediffDef ParentName="PN_SyncPoor_Base">
-    <defName>PN_SyncGood_Failure</defName>
+    <defName>PN_SyncPoor_Failure</defName>
     <label>Failure (poor)</label>
   </HediffDef>
 </Defs>

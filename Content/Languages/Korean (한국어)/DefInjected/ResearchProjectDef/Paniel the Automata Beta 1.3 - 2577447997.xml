@@ -4,6 +4,8 @@
   <PNRP_Production.description>오토마톤을 제작하는 방법을 연구합니다</PNRP_Production.description>
   <PNRP_Brain.label>코어 분석</PNRP_Brain.label>
   <PNRP_Brain.description>중추 신경계를 추출하여 오토마톤을 제작하는 방법을 연구합니다.</PNRP_Brain.description>
+  <PNRP_ExperimentalModule.label>커스텀 코어 임플란트</PNRP_ExperimentalModule.label>
+  <PNRP_ExperimentalModule.description>커스텀 코어 임플란트를 만드는 방법을 연구합니다. 이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 만들지만 정신적으로 불안정하게 만듭니다.\n\n경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.</PNRP_ExperimentalModule.description>
   <PNRP_BrainCasing.label>코어 보관법</PNRP_BrainCasing.label>
   <PNRP_BrainCasing.description>중추 신경계를 장기 보관하는 방법을 연구합니다.</PNRP_BrainCasing.description>
   <PNRP_SelfRepairKit.label>자가 수리 키트</PNRP_SelfRepairKit.label>

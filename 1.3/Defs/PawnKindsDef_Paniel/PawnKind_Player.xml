@@ -81,10 +81,9 @@
 			</li>
 		</backstoryFiltersOverride>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-		<techHediffsChance>1</techHediffsChance>
-		<techHediffsMoney>4120</techHediffsMoney>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>0</techHediffsMoney>
 		<techHediffsTags>
-			<li>PN_TestsubjectHadiff</li>
 		</techHediffsTags>
 		<minGenerationAge>1</minGenerationAge>
 		<maxGenerationAge>2</maxGenerationAge>

@@ -30,6 +30,7 @@
     <alwaysHaulable>true</alwaysHaulable>
     <isTechHediff>true</isTechHediff>
     <pathCost>14</pathCost>
+    <tradeability>Buyable</tradeability>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>0.7</Flammability>
@@ -147,8 +148,13 @@
   <!--==================================== 실험적 임플란트 ====================================-->
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ExperimentalModuleHediff</defName>
-    <label>Experimental implant</label>
-    <description>This is a implant being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this implant will periodically mental break.</description>
+    <label>custom core implant</label>
+    <description>
+    Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
+
+    This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
+    
+    This implant cannot be removed after installation.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
     </descriptionHyperlinks>
@@ -156,58 +162,131 @@
       <li>
         <statOffsets>
           <PsychicSensitivity>1.0</PsychicSensitivity>
-          <GlobalLearningFactor>1.20</GlobalLearningFactor>
-          <ResearchSpeed>0.9</ResearchSpeed>
-          <MentalBreakThreshold>0.08</MentalBreakThreshold>
+          <GlobalLearningFactor>0.80</GlobalLearningFactor>
+          <MentalBreakThreshold>0.12</MentalBreakThreshold>
         </statOffsets>
-        <mentalStateGivers>
-          <li>
-            <mentalState>WanderConfused</mentalState>
-            <mtbDays>60</mtbDays>
-          </li>
-          <li>
-            <mentalState>Tantrum</mentalState>
-            <mtbDays>120</mtbDays>
-          </li>
-          <li>
-            <mentalState>Wander_OwnRoom</mentalState>
-            <mtbDays>60</mtbDays>
-          </li>
-        </mentalStateGivers>
       </li>
     </stages>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
+        <triggeredHediff>
+          <li>PN_Learning_Limit_System</li>
+        </triggeredHediff>
+      </li>
+      <li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
+        <hediffToNullify>
+          <li>PN_Learning_Limit_System</li>
+        </hediffToNullify>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PN_Ex_filterA</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>custom core filter A</label>
+    <description>This pawn is Automaton.</description>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_MultipleHediff">
+        <bodyDef>PanielBody</bodyDef>
+        <hediffAndBodypart>
+          <li>
+            <hediff>PN_Ex_filterB</hediff>
+          </li>
+          <li>
+            <hediff>PN_SyncNormal_Modified</hediff>
+          </li>
+        </hediffAndBodypart>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>PN_Ex_filterB</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>custom core filter B</label>
+    <description>This pawn is Automaton.</description>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <stages>
+
+    </stages>
+    <comps>
+      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
+        <hediffToNullify>
+          <li>PN_SyncNormal_Combat</li>
+          <li>PN_SyncGood_Combat</li>
+          <li>PN_SyncExcellent_Combat</li>
+          <li>PN_SyncMasterwork_Combat</li>
+          <li>PN_SyncLegendary_Combat</li>
+
+          <li>PN_SyncNormal_Engineer</li>
+          <li>PN_SyncGood_Engineer</li>
+          <li>PN_SyncExcellent_Engineer</li>
+          <li>PN_SyncMasterwork_Engineer</li>
+          <li>PN_SyncLegendary_Engineer</li>
+
+          <li>PN_SyncNormal_Domestic</li>
+          <li>PN_SyncGood_Domestic</li>
+          <li>PN_SyncExcellent_Domestic</li>
+          <li>PN_SyncMasterwork_Domestic</li>
+          <li>PN_SyncLegendary_Domestic</li>
+
+          <li>PN_SyncGood_Testsubject</li>
+          <li>PN_SyncAwful_Failure</li>
+          <li>PN_SyncPoor_Failure</li>
+
+          <li>PN_Learning_Limit_System</li>
+        </hediffToNullify>
+      </li>
+    </comps>
   </HediffDef>
 
   <ThingDef ParentName="PN_BodyPartNormalBase">
     <defName>PN_ExperimentalModule</defName>
-    <label>automaton experimental implant</label>
-    <description>This is a implant being tested by PnL industry.\n\nMakes the automaton behave more like a human, but makes it mentally unstable.\n\nWarning: automata equipped with this implant will periodically mental break.</description>
+    <label>automaton custom core implant</label>
+    <description>Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
+
+    This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
+    
+    This implant cannot be removed after installation.</description>
     <descriptionHyperlinks>
       <RecipeDef>PN_InstallExperimentalModule</RecipeDef>
     </descriptionHyperlinks>
+    <tradeability>None</tradeability>
     <costList>
       <ComponentIndustrial>2</ComponentIndustrial>
-      <AIPersonaCore>1</AIPersonaCore>
+      <ComponentSpacer>1</ComponentSpacer>
+      <PN_ComponentRoyal>1</PN_ComponentRoyal>
     </costList>
     <statBases>
       <Mass>0.3</Mass>
     </statBases>
-    <recipeMaker Inherit="False">
+    <recipeMaker>
+      <researchPrerequisite>PNRP_ExperimentalModule</researchPrerequisite>
     </recipeMaker>
-    <techHediffsTags>
-      <li>PN_TestsubjectHadiff</li>
-    </techHediffsTags>
   </ThingDef>
 
   <RecipeDef ParentName="PN_SurgeryInstallImplantBase">
     <defName>PN_InstallExperimentalModule</defName>
-    <label>install experimental implant</label>
-    <description>Install a experimental implant.</description>
+    <label>install custom core implant</label>
+    <description>Install a custom core implant.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
       <HediffDef>PN_ExperimentalModuleHediff</HediffDef>
     </descriptionHyperlinks>
-    <jobString>Installing experimental implant.</jobString>
+    <jobString>Installing custom core implant.</jobString>
     <ingredients>
       <li>
         <filter>

@@ -9,8 +9,8 @@
   <PN_AutomatonFuel.description>경고 : 사람에게 사용하지 마십시오.\n이 연료는 오토마톤 전용입니다.\n\n오토마톤이 사용하는 연료. 정신적 안정을 위해 대량의 사이카이트가 농축되어 있습니다.</PN_AutomatonFuel.description>
   <PN_AutomatonFuel.ingestible.ingestCommandString>{0} 마시기</PN_AutomatonFuel.ingestible.ingestCommandString>
   <PN_AutomatonFuel.ingestible.ingestReportString>{0} 마시는중.</PN_AutomatonFuel.ingestible.ingestReportString>
-  <PN_ExperimentalModule.label>오토마톤 실험 임플란트</PN_ExperimentalModule.label>
-  <PN_ExperimentalModule.description>PnL 인더스트리에 신형 오토마톤에 적용하기위해 테스트중인 임플란트.\n\n오토마톤을 보다 인간과 같이 행동하게 하지만 정신적으로 불안정해지는 현상이 보고되었습니다.\n\n경고 : 이 임플란트를 설치하면 주기적으로 정신 이상을 일으킵니다.</PN_ExperimentalModule.description>
+  <PN_ExperimentalModule.label>오토마톤 커스텀 코어 임플란트</PN_ExperimentalModule.label>
+  <PN_ExperimentalModule.description>경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.\n\n이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 만들지만 정신적으로 불안정하게 만듭니다.\n\n이 임플란트는 설치 후 제거할 수 없습니다.</PN_ExperimentalModule.description>
   <PN_ResurrectModule.label>오토마톤 부활 임플란트</PN_ResurrectModule.label>
   <PN_ResurrectModule.description>부활 혈청을 이용해 제작하는 임플란트\n오토마톤이 이 임플란트 설치하면 오토마톤이 사망 몇초 뒤 자동으로 부활합니다.</PN_ResurrectModule.description>
   <PN_ApparelBasic.label>파니엘 셔츠와 부츠</PN_ApparelBasic.label>

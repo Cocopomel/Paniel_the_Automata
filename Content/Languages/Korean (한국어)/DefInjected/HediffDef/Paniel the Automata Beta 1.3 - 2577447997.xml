@@ -18,6 +18,8 @@
   <PN_AutomatonFuel_Addiction.stages.1.label>필요함</PN_AutomatonFuel_Addiction.stages.1.label>
   <PN_Immune_System.label>오토마톤 면역 시스템</PN_Immune_System.label>
   <PN_Immune_System.description>오토마톤 면역 시스템</PN_Immune_System.description>
+  <PN_Learning_Limit_System.label>오토마톤 학습 제한 시스템</PN_Learning_Limit_System.label>
+  <PN_Learning_Limit_System.description>오토마톤 학습 제한 시스템</PN_Learning_Limit_System.description>
   <PanielBaseHediff.label>오토마톤 기본</PanielBaseHediff.label>
   <PanielBaseHediff.description>이 폰은 오토마톤입니다.</PanielBaseHediff.description>
   <PN_OilLoss.label>오일 누출</PN_OilLoss.label>
@@ -77,8 +79,10 @@
   <PN_SyncAwful_Failure.label>실패작 (끔찍)</PN_SyncAwful_Failure.label>
   <PN_SyncGood_Failure.description>이 오토마톤은 생산된 후 빈약 등급을 받았습니다.</PN_SyncGood_Failure.description>
   <PN_SyncGood_Failure.label>실패작 (빈약)</PN_SyncGood_Failure.label>
-  <PN_ExperimentalModuleHediff.label>실험 임플란트</PN_ExperimentalModuleHediff.label>
-  <PN_ExperimentalModuleHediff.description>PnL 인더스트리에서 실험중인 오토마톤 임플란트입니다.\n\n오토마톤을 더욱 사람같이 만들지만 정신적으로 불안정하게 된다는 부작용이 보고되었습니다.\n\n경고 : 이 임플란트를 장착한 오토마톤은 주기적으로 정신 광란을 일으킵니다.</PN_ExperimentalModuleHediff.description>
+  <PN_SyncNormal_Modified.description>이 오토마톤은 생산된 후 허가되지 않은 방법으로 개조되었습니다.</PN_SyncNormal_Modified.description>
+  <PN_SyncNormal_Modified.label>개조된 모델</PN_SyncNormal_Modified.label>
+  <PN_ExperimentalModuleHediff.label>커스텀 코어 임플란트</PN_ExperimentalModuleHediff.label>
+  <PN_ExperimentalModuleHediff.description>경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.\n\n이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 만들지만 정신적으로 불안정하게 만듭니다.\n\n이 임플란트는 설치 후 제거할 수 없습니다.</PN_ExperimentalModuleHediff.description>
   <PN_ResurrectModule.label>부활 임플란트</PN_ResurrectModule.label>
   <PN_ResurrectModule.labelNoun>부활 임플란트</PN_ResurrectModule.labelNoun>
   <PN_ResurrectModule.description>부활 혈청을 이용한 오토마톤 임플란트입니다.\n이 임플란트를 장착한 오토마톤은 죽은 뒤 몇 초후에 부활합니다.</PN_ResurrectModule.description>
