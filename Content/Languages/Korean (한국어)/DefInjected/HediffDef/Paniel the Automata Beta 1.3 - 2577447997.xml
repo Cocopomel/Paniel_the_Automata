@@ -82,7 +82,7 @@
   <PN_SyncNormal_Modified.description>이 오토마톤은 생산된 후 허가되지 않은 방법으로 개조되었습니다.</PN_SyncNormal_Modified.description>
   <PN_SyncNormal_Modified.label>개조된 모델</PN_SyncNormal_Modified.label>
   <PN_ExperimentalModuleHediff.label>커스텀 코어 임플란트</PN_ExperimentalModuleHediff.label>
-  <PN_ExperimentalModuleHediff.description>경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.\n\n이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 만들지만 정신적으로 불안정하게 만듭니다.\n\n이 임플란트는 설치 후 제거할 수 없습니다.</PN_ExperimentalModuleHediff.description>
+  <PN_ExperimentalModuleHediff.description>경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.\n\n이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 하지만 정신적으로 불안정하게 만듭니다.\n\n이 임플란트는 설치 후 제거할 수 없습니다.</PN_ExperimentalModuleHediff.description>
   <PN_ResurrectModule.label>부활 임플란트</PN_ResurrectModule.label>
   <PN_ResurrectModule.labelNoun>부활 임플란트</PN_ResurrectModule.labelNoun>
   <PN_ResurrectModule.description>부활 혈청을 이용한 오토마톤 임플란트입니다.\n이 임플란트를 장착한 오토마톤은 죽은 뒤 몇 초후에 부활합니다.</PN_ResurrectModule.description>
