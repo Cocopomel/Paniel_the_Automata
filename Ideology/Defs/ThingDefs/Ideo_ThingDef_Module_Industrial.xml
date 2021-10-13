@@ -8,6 +8,8 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module allows automaton to use rapid fire ability.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_TriggerHappyAbility</AbilityDef>
+      <HediffDef>PN_TriggerHappy</HediffDef>
+      <HediffDef>PN_TriggerHappyModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -63,6 +65,7 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module increases the automaton's close quarters combat stat, and allows automaton to use CQC ability.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_CQCAbility</AbilityDef>
+      <HediffDef>PN_CQC</HediffDef>
       <HediffDef>PN_CQCModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
