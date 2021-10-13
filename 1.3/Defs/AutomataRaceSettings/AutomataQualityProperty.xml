@@ -125,7 +125,6 @@
         <li>(1768,335)</li>        <!--CS 6+AI-->
         <li>(1936,187)</li>        <!--CS 7+AI-->
         <li>(2104,99)</li>        <!--CS 8+AI-->
-        <li>(2272,0)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -162,7 +161,6 @@
         <li>(1768,4023)</li>        <!--CS 6+AI-->
         <li>(1936,3221)</li>        <!--CS 7+AI-->
         <li>(2104,2455)</li>        <!--CS 8+AI-->
-        <li>(2272,0)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -199,7 +197,6 @@
         <li>(1768,4375)</li>        <!--CS 6+AI-->
         <li>(1936,4907)</li>        <!--CS 7+AI-->
         <li>(2104,5262)</li>        <!--CS 8+AI-->
-        <li>(2272,0)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -227,7 +224,6 @@
         <li>(1768,1268)</li>        <!--CS 6+AI-->
         <li>(1936,1686)</li>        <!--CS 7+AI-->
         <li>(2104,2183)</li>        <!--CS 8+AI-->
-        <li>(2272,0)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
