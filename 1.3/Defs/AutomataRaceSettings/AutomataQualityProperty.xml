@@ -88,7 +88,7 @@
         <li>(1264,942)</li>        <!--CS 6-->
         <li>(1432,503)</li>        <!--CS 7-->
         <li>(1600,246)</li>        <!--CS 8-->
-        <li>(1768,0)</li>
+        <li>(2064,0)</li>
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -122,9 +122,9 @@
         <li>(1264,5242)</li>        <!--CS 6-->
         <li>(1432,4762)</li>        <!--CS 7-->
         <li>(1600,3741)</li>        <!--CS 8-->
-        <li>(1768,335)</li>        <!--CS 6+AI-->
-        <li>(1936,187)</li>        <!--CS 7+AI-->
-        <li>(2104,99)</li>        <!--CS 8+AI-->
+        <li>(2064,335)</li>        <!--CS 6+AI-->
+        <li>(2232,187)</li>        <!--CS 7+AI-->
+        <li>(2400,99)</li>        <!--CS 8+AI-->
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -158,9 +158,9 @@
         <li>(1264,3448)</li>        <!--CS 6-->
         <li>(1432,4129)</li>        <!--CS 7-->
         <li>(1600,5062)</li>        <!--CS 8-->
-        <li>(1768,4023)</li>        <!--CS 6+AI-->
-        <li>(1936,3221)</li>        <!--CS 7+AI-->
-        <li>(2104,2455)</li>        <!--CS 8+AI-->
+        <li>(2064,4023)</li>        <!--CS 6+AI-->
+        <li>(2232,3221)</li>        <!--CS 7+AI-->
+        <li>(2400,2455)</li>        <!--CS 8+AI-->
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -194,9 +194,9 @@
         <li>(1264,368)</li>        <!--CS 6-->
         <li>(1432,606)</li>        <!--CS 7-->
         <li>(1600,951)</li>        <!--CS 8-->
-        <li>(1768,4375)</li>        <!--CS 6+AI-->
-        <li>(1936,4907)</li>        <!--CS 7+AI-->
-        <li>(2104,5262)</li>        <!--CS 8+AI-->
+        <li>(2064,4375)</li>        <!--CS 6+AI-->
+        <li>(2232,4907)</li>        <!--CS 7+AI-->
+        <li>(2400,5262)</li>        <!--CS 8+AI-->
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
@@ -221,9 +221,9 @@
     <scoreCurve>
       <points>
         <li>(1665,0)</li>
-        <li>(1768,1268)</li>        <!--CS 6+AI-->
-        <li>(1936,1686)</li>        <!--CS 7+AI-->
-        <li>(2104,2183)</li>        <!--CS 8+AI-->
+        <li>(2064,1268)</li>        <!--CS 6+AI-->
+        <li>(2232,1686)</li>        <!--CS 7+AI-->
+        <li>(2400,2183)</li>        <!--CS 8+AI-->
       </points>
     </scoreCurve>
   </AutomataRace.AutomataQualityProperty>
