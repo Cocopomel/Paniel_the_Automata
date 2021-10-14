@@ -345,7 +345,7 @@
     <stages>
       <li>
         <label>automaton banished</label>
-        <description>We just banished automaton. I hope they can meet a new master.</description>
+        <description>We just banished automaton. I hope they can meet their new master.</description>
         <baseMoodEffect>-1</baseMoodEffect>
       </li>
     </stages>
@@ -381,7 +381,7 @@
     <stages>
       <li>
         <label>automaton banished</label>
-        <description>We just banished colleague. I hope they can meet a new master.</description>
+        <description>We just banished colleague. I hope they can meet their new master.</description>
         <baseMoodEffect>-2</baseMoodEffect>
       </li>
     </stages>
