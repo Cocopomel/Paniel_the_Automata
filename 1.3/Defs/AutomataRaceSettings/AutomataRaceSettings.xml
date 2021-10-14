@@ -45,9 +45,11 @@
       </li>
       <li>
         <source>ColonistBanished</source>
+        <overwrite>PN_AutomatonBanished</overwrite>
       </li>
       <li>
         <source>ColonistBanishedToDie</source>
+        <overwrite>PN_AutomatonBanishedToDie</overwrite>
       </li>
       <li>
         <source>PrisonerBanishedToDie</source>

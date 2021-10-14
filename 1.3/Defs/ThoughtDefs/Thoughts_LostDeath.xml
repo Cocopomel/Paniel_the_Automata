@@ -331,4 +331,76 @@
       </li>
     </stages>
   </ThoughtDef>
+
+  <!--==================================== 파니엘 추방 ====================================-->
+
+  <ThoughtDef>
+    <defName>PN_AutomatonBanished</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <showBubble>true</showBubble>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>automaton banished</label>
+        <description>We just banished automaton. I hope they can meet a new master.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PN_AutomatonBanishedToDie</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <showBubble>true</showBubble>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>automaton banished to destroy</label>
+        <description>We banished automaton in such a way that there's almost no way they'll survive.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--==================================== 파니엘 추방 for 파니엘 ====================================-->
+
+  <ThoughtDef>
+    <defName>PN_AutomatonBanishedforPN</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <showBubble>true</showBubble>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>automaton banished</label>
+        <description>We just banished colleague. I hope they can meet a new master.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PN_AutomatonBanishedToDieforPN</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <showBubble>true</showBubble>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>automaton banished to destroy</label>
+        <description>We banished colleague in such a way that there's almost no way they'll survive.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

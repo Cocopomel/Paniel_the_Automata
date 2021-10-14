@@ -486,6 +486,14 @@
             <original>PN_WitnessedDestroyedAlly</original>
             <replacer>PN_WitnessedDestroyedAllyforPN</replacer>
           </li>
+          <li>
+            <original>PN_AutomatonBanished</original>
+            <replacer>PN_AutomatonBanishedforPN</replacer>
+          </li>
+          <li>
+            <original>PN_AutomatonBanishedToDie</original>
+            <replacer>PN_AutomatonBanishedToDieforPN</replacer>
+          </li>
 
           <!--이데올로기-->
           <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -517,6 +525,7 @@
           <li>ObservedLayingCorpse</li>
           <li>ObservedLayingRottingCorpse</li>
           <li>DeniedJoining</li>
+          <li>PrisonerBanishedToDie</li>
           <!--memory roomstat-->
           <li>SleptInBarracks</li>
           <!--memory social-->
