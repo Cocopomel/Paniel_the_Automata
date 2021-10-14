@@ -153,6 +153,7 @@
         <immuneToXenophobia>true</immuneToXenophobia>
         <alienPartGenerator>
           <atlasScale>4</atlasScale>
+          <borderScale>1</borderScale>
           <aliencrowntypes>
             <!--<li>PNHead1</li>
             <li>PNHead2</li>
