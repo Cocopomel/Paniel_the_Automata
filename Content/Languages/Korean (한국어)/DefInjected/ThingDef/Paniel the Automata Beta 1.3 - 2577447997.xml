@@ -12,7 +12,7 @@
   <PN_ExperimentalModule.label>오토마톤 커스텀 코어 임플란트</PN_ExperimentalModule.label>
   <PN_ExperimentalModule.description>경고 : 이 임플란트는 PnL에서 인증되지 않은 임플란트입니다. 설치하면 오토마톤의 성능이 저하됩니다.\n\n이 임플란트는 오토마톤을 사람처럼 학습할 수 있게 하지만 정신적으로 불안정하게 만듭니다.\n\n이 임플란트는 설치 후 제거할 수 없습니다.</PN_ExperimentalModule.description>
   <PN_ResurrectModule.label>오토마톤 부활 임플란트</PN_ResurrectModule.label>
-  <PN_ResurrectModule.description>부활 혈청을 이용해 제작하는 임플란트\n오토마톤이 이 임플란트 설치하면 오토마톤이 사망 몇초 뒤 자동으로 부활합니다.</PN_ResurrectModule.description>
+  <PN_ResurrectModule.description>부활 혈청을 이용해 제작하는 임플란트\n오토마톤에 이 임플란트를 설치하면 파괴된 뒤 스스로 부활합니다.</PN_ResurrectModule.description>
   <PN_ApparelBasic.label>파니엘 셔츠와 부츠</PN_ApparelBasic.label>
   <PN_ApparelBasic.description>기본적인 파니엘 의상. 셔츠와 부츠로 이루어져 있습니다.</PN_ApparelBasic.description>
   <PN_ApparelBasicHat.label>파니엘 모자</PN_ApparelBasicHat.label>
