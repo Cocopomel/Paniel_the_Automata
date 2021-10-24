@@ -18,6 +18,10 @@
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Item/PNAutomatonbox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
@@ -60,10 +64,6 @@
     <statBases>
       <MarketValue>1520</MarketValue>
     </statBases>
-    <graphicData>
-      <texPath>Things/Item/Special/AIPersonaCore</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <comps>
       <li>
         <compClass>CompQuality</compClass>
@@ -92,10 +92,6 @@
     <statBases>
 
     </statBases>
-    <graphicData>
-      <texPath>Things/Item/Special/AIPersonaCore</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
@@ -139,10 +135,6 @@
     <statBases>
 
     </statBases>
-    <graphicData>
-      <texPath>Things/Item/Special/AIPersonaCore</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
@@ -186,10 +178,6 @@
     <statBases>
 
     </statBases>
-    <graphicData>
-      <texPath>Things/Item/Special/AIPersonaCore</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
