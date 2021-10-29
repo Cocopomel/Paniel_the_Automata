@@ -884,44 +884,7 @@
       <li>PN_Give_Legendary_Domestic</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
-
-  <!--테스트-->
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
-    <defName>Paniel_test_Backstory</defName>
-    <title>Automaton Meister test</title>
-    <titleShort>Meister</titleShort>
-    <baseDescription>backstory</baseDescription>
-    <slot>Adulthood</slot>
-    <skillGains>
-      <li>
-        <defName>Shooting</defName>
-        <amount>15</amount>
-      </li>
-      <li>
-        <defName>Construction</defName>
-        <amount>18</amount>
-      </li>
-      <li>
-        <defName>Mining</defName>
-        <amount>18</amount>
-      </li>
-      <li>
-        <defName>Crafting</defName>
-        <amount>20</amount>
-      </li>
-      <li>
-        <defName>Intellectual</defName>
-        <amount>5</amount>
-      </li>
-    </skillGains>
-    <spawnCategories>
-      <li>Paniel_Story_testStart</li>
-    </spawnCategories>
-    <forcedHediffs>
-      <li>PN_Give_Legendary_Engineer</li>
-    </forcedHediffs>
-  </AlienRace.BackstoryDef>
-
+  
   <!--==================================== 실험체 ====================================-->
 
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">

@@ -14,7 +14,7 @@
 
   <!--==================================== 난사광 모듈 ====================================-->
   <HediffDef ParentName="RoleStatBuff">
-    <defName>PN_TriggerHappy</defName>
+    <defName>PN_RapidFire</defName>
     <label>module active (rapid fire)</label>
     <description>The hediff created by activating rapid fire ability.</description>
     <hediffClass>HediffWithComps</hediffClass>
@@ -35,7 +35,7 @@
       <li Class="HediffCompProperties_DisappearsOnDeath"/>
       <li Class="MoharHediffs.HediffCompProperties_PostRemoveTrigger_HediffAdd">
         <triggeredHediff>
-          <li>PN_TriggerHappyOverload</li>
+          <li>PN_RapidFireOverload</li>
         </triggeredHediff>
       </li>
     </comps>
@@ -43,7 +43,7 @@
   </HediffDef>
 
   <HediffDef>
-    <defName>PN_TriggerHappyOverload</defName>
+    <defName>PN_RapidFireOverload</defName>
     <label>module overloaded</label>
     <labelNoun>module overloaded</labelNoun>
     <description>module overloaded</description>

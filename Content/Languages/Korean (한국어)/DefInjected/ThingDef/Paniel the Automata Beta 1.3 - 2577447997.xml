@@ -195,22 +195,22 @@
   <PN_Chainsword_Bladelink.tools.0.label>손잡이</PN_Chainsword_Bladelink.tools.0.label>
   <PN_Chainsword_Bladelink.tools.1.label>칼끝</PN_Chainsword_Bladelink.tools.1.label>
   <PN_Chainsword_Bladelink.tools.2.label>칼날</PN_Chainsword_Bladelink.tools.2.label>
-  <PN_TriggerHappyModule.label>신속 사격 모듈</PN_TriggerHappyModule.label>
-  <PN_TriggerHappyModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n전투 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 신속 사격 능력을 사용할 수 있습니다.</PN_TriggerHappyModule.description>
+  <PN_RapidFireModule.label>신속 사격 모듈</PN_RapidFireModule.label>
+  <PN_RapidFireModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n전투 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 신속 사격 능력을 사용할 수 있습니다.</PN_RapidFireModule.description>
   <PN_CQCModule.label>근접전 모듈</PN_CQCModule.label>
   <PN_CQCModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n전투 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 근접전 모드 능력을 사용할 수 있습니다.</PN_CQCModule.description>
-  <PN_MinerModule.label>채굴 모듈</PN_MinerModule.label>
-  <PN_MinerModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 채굴 능력이 향상됩니다.</PN_MinerModule.description>
-  <PN_ArchitectModule.label>건축 모듈</PN_ArchitectModule.label>
-  <PN_ArchitectModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 건설 능력이 향상됩니다.</PN_ArchitectModule.description>
-  <PN_SkilledWorkerModule.label>제작 모듈</PN_SkilledWorkerModule.label>
-  <PN_SkilledWorkerModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 제작 능력이 향상됩니다.</PN_SkilledWorkerModule.description>
-  <PN_FarmerModule.label>농업 모듈</PN_FarmerModule.label>
-  <PN_FarmerModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 농업 능력이 향상됩니다.</PN_FarmerModule.description>
-  <PN_ChefModule.label>요리 모듈</PN_ChefModule.label>
-  <PN_ChefModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 요리 능력이 향상됩니다.</PN_ChefModule.description>
-  <PN_NurseModule.label>간호 모듈</PN_NurseModule.label>
-  <PN_NurseModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 간호 능력이 향상됩니다.</PN_NurseModule.description>
+  <PN_MiningModule.label>채굴 모듈</PN_MiningModule.label>
+  <PN_MiningModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 채굴 능력이 향상됩니다.</PN_MiningModule.description>
+  <PN_ConstructionModule.label>건축 모듈</PN_ConstructionModule.label>
+  <PN_ConstructionModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 건설 능력이 향상됩니다.</PN_ConstructionModule.description>
+  <PN_CraftingModule.label>제작 모듈</PN_CraftingModule.label>
+  <PN_CraftingModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n제작 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 제작 능력이 향상됩니다.</PN_CraftingModule.description>
+  <PN_PlantsModule.label>농업 모듈</PN_PlantsModule.label>
+  <PN_PlantsModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 농업 능력이 향상됩니다.</PN_PlantsModule.description>
+  <PN_CookingModule.label>요리 모듈</PN_CookingModule.label>
+  <PN_CookingModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 요리 능력이 향상됩니다.</PN_CookingModule.description>
+  <PN_NursingModule.label>간호 모듈</PN_NursingModule.label>
+  <PN_NursingModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n가정 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 간호 능력이 향상됩니다.</PN_NursingModule.description>
   <PN_OfficerModule.label>장교 모듈</PN_OfficerModule.label>
   <PN_OfficerModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n전투 모델 (전설)\n\n이 모듈을 착용하면 장교 지휘 능력을 사용할 수 있습니다.</PN_OfficerModule.description>
   <PN_MeisterModule.label>마이스터 모듈</PN_MeisterModule.label>

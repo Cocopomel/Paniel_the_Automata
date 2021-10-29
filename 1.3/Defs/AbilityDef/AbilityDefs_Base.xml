@@ -93,7 +93,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedical</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedic</li>
 
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappy</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_RapidFire</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQC</li>
         </hediffToNullify>
         <showMessage>false</showMessage>
@@ -141,7 +141,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedical</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedic</li>
 
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappy</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_RapidFire</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQC</li>
         </hediffToNullify>
         <showMessage>false</showMessage>

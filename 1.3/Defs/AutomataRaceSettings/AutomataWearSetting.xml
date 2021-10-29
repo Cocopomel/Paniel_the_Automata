@@ -97,7 +97,7 @@
       <!--난사광 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_TriggerHappyModule</li>
+          <li>PN_RapidFireModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -145,7 +145,7 @@
       <!--광부 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_MinerModule</li>
+          <li>PN_MiningModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -169,7 +169,7 @@
       <!--건축 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_ArchitectModule</li>
+          <li>PN_ConstructionModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -193,7 +193,7 @@
       <!--제작 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_SkilledWorkerModule</li>
+          <li>PN_CraftingModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -217,7 +217,7 @@
       <!--농부 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_FarmerModule</li>
+          <li>PN_PlantsModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -241,7 +241,7 @@
       <!--셰프 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_ChefModule</li>
+          <li>PN_CookingModule</li>
         </wearList>
         <condition>
           <orHediffDef>
@@ -265,7 +265,7 @@
       <!--간호 모듈-->
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <wearList>
-          <li>PN_NurseModule</li>
+          <li>PN_NursingModule</li>
         </wearList>
         <condition>
           <orHediffDef>

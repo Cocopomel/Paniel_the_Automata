@@ -102,11 +102,11 @@
   <PN_EMPShock.label>EMP 충격</PN_EMPShock.label>
   <PN_EMPShock.labelNoun>EMP 충격</PN_EMPShock.labelNoun>
   <PN_EMPShock.description>오토마톤이 EMP에 피격된 효과.</PN_EMPShock.description>
-  <PN_TriggerHappy.label>모듈 작동 (신속 사격)</PN_TriggerHappy.label>
-  <PN_TriggerHappy.description>신속 사격 능력을 사용하여 생성된 상태</PN_TriggerHappy.description>
-  <PN_TriggerHappyOverload.label>모듈 과부화</PN_TriggerHappyOverload.label>
-  <PN_TriggerHappyOverload.labelNoun>모듈 과부화</PN_TriggerHappyOverload.labelNoun>
-  <PN_TriggerHappyOverload.description>모듈 과부화</PN_TriggerHappyOverload.description>
+  <PN_RapidFire.label>모듈 작동 (신속 사격)</PN_RapidFire.label>
+  <PN_RapidFire.description>신속 사격 능력을 사용하여 생성된 상태</PN_RapidFire.description>
+  <PN_RapidFireOverload.label>모듈 과부화</PN_RapidFireOverload.label>
+  <PN_RapidFireOverload.labelNoun>모듈 과부화</PN_RapidFireOverload.labelNoun>
+  <PN_RapidFireOverload.description>모듈 과부화</PN_RapidFireOverload.description>
   <PN_CQC.label>모듈 작동 (근접전)</PN_CQC.label>
   <PN_CQC.description>근접전 능력을 사용하여 생성된 상태</PN_CQC.description>
   <PN_CQCOverload.label>모듈 과부화</PN_CQCOverload.label>
@@ -137,22 +137,22 @@
   <PN_StimPackSideEffect.stages.0.label>극심함</PN_StimPackSideEffect.stages.0.label>
   <PN_StimPackSideEffect.stages.1.label>진행중</PN_StimPackSideEffect.stages.1.label>
   <PN_StimPackSideEffect.stages.2.label>사소함</PN_StimPackSideEffect.stages.2.label>
-  <PN_TriggerHappyModuleHediff.label>신속 사격 모듈</PN_TriggerHappyModuleHediff.label>
-  <PN_TriggerHappyModuleHediff.description>신속 사격 모듈을 착용해 생성된 상태.</PN_TriggerHappyModuleHediff.description>
+  <PN_RapidFireModuleHediff.label>신속 사격 모듈</PN_RapidFireModuleHediff.label>
+  <PN_RapidFireModuleHediff.description>신속 사격 모듈을 착용해 생성된 상태.</PN_RapidFireModuleHediff.description>
   <PN_CQCModuleHediff.label>근접전 모듈</PN_CQCModuleHediff.label>
   <PN_CQCModuleHediff.description>근접전 모듈을 착용해 생성된 상태.</PN_CQCModuleHediff.description>
-  <PN_MinerModuleHediff.label>채굴 모듈</PN_MinerModuleHediff.label>
-  <PN_MinerModuleHediff.description>채굴 모듈을 착용해 생성된 상태.</PN_MinerModuleHediff.description>
-  <PN_ArchitectModuleHediff.label>건축 모듈</PN_ArchitectModuleHediff.label>
-  <PN_ArchitectModuleHediff.description>건축 모듈을 착용해 생성된 상태.</PN_ArchitectModuleHediff.description>
-  <PN_SkilledWorkerModuleHediff.label>제작 모듈</PN_SkilledWorkerModuleHediff.label>
-  <PN_SkilledWorkerModuleHediff.description>제작 모듈을 착용해 생성된 상태.</PN_SkilledWorkerModuleHediff.description>
-  <PN_FarmerModuleHediff.label>농업 모듈</PN_FarmerModuleHediff.label>
-  <PN_FarmerModuleHediff.description>농업 모듈을 착용해 생성된 상태.</PN_FarmerModuleHediff.description>
-  <PN_ChefModuleHediff.label>요리 모듈</PN_ChefModuleHediff.label>
-  <PN_ChefModuleHediff.description>요리 모듈을 착용해 생성된 상태.</PN_ChefModuleHediff.description>
-  <PN_NurseModuleHediff.label>간호 모듈</PN_NurseModuleHediff.label>
-  <PN_NurseModuleHediff.description>간호 모듈을 착용해 생성된 상태.</PN_NurseModuleHediff.description>
+  <PN_MiningModuleHediff.label>채굴 모듈</PN_MiningModuleHediff.label>
+  <PN_MiningModuleHediff.description>채굴 모듈을 착용해 생성된 상태.</PN_MiningModuleHediff.description>
+  <PN_ConstructionModuleHediff.label>건축 모듈</PN_ConstructionModuleHediff.label>
+  <PN_ConstructionModuleHediff.description>건축 모듈을 착용해 생성된 상태.</PN_ConstructionModuleHediff.description>
+  <PN_CraftingModuleHediff.label>제작 모듈</PN_CraftingModuleHediff.label>
+  <PN_CraftingModuleHediff.description>제작 모듈을 착용해 생성된 상태.</PN_CraftingModuleHediff.description>
+  <PN_PlantsModuleHediff.label>농업 모듈</PN_PlantsModuleHediff.label>
+  <PN_PlantsModuleHediff.description>농업 모듈을 착용해 생성된 상태.</PN_PlantsModuleHediff.description>
+  <PN_CookingModuleHediff.label>요리 모듈</PN_CookingModuleHediff.label>
+  <PN_CookingModuleHediff.description>요리 모듈을 착용해 생성된 상태.</PN_CookingModuleHediff.description>
+  <PN_NursingModuleHediff.label>간호 모듈</PN_NursingModuleHediff.label>
+  <PN_NursingModuleHediff.description>간호 모듈을 착용해 생성된 상태.</PN_NursingModuleHediff.description>
   <PN_OfficerModuleHediff.label>장교 모듈</PN_OfficerModuleHediff.label>
   <PN_OfficerModuleHediff.description>장교 모듈을 착용해 생성된 상태.</PN_OfficerModuleHediff.description>
   <PN_MeisterModuleHediff.label>마이스터 모듈</PN_MeisterModuleHediff.label>

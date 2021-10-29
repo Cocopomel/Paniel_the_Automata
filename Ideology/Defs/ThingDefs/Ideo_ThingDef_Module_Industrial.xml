@@ -3,13 +3,13 @@
 
   <!--==================================== 난사광 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_TriggerHappyModule</defName>
+    <defName>PN_RapidFireModule</defName>
     <label>rapid fire module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module allows automaton to use rapid fire ability.</description>
     <descriptionHyperlinks>
-      <AbilityDef>PN_TriggerHappyAbility</AbilityDef>
-      <HediffDef>PN_TriggerHappy</HediffDef>
-      <HediffDef>PN_TriggerHappyModuleHediff</HediffDef>
+      <AbilityDef>PN_RapidFireAbility</AbilityDef>
+      <HediffDef>PN_RapidFire</HediffDef>
+      <HediffDef>PN_RapidFireModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -30,18 +30,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_TriggerHappyModuleHediff</hediff>
+        <hediff>PN_RapidFireModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_TriggerHappyModuleHediff</defName>
+    <defName>PN_RapidFireModuleHediff</defName>
     <label>rapid fire module</label>
     <description>The hediff created by installing rapid fire module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_TriggerHappyModule</ThingDef>
+      <ThingDef>PN_RapidFireModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -53,7 +53,7 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_GiveAbility">
-        <abilityDef>PN_TriggerHappyAbility</abilityDef>
+        <abilityDef>PN_RapidFireAbility</abilityDef>
       </li>
     </comps>
   </HediffDef>
@@ -118,11 +118,11 @@
 
   <!--==================================== 채굴 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_MinerModule</defName>
+    <defName>PN_MiningModule</defName>
     <label>mining module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nEngineer model (legd), (mast), (exc)\n\nThis module increases the automaton's miner speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_MinerModuleHediff</HediffDef>
+      <HediffDef>PN_MiningModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -143,18 +143,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_MinerModuleHediff</hediff>
+        <hediff>PN_MiningModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_MinerModuleHediff</defName>
+    <defName>PN_MiningModuleHediff</defName>
     <label>mining module</label>
     <description>The hediff created by installing mining module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_MinerModule</ThingDef>
+      <ThingDef>PN_MiningModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -174,11 +174,11 @@
 
   <!--==================================== 건설 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_ArchitectModule</defName>
+    <defName>PN_ConstructionModule</defName>
     <label>construction module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nEngineer model (legd), (mast), (exc)\n\nThis module increases the automaton's construction speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_ArchitectModuleHediff</HediffDef>
+      <HediffDef>PN_ConstructionModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -199,18 +199,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_ArchitectModuleHediff</hediff>
+        <hediff>PN_ConstructionModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_ArchitectModuleHediff</defName>
+    <defName>PN_ConstructionModuleHediff</defName>
     <label>construction module</label>
     <description>The hediff created by installing construction module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_ArchitectModule</ThingDef>
+      <ThingDef>PN_ConstructionModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -230,11 +230,11 @@
 
   <!--==================================== 제작 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_SkilledWorkerModule</defName>
+    <defName>PN_CraftingModule</defName>
     <label>crafting module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nEngineer model (legd), (mast), (exc)\n\nThis module increases the automaton's general labor speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_SkilledWorkerModuleHediff</HediffDef>
+      <HediffDef>PN_CraftingModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -255,18 +255,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_SkilledWorkerModuleHediff</hediff>
+        <hediff>PN_CraftingModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_SkilledWorkerModuleHediff</defName>
+    <defName>PN_CraftingModuleHediff</defName>
     <label>crafting module</label>
     <description>The hediff created by installing crafting module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_SkilledWorkerModule</ThingDef>
+      <ThingDef>PN_CraftingModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -286,11 +286,11 @@
 
   <!--==================================== 농부 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_FarmerModule</defName>
+    <defName>PN_PlantsModule</defName>
     <label>plants module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd), (mast), (exc)\n\nThis module increases the automaton's plant work speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_FarmerModuleHediff</HediffDef>
+      <HediffDef>PN_PlantsModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -311,18 +311,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_FarmerModuleHediff</hediff>
+        <hediff>PN_PlantsModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_FarmerModuleHediff</defName>
+    <defName>PN_PlantsModuleHediff</defName>
     <label>plants module</label>
     <description>The hediff created by installing plants module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_FarmerModule</ThingDef>
+      <ThingDef>PN_PlantsModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -342,11 +342,11 @@
 
   <!--==================================== 셰프 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_ChefModule</defName>
+    <defName>PN_CookingModule</defName>
     <label>cooking module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd), (mast), (exc)\n\nThis module increases the automaton's cooking speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_ChefModuleHediff</HediffDef>
+      <HediffDef>PN_CookingModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -367,18 +367,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_ChefModuleHediff</hediff>
+        <hediff>PN_CookingModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_ChefModuleHediff</defName>
+    <defName>PN_CookingModuleHediff</defName>
     <label>cooking module</label>
     <description>The hediff created by installing cooking module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_ChefModule</ThingDef>
+      <ThingDef>PN_CookingModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>
@@ -398,11 +398,11 @@
 
   <!--==================================== 간호 모듈 ====================================-->
   <ThingDef ParentName="PN_ApparelModuleIndustrial">
-    <defName>PN_NurseModule</defName>
+    <defName>PN_NursingModule</defName>
     <label>nursing module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd), (mast), (exc)\n\nThis module increases the automaton's medical speed stat.</description>
     <descriptionHyperlinks>
-      <HediffDef>PN_NurseModuleHediff</HediffDef>
+      <HediffDef>PN_NursingModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
       <Steel>45</Steel>
@@ -423,18 +423,18 @@
     </apparel>
     <comps>
       <li Class="CompProperties_CauseHediff_Apparel">
-        <hediff>PN_NurseModuleHediff</hediff>
+        <hediff>PN_NursingModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
     </comps>
   </ThingDef>
 
   <HediffDef ParentName="PN_ApparelIndustrialModuleHediffBase">
-    <defName>PN_NurseModuleHediff</defName>
+    <defName>PN_NursingModuleHediff</defName>
     <label>nursing module</label>
     <description>The hediff created by installing nursing module.</description>
     <descriptionHyperlinks>
-      <ThingDef>PN_NurseModule</ThingDef>
+      <ThingDef>PN_NursingModule</ThingDef>
     </descriptionHyperlinks>
     <stages>
       <li>

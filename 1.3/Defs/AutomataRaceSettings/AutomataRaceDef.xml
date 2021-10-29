@@ -449,15 +449,6 @@
       </styleSettings>
       <thoughtSettings>
         <replacerList>
-          <!--연료-->
-          <li>
-            <original>PN_Ateplusfuel_nopn</original>
-            <replacer>PN_Ateplusfuel_yespn</replacer>
-          </li>
-          <li>
-            <original>PN_Atepremiumfuel_nopn</original>
-            <replacer>PN_Atepremiumfuel_yespn</replacer>
-          </li>
           <!--오토마톤사망실종-->
           <li>
             <original>PN_KnowColonyAutomatonDied</original>
@@ -659,14 +650,14 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
 
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_TriggerHappyModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_RapidFireModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CQCModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MinerModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ArchitectModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_SkilledWorkerModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_FarmerModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ChefModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NurseModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MiningModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_ConstructionModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_CraftingModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_PlantsModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_CookingModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NursingModule</li>
 
         </apparelList>
         <whiteApparelList>

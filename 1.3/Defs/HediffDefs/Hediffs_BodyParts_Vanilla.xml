@@ -94,37 +94,4 @@
     </appliedOnFixedBodyParts>
     <addsHediff>ArchotechLeg</addsHediff>
   </RecipeDef>-->
-
-  <!--==================================== 일반 ====================================-->
-
-  <!-- Joywire -->
-  <!--<RecipeDef ParentName="PN_SurgeryInstallImplantBase">
-    <defName>InstallJoywire</defName>
-    <label>install joywire</label>
-    <description>Install a joywire.</description>
-    <descriptionHyperlinks>
-      <ThingDef>Joywire</ThingDef>
-      <HediffDef>Joywire</HediffDef>
-    </descriptionHyperlinks>
-    <jobString>Installing joywire.</jobString>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Joywire</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Joywire</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>PNBrain</li>
-    </appliedOnFixedBodyParts>
-    <addsHediff>Joywire</addsHediff>
-  </RecipeDef>-->
 </Defs>

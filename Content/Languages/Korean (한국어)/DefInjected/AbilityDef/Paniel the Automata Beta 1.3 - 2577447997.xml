@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PN_TriggerHappyAbility.label>신속 사격</PN_TriggerHappyAbility.label>
-  <PN_TriggerHappyAbility.description>이 능력을 사용하면 신속하게 사격할 수 있습니다. 그러나 명중률이 낮아집니다.</PN_TriggerHappyAbility.description>
+  <PN_RapidFireAbility.label>신속 사격</PN_RapidFireAbility.label>
+  <PN_RapidFireAbility.description>이 능력을 사용하면 신속하게 사격할 수 있습니다. 그러나 명중률이 낮아집니다.</PN_RapidFireAbility.description>
   <PN_CQCAbility.label>근접전 모드</PN_CQCAbility.label>
   <PN_CQCAbility.description>이 능력을 사용하면 근접전 능력이 향상됩니다. 그러나 명중률이 낮아집니다.</PN_CQCAbility.description>
   <PN_OfficerCommandAbility.label>장교 지휘</PN_OfficerCommandAbility.label>

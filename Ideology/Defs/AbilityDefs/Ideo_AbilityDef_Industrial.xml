@@ -7,7 +7,7 @@
 
   <!--==================================== 난사광 모듈 ====================================-->
   <AbilityDef>
-    <defName>PN_TriggerHappyAbility</defName>
+    <defName>PN_RapidFireAbility</defName>
     <label>rapid fire</label>
     <description>This ability allows users to shoot quickly, but lowers the shooting accuracy.</description>
     <jobDef>CastAbilityOnThing</jobDef>
@@ -44,7 +44,7 @@
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
-        <hediffDef>PN_TriggerHappy</hediffDef>
+        <hediffDef>PN_RapidFire</hediffDef>
         <onlyApplyToSelf>True</onlyApplyToSelf>
         <replaceExisting>true</replaceExisting>
       </li>
