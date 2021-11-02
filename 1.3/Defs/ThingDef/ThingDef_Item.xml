@@ -336,7 +336,7 @@
   </RecipeDef>
 
   <!--==================================== 연료 드럼 ====================================-->
-  <ThingDef ParentName="ResourceBase">
+  <!--<ThingDef ParentName="ResourceBase">
     <defName>PN_Fueldrumcan</defName>
     <label>PnL fuel drum can</label>
     <description>A drum for efficient and safe PnL fuel storage. It has high durability and low flammability.</description>
@@ -392,7 +392,7 @@
         <wickTicks>70~150</wickTicks>
       </li>
     </comps>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--==================================== 로열 부품 ====================================-->
   <ThingDef ParentName="ResourceBase">
