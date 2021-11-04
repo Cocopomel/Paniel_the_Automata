@@ -149,8 +149,7 @@
   <HediffDef ParentName="PN_ImplantHediffBase">
     <defName>PN_ExperimentalModuleHediff</defName>
     <label>custom core implant</label>
-    <description>
-    Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
+    <description>Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
 
     This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
     
