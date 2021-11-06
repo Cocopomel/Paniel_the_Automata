@@ -151,9 +151,9 @@
     <label>custom core implant</label>
     <description>Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
 
-    This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
+This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
     
-    This implant cannot be removed after installation.</description>
+This implant cannot be removed after installation.</description>
     <descriptionHyperlinks>
       <ThingDef>PN_ExperimentalModule</ThingDef>
     </descriptionHyperlinks>
@@ -257,9 +257,9 @@
     <label>automaton custom core implant</label>
     <description>Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
 
-    This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
+This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
     
-    This implant cannot be removed after installation.</description>
+This implant cannot be removed after installation.</description>
     <descriptionHyperlinks>
       <RecipeDef>PN_InstallExperimentalModule</RecipeDef>
     </descriptionHyperlinks>
