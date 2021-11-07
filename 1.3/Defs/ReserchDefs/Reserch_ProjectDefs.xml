@@ -208,8 +208,8 @@
 
   <ResearchProjectDef>
     <defName>PNRP_AutoArtillery</defName>
-    <label>PnL artillery</label>
-    <description>Research how to craft basic PnL artillery.</description>
+    <label>PnL Howitzer</label>
+    <description>Research how to craft basic PnL Howitzer.</description>
     <tab>PN_technology</tab>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
