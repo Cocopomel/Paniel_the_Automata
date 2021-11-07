@@ -815,7 +815,7 @@
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
         <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
-        <range>54.9</range>
+        <range>45.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
@@ -834,7 +834,7 @@
         <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
-        <range>54.9</range>
+        <range>45.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <targetParams>
@@ -1107,7 +1107,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>2.3</warmupTime>
-        <range>44.9</range>
+        <range>36.9</range>
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1493,7 +1493,7 @@
         <forcedMissRadius>0.1</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>54.9</range>
+        <range>35.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
