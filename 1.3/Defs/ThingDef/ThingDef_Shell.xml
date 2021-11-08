@@ -219,8 +219,8 @@
     <minDamageToFragment>200</minDamageToFragment>
     <defaultStoppingPower>5.0</defaultStoppingPower>
     <defaultArmorPenetration>1.20</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>1</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>1</buildingDamageFactorPassable>
+    <buildingDamageFactorImpassable>0.2</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>0.2</buildingDamageFactorPassable>
     <plantDamageFactor>1</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
   </DamageDef>
