@@ -815,7 +815,7 @@
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
         <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
-        <range>45.9</range>
+        <range>44.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
@@ -834,7 +834,7 @@
         <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
-        <range>45.9</range>
+        <range>44.9</range>
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <targetParams>
@@ -1493,7 +1493,7 @@
         <forcedMissRadius>0.1</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>35.9</range>
+        <range>44.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1514,7 +1514,17 @@
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
-    <comps>
+    <comps Inherit="false">
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li Class="CompProperties_Styleable"></li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>7.8</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
