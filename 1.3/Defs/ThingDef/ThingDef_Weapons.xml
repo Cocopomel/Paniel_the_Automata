@@ -944,7 +944,8 @@
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
+      <PN_Component>1</PN_Component>
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
@@ -1049,7 +1050,8 @@
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
+      <PN_Component>1</PN_Component>
     </costList>
     <comps>
       <li>
@@ -1193,7 +1195,8 @@
     </statBases>
     <costList>
       <Plasteel>100</Plasteel>
-      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
     </costList>
     <comps>
       <li>
