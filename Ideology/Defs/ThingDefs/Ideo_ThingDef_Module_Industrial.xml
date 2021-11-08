@@ -15,7 +15,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -72,7 +72,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -128,7 +128,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -184,7 +184,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -240,7 +240,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -296,7 +296,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -352,7 +352,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>
@@ -408,7 +408,7 @@
       <Steel>45</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
       <ComponentSpacer>2</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierB_Module</researchPrerequisite>

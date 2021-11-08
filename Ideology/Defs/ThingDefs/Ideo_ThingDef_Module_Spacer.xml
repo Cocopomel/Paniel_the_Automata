@@ -15,7 +15,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
-      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+      <PN_Component>3</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
@@ -67,7 +67,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
-      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+      <PN_Component>3</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
@@ -120,7 +120,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
-      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+      <PN_Component>3</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>
@@ -174,7 +174,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
-      <PN_ComponentRoyal>3</PN_ComponentRoyal>
+      <PN_Component>3</PN_Component>
     </costList>
     <recipeMaker>
       <researchPrerequisite>PNRP_TierC_Module</researchPrerequisite>

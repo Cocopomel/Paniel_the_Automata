@@ -267,7 +267,7 @@ This implant cannot be removed after installation.</description>
     <costList>
       <ComponentIndustrial>2</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
-      <PN_ComponentRoyal>1</PN_ComponentRoyal>
+      <PN_Component>1</PN_Component>
     </costList>
     <statBases>
       <Mass>0.3</Mass>

@@ -63,7 +63,7 @@
         <countRange>20~60</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_ComponentRoyal</thingDef>
+        <thingDef>PN_Component</thingDef>
         <countRange>1~3</countRange>
       </li>
 

@@ -396,7 +396,7 @@
 
   <!--==================================== 로열 부품 ====================================-->
   <ThingDef ParentName="ResourceBase">
-    <defName>PN_ComponentRoyal</defName>
+    <defName>PN_Component</defName>
     <label>PnL component</label>
     <description>This is a component used in special products of PnL Industry. It's tightly sealed, so reverse engineering looks difficult.</description>
     <graphicData>
