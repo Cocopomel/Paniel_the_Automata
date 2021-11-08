@@ -42,7 +42,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_antibiotics</thingDef>
-        <countRange>0~1</countRange>
+        <countRange>1~2</countRange>
       </li>
 
       <!-- Automaton -->
