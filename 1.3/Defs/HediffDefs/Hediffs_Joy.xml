@@ -5,6 +5,7 @@
     <label>Sync State</label>
     <defaultLabelColor>(0.8, 0.8, 0.8)</defaultLabelColor>
     <description>State affected by recreation.\n\nA high recreation has a beneficial effect.</description>
+    <isBad>false</isBad>
     <stages>
       <li>
         <label>low</label>

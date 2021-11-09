@@ -80,6 +80,7 @@
     <labelNoun>module system (unstable)</labelNoun>
     <description>The module system is unstable. The module cannot be mounted until the system is stable.</description>
     <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>20000</disappearsAfterTicks>
@@ -128,6 +129,7 @@
     <labelNoun>module system (unstable)</labelNoun>
     <description>The module system is unstable. The module cannot be mounted until the system is stable.</description>
     <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>120000</disappearsAfterTicks>

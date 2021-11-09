@@ -15,6 +15,7 @@
     <causesNeed>PN_Need_Maintenance</causesNeed>
     <scenarioCanAdd>false</scenarioCanAdd>
     <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <isBad>false</isBad>
     <stages>
       <li>
         <label>urgent</label>
