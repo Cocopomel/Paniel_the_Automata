@@ -632,7 +632,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Machinegun</defName>
     <label>PnL machine gun</label>
-    <description>Machine gin produced by PnL industry.</description>
+    <description>Machine gun produced by PnL industry.</description>
     <graphicData>
       <texPath>Things/Weapons/PNMachinegun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
