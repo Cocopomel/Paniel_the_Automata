@@ -20,13 +20,11 @@
     </allowedCultures>
     <allowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </allowedMemes>
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </requiredMemes>
