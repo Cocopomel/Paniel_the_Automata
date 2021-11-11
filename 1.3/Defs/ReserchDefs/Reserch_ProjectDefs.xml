@@ -51,7 +51,7 @@
 
   <ResearchProjectDef>
     <defName>PNRP_ExperimentalModule</defName>
-    <label>custom core module</label>
+    <label>custom core implant</label>
     <description>Research how to make custom core implants. This implant makes the automaton learn like a human, but makes it mentally unstable.\n\nWarning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.</description>
     <tab>PN_technology</tab>
     <baseCost>1500</baseCost>
