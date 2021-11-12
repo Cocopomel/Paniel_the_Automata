@@ -253,7 +253,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <!--<meleeHitSound>PNChainswordSound</meleeHitSound>-->
+    <meleeHitSound>PNChainswordSound</meleeHitSound>
     <weaponTags>
       <li>PN_Chainsword</li>
     </weaponTags>
@@ -1498,7 +1498,8 @@
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
         <range>44.9</range>
         <burstShotCount>1</burstShotCount>
-        <soundCast>ChargeLance_Fire</soundCast>
+        <soundAiming>PN_PrototypeRailGun_Warmup_Sound</soundAiming>
+        <soundCast>PN_PrototypeRailGun_Fire_Sound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <onlyManualCast>true</onlyManualCast>
         <targetParams>
