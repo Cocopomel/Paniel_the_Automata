@@ -10,6 +10,9 @@
     <defName>PN_OfficerCommandAbility</defName>
     <label>officer command</label>
     <description>Create an aura that boosts the combat skills of everyone nearby. The effect lasts 6 hours and remains attached to the user for the duration.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_OfficerCommandBuff</HediffDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -58,6 +61,9 @@
     <defName>PN_MeisterAdviceAbility</defName>
     <label>meister's advice</label>
     <description>Create an aura that boosts the engineer skills of everyone nearby. The effect lasts 12 hours and remains attached to the user for the duration.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_MeisterAdviceBuff</HediffDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -106,6 +112,9 @@
     <defName>PN_IntensiveMedicalAbility</defName>
     <label>intensive medical mode</label>
     <description>This ability makes users more proficient in medical work.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_IntensiveMedical</HediffDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -152,6 +161,10 @@
     <defName>PN_ImmunityDriveAbility</defName>
     <label>Immunity drive</label>
     <description>Offer module support that energizes the body, boosting someone's immunity gain for one day.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_ImmunityDrive</HediffDef>
+      <AbilityDef>PN_ImmunityDriveAbility</AbilityDef>
+    </descriptionHyperlinks>
     <groupDef>PNModule_rightoff</groupDef>
     <iconPath>UI/Abilities/PNImmunityDrive</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNImmunityDrive</warmupMoteSocialSymbol>
@@ -189,6 +202,10 @@
     <defName>PN_FieldMedicAbility</defName>
     <label>field medic mode</label>
     <description>This ability enables users to provide rapid medical support in the field.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_FieldMedic</HediffDef>
+      <AbilityDef>PN_StimPackAbility</AbilityDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -235,6 +252,10 @@
     <defName>PN_StimPackAbility</defName>
     <label>injection stim pack</label>
     <description>Inject drugs that increase physical stat into the target. It is not addictive, but side effects occur when the effect is over.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_StimPack</HediffDef>
+      <HediffDef>PN_StimPackSideEffect</HediffDef>
+    </descriptionHyperlinks>
     <groupDef>PNModule_rightoff</groupDef>
     <iconPath>UI/Abilities/PNStimPack</iconPath>
     <warmupMoteSocialSymbol>UI/Abilities/PNStimPack</warmupMoteSocialSymbol>

@@ -10,6 +10,9 @@
     <defName>PN_RapidFireAbility</defName>
     <label>rapid fire</label>
     <description>This ability allows users to shoot quickly, but lowers the shooting accuracy.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_RapidFire</HediffDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -56,6 +59,9 @@
     <defName>PN_CQCAbility</defName>
     <label>CQC mode</label>
     <description>This ability increases users to close quarters combat stat, but lowers the shooting accuracy.</description>
+    <descriptionHyperlinks>
+      <HediffDef>PN_CQC</HediffDef>
+    </descriptionHyperlinks>
     <jobDef>CastAbilityOnThing</jobDef>
     <targetRequired>False</targetRequired>
     <canUseAoeToGetTargets>False</canUseAoeToGetTargets>

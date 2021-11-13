@@ -112,7 +112,6 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd)\n\nThis module allows automaton to use intensive medical mode ability.\nAnd if automaton activates intensive medical mode, immunity drive ability can be used.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_IntensiveMedicalAbility</AbilityDef>
-      <AbilityDef>PN_ImmunityDriveAbility</AbilityDef>
     </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>
@@ -165,8 +164,6 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nDomestic model (legd)\nCombat model (legd)\n\nThis module allows automaton to use field medic mode ability.\nAnd if automaton activates field medic mod, injection stim pack ability can be used.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_FieldMedicAbility</AbilityDef>
-      <AbilityDef>PN_StimPackAbility</AbilityDef>
-      <HediffDef>PN_StimPackSideEffect</HediffDef>
     </descriptionHyperlinks>
     <statBases>
       <WorkToMake>75000</WorkToMake>

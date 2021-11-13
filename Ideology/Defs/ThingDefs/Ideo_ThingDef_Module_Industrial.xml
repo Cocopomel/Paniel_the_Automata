@@ -8,7 +8,6 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module allows automaton to use rapid fire ability.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_RapidFireAbility</AbilityDef>
-      <HediffDef>PN_RapidFire</HediffDef>
       <HediffDef>PN_RapidFireModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
@@ -65,7 +64,6 @@
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module increases the automaton's close quarters combat stat, and allows automaton to use CQC ability.</description>
     <descriptionHyperlinks>
       <AbilityDef>PN_CQCAbility</AbilityDef>
-      <HediffDef>PN_CQC</HediffDef>
       <HediffDef>PN_CQCModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
