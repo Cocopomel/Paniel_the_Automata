@@ -14,16 +14,22 @@
     <value>BaseOutlanderTraderKind</value>
   </Operation>-->
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/FactionDef[defName = "OutlanderCivil"]</xpath>
-    <value>
-      <caravanTraderKinds>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/FactionDef[defName = "OutlanderCivil"]/caravanTraderKinds</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName = "OutlanderCivil"]</xpath>
+      <value>
+        <caravanTraderKinds>
+          <li>PN_Caravan_PnLindustry</li>
+        </caravanTraderKinds>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/FactionDef[defName = "OutlanderCivil"]/caravanTraderKinds</xpath>
+      <value>
         <li>PN_Caravan_PnLindustry</li>
-      </caravanTraderKinds>
-      <!--<baseTraderKinds>
-        <li>PN_Base_PnLindustry</li>
-      </baseTraderKinds>-->
-    </value>
+      </value>
+    </match>
   </Operation>
 
   <!--<Operation Class="PatchOperationAdd">
