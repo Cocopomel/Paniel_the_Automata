@@ -251,7 +251,7 @@
     <costStuffCount>60</costStuffCount>
     <costList>
       <ComponentIndustrial>2</ComponentIndustrial>
-      <DevilstrandCloth>30</DevilstrandCloth>
+      <Cloth>80</Cloth>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">

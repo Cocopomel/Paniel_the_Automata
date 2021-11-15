@@ -122,7 +122,6 @@
     <prerequisites>
       <li>PNRP_Production</li>
       <li>FlakArmor</li>
-      <li>Devilstrand</li>
     </prerequisites>
     <researchViewX>1.0</researchViewX>
     <researchViewY>2.1</researchViewY>
