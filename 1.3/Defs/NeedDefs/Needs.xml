@@ -6,7 +6,7 @@
     <label>Automaton Fuel</label>
     <description>The amount of fuel used by the automaton. When the gauge reaches zero, the automaton will shut down.</description>
     <listPriority>984</listPriority>
-    <fallPerDay>0.5</fallPerDay>
+    <fallPerDay>0.20</fallPerDay>
     <freezeWhileSleeping>true</freezeWhileSleeping>
     <showForCaravanMembers>true</showForCaravanMembers>
     <major>true</major>

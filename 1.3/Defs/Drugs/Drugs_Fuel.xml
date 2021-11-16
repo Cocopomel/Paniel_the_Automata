@@ -59,7 +59,7 @@
       <li Class="CompProperties_Drug">
         <chemical>PN_Chemical_Fuel</chemical>
         <addictiveness>0.000000001</addictiveness>
-        <needLevelOffset>0.5</needLevelOffset>
+        <needLevelOffset>0.20</needLevelOffset>
         <listOrder>1028</listOrder>
       </li>
       <li Class="CompProperties_Explosive">
@@ -182,9 +182,9 @@
     </comps>
     <stages>
       <li>
-      <label>stable</label>
+        <label>stable</label>
       </li>
-      <li>
+      <!--<li>
         <label>required</label>
         <lifeThreatening>true</lifeThreatening>
         <capMods>
@@ -194,6 +194,27 @@
           </li>
         </capMods>
         <hungerRateFactor>0.1</hungerRateFactor>
+      </li>-->
+      <li>
+        <label>required</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.3</setMax>
+          </li>
+        </capMods>
       </li>
     </stages>
     <modExtensions>
