@@ -137,6 +137,7 @@
     <prerequisites>
       <li>PNRP_TierA_Apparel</li>
       <li>MicroelectronicsBasics</li>
+      <li>Devilstrand</li>
     </prerequisites>
     <researchViewX>3.0</researchViewX>
     <researchViewY>2.1</researchViewY>
