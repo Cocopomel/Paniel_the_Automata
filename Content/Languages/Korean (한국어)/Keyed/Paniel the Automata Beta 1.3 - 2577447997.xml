@@ -2,6 +2,8 @@
 <LanguageData>
   <PN_LowMaintenance>정비 필요</PN_LowMaintenance>
   <PN_LowMaintenanceDesc>다음 파니엘의 정비 상태가 좋지 않아 고장날 수 있습니다.\n\n{0}</PN_LowMaintenanceDesc>
+  <PN_NeedFuel>PnL 연료 필요</PN_NeedFuel>
+	<PN_NeedFuelDesc>다음 파니엘이 연료가 다 떨어져 비상 전력 모드로 들어갔습니다.\n\n{0}</PN_NeedFuelDesc>
   
   <PN_HediffNullifier>{0}(은)는 {1}(을)를 면역했습니다. 사유 : {0}(은)는 오토마톤입니다</PN_HediffNullifier>
 
