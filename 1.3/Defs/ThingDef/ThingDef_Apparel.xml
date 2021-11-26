@@ -920,8 +920,7 @@
     <costList>
       <ComponentSpacer>6</ComponentSpacer>
       <PN_Component>2</PN_Component>
-      <Hyperweave>45</Hyperweave>
-      <Leather_Thrumbo>30</Leather_Thrumbo>
+      <Hyperweave>50</Hyperweave>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1003,8 +1002,7 @@
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <PN_Component>1</PN_Component>
-      <Hyperweave>20</Hyperweave>
-      <Leather_Thrumbo>10</Leather_Thrumbo>
+      <Hyperweave>25</Hyperweave>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1083,7 +1081,6 @@
       <ComponentSpacer>4</ComponentSpacer>
       <PN_Component>2</PN_Component>
       <Hyperweave>30</Hyperweave>
-      <Leather_Thrumbo>20</Leather_Thrumbo>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
@@ -1173,8 +1170,7 @@
     <costList>
       <ComponentSpacer>2</ComponentSpacer>
       <PN_Component>1</PN_Component>
-      <Hyperweave>15</Hyperweave>
-      <Leather_Thrumbo>5</Leather_Thrumbo>
+      <Hyperweave>10</Hyperweave>
     </costList>
     <recipeMaker>
       <recipeUsers Inherit="false">
