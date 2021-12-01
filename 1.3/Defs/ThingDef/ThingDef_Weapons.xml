@@ -399,7 +399,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Revolver</defName>
     <label>PnL revolver</label>
-    <description>A revolver similar to a shotgun that fires from six barrels at once. It can be loaded quickly by linking with the automaton.</description>
+    <description>A revolver similar to a shotgun that fires from six barrels at once.</description>
     <graphicData>
       <texPath>Things/Weapons/PNRevolver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
