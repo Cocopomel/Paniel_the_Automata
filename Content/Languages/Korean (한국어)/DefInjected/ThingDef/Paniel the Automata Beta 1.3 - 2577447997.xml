@@ -125,7 +125,7 @@
   <PN_Chainlongsword.tools.1.label>칼끝</PN_Chainlongsword.tools.1.label>
   <PN_Chainlongsword.tools.2.label>칼날</PN_Chainlongsword.tools.2.label>
   <PN_Revolver.label>PnL 리볼버</PN_Revolver.label>
-  <PN_Revolver.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n여섯개의 총열에서 모든 탄을 한번에 발사하는 샷건 대용 무기. 오토마톤과 연결되어 빠른 재장전을 합니다.</PN_Revolver.description>
+  <PN_Revolver.description>여섯개의 총열에서 모든 탄을 한번에 발사하는 샷건 대용 리볼버.</PN_Revolver.description>
   <PN_Revolver.tools.0.label>손잡이</PN_Revolver.tools.0.label>
   <PN_Revolver.tools.1.label>총열</PN_Revolver.tools.1.label>
   <PN_Bullet_Revolver_Volley.label>리볼버탄</PN_Bullet_Revolver_Volley.label>
