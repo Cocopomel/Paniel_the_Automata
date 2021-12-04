@@ -41,17 +41,16 @@
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
           <text>
-          to. Experiment Manager\n\n
+to. Experiment Manager
 
-Hello Manager. Thank you for participating in the test program.\n\n
+Hello Manager. Thank you for participating in the test program.
+Experimental automaton is a model that can study and acquire skills like humans. However, there have been a number of reports of mental instability.
 
-Experimental automaton is a model that can study and acquire skills like humans. However, there have been a number of reports of mental instability.\n\n
+Only one test subject is provided. It cannot be resupplied in case of loss or destroy.
 
-Only one test subject is provided. It cannot be resupplied in case of loss or destroy.\n\n
+As a spare, we provided one year's worth of fuel and three brain cores. It is up to the manager to decide how to use it.
 
-As a spare, we provided one year's worth of fuel and three brain cores. It is up to the manager to decide how to use it.\n\n
-
-Please take part in the experiment diligently.\n\n
+Please take part in the experiment diligently.
 
 from. PnL Industry Research Department.</text>
           <closeSound>GameStartSting</closeSound>
