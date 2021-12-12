@@ -89,7 +89,7 @@
       </li>
       <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
         <weaponTag>PN_Bladelink</weaponTag>
-        <countRange>0~1</countRange>
+        <countRange>1~1</countRange>
       </li>
 
       <!-- Apparel -->
