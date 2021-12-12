@@ -1608,4 +1608,127 @@
     <soundExplosion>Explosion_Bomb</soundExplosion>
     <combatLogRules>Damage_Bomb</combatLogRules>
   </DamageDef>-->
+
+  <!--==================================== 로열 핸드캐논 ====================================-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalHandCannon</defName>
+    <label>PnL royal hand cannon</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <techLevel>Spacer</techLevel>
+    <relicChance>1</relicChance>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalHandcannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.6</Mass>
+      <AccuracyTouch>0.57</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+      <!--<li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalRifle_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0.15,0.3,0.05)</position>
+          <angle>-45</angle>
+        </northOffset>
+        <southOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>-45</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>-30</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>30</angle>
+        </westOffset>
+      </li>-->
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_HandCannon</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>12.9</range>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_HandCannon</defName>
+    <label>PnL hand cannon bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
 </Defs>
