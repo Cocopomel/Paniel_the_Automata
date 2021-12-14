@@ -1682,8 +1682,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_HandCannon</defaultProjectile>
         <warmupTime>1.2</warmupTime>
-        <range>12.9</range>
-        <soundCast>Shot_AssaultRifle</soundCast>
+        <range>19.9</range>
+        <soundCast>PNRoyalHCSound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>

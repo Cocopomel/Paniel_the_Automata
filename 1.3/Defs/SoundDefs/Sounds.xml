@@ -64,6 +64,27 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- 로열핸드캐논 -->
+	<SoundDef>
+		<defName>PNRoyalHCSound</defName>
+		<eventNames />
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/PNRoyalHCSound</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	<!-- 체인소드 -->
 	<SoundDef>
 		<defName>PNChainswordSound</defName>
