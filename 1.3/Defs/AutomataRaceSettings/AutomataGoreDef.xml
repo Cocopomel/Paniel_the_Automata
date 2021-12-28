@@ -16,14 +16,15 @@
         <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
       </li>
 
-      <li Class="CompProperties_Explosive">
-        <compClass>AutomataRace.CompExplosiveInstant</compClass>
+      <li Class="AutomataRace.CompProperties_ExplosiveInstant">
         <explosiveRadius>1.9</explosiveRadius>
         <explosiveDamageType>Flame</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
         <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
         <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
         <wickTicks>200~750</wickTicks>
+        <awfulExplosiveMultiplier>5.0</awfulExplosiveMultiplier>
+        <poorExplosiveMultiplier>2.0</poorExplosiveMultiplier>
       </li>
     </comps>
   </AutomataRace.ThingDefInjectDef>
