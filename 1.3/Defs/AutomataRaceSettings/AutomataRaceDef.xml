@@ -817,7 +817,7 @@
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>50</lifeExpectancy>
       <!-- Gore -->
-      <leatherDef>Human</leatherDef>
+      <leatherDef>Leather_Automaton</leatherDef>
       <useMeatFrom>Human</useMeatFrom>
       <bloodDef>Paniel_Oil</bloodDef>
       <fleshType>PN_Flesh</fleshType>
