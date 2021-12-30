@@ -4,6 +4,7 @@
     <defName>PN_Fuel</defName>
     <label>Automaton Fuel</label>
     <parent>Drugs</parent>
+    <iconPath>UI/Icons/PNCT_PNFuel</iconPath>
   </ThingCategoryDef>
 
   <!--==================================== 오토마톤 연료 ====================================-->

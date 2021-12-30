@@ -6,7 +6,7 @@
     <defName>PN_Shell</defName>
     <label>PnL Shell</label>
     <parent>PN_AutomatonCatagory</parent>
-    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <iconPath>UI/Icons/PNCT_PNShell</iconPath>
   </ThingCategoryDef>
 
   <ThingDef ParentName="ResourceBase" Name="PN_ShellBase" Abstract="True">

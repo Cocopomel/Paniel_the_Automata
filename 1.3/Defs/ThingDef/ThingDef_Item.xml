@@ -4,7 +4,7 @@
     <defName>PN_AutomatonCatagory</defName>
     <label>PnL Industry</label>
     <parent>Manufactured</parent>
-    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
   </ThingCategoryDef>
 
   <!--==================================== 미완성 오토마톤 ====================================-->
@@ -191,7 +191,7 @@
     <defName>PNKit</defName>
     <label>Repair kit</label>
     <parent>PN_AutomatonCatagory</parent>
-    <iconPath>UI/Icons/ThingCategories/Medicine</iconPath>
+    <iconPath>UI/Icons/PNCT_PNRepairkit</iconPath>
   </ThingCategoryDef>
 
   <ThingDef ParentName="ResourceBase">

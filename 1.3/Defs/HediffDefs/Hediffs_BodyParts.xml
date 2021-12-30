@@ -18,6 +18,7 @@
     <defName>PN_BodyPartsAutomaton</defName>
     <label>Automaton</label>
     <parent>BodyParts</parent>
+    <iconPath>Things/Item/Health/HealthItem</iconPath>
   </ThingCategoryDef>
 
   <ThingDef Name="PN_BodyPartBase" Abstract="True">

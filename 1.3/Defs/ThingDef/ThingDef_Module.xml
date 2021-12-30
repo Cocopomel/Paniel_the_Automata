@@ -10,6 +10,7 @@
     <defName>PNApparelModule</defName>
     <label>Automaton Module</label>
     <parent>PN_AutomatonCatagory</parent>
+    <iconPath>Things/Item/PNModuleIndustrial</iconPath>
   </ThingCategoryDef>
 
   <ThingDef Name="PN_ApparelModuleBase" ParentName="ApparelNoQualityBase" Abstract="True">
