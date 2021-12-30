@@ -1611,7 +1611,7 @@
 
   <!--==================================== 로열 핸드캐논 ====================================-->
 
-  <ThingDef ParentName="PN_BaseMakeableGun">
+  <!--<ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalHandCannon</defName>
     <label>PnL royal hand cannon</label>
     <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
@@ -1648,7 +1648,7 @@
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
-      <!--<li Class="SYS.CompProperties_Sheath">
+      <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
@@ -1674,7 +1674,7 @@
           <position>(0.15,-0.3,0.05)</position>
           <angle>30</angle>
         </westOffset>
-      </li>-->
+      </li>
     </comps>
     <verbs>
       <li>
@@ -1730,5 +1730,5 @@
       <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </ThingDef>
+  </ThingDef>-->
 </Defs>
