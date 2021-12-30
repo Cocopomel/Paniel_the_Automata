@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!--본사(히든)-->
   <FactionDef ParentName="FactionBase">
     <defName>PN_indistryFaction</defName>
     <label>PnL Industry</label>
@@ -33,4 +35,45 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
   </FactionDef>
+
+  <!--행성지부(NPC)-->
+  <!--<FactionDef ParentName="FactionBase">
+    <defName>PN_BranchOfficeFaction</defName>
+    <label>PnL Industry branch office</label>
+    <pawnSingular>Employee</pawnSingular>
+    <pawnsPlural>Employees</pawnsPlural>
+    <listOrderPriority>50</listOrderPriority>
+    <settlementGenerationWeight>0.25</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <humanlikeFaction>true</humanlikeFaction>
+    <canUseAvoidGrid>true</canUseAvoidGrid>
+    <leaderTitle>Branch manager</leaderTitle>
+    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
+    <settlementNameMaker>NamerSettlementPnL</settlementNameMaker>
+    <raidLootMaker>PnLRaidLootMaker</raidLootMaker>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+      <li>Offworld</li>
+    </backstoryCategories>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <allowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </allowedMemes>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+  </FactionDef>-->
 </Defs>
