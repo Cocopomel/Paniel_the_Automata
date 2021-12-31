@@ -395,13 +395,13 @@
     </weaponClasses>
   </ThingDef>
 
-  <!--==================================== 체인 롱소드 ====================================-->
+  <!--==================================== 테스트 워해머 ====================================-->
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_RoyalWarhammer</defName>
     <label>PnL royal warhammer</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData Class="AutomataRace.GraphicData_Sprite">
-      <texPath>Things/Weapons/RoyalWarhammer</texPath>
+      <texPath>Things/Weapons/PNPersonaWarhammer</texPath>
       <graphicClass>AutomataRace.Graphic_Sprite</graphicClass>
       <totalFrameLength>120</totalFrameLength>
       <keyFrames>
