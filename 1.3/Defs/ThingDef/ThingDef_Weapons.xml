@@ -401,16 +401,24 @@
     <label>PnL royal warhammer</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData Class="AutomataRace.GraphicData_Sprite">
-      <texPath>Things/Weapons/PNPersonaWarhammer</texPath>
+      <texPath>Things/Weapons/PNPersonaHammer</texPath>
       <graphicClass>AutomataRace.Graphic_Sprite</graphicClass>
-      <totalFrameLength>120</totalFrameLength>
+      <totalFrameLength>210</totalFrameLength>
       <keyFrames>
         <li>
           <frame>0</frame>
           <index>0</index>
         </li>
         <li>
-          <frame>60</frame>
+          <frame>120</frame>
+          <index>1</index>
+        </li>
+        <li>
+          <frame>150</frame>
+          <index>2</index>
+        </li>
+        <li>
+          <frame>180</frame>
           <index>1</index>
         </li>
       </keyFrames>
