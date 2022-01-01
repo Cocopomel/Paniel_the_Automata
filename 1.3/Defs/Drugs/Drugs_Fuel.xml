@@ -173,29 +173,12 @@
     <everCurableByItem>false</everCurableByItem>
     <isBad>false</isBad>
     <comps>
-      <!--<li Class="HediffCompProperties_Discoverable">
-        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
-        <discoverLetterLabel>Automaton fuel required</discoverLetterLabel>
-        <discoverLetterText>{0} ran out of fuel and switched to emergency power.\n\nEmergency power will only run for 15 days, after which {0} will destroy.\n\nPlease check fuel stock and refuel {0}.</discoverLetterText>
-        <letterType>NegativeEvent</letterType>
-        <messageType>NegativeEvent</messageType>
-      </li>-->
+
     </comps>
     <stages>
       <li>
         <label>stable</label>
       </li>
-      <!--<li>
-        <label>required</label>
-        <lifeThreatening>true</lifeThreatening>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.1</setMax>
-          </li>
-        </capMods>
-        <hungerRateFactor>0.1</hungerRateFactor>
-      </li>-->
       <li>
         <label>required</label>
         <capMods>
