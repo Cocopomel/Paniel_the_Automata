@@ -107,11 +107,11 @@
       <!-- Techprints -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Techprint_CataphractArmor</thingDef>
-        <countRange>-1~1</countRange>
+        <countRange>-2~1</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Techprint_BrainWiring</thingDef>
-        <countRange>-1~1</countRange>
+        <countRange>-2~1</countRange>
       </li>
 
       <!-- Buying -->
