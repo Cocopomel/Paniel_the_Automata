@@ -22,6 +22,27 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- 기관총 -->
+	<SoundDef>
+		<defName>PNRoyalMachinegunSound</defName>
+		<eventNames />
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/PNRoyalMachinegunSound</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	<!-- 포터블 캐논 -->
 	<SoundDef>
 		<defName>PNCannonSound</defName>
