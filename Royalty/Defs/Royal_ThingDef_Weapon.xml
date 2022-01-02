@@ -220,7 +220,7 @@
     <description>...</description>
     <statBases>
       <MarketValue>3000</MarketValue>
-      <Mass>2</Mass>
+      <Mass>4</Mass>
     </statBases>
     <equippedAngleOffset>0</equippedAngleOffset>
     <graphicData Class="AutomataRace.GraphicData_Sprite">
@@ -292,7 +292,7 @@
     <description>...</description>
     <statBases>
       <MarketValue>3000</MarketValue>
-      <Mass>2</Mass>
+      <Mass>4</Mass>
     </statBases>
     <equippedAngleOffset>45</equippedAngleOffset>
     <graphicData>
