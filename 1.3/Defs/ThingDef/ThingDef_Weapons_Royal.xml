@@ -26,7 +26,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <tools>
       <li>
@@ -34,7 +34,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -42,7 +42,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>23</power>
+        <power>24</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -50,12 +50,12 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
+        <power>24</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>PNRP_AutomatonWeapons</researchPrerequisite>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -80,6 +80,66 @@
           <angle>45</angle>
         </westOffset>
       </li>
+    </comps>
+    <weaponClasses>
+
+    </weaponClasses>
+  </ThingDef>
+
+  <!--==================================== 워해머 ====================================-->
+  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
+    <defName>PN_WarHammer</defName>
+    <label>PnL warhammer</label>
+    <description>[caution] : Automaton exclusive weapon.\n\n...</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNWarHammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponTags>
+      <li>PN_WarHammer</li>
+    </weaponTags>
+    <costStuffCount>150</costStuffCount>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <comps>
+
     </comps>
     <weaponClasses>
 
