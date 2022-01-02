@@ -2,14 +2,14 @@
 <Defs>
 
   <!--==================================== 테스트 워해머 ====================================-->
-  <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
+  <!--<ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_RoyalWarhammer</defName>
     <label>PnL royal warhammer</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA long sword with a rotating chain saw blade. It works by linking with the automaton and receiving power.</description>
     <graphicData Class="AutomataRace.GraphicData_Sprite">
       <texPath>Things/Weapons/PNPersonaHammer</texPath>
       <graphicClass>AutomataRace.Graphic_Sprite</graphicClass>
-      <totalFrameLength>150</totalFrameLength>
+      <totalFrameLength>170</totalFrameLength>
       <keyFrames>
         <li>
           <frame>0</frame>
@@ -20,11 +20,15 @@
           <index>1</index>
         </li>
         <li>
-          <frame>130</frame>
+          <frame>125</frame>
           <index>2</index>
         </li>
         <li>
-          <frame>140</frame>
+          <frame>130</frame>
+          <index>0</index>
+        </li>        
+        <li>
+          <frame>165</frame>
           <index>1</index>
         </li>
       </keyFrames>
@@ -40,7 +44,6 @@
       <WorkToMake>18000</WorkToMake>
       <Mass>4</Mass>
     </statBases>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -85,6 +88,6 @@
     <weaponClasses>
 
     </weaponClasses>
-  </ThingDef>
+  </ThingDef>-->
 
 </Defs>
