@@ -125,7 +125,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>25</power>
+        <power>24</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
@@ -141,7 +141,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>25</power>
+        <power>24</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
@@ -191,7 +191,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>30</power>
+        <power>28</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
       </li>
@@ -200,7 +200,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>30</power>
+        <power>28</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
       </li>
@@ -210,5 +210,77 @@
         <nameMaker>PN_NamerChainSword</nameMaker>
       </li>
     </comps>
+  </ThingDef>
+
+  <!--==================================== 로열해머 ====================================-->
+
+  <ThingDef ParentName="PN_BaseWeapon_Bladelink">
+    <defName>PN_RoyalHammer_Bladelink</defName>
+    <label>PnL royal Hammer</label>
+    <description>...</description>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <graphicData Class="AutomataRace.GraphicData_Sprite">
+      <texPath>Things/Weapons/PNPersonaHammer</texPath>
+      <graphicClass>AutomataRace.Graphic_Sprite</graphicClass>
+      <color>(255,255,255)</color>
+      <totalFrameLength>170</totalFrameLength>
+      <keyFrames>
+        <li>
+          <frame>0</frame>
+          <index>0</index>
+        </li>
+        <li>
+          <frame>120</frame>
+          <index>1</index>
+        </li>
+        <li>
+          <frame>125</frame>
+          <index>2</index>
+        </li>
+        <li>
+          <frame>130</frame>
+          <index>0</index>
+        </li>        
+        <li>
+          <frame>165</frame>
+          <index>1</index>
+        </li>
+      </keyFrames>
+    </graphicData>
+    <soundInteract>Interact_BladelinkZeusHammer</soundInteract>
+    <meleeHitSound>MeleeHit_BladelinkZeusHammer</meleeHitSound>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>2.2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>EMP</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
+      </li>
+    </tools>
   </ThingDef>
 </Defs>
