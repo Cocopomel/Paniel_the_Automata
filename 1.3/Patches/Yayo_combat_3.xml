@@ -13,6 +13,9 @@
             <equippedAngleOffset>0</equippedAngleOffset>
           </value>
         </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName = "PN_Chainlongsword"]/comps</xpath>
+        </li>
       </operations>
     </match>
   </Operation>
