@@ -42,7 +42,7 @@
       <li>Prosthetics</li>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>3.0</researchViewX>
+    <researchViewX>2.0</researchViewX>
     <researchViewY>0</researchViewY>
     <tags>
 
@@ -59,7 +59,7 @@
     <prerequisites>
       <li>PNRP_Brain</li>
     </prerequisites>
-    <researchViewX>4.0</researchViewX>
+    <researchViewX>3.0</researchViewX>
     <researchViewY>0.7</researchViewY>
   </ResearchProjectDef>
 
@@ -75,7 +75,7 @@
       <li>Bionics</li>
       <li MayRequire="Ludeon.RimWorld.Royalty">BrainWiring</li>
     </prerequisites>
-    <researchViewX>5.0</researchViewX>
+    <researchViewX>4.0</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
@@ -92,7 +92,7 @@
       <li>PNRP_Production</li>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
-    <researchViewX>3.0</researchViewX>
+    <researchViewX>2.0</researchViewX>
     <researchViewY>1.4</researchViewY>
   </ResearchProjectDef>
 
@@ -106,7 +106,7 @@
     <prerequisites>
       <li>PNRP_SelfRepairKit</li>
     </prerequisites>
-    <researchViewX>4.0</researchViewX>
+    <researchViewX>3.0</researchViewX>
     <researchViewY>1.4</researchViewY>
   </ResearchProjectDef>
 
@@ -139,7 +139,7 @@
       <li>MicroelectronicsBasics</li>
       <li>Devilstrand</li>
     </prerequisites>
-    <researchViewX>3.0</researchViewX>
+    <researchViewX>2.0</researchViewX>
     <researchViewY>2.1</researchViewY>
   </ResearchProjectDef>
 
@@ -154,7 +154,7 @@
       <li>PNRP_TierB_Apparel</li>
       <li>PoweredArmor</li>
     </prerequisites>
-    <researchViewX>5.0</researchViewX>
+    <researchViewX>4.0</researchViewX>
     <researchViewY>2.1</researchViewY>
   </ResearchProjectDef>
 
@@ -186,8 +186,8 @@
       <li>PNRP_AutomatonWeapons</li>
       <li>MultibarrelWeapons</li>
     </prerequisites>
-    <researchViewX>3.0</researchViewX>
-    <researchViewY>2.8</researchViewY>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -202,7 +202,7 @@
       <li>Mortars</li>
       <li>PrecisionRifling</li>
     </prerequisites>
-    <researchViewX>3.0</researchViewX>
+    <researchViewX>2.0</researchViewX>
     <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
@@ -229,10 +229,11 @@
     <baseCost>500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>PNRP_AutomatonWeapons</li>
       <li>ChargedShot</li>
+      <li>PNRP_MachineGun</li>
+      <li>PNRP_Cannon</li>
     </prerequisites>
-    <researchViewX>5.0</researchViewX>
+    <researchViewX>4.0</researchViewX>
     <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
