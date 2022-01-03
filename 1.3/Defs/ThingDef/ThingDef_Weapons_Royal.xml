@@ -241,7 +241,7 @@
     <label>PnL twin pistol bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>4</damageAmountBase>
+      <damageAmountBase>5</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
       <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>70</speed>
@@ -403,7 +403,7 @@
 
   <!--==================================== 로열 핸드캐논 ====================================-->
 
-  <!--<ThingDef ParentName="PN_BaseMakeableGun">
+  <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalHandCannon</defName>
     <label>PnL royal hand cannon</label>
     <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
@@ -431,7 +431,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
@@ -442,29 +442,29 @@
       <li Class="CompProperties_Styleable"></li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
-          <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
+          <texPath>Things/Weapons/SYS/PNRoyalHandcannon_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
         </sheathOnlyGraphicData>
         <fullGraphicData>
-          <texPath>Things/Weapons/SYS/PNRoyalRifle_Full</texPath>
+          <texPath>Things/Weapons/SYS/PNRoyalHandcannon_Full</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
         </fullGraphicData>
         <drawPosition>Back</drawPosition>
         <northOffset>
-          <position>(0.15,0.3,0.05)</position>
-          <angle>-45</angle>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
         </northOffset>
         <southOffset>
-          <position>(-0.15,-0.3,0.05)</position>
-          <angle>-45</angle>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
         </southOffset>
         <eastOffset>
           <position>(-0.15,-0.3,0.05)</position>
-          <angle>-30</angle>
+          <angle>70</angle>
         </eastOffset>
         <westOffset>
           <position>(0.15,-0.3,0.05)</position>
-          <angle>30</angle>
+          <angle>-70</angle>
         </westOffset>
       </li>
     </comps>
@@ -473,8 +473,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_HandCannon</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
-        <range>19.9</range>
+        <warmupTime>0.7</warmupTime>
+        <range>12.9</range>
         <soundCast>PNRoyalHCSound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
@@ -515,14 +515,133 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
       <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <armorPenetrationBase>0.24</armorPenetrationBase>
       <speed>100</speed>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/ShellHighExplosive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-  </ThingDef>-->
+  </ThingDef>
+
+  <!--==================================== 로열기관총 ====================================-->
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalMachinegun</defName>
+    <label>PnL royal machine gun</label>
+    <description>...</description>
+    <relicChance>1</relicChance>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalMachinegun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.15</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalMachinegun</defaultProjectile>
+        <warmupTime>2.6</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>20</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>PNRoyalMachinegunSound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_Machinegun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseBullet">
+    <defName>PN_Bullet_RoyalMachinegun</defName>
+    <label>PnL machinegun bullet</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3.0</stoppingPower>
+      <armorPenetrationBase>0.38</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
 
   <!--==================================== 로열 LSW (멀티런쳐) ====================================-->
 
