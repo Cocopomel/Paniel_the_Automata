@@ -179,7 +179,7 @@
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
       <PN_Component>1</PN_Component>
     </costList>
     <comps>
@@ -285,7 +285,7 @@
     </statBases>
     <costList>
       <Plasteel>75</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
       <PN_Component>1</PN_Component>
     </costList>
     <comps>
@@ -434,8 +434,8 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>75</Plasteel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
       <PN_Component>1</PN_Component>
     </costList>
     <comps>
@@ -555,8 +555,9 @@
       <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>150</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
