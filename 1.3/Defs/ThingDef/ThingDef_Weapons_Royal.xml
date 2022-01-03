@@ -529,6 +529,7 @@
     <defName>PN_RoyalMachinegun</defName>
     <label>PnL royal machine gun</label>
     <description>...</description>
+    <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
       <texPath>Things/Weapons/PNRoyalMachinegun</texPath>
@@ -546,7 +547,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>60000</WorkToMake>
+      <WorkToMake>75000</WorkToMake>
       <Mass>10</Mass>
       <AccuracyTouch>0.15</AccuracyTouch>
       <AccuracyShort>0.25</AccuracyShort>
@@ -667,7 +668,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>45000</WorkToMake>
+      <WorkToMake>75000</WorkToMake>
       <Mass>7</Mass>
       <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
     </statBases>
