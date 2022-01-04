@@ -284,21 +284,44 @@
     </tools>
   </ThingDef>
 
-  <!--==================================== 로열랜스 ====================================-->
+  <!--==================================== 스톰랜스 ====================================-->
 
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
-    <defName>PN_RoyalLance_Bladelink</defName>
-    <label>PnL royal lance</label>
+    <defName>PN_StormLance_Bladelink</defName>
+    <label>PnL storm lance</label>
     <description>...</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>4</Mass>
     </statBases>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Weapons/PNRoyalLance</texPath>
+   <graphicData Class="AutomataRace.GraphicData_Sprite">
+      <texPath>Things/Weapons/PNStormLance</texPath>
+      <graphicClass>AutomataRace.Graphic_Sprite</graphicClass>
       <color>(255,255,255)</color>
+      <totalFrameLength>170</totalFrameLength>
+      <keyFrames>
+        <li>
+          <frame>0</frame>
+          <index>0</index>
+        </li>
+        <li>
+          <frame>120</frame>
+          <index>1</index>
+        </li>
+        <li>
+          <frame>125</frame>
+          <index>2</index>
+        </li>
+        <li>
+          <frame>130</frame>
+          <index>0</index>
+        </li>
+        <li>
+          <frame>165</frame>
+          <index>1</index>
+        </li>
+      </keyFrames>
     </graphicData>
     <soundInteract>Interact_BladelinkZeusHammer</soundInteract>
     <meleeHitSound>MeleeHit_BladelinkZeusHammer</meleeHitSound>
