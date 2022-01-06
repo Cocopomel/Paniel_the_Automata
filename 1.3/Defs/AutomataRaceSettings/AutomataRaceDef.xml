@@ -300,13 +300,13 @@
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
               <hediffGraphics>
-                <PN_SyncAwful_Failure>Paniel/Heads/AwflFace/AwflFace</PN_SyncAwful_Failure>
+                <PN_SyncAwful_Failure>Paniel/Heads/Face/RareFace/AwflFace</PN_SyncAwful_Failure>
               </hediffGraphics>
             </li>
 
             <li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
-              <path>Paniel/Heads/AwflFace/Sleep/NonAwflSleep</path>
+              <path>Paniel/Heads/Face/RareFace/RareFaceBase</path>
               <bodyPart>PNHead</bodyPart>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
@@ -341,7 +341,7 @@
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
               <hediffGraphics>
-                <PN_SyncAwful_Failure>Paniel/Heads/AwflFace/Sleep/AwflSleep</PN_SyncAwful_Failure>
+                <PN_SyncAwful_Failure>Paniel/Heads/Face/RareFace/AwflSleep</PN_SyncAwful_Failure>
               </hediffGraphics>
             </li>
 
