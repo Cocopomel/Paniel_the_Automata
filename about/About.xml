@@ -55,4 +55,10 @@ and Rimworld Korea Discord members.
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>goudaquiche.MoharFramework</li>
 	</loadAfter>
+	<forceLoadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>brrainz.harmony</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>goudaquiche.MoharFramework</li>
+	</forceLoadAfter>
 </ModMetaData>
