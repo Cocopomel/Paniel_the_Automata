@@ -299,6 +299,50 @@
               <hiddenUnderApparelTag>
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
+              <hediffGraphics>
+                <PN_SyncAwful_Failure>Paniel/Heads/AwflFace/AwflFace</PN_SyncAwful_Failure>
+              </hediffGraphics>
+            </li>
+
+            <li Class="MoharCustomHAR.MoharBodyAddon">
+              <drawSize>1</drawSize>
+              <path>Paniel/Heads/AwflFace/Sleep/NonAwflSleep</path>
+              <bodyPart>PNHead</bodyPart>
+              <shaderType>CutoutComplex</shaderType>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <colorChannel>skin</colorChannel>
+              <drawnInBed>true</drawnInBed>
+              <drawIfDead>true</drawIfDead>
+              <drawnDesiccated>false</drawnDesiccated>
+              <alignWithHead>true</alignWithHead>
+              <angle>0</angle>
+              <offsets>
+                <north>
+                  <layerOffset>-0.279</layerOffset>
+                  <bodyTypes>
+                    <Female>(0,0)</Female>
+                  </bodyTypes>
+                </north>
+                <south>
+                  <layerOffset>-0.3245</layerOffset>
+                  <bodyTypes>
+                    <Female>(0,0)</Female>
+                  </bodyTypes>
+                </south>
+                <east>
+                  <layerOffset>-0.3245</layerOffset>
+                  <bodyTypes>
+                    <Female>(0,0)</Female>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelTag>
+                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
+              </hiddenUnderApparelTag>
+              <hediffGraphics>
+                <PN_SyncAwful_Failure>Paniel/Heads/AwflFace/Sleep/AwflSleep</PN_SyncAwful_Failure>
+              </hediffGraphics>
             </li>
 
             <li>
