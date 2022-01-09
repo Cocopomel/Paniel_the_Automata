@@ -65,8 +65,8 @@
           </thingDefs>
         </fuelFilter>
         <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
-        <fuelCapacity>15</fuelCapacity>
-        <fuelMultiplier>15</fuelMultiplier>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelMultiplier>10</fuelMultiplier>
         <initialFuelPercent>1</initialFuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
@@ -155,7 +155,18 @@
         </filter>
       </fixedStorageSettings>
       <defaultStorageSettings>
-
+        <filter>
+          <categories>
+            <li>PN_Shell</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>PN_Shell_AP</li>
+            <li>PN_Shell_EMP</li>
+            <li>PN_Shell_FF</li>
+            <li>PN_Shell_Smoke</li>
+            <li>PN_Shell_AG</li>
+          </disallowedThingDefs>
+        </filter>
       </defaultStorageSettings>
     </building>
   </ThingDef>
