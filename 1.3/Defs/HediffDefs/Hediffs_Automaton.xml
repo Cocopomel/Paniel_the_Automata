@@ -147,7 +147,19 @@
         <label>minor</label>
         <capMods>
           <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
             <capacity>Moving</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
             <offset>-0.1</offset>
           </li>
         </capMods>
@@ -157,7 +169,19 @@
         <label>moderate</label>
         <capMods>
           <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
             <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
             <offset>-0.2</offset>
           </li>
         </capMods>
@@ -167,7 +191,19 @@
         <label>severe</label>
         <capMods>
           <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+          <li>
             <capacity>Moving</capacity>
+            <offset>-0.4</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.4</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
             <offset>-0.4</offset>
           </li>
         </capMods>
@@ -178,8 +214,20 @@
         <lifeThreatening>true</lifeThreatening>
         <capMods>
           <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
             <capacity>Moving</capacity>
-            <offset>-0.7</offset>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0.3</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.3</setMax>
           </li>
         </capMods>
       </li>
