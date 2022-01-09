@@ -222,7 +222,7 @@
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1800</basePowerConsumption>
+        <basePowerConsumption>3600</basePowerConsumption>
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>240</wickTicks>
