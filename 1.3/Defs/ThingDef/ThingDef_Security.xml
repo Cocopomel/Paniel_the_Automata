@@ -14,7 +14,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(3,3)</drawSize>
     </graphicData>
-    <minifiedDef>MinifiedThing</minifiedDef>
+    <minifiedDef />
     <!--<altitudeLayer>MoteOverhead</altitudeLayer>-->
     <altitudeLayer>Building</altitudeLayer>
     <hasInteractionCell>True</hasInteractionCell>
@@ -24,9 +24,7 @@
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
-    <thingCategories>
-      <li>BuildingsSecurity</li>
-    </thingCategories>
+    <thingCategories Inherit="false" />
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -185,7 +183,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(3,3)</drawSize>
     </graphicData>
-    <minifiedDef>MinifiedThing</minifiedDef>
+    <minifiedDef />
     <!--<altitudeLayer>MoteOverhead</altitudeLayer>-->
     <altitudeLayer>Building</altitudeLayer>
     <hasInteractionCell>True</hasInteractionCell>
@@ -195,9 +193,7 @@
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
-    <thingCategories>
-      <li>BuildingsSecurity</li>
-    </thingCategories>
+    <thingCategories Inherit="false" />
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
@@ -217,6 +213,8 @@
     </inspectorTabs>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
@@ -227,7 +225,7 @@
       <li Class="CompProperties_Explosive">
         <wickTicks>240</wickTicks>
         <explosiveRadius>5.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveDamageType>EMP</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
       <li Class="CompProperties_Refuelable">
