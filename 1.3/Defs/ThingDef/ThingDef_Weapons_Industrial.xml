@@ -685,7 +685,8 @@
         <forcedMissRadius>0.1</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>44.9</range>
+        <minRange>4.9</minRange>
+        <range>500</range>
         <burstShotCount>1</burstShotCount>
         <soundAiming>PN_PrototypeRailGun_Warmup_Sound</soundAiming>
         <soundCast>PN_PrototypeRailGun_Fire_Sound</soundCast>
@@ -765,7 +766,7 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>BombSuper</damageDef>
-      <speed>205</speed>
+      <speed>410</speed>
       <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
