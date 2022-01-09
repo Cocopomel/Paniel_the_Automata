@@ -595,13 +595,6 @@
   </ThingDef>
 
   <!--레일건-->
-  <ThingCategoryDef>
-    <defName>PN_RailgunShell</defName>
-    <label>PnL Railgun Shell</label>
-    <parent>PN_AutomatonCatagory</parent>
-    <iconPath>UI/Icons/PNCT_PNShell</iconPath>
-  </ThingCategoryDef>
-
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_RG</defName>
     <label>PnL Railgun shell</label>
@@ -616,25 +609,22 @@
       <Flammability>1.0</Flammability>
       <DeteriorationRate>1.5</DeteriorationRate>
     </statBases>
-    <thingCategories Inherit="false">
-      <li>PN_RailgunShell</li>
-    </thingCategories>
     <comps>
 
     </comps>
     <costList>
-      <Uranium>15</Uranium>
-      <Steel>25</Steel>
+      <Uranium>30</Uranium>
+      <Steel>50</Steel>
     </costList>
     <costListForDifficulty>
       <difficultyVar>classicMortars</difficultyVar>
       <costList>
-        <Uranium>25</Uranium>
-        <Steel>25</Steel>
+        <Uranium>50</Uranium>
+        <Steel>50</Steel>
       </costList>
     </costListForDifficulty>
   </ThingDef>
-  
+
   <!--<ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_Shell_RG</defName>
     <label>Railgun shell</label>

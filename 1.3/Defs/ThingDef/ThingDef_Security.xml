@@ -147,9 +147,15 @@
     <building>
       <fixedStorageSettings>
         <filter>
-          <categories>
-            <li>PN_Shell</li>
-          </categories>
+          <thingDefs>
+            <li>PN_Shell_HE</li>
+            <li>PN_Shell_AP</li>
+            <li>PN_Shell_CI</li>
+            <li>PN_Shell_EMP</li>
+            <li>PN_Shell_FF</li>
+            <li>PN_Shell_Smoke</li>
+            <li>PN_Shell_AG</li>
+          </thingDefs>
         </filter>
       </fixedStorageSettings>
       <defaultStorageSettings>
@@ -324,16 +330,16 @@
     <building>
       <fixedStorageSettings>
         <filter>
-          <categories>
-            <li>PN_RailgunShell</li>
-          </categories>
+          <thingDefs>
+            <li>PN_Shell_RG</li>
+          </thingDefs>
         </filter>
       </fixedStorageSettings>
       <defaultStorageSettings>
         <filter>
-          <categories>
-            <li>PN_RailgunShell</li>
-          </categories>
+          <thingDefs>
+            <li>PN_Shell_RG</li>
+          </thingDefs>
         </filter>
       </defaultStorageSettings>
     </building>
