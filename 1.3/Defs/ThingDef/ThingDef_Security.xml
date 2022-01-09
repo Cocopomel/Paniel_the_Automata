@@ -273,7 +273,7 @@
     <researchPrerequisites>
       <li>PNRP_AutoArtillery</li>
     </researchPrerequisites>
-    <uiIconPath>Things/Building/PN_Artillery_Ui</uiIconPath>
+    <uiIconPath>Things/Building/PN_Railgun_Ui</uiIconPath>
     <uiIconScale>0.9</uiIconScale>
   </ThingDef>
 
