@@ -447,6 +447,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -523,6 +526,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -606,6 +612,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -682,6 +691,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -767,6 +779,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -845,6 +860,9 @@
       </layers>
       <tags>
         <li>Paniel_Basic</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
       </tags>
       <defaultOutfitTags>
 
@@ -886,6 +904,13 @@
     <apparel>
       <tags Inherit="false">
         <li>PN_RoyalApparel</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
       </tags>
     </apparel>
     <thingCategories Inherit="False">
@@ -893,7 +918,7 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Abstract="True" Name="PN_RoyalHatBase" ParentName="PN_ApparelBase">
+  <ThingDef Abstract="True" Name="PN_RoyalHatBase" ParentName="PN_RoyalApparelBase">
     <thingCategories Inherit="False">
       <li>PNRoyalHeadgear</li>
     </thingCategories>
