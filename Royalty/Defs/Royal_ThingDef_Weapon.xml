@@ -347,6 +347,7 @@
         </capacities>
         <power>32</power>
         <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
           <li>
             <def>EMP</def>
@@ -361,6 +362,7 @@
         </capacities>
         <power>32</power>
         <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
           <li>
             <def>EMP</def>
