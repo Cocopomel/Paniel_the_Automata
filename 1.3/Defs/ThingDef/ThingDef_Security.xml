@@ -205,7 +205,7 @@
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <costList>
       <Steel>150</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentSpacer>12</ComponentSpacer>
       <PN_BrainCasing>1</PN_BrainCasing>
     </costList>
     <inspectorTabs>
@@ -271,7 +271,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>PNRP_AutoArtillery</li>
+      <li>PNRP_Railgun</li>
     </researchPrerequisites>
     <uiIconPath>Things/Building/PN_Railgun_Ui</uiIconPath>
     <uiIconScale>0.9</uiIconScale>

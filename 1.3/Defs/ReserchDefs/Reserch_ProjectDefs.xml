@@ -237,6 +237,21 @@
     <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>PNRP_Railgun</defName>
+    <label>PnL Railgun</label>
+    <description>Research how to craft basic PnL Railgun.</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>PNRP_AutoArtillery</li>
+      <li>PNRP_RoyalWeapons</li>
+    </prerequisites>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>4.2</researchViewY>
+  </ResearchProjectDef>
+
   <!--==================================== 동면관 ====================================-->
   <!--<ResearchProjectDef>
     <defName>PNRP_CryptosleepCasket</defName>
