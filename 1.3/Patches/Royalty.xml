@@ -40,6 +40,20 @@
             </prerequisites>
           </value>
         </li>
+        <!--상선청사진-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "PN_Orbital_PnLindustry"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Techprint_CataphractArmor</thingDef>
+              <countRange>-2~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Techprint_BrainWiring</thingDef>
+              <countRange>-2~1</countRange>
+            </li>
+          </value>
+        </li>
       </operations>
     </match>
   </Operation>

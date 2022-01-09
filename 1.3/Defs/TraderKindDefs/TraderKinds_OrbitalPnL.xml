@@ -85,11 +85,11 @@
       <!-- Weapons -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_PrototypeRailGun</thingDef>
-        <countRange>1~1</countRange>
+        <countRange>-2~1</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
         <weaponTag>PN_Bladelink</weaponTag>
-        <countRange>1~1</countRange>
+        <countRange>-2~1</countRange>
       </li>
 
       <!-- Apparel -->
@@ -104,18 +104,7 @@
 
       <!-- Animals -->
 
-      <!-- Techprints -->
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Techprint_CataphractArmor</thingDef>
-        <countRange>-2~1</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Techprint_BrainWiring</thingDef>
-        <countRange>-2~1</countRange>
-      </li>
-
       <!-- Buying -->
-      <li Class="StockGenerator_BuyExpensiveSimple" />
 
     </stockGenerators>
   </TraderKindDef>
