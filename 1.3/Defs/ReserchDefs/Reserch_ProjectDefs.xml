@@ -37,6 +37,7 @@
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_Production</li>
       <li>Prosthetics</li>
@@ -56,6 +57,7 @@
     <tab>PN_technology</tab>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_Brain</li>
     </prerequisites>
@@ -70,6 +72,10 @@
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <prerequisites>
       <li>PNRP_Brain</li>
       <li>Bionics</li>
@@ -88,6 +94,7 @@
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_Production</li>
       <li>MicroelectronicsBasics</li>
@@ -103,6 +110,7 @@
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_SelfRepairKit</li>
     </prerequisites>
@@ -134,6 +142,7 @@
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_TierA_Apparel</li>
       <li>MicroelectronicsBasics</li>
@@ -150,6 +159,10 @@
     <tab>PN_technology</tab>
     <baseCost>6500</baseCost>
     <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <prerequisites>
       <li>PNRP_TierB_Apparel</li>
       <li>PoweredArmor</li>
@@ -182,12 +195,13 @@
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_AutomatonWeapons</li>
       <li>MultibarrelWeapons</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -197,13 +211,14 @@
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_AutomatonWeapons</li>
       <li>Mortars</li>
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>4.2</researchViewY>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -213,12 +228,13 @@
     <tab>PN_technology</tab>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
       <li>PNRP_Cannon</li>
       <li>HeavyTurrets</li>
     </prerequisites>
-    <researchViewX>4.0</researchViewX>
-    <researchViewY>4.2</researchViewY>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -228,8 +244,13 @@
     <tab>PN_technology</tab>
     <baseCost>500</baseCost>
     <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <prerequisites>
       <li>ChargedShot</li>
+      <li>PNRP_AutomatonWeapons</li>
       <li>PNRP_MachineGun</li>
       <li>PNRP_Cannon</li>
     </prerequisites>
@@ -244,12 +265,17 @@
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <prerequisites>
+      <li>SniperTurret</li>
       <li>PNRP_AutoArtillery</li>
       <li>PNRP_RoyalWeapons</li>
     </prerequisites>
     <researchViewX>5.0</researchViewX>
-    <researchViewY>4.2</researchViewY>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <!--==================================== 동면관 ====================================-->
