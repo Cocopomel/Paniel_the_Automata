@@ -12,7 +12,7 @@
     <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
     <hidden>true</hidden>
     <autoFlee>false</autoFlee>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <rescueesCanJoin>false</rescueesCanJoin>
     <backstoryCategories>
       <li>Offworld</li>
@@ -38,42 +38,271 @@
 
   <!--행성지부(NPC)-->
   <!--<FactionDef ParentName="FactionBase">
-    <defName>PN_BranchOfficeFaction</defName>
-    <label>PnL Industry branch office</label>
+    <defName>PN_SubsidiaryFaction</defName>
+    <label>PnL Subsidiary</label>
     <pawnSingular>Employee</pawnSingular>
     <pawnsPlural>Employees</pawnsPlural>
     <listOrderPriority>50</listOrderPriority>
-    <settlementGenerationWeight>0.25</settlementGenerationWeight>
+    <settlementGenerationWeight>0.20</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <canSiege>false</canSiege>
-    <canStageAttacks>false</canStageAttacks>
-    <humanlikeFaction>true</humanlikeFaction>
-    <canUseAvoidGrid>true</canUseAvoidGrid>
-    <leaderTitle>Branch manager</leaderTitle>
-    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
-    <settlementNameMaker>NamerSettlementPnL</settlementNameMaker>
-    <raidLootMaker>PnLRaidLootMaker</raidLootMaker>
-    <techLevel>Industrial</techLevel>
-    <backstoryCategories>
-      <li>Offworld</li>
-    </backstoryCategories>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>CEO</leaderTitle>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <colorSpectrum>
+      <li>(0.35, 0.30, 0.60)</li>
+      <li>(0.45, 0.40, 0.90)</li>
+    </colorSpectrum>
+    <classicIdeo>false</classicIdeo>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>50</configurationListOrderPriority>
+    <techLevel>Spacer</techLevel>
+    <factionNameMaker>NamerFactionPnLSub</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPnLSub</settlementNameMaker>
     <allowedCultures>
-      <li>Astropolitan</li>
+      <li>PN_PnLindistryCulture</li>
     </allowedCultures>
     <allowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </allowedMemes>
     <requiredMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
     </requiredMemes>
     <disallowedPrecepts>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
-  </FactionDef>-->
+    <backstoryCategories>
+      <li>Offworld</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <caravanTraderKinds>
+      <li>PN_Caravan_PnLindustry</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>PN_SubsidiaryRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Villager>5</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite>
+          <Town_Councilman>10</Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Villager>20</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Town_Councilman>10</Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <Villager>3</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Villager>10</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite>
+          <Town_Councilman>10</Town_Councilman>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Miner>1</Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Hunter>1</Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Logger>1</Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <Farmer>1</Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <ThingSetMakerDef>
+    <defName>PN_SubsidiaryRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>ComponentIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+
+  <RulePackDef>
+    <defName>NamerFactionPnLSub</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->PnL Subsidiary</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerSettlementPnLSub</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)->[townname_wordgen]</li>
+        <li>r_name(p=4)->[townname_combo]</li>
+
+        <li>townname_combo(p=2)->[concept_positive] [PNSub]</li>
+        <li>townname_combo(p=3)->[Character]'s [PNSub]</li>
+
+        <li>nearnameinitial->[townname_wordgen]</li>
+
+        <li>townname_wordgen(p=2)->[SylE] [PNSub]</li>
+        <li>townname_wordgen(p=2)->[SylE][SylE] [PNSub]</li>
+        <li>townname_wordgen->[TerrainFeature] [PNSub]</li>
+        <li>PNSub->branch</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>concept_positive->Words/Nouns/Concepts_Positive</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <CultureDef>
+    <defName>PN_PnLindistryCulture</defName>
+    <label>PnL indistry</label>
+    <description>...</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeo_PnLindistry</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeity_PnLindistry</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMaker_PnLindistry</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_PnLindistry</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
+    <allowedPlaceTags>
+      <li>OriginSpacer</li>
+    </allowedPlaceTags>
+    <iconPath>UI/Cultures/Astropolitan</iconPath>
+    <iconColor>(0.8, 0.8, 0.8)</iconColor>
+    <styleItemTags>
+      <li>
+        <tag>Urban</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+  <RulePackDef>
+    <defName>NamerIdeo_PnLindistry</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ideoName->PnL Industry Culture</li>
+        <li>r_ideoAdjective->PnLic</li>
+        <li>r_memberName->Employee</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerDeity_PnLindistry</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityName->PnL</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>DeityTypeMaker_PnLindistry</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->God of Capitalism</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_PnLindistry</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->CEO</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>-->
 </Defs>
