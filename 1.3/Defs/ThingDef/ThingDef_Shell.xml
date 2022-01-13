@@ -602,7 +602,7 @@
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAP</texPath>
     </graphicData>
-    <projectileWhenLoaded>PN_Bullet_RailGun</projectileWhenLoaded>
+    <projectileWhenLoaded>PN_Bullet_Shell_RG</projectileWhenLoaded>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>1.25</Mass>
@@ -625,20 +625,19 @@
     </costListForDifficulty>
   </ThingDef>
 
-  <!--<ThingDef ParentName="PN_BaseBullet">
+  <ThingDef ParentName="BaseBullet">
     <defName>PN_Bullet_Shell_RG</defName>
-    <label>Railgun shell</label>
+    <label>railgun shell</label>
     <graphicData>
       <texPath>Things/Projectile/ChargeLanceShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>40</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.24</armorPenetrationBase>
+      <damageDef>BombSuper</damageDef>
       <speed>410</speed>
+      <explosionRadius>2.4</explosionRadius>
     </projectile>
-  </ThingDef>-->
+  </ThingDef>
 </Defs>

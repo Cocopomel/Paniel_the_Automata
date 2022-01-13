@@ -230,7 +230,7 @@
       </li>
       <li Class="CompProperties_Explosive">
         <wickTicks>240</wickTicks>
-        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveRadius>14.9</explosiveRadius>
         <explosiveDamageType>EMP</explosiveDamageType>
         <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
       </li>
@@ -244,8 +244,8 @@
           </thingDefs>
         </fuelFilter>
         <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
-        <fuelCapacity>2</fuelCapacity>
-        <fuelMultiplier>2</fuelMultiplier>
+        <fuelCapacity>1</fuelCapacity>
+        <fuelMultiplier>1</fuelMultiplier>
         <initialFuelPercent>1</initialFuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
