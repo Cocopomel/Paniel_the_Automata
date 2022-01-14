@@ -101,26 +101,7 @@
       </li>
     </comps>
     <stages>
-      <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.10</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.20</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>-0.20</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>-0.20</offset>
-          </li>
-        </capMods>
-      </li>
+
     </stages>
   </HediffDef>
   <HediffDef>
@@ -150,26 +131,7 @@
       </li>
     </comps>
     <stages>
-      <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>-0.30</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>-0.50</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>-0.50</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>-0.50</offset>
-          </li>
-        </capMods>
-      </li>
+
     </stages>
   </HediffDef>
 

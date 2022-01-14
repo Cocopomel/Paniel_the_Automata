@@ -9,7 +9,7 @@
   <ThingCategoryDef>
     <defName>PNApparelModule</defName>
     <label>Automaton Module</label>
-    <parent>PN_AutomatonCatagory</parent>
+    <parent>PNApparel</parent>
     <iconPath>Things/Item/PNModuleIndustrial</iconPath>
   </ThingCategoryDef>
 
