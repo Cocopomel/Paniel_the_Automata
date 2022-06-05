@@ -186,18 +186,17 @@
       <li Class="CompProperties_Styleable"></li>
     </comps>
     <verbs>
-      <li Class="TorgueAnty.Verb_Properties_ShotGun">
-        <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_TwinPistol</defaultProjectile>
         <warmupTime>0.35</warmupTime>
         <range>12.9</range>
-        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <burstShotCount>12</burstShotCount>
         <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <pelletCount>2</pelletCount>
       </li>
     </verbs>
     <weaponTags>
@@ -241,7 +240,7 @@
     <label>PnL twin pistol bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>5</damageAmountBase>
+      <damageAmountBase>4</damageAmountBase>
       <stoppingPower>0.5</stoppingPower>
       <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>70</speed>
@@ -515,7 +514,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
       <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.24</armorPenetrationBase>
+      <armorPenetrationBase>0.38</armorPenetrationBase>
       <speed>100</speed>
     </projectile>
     <graphicData>

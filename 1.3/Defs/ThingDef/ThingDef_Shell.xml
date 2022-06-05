@@ -180,14 +180,6 @@
       <Steel>25</Steel>
       <Chemfuel>30</Chemfuel>
     </costList>
-    <costListForDifficulty>
-      <difficultyVar>classicMortars</difficultyVar>
-      <costList>
-        <Uranium>25</Uranium>
-        <Steel>25</Steel>
-        <Chemfuel>30</Chemfuel>
-      </costList>
-    </costListForDifficulty>
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet_Shell">
@@ -607,7 +599,7 @@
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAP</texPath>
     </graphicData>
-    <projectileWhenLoaded>PN_Bullet_Shell_RG</projectileWhenLoaded>
+    <projectileWhenLoaded>PN_Bullet_RailGun</projectileWhenLoaded>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>1.25</Mass>
@@ -621,28 +613,5 @@
       <Uranium>30</Uranium>
       <Steel>50</Steel>
     </costList>
-    <costListForDifficulty>
-      <difficultyVar>classicMortars</difficultyVar>
-      <costList>
-        <Uranium>50</Uranium>
-        <Steel>50</Steel>
-      </costList>
-    </costListForDifficulty>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>PN_Bullet_Shell_RG</defName>
-    <label>railgun shell</label>
-    <graphicData>
-      <texPath>Things/Projectile/ChargeLanceShot</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>BombSuper</damageDef>
-      <speed>410</speed>
-      <explosionRadius>2.4</explosionRadius>
-    </projectile>
   </ThingDef>
 </Defs>

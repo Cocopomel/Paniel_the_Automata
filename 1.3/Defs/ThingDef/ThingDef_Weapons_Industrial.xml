@@ -765,37 +765,18 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>BombSuper</damageDef>
+      <damageDef>PN_BombRG</damageDef>
       <speed>410</speed>
       <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
 
-  <!--<DamageDef>
-    <defName>PN_Bomb_RailGun</defName>
-    <label>bomb</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <isExplosive>true</isExplosive>
-    <deathMessage>{0} has died in an explosion.</deathMessage>
-    <hediff>Shredded</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <minDamageToFragment>300</minDamageToFragment>
-    <defaultDamage>500</defaultDamage>
-    <defaultStoppingPower>5.0</defaultStoppingPower>
-    <defaultArmorPenetration>2.0</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
-    <plantDamageFactor>4</plantDamageFactor>
-    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
-    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
-    <explosionCellFleck>BlastDry</explosionCellFleck>
-    <explosionColorCenter>(0, 0, 0)</explosionColorCenter>
-    <explosionColorEdge>(0, 0, 0)</explosionColorEdge>
-    <soundExplosion>Explosion_Bomb</soundExplosion>
-    <combatLogRules>Damage_Bomb</combatLogRules>
-  </DamageDef>-->
+  <DamageDef ParentName="Bomb">
+    <defName>PN_BombRG</defName>
+    <defaultDamage>550</defaultDamage>
+    <defaultStoppingPower>2.0</defaultStoppingPower>
+    <defaultArmorPenetration>1.30</defaultArmorPenetration>
+    <explosionColorCenter>(0.6, 0.5, 0.4)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+  </DamageDef>
 </Defs>

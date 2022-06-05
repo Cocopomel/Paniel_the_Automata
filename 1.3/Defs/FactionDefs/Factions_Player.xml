@@ -17,6 +17,9 @@
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
     <backstoryCategories>
       <li>Offworld</li>
     </backstoryCategories>

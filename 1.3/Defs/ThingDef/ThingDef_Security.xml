@@ -268,7 +268,7 @@
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
       <turretBurstWarmupTime>4.5</turretBurstWarmupTime>
-      <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
+      <turretBurstCooldownTime>7.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
     </building>
