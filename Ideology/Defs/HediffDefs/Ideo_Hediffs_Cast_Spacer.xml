@@ -267,10 +267,10 @@
           <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
         <statFactors>
-          <MedicalTendSpeed>1.20</MedicalTendSpeed>
-          <MedicalTendQuality>1.20</MedicalTendQuality>
-          <MedicalOperationSpeed>1.20</MedicalOperationSpeed>
-          <MedicalSurgerySuccessChance>1.20</MedicalSurgerySuccessChance>
+          <MedicalTendSpeed>1.50</MedicalTendSpeed>
+          <MedicalTendQuality>1.50</MedicalTendQuality>
+          <MedicalOperationSpeed>1.50</MedicalOperationSpeed>
+          <MedicalSurgerySuccessChance>1.50</MedicalSurgerySuccessChance>
         </statFactors>
       </li>
     </stages>

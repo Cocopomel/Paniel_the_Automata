@@ -439,7 +439,7 @@
         <statFactors>
           <PlantWorkSpeed>0.70</PlantWorkSpeed>
           <MedicalTendSpeed>1.20</MedicalTendSpeed>
-          <MedicalOperationSpeed>1.00</MedicalOperationSpeed>
+          <MedicalOperationSpeed>1.20</MedicalOperationSpeed>
           <ButcheryFleshSpeed>0.70</ButcheryFleshSpeed>
           <CookSpeed>0.70</CookSpeed>
         </statFactors>
