@@ -400,16 +400,16 @@
     </graphicData>
   </ThingDef>
 
-  <!--==================================== 로열 핸드캐논 ====================================-->
+  <!--==================================== 로열 헤비 슬러그 ====================================-->
 
   <ThingDef ParentName="PN_BaseMakeableGun">
-    <defName>PN_RoyalHandCannon</defName>
-    <label>PnL royal hand cannon</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <defName>PN_RoyalHeavySlug</defName>
+    <label>PnL royal heavy slug rifle</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
-      <texPath>Things/Weapons/PNRoyalHandcannon</texPath>
+      <texPath>Things/Weapons/PNRoyalHeavyslug</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -441,11 +441,11 @@
       <li Class="CompProperties_Styleable"></li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
-          <texPath>Things/Weapons/SYS/PNRoyalHandcannon_Sheath</texPath>
+          <texPath>Things/Weapons/SYS/PNRoyalHeavyslug_Sheath</texPath>
           <graphicClass>Graphic_Single</graphicClass>
         </sheathOnlyGraphicData>
         <fullGraphicData>
-          <texPath>Things/Weapons/SYS/PNRoyalHandcannon_Full</texPath>
+          <texPath>Things/Weapons/SYS/PNRoyalHeavyslug_Full</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
         </fullGraphicData>
         <drawPosition>Back</drawPosition>
@@ -471,7 +471,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_HandCannon</defaultProjectile>
+        <defaultProjectile>PN_Bullet_HeavySlug</defaultProjectile>
         <warmupTime>0.7</warmupTime>
         <range>12.9</range>
         <soundCast>PNRoyalHCSound</soundCast>
@@ -508,8 +508,8 @@
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet">
-    <defName>PN_Bullet_HandCannon</defName>
-    <label>PnL hand cannon bullet</label>
+    <defName>PN_Bullet_HeavySlug</defName>
+    <label>PnL heavy slug bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>40</damageAmountBase>
