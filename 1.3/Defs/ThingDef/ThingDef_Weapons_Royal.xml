@@ -255,7 +255,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
     <label>PnL royal rifle</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
@@ -405,7 +405,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalHeavySlug</defName>
     <label>PnL royal heavy slug rifle</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyla guard rifle produced by PnL industry.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
