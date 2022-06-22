@@ -1252,10 +1252,10 @@
 
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmeisterHatWithMonocle</defName>
-    <label>PnL royal meister hat with monocle</label>
+    <label>PnL royal meister hat w/monocle</label>
     <description>This is the hat with monocle worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
-      <texPath>Things/Apparel/hats/PNRoyalmaidhat1</texPath>
+      <texPath>Things/Apparel/hats/PNRoyalmeisterhatwm1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -1297,7 +1297,84 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/hats/PNRoyalmaidhat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmeisterhatwm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Basic</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmeisterMonocle</defName>
+    <label>PnL royal meister monocle</label>
+    <description>This is the monocle worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmeistermonocle1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmeistermonocle</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
