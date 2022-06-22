@@ -4,7 +4,7 @@
     <defName>PN_Need_Fuel</defName>
     <needClass>Need_Chemical</needClass>
     <label>Automaton Fuel</label>
-    <description>The amount of fuel used by the automaton. When the gauge reaches zero, the automaton will shut down.</description>
+    <description>The amount of fuel used by the automaton. When the gauge reaches zero, The automaton will enter emergency power mode and become very slow.</description>
     <listPriority>984</listPriority>
     <fallPerDay>0.20</fallPerDay>
     <freezeWhileSleeping>true</freezeWhileSleeping>
