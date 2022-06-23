@@ -8,12 +8,6 @@
     </value>
   </Operation>
 
-  <!--<Operation Class="PatchOperationAttributeAdd">
-    <xpath>Defs/TraderKindDef[defName="Base_Outlander_Standard"]</xpath>
-    <attribute>Name</attribute>
-    <value>BaseOutlanderTraderKind</value>
-  </Operation>-->
-
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/FactionDef[defName = "OutlanderCivil"]/caravanTraderKinds</xpath>
     <nomatch Class="PatchOperationAdd">

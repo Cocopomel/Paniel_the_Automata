@@ -20,6 +20,7 @@
       <defaultOutfitTags Inherit="false">
         <li>PNApparel</li>
       </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <thingCategories Inherit="False">
       <li>PNApparel</li>
@@ -912,6 +913,7 @@
         <li>RoyalTier6</li>
         <li>RoyalTier7</li>
       </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <thingCategories Inherit="False">
       <li>PNRoyalApparel</li>
