@@ -244,8 +244,6 @@ This implant cannot be removed after installation.</description>
           <li>PN_SyncLegendary_Domestic</li>
 
           <li>PN_SyncGood_Testsubject</li>
-          <li>PN_SyncAwful_Failure</li>
-          <li>PN_SyncPoor_Failure</li>
 
           <li>PN_Learning_Limit_System</li>
         </hediffToNullify>

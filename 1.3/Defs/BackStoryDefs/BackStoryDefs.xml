@@ -103,11 +103,7 @@
 
     </skillGains>
     <workDisables>
-      <li>ManualSkilled</li>
-      <li>Caring</li>
-      <li>Artistic</li>
-      <li>Social</li>
-      <li>Intellectual</li>
+
     </workDisables>
     <spawnCategories>
       <li>Paniel_Story_Awful</li>
@@ -307,7 +303,6 @@
     <workDisables>
       <li>ManualSkilled</li>
       <li>Caring</li>
-      <li>Artistic</li>
       <li>Social</li>
       <li>Intellectual</li>
       <li>Animals</li>
@@ -317,6 +312,12 @@
       <li>Hauling</li>
       <li>ManualDumb</li>
     </workDisables>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>20</amount>
+      </li>
+    </skillGains>
     <spawnCategories>
       <li>Paniel_Story_FailureA</li>
     </spawnCategories>
@@ -334,10 +335,10 @@
     <workDisables>
       <li>ManualSkilled</li>
       <li>Caring</li>
-      <li>Artistic</li>
       <li>Social</li>
       <li>Intellectual</li>
       <li>Animals</li>
+      <li>Violent</li>
     </workDisables>
     <spawnCategories>
       <li>Paniel_Story_FailureB</li>
@@ -884,7 +885,7 @@
       <li>PN_Give_Legendary_Domestic</li>
     </forcedHediffs>
   </AlienRace.BackstoryDef>
-  
+
   <!--==================================== 실험체 ====================================-->
 
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
