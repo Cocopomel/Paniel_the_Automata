@@ -77,8 +77,8 @@
   <PN_SyncGood_Testsubject.label>실험 모델 (상급)</PN_SyncGood_Testsubject.label>
   <PN_SyncAwful_Failure.description>이 오토마톤은 생산된 후 끔찍 등급을 받았습니다.</PN_SyncAwful_Failure.description>
   <PN_SyncAwful_Failure.label>실패작 (끔찍)</PN_SyncAwful_Failure.label>
-  <PN_SyncGood_Failure.description>이 오토마톤은 생산된 후 빈약 등급을 받았습니다.</PN_SyncGood_Failure.description>
-  <PN_SyncGood_Failure.label>실패작 (빈약)</PN_SyncGood_Failure.label>
+  <PN_SyncPoor_Failure.description>이 오토마톤은 생산된 후 빈약 등급을 받았습니다.</PN_SyncPoor_Failure.description>
+  <PN_SyncPoor_Failure.label>실패작 (빈약)</PN_SyncPoor_Failure.label>
   <PN_SyncNormal_Modified.description>이 오토마톤은 생산된 후 허가되지 않은 방법으로 개조되었습니다.</PN_SyncNormal_Modified.description>
   <PN_SyncNormal_Modified.label>개조된 모델</PN_SyncNormal_Modified.label>
   <PN_ExperimentalModuleHediff.label>커스텀 코어 임플란트</PN_ExperimentalModuleHediff.label>
