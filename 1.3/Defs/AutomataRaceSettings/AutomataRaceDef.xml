@@ -674,20 +674,35 @@
           <!--의상-->
           <li>PN_ApparelBasic</li>
           <li>PN_ApparelBasicHat</li>
+
           <li>PN_ApparelCape</li>
+
           <li>PN_ApparelMilitia</li>
           <li>PN_ApparelMilitiaHat</li>
-          <li>PN_ApparelMaid</li>
-          <li>PN_ApparelMaidHat</li>
-          <li>PN_ApparelWorker</li>
-          <li>PN_ApparelWorkerHat</li>
+
           <li>PN_ApparelSoldier</li>
           <li>PN_ApparelSoldierHat</li>
+
+          <li>PN_ApparelWorker</li>
+          <li>PN_ApparelWorkerHat</li>
+
+          <li>PN_ApparelMaid</li>
+          <li>PN_ApparelMaidHat</li>
+
           <li>PN_ApparelRoyalguard</li>
           <li>PN_ApparelRoyalguardHat</li>
+
+          <li>PN_ApparelRoyalmeister</li>
+          <li>PN_ApparelRoyalmeisterHat</li>
+          <li>PN_ApparelRoyalmeisterHatWithMonocle</li>
+          <li>PN_ApparelRoyalmeisterMonocle</li>
+
           <li>PN_ApparelRoyalmaid</li>
           <li>PN_ApparelRoyalmaidHat</li>
 
+          <li>PN_EliteSecurityUniform</li>
+          <li>PN_EliteSecurityHat</li>
+          
           <!--모듈-->
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
