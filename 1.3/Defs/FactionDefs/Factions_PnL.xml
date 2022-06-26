@@ -47,7 +47,7 @@
     <pawnSingular>Employee</pawnSingular>
     <pawnsPlural>Employees</pawnsPlural>
     <listOrderPriority>50</listOrderPriority>
-    <settlementGenerationWeight>0</settlementGenerationWeight>
+    <settlementGenerationWeight>0.20</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -278,9 +278,12 @@
 
   <RulePackDef>
     <defName>NamerSettlementPnLSub</defName>
+    <include>
+      <li>PN_NamerUtility</li>
+    </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name->logistics center</li>
+        <li>r_name->[PNAZ][PN09][PN09] logistics center</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

@@ -22,6 +22,8 @@
           <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
           <value>
             <li>Paniel_PlayerFaction</li>
+            <li>PN_indistryFaction</li>
+            <li>PN_SubsidiaryFaction</li>
           </value>
         </li>
         <!-- 연구 -->
