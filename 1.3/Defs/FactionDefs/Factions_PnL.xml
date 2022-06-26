@@ -38,40 +38,6 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
-    <!--<caravanTraderKinds>
-      <li>PN_Caravan_PnLindustry</li>
-    </caravanTraderKinds>
-    <pawnGroupMakers>
-      <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <Town_Trader>1</Town_Trader>
-        </traders>
-        <carriers>
-          <Muffalo>6</Muffalo>
-          <Dromedary>5</Dromedary>
-          <Alpaca>2</Alpaca>
-          <Elephant>1</Elephant>
-        </carriers>
-        <guards>
-          <Villager>3</Villager>
-          <Town_Guard>10</Town_Guard>
-          <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
-          <Mercenary_Gunner>10</Mercenary_Gunner>
-          <Mercenary_Elite>10</Mercenary_Elite>
-        </guards>
-      </li>
-    </pawnGroupMakers>
-    <maxPawnCostPerTotalPointsCurve>
-      <points>
-        <li>(0,35)</li>
-        <li>(70, 50)</li>
-        <li>(700, 100)</li>
-        <li>(1300, 150)</li>
-        <li>(100000, 10000)</li>
-      </points>
-    </maxPawnCostPerTotalPointsCurve>-->
   </FactionDef>
 
   <!--행성지부(NPC)-->
@@ -149,6 +115,126 @@
       </points>
     </raidCommonalityFromPointsCurve>
     <pawnGroupMakers>
+
+      <!--
+      <PN_EmployeeH></PN_EmployeeH>
+      <PN_EmployeeP_EngineerA></PN_EmployeeP_EngineerA>
+      <PN_EmployeeP_EngineerB></PN_EmployeeP_EngineerB>
+      <PN_EmployeeP_DomesticA></PN_EmployeeP_DomesticA>
+      <PN_EmployeeP_DomesticB></PN_EmployeeP_DomesticB>
+
+      <PN_ManagerH></PN_ManagerH>
+      <PN_ManageUnit_Enginer></PN_ManageUnit_Enginer>
+      <PN_ManageUnit_Domestic></PN_ManageUnit_Domestic>
+
+      <PN_Director></PN_Director>
+
+      <PN_SecurityUnit></PN_SecurityUnit>
+
+      <PN_GrenadeUnit_Destructive></PN_GrenadeUnit_Destructive>
+      <PN_GrenadeUnit_EMP></PN_GrenadeUnit_EMP>
+      <PN_GrenadeUnit_Smoke></PN_GrenadeUnit_Smoke>
+
+      <PN_Mid_ClosetUnit></PN_Mid_ClosetUnit>
+      <PN_Mid_RangeUnit></PN_Mid_RangeUnit>
+
+      <PN_EliteCloseUnit></PN_EliteCloseUnit>
+      <PN_EliteRangeUnit></PN_EliteRangeUnit>
+      <PN_EliteHeavyUnit></PN_EliteHeavyUnit>
+      <PN_EliteCannonUnit></PN_EliteCannonUnit>
+      -->
+
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <PN_ManagerH>1</PN_ManagerH>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+
+          <PN_EmployeeH>6</PN_EmployeeH>
+          <PN_EmployeeP_EngineerA>2</PN_EmployeeP_EngineerA>
+          <PN_EmployeeP_EngineerB>1</PN_EmployeeP_EngineerB>
+          <PN_EmployeeP_DomesticA>2</PN_EmployeeP_DomesticA>
+          <PN_EmployeeP_DomesticB>1</PN_EmployeeP_DomesticB>
+
+          <Mercenary_Slasher>3</Mercenary_Slasher>
+          <Mercenary_Gunner>4</Mercenary_Gunner>
+          <PN_Mid_ClosetUnit>3</PN_Mid_ClosetUnit>
+          <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
+
+          <Mercenary_Elite>4</Mercenary_Elite>
+          <PN_EliteCloseUnit>2</PN_EliteCloseUnit>
+          <PN_EliteRangeUnit>2</PN_EliteRangeUnit>
+
+        </guards>
+      </li>
+      
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <PN_ManageUnit_Domestic>1</PN_ManageUnit_Domestic>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
+        </carriers>
+        <guards>
+          <PN_EmployeeH>6</PN_EmployeeH>
+          <PN_EmployeeP_EngineerA>2</PN_EmployeeP_EngineerA>
+          <PN_EmployeeP_EngineerB>1</PN_EmployeeP_EngineerB>
+          <PN_EmployeeP_DomesticA>2</PN_EmployeeP_DomesticA>
+          <PN_EmployeeP_DomesticB>1</PN_EmployeeP_DomesticB>
+
+          <Mercenary_Slasher>3</Mercenary_Slasher>
+          <Mercenary_Gunner>4</Mercenary_Gunner>
+          <PN_Mid_ClosetUnit>3</PN_Mid_ClosetUnit>
+          <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
+
+          <Mercenary_Elite>4</Mercenary_Elite>
+          <PN_EliteCloseUnit>2</PN_EliteCloseUnit>
+          <PN_EliteRangeUnit>2</PN_EliteRangeUnit>
+        </guards>
+      </li>
+
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <PN_EmployeeH>12</PN_EmployeeH>
+          <PN_EmployeeP_EngineerA>3</PN_EmployeeP_EngineerA>
+          <PN_EmployeeP_EngineerB>3</PN_EmployeeP_EngineerB>
+          <PN_EmployeeP_DomesticA>3</PN_EmployeeP_DomesticA>
+          <PN_EmployeeP_DomesticB>3</PN_EmployeeP_DomesticB>
+
+          <PN_ManagerH>3</PN_ManagerH>
+          <PN_ManageUnit_Enginer>3</PN_ManageUnit_Enginer>
+          <PN_ManageUnit_Domestic>3</PN_ManageUnit_Domestic>
+
+          <PN_Director>3</PN_Director>
+
+          <PN_SecurityUnit>6</PN_SecurityUnit>
+
+          <PN_GrenadeUnit_Destructive>2</PN_GrenadeUnit_Destructive>
+
+          <PN_Mid_ClosetUnit>2</PN_Mid_ClosetUnit>
+          <PN_Mid_RangeUnit>6</PN_Mid_RangeUnit>
+
+          <PN_EliteCloseUnit>2</PN_EliteCloseUnit>
+          <PN_EliteRangeUnit>2</PN_EliteRangeUnit>
+          <PN_EliteHeavyUnit>2</PN_EliteHeavyUnit>
+          <PN_EliteCannonUnit>2</PN_EliteCannonUnit>
+        </options>
+      </li>
+
+      <!--Combat-->
+
       <li>
         <kindDef>Combat</kindDef>
         <options>
@@ -166,38 +252,6 @@
         <options>
           <Villager>20</Villager>
           <Town_Guard>10</Town_Guard>
-          <Town_Councilman>10</Town_Councilman>
-        </options>
-      </li>
-      <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <Town_Trader>1</Town_Trader>
-        </traders>
-        <carriers>
-          <Muffalo>6</Muffalo>
-          <Dromedary>5</Dromedary>
-          <Alpaca>2</Alpaca>
-          <Elephant>1</Elephant>
-        </carriers>
-        <guards>
-          <Villager>3</Villager>
-          <Town_Guard>10</Town_Guard>
-          <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
-          <Mercenary_Gunner>10</Mercenary_Gunner>
-          <Mercenary_Elite>10</Mercenary_Elite>
-        </guards>
-      </li>
-      <li>
-        <kindDef>Settlement</kindDef>
-        <options>
-          <Villager>10</Villager>
-          <Town_Guard>10</Town_Guard>
-          <Grenadier_Destructive>1.5</Grenadier_Destructive>
-          <Mercenary_Slasher>7</Mercenary_Slasher>
-          <Mercenary_Gunner>10</Mercenary_Gunner>
-          <Mercenary_Elite>10</Mercenary_Elite>
           <Town_Councilman>10</Town_Councilman>
         </options>
       </li>

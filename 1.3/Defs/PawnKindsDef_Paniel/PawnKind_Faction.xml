@@ -286,6 +286,7 @@
 		<defName>PN_ManageUnit_Domestic</defName>
 		<label>manage unit</label>
 		<combatPower>75</combatPower>
+		<trader>true</trader>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>1~1</gearHealthRange>
