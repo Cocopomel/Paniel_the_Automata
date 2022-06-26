@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!--Structure-->
+  <!--Structure-->
 
   <MemeDef>
     <defName>PN_Structure</defName>
@@ -50,6 +50,9 @@
       </li>
       <li>
         <li>OrganUse_Acceptable</li>
+      </li>
+      <li>
+        <li>DrugUse_MedicalOrSocial</li>
       </li>
       <li>
         <li>Apostasy_Abhorrent</li>

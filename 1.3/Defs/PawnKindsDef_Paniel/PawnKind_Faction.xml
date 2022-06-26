@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- 폰카인드 베이스 
-	<PawnKindDef Name="PanielBasePawnKind" Abstract="True">
+	<!--폰카인드 베이스-->
+
+	<PawnKindDef Name="PN_PanielBasePawnKind" Abstract="True">
 		<race>Paniel_Race</race>
-		<defaultFactionType>PN_LiberatedFaction</defaultFactionType>
+		<defaultFactionType>PN_SubsidiaryFaction</defaultFactionType>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
-		<invNutrition>2</invNutrition>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<minGenerationAge>15</minGenerationAge>
-		<maxGenerationAge>15</maxGenerationAge>
-	</PawnKindDef>-->
-	
-  <!--템플릿
+		<invNutrition>1</invNutrition>
+		<minGenerationAge>1</minGenerationAge>
+		<maxGenerationAge>5</maxGenerationAge>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>0</techHediffsMoney>
+		<techHediffsTags>
+		</techHediffsTags>
+	</PawnKindDef>
+
+	<PawnKindDef Name="PN_HumanBasePawnKind" Abstract="True">
+		<race>Human</race>
+		<defaultFactionType>PN_SubsidiaryFaction</defaultFactionType>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<invNutrition>2.55</invNutrition>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<!--템플릿
 	<PawnKindDef ParentName="PanielBasePawnKind">
 		<defName>PN_</defName>
 		<label>Paniel </label>
@@ -43,4 +62,169 @@
 		</techHediffsTags>	
 	</PawnKindDef>
   -->
+
+	<!--Employee-->
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_EmployeeH</defName>
+		<label>PnL employee</label>
+		<combatPower>45</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<weaponTags>
+			<li>Gun</li>
+			<li>PN_Shovel</li>
+		</weaponTags>
+		<weaponMoney>125~250</weaponMoney>
+		<apparelMoney>200~400</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<techHediffsChance>0.06</techHediffsChance>
+		<techHediffsMoney>50~600</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_PanielBasePawnKind">
+		<defName>PN_EmployeeP_Engineer</defName>
+		<label>PnL property</label>
+		<combatPower>50</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<weaponTags>
+			<li>Gun</li>
+			<li>PN_Shovel</li>
+		</weaponTags>
+		<weaponMoney>125~250</weaponMoney>
+		<apparelMoney>200~400</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<apparelRequired>
+			<li>PN_ApparelBasic</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>Paniel_Basic</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Paniel_Story_Normal</li>
+					<li>Paniel_Story_ApprenticeA</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<disallowedTraits>
+			<li>ShootingAccuracy</li>
+			<li>Brawler</li>
+			<li>Tough</li>
+		</disallowedTraits>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_PanielBasePawnKind">
+		<defName>PN_EmployeeP_Domestic</defName>
+		<label>PnL property</label>
+		<combatPower>50</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>0.2~2.0</gearHealthRange>
+		<weaponTags>
+			<li>Gun</li>
+			<li>PN_Shovel</li>
+		</weaponTags>
+		<weaponMoney>125~250</weaponMoney>
+		<apparelMoney>200~400</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<apparelRequired>
+			<li>PN_ApparelBasic</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>Paniel_Basic</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Paniel_Story_Normal</li>
+					<li>Paniel_Story_MaidA</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<disallowedTraits>
+			<li>ShootingAccuracy</li>
+			<li>Brawler</li>
+			<li>TorturedArtist</li>
+			<li>Tough</li>
+		</disallowedTraits>
+	</PawnKindDef>
+
+
+	<!--Guard-->
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_GuardH</defName>
+		<label>PnL guard</label>
+		<combatPower>60</combatPower>
+		<isFighter>true</isFighter>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>400~600</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<weaponTags>
+			<li>Gun</li>
+			<li>PN_Revolver</li>
+		</weaponTags>
+		<weaponMoney>250~400</weaponMoney>
+		<techHediffsChance>0.04</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_PanielBasePawnKind">
+		<defName>PN_GuardP</defName>
+		<label>PnL property</label>
+		<combatPower>60</combatPower>
+		<isFighter>true</isFighter>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<weaponTags>
+			<li>Gun</li>
+			<li>PN_Revolver</li>
+		</weaponTags>
+		<weaponMoney>250~400</weaponMoney>
+		<apparelMoney>400~600</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<apparelRequired>
+			<li>PN_ApparelMilitia</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>Paniel_Militia</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Paniel_Story_Normal</li>
+					<li>Paniel_Story_ApprenticeA</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<disallowedTraits>
+			<li>ShootingAccuracy</li>
+			<li>Brawler</li>
+			<li>Tough</li>
+		</disallowedTraits>
+	</PawnKindDef>
+
 </Defs>

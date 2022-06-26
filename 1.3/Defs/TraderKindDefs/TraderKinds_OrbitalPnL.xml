@@ -4,6 +4,7 @@
     <defName>PN_Orbital_PnLindustry</defName>
     <label>PnL Industry</label>
     <orbital>true</orbital>
+    <faction>PN_SubsidiaryFaction</faction>
     <stockGenerators>
 
       <!-- Resources -->
