@@ -426,4 +426,36 @@
       
     </thingSetMakerTags>
   </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_OTPCard</defName>
+    <label>PnL OTP card</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeTags Inherit="false">
+      <li>PN_OTPCard</li>
+    </tradeTags>
+    <tradeability>Buyable</tradeability>
+    <thingSetMakerTags Inherit="false">
+      
+    </thingSetMakerTags>
+  </ThingDef>
 </Defs>
