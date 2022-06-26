@@ -201,34 +201,6 @@
           <Town_Councilman>10</Town_Councilman>
         </options>
       </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Miners</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Miner>1</Miner>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Hunters</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Hunter>1</Hunter>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Loggers</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Logger>1</Logger>
-        </options>
-      </li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">
-        <kindDef>Farmers</kindDef>
-        <commonality>1</commonality>
-        <options>
-          <Farmer>1</Farmer>
-        </options>
-      </li>
     </pawnGroupMakers>
     <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
   </FactionDef>
