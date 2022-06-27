@@ -3,9 +3,9 @@
   <!--==================================== 전투형 ====================================-->
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_MilitiaA_Backstory_PA</defName>
-    <title>Automaton Militia</title>
+    <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.</baseDescription>
+    <baseDescription>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -31,9 +31,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_MilitiaB_Backstory_PA</defName>
-    <title>Automaton Militia</title>
+    <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.</baseDescription>
+    <baseDescription>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -63,9 +63,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_SoldierA_Backstory_PA</defName>
-    <title>Automaton Soldier</title>
+    <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
+    <baseDescription>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -95,9 +95,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_SoldierB_Backstory_PA</defName>
-    <title>Automaton Soldier</title>
+    <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
+    <baseDescription>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -127,9 +127,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_Royalguard_Backstory_PA</defName>
-    <title>Automaton Royal guard</title>
+    <title>Automaton Royal guard (PA)</title>
     <titleShort>Royal guard</titleShort>
-    <baseDescription>This automaton is used by the Royal Guard.</baseDescription>
+    <baseDescription>This automaton is used by the Royal Guard.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -161,9 +161,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
     <defName>Paniel_ApprenticeA_Backstory_PA</defName>
-    <title>Automaton Apprentice</title>
+    <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
+    <baseDescription>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -189,9 +189,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
     <defName>Paniel_ApprenticeB_Backstory_PA</defName>
-    <title>Automaton Apprentice</title>
+    <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
+    <baseDescription>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -221,9 +221,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
     <defName>Paniel_JourneymanA_Backstory_PA</defName>
-    <title>Automaton journeyman</title>
+    <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.</baseDescription>
+    <baseDescription>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -253,9 +253,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
     <defName>Paniel_JourneymanB_Backstory_PA</defName>
-    <title>Automaton journeyman</title>
+    <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.</baseDescription>
+    <baseDescription>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -285,9 +285,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
     <defName>Paniel_Meister_Backstory_PA</defName>
-    <title>Automaton Meister</title>
+    <title>Automaton Meister (PA)</title>
     <titleShort>Meister</titleShort>
-    <baseDescription>This automaton has better crafting skills than humans.</baseDescription>
+    <baseDescription>This automaton has better crafting skills than humans.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -319,9 +319,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_MaidA_Backstory_PA</defName>
-    <title>Automaton Maid</title>
+    <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
+    <baseDescription>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -347,9 +347,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_MaidB_Backstory_PA</defName>
-    <title>Automaton Maid</title>
+    <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
+    <baseDescription>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -379,9 +379,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_HousemaidA_Backstory_PA</defName>
-    <title>Automaton Housekeeper maid</title>
+    <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper Maid</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
+    <baseDescription>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -411,9 +411,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_HousemaidB_Backstory_PA</defName>
-    <title>Automaton Housekeeper maid</title>
+    <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
+    <baseDescription>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -443,9 +443,9 @@
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
     <defName>Paniel_Ladysmaid_Backstory_PA</defName>
-    <title>Automaton Lady's maid</title>
+    <title>Automaton Lady's maid (PA)</title>
     <titleShort>Lady's maid</titleShort>
-    <baseDescription>This automaton is used as a royal servant.</baseDescription>
+    <baseDescription>This automaton is used as a royal servant.\n\n(PA) : PnL authenticated</baseDescription>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -471,5 +471,85 @@
     <forcedHediffs>
       <li>PN_Give_Legendary_Domestic_PA</li>
     </forcedHediffs>
+  </AlienRace.BackstoryDef>
+
+  <!--==================================== 실험체 ====================================-->
+
+  <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
+    <defName>Paniel_Testsubject_Backstory</defName>
+    <title>Automaton Test subject (PA)</title>
+    <titleShort>Test subject</titleShort>
+    <baseDescription>This automaton was built to test a new module at PnL industry. It is showing signs of mental instability.\n\n(PA) : PnL authenticated</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <spawnCategories Inherit="false">
+      <li>Paniel_Story_Testsubject</li>
+    </spawnCategories>
+    <forcedHediffs>
+      <li>PN_Give_Testsubject</li>
+    </forcedHediffs>
+    <forcedTraits>
+      <!--<li>
+            <defName></defName>
+        </li>-->
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>2</degree>
+      </li>
+      <li>
+        <defName>NaturalMood</defName>
+        <degree>1</degree>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>2</degree>
+      </li>
+      <li>
+        <defName>Nerves</defName>
+        <degree>1</degree>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <defName>PsychicSensitivity</defName>
+        <degree>-2</degree>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
 </Defs>
