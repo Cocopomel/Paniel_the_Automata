@@ -34,7 +34,7 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_EmployeeH</defName>
-		<label>employee</label>
+		<label>PnL employee</label>
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -43,7 +43,7 @@
 			<li>Gun</li>
 			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>125~250</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>200~400</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<techHediffsChance>0.06</techHediffsChance>
@@ -68,7 +68,7 @@
 			<li>Gun</li>
 			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>125~250</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>200~400</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -81,7 +81,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Normal</li>
-					<li>Paniel_Story_ApprenticeA</li>
+					<li>Paniel_Story_ApprenticeA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -105,7 +105,7 @@
 			<li>Gun</li>
 			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>125~250</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>400~600</apparelMoney>
 		<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -118,7 +118,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Good</li>
-					<li>Paniel_Story_ApprenticeB</li>
+					<li>Paniel_Story_ApprenticeB_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -141,9 +141,8 @@
 		<gearHealthRange>0.2~2.0</gearHealthRange>
 		<weaponTags>
 			<li>Gun</li>
-			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>125~250</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>200~400</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -156,7 +155,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Normal</li>
-					<li>Paniel_Story_MaidA</li>
+					<li>Paniel_Story_MaidA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -179,9 +178,8 @@
 		<gearHealthRange>0.7~3.2</gearHealthRange>
 		<weaponTags>
 			<li>Gun</li>
-			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>125~250</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>400~600</apparelMoney>
 		<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -194,7 +192,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Normal</li>
-					<li>Paniel_Story_MaidA</li>
+					<li>Paniel_Story_MaidB_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -221,7 +219,7 @@
 		<weaponTags>
 			<li>Gun</li>
 		</weaponTags>
-		<weaponMoney>200~200</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>400~600</apparelMoney>
 		<apparelTags>
 			<li>IndustrialMilitaryBasic</li>
@@ -254,7 +252,7 @@
 			<li>Gun</li>
 			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>200~200</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>400~600</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -268,7 +266,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Excellent</li>
-					<li>Paniel_Story_journeymanA</li>
+					<li>Paniel_Story_journeymanA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -292,9 +290,8 @@
 		<gearHealthRange>1~1</gearHealthRange>
 		<weaponTags>
 			<li>Gun</li>
-			<li>PN_Shovel</li>
 		</weaponTags>
-		<weaponMoney>200~200</weaponMoney>
+		<weaponMoney>250~400</weaponMoney>
 		<apparelMoney>400~600</apparelMoney>
 		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
 		<apparelRequired>
@@ -308,7 +305,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Excellent</li>
-					<li>Paniel_Story_HousemaidA</li>
+					<li>Paniel_Story_HousemaidA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -354,14 +351,14 @@
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
 		<inventoryOptions>
-      <skipChance>0.9</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <thingDef>MedicineIndustrial</thingDef>
-          <countRange>1</countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
 		<techHediffsChance>0.35</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
 		<initialResistanceRange>17~27</initialResistanceRange>
@@ -419,7 +416,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Normal</li>
-					<li>Paniel_Story_MilitiaA</li>
+					<li>Paniel_Story_MilitiaA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -435,6 +432,7 @@
 	<!--Mid Unit Base-->
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind" Name="PN_MidUnitBase" Abstract="True">
+		<label>security unit</label>
 		<isFighter>true</isFighter>
 		<itemQuality>Normal</itemQuality>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
@@ -450,7 +448,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Good</li>
-					<li>Paniel_Story_MilitiaB</li>
+					<li>Paniel_Story_MilitiaB_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -465,7 +463,6 @@
 	<!--Granade Unit-->
 
 	<PawnKindDef ParentName="PN_MidUnitBase" Name="PN_GrenadePBase" Abstract="True">
-		<label>grenade unit</label>
 		<weaponMoney>500~500</weaponMoney>
 		<apparelMoney>400~700</apparelMoney>
 		<disallowedTraits>
@@ -486,7 +483,6 @@
 
 	<PawnKindDef ParentName="PN_GrenadePBase">
 		<defName>PN_GrenadeUnit_EMP</defName>
-		<label>EMP grenade unit</label>
 		<combatPower>65</combatPower>
 		<weaponTags>
 			<li>GrenadeEMP</li>
@@ -495,7 +491,6 @@
 
 	<PawnKindDef ParentName="PN_GrenadePBase">
 		<defName>PN_GrenadeUnit_Smoke</defName>
-		<label>smoke grenade unit</label>
 		<combatPower>65</combatPower>
 		<weaponTags>
 			<li>GrenadeSmoke</li>
@@ -506,7 +501,6 @@
 
 	<PawnKindDef ParentName="PN_MidUnitBase">
 		<defName>PN_Mid_ClosetUnit</defName>
-		<label>close combat unit</label>
 		<canBeSapper>true</canBeSapper>
 		<combatPower>150</combatPower>
 		<weaponTags>
@@ -526,7 +520,6 @@
 
 	<PawnKindDef ParentName="PN_MidUnitBase">
 		<defName>PN_Mid_RangeUnit</defName>
-		<label>range combat unit</label>
 		<combatPower>95</combatPower>
 		<weaponTags>
 			<li>Gun</li>
@@ -546,6 +539,7 @@
 	<!--Elite Unit Base-->
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind" Name="PN_EliteUnitBase" Abstract="True">
+	<label>elite security unit</label>
 		<isFighter>true</isFighter>
 		<itemQuality>Good</itemQuality>
 		<gearHealthRange>1~1</gearHealthRange>
@@ -562,7 +556,7 @@
 			<li>
 				<categories>
 					<li>Paniel_Story_Excellent</li>
-					<li>Paniel_Story_SoldierA</li>
+					<li>Paniel_Story_SoldierA_PA</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -576,7 +570,6 @@
 
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteCloseUnit</defName>
-		<label>elite close unit</label>
 		<combatPower>190</combatPower>
 		<weaponTags>
 			<li>PN_Chainsword</li>
@@ -592,7 +585,6 @@
 
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteRangeUnit</defName>
-		<label>elite range unit</label>
 		<combatPower>145</combatPower>
 		<weaponTags>
 			<li>PN_Rifle</li>
@@ -608,7 +600,6 @@
 
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteHeavyUnit</defName>
-		<label>elite heavy unit</label>
 		<combatPower>190</combatPower>
 		<weaponTags>
 			<li>PN_Machinegun</li>
@@ -624,7 +615,6 @@
 
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteCannonUnit</defName>
-		<label>elite cannon unit</label>
 		<combatPower>170</combatPower>
 		<weaponTags>
 			<li>PN_Cannon</li>
