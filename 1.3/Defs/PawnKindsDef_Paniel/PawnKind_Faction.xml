@@ -246,7 +246,7 @@
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_ManageUnit_Enginer</defName>
 		<label>manage unit</label>
-		<combatPower>60</combatPower>
+		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>1~1</gearHealthRange>
@@ -285,7 +285,7 @@
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_ManageUnit_Domestic</defName>
 		<label>manage unit</label>
-		<combatPower>75</combatPower>
+		<combatPower>65</combatPower>
 		<trader>true</trader>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
@@ -322,45 +322,84 @@
 		</disallowedTraits>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="OutlanderBase">
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_Director</defName>
 		<label>PnL director</label>
 		<labelPlural>PnL directors</labelPlural>
-		<combatPower>75</combatPower>
+		<combatPower>130</combatPower>
 		<factionLeader>true</factionLeader>
 		<minGenerationAge>30</minGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Good</itemQuality>
-		<weaponMoney>200~200</weaponMoney>
+		<apparelMoney>2500~3500</apparelMoney>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<weaponMoney>500~1400</weaponMoney>
 		<weaponTags>
-			<li>Gun</li>
+			<li>IndustrialGunAdvanced</li>
 		</weaponTags>
-		<apparelMoney>700~1200</apparelMoney>
 		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
 			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
 			<li>BeltDefensePop</li>
 		</apparelTags>
-		<apparelRequired>
-			<li>Apparel_BowlerHat</li>
-		</apparelRequired>
-		<techHediffsChance>0.15</techHediffsChance>
-		<techHediffsMoney>600~1500</techHediffsMoney>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
 		<techHediffsTags>
-			<li>Simple</li>
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
+		<inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+		<techHediffsChance>0.35</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
 
 	<!--security-->
 
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_SecurityGuardH</defName>
+		<label>security guard</label>
+		<combatPower>60</combatPower>
+		<isFighter>true</isFighter>
+		<gearHealthRange>0.6~2</gearHealthRange>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>400~600</apparelMoney>
+		<apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<weaponMoney>250~400</weaponMoney>
+		<techHediffsChance>0.04</techHediffsChance>
+		<techHediffsMoney>200~700</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialWillRange>1~3</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
+	</PawnKindDef>
+
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_SecurityUnit</defName>
 		<label>security unit</label>
-		<combatPower>75</combatPower>
+		<combatPower>70</combatPower>
 		<isFighter>true</isFighter>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
 		<weaponTags>
@@ -374,6 +413,7 @@
 		</apparelRequired>
 		<apparelTags>
 			<li>Paniel_Basic</li>
+			<li>BeltDefensePop</li>
 		</apparelTags>
 		<backstoryFiltersOverride>
 			<li>
@@ -436,7 +476,7 @@
 
 	<PawnKindDef ParentName="PN_GrenadePBase">
 		<defName>PN_GrenadeUnit_Destructive</defName>
-		<combatPower>85</combatPower>
+		<combatPower>80</combatPower>
 		<canBeSapper>true</canBeSapper>
 		<isGoodBreacher>true</isGoodBreacher>
 		<weaponTags>
@@ -447,7 +487,7 @@
 	<PawnKindDef ParentName="PN_GrenadePBase">
 		<defName>PN_GrenadeUnit_EMP</defName>
 		<label>EMP grenade unit</label>
-		<combatPower>70</combatPower>
+		<combatPower>65</combatPower>
 		<weaponTags>
 			<li>GrenadeEMP</li>
 		</weaponTags>
@@ -456,7 +496,7 @@
 	<PawnKindDef ParentName="PN_GrenadePBase">
 		<defName>PN_GrenadeUnit_Smoke</defName>
 		<label>smoke grenade unit</label>
-		<combatPower>70</combatPower>
+		<combatPower>65</combatPower>
 		<weaponTags>
 			<li>GrenadeSmoke</li>
 		</weaponTags>
@@ -468,7 +508,7 @@
 		<defName>PN_Mid_ClosetUnit</defName>
 		<label>close combat unit</label>
 		<canBeSapper>true</canBeSapper>
-		<combatPower>155</combatPower>
+		<combatPower>150</combatPower>
 		<weaponTags>
 			<li>MedievalMeleeDecent</li>
 			<li>MedievalMeleeAdvanced</li>
@@ -487,7 +527,7 @@
 	<PawnKindDef ParentName="PN_MidUnitBase">
 		<defName>PN_Mid_RangeUnit</defName>
 		<label>range combat unit</label>
-		<combatPower>100</combatPower>
+		<combatPower>95</combatPower>
 		<weaponTags>
 			<li>Gun</li>
 			<li>PN_Rifle</li>
@@ -495,6 +535,9 @@
 		</weaponTags>
 		<weaponMoney>450~650</weaponMoney>
 		<apparelMoney>1000~1500</apparelMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
@@ -534,7 +577,7 @@
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteCloseUnit</defName>
 		<label>elite close unit</label>
-		<combatPower>195</combatPower>
+		<combatPower>190</combatPower>
 		<weaponTags>
 			<li>PN_Chainsword</li>
 		</weaponTags>
@@ -550,10 +593,13 @@
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteRangeUnit</defName>
 		<label>elite range unit</label>
-		<combatPower>150</combatPower>
+		<combatPower>145</combatPower>
 		<weaponTags>
 			<li>PN_Rifle</li>
 		</weaponTags>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponMoney>500~1400</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -563,10 +609,13 @@
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteHeavyUnit</defName>
 		<label>elite heavy unit</label>
-		<combatPower>195</combatPower>
+		<combatPower>190</combatPower>
 		<weaponTags>
 			<li>PN_Machinegun</li>
 		</weaponTags>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<weaponMoney>850~1400</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -576,7 +625,7 @@
 	<PawnKindDef ParentName="PN_EliteUnitBase">
 		<defName>PN_EliteCannonUnit</defName>
 		<label>elite cannon unit</label>
-		<combatPower>175</combatPower>
+		<combatPower>170</combatPower>
 		<weaponTags>
 			<li>PN_Cannon</li>
 		</weaponTags>
