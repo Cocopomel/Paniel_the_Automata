@@ -507,7 +507,7 @@
     <label>PnL elite security uniform</label>
     <description>This is the uniform worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
-      <texPath>Things/Apparel/old/PNEliteSecurity1</texPath>
+      <texPath>Things/Apparel/PNEliteSecurity1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
@@ -544,7 +544,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/old/PNEliteSecurity</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/PNEliteSecurity</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>OnSkin</li>
@@ -581,7 +581,7 @@
     <label>PnL elite security beret</label>
     <description>This is the hat worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
-      <texPath>Things/Apparel/old/PNEliteSecurityhat1</texPath>
+      <texPath>Things/Apparel/hats/PNEliteSecurityhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -613,7 +613,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/old/PNEliteSecurityhat</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/hats/PNEliteSecurityhat</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Overhead</li>
