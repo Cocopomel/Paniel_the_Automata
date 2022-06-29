@@ -174,7 +174,7 @@
       <shaderType>Transparent</shaderType>
     </graphicData>
   </ThingDef>
-  
+
   <!--==================================== 삽 ====================================-->
   <ThingDef ParentName="PN_BaseMeleeWeapon_Blunt">
     <defName>PN_Shovel</defName>

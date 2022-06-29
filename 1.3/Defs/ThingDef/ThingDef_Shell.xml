@@ -592,6 +592,7 @@
   </ThingDef>
 
   <!--레일건-->
+
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_RG</defName>
     <label>PnL Railgun shell</label>

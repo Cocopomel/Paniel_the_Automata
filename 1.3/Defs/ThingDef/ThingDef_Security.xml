@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!--==================================== 오토캐논 ====================================-->
+  <!--==================================== 곡사포 ====================================-->
   <ThingDef ParentName="BuildingBase">
     <defName>PN_Artillery_Base_Core</defName>
     <label>PnL Howitzer</label>
@@ -244,9 +244,9 @@
           </thingDefs>
         </fuelFilter>
         <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
-        <fuelCapacity>1</fuelCapacity>
-        <fuelMultiplier>1</fuelMultiplier>
-        <initialFuelPercent>1</initialFuelPercent>
+        <fuelCapacity>100</fuelCapacity>
+        <fuelMultiplier>100</fuelMultiplier>
+        <initialFuelPercent>100</initialFuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
@@ -296,7 +296,7 @@
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <weaponTags Inherit="false">
     </weaponTags>
-    <!--<statBases>
+   <!--<statBases>
       <AccuracyTouch>0.20</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.98</AccuracyMedium>
