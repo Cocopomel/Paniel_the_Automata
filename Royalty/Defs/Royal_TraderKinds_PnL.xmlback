@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TraderKindDef>
+    <defName>PN_Caravan_TributeCollector</defName>
+    <label>VIP point exchanger</label>
+    <requestable>True</requestable>
+    <commonality>1</commonality>
+    <category>TributeCollector</category>
+    <tradeCurrency>Favor</tradeCurrency>
+    <faction>PN_SubsidiaryFaction</faction>
+    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+    <stockGenerators>
+      <!-- Buying -->
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Silver</thingDef>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

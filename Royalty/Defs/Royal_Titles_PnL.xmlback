@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--베이스-->
+  <RoyalTitleDef Abstract="True" Name="PN_TitleBase">
+    <tags>
+      <li>PN_VIPMembership</li>
+    </tags>
+    <awardThought>GainedTitle</awardThought>
+    <lostThought>LostTitle</lostThought>
+    <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+    <canBeInherited>False</canBeInherited>
+  </RoyalTitleDef>
+
+  <!--브론즈-->
+
+  <!--실버-->
+
+  <!--골드-->
+
+  <!--플래티넘-->
+
+  <!--다이아-->
+</Defs>
