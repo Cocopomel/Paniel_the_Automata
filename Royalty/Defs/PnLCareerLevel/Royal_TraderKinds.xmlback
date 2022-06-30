@@ -2,7 +2,7 @@
 <Defs>
   <TraderKindDef>
     <defName>PN_Caravan_TributeCollector</defName>
-    <label>VIP point exchanger</label>
+    <label>PnL performance appraiser</label>
     <requestable>True</requestable>
     <commonality>1</commonality>
     <category>TributeCollector</category>
