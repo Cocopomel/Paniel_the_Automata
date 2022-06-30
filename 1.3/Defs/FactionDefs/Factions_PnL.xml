@@ -90,10 +90,26 @@
       <li>Offworld</li>
     </backstoryCategories>
     <geneticVariance>0.8</geneticVariance>
+
+    <!--로열티 VIP 맴버십-->
+    <!--
+    <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_PnLCareerLevelTag</li>
+    </royalTitleTags>
+    <royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+    <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
+
+    </royalTitleInheritanceRelations>
+    <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">PnL Career Level</royalFavorLabel>
+    <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">Icon/Paniel_PlayerIcon</royalFavorIconPath>
+    -->
+
     <caravanTraderKinds>
       <li>PN_Caravan_PnLindustry</li>
+      <!--<li MayRequire="Ludeon.RimWorld.Royalty">PN_Caravan_TributeCollector</li>-->
     </caravanTraderKinds>
     <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
       <li>Base_Outlander_Standard</li>
@@ -114,14 +130,17 @@
         <li>(0, 0)</li>
       </points>
     </raidCommonalityFromPointsCurve>
+    <fixedLeaderKinds>
+      <li>PN_Director</li>
+    </fixedLeaderKinds>
     <pawnGroupMakers>
 
       <!--
-      <PN_EmployeeH></PN_EmployeeH>
-      <PN_EmployeeP_EngineerA></PN_EmployeeP_EngineerA>
-      <PN_EmployeeP_EngineerB></PN_EmployeeP_EngineerB>
-      <PN_EmployeeP_DomesticA></PN_EmployeeP_DomesticA>
-      <PN_EmployeeP_DomesticB></PN_EmployeeP_DomesticB>
+      <PN_AssociateH></PN_AssociateH>
+      <PN_AssociateP_EngineerA></PN_AssociateP_EngineerA>
+      <PN_AssociateP_EngineerB></PN_AssociateP_EngineerB>
+      <PN_AssociateP_DomesticA></PN_AssociateP_DomesticA>
+      <PN_AssociateP_DomesticB></PN_AssociateP_DomesticB>
 
       <PN_ManagerH></PN_ManagerH>
       <PN_ManageUnit_Enginer></PN_ManageUnit_Enginer>
@@ -156,11 +175,11 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-          <PN_EmployeeH>6</PN_EmployeeH>
-          <PN_EmployeeP_EngineerA>1</PN_EmployeeP_EngineerA>
-          <PN_EmployeeP_EngineerB>1</PN_EmployeeP_EngineerB>
-          <PN_EmployeeP_DomesticA>1</PN_EmployeeP_DomesticA>
-          <PN_EmployeeP_DomesticB>1</PN_EmployeeP_DomesticB>
+          <PN_AssociateH>6</PN_AssociateH>
+          <PN_AssociateP_EngineerA>1</PN_AssociateP_EngineerA>
+          <PN_AssociateP_EngineerB>1</PN_AssociateP_EngineerB>
+          <PN_AssociateP_DomesticA>1</PN_AssociateP_DomesticA>
+          <PN_AssociateP_DomesticB>1</PN_AssociateP_DomesticB>
 
           <PN_GrenadeUnit_Destructive>1.5</PN_GrenadeUnit_Destructive>
 
@@ -186,11 +205,11 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-          <PN_EmployeeH>6</PN_EmployeeH>
-          <PN_EmployeeP_EngineerA>1</PN_EmployeeP_EngineerA>
-          <PN_EmployeeP_EngineerB>1</PN_EmployeeP_EngineerB>
-          <PN_EmployeeP_DomesticA>1</PN_EmployeeP_DomesticA>
-          <PN_EmployeeP_DomesticB>1</PN_EmployeeP_DomesticB>
+          <PN_AssociateH>6</PN_AssociateH>
+          <PN_AssociateP_EngineerA>1</PN_AssociateP_EngineerA>
+          <PN_AssociateP_EngineerB>1</PN_AssociateP_EngineerB>
+          <PN_AssociateP_DomesticA>1</PN_AssociateP_DomesticA>
+          <PN_AssociateP_DomesticB>1</PN_AssociateP_DomesticB>
 
           <PN_GrenadeUnit_Destructive>1.5</PN_GrenadeUnit_Destructive>
 
@@ -207,11 +226,11 @@
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <PN_EmployeeH>12</PN_EmployeeH>
-          <PN_EmployeeP_EngineerA>3</PN_EmployeeP_EngineerA>
-          <PN_EmployeeP_EngineerB>3</PN_EmployeeP_EngineerB>
-          <PN_EmployeeP_DomesticA>3</PN_EmployeeP_DomesticA>
-          <PN_EmployeeP_DomesticB>3</PN_EmployeeP_DomesticB>
+          <PN_AssociateH>12</PN_AssociateH>
+          <PN_AssociateP_EngineerA>3</PN_AssociateP_EngineerA>
+          <PN_AssociateP_EngineerB>3</PN_AssociateP_EngineerB>
+          <PN_AssociateP_DomesticA>3</PN_AssociateP_DomesticA>
+          <PN_AssociateP_DomesticB>3</PN_AssociateP_DomesticB>
 
           <PN_ManagerH>3</PN_ManagerH>
           <PN_ManageUnit_Enginer>3</PN_ManageUnit_Enginer>
@@ -238,11 +257,11 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <PN_EmployeeH>10</PN_EmployeeH>
-          <PN_EmployeeP_EngineerA>2</PN_EmployeeP_EngineerA>
-          <PN_EmployeeP_EngineerB>1</PN_EmployeeP_EngineerB>
-          <PN_EmployeeP_DomesticA>2</PN_EmployeeP_DomesticA>
-          <PN_EmployeeP_DomesticB>1</PN_EmployeeP_DomesticB>
+          <PN_AssociateH>10</PN_AssociateH>
+          <PN_AssociateP_EngineerA>2</PN_AssociateP_EngineerA>
+          <PN_AssociateP_EngineerB>1</PN_AssociateP_EngineerB>
+          <PN_AssociateP_DomesticA>2</PN_AssociateP_DomesticA>
+          <PN_AssociateP_DomesticB>1</PN_AssociateP_DomesticB>
 
           <PN_ManagerH>1</PN_ManagerH>
           <PN_ManageUnit_Enginer>1</PN_ManageUnit_Enginer>

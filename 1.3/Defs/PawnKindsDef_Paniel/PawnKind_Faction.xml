@@ -30,11 +30,11 @@
 		</apparelTags>
 	</PawnKindDef>
 
-	<!--Employee-->
+	<!--Associate-->
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
-		<defName>PN_EmployeeH</defName>
-		<label>PnL employee</label>
+		<defName>PN_AssociateH</defName>
+		<label>PnL Associate</label>
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -58,8 +58,8 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
-		<defName>PN_EmployeeP_EngineerA</defName>
-		<label>employee unit</label>
+		<defName>PN_AssociateP_EngineerA</defName>
+		<label>Associate unit</label>
 		<combatPower>60</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -95,8 +95,8 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
-		<defName>PN_EmployeeP_EngineerB</defName>
-		<label>employee unit</label>
+		<defName>PN_AssociateP_EngineerB</defName>
+		<label>Associate unit</label>
 		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
@@ -133,8 +133,8 @@
 
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
-		<defName>PN_EmployeeP_DomesticA</defName>
-		<label>employee unit</label>
+		<defName>PN_AssociateP_DomesticA</defName>
+		<label>Associate unit</label>
 		<combatPower>60</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -170,8 +170,8 @@
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
-		<defName>PN_EmployeeP_DomesticB</defName>
-		<label>employee unit</label>
+		<defName>PN_AssociateP_DomesticB</defName>
+		<label>Associate unit</label>
 		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
