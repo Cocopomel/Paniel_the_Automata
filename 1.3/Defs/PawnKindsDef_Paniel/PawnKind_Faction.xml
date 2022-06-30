@@ -500,7 +500,7 @@
 	<!--Mid tier Combat Unit-->
 
 	<PawnKindDef ParentName="PN_MidUnitBase">
-		<defName>PN_Mid_ClosetUnit</defName>
+		<defName>PN_Mid_CloseUnit</defName>
 		<canBeSapper>true</canBeSapper>
 		<combatPower>150</combatPower>
 		<weaponTags>
@@ -574,7 +574,7 @@
 		<weaponTags>
 			<li>PN_Chainsword</li>
 		</weaponTags>
-		<weaponMoney>750~1000</weaponMoney>
+		<weaponMoney>200~500</weaponMoney>
 		<disallowedTraits>
 			<li>ShootingAccuracy</li>
 		</disallowedTraits>

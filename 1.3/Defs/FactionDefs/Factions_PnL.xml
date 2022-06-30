@@ -135,7 +135,7 @@
       <PN_GrenadeUnit_EMP></PN_GrenadeUnit_EMP>
       <PN_GrenadeUnit_Smoke></PN_GrenadeUnit_Smoke>
 
-      <PN_Mid_ClosetUnit></PN_Mid_ClosetUnit>
+      <PN_Mid_CloseUnit></PN_Mid_CloseUnit>
       <PN_Mid_RangeUnit></PN_Mid_RangeUnit>
 
       <PN_EliteCloseUnit></PN_EliteCloseUnit>
@@ -166,7 +166,7 @@
 
           <Mercenary_Slasher>4</Mercenary_Slasher>
           <Mercenary_Gunner>6</Mercenary_Gunner>
-          <PN_Mid_ClosetUnit>3</PN_Mid_ClosetUnit>
+          <PN_Mid_CloseUnit>3</PN_Mid_CloseUnit>
           <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
 
           <Mercenary_Elite>6</Mercenary_Elite>
@@ -196,7 +196,7 @@
 
           <Mercenary_Slasher>4</Mercenary_Slasher>
           <Mercenary_Gunner>6</Mercenary_Gunner>
-          <PN_Mid_ClosetUnit>3</PN_Mid_ClosetUnit>
+          <PN_Mid_CloseUnit>3</PN_Mid_CloseUnit>
           <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
 
           <Mercenary_Elite>6</Mercenary_Elite>
@@ -225,7 +225,7 @@
 
           <Mercenary_Slasher>4</Mercenary_Slasher>
           <Mercenary_Gunner>6</Mercenary_Gunner>
-          <PN_Mid_ClosetUnit>2</PN_Mid_ClosetUnit>
+          <PN_Mid_CloseUnit>2</PN_Mid_CloseUnit>
           <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
 
           <Mercenary_Elite>6</Mercenary_Elite>
@@ -270,7 +270,7 @@
           <Mercenary_Gunner>6</Mercenary_Gunner>
           <Mercenary_Slasher>2</Mercenary_Slasher>
           <PN_Mid_RangeUnit>4</PN_Mid_RangeUnit>
-          <PN_Mid_ClosetUnit>2</PN_Mid_ClosetUnit>
+          <PN_Mid_CloseUnit>2</PN_Mid_CloseUnit>
 
 
           <Mercenary_Heavy>2</Mercenary_Heavy>
@@ -285,9 +285,15 @@
           <PN_Director>1</PN_Director>
         </options>
       </li>
-
-
     </pawnGroupMakers>
+    <apparelStuffFilter>
+      <disallowedThingDefs>
+        <li>Leather_Thrumbo</li>
+        <li>Hyperweave</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </disallowedThingDefs>
+    </apparelStuffFilter>
     <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
   </FactionDef>
 
