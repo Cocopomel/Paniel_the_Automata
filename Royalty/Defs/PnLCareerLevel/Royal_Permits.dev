@@ -256,6 +256,7 @@
     <description>...</description>
     <minTitle>PN_Title_Director</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonSoldier</prerequisite>
     <uiPosition>(1,6)</uiPosition>
     <royalAid>
@@ -288,6 +289,7 @@
     <description>...</description>
     <minTitle>PN_Title_Director</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonWorker</prerequisite>
     <uiPosition>(1,7)</uiPosition>
     <royalAid>
@@ -321,6 +323,7 @@
     <description>...</description>
     <minTitle>PN_Title_Director</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonMaid</prerequisite>
     <uiPosition>(1,8)</uiPosition>
     <royalAid>
