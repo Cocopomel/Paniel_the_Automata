@@ -12,7 +12,7 @@
     <stockGenerators>
       <!-- Buying -->
       <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PN_ResultReport</thingDef>
+        <thingDef>PN_ResultReceipt</thingDef>
       </li>
     </stockGenerators>
   </TraderKindDef>

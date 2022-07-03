@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="ResourceBase">
-    <defName>PN_ResultReport</defName>
-    <label>PnL result report</label>
+    <defName>PN_ResultReceipt</defName>
+    <label>PnL result receipt</label>
     <description>...</description>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>
@@ -23,7 +23,7 @@
       <li>PN_AutomatonCatagory</li>
     </thingCategories>
     <tradeTags Inherit="false">
-      <li>PN_ResultReport</li>
+      <li>PN_ResultReceipt</li>
     </tradeTags>
     <tradeability>Buyable</tradeability>
     <thingSetMakerTags Inherit="false">
