@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>PN_ResultReport</defName>
+    <label>PnL result report</label>
+    <description>...</description>
+    <graphicData>
+      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <MarketValue>100</MarketValue>
+      <RoyalFavorValue>1</RoyalFavorValue>
+      <Mass>0.01</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeTags Inherit="false">
+      <li>PN_ResultReport</li>
+    </tradeTags>
+    <tradeability>Buyable</tradeability>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+  </ThingDef>
+</Defs>

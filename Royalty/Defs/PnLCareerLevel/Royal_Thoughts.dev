@@ -2,7 +2,7 @@
 <Defs>
   <!--승진-->
   <ThoughtDef>
-    <defName>PN_LevelPromotion</defName>
+    <defName>PN_TitlePromotion</defName>
     <durationDays>7</durationDays>
     <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
     <nullifyingTraits>
@@ -19,7 +19,7 @@
 
   <!--해고-->
   <ThoughtDef>
-    <defName>PN_LevelDemotion</defName>
+    <defName>PN_TitleDemotion</defName>
     <durationDays>7</durationDays>
     <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
     <nullifyingTraits>

@@ -2,7 +2,7 @@
 <Defs>
   <TraderKindDef>
     <defName>PN_Caravan_TributeCollector</defName>
-    <label>PnL performance appraiser</label>
+    <label>PnL result appraiser</label>
     <requestable>True</requestable>
     <commonality>1</commonality>
     <category>TributeCollector</category>
@@ -12,10 +12,7 @@
     <stockGenerators>
       <!-- Buying -->
       <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Silver</thingDef>
-      </li>
-      <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Gold</thingDef>
+        <thingDef>PN_ResultReport</thingDef>
       </li>
     </stockGenerators>
   </TraderKindDef>

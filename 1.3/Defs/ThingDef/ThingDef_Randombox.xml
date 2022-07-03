@@ -62,7 +62,7 @@
     <description>It's a box packed with automaton.</description>
     <tradeability>None</tradeability>
     <statBases>
-      <MarketValue>1520</MarketValue>
+      <MarketValue>2000</MarketValue>
     </statBases>
     <comps>
       <li>
@@ -108,19 +108,19 @@
           </li>
           <li>
             <weight>1579</weight>
-            <pawnKindDefName>Paniel_Soldier_Normal</pawnKindDefName>
+            <pawnKindDefName>Paniel_Soldier_Normal_PA</pawnKindDefName>
           </li>
           <li>
             <weight>5428</weight>
-            <pawnKindDefName>Paniel_Soldier_Good</pawnKindDefName>
+            <pawnKindDefName>Paniel_Soldier_Good_PA</pawnKindDefName>
           </li>
           <li>
             <weight>2740</weight>
-            <pawnKindDefName>Paniel_Soldier_Excellent</pawnKindDefName>
+            <pawnKindDefName>Paniel_Soldier_Excellent_PA</pawnKindDefName>
           </li>
           <li>
             <weight>214</weight>
-            <pawnKindDefName>Paniel_Soldier_Masterwork</pawnKindDefName>
+            <pawnKindDefName>Paniel_Soldier_Masterwork_PA</pawnKindDefName>
           </li>
         </samples>
       </li>
@@ -151,19 +151,19 @@
           </li>
           <li>
             <weight>1579</weight>
-            <pawnKindDefName>Paniel_Worker_Normal</pawnKindDefName>
+            <pawnKindDefName>Paniel_Worker_Normal_PA</pawnKindDefName>
           </li>
           <li>
             <weight>5428</weight>
-            <pawnKindDefName>Paniel_Worker_Good</pawnKindDefName>
+            <pawnKindDefName>Paniel_Worker_Good_PA</pawnKindDefName>
           </li>
           <li>
             <weight>3740</weight>
-            <pawnKindDefName>Paniel_Worker_Excellent</pawnKindDefName>
+            <pawnKindDefName>Paniel_Worker_Excellent_PA</pawnKindDefName>
           </li>
           <li>
             <weight>214</weight>
-            <pawnKindDefName>Paniel_Worker_Masterwork</pawnKindDefName>
+            <pawnKindDefName>Paniel_Worker_Masterwork_PA</pawnKindDefName>
           </li>
         </samples>
       </li>
@@ -194,19 +194,149 @@
           </li>
           <li>
             <weight>1579</weight>
-            <pawnKindDefName>Paniel_Maid_Normal</pawnKindDefName>
+            <pawnKindDefName>Paniel_Maid_Normal_PA</pawnKindDefName>
           </li>
           <li>
             <weight>5428</weight>
-            <pawnKindDefName>Paniel_Maid_Good</pawnKindDefName>
+            <pawnKindDefName>Paniel_Maid_Good_PA</pawnKindDefName>
           </li>
           <li>
             <weight>2740</weight>
-            <pawnKindDefName>Paniel_Maid_Excellent</pawnKindDefName>
+            <pawnKindDefName>Paniel_Maid_Excellent_PA</pawnKindDefName>
           </li>
           <li>
             <weight>214</weight>
-            <pawnKindDefName>Paniel_Maid_Masterwork</pawnKindDefName>
+            <pawnKindDefName>Paniel_Maid_Masterwork_PA</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 프리미엄 상자 베이스 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomaton" Name="BasePackagedAutomatonPremium" Abstract="True">
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentSpacer>6</ComponentSpacer>
+      <PN_BrainCasing>1</PN_BrainCasing>
+      <Leather_Automaton>50</Leather_Automaton>
+      <Chemfuel>20</Chemfuel>
+      <AIPersonaCore>1</AIPersonaCore>
+    </costList>
+  </ThingDef>
+
+  <!--==================================== 전투형 프리미엄 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomatonPremium">
+    <defName>Packaged_PremiumAutomatonSoldier</defName>
+    <label>PnL automaton™ Pro (Combat)</label>
+    <description>A box containing a combat model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <statBases>
+
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>
+          <li>
+            <weight>335</weight>
+            <pawnKindDefName>Paniel_Soldier_Good_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4023</weight>
+            <pawnKindDefName>Paniel_Soldier_Excellent_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4375</weight>
+            <pawnKindDefName>Paniel_Soldier_Masterwork_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1268</weight>
+            <pawnKindDefName>Paniel_Soldier_Legendary_PA</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 제작형 프리미엄 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomatonPremium">
+    <defName>Packaged_PremiumAutomatonWorker</defName>
+    <label>PnL automaton™ Pro (Engineer)</label>
+    <description>A box containing a engineer model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <statBases>
+
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>
+          <li>
+            <weight>335</weight>
+            <pawnKindDefName>Paniel_Worker_Good_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4023</weight>
+            <pawnKindDefName>Paniel_Worker_Excellent_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4375</weight>
+            <pawnKindDefName>Paniel_Worker_Masterwork_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1268</weight>
+            <pawnKindDefName>Paniel_Worker_Legendary_PA</pawnKindDefName>
+          </li>
+        </samples>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--==================================== 가정형 프리미엄 상자 ====================================-->
+  <ThingDef ParentName="BasePackagedAutomatonPremium">
+    <defName>Packaged_PremiumAutomatonMaid</defName>
+    <label>PnL automaton™ Pro (Domestic)</label>
+    <description>A box containing a domestic model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <statBases>
+
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Unpackage</useLabel>
+      </li>
+      <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <samples>
+          <li>
+            <weight>335</weight>
+            <pawnKindDefName>Paniel_Maid_Good_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4023</weight>
+            <pawnKindDefName>Paniel_Maid_Excellent_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>4375</weight>
+            <pawnKindDefName>Paniel_Maid_Masterwork_PA</pawnKindDefName>
+          </li>
+          <li>
+            <weight>1268</weight>
+            <pawnKindDefName>Paniel_Maid_Legendary_PA</pawnKindDefName>
           </li>
         </samples>
       </li>

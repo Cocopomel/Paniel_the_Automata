@@ -100,7 +100,7 @@
     <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
 
     </royalTitleInheritanceRelations>
-    <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">PnL Career Level</royalFavorLabel>
+    <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">PnL result point</royalFavorLabel>
     <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">Icon/Paniel_PlayerIcon</royalFavorIconPath>
     -->
 
