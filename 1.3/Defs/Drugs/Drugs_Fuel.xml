@@ -199,7 +199,7 @@
             <setMax>0.3</setMax>
           </li>
         </capMods>
-        <hungerRateFactor>2.0</hungerRateFactor>
+        <hungerRateFactor>8.0</hungerRateFactor>
       </li>
     </stages>
     <modExtensions>
