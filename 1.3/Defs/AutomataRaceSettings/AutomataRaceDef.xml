@@ -544,6 +544,12 @@
             <replacer>PN_AteFineMeal</replacer>
           </li>
 
+          <!--메카클러스터-->
+          <li>
+            <original>DefeatedMechCluster</original>
+            <replacer>PN_DefeatedMechCluster</replacer>
+          </li>
+
           <!--이데올로기-->
           <li MayRequire="Ludeon.RimWorld.Ideology">
             <original>PN_OfficerCommandThought</original>
