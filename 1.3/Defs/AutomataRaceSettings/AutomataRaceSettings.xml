@@ -6,6 +6,8 @@
       <li>Outdoors</li>
       <li>DrugDesire</li>
       <li>RoomSize</li>
+      <li>Comfort</li>
+      <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
     </needBlacklists>    <!--false 가 적용 / true 가 꺼짐-->
     <socialActivated>true</socialActivated>
     <skillDecayActivated>false</skillDecayActivated>
