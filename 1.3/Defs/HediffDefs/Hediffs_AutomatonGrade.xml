@@ -70,10 +70,6 @@
     <stages>
       <li>
         <capMods>
-          <!--<li>
-            <capacity>Consciousness</capacity>
-            <offset>0.05</offset>
-          </li>-->
           <li>
             <capacity>Moving</capacity>
             <offset>0.05</offset>
@@ -115,9 +111,6 @@
             <offset>0.10</offset>
           </li>
         </capMods>
-        <statOffsets>
-          <!--<IncomingDamageFactor>-0.05</IncomingDamageFactor>-->
-        </statOffsets>
       </li>
     </stages>
   </HediffDef>
@@ -144,9 +137,6 @@
             <offset>0.20</offset>
           </li>
         </capMods>
-        <statOffsets>
-          <!--<IncomingDamageFactor>-0.10</IncomingDamageFactor>-->
-        </statOffsets>
       </li>
     </stages>
   </HediffDef>
@@ -176,9 +166,6 @@
         <statOffsets>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
         </statOffsets>
-        <!--<statFactors>
-          <IncomingDamageFactor>0.10</IncomingDamageFactor>
-        </statFactors>-->
       </li>
     </stages>
   </HediffDef>
@@ -208,9 +195,6 @@
         <statOffsets>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
         </statOffsets>
-        <!--<statFactors>
-          <IncomingDamageFactor>0.75</IncomingDamageFactor>
-        </statFactors>-->
       </li>
     </stages>
   </HediffDef>
@@ -290,6 +274,13 @@
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Combat</defName>
     <label>Combat model (exc)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -315,29 +306,10 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Combat</defName>
     <label>Combat model (mast)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.20</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.30</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -366,29 +338,10 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Combat</defName>
     <label>Combat model (legd)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.50</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <IncomingDamageFactor>-0.30</IncomingDamageFactor>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <IncomingDamageFactor>-0.40</IncomingDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -469,6 +422,13 @@
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Engineer</defName>
     <label>Engineer model (exc)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -494,29 +454,10 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Engineer</defName>
     <label>Engineer model (mast)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.20</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.30</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </stages>
@@ -545,29 +486,10 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Engineer</defName>
     <label>Engineer model (legd)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.50</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </stages>
@@ -648,6 +570,13 @@
   <HediffDef ParentName="PN_SyncExcellent_Base">
     <defName>PN_SyncExcellent_Domestic</defName>
     <label>Domestic model (exc)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -673,29 +602,10 @@
   <HediffDef ParentName="PN_SyncMasterwork_Base">
     <defName>PN_SyncMasterwork_Domestic</defName>
     <label>Domestic model (mast)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.20</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.30</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </stages>
@@ -724,29 +634,10 @@
   <HediffDef ParentName="PN_SyncLegendary_Base">
     <defName>PN_SyncLegendary_Domestic</defName>
     <label>Domestic model (legd)</label>
-    <stages Inherit="false">
+    <stages>
       <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <offset>0.30</offset>
-          </li>
-          <li>
-            <capacity>Moving</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.50</offset>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <offset>0.50</offset>
-          </li>
-        </capMods>
         <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
         </statOffsets>
       </li>
     </stages>
@@ -760,6 +651,9 @@
     <defName>PN_SyncNormal_Modified</defName>
     <label>modified model</label>
     <description>This pawn is an automaton.\nAfter production, It has been modified in an unauthorized way.</description>
+    <statOffsets>
+      <MentalBreakThreshold>0.08</MentalBreakThreshold>
+    </statOffsets>
   </HediffDef>
 
   <!--꽝끔찍-->

@@ -51,6 +51,9 @@
         <!--특성 제한-->
         <disallowedTraits>
           <li>
+            <defName>Tough</defName>
+          </li>
+          <li>
             <defName>DrugDesire</defName>
           </li>
           <li>
