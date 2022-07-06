@@ -117,16 +117,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_C">
     <defName>PN_SyncExcellent_Combat_PA</defName>
     <label>Combat model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -152,16 +145,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_C">
     <defName>PN_SyncMasterwork_Combat_PA</defName>
     <label>Combat model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -187,16 +173,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_C">
     <defName>PN_SyncLegendary_Combat_PA</defName>
     <label>Combat model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.40</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--==================================== 제작형 ====================================-->
@@ -280,16 +259,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_ED">
     <defName>PN_SyncExcellent_Engineer_PA</defName>
     <label>Engineer model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -315,16 +287,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_ED">
     <defName>PN_SyncMasterwork_Engineer_PA</defName>
     <label>Engineer model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -350,16 +315,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_ED">
     <defName>PN_SyncLegendary_Engineer_PA</defName>
     <label>Engineer model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--==================================== 가정형 ====================================-->
@@ -443,16 +401,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_ED">
     <defName>PN_SyncExcellent_Domestic_PA</defName>
     <label>Domestic model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -478,16 +429,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_ED">
     <defName>PN_SyncMasterwork_Domestic_PA</defName>
     <label>Domestic model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -513,16 +457,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_ED">
     <defName>PN_SyncLegendary_Domestic_PA</defName>
     <label>Domestic model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--==================================== 기타 ====================================-->

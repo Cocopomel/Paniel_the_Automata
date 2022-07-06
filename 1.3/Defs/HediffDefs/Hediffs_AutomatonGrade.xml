@@ -25,12 +25,6 @@
         <becomeVisible>false</becomeVisible>
       </li>
     </stages>
-    <!--<comps>
-      <li Class="MoharHediffs.HediffCompProperties_HediffExclusive">
-        <hediffToApply>Paniel_Synchro_Awful</hediffToApply>
-        <bodyDef>PanielBody</bodyDef>
-      </li>
-    </comps>-->
   </HediffDef>
 
   <!--등급 베이스-->
@@ -115,7 +109,9 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncExcellent_Base">
+  <!--전투형 베이스-->
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncExcellent_Base_C">
     <description>This pawn is an automaton.\nAfter production, it was rated excellent grade.</description>
     <stages>
       <li>
@@ -137,11 +133,14 @@
             <offset>0.20</offset>
           </li>
         </capMods>
+        <statOffsets>
+          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncMasterwork_Base_C">
     <description>This pawn is an automaton.\nAfter production, it was rated masterwork grade.</description>
     <stages>
       <li>
@@ -164,13 +163,14 @@
           </li>
         </capMods>
         <statOffsets>
+          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
         </statOffsets>
       </li>
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncLegendary_Base_C">
     <description>This pawn is an automaton.\nAfter production, it was rated legendary grade.</description>
     <stages>
       <li>
@@ -193,6 +193,98 @@
           </li>
         </capMods>
         <statOffsets>
+          <IncomingDamageFactor>-0.40</IncomingDamageFactor>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!--제작형 가정형 베이스-->
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncExcellent_Base_ED">
+    <description>This pawn is an automaton.\nAfter production, it was rated excellent grade.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncMasterwork_Base_ED">
+    <description>This pawn is an automaton.\nAfter production, it was rated masterwork grade.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.30</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncLegendary_Base_ED">
+    <description>This pawn is an automaton.\nAfter production, it was rated legendary grade.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.30</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.50</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
         </statOffsets>
       </li>
@@ -271,16 +363,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_C">
     <defName>PN_SyncExcellent_Combat</defName>
     <label>Combat model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.10</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -303,16 +388,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_C">
     <defName>PN_SyncMasterwork_Combat</defName>
     <label>Combat model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -335,16 +413,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_C">
     <defName>PN_SyncLegendary_Combat</defName>
     <label>Combat model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <IncomingDamageFactor>-0.40</IncomingDamageFactor>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--==================================== 제작형 ====================================-->
@@ -419,16 +490,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_ED">
     <defName>PN_SyncExcellent_Engineer</defName>
     <label>Engineer model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -451,16 +515,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_ED">
     <defName>PN_SyncMasterwork_Engineer</defName>
     <label>Engineer model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -483,16 +540,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_ED">
     <defName>PN_SyncLegendary_Engineer</defName>
     <label>Engineer model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--==================================== 가정형 ====================================-->
@@ -567,16 +617,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncExcellent_Base">
+  <HediffDef ParentName="PN_SyncExcellent_Base_ED">
     <defName>PN_SyncExcellent_Domestic</defName>
     <label>Domestic model (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.10</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--걸작-->
@@ -599,16 +642,9 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncMasterwork_Base">
+  <HediffDef ParentName="PN_SyncMasterwork_Base_ED">
     <defName>PN_SyncMasterwork_Domestic</defName>
     <label>Domestic model (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
   </HediffDef>
 
   <!--전설-->
@@ -631,16 +667,10 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncLegendary_Base">
+  <HediffDef ParentName="PN_SyncLegendary_Base_ED">
     <defName>PN_SyncLegendary_Domestic</defName>
     <label>Domestic model (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
-        </statOffsets>
-      </li>
-    </stages>
+
   </HediffDef>
 
   <!--==================================== 기타 ====================================-->
@@ -651,9 +681,27 @@
     <defName>PN_SyncNormal_Modified</defName>
     <label>modified model</label>
     <description>This pawn is an automaton.\nAfter production, It has been modified in an unauthorized way.</description>
-    <statOffsets>
-      <MentalBreakThreshold>0.08</MentalBreakThreshold>
-    </statOffsets>
+    <stages Inherit="false">
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MentalBreakThreshold>0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--꽝끔찍-->
