@@ -91,6 +91,7 @@
     <tags>
       <li>MetabolismSource</li>
     </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
   <BodyPartDef ParentName="PN_BodyPartDefBase">
@@ -102,7 +103,6 @@
     <tags>
       <li>BloodPumpingSource</li>
     </tags>
-    <spawnThingOnRemoved>Heart</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
@@ -114,7 +114,7 @@
     <tags>
       <li>BreathingSource</li>
     </tags>
-    <spawnThingOnRemoved>Lung</spawnThingOnRemoved>
+    <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
   <BodyPartDef ParentName="PN_BodyPartDefBase">
@@ -125,7 +125,7 @@
     <tags>
       <li>BloodFiltrationKidney</li>
     </tags>
-    <spawnThingOnRemoved>Kidney</spawnThingOnRemoved>
+    <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
   <BodyPartDef ParentName="PN_BodyPartDefBase">
@@ -137,7 +137,6 @@
       <li>BloodFiltrationLiver</li>
       <li>MetabolismSource</li>
     </tags>
-    <spawnThingOnRemoved>Liver</spawnThingOnRemoved>
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
