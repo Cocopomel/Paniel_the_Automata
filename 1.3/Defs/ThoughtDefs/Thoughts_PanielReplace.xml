@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!--====================================  ====================================-->
+  <!--==================================== Food ====================================-->
+  <ThoughtDef>
+    <defName>PN_AteLavishMeal</defName>
+    <durationDays>2</durationDays>
+    <stages>
+      <li>
+        <label>ate lavish meal</label>
+        <description>That lavish meal was amazing. It nourished my body and my soul.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>PN_AteFineMeal</defName>
+    <durationDays>2</durationDays>
+    <stages>
+      <li>
+        <label>ate fine meal</label>
+        <description>I ate a really tasty fine meal. Yum!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

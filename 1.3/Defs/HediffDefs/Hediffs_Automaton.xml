@@ -20,6 +20,7 @@
           <li>SleepingSickness</li>
           <li>Plague</li>
           <li>FibrousMechanites</li>
+          <li>WoundInfection</li>
           <li>GutWorms</li>
           <li>Flu</li>
           <li>MuscleParasites</li>
@@ -101,6 +102,7 @@
           <li>GutWorms</li>
           <li>MuscleParasites</li>
           <li>FibrousMechanites</li>
+          <li>WoundInfection</li>
           <li>Flu</li>
           <li>Malaria</li>
           <li>SleepingSickness</li>

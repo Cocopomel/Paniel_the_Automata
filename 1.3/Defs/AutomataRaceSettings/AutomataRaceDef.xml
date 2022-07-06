@@ -531,6 +531,16 @@
             <replacer>PN_AutomatonBanishedToDieforPN</replacer>
           </li>
 
+          <!--음식-->
+          <li>
+            <original>AteLavishMeal</original>
+            <replacer>PN_AteLavishMeal</replacer>
+          </li>
+          <li>
+            <original>AteFineMeal</original>
+            <replacer>PN_AteFineMeal</replacer>
+          </li>
+
           <!--이데올로기-->
           <li MayRequire="Ludeon.RimWorld.Ideology">
             <original>PN_OfficerCommandThought</original>
@@ -702,7 +712,7 @@
 
           <li>PN_EliteSecurityUniform</li>
           <li>PN_EliteSecurityHat</li>
-          
+
           <!--모듈-->
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
@@ -775,9 +785,9 @@
       <ComfyTemperatureMax>38</ComfyTemperatureMax>
       <ComfyTemperatureMin>4</ComfyTemperatureMin>
       <RestRateMultiplier>1.00</RestRateMultiplier>      <!--수면효율-->
-      <HungerRateMultiplier>1.00</HungerRateMultiplier>
+      <HungerRateMultiplier>0.25</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
-      <ImmunityGainSpeed>0</ImmunityGainSpeed>
+      <ImmunityGainSpeed>1.20</ImmunityGainSpeed>
       <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.99</PainShockThreshold>
       <ToxicSensitivity>0.2</ToxicSensitivity>
