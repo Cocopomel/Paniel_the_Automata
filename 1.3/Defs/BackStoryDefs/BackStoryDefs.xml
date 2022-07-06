@@ -338,7 +338,7 @@
       <li>Social</li>
       <li>Intellectual</li>
       <li>Animals</li>
-      <li>Violent</li>
+      <li>Artistic</li>
     </workDisables>
     <spawnCategories>
       <li>Paniel_Story_FailureB</li>
@@ -540,7 +540,6 @@
     </disallowedTraits>
     <workDisables>
       <li>Animals</li>
-      <li>Artistic</li>
       <li>Social</li>
       <li>Cooking</li>
       <li>Caring</li>
@@ -722,7 +721,6 @@
       </li>
     </disallowedTraits>
     <workDisables>
-      <li>Artistic</li>
       <li>Animals</li>
       <li>Mining</li>
       <li>Intellectual</li>
