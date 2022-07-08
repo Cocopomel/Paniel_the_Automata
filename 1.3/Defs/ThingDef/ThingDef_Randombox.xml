@@ -101,6 +101,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>39</weight>
@@ -144,6 +146,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>39</weight>
@@ -187,6 +191,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>39</weight>
@@ -243,6 +249,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>335</weight>
@@ -282,6 +290,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>335</weight>
@@ -321,6 +331,8 @@
         <useLabel>Unpackage</useLabel>
       </li>
       <li Class="AutomataRace.CompProperties_UseEffectGeneratePawn">
+        <letterLabel>Paniel in black</letterLabel>
+        <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
             <weight>335</weight>
