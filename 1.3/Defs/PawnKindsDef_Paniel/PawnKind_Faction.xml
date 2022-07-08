@@ -437,9 +437,9 @@
 		<itemQuality>Normal</itemQuality>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
 		<biocodeWeaponChance>0.2</biocodeWeaponChance>
-		<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<apparelRequired>
-			<li>PN_ApparelMilitia</li>
+
 		</apparelRequired>
 		<apparelTags>
 			<li>Paniel_Militia</li>
@@ -539,7 +539,7 @@
 	<!--Elite Unit Base-->
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind" Name="PN_EliteUnitBase" Abstract="True">
-	<label>elite security unit</label>
+		<label>elite security unit</label>
 		<isFighter>true</isFighter>
 		<itemQuality>Good</itemQuality>
 		<gearHealthRange>1~1</gearHealthRange>
