@@ -19,7 +19,7 @@
     <label>Intern</label>
     <description>Intern of PnL Logistics.</description>
     <seniority>0</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>1</favorCost>
     <changeHeirQuestPoints>1000</changeHeirQuestPoints>
   </RoyalTitleDef>
 
@@ -29,7 +29,7 @@
     <label>Associate</label>
     <description>Associate of PnL Logistics.</description>
     <seniority>100</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>6</favorCost>
     <changeHeirQuestPoints>1200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
   </RoyalTitleDef>
@@ -40,7 +40,7 @@
     <label>Senior</label>
     <description>Senior of PnL Logistics.</description>
     <seniority>200</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>8</favorCost>
     <changeHeirQuestPoints>1600</changeHeirQuestPoints>
     <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
     <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
@@ -52,7 +52,7 @@
     <label>Manager</label>
     <description>Manager of PnL Logistics.</description>
     <seniority>300</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>10</favorCost>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
@@ -102,7 +102,7 @@
     <label>Senior Manager</label>
     <description>Senior Manager of PnL Logistics.</description>
     <seniority>400</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>15</favorCost>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2800</changeHeirQuestPoints>
     <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
@@ -160,7 +160,7 @@
     <label>Director</label>
     <description>Director of PnL Logistics.</description>
     <seniority>500</seniority>
-    <favorCost>50</favorCost>
+    <favorCost>20</favorCost>
     <minExpectation>High</minExpectation>
     <changeHeirQuestPoints>3500</changeHeirQuestPoints>
     <recruitmentResistanceOffset>75</recruitmentResistanceOffset>

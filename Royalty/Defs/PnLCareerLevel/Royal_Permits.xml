@@ -14,7 +14,7 @@
   </RoyalTitlePermitDef>
 
   <!--자원 드랍 베이스-->
-  <RoyalTitlePermitDef ParentName="PN_TitleBase" Name="PN_DropResourcesBase" Abstract="True">
+  <RoyalTitlePermitDef ParentName="PN_BenefitBase" Name="PN_DropResourcesBase" Abstract="True">
     <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
     <usableOnWorldMap>true</usableOnWorldMap>
     <royalAid>
@@ -32,9 +32,9 @@
     <uiPosition>(0,0)</uiPosition>
     <royalAid>
       <itemsToDrop>
-        <Silver>500</Silver>
+        <Silver>800</Silver>
       </itemsToDrop>
-      <favorCost>6</favorCost>
+      <favorCost>1</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -48,9 +48,9 @@
     <uiPosition>(1,0)</uiPosition>
     <royalAid>
       <itemsToDrop>
-        <Silver>2000</Silver>
+        <Silver>3200</Silver>
       </itemsToDrop>
-      <favorCost>22</favorCost>
+      <favorCost>4</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -64,12 +64,11 @@
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,1)</uiPosition>
     <royalAid>
-      <favorCost>25</favorCost>
+      <favorCost>4</favorCost>
       <pawnKindDef>PN_Mid_CloseUnit</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
@@ -82,12 +81,11 @@
     <prerequisite>PN_RequestSecurityUnitClose</prerequisite>
     <uiPosition>(1,1)</uiPosition>
     <royalAid>
-      <favorCost>45</favorCost>
+      <favorCost>6</favorCost>
       <pawnKindDef>PN_EliteCloseUnit</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
 
   <!--전투니엘 지원 (원거리)-->
@@ -100,12 +98,11 @@
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,2)</uiPosition>
     <royalAid>
-      <favorCost>25</favorCost>
+      <favorCost>4</favorCost>
       <pawnKindDef>PN_Mid_RangeUnit</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
-    <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
@@ -118,7 +115,7 @@
     <prerequisite>PN_RequestSecurityUnitRange</prerequisite>
     <uiPosition>(1,2)</uiPosition>
     <royalAid>
-      <favorCost>45</favorCost>
+      <favorCost>6</favorCost>
       <pawnKindDef>PN_EliteRangeUnit</pawnKindDef>
       <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
@@ -136,7 +133,7 @@
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,3)</uiPosition>
     <royalAid>
-      <favorCost>25</favorCost>
+      <favorCost>4</favorCost>
       <pawnKindDef>PN_AssociateP_EngineerA</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
@@ -155,7 +152,7 @@
     <prerequisite>PN_RequestEngineerUnit</prerequisite>
     <uiPosition>(1,3)</uiPosition>
     <royalAid>
-      <favorCost>45</favorCost>
+      <favorCost>6</favorCost>
       <pawnKindDef>PN_ManageUnit_Enginer</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
@@ -174,7 +171,7 @@
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,4)</uiPosition>
     <royalAid>
-      <favorCost>25</favorCost>
+      <favorCost>4</favorCost>
       <pawnKindDef>PN_AssociateP_DomesticA</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
@@ -190,10 +187,10 @@
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>PN_RequestSecurityUnit</prerequisite>
+    <prerequisite>PN_RequestDomesticUnit</prerequisite>
     <uiPosition>(1,4)</uiPosition>
     <royalAid>
-      <favorCost>45</favorCost>
+      <favorCost>6</favorCost>
       <pawnKindDef>PN_ManageUnit_Domestic</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
@@ -214,7 +211,7 @@
       <itemsToDrop>
         <PN_Component>3</PN_Component>
       </itemsToDrop>
-      <favorCost>20</favorCost>
+      <favorCost>3</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -230,7 +227,7 @@
       <itemsToDrop>
         <PN_OTPCard>1</PN_OTPCard>
       </itemsToDrop>
-      <favorCost>6</favorCost>
+      <favorCost>1</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -246,7 +243,7 @@
       <itemsToDrop>
         <Packaged_NormalAutomatonSoldier>1</Packaged_NormalAutomatonSoldier>
       </itemsToDrop>
-      <favorCost>35</favorCost>
+      <favorCost>4</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -263,7 +260,7 @@
       <itemsToDrop>
         <Packaged_PremiumAutomatonSoldier>1</Packaged_PremiumAutomatonSoldier>
       </itemsToDrop>
-      <favorCost>90</favorCost>
+      <favorCost>10</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -279,7 +276,7 @@
       <itemsToDrop>
         <Packaged_NormalAutomatonWorker>1</Packaged_NormalAutomatonWorker>
       </itemsToDrop>
-      <favorCost>35</favorCost>
+      <favorCost>4</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -296,7 +293,7 @@
       <itemsToDrop>
         <Packaged_PremiumAutomatonWorker>1</Packaged_PremiumAutomatonWorker>
       </itemsToDrop>
-      <favorCost>90</favorCost>
+      <favorCost>10</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -313,7 +310,7 @@
       <itemsToDrop>
         <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
       </itemsToDrop>
-      <favorCost>35</favorCost>
+      <favorCost>4</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -330,7 +327,7 @@
       <itemsToDrop>
         <Packaged_PremiumAutomatonMaid>1</Packaged_PremiumAutomatonMaid>
       </itemsToDrop>
-      <favorCost>90</favorCost>
+      <favorCost>10</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 </Defs>
