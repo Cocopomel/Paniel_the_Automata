@@ -306,6 +306,11 @@
       </li>
     </pawnGroupMakers>
     <apparelStuffFilter>
+      <stuffCategoriesToAllow>
+        <li>Metallic</li>
+        <li>Fabric</li>
+        <li>Leathery</li>
+      </stuffCategoriesToAllow>
       <disallowedThingDefs>
         <li>Leather_Thrumbo</li>
         <li>Hyperweave</li>
