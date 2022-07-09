@@ -529,13 +529,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory" Name="PanielWorkerBackStory" Abstract="True">
     <disallowedTraits>
       <li>
-        <defName>ShootingAccuracy</defName>
-      </li>
-      <li>
         <defName>Brawler</defName>
-      </li>
-      <li>
-        <defName>Tough</defName>
       </li>
     </disallowedTraits>
     <workDisables>
@@ -708,13 +702,7 @@
   <AlienRace.BackstoryDef ParentName="BasePanielBackStory" Name="PanielMaidBackStory" Abstract="True">
     <disallowedTraits>
       <li>
-        <defName>ShootingAccuracy</defName>
-      </li>
-      <li>
         <defName>Brawler</defName>
-      </li>
-      <li>
-        <defName>Tough</defName>
       </li>
       <li>
         <defName>TorturedArtist</defName>

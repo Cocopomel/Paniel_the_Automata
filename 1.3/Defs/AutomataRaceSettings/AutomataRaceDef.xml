@@ -51,6 +51,9 @@
         <!--특성 제한-->
         <disallowedTraits>
           <li>
+            <defName>ShootingAccuracy</defName>
+          </li>
+          <li>
             <defName>Tough</defName>
           </li>
           <li>
@@ -87,19 +90,10 @@
             <defName>Nudist</defName>
           </li>
           <li>
-            <defName>Bloodlust</defName>
-          </li>
-          <li>
-            <defName>Psychopath</defName>
-          </li>
-          <li>
             <defName>Abrasive</defName>
           </li>
           <li>
             <defName>Masochist</defName>
-          </li>
-          <li>
-            <defName>NightOwl</defName>
           </li>
           <li>
             <defName>Ascetic</defName>
@@ -112,12 +106,6 @@
           </li>
           <li>
             <defName>Asexual</defName>
-          </li>
-          <li>
-            <defName>FastLearner</defName>
-          </li>
-          <li>
-            <defName>SlowLearner</defName>
           </li>
           <li>
             <defName>Undergrounder</defName>
@@ -135,9 +123,6 @@
             <defName>Gourmand</defName>
           </li>
           <li>
-            <defName>QuickSleeper</defName>
-          </li>
-          <li>
             <defName>Beauty</defName>
             <degree>-1</degree>
           </li>
@@ -147,9 +132,6 @@
           </li>
           <li>
             <defName>Immunity</defName>
-          </li>
-          <li>
-            <defName>TooSmart</defName>
           </li>
         </disallowedTraits>
         <additionalTraits>0</additionalTraits>
@@ -631,11 +613,6 @@
           <li>ProsthophobeUnhappy</li>
           <li>ClothedNudist</li>
           <li>HappyNude</li>
-          <li>UndergrounderIndoors</li>
-          <li>UndergrounderUnderground</li>
-          <li>UndergrounderOutdoors</li>
-          <li>NightOwlDuringTheDay</li>
-          <li>NightOwlDuringTheNight</li>
           <li>Greedy</li>
           <li>Jealous</li>
           <li>Ascetic</li>
