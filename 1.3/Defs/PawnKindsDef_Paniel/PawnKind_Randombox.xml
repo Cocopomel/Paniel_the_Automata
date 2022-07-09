@@ -20,8 +20,6 @@
     <techHediffsTags>
 
     </techHediffsTags>
-    <minGenerationAge>1</minGenerationAge>
-		<maxGenerationAge>3</maxGenerationAge>
     <initialWillRange>2~4</initialWillRange>
     <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
