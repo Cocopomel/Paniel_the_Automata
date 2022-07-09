@@ -63,6 +63,7 @@
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,1)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
       <pawnKindDef>PN_Mid_CloseUnit</pawnKindDef>
@@ -80,6 +81,7 @@
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestSecurityUnitClose</prerequisite>
     <uiPosition>(1,1)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>6</favorCost>
       <pawnKindDef>PN_EliteCloseUnit</pawnKindDef>
@@ -97,6 +99,7 @@
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,2)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
       <pawnKindDef>PN_Mid_RangeUnit</pawnKindDef>
@@ -114,6 +117,7 @@
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestSecurityUnitRange</prerequisite>
     <uiPosition>(1,2)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>6</favorCost>
       <pawnKindDef>PN_EliteRangeUnit</pawnKindDef>
@@ -128,10 +132,11 @@
     <defName>PN_RequestEngineerUnit</defName>
     <label>request engineer unit</label>
     <description>Request a group of 4 engineer units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
-    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,3)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
       <pawnKindDef>PN_AssociateP_EngineerA</pawnKindDef>
@@ -146,11 +151,12 @@
     <defName>PN_RequestEliteEngineerUnit</defName>
     <label>request elite engineer unit</label>
     <description>Request a group of 4 elite engineer units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
-    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestEngineerUnit</prerequisite>
     <uiPosition>(1,3)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>6</favorCost>
       <pawnKindDef>PN_ManageUnit_Enginer</pawnKindDef>
@@ -166,10 +172,11 @@
     <defName>PN_RequestDomesticUnit</defName>
     <label>request domestic unit</label>
     <description>Request a group of 4 domestic units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
-    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,4)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
       <pawnKindDef>PN_AssociateP_DomesticA</pawnKindDef>
@@ -184,11 +191,12 @@
     <defName>PN_RequestEliteDomesticUnit</defName>
     <label>request elite domestic unit</label>
     <description>Request a group of 4 elite domestic units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
-    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestDomesticUnit</prerequisite>
     <uiPosition>(1,4)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>6</favorCost>
       <pawnKindDef>PN_ManageUnit_Domestic</pawnKindDef>

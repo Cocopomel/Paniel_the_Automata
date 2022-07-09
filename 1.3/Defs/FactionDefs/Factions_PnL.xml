@@ -54,6 +54,10 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>CEO</leaderTitle>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <fixedLeaderKinds>
+      <li>PN_CEO</li>
+    </fixedLeaderKinds>
     <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
@@ -91,22 +95,19 @@
     </backstoryCategories>
     <geneticVariance>0.8</geneticVariance>
 
-    <!--로열티 VIP 맴버십-->
-    <!--
+    <!--로열티-->
     <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
-      <li>PN_PnLCareerLevelTag</li>
+      <li>PN_PnLCareerTitleTag</li>
     </royalTitleTags>
     <royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
     <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
-
     </royalTitleInheritanceRelations>
     <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">PnL result point</royalFavorLabel>
     <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">Icon/Paniel_PlayerIcon</royalFavorIconPath>
-    -->
 
     <caravanTraderKinds>
       <li>PN_Caravan_PnLindustry</li>
-      <!--<li MayRequire="Ludeon.RimWorld.Royalty">PN_Caravan_TributeCollector</li>-->
+      <li MayRequire="Ludeon.RimWorld.Royalty">PN_Caravan_TributeCollector</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
@@ -130,9 +131,6 @@
         <li>(0, 0)</li>
       </points>
     </raidCommonalityFromPointsCurve>
-    <fixedLeaderKinds>
-      <li>PN_Director</li>
-    </fixedLeaderKinds>
     <pawnGroupMakers>
 
       <!--
@@ -300,8 +298,6 @@
           <PN_EliteRangeUnit>2</PN_EliteRangeUnit>
           <PN_EliteHeavyUnit>2</PN_EliteHeavyUnit>
           <PN_EliteCannonUnit>2</PN_EliteCannonUnit>
-
-          <PN_Director>1</PN_Director>
         </options>
       </li>
     </pawnGroupMakers>

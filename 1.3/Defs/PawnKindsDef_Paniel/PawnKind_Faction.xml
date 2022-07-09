@@ -34,7 +34,12 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_AssociateH</defName>
-		<label>PnL Associate</label>
+		<label>PnL associate</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Associate</li>
+			<li>PN_Title_Senior</li>
+    </titleSelectOne>
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -59,7 +64,11 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_AssociateP_EngineerA</defName>
-		<label>Associate unit</label>
+		<label>associate unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Associate</li>
+    </titleSelectOne>
 		<combatPower>60</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -96,7 +105,11 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_AssociateP_EngineerB</defName>
-		<label>Associate unit</label>
+		<label>associate unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Senior</li>
+    </titleSelectOne>
 		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
@@ -134,7 +147,11 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_AssociateP_DomesticA</defName>
-		<label>Associate unit</label>
+		<label>associate unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Associate</li>
+    </titleSelectOne>
 		<combatPower>60</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -171,7 +188,11 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_AssociateP_DomesticB</defName>
-		<label>Associate unit</label>
+		<label>associate unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Senior</li>
+    </titleSelectOne>
 		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
@@ -210,7 +231,12 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_ManagerH</defName>
-		<label>PnL Manager</label>
+		<label>PnL manager</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Manager</li>
+			<li>PN_Title_SeniorManager</li>
+    </titleSelectOne>
 		<trader>true</trader>
 		<combatPower>45</combatPower>
 		<isFighter>false</isFighter>
@@ -244,6 +270,10 @@
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_ManageUnit_Enginer</defName>
 		<label>manage unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Manager</li>
+    </titleSelectOne>
 		<combatPower>65</combatPower>
 		<itemQuality>Normal</itemQuality>
 		<isFighter>false</isFighter>
@@ -283,6 +313,10 @@
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_ManageUnit_Domestic</defName>
 		<label>manage unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Manager</li>
+    </titleSelectOne>
 		<combatPower>65</combatPower>
 		<trader>true</trader>
 		<itemQuality>Normal</itemQuality>
@@ -322,7 +356,200 @@
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_Director</defName>
 		<label>PnL director</label>
-		<labelPlural>PnL directors</labelPlural>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Director</li>
+    </titleSelectOne>
+		<combatPower>130</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<apparelMoney>2500~3500</apparelMoney>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<weaponMoney>500~1400</weaponMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<techHediffsChance>0.35</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<!--NPC Only-->
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_SeniorDirector</defName>
+		<label>PnL senior director</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Director</li>
+    </titleSelectOne>
+		<combatPower>130</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<apparelMoney>2500~3500</apparelMoney>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<weaponMoney>500~1400</weaponMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<techHediffsChance>0.35</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_VP</defName>
+		<label>PnL VP</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_TitleVP</li>
+    </titleSelectOne>
+		<combatPower>130</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<apparelMoney>2500~3500</apparelMoney>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<weaponMoney>500~1400</weaponMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<techHediffsChance>0.35</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_SVP</defName>
+		<label>PnL SVP</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_TitleSVP</li>
+    </titleSelectOne>
+		<combatPower>130</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<apparelMoney>2500~3500</apparelMoney>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+		<weaponMoney>500~1400</weaponMoney>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+			<li>IndustrialMilitaryBasic</li>
+			<li>IndustrialMilitaryAdvanced</li>
+			<li>SpacerMilitary</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<inventoryOptions>
+			<skipChance>0.9</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<techHediffsChance>0.35</techHediffsChance>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>17~27</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+		<defName>PN_CEO</defName>
+		<label>PnL CEO</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_TitleCEO</li>
+    </titleSelectOne>
 		<combatPower>130</combatPower>
 		<factionLeader>true</factionLeader>
 		<minGenerationAge>30</minGenerationAge>
@@ -369,6 +596,11 @@
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_SecurityGuardH</defName>
 		<label>security guard</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Associate</li>
+			<li>PN_Title_Senior</li>
+    </titleSelectOne>
 		<combatPower>60</combatPower>
 		<isFighter>true</isFighter>
 		<gearHealthRange>0.6~2</gearHealthRange>
@@ -396,6 +628,10 @@
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
 		<defName>PN_SecurityUnit</defName>
 		<label>security unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Associate</li>
+    </titleSelectOne>
 		<combatPower>70</combatPower>
 		<isFighter>true</isFighter>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
@@ -433,6 +669,10 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind" Name="PN_MidUnitBase" Abstract="True">
 		<label>security unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+			<li>PN_Title_Senior</li>
+    </titleSelectOne>
 		<isFighter>true</isFighter>
 		<itemQuality>Normal</itemQuality>
 		<gearHealthRange>0.7~3.2</gearHealthRange>
@@ -540,6 +780,10 @@
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind" Name="PN_EliteUnitBase" Abstract="True">
 		<label>elite security unit</label>
+		<royalTitleChance MayRequire="Ludeon.RimWorld.Royalty">1</royalTitleChance>
+		<titleSelectOne MayRequire="Ludeon.RimWorld.Royalty">
+      <li>PN_Title_Manager</li>
+    </titleSelectOne>
 		<isFighter>true</isFighter>
 		<itemQuality>Good</itemQuality>
 		<gearHealthRange>1~1</gearHealthRange>

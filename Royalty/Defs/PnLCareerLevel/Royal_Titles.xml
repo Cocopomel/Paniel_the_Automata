@@ -20,6 +20,7 @@
     <description>Intern of PnL Logistics.</description>
     <seniority>0</seniority>
     <favorCost>1</favorCost>
+    <permitPointsAwarded>0</permitPointsAwarded>
     <changeHeirQuestPoints>1000</changeHeirQuestPoints>
   </RoyalTitleDef>
 
@@ -52,7 +53,8 @@
     <label>Manager</label>
     <description>Manager of PnL Logistics.</description>
     <seniority>300</seniority>
-    <favorCost>10</favorCost>
+    <favorCost>12</favorCost>
+    <permitPointsAwarded>2</permitPointsAwarded>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
@@ -102,7 +104,8 @@
     <label>Senior Manager</label>
     <description>Senior Manager of PnL Logistics.</description>
     <seniority>400</seniority>
-    <favorCost>15</favorCost>
+    <favorCost>16</favorCost>
+    <permitPointsAwarded>2</permitPointsAwarded>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2800</changeHeirQuestPoints>
     <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
@@ -160,7 +163,8 @@
     <label>Director</label>
     <description>Director of PnL Logistics.</description>
     <seniority>500</seniority>
-    <favorCost>20</favorCost>
+    <favorCost>22</favorCost>
+    <permitPointsAwarded>3</permitPointsAwarded>
     <minExpectation>High</minExpectation>
     <changeHeirQuestPoints>3500</changeHeirQuestPoints>
     <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
