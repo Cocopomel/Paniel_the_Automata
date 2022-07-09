@@ -94,20 +94,8 @@
       <li>Offworld</li>
     </backstoryCategories>
     <geneticVariance>0.8</geneticVariance>
-
-    <!--로열티-->
-    <royalTitleTags MayRequire="Ludeon.RimWorld.Royalty">
-      <li>PN_PnLCareerTitleTag</li>
-    </royalTitleTags>
-    <royalTitleInheritanceWorkerClass MayRequire="Ludeon.RimWorld.Royalty">RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
-    <royalTitleInheritanceRelations MayRequire="Ludeon.RimWorld.Royalty">
-    </royalTitleInheritanceRelations>
-    <royalFavorLabel MayRequire="Ludeon.RimWorld.Royalty">PnL result point</royalFavorLabel>
-    <royalFavorIconPath MayRequire="Ludeon.RimWorld.Royalty">Icon/Paniel_PlayerIcon</royalFavorIconPath>
-
     <caravanTraderKinds>
       <li>PN_Caravan_PnLindustry</li>
-      <li MayRequire="Ludeon.RimWorld.Royalty">PN_Caravan_TributeCollector</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
