@@ -2,7 +2,7 @@
 <Defs>
   <TraderKindDef>
     <defName>PN_Orbital_PnLindustry</defName>
-    <label>PnL Industry</label>
+    <label>PnL ship</label>
     <orbital>true</orbital>
     <faction>PN_SubsidiaryFaction</faction>
     <stockGenerators>
