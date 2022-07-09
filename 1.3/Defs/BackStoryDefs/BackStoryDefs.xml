@@ -368,6 +368,20 @@
     </workDisables>
   </AlienRace.BackstoryDef>
 
+  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory" Name="PanielSoldierBackStoryH" Abstract="True">
+    <disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
+    </disallowedTraits>
+  </AlienRace.BackstoryDef>
+
   <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
     <defName>Paniel_MilitiaA_Backstory</defName>
     <title>Automaton Militia</title>
@@ -429,7 +443,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStoryH">
     <defName>Paniel_SoldierA_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
@@ -461,7 +475,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStoryH">
     <defName>Paniel_SoldierB_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
@@ -493,7 +507,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStoryH">
     <defName>Paniel_Royalguard_Backstory</defName>
     <title>Automaton Royal guard</title>
     <titleShort>Royal guard</titleShort>
@@ -539,6 +553,20 @@
       <li>Caring</li>
       <li>PlantWork</li>
     </workDisables>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory" Name="PanielWorkerBackStoryH" Abstract="True">
+    <disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
@@ -602,7 +630,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStoryH">
     <defName>Paniel_JourneymanA_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
@@ -634,7 +662,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStoryH">
     <defName>Paniel_JourneymanB_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
@@ -666,7 +694,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStoryH">
     <defName>Paniel_Meister_Backstory</defName>
     <title>Automaton Meister</title>
     <titleShort>Meister</titleShort>
@@ -713,6 +741,20 @@
       <li>Mining</li>
       <li>Intellectual</li>
     </workDisables>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory" Name="PanielMaidBackStoryH" Abstract="True">
+    <disallowedTraits>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
+    </disallowedTraits>
   </AlienRace.BackstoryDef>
 
   <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
@@ -776,7 +818,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielMaidBackStoryH">
     <defName>Paniel_HousemaidA_Backstory</defName>
     <title>Automaton Housekeeper maid</title>
     <titleShort>Housekeeper Maid</titleShort>
@@ -808,7 +850,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielMaidBackStoryH">
     <defName>Paniel_HousemaidB_Backstory</defName>
     <title>Automaton Housekeeper maid</title>
     <titleShort>Housekeeper</titleShort>
@@ -840,7 +882,7 @@
     </forcedHediffs>
   </AlienRace.BackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory">
+  <AlienRace.BackstoryDef ParentName="PanielMaidBackStoryH">
     <defName>Paniel_Ladysmaid_Backstory</defName>
     <title>Automaton Lady's maid</title>
     <titleShort>Lady's maid</titleShort>

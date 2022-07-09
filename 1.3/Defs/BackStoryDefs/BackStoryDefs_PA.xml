@@ -6,6 +6,15 @@
       <li>
         <defName>Pyromaniac</defName>
       </li>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
 
@@ -171,6 +180,15 @@
       <li>
         <defName>Pyromaniac</defName>
       </li>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
 
@@ -335,6 +353,15 @@
     <disallowedTraits>
       <li>
         <defName>Pyromaniac</defName>
+      </li>
+      <li>
+        <defName>TooSmart</defName>
+      </li>
+      <li>
+        <defName>FastLearner</defName>
+      </li>
+      <li>
+        <defName>SlowLearner</defName>
       </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
