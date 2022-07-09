@@ -46,7 +46,7 @@
       <li>
         <statOffsets>
           <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
-          <AimingDelayFactor>-0.20</AimingDelayFactor>
+          <AimingDelayFactor>-0.10</AimingDelayFactor>
         </statOffsets>
       </li>
     </stages>

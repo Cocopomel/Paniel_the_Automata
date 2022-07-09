@@ -167,6 +167,7 @@
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
       <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+      <MeleeHitChance>3</MeleeHitChance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
