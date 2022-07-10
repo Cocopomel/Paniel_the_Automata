@@ -61,8 +61,6 @@
         </li>
 
         <!--작위관련-->
-
-
         <li Class="PatchOperationAdd">
           <xpath>/Defs/FactionDef[defName = "PN_SubsidiaryFaction"]</xpath>
           <value>
@@ -85,7 +83,6 @@
         </li>
 
         <!--퀘스트 관련-->
-
         <!-- Guests -->
         <li Class="PatchOperationAdd">
           <xpath>/Defs/QuestScriptDef[defName="Util_ChooseRandomQuestLodgerKind"]/root[@Class="QuestNode_Sequence"]/nodes/li[@Class="QuestNode_IsSet"]/node[@Class="QuestNode_GetRandomPawnKindForFaction"]/choices</xpath>
@@ -93,11 +90,11 @@
             <li>
               <factionDef>PN_SubsidiaryFaction</factionDef>
               <pawnKinds>
-                <li>PN_ManagerH</li>
-                <li>PN_Director</li>
-                <li>PN_SeniorDirector</li>
-                <li>PN_VP</li>
-                <li>PN_SVP</li>
+                <li>PN_AssociateH</li>
+                <li>PN_AssociateP_EngineerA</li>
+                <li>PN_AssociateP_EngineerB</li>
+                <li>PN_AssociateP_DomesticA</li>
+                <li>PN_AssociateP_DomesticB</li>
               </pawnKinds>
             </li>
           </value>
