@@ -322,219 +322,83 @@
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_Director</defName>
 		<label>PnL director</label>
-		<combatPower>130</combatPower>
+		<combatPower>40</combatPower>
 		<minGenerationAge>30</minGenerationAge>
-		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
 		<isFighter>false</isFighter>
 		<gearHealthRange>1~1</gearHealthRange>
 		<itemQuality>Good</itemQuality>
-		<apparelMoney>2500~3500</apparelMoney>
-		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
-		<weaponMoney>500~1400</weaponMoney>
+		<weaponMoney>200~200</weaponMoney>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>Gun</li>
 		</weaponTags>
+		<apparelMoney>700~1200</apparelMoney>
 		<apparelTags>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
 			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>SpacerMilitary</li>
 			<li>BeltDefensePop</li>
 		</apparelTags>
-		<techHediffsMoney>1000~1200</techHediffsMoney>
+		<apparelRequired>
+			<li>Apparel_BowlerHat</li>
+		</apparelRequired>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>600~1500</techHediffsMoney>
 		<techHediffsTags>
+			<li>Simple</li>
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
-		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>1</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<techHediffsChance>0.35</techHediffsChance>
 		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>17~27</initialResistanceRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
 	</PawnKindDef>
 
 	<!--NPC Only-->
+	<PawnKindDef ParentName="PN_HumanBasePawnKind" Name="PN_NPCBasePawnKind" Abstract="True">
+		<combatPower>40</combatPower>
+		<minGenerationAge>30</minGenerationAge>
+		<isFighter>false</isFighter>
+		<gearHealthRange>1~1</gearHealthRange>
+		<itemQuality>Good</itemQuality>
+		<weaponMoney>200~200</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelMoney>700~1200</apparelMoney>
+		<apparelTags>
+			<li>IndustrialMilitaryBasic</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Apparel_BowlerHat</li>
+		</apparelRequired>
+		<techHediffsChance>0.15</techHediffsChance>
+		<techHediffsMoney>600~1500</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+			<li>Advanced</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialWillRange>3~5</initialWillRange>
+		<initialResistanceRange>7~11</initialResistanceRange>
+	</PawnKindDef>
 
-	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+
+	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SeniorDirector</defName>
 		<label>PnL senior director</label>
-		<combatPower>130</combatPower>
-		<minGenerationAge>30</minGenerationAge>
-		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>1~1</gearHealthRange>
-		<itemQuality>Good</itemQuality>
-		<apparelMoney>2500~3500</apparelMoney>
-		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
-		<weaponMoney>500~1400</weaponMoney>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-		</weaponTags>
-		<apparelTags>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>SpacerMilitary</li>
-			<li>BeltDefensePop</li>
-		</apparelTags>
-		<techHediffsMoney>1000~1200</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-			<li>ImplantEmpireCommon</li>
-		</techHediffsTags>
-		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>1</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<techHediffsChance>0.35</techHediffsChance>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_VP</defName>
 		<label>PnL VP</label>
-		<combatPower>130</combatPower>
-		<minGenerationAge>30</minGenerationAge>
-		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>1~1</gearHealthRange>
-		<itemQuality>Good</itemQuality>
-		<apparelMoney>2500~3500</apparelMoney>
-		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
-		<weaponMoney>500~1400</weaponMoney>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-		</weaponTags>
-		<apparelTags>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>SpacerMilitary</li>
-			<li>BeltDefensePop</li>
-		</apparelTags>
-		<techHediffsMoney>1000~1200</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-			<li>ImplantEmpireCommon</li>
-		</techHediffsTags>
-		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>1</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<techHediffsChance>0.35</techHediffsChance>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SVP</defName>
 		<label>PnL SVP</label>
-		<combatPower>130</combatPower>
-		<minGenerationAge>30</minGenerationAge>
-		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>1~1</gearHealthRange>
-		<itemQuality>Good</itemQuality>
-		<apparelMoney>2500~3500</apparelMoney>
-		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
-		<weaponMoney>500~1400</weaponMoney>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-		</weaponTags>
-		<apparelTags>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>SpacerMilitary</li>
-			<li>BeltDefensePop</li>
-		</apparelTags>
-		<techHediffsMoney>1000~1200</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-			<li>ImplantEmpireCommon</li>
-		</techHediffsTags>
-		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>1</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<techHediffsChance>0.35</techHediffsChance>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="PN_HumanBasePawnKind">
+	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_CEO</defName>
 		<label>PnL CEO</label>
-		<combatPower>130</combatPower>
-		<factionLeader>true</factionLeader>
-		<minGenerationAge>30</minGenerationAge>
-		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-		<isFighter>false</isFighter>
-		<gearHealthRange>1~1</gearHealthRange>
-		<itemQuality>Good</itemQuality>
-		<apparelMoney>2500~3500</apparelMoney>
-		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
-		<baseRecruitDifficulty>0.90</baseRecruitDifficulty>
-		<weaponMoney>500~1400</weaponMoney>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-		</weaponTags>
-		<apparelTags>
-			<li>IndustrialBasic</li>
-			<li>IndustrialAdvanced</li>
-			<li>IndustrialMilitaryBasic</li>
-			<li>IndustrialMilitaryAdvanced</li>
-			<li>SpacerMilitary</li>
-			<li>BeltDefensePop</li>
-		</apparelTags>
-		<techHediffsMoney>1000~1200</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-			<li>ImplantEmpireCommon</li>
-		</techHediffsTags>
-		<inventoryOptions>
-			<skipChance>0.9</skipChance>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>MedicineIndustrial</thingDef>
-					<countRange>1</countRange>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-		<techHediffsChance>0.35</techHediffsChance>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>17~27</initialResistanceRange>
 	</PawnKindDef>
 
 	<!--security-->
