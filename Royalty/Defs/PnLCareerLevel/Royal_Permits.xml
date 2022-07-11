@@ -26,7 +26,7 @@
   <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
     <defName>PN_AnnualSalary_A</defName>
     <label>annual salary class A</label>
-    <description>This is the annual salary paid to PnL Logistics employees. can use PnL result point to receive advance payment.</description>
+    <description>This is the annual salary (800 Silver) paid to PnL Logistics employees. can use PnL result point to receive advance salary.</description>
     <minTitle>PN_Title_Associate</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,0)</uiPosition>
@@ -41,7 +41,7 @@
   <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
     <defName>PN_AnnualSalary_B</defName>
     <label>annual salary class B</label>
-    <description>This is the annual salary paid to PnL Logistics employees. can use PnL result point to receive advance payment.</description>
+    <description>This is the annual salary (3200 Silver) paid to PnL Logistics employees. can use PnL result point to receive advance salary.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_AnnualSalary_A</prerequisite>
@@ -54,6 +54,22 @@
     </royalAid>
   </RoyalTitlePermitDef>
 
+  <!--OTP 지급-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropOTPCard</defName>
+    <label>request OTP card</label>
+    <description>Request for a drop of PnL OTP card.</description>
+    <minTitle>PN_Title_Senior</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PN_OTPCard>1</PN_OTPCard>
+      </itemsToDrop>
+      <favorCost>2</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
   <!--전투니엘 지원 (근접)-->
   <RoyalTitlePermitDef>
     <defName>PN_RequestSecurityUnitClose</defName>
@@ -62,7 +78,7 @@
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,1)</uiPosition>
+    <uiPosition>(0,2)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
@@ -81,7 +97,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestSecurityUnitClose</prerequisite>
-    <uiPosition>(1,1)</uiPosition>
+    <uiPosition>(1,2)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
@@ -100,7 +116,7 @@
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,2)</uiPosition>
+    <uiPosition>(0,3)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>3</favorCost>
@@ -119,7 +135,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestSecurityUnitRange</prerequisite>
-    <uiPosition>(1,2)</uiPosition>
+    <uiPosition>(1,3)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>6</favorCost>
@@ -138,7 +154,7 @@
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,3)</uiPosition>
+    <uiPosition>(0,4)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
@@ -158,7 +174,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestEngineerUnit</prerequisite>
-    <uiPosition>(1,3)</uiPosition>
+    <uiPosition>(1,4)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
@@ -178,7 +194,7 @@
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,4)</uiPosition>
+    <uiPosition>(0,5)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
@@ -198,7 +214,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestDomesticUnit</prerequisite>
-    <uiPosition>(1,4)</uiPosition>
+    <uiPosition>(1,5)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
@@ -217,28 +233,12 @@
     <description>Request for a drop of 3 PnL Component.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,5)</uiPosition>
+    <uiPosition>(0,6)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <PN_Component>3</PN_Component>
       </itemsToDrop>
       <favorCost>3</favorCost>
-    </royalAid>
-  </RoyalTitlePermitDef>
-
-  <!--OTP 지급-->
-  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
-    <defName>PN_DropOTPCard</defName>
-    <label>request OTP card</label>
-    <description>Request for a drop of PnL OTP card.</description>
-    <minTitle>PN_Title_SeniorManager</minTitle>
-    <permitPointCost>1</permitPointCost>
-    <uiPosition>(1,5)</uiPosition>
-    <royalAid>
-      <itemsToDrop>
-        <PN_OTPCard>1</PN_OTPCard>
-      </itemsToDrop>
-      <favorCost>1</favorCost>
     </royalAid>
   </RoyalTitlePermitDef>
 
@@ -249,7 +249,7 @@
     <description>Request for a drop of PnL automaton™ (Combat) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,6)</uiPosition>
+    <uiPosition>(0,7)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonSoldier>1</Packaged_NormalAutomatonSoldier>
@@ -266,7 +266,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonSoldier</prerequisite>
-    <uiPosition>(1,6)</uiPosition>
+    <uiPosition>(1,7)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonSoldier>1</Packaged_PremiumAutomatonSoldier>
@@ -282,7 +282,7 @@
     <description>Request for a drop of PnL automaton™ (Engineer) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,7)</uiPosition>
+    <uiPosition>(0,8)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonWorker>1</Packaged_NormalAutomatonWorker>
@@ -299,7 +299,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonWorker</prerequisite>
-    <uiPosition>(1,7)</uiPosition>
+    <uiPosition>(1,8)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonWorker>1</Packaged_PremiumAutomatonWorker>
@@ -316,7 +316,7 @@
     <description>Request for a drop of PnL automaton™ (Domestic) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,8)</uiPosition>
+    <uiPosition>(0,9)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
@@ -333,7 +333,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonMaid</prerequisite>
-    <uiPosition>(1,8)</uiPosition>
+    <uiPosition>(1,9)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonMaid>1</Packaged_PremiumAutomatonMaid>

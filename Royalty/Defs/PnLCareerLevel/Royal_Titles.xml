@@ -9,7 +9,6 @@
     <awardThought>PN_TitlePromotion</awardThought>
     <lostThought>PN_TitleDemotion</lostThought>
     <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
-    <permitPointsAwarded>1</permitPointsAwarded>
     <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
   </RoyalTitleDef>
 
@@ -20,7 +19,7 @@
     <description>Intern of PnL Logistics.</description>
     <seniority>0</seniority>
     <favorCost>1</favorCost>
-    <permitPointsAwarded>0</permitPointsAwarded>
+    <permitPointsAwarded>1</permitPointsAwarded>
     <changeHeirQuestPoints>1000</changeHeirQuestPoints>
   </RoyalTitleDef>
 
@@ -29,8 +28,9 @@
     <defName>PN_Title_Associate</defName>
     <label>Associate</label>
     <description>Associate of PnL Logistics.</description>
-    <seniority>100</seniority>
+    <seniority>1</seniority>
     <favorCost>6</favorCost>
+    <permitPointsAwarded>2</permitPointsAwarded>
     <changeHeirQuestPoints>1200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
   </RoyalTitleDef>
@@ -40,8 +40,9 @@
     <defName>PN_Title_Senior</defName>
     <label>Senior</label>
     <description>Senior of PnL Logistics.</description>
-    <seniority>200</seniority>
+    <seniority>2</seniority>
     <favorCost>8</favorCost>
+    <permitPointsAwarded>2</permitPointsAwarded>
     <changeHeirQuestPoints>1600</changeHeirQuestPoints>
     <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
     <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
@@ -52,9 +53,9 @@
     <defName>PN_Title_Manager</defName>
     <label>Manager</label>
     <description>Manager of PnL Logistics.</description>
-    <seniority>300</seniority>
+    <seniority>3</seniority>
     <favorCost>12</favorCost>
-    <permitPointsAwarded>2</permitPointsAwarded>
+    <permitPointsAwarded>3</permitPointsAwarded>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
@@ -103,9 +104,12 @@
     <defName>PN_Title_SeniorManager</defName>
     <label>Senior Manager</label>
     <description>Senior Manager of PnL Logistics.</description>
-    <seniority>400</seniority>
+    <seniority>4</seniority>
     <favorCost>16</favorCost>
-    <permitPointsAwarded>2</permitPointsAwarded>
+    <permitPointsAwarded>3</permitPointsAwarded>
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2800</changeHeirQuestPoints>
     <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
@@ -164,7 +168,10 @@
     <description>Director of PnL Logistics.</description>
     <seniority>500</seniority>
     <favorCost>22</favorCost>
-    <permitPointsAwarded>3</permitPointsAwarded>
+    <permitPointsAwarded>4</permitPointsAwarded>
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
     <minExpectation>High</minExpectation>
     <changeHeirQuestPoints>3500</changeHeirQuestPoints>
     <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
@@ -218,6 +225,9 @@
 
   <!--NPC Only-->
   <RoyalTitleDef ParentName="PN_TitleBase" Abstract="True" Name="PN_TitleBaseNPC">
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
     <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
     <bedroomRequirements>
       <li Class="RoomRequirement_Area">
