@@ -2,7 +2,7 @@
 <Defs>
   <TraderKindDef>
     <defName>PN_Orbital_PnLindustry</defName>
-    <label>PnL ship</label>
+    <label>PnL trader ship</label>
     <orbital>true</orbital>
     <faction>PN_SubsidiaryFaction</faction>
     <stockGenerators>
@@ -18,7 +18,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
-        <countRange>8~16</countRange>
+        <countRange>1~2</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
@@ -29,20 +29,28 @@
         <countRange>100~400</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Gold</thingDef>
-        <countRange>50~70</countRange>
+        <thingDef>Uranium</thingDef>
+        <countRange>40~200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
         <countRange>200~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>50~100</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>10~15</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Hyperweave</thingDef>
-        <countRange>25~50</countRange>
+        <countRange>10~25</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>DevilstrandCloth</thingDef>
-        <countRange>50~75</countRange>
+        <countRange>10~25</countRange>
       </li>
 
       <!-- Drugs -->
@@ -61,12 +69,8 @@
         <countRange>10~20</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_SelfRepairKit</thingDef>
-        <countRange>1~3</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>PN_BrainCasing</thingDef>
-        <countRange>6~10</countRange>
+        <countRange>3~6</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Leather_Automaton</thingDef>
@@ -74,31 +78,27 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_Component</thingDef>
-        <countRange>8~16</countRange>
+        <countRange>4~8</countRange>
       </li>
 
-      <li Class="StockGenerator_Category">
-        <categoryDef>PN_TMPackagedCatagory</categoryDef>
-        <thingDefCountRange>1~3</thingDefCountRange>
-        <totalPriceRange>3000~4000</totalPriceRange>
-      </li>
-
-      <!-- Weapons -->
       <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_PrototypeRailGun</thingDef>
-        <countRange>-2~1</countRange>
+        <thingDef>Packaged_NormalAutomatonSoldier</thingDef>
+        <countRange>0~1</countRange>
       </li>
-      <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
-        <weaponTag>PN_Bladelink</weaponTag>
-        <countRange>-2~1</countRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Packaged_NormalAutomatonWorker</thingDef>
+        <countRange>0~1</countRange>
       </li>
-
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Packaged_NormalAutomatonMaid</thingDef>
+        <countRange>0~1</countRange>
+      </li>
       <!-- Apparel -->
 
       <!-- Implants -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ResurrectModule</thingDef>
-        <countRange>1~1</countRange>
+        <countRange>-1~1</countRange>
       </li>
 
       <!-- Buildings -->
@@ -106,6 +106,7 @@
       <!-- Animals -->
 
       <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
 
     </stockGenerators>
   </TraderKindDef>

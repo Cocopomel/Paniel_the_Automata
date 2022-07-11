@@ -60,6 +60,34 @@
           </value>
         </li>
 
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "PN_Base_PnLindustry"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Techprint_CataphractArmor</thingDef>
+              <countRange>-1~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>PN_Orbital_PnLbenefit</thingDef>
+              <countRange>-1~1</countRange>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/TraderKindDef[defName = "PN_Orbital_PnLindustry"]/stockGenerators</xpath>
+          <value>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Techprint_CataphractArmor</thingDef>
+              <countRange>1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+              <thingDef>Techprint_BrainWiring</thingDef>
+              <countRange>1</countRange>
+            </li>
+          </value>
+        </li>
+
         <!--작위관련-->
         <li Class="PatchOperationAdd">
           <xpath>/Defs/FactionDef[defName = "PN_SubsidiaryFaction"]</xpath>

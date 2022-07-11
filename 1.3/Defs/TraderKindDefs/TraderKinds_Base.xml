@@ -4,11 +4,10 @@
     <defName>PN_Base_PnLindustry</defName>
     <stockGenerators>
 
-
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>8000~30000</countRange>
+        <countRange>2000~4000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -23,62 +22,32 @@
         <countRange>500~800</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>WoodLog</thingDef>
-        <countRange>400~700</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <countRange>100~250</countRange>
+        <countRange>100~400</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Uranium</thingDef>
         <countRange>40~200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Cloth</thingDef>
-        <countRange>400~600</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Gold</thingDef>
-        <countRange>100~200</countRange>
+        <thingDef>Chemfuel</thingDef>
+        <countRange>200~600</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
-        <countRange>50~200</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Chemfuel</thingDef>
-        <countRange>300~500</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Chocolate</thingDef>
-        <countRange>-30~70</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Beer</thingDef>
-        <countRange>-40~100</countRange>
+        <countRange>50~100</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
         <countRange>25~50</countRange>
       </li>
-      <li Class="StockGenerator_ReinforcedBarrels">
-        <countRange>1~4</countRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Hyperweave</thingDef>
+        <countRange>10~25</countRange>
       </li>
-      <li Class="StockGenerator_Tag">
-        <tradeTag>MortarShell</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <countRange>20~40</countRange>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-        <thingDefCountRange>1~2</thingDefCountRange>
-        <totalPriceRange>400~800</totalPriceRange>
-      </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>ResourcesRaw</categoryDef>
-        <thingDefCountRange>2~4</thingDefCountRange>
-        <totalPriceRange>400~800</totalPriceRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>DevilstrandCloth</thingDef>
+        <countRange>10~25</countRange>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
@@ -93,32 +62,85 @@
         <thingDefCountRange>1~2</thingDefCountRange>
         <countRange>12~50</countRange>
       </li>
-      <li Class="StockGenerator_MultiDef">
-        <thingDefs>
-          <li>Kibble</li>
-          <li>Pemmican</li>
-        </thingDefs>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>2~4</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>400~800</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_ReinforcedBarrels">
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>MortarShell</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>20~40</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>PN_Shell</tradeTag>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <countRange>3~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>-30~70</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>-40~100</countRange>
       </li>
 
       <!-- Drugs -->
-      <li Class="StockGenerator_Category">
-        <categoryDef>Drugs</categoryDef>
-        <thingDefCountRange>3~4</thingDefCountRange>
-        <totalPriceRange>700~1500</totalPriceRange>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_AutomatonFuel</thingDef>
+        <countRange>200~600</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_antibiotics</thingDef>
+        <countRange>2~6</countRange>
       </li>
 
-      <!-- Techprints -->
-      <li Class="StockGenerator_Techprints">
-        <countChances>
-          <li>
-            <count>2</count>
-            <chance>0.5</chance>
-          </li>
-          <li>
-            <count>3</count>
-            <chance>0.5</chance>
-          </li>
-        </countChances>
+      <!-- Automaton -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_RepairKit</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_BrainCasing</thingDef>
+        <countRange>3~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Automaton</thingDef>
+        <countRange>50~200</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_Component</thingDef>
+        <countRange>4~8</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Packaged_NormalAutomatonSoldier</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Packaged_NormalAutomatonWorker</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Packaged_NormalAutomatonMaid</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+
+      <!-- Apparel -->
+      <li Class="StockGenerator_Clothes">
+        <countRange>10~16</countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <countRange>2~4</countRange>
       </li>
 
       <!-- Weapons -->
@@ -131,15 +153,11 @@
         <countRange>1~2</countRange>
       </li>
 
-      <!-- Apparel -->
-      <li Class="StockGenerator_Clothes">
-        <countRange>10~16</countRange>
-      </li>
-      <li Class="StockGenerator_Armor">
-        <countRange>2~4</countRange>
-      </li>
-
       <!-- Implants -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_ResurrectModule</thingDef>
+        <countRange>-1~1</countRange>
+      </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
         <thingDefCountRange>2~4</thingDefCountRange>
@@ -165,6 +183,21 @@
         <countRange>0~1</countRange>
       </li>
 
+      <!-- Techprints -->
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>2</count>
+            <chance>0.5</chance>
+          </li>
+          <li>
+            <count>3</count>
+            <chance>0.5</chance>
+          </li>
+        </countChances>
+      </li>
+
+
       <!-- Exotic -->
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
@@ -176,19 +209,13 @@
         <thingDefCountRange>1~4</thingDefCountRange>
         <countRange>1~2</countRange>
         <excludedThingDefs>
-          <li>Luciferium</li>          <!-- already handled by drugs -->
           <li>ComponentSpacer</li>          <!-- already handled by single def -->
         </excludedThingDefs>
         <customCountRanges>
           <MedicineUltratech>2~15</MedicineUltratech>
           <Hyperweave>50~200</Hyperweave>
+          <Luciferium>3~4</Luciferium>
         </customCountRanges>
-      </li>
-
-      <!-- Slaves -->
-      <li Class="StockGenerator_Slaves">
-        <respectPopulationIntent>true</respectPopulationIntent>
-        <countRange>-1~2</countRange>
       </li>
 
       <!-- Animals -->
@@ -210,64 +237,6 @@
 
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>Art</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireCommon</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>ImplantEmpireRoyal</tag>
-      </li>
-      <li Class="StockGenerator_BuyTradeTag">
-        <tag>MusicalInstrument</tag>
-      </li>
-
-      <!--PnL-->
-
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Hyperweave</thingDef>
-        <countRange>10~15</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>DevilstrandCloth</thingDef>
-        <countRange>20~30</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_AutomatonFuel</thingDef>
-        <countRange>200~300</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_antibiotics</thingDef>
-        <countRange>2~6</countRange>
-      </li>
-
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_RepairKit</thingDef>
-        <countRange>10~20</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_SelfRepairKit</thingDef>
-        <countRange>0~1</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_BrainCasing</thingDef>
-        <countRange>2~6</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Leather_Automaton</thingDef>
-        <countRange>50~200</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>PN_Component</thingDef>
-        <countRange>3~5</countRange>
-      </li>
-
-      <li Class="StockGenerator_Category">
-        <categoryDef>PN_TMPackagedCatagory</categoryDef>
-        <thingDefCountRange>-1~2</thingDefCountRange>
-        <totalPriceRange>3000~4000</totalPriceRange>
-      </li>
 
     </stockGenerators>
   </TraderKindDef>

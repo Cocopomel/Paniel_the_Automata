@@ -101,7 +101,7 @@
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Base_Outlander_Standard</li>
+      <li>PN_Base_PnLindustry</li>
     </baseTraderKinds>
     <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
     <raidLootMaker>PN_SubsidiaryRaidLootMaker</raidLootMaker>
