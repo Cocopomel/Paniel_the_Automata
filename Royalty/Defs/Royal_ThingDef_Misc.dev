@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--PnL shuttle-->
+  <ThingDef ParentName="ShuttleBase">
+    <defName>PN_Shuttle</defName>
+    <label>PnL shuttle</label>
+    <description>A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/Shuttle</texPath>
+      <color>(162,164,149)</color>
+    </graphicData>
+  </ThingDef>
+  
+</Defs>

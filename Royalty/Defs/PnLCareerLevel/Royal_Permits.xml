@@ -57,7 +57,7 @@
   <!--OTP 지급-->
   <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
     <defName>PN_DropOTPCard</defName>
-    <label>request OTP card</label>
+    <label>request PnL OTP card</label>
     <description>Request for a drop of PnL OTP card.</description>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
@@ -339,6 +339,24 @@
         <Packaged_PremiumAutomatonMaid>1</Packaged_PremiumAutomatonMaid>
       </itemsToDrop>
       <favorCost>10</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestTransportShuttle</defName>
+    <label>request transport shuttle</label>
+    <description>request a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>PN_Title_Manager</minTitle>
+    <faction>PN_SubsidiaryFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>60</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(0,10)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
     </royalAid>
   </RoyalTitlePermitDef>
 </Defs>
