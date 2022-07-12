@@ -136,7 +136,7 @@
         <thingDef>PN_PrototypeRailGun</thingDef>
         <countRange>0~1</countRange>
       </li>
-      <li Class="StockGenerator_WeaponsMelee" MayRequire="Ludeon.RimWorld.Royalty">
+      <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>PN_Bladelink</weaponTag>
         <countRange>1~2</countRange>
       </li>
@@ -147,6 +147,16 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_ResurrectModule</thingDef>
         <countRange>1~3</countRange>
+      </li>
+
+      <!-- Techprints -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Techprint_CataphractArmor</thingDef>
+        <countRange>1</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Techprint_BrainWiring</thingDef>
+        <countRange>1</countRange>
       </li>
 
       <!-- Buildings -->

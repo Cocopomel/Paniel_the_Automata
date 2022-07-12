@@ -16,6 +16,10 @@
 		<techHediffsMoney>0</techHediffsMoney>
 		<techHediffsTags>
 		</techHediffsTags>
+		<inventoryOptions>
+			<thingDef>PN_AutomatonFuel</thingDef>
+			<countRange>3~5</countRange>
+		</inventoryOptions>
 	</PawnKindDef>
 
 	<PawnKindDef Name="PN_HumanBasePawnKind" Abstract="True">
@@ -191,7 +195,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>Paniel_Story_Normal</li>
+					<li>Paniel_Story_Good</li>
 					<li>Paniel_Story_MaidB_PA</li>
 				</categories>
 			</li>
@@ -546,7 +550,7 @@
 			<li>PN_Shovel</li>
 		</weaponTags>
 		<weaponMoney>200~500</weaponMoney>
-		<apparelMoney>300~1400</apparelMoney>
+		<apparelMoney>1000~1500</apparelMoney>
 		<apparelRequired>
 			<li>Apparel_ShieldBelt</li>
 		</apparelRequired>

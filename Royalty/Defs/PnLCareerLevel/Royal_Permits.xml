@@ -3,7 +3,7 @@
   <!--직원상선 거래-->
   <RoyalTitlePermitDef>
     <defName>PN_TradeBenefit</defName>
-    <label>trade with benefit trader ship</label>
+    <label>trade with benefit ship</label>
   </RoyalTitlePermitDef>
 
   <!-- 허가증 : 쿨타임 다 차면 공짜, 쿨타임 중엔 신임장 소모 -->
@@ -158,7 +158,7 @@
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
-      <pawnKindDef>PN_AssociateP_EngineerA</pawnKindDef>
+      <pawnKindDef>PN_AssociateP_EngineerB</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
       <targetingRange>39.9</targetingRange>
@@ -198,7 +198,7 @@
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
-      <pawnKindDef>PN_AssociateP_DomesticA</pawnKindDef>
+      <pawnKindDef>PN_AssociateP_DomesticB</pawnKindDef>
       <pawnCount>4</pawnCount>
       <aidDurationDays>4</aidDurationDays>
       <targetingRange>39.9</targetingRange>
