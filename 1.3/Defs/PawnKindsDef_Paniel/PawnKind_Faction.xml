@@ -38,7 +38,7 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_AssociateH</defName>
-		<label>PnL associate</label>
+		<label>associate</label>
 		<combatPower>45</combatPower>
 		<itemQuality>Poor</itemQuality>
 		<isFighter>false</isFighter>
@@ -214,7 +214,7 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_ManagerH</defName>
-		<label>PnL manager</label>
+		<label>manager</label>
 		<trader>true</trader>
 		<combatPower>45</combatPower>
 		<isFighter>false</isFighter>
@@ -325,7 +325,7 @@
 
 	<PawnKindDef ParentName="PN_HumanBasePawnKind">
 		<defName>PN_Director</defName>
-		<label>PnL director</label>
+		<label>director</label>
 		<combatPower>40</combatPower>
 		<minGenerationAge>30</minGenerationAge>
 		<isFighter>false</isFighter>
@@ -387,22 +387,22 @@
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SeniorDirector</defName>
-		<label>PnL senior director</label>
+		<label>senior director</label>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_VP</defName>
-		<label>PnL VP</label>
+		<label>VP</label>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SVP</defName>
-		<label>PnL SVP</label>
+		<label>SVP</label>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_CEO</defName>
-		<label>PnL CEO</label>
+		<label>CEO</label>
 	</PawnKindDef>
 
 	<!--security-->
