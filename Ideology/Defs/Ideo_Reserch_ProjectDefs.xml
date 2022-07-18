@@ -5,7 +5,7 @@
 
   <ResearchProjectDef>
     <defName>PNRP_TierB_Module</defName>
-    <label>spelcialization module</label>
+    <label>Specialization module</label>
     <description>Research the ability modules available for (lged), (mast), (exc) model.</description>
     <tab>PN_technology</tab>
     <baseCost>1000</baseCost>

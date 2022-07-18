@@ -137,7 +137,7 @@
 
   <ResearchProjectDef>
     <defName>PNRP_TierB_Apparel</defName>
-    <label>spelcialization apparel</label>
+    <label>Specialization apparel</label>
     <description>Research how to make specialized uniforms.</description>
     <tab>PN_technology</tab>
     <baseCost>2000</baseCost>
