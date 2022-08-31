@@ -42,15 +42,15 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>24</power>
+        <power>23</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
         <label>edge</label>
         <capacities>
-          <li>Cut</li>
+          <li>PN_ChainCutTool</li>
         </capacities>
-        <power>24</power>
+        <power>23</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>

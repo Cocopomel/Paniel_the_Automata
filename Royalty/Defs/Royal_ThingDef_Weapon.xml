@@ -191,16 +191,16 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>28</power>
+        <power>27</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
       </li>
       <li>
         <label>edge</label>
         <capacities>
-          <li>Cut</li>
+          <li>PN_ChainCutToolMono</li>
         </capacities>
-        <power>28</power>
+        <power>27</power>
         <cooldownTime>1.6</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
       </li>
@@ -216,7 +216,7 @@
 
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
     <defName>PN_RoyalHammer_Bladelink</defName>
-    <label>PnL royal Hammer</label>
+    <label>PnL storm Hammer</label>
     <description>...</description>
     <statBases>
       <MarketValue>3000</MarketValue>
@@ -270,9 +270,9 @@
         <label>head</label>
         <labelUsedInLogging>false</labelUsedInLogging>
         <capacities>
-          <li>Blunt</li>
+          <li>PN_ElectricalBluntTool</li>
         </capacities>
-        <power>32</power>
+        <power>31</power>
         <cooldownTime>2.2</cooldownTime>
         <extraMeleeDamages>
           <li>
@@ -343,9 +343,9 @@
         <label>side</label>
         <labelUsedInLogging>false</labelUsedInLogging>
         <capacities>
-          <li>Blunt</li>
+          <li>PN_ElectricalBluntTool</li>
         </capacities>
-        <power>32</power>
+        <power>31</power>
         <cooldownTime>2.2</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
@@ -358,9 +358,9 @@
       <li>
         <label>point</label>
         <capacities>
-          <li>Stab</li>
+          <li>PN_ElectricalStabTool</li>
         </capacities>
-        <power>32</power>
+        <power>31</power>
         <cooldownTime>2.2</cooldownTime>
         <armorPenetration>0.9</armorPenetration>
         <extraMeleeDamages>
