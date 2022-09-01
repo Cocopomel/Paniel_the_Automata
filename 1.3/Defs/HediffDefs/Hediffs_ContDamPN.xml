@@ -47,7 +47,7 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>cut scar</permanentLabel>
       </li>
-      <li Class="ContDamYuran.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ChainCutDamage_Con</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>2</damageAmount>
@@ -86,7 +86,7 @@
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>permanent crack</permanentLabel>
       </li>
-      <li Class="ContDamYuran.HediffCompProperties_ContinuousDamage">
+      <li Class="ContDamPN.HediffCompProperties_ContinuousDamage">
         <damageDef>PN_ChainCrackDamage_Con</damageDef>
         <ticksPerDamage>6</ticksPerDamage>
         <damageAmount>1</damageAmount>
