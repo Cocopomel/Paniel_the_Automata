@@ -837,7 +837,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <weaponClasses>
       <li>Ultratech</li>
     </weaponClasses>

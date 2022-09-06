@@ -9,7 +9,7 @@
     <pawnsPlural>Automata</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <fixedName>PnL Industry</fixedName>
-    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
+    <factionIconPath>Icon/Paniel_HQ</factionIconPath>
     <hidden>true</hidden>
     <autoFlee>false</autoFlee>
     <techLevel>Spacer</techLevel>
@@ -58,7 +58,7 @@
     <fixedLeaderKinds>
       <li>PN_CEO</li>
     </fixedLeaderKinds>
-    <factionIconPath>Icon/Paniel_PlayerIcon</factionIconPath>
+    <factionIconPath>Icon/Paniel_Logi</factionIconPath>
     <colorSpectrum>
       <li>(1, 1, 1)</li>
       <li>(1, 1, 1)</li>

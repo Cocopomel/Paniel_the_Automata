@@ -8,7 +8,7 @@
     <label>PnL bylaws</label>
     <description>...</description>
     <category>Structure</category>
-    <iconPath>Icon/Paniel_PlayerIcon</iconPath>
+    <iconPath>Icon/Paniel_bylaw</iconPath>
     <impact>0</impact>
     <worshipRoomLabel>Conference room</worshipRoomLabel>
     <deityCount>0</deityCount>
