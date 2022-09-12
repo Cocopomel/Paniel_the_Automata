@@ -302,7 +302,7 @@
         <li>Silver</li>
       </disallowedThingDefs>
     </apparelStuffFilter>
-    <settlementTexturePath>Icon/Paniel_PlayerIcon</settlementTexturePath>
+    <settlementTexturePath>Icon/Paniel_Logi</settlementTexturePath>
   </FactionDef>
 
   <ThingSetMakerDef>
