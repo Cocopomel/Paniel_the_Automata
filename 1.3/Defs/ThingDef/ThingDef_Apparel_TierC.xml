@@ -128,7 +128,7 @@
 
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalguardHat</defName>
-    <label>PnL royal guard beret</label>
+    <label>PnL royal guard hat</label>
     <description>A hat worn by the royal guards on Automaton.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work with the automaton to provide excellent defense. But it doesn't help in situations other than combat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalguardhat1</texPath>
