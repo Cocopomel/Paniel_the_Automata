@@ -90,7 +90,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_WarHammer</defName>
     <label>PnL warhammer</label>
-    <description>[caution] : Automaton exclusive weapon.\n\n...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nA luxurious war hammer made by PnL industry. There is no special function.</description>
     <graphicData>
       <texPath>Things/Weapons/PNWarHammer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -405,7 +405,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalHeavySlug</defName>
     <label>PnL royal heavy slug rifle</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nheavy slug rifle produced by PnL industry.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
@@ -527,7 +527,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalMachinegun</defName>
     <label>PnL royal machine gun</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal machine gun produced by PnL industry.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>

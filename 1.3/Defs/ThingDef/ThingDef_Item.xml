@@ -186,6 +186,66 @@
     </recipeMaker>
   </ThingDef>
 
+  <ThingDef ParentName="BodyPartBase">
+    <defName>PN_BrainCasingAntigrain</defName>
+    <label>Antigrain core</label>
+    <description>A brain core used to Railgun.</description>
+    <graphicData Inherit="false">
+      <texPath>Things/Item/PNAntigrainCore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <isTechHediff>false</isTechHediff>
+    <thingCategories Inherit="false">
+      <li>PN_BrainCoreCatagory</li>
+    </thingCategories>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>13000</WorkToMake>
+      <Flammability>0.7</Flammability>
+    </statBases>
+    <costList>
+      <PN_BrainCasing>1</PN_BrainCasing>
+      <PN_Component>2</PN_Component>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Steel>15</Steel>
+      <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+    </costList>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <tradeability>Buyable</tradeability>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>14.9</explosiveRadius>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <chanceToStartFire>0.22</chanceToStartFire>
+        <damageFalloff>true</damageFalloff>
+        <explosionEffect>GiantExplosion</explosionEffect>
+        <explosionSound>Explosion_GiantBomb</explosionSound>
+        <wickTicks>60~120</wickTicks>
+      </li>
+    </comps>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_Railgun</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
   <!--==================================== 수리키트 ====================================-->
   <ThingCategoryDef>
     <defName>PNKit</defName>
@@ -431,9 +491,9 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_OTPCard</defName>
     <label>PnL OTP card</label>
-    <description>...</description>
+    <description>A disposable OTP card used to connect to a secure line in the PnL industry.</description>
     <graphicData>
-      <texPath>Things/Item/Special/AIPersonaCore</texPath>
+      <texPath>Things/Item/PNOTPCard</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stackLimit>50</stackLimit>

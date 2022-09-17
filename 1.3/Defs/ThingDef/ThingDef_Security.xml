@@ -37,6 +37,7 @@
     <costList>
       <Steel>150</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
+      <PN_Component>2</PN_Component>
       <PN_BrainCasing>1</PN_BrainCasing>
     </costList>
     <inspectorTabs>
@@ -149,7 +150,6 @@
         <filter>
           <thingDefs>
             <li>PN_Shell_HE</li>
-            <li>PN_Shell_AP</li>
             <li>PN_Shell_CI</li>
             <li>PN_Shell_EMP</li>
             <li>PN_Shell_FF</li>
@@ -164,7 +164,6 @@
             <li>PN_Shell</li>
           </categories>
           <disallowedThingDefs>
-            <li>PN_Shell_AP</li>
             <li>PN_Shell_EMP</li>
             <li>PN_Shell_FF</li>
             <li>PN_Shell_Smoke</li>
@@ -179,7 +178,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>PN_Railgun_Base_Core</defName>
     <label>PnL Railgun</label>
-    <description>Railgun designed by PnL Industry.</description>
+    <description>Railgun designed by PnL Industry. It uses an automaton brain core to control antigrain to generate huge amounts of power to charge the railgun.\nHowever, it is necessary to periodically change the brain core due to excessive load in antigrain control.\n\nUnlike PnL Howitzer, there is no aiming correction function. The component built into the shell replace the aiming correction function, but not perfect.</description>
     <!--<designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>-->
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -211,8 +210,9 @@
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <costList>
       <Steel>150</Steel>
-      <ComponentSpacer>12</ComponentSpacer>
-      <PN_BrainCasing>1</PN_BrainCasing>
+      <PN_Component>6</PN_Component>
+      <ComponentSpacer>6</ComponentSpacer>
+      <PN_BrainCasingAntigrain>1</PN_BrainCasingAntigrain>
     </costList>
     <inspectorTabs>
       <li>ITab_Shells</li>
@@ -224,35 +224,36 @@
       <li Class="CompProperties_Mannable">
         <manWorkType>Violent</manWorkType>
       </li>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>3600</basePowerConsumption>
-      </li>
       <li Class="CompProperties_Explosive">
-        <wickTicks>240</wickTicks>
         <explosiveRadius>14.9</explosiveRadius>
-        <explosiveDamageType>EMP</explosiveDamageType>
-        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <chanceToStartFire>0.22</chanceToStartFire>
+        <damageFalloff>true</damageFalloff>
+        <explosionEffect>GiantExplosion</explosionEffect>
+        <explosionSound>Explosion_GiantBomb</explosionSound>
+        <wickTicks>60~120</wickTicks>
       </li>
       <li Class="CompProperties_Refuelable">
-        <fuelLabel>Shots until core overload</fuelLabel>
+        <fuelLabel>Shots until antigrain core overload</fuelLabel>
         <fuelGizmoLabel>Core overload</fuelGizmoLabel>
-        <outOfFuelMessage>Cannot shoot: Needs new core</outOfFuelMessage>
+        <outOfFuelMessage>Cannot shoot: Needs new antigrain core</outOfFuelMessage>
         <fuelFilter>
           <thingDefs>
-            <li>PN_BrainCasing</li>
+            <li>PN_BrainCasingAntigrain</li>
           </thingDefs>
         </fuelFilter>
         <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
-        <fuelCapacity>100</fuelCapacity>
-        <fuelMultiplier>100</fuelMultiplier>
-        <initialFuelPercent>100</initialFuelPercent>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelMultiplier>10</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
         <autoRefuelPercent>0</autoRefuelPercent>
-        <fuelIconPath>Things/Building/PN_cannoncore</fuelIconPath>
+        <fuelIconPath>Things/Building/PN_cannonAGcore</fuelIconPath>
       </li>
     </comps>
     <statBases>
@@ -268,7 +269,7 @@
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
       <turretBurstWarmupTime>4.5</turretBurstWarmupTime>
-      <turretBurstCooldownTime>7.0</turretBurstCooldownTime>
+      <turretBurstCooldownTime>14.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
     </building>
@@ -296,12 +297,6 @@
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <weaponTags Inherit="false">
     </weaponTags>
-   <!--<statBases>
-      <AccuracyTouch>0.20</AccuracyTouch>
-      <AccuracyShort>0.85</AccuracyShort>
-      <AccuracyMedium>0.98</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
-    </statBases>-->
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

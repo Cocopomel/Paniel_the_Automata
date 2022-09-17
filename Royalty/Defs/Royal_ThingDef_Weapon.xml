@@ -217,7 +217,7 @@
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
     <defName>PN_RoyalHammer_Bladelink</defName>
     <label>PnL storm Hammer</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nWarhammer used by the Automaton RoyalGuards. It has a built-in overcharge core that electrocutes the enemy every time it strikes, causing electrical burns.</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>4</Mass>
@@ -289,7 +289,7 @@
   <ThingDef ParentName="PN_BaseWeapon_Bladelink">
     <defName>PN_StormLance_Bladelink</defName>
     <label>PnL storm lance</label>
-    <description>...</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nlance used by the Automaton RoyalGuards. It has a built-in overcharge core that electrocutes the enemy every time it strikes, causing electrical burns.</description>
     <statBases>
       <MarketValue>3000</MarketValue>
       <Mass>4</Mass>

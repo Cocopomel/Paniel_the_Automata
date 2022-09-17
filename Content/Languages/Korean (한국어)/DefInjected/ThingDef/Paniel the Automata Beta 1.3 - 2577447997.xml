@@ -87,9 +87,9 @@
   <PN_Shell_HE.description>착탄하면 주변에 자탄을 흩뿌리는 고폭탄. 피해를 받으면 폭발합니다.</PN_Shell_HE.description>
   <PN_Bullet_Shell_HE.label>확산 고폭탄</PN_Bullet_Shell_HE.label>
   <PN_Bullet_Shell_HE_Sub.label>확산 고폭탄</PN_Bullet_Shell_HE_Sub.label>
-  <PN_Shell_AP.label>PnL 관통탄</PN_Shell_AP.label>
-  <PN_Shell_AP.description>단일 대상에게 강력한 피해를 주는 특수탄. 움직이는 대상에겐 맞추기 힘듭니다. 피해를 받으면 폭발합니다.</PN_Shell_AP.description>
-  <PN_Bullet_Shell_AP.label>관통탄</PN_Bullet_Shell_AP.label>
+  <PN_Shell_RG.label>PnL 레일건탄</PN_Shell_RG.label>
+  <PN_Shell_RG.description>레일건에 장전되어 단일 대상에게 강력한 피해를 주는 특수탄.</PN_Shell_RG.description>
+  <PN_Bullet_RailGunShell.label>레일건탄</PN_Bullet_RailGunShell.label>
   <PN_Shell_CI.label>PnL 확산 소이탄</PN_Shell_CI.label>
   <PN_Shell_CI.description>착탄하면 주변에 자탄을 흩뿌리는 소이탄. 피해를 받으면 폭발합니다.</PN_Shell_CI.description>
   <PN_Bullet_Shell_CI.label>확산 소이탄</PN_Bullet_Shell_CI.label>

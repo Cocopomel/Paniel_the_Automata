@@ -153,74 +153,6 @@
     <!---<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>-->
   </DamageDef>
 
-  <!--관통탄-->
-
-  <ThingDef ParentName="PN_ShellBase">
-    <defName>PN_Shell_AP</defName>
-    <label>PnL AP shell</label>
-    <description>A special shell that hits a single target with huge damaged. Difficult to hit against moving enemies. Explodes when damaged.</description>
-    <graphicData>
-      <texPath>Things/Item/PNShell/PNShellAP</texPath>
-    </graphicData>
-    <projectileWhenLoaded>PN_Bullet_Shell_AP</projectileWhenLoaded>
-    <statBases>
-      <MaxHitPoints>60</MaxHitPoints>
-      <Mass>1.25</Mass>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>1.5</DeteriorationRate>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>3.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
-        <wickTicks>30~60</wickTicks>
-      </li>
-    </comps>
-    <costList>
-      <Uranium>15</Uranium>
-      <Steel>25</Steel>
-      <Chemfuel>30</Chemfuel>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="PN_BaseBullet_Shell">
-    <defName>PN_Bullet_Shell_AP</defName>
-    <label>AP shell</label>
-    <graphicData>
-      <texPath>Things/Projectile/ShellHighExplosive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>PN_APbomb</damageDef>
-      <speed>205</speed>
-      <explosionRadius>0.9</explosionRadius>
-      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <soundExplode>MortarBomb_Explode</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-    </projectile>
-  </ThingDef>
-
-  <DamageDef ParentName="Bomb">
-    <defName>PN_APbomb</defName>
-    <workerClass>DamageWorker_Stab</workerClass>
-    <stabChanceOfForcedInternal>1.0</stabChanceOfForcedInternal>
-    <overkillPctToDestroyPart>0.6~1.0</overkillPctToDestroyPart>
-    <armorCategory>Sharp</armorCategory>
-    <defaultDamage>125</defaultDamage>
-    <minDamageToFragment>200</minDamageToFragment>
-    <defaultStoppingPower>5.0</defaultStoppingPower>
-    <defaultArmorPenetration>1.20</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>0.2</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>0.2</buildingDamageFactorPassable>
-    <plantDamageFactor>1</plantDamageFactor>
-    <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
-  </DamageDef>
-
   <!--확산 소이탄-->
 
   <ThingDef ParentName="PN_ShellBase">
@@ -606,12 +538,12 @@
     </projectile>
   </ThingDef>
 
-  <!--레일건-->
+  <!--레일건탄-->
 
   <ThingDef ParentName="PN_ShellBase">
     <defName>PN_Shell_RG</defName>
     <label>PnL Railgun shell</label>
-    <description>...</description>
+    <description>A special shell used in railgun.</description>
     <graphicData>
       <texPath>Things/Item/PNShell/PNShellAP</texPath>
     </graphicData>
@@ -619,7 +551,7 @@
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>1.25</Mass>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
       <DeteriorationRate>1.5</DeteriorationRate>
     </statBases>
     <comps>
@@ -628,6 +560,10 @@
     <costList>
       <Uranium>30</Uranium>
       <Steel>50</Steel>
+      <PN_Component>1</PN_Component>
     </costList>
+    <researchPrerequisites Inherit="false">
+      <li>PNRP_Railgun</li>
+    </researchPrerequisites>
   </ThingDef>
 </Defs>

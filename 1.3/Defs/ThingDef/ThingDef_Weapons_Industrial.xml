@@ -941,17 +941,24 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>PN_BombRG</damageDef>
-      <speed>410</speed>
+      <speed>615</speed>
       <explosionRadius>1.9</explosionRadius>
     </projectile>
   </ThingDef>
 
   <DamageDef ParentName="Bomb">
     <defName>PN_BombRG</defName>
+    <workerClass>DamageWorker_Blunt</workerClass>
+    <stabChanceOfForcedInternal>1.0</stabChanceOfForcedInternal>
+    <overkillPctToDestroyPart>0.6~1.0</overkillPctToDestroyPart>
+    <armorCategory>Sharp</armorCategory>
     <defaultDamage>550</defaultDamage>
-    <defaultStoppingPower>2.0</defaultStoppingPower>
-    <defaultArmorPenetration>1.30</defaultArmorPenetration>
-    <explosionColorCenter>(0.6, 0.5, 0.4)</explosionColorCenter>
-    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+    <minDamageToFragment>700</minDamageToFragment>
+    <defaultStoppingPower>5.0</defaultStoppingPower>
+    <defaultArmorPenetration>2.00</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>0.1</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>0.1</buildingDamageFactorPassable>
+    <plantDamageFactor>1</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>true</explosionAffectOutsidePartsOnly>
   </DamageDef>
 </Defs>

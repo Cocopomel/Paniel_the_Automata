@@ -6,7 +6,7 @@
   <MemeDef>
     <defName>PN_Structure</defName>
     <label>PnL bylaws</label>
-    <description>...</description>
+    <description>Bylaws of PnL industry. An exemplary PnL employee would not break bylaws.</description>
     <category>Structure</category>
     <iconPath>Icon/Paniel_bylaw</iconPath>
     <impact>0</impact>
@@ -21,7 +21,7 @@
     <descriptionMaker>
       <rules>
         <rulesStrings>
-          <li>episode(tag=meme_PN_Structure)  ->...</li>
+          <li>episode(tag=meme_PN_Structure)  ->...PnL Industry, founded by Paul and Lauren, has evolved from a small industrial company in Glitterworld to a giant interstellar company.\n\n...\n\nEven though we were kicked out of Rimworld for an "unfortunate incident," we're going back to Glitterworld.</li>
         </rulesStrings>
       </rules>
       <patterns>

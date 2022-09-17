@@ -44,6 +44,7 @@
   <FactionDef ParentName="FactionBase">
     <defName>PN_SubsidiaryFaction</defName>
     <label>PnL Subsidiary Company</label>
+    <description>It is a subsidiary established by PnL industry to sell more products on the planet's surface. It is composed of rimworld locals and automaton.\n\nIts main job is to set up a logistics center on the planet's surface and receive products from orbit and transport them to settlements on the planet's surface.\n\nThey are concerned with the practical matters of trade, trust.\n\nThis particular group holds civil behavior in high regard.</description>
     <pawnSingular>Employee</pawnSingular>
     <pawnsPlural>Employees</pawnsPlural>
     <listOrderPriority>50</listOrderPriority>
@@ -337,7 +338,7 @@
   <CultureDef>
     <defName>PN_PnLindistryCulture</defName>
     <label>PnL indistry</label>
-    <description>...</description>
+    <description>The corporate culture of PnL Industry.</description>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeo_PnLindistry</ideoNameMaker>
     <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeity_PnLindistry</deityNameMaker>
     <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMaker_PnLindistry</deityTypeMaker>
