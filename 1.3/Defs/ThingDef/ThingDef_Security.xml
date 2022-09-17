@@ -236,7 +236,7 @@
         <wickTicks>60~120</wickTicks>
       </li>
       <li Class="CompProperties_Refuelable">
-        <fuelLabel>Shots until antigrain core overload</fuelLabel>
+        <fuelLabel>Shots until core overload</fuelLabel>
         <fuelGizmoLabel>Core overload</fuelGizmoLabel>
         <outOfFuelMessage>Cannot shoot: Needs new antigrain core</outOfFuelMessage>
         <fuelFilter>

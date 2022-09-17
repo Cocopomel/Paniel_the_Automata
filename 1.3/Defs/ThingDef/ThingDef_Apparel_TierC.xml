@@ -207,7 +207,7 @@
   <ThingDef ParentName="PN_RoyalApparelBase">
     <defName>PN_ApparelRoyalmeister</defName>
     <label>PnL royal meister uniform</label>
-    <description>This is the uniform worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <description>This is the uniform worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/PNRoyalmeister1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -292,7 +292,7 @@
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmeisterHat</defName>
     <label>PnL royal meister hat</label>
-    <description>This is the hat worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <description>This is the hat worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalmeisterhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -369,7 +369,7 @@
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmeisterHatWithMonocle</defName>
     <label>PnL royal meister hat w/monocle</label>
-    <description>This is the hat with monocle worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <description>This is the hat with monocle worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalmeisterhatwm1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -446,7 +446,7 @@
   <ThingDef ParentName="PN_RoyalHatBase">
     <defName>PN_ApparelRoyalmeisterMonocle</defName>
     <label>PnL royal meister monocle</label>
-    <description>This is the monocle worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <description>This is the monocle worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNRoyalmeistermonocle1</texPath>
       <graphicClass>Graphic_Single</graphicClass>

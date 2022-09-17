@@ -505,7 +505,7 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_EliteSecurityUniform</defName>
     <label>PnL elite security uniform</label>
-    <description>This is the uniform worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <description>This is the uniform worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense.</description>
     <graphicData>
       <texPath>Things/Apparel/PNEliteSecurity1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -579,7 +579,7 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_EliteSecurityHat</defName>
     <label>PnL elite security beret</label>
-    <description>This is the hat worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <description>This is the hat worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNEliteSecurityhat1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
