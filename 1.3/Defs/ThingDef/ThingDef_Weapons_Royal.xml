@@ -433,9 +433,9 @@
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>100</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <PN_Component>1</PN_Component>
+      <Plasteel>140</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
@@ -555,9 +555,9 @@
       <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Plasteel>100</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
-      <PN_Component>1</PN_Component>
+      <Plasteel>150</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+      <PN_Component>2</PN_Component>
     </costList>
     <comps>
       <li Class="CompProperties_Styleable"></li>
