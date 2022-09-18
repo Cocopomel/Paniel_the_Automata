@@ -115,11 +115,6 @@
         <li>(100000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-    <raidCommonalityFromPointsCurve>
-      <points>
-        <li>(0, 0)</li>
-      </points>
-    </raidCommonalityFromPointsCurve>
     <pawnGroupMakers>
 
       <!--
@@ -314,9 +309,9 @@
           <thingDefs>
             <li>Silver</li>
             <li>MedicineIndustrial</li>
-            <li>ComponentIndustrial</li>
-            <li>MealSurvivalPack</li>
-            <li>Neutroamine</li>
+            <li>PN_RepairKit</li>
+            <li>PN_Component</li>
+            <li>Gold</li>
           </thingDefs>
         </filter>
       </fixedParams>

@@ -733,9 +733,13 @@
           <li>PN_Chainlongsword</li>
           <li>PN_TwinPistol</li>
           <li>PN_RoyalRifle</li>
+          <li>PN_RoyalHeavySlug</li>
+          <li>PN_RoyalMachinegun</li>
           <li>PN_RoyalLSW</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalSaber_Bladelink</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">PN_Chainsword_Bladelink</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_RoyalHammer_Bladelink</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">PN_StormLance_Bladelink</li>
 
         </weaponList>
         <buildingList>

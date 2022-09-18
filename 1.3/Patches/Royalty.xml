@@ -202,6 +202,22 @@
           </value>
         </li>
 
+        <!--은 신임장-->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName = "Silver"]/statBases/RoyalFavorValue</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName = "Silver"]/statBases</xpath>
+            <value>
+              <RoyalFavorValue>0.0015</RoyalFavorValue>
+            </value>
+          </nomatch>
+          <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName = "Silver"]/statBases/RoyalFavorValue</xpath>
+            <value>
+              <RoyalFavorValue>0.0015</RoyalFavorValue>
+            </value>
+          </match>
+        </li>
       </operations>
     </match>
   </Operation>

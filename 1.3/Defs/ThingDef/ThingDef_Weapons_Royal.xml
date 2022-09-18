@@ -90,7 +90,7 @@
   <ThingDef ParentName="PN_BaseMeleeWeapon_Sharp">
     <defName>PN_WarHammer</defName>
     <label>PnL warhammer</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nA luxurious war hammer made by PnL industry. There is no special function.</description>
+    <description>A luxurious war hammer made by PnL industry. There is no special function.</description>
     <graphicData>
       <texPath>Things/Weapons/PNWarHammer</texPath>
       <graphicClass>Graphic_Single</graphicClass>

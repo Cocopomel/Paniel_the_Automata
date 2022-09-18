@@ -562,8 +562,8 @@
       <Steel>50</Steel>
       <PN_Component>1</PN_Component>
     </costList>
-    <researchPrerequisites Inherit="false">
-      <li>PNRP_Railgun</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite Inherit="false">PNRP_Railgun</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 </Defs>

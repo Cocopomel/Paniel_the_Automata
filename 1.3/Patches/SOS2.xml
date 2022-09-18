@@ -140,6 +140,50 @@
 					</value>
 				</li>
 
+				<!-- 시큐리티 유니폼 -->
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniform"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniform"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>100</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniform"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>50</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
         <!-- 티어C로얄가드 -->
 
         <li Class="PatchOperationAdd">
@@ -179,6 +223,92 @@
 
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalguardHat"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
+				<!-- 티어C마이스터 -->
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeister"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeister"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>100</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeister"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHat"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHat"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>50</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHat"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHatWithMonocle"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHatWithMonocle"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>50</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterHatWithMonocle"]/statBases/Insulation_Heat</xpath>
+					<value>
+						<Insulation_Heat>25</Insulation_Heat>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterMonocle"]/apparel/tags</xpath>
+          <value>
+            <li>EVA</li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterMonocle"]/statBases/Insulation_Cold</xpath>
+					<value>
+						<Insulation_Cold>50</Insulation_Cold>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "PN_ApparelRoyalmeisterMonocle"]/statBases/Insulation_Heat</xpath>
 					<value>
 						<Insulation_Heat>25</Insulation_Heat>
 					</value>

@@ -14,6 +14,9 @@
       <li Class="StockGenerator_BuySingleDef">
         <thingDef>Gold</thingDef>
       </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Silver</thingDef>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 
