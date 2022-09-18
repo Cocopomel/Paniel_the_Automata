@@ -136,7 +136,8 @@
     <projectile>
       <damageDef>Bomb</damageDef>
       <speed>6.5</speed>
-      <explosionRadius>1.9</explosionRadius>
+      <explosionRadius>2.1</explosionRadius>
+      <explosionDelay>10</explosionDelay>
       <arcHeightFactor>60</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <flyOverhead>true</flyOverhead>
@@ -216,6 +217,7 @@
       <damageDef>Flame</damageDef>
       <speed>6.5</speed>
       <explosionRadius>2.4</explosionRadius>
+      <explosionDelay>10</explosionDelay>
       <arcHeightFactor>60</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
