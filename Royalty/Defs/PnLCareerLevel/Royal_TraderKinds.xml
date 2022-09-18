@@ -15,7 +15,7 @@
         <thingDef>Gold</thingDef>
       </li>
       <li Class="StockGenerator_BuySingleDef">
-        <thingDef>Silver</thingDef>
+        <thingDef>PN_SilverChest</thingDef>
       </li>
     </stockGenerators>
   </TraderKindDef>
@@ -137,7 +137,7 @@
       <!-- Weapons -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>PN_PrototypeRailGun</thingDef>
-        <countRange>0~1</countRange>
+        <countRange>1</countRange>
       </li>
       <li Class="StockGenerator_WeaponsMelee">
         <weaponTag>PN_Bladelink</weaponTag>

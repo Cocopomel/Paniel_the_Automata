@@ -93,6 +93,15 @@
         <thingDef>Packaged_NormalAutomatonMaid</thingDef>
         <countRange>0~1</countRange>
       </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>PN_PrototypeRailGun</thingDef>
+        <countRange>-3~1</countRange>
+      </li>
+      <li Class="StockGenerator_WeaponsMelee">
+        <weaponTag>PN_Bladelink</weaponTag>
+        <countRange>-4~1</countRange>
+      </li>
       <!-- Apparel -->
 
       <!-- Implants -->
