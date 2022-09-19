@@ -19,10 +19,16 @@
   <PN_RequestEliteSecurityUnitClose.description>4기의 근접 무장 엘리트 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestEliteSecurityUnitClose.description>
 
   <PN_RequestSecurityUnitRange.label>시큐리티 유닛 요청 (원거리)</PN_RequestSecurityUnitRange.label>
-  <PN_RequestSecurityUnitRange.description>6기의 원거리 무장 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestSecurityUnitRange.description>
+  <PN_RequestSecurityUnitRange.description>4기의 원거리 무장 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestSecurityUnitRange.description>
 
-  <PN_RequestEliteSecurityUnitRange.label>엘리트 시큐리티 유닛 요청 (원거리)</PN_RequestEliteSecurityUnitRange.label>
-  <PN_RequestEliteSecurityUnitRange.description>6기의 원거리 무장 엘리트 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestEliteSecurityUnitRange.description>
+  <PN_RequestEliteSecurityUnitRange.label>엘리트 시큐리티 유닛 요청 (라이플)</PN_RequestEliteSecurityUnitRange.label>
+  <PN_RequestEliteSecurityUnitRange.description>4기의 라이플 무장 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestEliteSecurityUnitRange.description>
+
+  <PN_RequestEliteSecurityUnitHeavy.label>엘리트 시큐리티 유닛 요청 (기관총)</PN_RequestEliteSecurityUnitHeavy.label>
+  <PN_RequestEliteSecurityUnitHeavy.description>2기의 기관총 무장 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestEliteSecurityUnitHeavy.description>
+
+  <PN_RequestEliteSecurityUnitCannon.label>엘리트 시큐리티 유닛 요청 (캐논)</PN_RequestEliteSecurityUnitCannon.label>
+  <PN_RequestEliteSecurityUnitCannon.description>2기의 캐논 무장 오토마톤을 요청합니다. 전장으로 직접 강하합니다.</PN_RequestEliteSecurityUnitCannon.description>
 
   <PN_RequestEngineerUnit.label>엔지니어 유닛 요청</PN_RequestEngineerUnit.label>
   <PN_RequestEngineerUnit.description>4기의 엔지니어 유닛을 요청합니다. 4일동안 정착지에 머무르며 작업을 도울 것입니다. 정착민처럼 컨트롤 할 수 있지만 안전에 신경써야 합니다.</PN_RequestEngineerUnit.description>

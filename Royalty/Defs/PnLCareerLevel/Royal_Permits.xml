@@ -73,8 +73,8 @@
   <!--전투니엘 지원 (근접)-->
   <RoyalTitlePermitDef>
     <defName>PN_RequestSecurityUnitClose</defName>
-    <label>request security unit (close)</label>
-    <description>Request 4 close combat security unit to aid in your battle.</description>
+    <label>request security unit (melee)</label>
+    <description>Request 4 melee combat security unit to aid in your battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
@@ -91,8 +91,8 @@
 
   <RoyalTitlePermitDef>
     <defName>PN_RequestEliteSecurityUnitClose</defName>
-    <label>request elite security unit (close)</label>
-    <description>Request 4 close combat elite security unit to aid in your battle.</description>
+    <label>request elite security unit (melee)</label>
+    <description>Request 4 melee combat elite security unit to aid in your battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
@@ -112,16 +112,16 @@
   <RoyalTitlePermitDef>
     <defName>PN_RequestSecurityUnitRange</defName>
     <label>request security unit (range)</label>
-    <description>Request 6 range combat security unit to aid in your battle.</description>
+    <description>Request 4 range combat security unit to aid in your battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
     <uiPosition>(0,3)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
-      <favorCost>3</favorCost>
+      <favorCost>2</favorCost>
       <pawnKindDef>PN_Mid_RangeUnit</pawnKindDef>
-      <pawnCount>6</pawnCount>
+      <pawnCount>4</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
     <cooldownDays>60</cooldownDays>
@@ -129,8 +129,8 @@
 
   <RoyalTitlePermitDef>
     <defName>PN_RequestEliteSecurityUnitRange</defName>
-    <label>request elite security unit (range)</label>
-    <description>Request 6 range combat elite security unit to aid in your battle.</description>
+    <label>request elite security unit (rifle)</label>
+    <description>Request 4 rifle combat elite security unit to aid in your battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
@@ -138,9 +138,45 @@
     <uiPosition>(1,3)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
-      <favorCost>6</favorCost>
+      <favorCost>4</favorCost>
       <pawnKindDef>PN_EliteRangeUnit</pawnKindDef>
-      <pawnCount>6</pawnCount>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitHeavy</defName>
+    <label>request elite security unit (heavy)</label>
+    <description>Request 2 heavy combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,4)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteHeavyUnit</pawnKindDef>
+      <pawnCount>2</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitCannon</defName>
+    <label>request elite security unit (cannon)</label>
+    <description>Request 2 cannon combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,5)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteCannonUnit</pawnKindDef>
+      <pawnCount>2</pawnCount>
       <targetingRange>39.9</targetingRange>
     </royalAid>
     <cooldownDays>60</cooldownDays>
@@ -154,7 +190,7 @@
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,4)</uiPosition>
+    <uiPosition>(0,6)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
@@ -174,7 +210,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestEngineerUnit</prerequisite>
-    <uiPosition>(1,4)</uiPosition>
+    <uiPosition>(1,6)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
@@ -194,7 +230,7 @@
     <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
     <minTitle>PN_Title_Senior</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,5)</uiPosition>
+    <uiPosition>(0,7)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>2</favorCost>
@@ -214,7 +250,7 @@
     <minTitle>PN_Title_SeniorManager</minTitle>
     <permitPointCost>1</permitPointCost>
     <prerequisite>PN_RequestDomesticUnit</prerequisite>
-    <uiPosition>(1,5)</uiPosition>
+    <uiPosition>(1,7)</uiPosition>
     <faction>PN_SubsidiaryFaction</faction>
     <royalAid>
       <favorCost>4</favorCost>
@@ -233,7 +269,7 @@
     <description>Request for a drop of 3 PnL Component.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,6)</uiPosition>
+    <uiPosition>(0,8)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <PN_Component>3</PN_Component>
@@ -249,7 +285,7 @@
     <description>Request for a drop of PnL automaton™ (Combat) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,7)</uiPosition>
+    <uiPosition>(0,9)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonSoldier>1</Packaged_NormalAutomatonSoldier>
@@ -266,7 +302,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonSoldier</prerequisite>
-    <uiPosition>(1,7)</uiPosition>
+    <uiPosition>(1,9)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonSoldier>1</Packaged_PremiumAutomatonSoldier>
@@ -282,7 +318,7 @@
     <description>Request for a drop of PnL automaton™ (Engineer) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,8)</uiPosition>
+    <uiPosition>(0,10)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonWorker>1</Packaged_NormalAutomatonWorker>
@@ -299,7 +335,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonWorker</prerequisite>
-    <uiPosition>(1,8)</uiPosition>
+    <uiPosition>(1,10)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonWorker>1</Packaged_PremiumAutomatonWorker>
@@ -316,7 +352,7 @@
     <description>Request for a drop of PnL automaton™ (Domestic) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
-    <uiPosition>(0,9)</uiPosition>
+    <uiPosition>(0,11)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
@@ -333,7 +369,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>300</cooldownDays>
     <prerequisite>PN_DropPackagedAutomatonMaid</prerequisite>
-    <uiPosition>(1,9)</uiPosition>
+    <uiPosition>(1,11)</uiPosition>
     <royalAid>
       <itemsToDrop>
         <Packaged_PremiumAutomatonMaid>1</Packaged_PremiumAutomatonMaid>
@@ -352,7 +388,7 @@
     <permitPointCost>1</permitPointCost>
     <cooldownDays>60</cooldownDays>
     <usableOnWorldMap>true</usableOnWorldMap>
-    <uiPosition>(0,10)</uiPosition>
+    <uiPosition>(0,12)</uiPosition>
     <royalAid>
       <favorCost>4</favorCost>
       <targetingRange>44.9</targetingRange>

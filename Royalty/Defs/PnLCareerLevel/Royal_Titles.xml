@@ -71,16 +71,6 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingAnyOf">
-        <disablingPrecepts>
-          <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
-        </disablingPrecepts>
-        <things>
-          <li>Bed</li>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>
-        </things>
-      </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
         <buildingTags>
@@ -127,21 +117,6 @@
           <li>Floor</li>
           <li>FineFloor</li>
         </tags>
-      </li>
-      <li Class="RoomRequirement_ThingAnyOf">
-        <disablingPrecepts>
-          <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
-        </disablingPrecepts>
-        <things>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>
-        </things>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>EndTable</thingDef>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>Dresser</thingDef>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -190,21 +165,6 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingAnyOf">
-        <disablingPrecepts>
-          <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
-        </disablingPrecepts>
-        <things>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>
-        </things>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>EndTable</thingDef>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>Dresser</thingDef>
-      </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
         <buildingTags>
@@ -242,21 +202,6 @@
           <li>Floor</li>
           <li>FineFloor</li>
         </tags>
-      </li>
-      <li Class="RoomRequirement_ThingAnyOf">
-        <disablingPrecepts>
-          <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
-        </disablingPrecepts>
-        <things>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>
-        </things>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>EndTable</thingDef>
-      </li>
-      <li Class="RoomRequirement_Thing">
-        <thingDef>Dresser</thingDef>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
