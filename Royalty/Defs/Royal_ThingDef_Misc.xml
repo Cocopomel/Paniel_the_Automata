@@ -57,6 +57,7 @@
       <recipeUsers>
         <li>PN_AutomatonBench</li>
       </recipeUsers>
+      <researchPrerequisite>PNRP_Production</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
