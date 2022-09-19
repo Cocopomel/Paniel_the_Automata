@@ -15,7 +15,7 @@
         <thingDef>Gold</thingDef>
       </li>
       <li Class="StockGenerator_BuySingleDef">
-        <thingDef>PN_SilverChest</thingDef>
+        <thingDef>PN_SilverCase</thingDef>
       </li>
     </stockGenerators>
   </TraderKindDef>

@@ -293,5 +293,6 @@
   <PN_ApparelRoyalmeisterHat.description>왕실 공방에서 오토마톤에게 씌우는 모자.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 뛰어난 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelRoyalmeisterHat.description>
   <PN_ApparelRoyalmeisterHatWithMonocle.label>파니엘 마이스터 모자 (단안경)</PN_ApparelRoyalmeisterHatWithMonocle.label>
   <PN_ApparelRoyalmeisterHatWithMonocle.description>왕실 공방에서 오토마톤에게 씌우는 모자와 단안경.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 뛰어난 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelRoyalmeisterHatWithMonocle.description>
-
+  <PN_SilverCase.label>PnL 실버 케이스</PN_SilverCase.label>
+  <PN_SilverCase.description>800 은이 들어있는 케이스. PnL 성과평가원에게 상납하여 신임장을 얻을 수 있습니다.\n\n특별한 보안 장치가 되어있어 제작자도 열 수 없습니다. 강제로 여는데 많은 노력이 드므로 상인들은 가격을 깎으려 할 것입니다.</PN_SilverCase.description>
 </LanguageData>

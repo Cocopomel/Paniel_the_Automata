@@ -461,11 +461,12 @@
     <description>This is a component used in special products of PnL Industry. It's tightly sealed, so reverse engineering looks difficult.</description>
     <graphicData>
       <texPath>Things/Item/PNComponent</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>50</stackLimit>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
@@ -496,7 +497,7 @@
       <texPath>Things/Item/PNOTPCard</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <stackLimit>50</stackLimit>
+    <stackLimit>10</stackLimit>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MaxHitPoints>70</MaxHitPoints>
