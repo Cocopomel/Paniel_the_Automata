@@ -22,6 +22,8 @@
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
     <stackLimit>10</stackLimit>
     <uiIconForStackCount>1</uiIconForStackCount>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -41,7 +43,7 @@
 
     </thingSetMakerTags>
     <costList>
-      <Silver>800</Silver>
+      <Silver>80</Silver>
       <Steel>15</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>

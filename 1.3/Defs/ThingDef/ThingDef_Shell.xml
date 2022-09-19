@@ -562,7 +562,7 @@
     <costList>
       <Uranium>30</Uranium>
       <Steel>50</Steel>
-      <PN_Component>1</PN_Component>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <recipeMaker>
       <researchPrerequisite Inherit="false">PNRP_Railgun</researchPrerequisite>
