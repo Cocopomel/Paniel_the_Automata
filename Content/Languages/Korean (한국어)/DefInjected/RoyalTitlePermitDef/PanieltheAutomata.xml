@@ -48,19 +48,19 @@
   <PN_DropPackagedAutomatonSoldier.label>오토마톤™ (전투형) 요청</PN_DropPackagedAutomatonSoldier.label>
   <PN_DropPackagedAutomatonSoldier.description>오토마톤™ (전투형) 상자를 요청합니다.</PN_DropPackagedAutomatonSoldier.description>
 
-  <PN_DropPackagedAutomatonSoldierPremium.label>오토마톤™ Pro (전투형)</PN_DropPackagedAutomatonSoldierPremium.label>
+  <PN_DropPackagedAutomatonSoldierPremium.label>오토마톤™ Pro (전투형) 요청</PN_DropPackagedAutomatonSoldierPremium.label>
   <PN_DropPackagedAutomatonSoldierPremium.description>오토마톤™ Pro (전투형) 상자를 요청합니다.</PN_DropPackagedAutomatonSoldierPremium.description>
 
-  <PN_DropPackagedAutomatonWorker.label>오토마톤™ (제작형)</PN_DropPackagedAutomatonWorker.label>
+  <PN_DropPackagedAutomatonWorker.label>오토마톤™ (제작형) 요청</PN_DropPackagedAutomatonWorker.label>
   <PN_DropPackagedAutomatonWorker.description>오토마톤™ (제작형) 상자를 요청합니다.</PN_DropPackagedAutomatonWorker.description>
 
-  <PN_DropPackagedAutomatonWorkerPremium.label>오토마톤™ Pro (제작형)</PN_DropPackagedAutomatonWorkerPremium.label>
+  <PN_DropPackagedAutomatonWorkerPremium.label>오토마톤™ Pro (제작형) 요청</PN_DropPackagedAutomatonWorkerPremium.label>
   <PN_DropPackagedAutomatonWorkerPremium.description>오토마톤™ Pro (제작형) 상자를 요청합니다.</PN_DropPackagedAutomatonWorkerPremium.description>
 
   <PN_DropPackagedAutomatonMaid.label>오토마톤™ (가정형) 요청</PN_DropPackagedAutomatonMaid.label>
   <PN_DropPackagedAutomatonMaid.description>오토마톤™ (가정형) 상자를 요청합니다.</PN_DropPackagedAutomatonMaid.description>
 
-  <PN_DropPackagedAutomatonMaidPremium.label>오토마톤™ Pro (가정형)</PN_DropPackagedAutomatonMaidPremium.label>
+  <PN_DropPackagedAutomatonMaidPremium.label>오토마톤™ Pro (가정형) 요청</PN_DropPackagedAutomatonMaidPremium.label>
   <PN_DropPackagedAutomatonMaidPremium.description>오토마톤™ Pro (가정형) 상자를 요청합니다.</PN_DropPackagedAutomatonMaidPremium.description>
 
   <PN_RequestTransportShuttle.label>수송 셔틀 요청</PN_RequestTransportShuttle.label>
