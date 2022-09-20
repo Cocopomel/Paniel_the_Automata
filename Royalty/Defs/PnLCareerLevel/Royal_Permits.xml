@@ -285,6 +285,7 @@
     <description>Request for a drop of PnL automaton™ (Combat) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <uiPosition>(0,9)</uiPosition>
     <royalAid>
       <itemsToDrop>
@@ -318,6 +319,7 @@
     <description>Request for a drop of PnL automaton™ (Engineer) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <uiPosition>(0,10)</uiPosition>
     <royalAid>
       <itemsToDrop>
@@ -352,6 +354,7 @@
     <description>Request for a drop of PnL automaton™ (Domestic) box.</description>
     <minTitle>PN_Title_Manager</minTitle>
     <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
     <uiPosition>(0,11)</uiPosition>
     <royalAid>
       <itemsToDrop>
