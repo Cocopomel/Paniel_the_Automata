@@ -239,7 +239,7 @@
   <ThingDef ParentName="BasePackagedAutomatonPremium">
     <defName>Packaged_PremiumAutomatonSoldier</defName>
     <label>PnL automaton™ Pro (Combat)</label>
-    <description>A box containing a combat model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <description>A box containing a combat model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 9.14%\nExcellent : 50.76%\nMasterwork : 33.52%\nLegendary : 6.58%</description>
     <statBases>
 
     </statBases>
@@ -253,19 +253,19 @@
         <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
-            <weight>335</weight>
+            <weight>914</weight>
             <pawnKindDefName>Paniel_Soldier_Good_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4023</weight>
+            <weight>5076</weight>
             <pawnKindDefName>Paniel_Soldier_Excellent_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4375</weight>
+            <weight>3352</weight>
             <pawnKindDefName>Paniel_Soldier_Masterwork_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>1268</weight>
+            <weight>658</weight>
             <pawnKindDefName>Paniel_Soldier_Legendary_PA</pawnKindDefName>
           </li>
         </samples>
@@ -280,7 +280,7 @@
   <ThingDef ParentName="BasePackagedAutomatonPremium">
     <defName>Packaged_PremiumAutomatonWorker</defName>
     <label>PnL automaton™ Pro (Engineer)</label>
-    <description>A box containing a engineer model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <description>A box containing a engineer model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 9.14%\nExcellent : 50.76%\nMasterwork : 33.52%\nLegendary : 6.58%</description>
     <statBases>
 
     </statBases>
@@ -294,19 +294,19 @@
         <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
-            <weight>335</weight>
+            <weight>914</weight>
             <pawnKindDefName>Paniel_Worker_Good_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4023</weight>
+            <weight>5076</weight>
             <pawnKindDefName>Paniel_Worker_Excellent_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4375</weight>
+            <weight>3352</weight>
             <pawnKindDefName>Paniel_Worker_Masterwork_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>1268</weight>
+            <weight>658</weight>
             <pawnKindDefName>Paniel_Worker_Legendary_PA</pawnKindDefName>
           </li>
         </samples>
@@ -321,7 +321,7 @@
   <ThingDef ParentName="BasePackagedAutomatonPremium">
     <defName>Packaged_PremiumAutomatonMaid</defName>
     <label>PnL automaton™ Pro (Domestic)</label>
-    <description>A box containing a domestic model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 3.35%\nExcellent : 40.23%\nMasterwork : 43.75%\nLegendary : 12.68%</description>
+    <description>A box containing a domestic model automaton. Unpacking will reveal an automaton of a random grade.\n\n[Random Table]\nGood : 9.14%\nExcellent : 50.76%\nMasterwork : 33.52%\nLegendary : 6.58%</description>
     <statBases>
 
     </statBases>
@@ -335,19 +335,19 @@
         <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
         <samples>
           <li>
-            <weight>335</weight>
+            <weight>914</weight>
             <pawnKindDefName>Paniel_Maid_Good_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4023</weight>
+            <weight>5076</weight>
             <pawnKindDefName>Paniel_Maid_Excellent_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>4375</weight>
+            <weight>3352</weight>
             <pawnKindDefName>Paniel_Maid_Masterwork_PA</pawnKindDefName>
           </li>
           <li>
-            <weight>1268</weight>
+            <weight>658</weight>
             <pawnKindDefName>Paniel_Maid_Legendary_PA</pawnKindDefName>
           </li>
         </samples>

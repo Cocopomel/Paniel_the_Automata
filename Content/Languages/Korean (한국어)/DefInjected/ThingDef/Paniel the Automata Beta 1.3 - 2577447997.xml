@@ -267,17 +267,17 @@
   <PN_Railgun_Base_Core.label>PnL 레일건</PN_Railgun_Base_Core.label>
   <PN_Railgun_Base_Core.description>PnL 인더스트리에서 디자인한 레일건. 오토마톤 두뇌 코어를 사용하여 반물질을 제어해 레일건에 필요한 전력을 생성합니다. 그러나 과도한 계산으로 코어가 과부화 되기 때문에 주기적으로 반물질 코어를 교체해야 합니다.\n\n곡사포와는 다르게 조준 보정 기능이 없습니다. 포탄에 내장된 부품이 이를 대신하지만 완벽하진 않습니다.</PN_Railgun_Base_Core.description>
   <Packaged_PremiumAutomatonSoldier.label>PnL 오토마톤™ Pro (전투형)</Packaged_PremiumAutomatonSoldier.label>
-  <Packaged_PremiumAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 3.35%\n완벽 : 40.23%\n걸작 : 43.75%\n전설 : 12.68%</Packaged_PremiumAutomatonSoldier.description>
+  <Packaged_PremiumAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 9.14%\n완벽 : 50.76%\n걸작 : 33.52%\n전설 : 6.58%</Packaged_PremiumAutomatonSoldier.description>
   <Packaged_PremiumAutomatonSoldier.comps.CompUsable.useLabel>포장 해체</Packaged_PremiumAutomatonSoldier.comps.CompUsable.useLabel>
   <Packaged_PremiumAutomatonSoldier.comps.2.letterLabel>파니엘 기동</Packaged_PremiumAutomatonSoldier.comps.2.letterLabel>
   <Packaged_PremiumAutomatonSoldier.comps.2.letterText>톱니가 맞물려 돌아가고, 의식이 깨어나며 [PAWN_kind]이(가) 기동을 시작했습니다. 그녀의 부품들은 올바르게 배치되었을까요?</Packaged_PremiumAutomatonSoldier.comps.2.letterText>
   <Packaged_PremiumAutomatonWorker.label>PnL 오토마톤™ Pro (제작형)</Packaged_PremiumAutomatonWorker.label>
-  <Packaged_PremiumAutomatonWorker.description>제작형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 제작형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 3.35%\n완벽 : 40.23%\n걸작 : 43.75%\n전설 : 12.68%</Packaged_PremiumAutomatonWorker.description>
+  <Packaged_PremiumAutomatonWorker.description>제작형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 제작형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 9.14%\n완벽 : 50.76%\n걸작 : 33.52%\n전설 : 6.58%</Packaged_PremiumAutomatonWorker.description>
   <Packaged_PremiumAutomatonWorker.comps.CompUsable.useLabel>포장 해체</Packaged_PremiumAutomatonWorker.comps.CompUsable.useLabel>
   <Packaged_PremiumAutomatonWorker.comps.2.letterLabel>파니엘 기동</Packaged_PremiumAutomatonWorker.comps.2.letterLabel>
   <Packaged_PremiumAutomatonWorker.comps.2.letterText>톱니가 맞물려 돌아가고, 의식이 깨어나며 [PAWN_kind]이(가) 기동을 시작했습니다. 그녀의 부품들은 올바르게 배치되었을까요?</Packaged_PremiumAutomatonWorker.comps.2.letterText>
   <Packaged_PremiumAutomatonMaid.label>PnL 오토마톤™ Pro (가정형)</Packaged_PremiumAutomatonMaid.label>
-  <Packaged_PremiumAutomatonMaid.description>가정형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 가정형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 3.35%\n완벽 : 40.23%\n걸작 : 43.75%\n전설 : 12.68%</Packaged_PremiumAutomatonMaid.description>
+  <Packaged_PremiumAutomatonMaid.description>가정형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 가정형 오토마톤이 나옵니다.\n\n[확률표]\n상급 : 9.14%\n완벽 : 50.76%\n걸작 : 33.52%\n전설 : 6.58%</Packaged_PremiumAutomatonMaid.description>
   <Packaged_PremiumAutomatonMaid.comps.CompUsable.useLabel>포장 해체</Packaged_PremiumAutomatonMaid.comps.CompUsable.useLabel>
   <Packaged_PremiumAutomatonMaid.comps.2.letterLabel>파니엘 기동</Packaged_PremiumAutomatonMaid.comps.2.letterLabel>
   <Packaged_PremiumAutomatonMaid.comps.2.letterText>톱니가 맞물려 돌아가고, 의식이 깨어나며 [PAWN_kind]이(가) 기동을 시작했습니다. 그녀의 부품들은 올바르게 배치되었을까요?</Packaged_PremiumAutomatonMaid.comps.2.letterText>
