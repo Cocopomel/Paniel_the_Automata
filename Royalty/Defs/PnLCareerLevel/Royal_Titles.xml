@@ -19,7 +19,7 @@
     <description>Intern of PnL Logistics.</description>
     <seniority>0</seniority>
     <favorCost>1</favorCost>
-    <permitPointsAwarded>1</permitPointsAwarded>
+    <permitPointsAwarded>0</permitPointsAwarded>
     <changeHeirQuestPoints>1000</changeHeirQuestPoints>
   </RoyalTitleDef>
 
@@ -30,7 +30,7 @@
     <description>Associate of PnL Logistics.</description>
     <seniority>1</seniority>
     <favorCost>6</favorCost>
-    <permitPointsAwarded>2</permitPointsAwarded>
+    <permitPointsAwarded>1</permitPointsAwarded>
     <changeHeirQuestPoints>1200</changeHeirQuestPoints>
     <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
   </RoyalTitleDef>
@@ -96,7 +96,7 @@
     <description>Senior Manager of PnL Logistics.</description>
     <seniority>4</seniority>
     <favorCost>24</favorCost>
-    <permitPointsAwarded>3</permitPointsAwarded>
+    <permitPointsAwarded>4</permitPointsAwarded>
     <permits>
       <li>PN_TradeBenefit</li>
     </permits>
@@ -143,7 +143,7 @@
     <description>Director of PnL Logistics.</description>
     <seniority>500</seniority>
     <favorCost>54</favorCost>
-    <permitPointsAwarded>4</permitPointsAwarded>
+    <permitPointsAwarded>5</permitPointsAwarded>
     <permits>
       <li>PN_TradeBenefit</li>
     </permits>
