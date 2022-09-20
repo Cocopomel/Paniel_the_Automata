@@ -102,7 +102,7 @@
 
   <IdeoIconDef>
     <defName>PN_IdeoIcon</defName>
-    <iconPath>Icon/Paniel_PlayerIcon</iconPath>
+    <iconPath>Icon/Paniel_Icon</iconPath>
     <memes>
       <li>PN_Structure</li>
     </memes>

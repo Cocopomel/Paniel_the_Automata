@@ -342,7 +342,7 @@
     <allowedPlaceTags>
       <li>OriginSpacer</li>
     </allowedPlaceTags>
-    <iconPath>Icon/Paniel_PlayerIcon</iconPath>
+    <iconPath>Icon/Paniel_Icon</iconPath>
     <iconColor>(1, 1, 1)</iconColor>
     <styleItemTags>
       <li>
