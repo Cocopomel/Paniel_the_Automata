@@ -8,7 +8,7 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationConditional">
+ <!--<Operation Class="PatchOperationConditional">
     <xpath>Defs/FactionDef[defName = "OutlanderCivil"]/caravanTraderKinds</xpath>
     <nomatch Class="PatchOperationAdd">
       <xpath>Defs/FactionDef[defName = "OutlanderCivil"]</xpath>
@@ -24,7 +24,7 @@
         <li>PN_Caravan_PnLindustry</li>
       </value>
     </match>
-  </Operation>
+  </Operation>-->
 
   <!--<Operation Class="PatchOperationAdd">
     <xpath>*/FactionDef[defName="OutlanderRough"]/caravanTraderKinds</xpath>
