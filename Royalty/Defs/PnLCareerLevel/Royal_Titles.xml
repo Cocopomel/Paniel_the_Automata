@@ -54,7 +54,7 @@
     <label>Manager</label>
     <description>Manager of PnL Logistics.</description>
     <seniority>3</seniority>
-    <favorCost>12</favorCost>
+    <favorCost>18</favorCost>
     <permitPointsAwarded>3</permitPointsAwarded>
     <minExpectation>Moderate</minExpectation>
     <changeHeirQuestPoints>2200</changeHeirQuestPoints>
@@ -95,7 +95,7 @@
     <label>Senior Manager</label>
     <description>Senior Manager of PnL Logistics.</description>
     <seniority>4</seniority>
-    <favorCost>16</favorCost>
+    <favorCost>24</favorCost>
     <permitPointsAwarded>3</permitPointsAwarded>
     <permits>
       <li>PN_TradeBenefit</li>
@@ -142,7 +142,7 @@
     <label>Director</label>
     <description>Director of PnL Logistics.</description>
     <seniority>500</seniority>
-    <favorCost>22</favorCost>
+    <favorCost>54</favorCost>
     <permitPointsAwarded>4</permitPointsAwarded>
     <permits>
       <li>PN_TradeBenefit</li>
