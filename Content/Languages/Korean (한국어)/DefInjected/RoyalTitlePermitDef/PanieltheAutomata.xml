@@ -66,4 +66,7 @@
   <PN_RequestTransportShuttle.label>수송 셔틀 요청</PN_RequestTransportShuttle.label>
   <PN_RequestTransportShuttle.description>정착민과 화물을 운송할 수 있는 셔틀을 요청합니다. 70 타일을 이동할 수 있습니다.</PN_RequestTransportShuttle.description>
 
+  <PN_DropBrainCore.label>오토마톤 두뇌 코어 요청</PN_DropBrainCore.label>
+  <PN_DropBrainCore.description>3개의 오토마톤 두뇌 코어를 요청합니다.</PN_DropBrainCore.description>
+
 </LanguageData>
