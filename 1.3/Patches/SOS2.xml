@@ -164,21 +164,21 @@
         </li>
 
         <li Class="PatchOperationAdd">
-          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/apparel/tags</xpath>
+          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityHat"]/apparel/tags</xpath>
           <value>
             <li>EVA</li>
           </value>
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/statBases/Insulation_Cold</xpath>
+          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityHat"]/statBases/Insulation_Cold</xpath>
           <value>
             <Insulation_Cold>50</Insulation_Cold>
           </value>
         </li>
 
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityUniformHat"]/statBases/Insulation_Heat</xpath>
+          <xpath>Defs/ThingDef[defName = "PN_EliteSecurityHat"]/statBases/Insulation_Heat</xpath>
           <value>
             <Insulation_Heat>25</Insulation_Heat>
           </value>
