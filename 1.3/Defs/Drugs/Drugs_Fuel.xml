@@ -118,9 +118,6 @@
             <hediff>FoodPoisoning</hediff>
           </li>
           <li>
-            <hediff>DrugOverdose</hediff>
-          </li>
-          <li>
             <hediff>PN_deletFuel</hediff>
           </li>
         </hediffAndBodypart>
