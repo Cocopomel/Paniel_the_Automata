@@ -726,6 +726,11 @@
           <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
           <li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
 
+          <!--eccentric-->
+          <li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_PhasedShieldBelt</li>
+          <li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_ModulatedShieldBelt</li>
+          <li MayRequire="Aelanna.EccentricTech.AdvancedShields">Eccentric_LayeredShieldBelt</li>
+
         </whiteApparelList>
         <weaponList>
 
