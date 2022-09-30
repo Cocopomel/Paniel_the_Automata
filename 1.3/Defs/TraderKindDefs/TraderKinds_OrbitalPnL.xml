@@ -110,6 +110,16 @@
         <countRange>-1~1</countRange>
       </li>
 
+      <!-- Techprints (Royalty) -->
+      <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
+        <thingDef>Techprint_CataphractArmor</thingDef>
+        <countRange>-4~1</countRange>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Royalty" Class="StockGenerator_SingleDef">
+        <thingDef>Techprint_BrainWiring</thingDef>
+        <countRange>-4~1</countRange>
+      </li>
+
       <!-- Buildings -->
 
       <!-- Animals -->
