@@ -5,15 +5,19 @@
     <disallowedTraits>
       <li>
         <defName>Pyromaniac</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>TooSmart</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>FastLearner</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>SlowLearner</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
@@ -22,20 +26,20 @@
     <defName>Paniel_MilitiaA_Backstory_PA</defName>
     <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>3</amount>
+        <key>Shooting</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>3</amount>
+        <key>Melee</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>3</amount>
+        <key>Animals</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -50,24 +54,24 @@
     <defName>Paniel_MilitiaB_Backstory_PA</defName>
     <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is mainly used by militias.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>6</amount>
+        <key>Shooting</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
+        <key>Melee</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>6</amount>
+        <key>Animals</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>1</amount>
+        <key>Medicine</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -82,24 +86,24 @@
     <defName>Paniel_SoldierA_Backstory_PA</defName>
     <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>9</amount>
+        <key>Shooting</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>9</amount>
+        <key>Melee</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>9</amount>
+        <key>Animals</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
+        <key>Medicine</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -114,24 +118,24 @@
     <defName>Paniel_SoldierB_Backstory_PA</defName>
     <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used as a soldier in the military.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>12</amount>
+        <key>Shooting</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>12</amount>
+        <key>Melee</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>12</amount>
+        <key>Animals</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>5</amount>
+        <key>Medicine</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -146,24 +150,24 @@
     <defName>Paniel_Royalguard_Backstory_PA</defName>
     <title>Automaton Royal guard (PA)</title>
     <titleShort>Royal guard</titleShort>
-    <baseDescription>This automaton is used by the Royal Guard.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used by the Royal Guard.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>18</amount>
+        <key>Shooting</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>18</amount>
+        <key>Melee</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>18</amount>
+        <key>Animals</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>7</amount>
+        <key>Medicine</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -179,15 +183,19 @@
     <disallowedTraits>
       <li>
         <defName>Pyromaniac</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>TooSmart</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>FastLearner</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>SlowLearner</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
@@ -196,20 +204,20 @@
     <defName>Paniel_ApprenticeA_Backstory_PA</defName>
     <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
+        <key>Construction</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>3</amount>
+        <key>Mining</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
+        <key>Crafting</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -224,24 +232,24 @@
     <defName>Paniel_ApprenticeB_Backstory_PA</defName>
     <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used in many workshops for chores.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>6</amount>
+        <key>Construction</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>6</amount>
+        <key>Mining</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>6</amount>
+        <key>Crafting</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>1</amount>
+        <key>Intellectual</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -256,24 +264,24 @@
     <defName>Paniel_JourneymanA_Backstory_PA</defName>
     <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>9</amount>
+        <key>Construction</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>9</amount>
+        <key>Mining</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>9</amount>
+        <key>Crafting</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>3</amount>
+        <key>Intellectual</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -288,24 +296,24 @@
     <defName>Paniel_JourneymanB_Backstory_PA</defName>
     <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used to assist the meister.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>12</amount>
+        <key>Construction</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>12</amount>
+        <key>Mining</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>12</amount>
+        <key>Crafting</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>5</amount>
+        <key>Intellectual</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -320,24 +328,24 @@
     <defName>Paniel_Meister_Backstory_PA</defName>
     <title>Automaton Meister (PA)</title>
     <titleShort>Meister</titleShort>
-    <baseDescription>This automaton has better crafting skills than humans.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton has better crafting skills than humans.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>18</amount>
+        <key>Construction</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>18</amount>
+        <key>Mining</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>18</amount>
+        <key>Crafting</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>7</amount>
+        <key>Intellectual</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -353,15 +361,19 @@
     <disallowedTraits>
       <li>
         <defName>Pyromaniac</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>TooSmart</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>FastLearner</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>SlowLearner</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>
@@ -370,20 +382,20 @@
     <defName>Paniel_MaidA_Backstory_PA</defName>
     <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
+        <key>Cooking</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>3</amount>
+        <key>Plants</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
+        <key>Medicine</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -398,24 +410,24 @@
     <defName>Paniel_MaidB_Backstory_PA</defName>
     <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used as a maid in many homes.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>6</amount>
+        <key>Cooking</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>6</amount>
+        <key>Plants</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>6</amount>
+        <key>Medicine</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>1</amount>
+        <key>Social</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -430,24 +442,24 @@
     <defName>Paniel_HousemaidA_Backstory_PA</defName>
     <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper Maid</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>9</amount>
+        <key>Cooking</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>9</amount>
+        <key>Plants</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>9</amount>
+        <key>Medicine</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>3</amount>
+        <key>Social</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -462,24 +474,24 @@
     <defName>Paniel_HousemaidB_Backstory_PA</defName>
     <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton leads the other maids in the noble mansion.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>12</amount>
+        <key>Cooking</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>12</amount>
+        <key>Plants</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>12</amount>
+        <key>Medicine</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>5</amount>
+        <key>Social</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -494,24 +506,24 @@
     <defName>Paniel_Ladysmaid_Backstory_PA</defName>
     <title>Automaton Lady's maid (PA)</title>
     <titleShort>Lady's maid</titleShort>
-    <baseDescription>This automaton is used as a royal servant.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton is used as a royal servant.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>18</amount>
+        <key>Cooking</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>18</amount>
+        <key>Plants</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>18</amount>
+        <key>Medicine</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>7</amount>
+        <key>Social</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -528,36 +540,36 @@
     <defName>Paniel_Testsubject_Backstory</defName>
     <title>Automaton Test subject (PA)</title>
     <titleShort>Test subject</titleShort>
-    <baseDescription>This automaton was built to test a new module at PnL industry. It is showing signs of mental instability.\n\n(PA) : PnL authenticated</baseDescription>
+    <baseDesc>This automaton was built to test a new module at PnL industry. It is showing signs of mental instability.\n\n(PA) : PnL authenticated</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>4</amount>
+        <key>Shooting</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>4</amount>
+        <key>Melee</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Construction</defName>
-        <amount>4</amount>
+        <key>Construction</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>4</amount>
+        <key>Plants</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>4</amount>
+        <key>Crafting</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>4</amount>
+        <key>Medicine</key>
+        <value>4</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>4</amount>
+        <key>Intellectual</key>
+        <value>4</value>
       </li>
     </skillGains>
     <workDisables>
@@ -578,26 +590,32 @@
       <li>
         <defName>NaturalMood</defName>
         <degree>2</degree>
+        <chance>100</chance>
       </li>
       <li>
         <defName>NaturalMood</defName>
         <degree>1</degree>
+        <chance>100</chance>
       </li>
       <li>
         <defName>Nerves</defName>
         <degree>2</degree>
+        <chance>100</chance>
       </li>
       <li>
         <defName>Nerves</defName>
         <degree>1</degree>
+        <chance>100</chance>
       </li>
       <li>
         <defName>PsychicSensitivity</defName>
         <degree>-1</degree>
+        <chance>100</chance>
       </li>
       <li>
         <defName>PsychicSensitivity</defName>
         <degree>-2</degree>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
   </AlienRace.BackstoryDef>

@@ -19,56 +19,56 @@
 		<defName>Paniel_Backstory</defName>
 		<title>name</title>
 		<titleShort>name</titleShort>
-		<baseDescription>backstory</baseDescription>
+		<baseDesc>backstory</baseDesc>
 		<slot>hood</slot>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>2</amount>
+				<key>Shooting</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>2</amount>
+				<key>Melee</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>2</amount>
+				<key>Construction</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>2</amount>
+				<key>Mining</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Cooking</defName>
-				<amount>2</amount>
+				<key>Cooking</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>2</amount>
+				<key>Plants</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>2</amount>
+				<key>Animals</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Crafting</defName>
-				<amount>2</amount>
+				<key>Crafting</key>
+				<value>2</value>
 			</li>			
 			<li>
-				<defName>Artistic</defName>
-				<amount>2</amount>
+				<key>Artistic</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Medicine</defName>
-				<amount>2</amount>
+				<key>Medicine</key>
+				<value>2</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>2</amount>
+				<key>Social</key>
+				<value>2</value>
 			</li>			
 			<li>
-				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<key>Intellectual</key>
+				<value>2</value>
 			</li>						
 		</skillGains>
 		<workDisables>
@@ -82,11 +82,13 @@
 		<forcedTraits>
             <li>
                 <defname>Psychopath</defname>
+                <chance>100</chance>
             </li>
         </forcedTraits>
         <disallowedTraits>
             <li>
                 <defname>Bloodlust</defname>
+                <chance>100</chance>
             </li>
         </disallowedTraits>
 	</AlienRace.BackstoryDef>
@@ -97,7 +99,7 @@
     <defName>Paniel_Awful_Backstory</defName>
     <title>Automaton (awful)</title>
     <titleShort>Automaton (awfl)</titleShort>
-    <baseDescription>This automaton is made wrong. Seriously.</baseDescription>
+    <baseDesc>This automaton is made wrong. Seriously.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -117,7 +119,7 @@
     <defName>Paniel_Poor_Backstory</defName>
     <title>Automaton (poor)</title>
     <titleShort>Automaton (poor)</titleShort>
-    <baseDescription>This automaton is made wrong.</baseDescription>
+    <baseDesc>This automaton is made wrong.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -136,7 +138,7 @@
     <defName>Paniel_Normal_Backstory</defName>
     <title>Automaton (normal)</title>
     <titleShort>Automaton (norm)</titleShort>
-    <baseDescription>It's an ordinary automaton.</baseDescription>
+    <baseDesc>It's an ordinary automaton.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -156,7 +158,7 @@
     <defName>Paniel_Good_Backstory</defName>
     <title>Automaton (good)</title>
     <titleShort>Automaton (good)</titleShort>
-    <baseDescription>It's a well-made automaton.</baseDescription>
+    <baseDesc>It's a well-made automaton.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -176,7 +178,7 @@
     <defName>Paniel_Excellent_Backstory</defName>
     <title>Automaton (excellent)</title>
     <titleShort>Automaton (exc)</titleShort>
-    <baseDescription>It's a very well-made automaton. It is mainly used by nobles.</baseDescription>
+    <baseDesc>It's a very well-made automaton. It is mainly used by nobles.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -195,7 +197,7 @@
     <defName>Paniel_Masterwork_Backstory</defName>
     <title>Automaton (masterwork)</title>
     <titleShort>Automaton (mast)</titleShort>
-    <baseDescription>It's an automaton perfected by Meister. Everything works perfectly. It is mainly used by nobles.</baseDescription>
+    <baseDesc>It's an automaton perfected by Meister. Everything works perfectly. It is mainly used by nobles.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -214,7 +216,7 @@
     <defName>Paniel_Legendary_Backstory</defName>
     <title>Automaton (legendary)</title>
     <titleShort>Automaton (legd)</titleShort>
-    <baseDescription>It's an incredibly perfect automaton. It's showing performance that goes beyond its original intentions. It is mainly used by royalty.</baseDescription>
+    <baseDesc>It's an incredibly perfect automaton. It's showing performance that goes beyond its original intentions. It is mainly used by royalty.</baseDesc>
     <slot>Childhood</slot>
     <skillGains>
 
@@ -235,7 +237,7 @@
     <defName>Paniel_Automaton_Backstory</defName>
     <title>Automaton</title>
     <titleShort>Automaton</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDesc>backstory</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
     </skillGains>
@@ -256,7 +258,7 @@
     <defName>Paniel_AutomatonB_Backstory</defName>
     <title>Automaton for Noble</title>
     <titleShort>Noble Automaton</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDesc>backstory</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
 
@@ -278,7 +280,7 @@
     <defName>Paniel_Royalmaiden_Backstory</defName>
     <title>Automaton for Royal</title>
     <titleShort>Royal Automaton</titleShort>
-    <baseDescription>backstory</baseDescription>
+    <baseDesc>backstory</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
     </skillGains>
@@ -298,7 +300,7 @@
     <defName>Paniel_FailureA_Backstory</defName>
     <title>Automaton Failure</title>
     <titleShort>Failure</titleShort>
-    <baseDescription>This automaton is made wrong. Seriously.</baseDescription>
+    <baseDesc>This automaton is made wrong. Seriously.</baseDesc>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualSkilled</li>
@@ -314,8 +316,8 @@
     </workDisables>
     <skillGains>
       <li>
-        <defName>Artistic</defName>
-        <amount>20</amount>
+        <key>Artistic</key>
+        <value>20</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -330,7 +332,7 @@
     <defName>Paniel_FailureB_Backstory</defName>
     <title>Automaton Failure</title>
     <titleShort>Failure</titleShort>
-    <baseDescription>This automaton is made wrong.</baseDescription>
+    <baseDesc>This automaton is made wrong.</baseDesc>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualSkilled</li>
@@ -353,9 +355,11 @@
     <disallowedTraits>
       <li>
         <defName>Industriousness</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>TorturedArtist</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
     <workDisables>
@@ -386,20 +390,20 @@
     <defName>Paniel_MilitiaA_Backstory</defName>
     <title>Automaton Militia</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.</baseDescription>
+    <baseDesc>This automaton is mainly used by militias.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>3</amount>
+        <key>Shooting</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>3</amount>
+        <key>Melee</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>3</amount>
+        <key>Animals</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -415,24 +419,24 @@
     <defName>Paniel_MilitiaB_Backstory</defName>
     <title>Automaton Militia</title>
     <titleShort>Militia</titleShort>
-    <baseDescription>This automaton is mainly used by militias.</baseDescription>
+    <baseDesc>This automaton is mainly used by militias.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>6</amount>
+        <key>Shooting</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>6</amount>
+        <key>Melee</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>6</amount>
+        <key>Animals</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>1</amount>
+        <key>Medicine</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -447,24 +451,24 @@
     <defName>Paniel_SoldierA_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
+    <baseDesc>This automaton is used as a soldier in the military.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>9</amount>
+        <key>Shooting</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>9</amount>
+        <key>Melee</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>9</amount>
+        <key>Animals</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
+        <key>Medicine</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -479,24 +483,24 @@
     <defName>Paniel_SoldierB_Backstory</defName>
     <title>Automaton Soldier</title>
     <titleShort>Soldier</titleShort>
-    <baseDescription>This automaton is used as a soldier in the military.</baseDescription>
+    <baseDesc>This automaton is used as a soldier in the military.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>12</amount>
+        <key>Shooting</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>12</amount>
+        <key>Melee</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>12</amount>
+        <key>Animals</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>5</amount>
+        <key>Medicine</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -511,24 +515,24 @@
     <defName>Paniel_Royalguard_Backstory</defName>
     <title>Automaton Royal guard</title>
     <titleShort>Royal guard</titleShort>
-    <baseDescription>This automaton is used by the Royal Guard.</baseDescription>
+    <baseDesc>This automaton is used by the Royal Guard.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Shooting</defName>
-        <amount>18</amount>
+        <key>Shooting</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Melee</defName>
-        <amount>18</amount>
+        <key>Melee</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Animals</defName>
-        <amount>18</amount>
+        <key>Animals</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>7</amount>
+        <key>Medicine</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -544,6 +548,7 @@
     <disallowedTraits>
       <li>
         <defName>Brawler</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
     <workDisables>
@@ -573,20 +578,20 @@
     <defName>Paniel_ApprenticeA_Backstory</defName>
     <title>Automaton Apprentice</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
+    <baseDesc>This automaton is used in many workshops for chores.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>3</amount>
+        <key>Construction</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>3</amount>
+        <key>Mining</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>3</amount>
+        <key>Crafting</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -602,24 +607,24 @@
     <defName>Paniel_ApprenticeB_Backstory</defName>
     <title>Automaton Apprentice</title>
     <titleShort>Apprentice</titleShort>
-    <baseDescription>This automaton is used in many workshops for chores.</baseDescription>
+    <baseDesc>This automaton is used in many workshops for chores.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>6</amount>
+        <key>Construction</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>6</amount>
+        <key>Mining</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>6</amount>
+        <key>Crafting</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>1</amount>
+        <key>Intellectual</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -634,24 +639,24 @@
     <defName>Paniel_JourneymanA_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.</baseDescription>
+    <baseDesc>This automaton is used to assist the meister.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>9</amount>
+        <key>Construction</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>9</amount>
+        <key>Mining</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>9</amount>
+        <key>Crafting</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>3</amount>
+        <key>Intellectual</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -666,24 +671,24 @@
     <defName>Paniel_JourneymanB_Backstory</defName>
     <title>Automaton journeyman</title>
     <titleShort>Journeyman</titleShort>
-    <baseDescription>This automaton is used to assist the meister.</baseDescription>
+    <baseDesc>This automaton is used to assist the meister.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>12</amount>
+        <key>Construction</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>12</amount>
+        <key>Mining</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>12</amount>
+        <key>Crafting</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>5</amount>
+        <key>Intellectual</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -698,24 +703,24 @@
     <defName>Paniel_Meister_Backstory</defName>
     <title>Automaton Meister</title>
     <titleShort>Meister</titleShort>
-    <baseDescription>This automaton has better crafting skills than humans.</baseDescription>
+    <baseDesc>This automaton has better crafting skills than humans.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Construction</defName>
-        <amount>18</amount>
+        <key>Construction</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Mining</defName>
-        <amount>18</amount>
+        <key>Mining</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Crafting</defName>
-        <amount>18</amount>
+        <key>Crafting</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Intellectual</defName>
-        <amount>7</amount>
+        <key>Intellectual</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -731,9 +736,11 @@
     <disallowedTraits>
       <li>
         <defName>Brawler</defName>
+        <chance>100</chance>
       </li>
       <li>
         <defName>TorturedArtist</defName>
+        <chance>100</chance>
       </li>
     </disallowedTraits>
     <workDisables>
@@ -761,20 +768,20 @@
     <defName>Paniel_MaidA_Backstory</defName>
     <title>Automaton Maid</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
+    <baseDesc>This automaton is used as a maid in many homes.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>3</amount>
+        <key>Cooking</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>3</amount>
+        <key>Plants</key>
+        <value>3</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>3</amount>
+        <key>Medicine</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -790,24 +797,24 @@
     <defName>Paniel_MaidB_Backstory</defName>
     <title>Automaton Maid</title>
     <titleShort>Maid</titleShort>
-    <baseDescription>This automaton is used as a maid in many homes.</baseDescription>
+    <baseDesc>This automaton is used as a maid in many homes.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>6</amount>
+        <key>Cooking</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>6</amount>
+        <key>Plants</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>6</amount>
+        <key>Medicine</key>
+        <value>6</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>1</amount>
+        <key>Social</key>
+        <value>1</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -822,24 +829,24 @@
     <defName>Paniel_HousemaidA_Backstory</defName>
     <title>Automaton Housekeeper maid</title>
     <titleShort>Housekeeper Maid</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
+    <baseDesc>This automaton leads the other maids in the noble mansion.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>9</amount>
+        <key>Cooking</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>9</amount>
+        <key>Plants</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>9</amount>
+        <key>Medicine</key>
+        <value>9</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>3</amount>
+        <key>Social</key>
+        <value>3</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -854,24 +861,24 @@
     <defName>Paniel_HousemaidB_Backstory</defName>
     <title>Automaton Housekeeper maid</title>
     <titleShort>Housekeeper</titleShort>
-    <baseDescription>This automaton leads the other maids in the noble mansion.</baseDescription>
+    <baseDesc>This automaton leads the other maids in the noble mansion.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>12</amount>
+        <key>Cooking</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>12</amount>
+        <key>Plants</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>12</amount>
+        <key>Medicine</key>
+        <value>12</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>5</amount>
+        <key>Social</key>
+        <value>5</value>
       </li>
     </skillGains>
     <spawnCategories>
@@ -886,24 +893,24 @@
     <defName>Paniel_Ladysmaid_Backstory</defName>
     <title>Automaton Lady's maid</title>
     <titleShort>Lady's maid</titleShort>
-    <baseDescription>This automaton is used as a royal servant.</baseDescription>
+    <baseDesc>This automaton is used as a royal servant.</baseDesc>
     <slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Cooking</defName>
-        <amount>18</amount>
+        <key>Cooking</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Plants</defName>
-        <amount>18</amount>
+        <key>Plants</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Medicine</defName>
-        <amount>18</amount>
+        <key>Medicine</key>
+        <value>18</value>
       </li>
       <li>
-        <defName>Social</defName>
-        <amount>7</amount>
+        <key>Social</key>
+        <value>7</value>
       </li>
     </skillGains>
     <spawnCategories>
