@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--베이스-->
+  <RoyalTitleDef Abstract="True" Name="PN_TitleBase">
+    <tags>
+      <li>PN_PnLCareerTitleTag</li>
+    </tags>
+    <commonality>1</commonality>
+    <awardThought>PN_TitlePromotion</awardThought>
+    <lostThought>PN_TitleDemotion</lostThought>
+    <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+    <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+  </RoyalTitleDef>
+
+  <!--Intern 인턴-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_Intern</defName>
+    <label>Intern</label>
+    <description>Intern of PnL Logistics.</description>
+    <seniority>0</seniority>
+    <favorCost>1</favorCost>
+    <permitPointsAwarded>0</permitPointsAwarded>
+    <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+  </RoyalTitleDef>
+
+  <!--Associate 사원-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_Associate</defName>
+    <label>Associate</label>
+    <description>Associate of PnL Logistics.</description>
+    <seniority>1</seniority>
+    <favorCost>6</favorCost>
+    <permitPointsAwarded>1</permitPointsAwarded>
+    <changeHeirQuestPoints>1200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>10</recruitmentResistanceOffset>
+  </RoyalTitleDef>
+
+  <!--Senior 대리-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_Senior</defName>
+    <label>Senior</label>
+    <description>Senior of PnL Logistics.</description>
+    <seniority>2</seniority>
+    <favorCost>8</favorCost>
+    <permitPointsAwarded>2</permitPointsAwarded>
+    <changeHeirQuestPoints>1600</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>25</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+  </RoyalTitleDef>
+
+  <!--Manager 과장-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_Manager</defName>
+    <label>Manager</label>
+    <description>Manager of PnL Logistics.</description>
+    <seniority>3</seniority>
+    <favorCost>18</favorCost>
+    <permitPointsAwarded>3</permitPointsAwarded>
+    <minExpectation>Moderate</minExpectation>
+    <changeHeirQuestPoints>2200</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>40</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <bedroomRequirements>
+      <li Class="RoomRequirement_Area">
+        <area>16</area>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFloored</labelKey>
+        <tags>
+          <li>Floor</li>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings">
+        <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+        <buildingTags>
+          <li>Production</li>
+        </buildingTags>
+      </li>
+    </bedroomRequirements>
+    <foodRequirement>
+      <minQuality>MealSimple</minQuality>
+      <allowedTypes>Processed, Liquor</allowedTypes>
+      <allowedDefs>
+        <li>Ambrosia</li>
+        <li>Milk</li>
+        <li>RawBerries</li>
+      </allowedDefs>
+    </foodRequirement>
+  </RoyalTitleDef>
+
+  <!--Senior Manager 부장-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_SeniorManager</defName>
+    <label>Senior Manager</label>
+    <description>Senior Manager of PnL Logistics.</description>
+    <seniority>4</seniority>
+    <favorCost>24</favorCost>
+    <permitPointsAwarded>4</permitPointsAwarded>
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
+    <minExpectation>Moderate</minExpectation>
+    <changeHeirQuestPoints>2800</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <bedroomRequirements>
+      <li Class="RoomRequirement_Area">
+        <area>24</area>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>40</impressiveness>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFloored</labelKey>
+        <tags>
+          <li>Floor</li>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings">
+        <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+        <buildingTags>
+          <li>Production</li>
+        </buildingTags>
+      </li>
+    </bedroomRequirements>
+    <foodRequirement>
+      <minQuality>MealSimple</minQuality>
+      <allowedTypes>Processed, Liquor</allowedTypes>
+      <allowedDefs>
+        <li>Ambrosia</li>
+        <li>Milk</li>
+        <li>RawBerries</li>
+      </allowedDefs>
+    </foodRequirement>
+  </RoyalTitleDef>
+
+  <!--Director 이사-->
+  <RoyalTitleDef ParentName="PN_TitleBase">
+    <defName>PN_Title_Director</defName>
+    <label>Director</label>
+    <description>Director of PnL Logistics.</description>
+    <seniority>500</seniority>
+    <favorCost>54</favorCost>
+    <permitPointsAwarded>5</permitPointsAwarded>
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
+    <minExpectation>High</minExpectation>
+    <changeHeirQuestPoints>3500</changeHeirQuestPoints>
+    <recruitmentResistanceOffset>75</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <bedroomRequirements>
+      <li Class="RoomRequirement_Area">
+        <area>24</area>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>50</impressiveness>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFloored</labelKey>
+        <tags>
+          <li>Floor</li>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings">
+        <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+        <buildingTags>
+          <li>Production</li>
+        </buildingTags>
+      </li>
+    </bedroomRequirements>
+    <foodRequirement>
+      <minQuality>MealFine</minQuality>
+      <allowedTypes>Processed, Liquor</allowedTypes>
+      <allowedDefs>
+        <li>Ambrosia</li>
+        <li>Milk</li>
+        <li>RawBerries</li>
+      </allowedDefs>
+    </foodRequirement>
+  </RoyalTitleDef>
+
+  <!--NPC Only-->
+  <RoyalTitleDef ParentName="PN_TitleBase" Abstract="True" Name="PN_TitleBaseNPC">
+    <permits>
+      <li>PN_TradeBenefit</li>
+    </permits>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+    <bedroomRequirements>
+      <li Class="RoomRequirement_Area">
+        <area>30</area>
+      </li>
+      <li Class="RoomRequirement_Impressiveness">
+        <impressiveness>70</impressiveness>
+      </li>
+      <li Class="RoomRequirement_TerrainWithTags">
+        <labelKey>RoomRequirementAllFineFloored</labelKey>
+        <tags>
+          <li>Floor</li>
+          <li>FineFloor</li>
+        </tags>
+      </li>
+      <li Class="RoomRequirement_ForbiddenBuildings">
+        <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+        <buildingTags>
+          <li>Production</li>
+        </buildingTags>
+      </li>
+    </bedroomRequirements>
+    <foodRequirement>
+      <minQuality>MealFine</minQuality>
+      <allowedTypes>Processed, Liquor</allowedTypes>
+      <allowedDefs>
+        <li>Ambrosia</li>
+        <li>Milk</li>
+        <li>RawBerries</li>
+      </allowedDefs>
+    </foodRequirement>
+  </RoyalTitleDef>
+
+
+  <!--Senior Director 상무-->
+  <RoyalTitleDef ParentName="PN_TitleBaseNPC">
+    <defName>PN_Title_SeniorDirector</defName>
+    <label>Senior Director</label>
+    <description>Senior Director of PnL Logistics.</description>
+    <seniority>600</seniority>
+    <commonality>1</commonality>
+    <minExpectation>High</minExpectation>
+    <recruitmentResistanceOffset>125</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+  </RoyalTitleDef>
+
+  <!--VP 전무-->
+  <RoyalTitleDef ParentName="PN_TitleBaseNPC">
+    <defName>PN_TitleVP</defName>
+    <label>VP</label>
+    <description>VP of PnL Logistics.</description>
+    <seniority>700</seniority>
+    <commonality>1</commonality>
+    <minExpectation>High</minExpectation>
+    <recruitmentResistanceOffset>150</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+  </RoyalTitleDef>
+
+  <!--SVP 부사장-->
+  <RoyalTitleDef ParentName="PN_TitleBaseNPC">
+    <defName>PN_TitleSVP</defName>
+    <label>SVP</label>
+    <description>SVP of PnL Logistics.</description>
+    <seniority>800</seniority>
+    <commonality>0.6</commonality>
+    <minExpectation>High</minExpectation>
+    <recruitmentResistanceOffset>200</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+  </RoyalTitleDef>
+
+  <!--CEO-->
+  <RoyalTitleDef ParentName="PN_TitleBaseNPC">
+    <defName>PN_TitleCEO</defName>
+    <label>CEO</label>
+    <description>CEO of PnL Logistics.</description>
+    <seniority>900</seniority>
+    <commonality>0.1</commonality>
+    <minExpectation>High</minExpectation>
+    <recruitmentResistanceOffset>300</recruitmentResistanceOffset>
+    <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+  </RoyalTitleDef>
+</Defs>

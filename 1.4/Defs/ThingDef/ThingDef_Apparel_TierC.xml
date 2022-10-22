@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--==================================== 로열 그레이드 ====================================-->
+
+  <ThingCategoryDef>
+    <defName>PNRoyalApparel</defName>
+    <label>Royal Apparel</label>
+    <parent>PNApparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PNRoyalHeadgear</defName>
+    <label>Royal Headgear</label>
+    <parent>PNHeadgear</parent>
+  </ThingCategoryDef>
+
+  <ThingDef Abstract="True" Name="PN_RoyalApparelBase" ParentName="ApparelMakeableBase">
+    <apparel>
+      <tags Inherit="false">
+        <li>PN_RoyalApparel</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+        <li>RoyalTier4</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <thingCategories Inherit="False">
+      <li>PNRoyalApparel</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="PN_RoyalHatBase" ParentName="PN_RoyalApparelBase">
+    <thingCategories Inherit="False">
+      <li>PNRoyalHeadgear</li>
+    </thingCategories>
+    <apparel>
+      <forceRenderUnderHair>true</forceRenderUnderHair>
+    </apparel>
+  </ThingDef>
+
+  <!--==================================== 티어C 근위대 ====================================-->
+  <ThingDef ParentName="PN_RoyalApparelBase">
+    <defName>PN_ApparelRoyalguard</defName>
+    <label>PnL royal guard uniform</label>
+    <description>A uniform worn by the royal guards on Automaton.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work with the automaton to provide excellent defense. But it doesn't help in situations other than combat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNRoyalguard1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <costList>
+      <ComponentSpacer>6</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+      <Hyperweave>50</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>13</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.35</WorkSpeedGlobal>
+      <MeleeDodgeChance>3</MeleeDodgeChance>
+      <Flammability>-0.35</Flammability>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNRoyalguard</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Royalguard</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalguardHat</defName>
+    <label>PnL royal guard hat</label>
+    <description>A hat worn by the royal guards on Automaton.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work with the automaton to provide excellent defense. But it doesn't help in situations other than combat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalguardhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>25</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+      <AimingDelayFactor>-0.15</AimingDelayFactor>
+      <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+      <MeleeHitChance>3</MeleeHitChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalguardhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li></li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어C 마이스터 ====================================-->
+  <ThingDef ParentName="PN_RoyalApparelBase">
+    <defName>PN_ApparelRoyalmeister</defName>
+    <label>PnL royal meister uniform</label>
+    <description>This is the uniform worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNRoyalmeister1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+      <Hyperweave>30</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.20</GeneralLaborSpeed>
+      <MiningYield>0.20</MiningYield>
+      <ConstructSuccessChance>0.20</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
+      <Flammability>-0.20</Flammability>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNRoyalmeister</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Meister</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmeisterHat</defName>
+    <label>PnL royal meister hat</label>
+    <description>This is the hat worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmeisterhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmeisterhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Meister</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmeisterHatWithMonocle</defName>
+    <label>PnL royal meister hat w/monocle</label>
+    <description>This is the hat with monocle worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmeisterhatwm1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmeisterhatwm</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Meister</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmeisterMonocle</defName>
+    <label>PnL royal meister monocle</label>
+    <description>This is the monocle worn by the automaton in the royal Workshop.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmeistermonocle1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmeistermonocle</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Meister</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어C 로열메이드 ====================================-->
+  <ThingDef ParentName="PN_RoyalApparelBase">
+    <defName>PN_ApparelRoyalmaid</defName>
+    <label>PnL royal maid uniform</label>
+    <description>This is the uniform worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNRoyalmaid1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+      <Hyperweave>30</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <ButcheryFleshEfficiency>0.20</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.20</PlantHarvestYield>
+      <MedicalTendQuality>0.30</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.20</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.20</NegotiationAbility>
+      <SocialImpact>0.20</SocialImpact>
+      <Flammability>-0.20</Flammability>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNRoyalmaid</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Royalmaid</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_RoyalHatBase">
+    <defName>PN_ApparelRoyalmaidHat</defName>
+    <label>PnL royal maid headband</label>
+    <description>This is the hat worn by the automaton in the royal palace.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you excellent defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNRoyalmaidhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+      <Hyperweave>10</Hyperweave>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierC_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+      <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.10</PlantHarvestYield>
+      <MedicalTendQuality>0.15</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.10</NegotiationAbility>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNRoyalmaidhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Royalmaid</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

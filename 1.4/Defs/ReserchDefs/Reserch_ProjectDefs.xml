@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectTagDef>
+    <defName>PanielStart</defName>
+  </ResearchProjectTagDef>
+
+  <ResearchTabDef>
+    <defName>PN_technology</defName>
+    <label>PnL technology</label>
+  </ResearchTabDef>
+
+  <!--==================================== 기본 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_Production</defName>
+    <label>automaton production</label>
+    <description>Research how to craft an automaton.</description>
+    <tab>PN_technology</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BiofuelRefining</li>
+      <li>PsychiteRefining</li>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+      <li>PanielStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Brain</defName>
+    <label>core analysis</label>
+    <description>Researching methods of extracting the central nervous system to make automata.</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>Prosthetics</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <tags>
+
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_ExperimentalModule</defName>
+    <label>custom core implant</label>
+    <description>Research how to make custom core implants. This implant makes the automaton learn like a human, but makes it mentally unstable.\n\nWarning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.</description>
+    <tab>PN_technology</tab>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Brain</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_BrainCasing</defName>
+    <label>core casing</label>
+    <description>Researching methods of long-term storage of the central nervous system.</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>PNRP_Brain</li>
+      <li>Bionics</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">BrainWiring</li>
+    </prerequisites>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 수리 키트 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_SelfRepairKit</defName>
+    <label>self repair kit</label>
+    <description>Research how to combine healer mech serum with repair kits.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_ResurrectModule</defName>
+    <label>resurrect implant</label>
+    <description>Research how to embed the resurrector mech serum into the Automaton.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_SelfRepairKit</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 의상 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierA_Apparel</defName>
+    <label>militia apparel</label>
+    <description>Research how to craft a militia uniform.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>FlakArmor</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierB_Apparel</defName>
+    <label>Specialization apparel</label>
+    <description>Research how to make specialized uniforms.</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_TierA_Apparel</li>
+      <li>MicroelectronicsBasics</li>
+      <li>Devilstrand</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierC_Apparel</defName>
+    <label>royal apparel</label>
+    <description>Research how to craft royal uniforms.</description>
+    <tab>PN_technology</tab>
+    <baseCost>6500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>PNRP_TierB_Apparel</li>
+      <li>PoweredArmor</li>
+    </prerequisites>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>2.1</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 무기 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_AutomatonWeapons</defName>
+    <label>PnL weapons</label>
+    <description>Research how to craft basic PnL weapons.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_MachineGun</defName>
+    <label>machine gun</label>
+    <description>Research how to craft basic PnL machine gun.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>4.2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Cannon</defName>
+    <label>portable cannon</label>
+    <description>Research how to craft basic PnL portable cannon.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>Mortars</li>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>4.9</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_AutoArtillery</defName>
+    <label>PnL Howitzer</label>
+    <description>Research how to craft basic PnL Howitzer.</description>
+    <tab>PN_technology</tab>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Cannon</li>
+      <li>HeavyTurrets</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>4.9</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_RoyalWeapons</defName>
+    <label>Royal weapons</label>
+    <description>Research how to craft Royal PnL weapons.\n\n[caution] : Royal weapons are exclusively for Paniel.</description>
+    <tab>PN_technology</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>ChargedShot</li>
+      <li>PNRP_AutomatonWeapons</li>
+      <li>PNRP_MachineGun</li>
+      <li>PNRP_Cannon</li>
+    </prerequisites>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Railgun</defName>
+    <label>PnL Railgun</label>
+    <description>Research how to craft basic PnL Railgun.</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>SniperTurret</li>
+      <li>PNRP_AutoArtillery</li>
+      <li>PNRP_RoyalWeapons</li>
+    </prerequisites>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>4.9</researchViewY>
+  </ResearchProjectDef>
+
+  <!--==================================== 동면관 ====================================-->
+  <!--<ResearchProjectDef>
+    <defName>PNRP_CryptosleepCasket</defName>
+    <label>automaton cryptosleep</label>
+    <description>...</description>
+    <tab>PN_technology</tab>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PNRP_Production</li>
+      <li>HospitalBed</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
+  </ResearchProjectDef>-->
+
+
+</Defs>

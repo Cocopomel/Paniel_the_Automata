@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--직원상선 거래-->
+  <RoyalTitlePermitDef>
+    <defName>PN_TradeBenefit</defName>
+    <label>trade with benefit ship</label>
+  </RoyalTitlePermitDef>
+
+  <!-- 허가증 : 쿨타임 다 차면 공짜, 쿨타임 중엔 신임장 소모 -->
+  <RoyalTitlePermitDef Name="PN_BenefitBase" Abstract="True">
+    <faction>PN_SubsidiaryFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--자원 드랍 베이스-->
+  <RoyalTitlePermitDef ParentName="PN_BenefitBase" Name="PN_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--연봉-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_AnnualSalary_A</defName>
+    <label>annual salary class A</label>
+    <description>This is the annual salary (800 Silver) paid to PnL Logistics employees. can use PnL result point to receive advance salary.</description>
+    <minTitle>PN_Title_Associate</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>800</Silver>
+      </itemsToDrop>
+      <favorCost>1</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_AnnualSalary_B</defName>
+    <label>annual salary class B</label>
+    <description>This is the annual salary (3200 Silver) paid to PnL Logistics employees. can use PnL result point to receive advance salary.</description>
+    <minTitle>PN_Title_Manager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PN_AnnualSalary_A</prerequisite>
+    <uiPosition>(1,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Silver>3200</Silver>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--전투니엘 지원 (근접)-->
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestSecurityUnitClose</defName>
+    <label>request security unit (melee)</label>
+    <description>Request 4 melee combat security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_Senior</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,1)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <pawnKindDef>PN_Mid_CloseUnit</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitClose</defName>
+    <label>request elite security unit (melee)</label>
+    <description>Request 4 melee combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PN_RequestSecurityUnitClose</prerequisite>
+    <uiPosition>(1,1)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteCloseUnit</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--전투니엘 지원 (원거리)-->
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestSecurityUnitRange</defName>
+    <label>request security unit (range)</label>
+    <description>Request 4 range combat security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_Senior</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <pawnKindDef>PN_Mid_RangeUnit</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitRange</defName>
+    <label>request elite security unit (rifle)</label>
+    <description>Request 4 rifle combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PN_RequestSecurityUnitRange</prerequisite>
+    <uiPosition>(1,2)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteRangeUnit</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitHeavy</defName>
+    <label>request elite security unit (heavy)</label>
+    <description>Request 2 heavy combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,3)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteHeavyUnit</pawnKindDef>
+      <pawnCount>2</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteSecurityUnitCannon</defName>
+    <label>request elite security unit (cannon)</label>
+    <description>Request 2 cannon combat elite security unit to aid in your battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,4)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_EliteCannonUnit</pawnKindDef>
+      <pawnCount>2</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--제작니엘 지원-->
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEngineerUnit</defName>
+    <label>request engineer unit</label>
+    <description>Request a group of 4 engineer units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>PN_Title_Senior</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,5)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <pawnKindDef>PN_AssociateP_EngineerB</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteEngineerUnit</defName>
+    <label>request elite engineer unit</label>
+    <description>Request a group of 4 elite engineer units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PN_RequestEngineerUnit</prerequisite>
+    <uiPosition>(1,5)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_ManageUnit_Enginer</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--가정니엘 지원-->
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestDomesticUnit</defName>
+    <label>request domestic unit</label>
+    <description>Request a group of 4 domestic units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>PN_Title_Senior</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,6)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>2</favorCost>
+      <pawnKindDef>PN_AssociateP_DomesticB</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestEliteDomesticUnit</defName>
+    <label>request elite domestic unit</label>
+    <description>Request a group of 4 elite domestic units to assist you for 4 days. These workers can only do general labor tasks. You can control them as though they were your own colonists. You are required to keep them safe.</description>
+    <workerClass>RoyalTitlePermitWorker_CallLaborers</workerClass>
+    <minTitle>PN_Title_SeniorManager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PN_RequestDomesticUnit</prerequisite>
+    <uiPosition>(1,6)</uiPosition>
+    <faction>PN_SubsidiaryFaction</faction>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>PN_ManageUnit_Domestic</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <!--OTP 지급-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropOTPCard</defName>
+    <label>request PnL OTP card</label>
+    <description>Request for a drop of PnL OTP card.</description>
+    <minTitle>PN_Title_Manager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,7)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PN_OTPCard>1</PN_OTPCard>
+      </itemsToDrop>
+      <favorCost>2</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--전투 오토마톤 상자-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonSoldier</defName>
+    <label>request PnL automaton™ (Combat)</label>
+    <description>Request for a drop of PnL automaton™ (Combat) box.</description>
+    <minTitle>PN_Title_Manager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <uiPosition>(0,8)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_NormalAutomatonSoldier>1</Packaged_NormalAutomatonSoldier>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonSoldierPremium</defName>
+    <label>request PnL automaton™ Pro (Combat)</label>
+    <description>Request for a drop of PnL automaton™ Pro (Combat) box.</description>
+    <minTitle>PN_Title_Director</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <prerequisite>PN_DropPackagedAutomatonSoldier</prerequisite>
+    <uiPosition>(1,8)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_PremiumAutomatonSoldier>1</Packaged_PremiumAutomatonSoldier>
+      </itemsToDrop>
+      <favorCost>10</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--제작 오토마톤 상자-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonWorker</defName>
+    <label>request PnL automaton™ (Engineer)</label>
+    <description>Request for a drop of PnL automaton™ (Engineer) box.</description>
+    <minTitle>PN_Title_Manager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <uiPosition>(0,9)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_NormalAutomatonWorker>1</Packaged_NormalAutomatonWorker>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonWorkerPremium</defName>
+    <label>request PnL automaton™ Pro (Engineer)</label>
+    <description>Request for a drop of PnL automaton™ Pro (Engineer) box.</description>
+    <minTitle>PN_Title_Director</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <prerequisite>PN_DropPackagedAutomatonWorker</prerequisite>
+    <uiPosition>(1,9)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_PremiumAutomatonWorker>1</Packaged_PremiumAutomatonWorker>
+      </itemsToDrop>
+      <favorCost>10</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+
+  <!--가정 오토마톤 상자-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonMaid</defName>
+    <label>request PnL automaton™ (Domestic)</label>
+    <description>Request for a drop of PnL automaton™ (Domestic) box.</description>
+    <minTitle>PN_Title_Manager</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <uiPosition>(0,10)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_NormalAutomatonMaid>1</Packaged_NormalAutomatonMaid>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPackagedAutomatonMaidPremium</defName>
+    <label>request PnL automaton™ Pro (Domestic)</label>
+    <description>Request for a drop of PnL automaton™ Pro (Domestic) box.</description>
+    <minTitle>PN_Title_Director</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>300</cooldownDays>
+    <prerequisite>PN_DropPackagedAutomatonMaid</prerequisite>
+    <uiPosition>(1,10)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Packaged_PremiumAutomatonMaid>1</Packaged_PremiumAutomatonMaid>
+      </itemsToDrop>
+      <favorCost>10</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--셔틀-->
+  <RoyalTitlePermitDef>
+    <defName>PN_RequestTransportShuttle</defName>
+    <label>request transport shuttle</label>
+    <description>request a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
+    <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+    <minTitle>PN_Title_Manager</minTitle>
+    <faction>PN_SubsidiaryFaction</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>60</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <uiPosition>(0,11)</uiPosition>
+    <royalAid>
+      <favorCost>4</favorCost>
+      <targetingRange>44.9</targetingRange>
+      <targetingRequireLOS>false</targetingRequireLOS>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--PnL 부품 지급-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropPnLComponent</defName>
+    <label>request PnL Component</label>
+    <description>Request for a drop of 3 PnL Component.</description>
+    <minTitle>PN_Title_Director</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,11)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PN_Component>3</PN_Component>
+      </itemsToDrop>
+      <favorCost>3</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!--두뇌코어 지급-->
+  <RoyalTitlePermitDef ParentName="PN_DropResourcesBase">
+    <defName>PN_DropBrainCore</defName>
+    <label>request automaton brain core</label>
+    <description>Request for a drop of 3 automaton brain core.</description>
+    <minTitle>PN_Title_Director</minTitle>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,12)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PN_BrainCasing>3</PN_BrainCasing>
+      </itemsToDrop>
+      <favorCost>3</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+</Defs>

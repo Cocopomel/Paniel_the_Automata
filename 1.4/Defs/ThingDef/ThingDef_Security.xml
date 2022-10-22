@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--==================================== 곡사포 ====================================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>PN_Artillery_Base_Core</defName>
+    <label>PnL Howitzer</label>
+    <description>Howitzer designed by PnL Industry. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
+    <!--<designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>-->
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/PN_Artillery_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <minifiedDef />
+    <!--<altitudeLayer>MoteOverhead</altitudeLayer>-->
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-3)</interactionCellOffset>    <!--상호작용 위치-->
+    <stealable>false</stealable>
+    <size>(3,3)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories Inherit="false" />
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <designationHotKey>Misc4</designationHotKey>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <costStuffCount>150</costStuffCount>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <PN_Component>2</PN_Component>
+      <PN_BrainCasing>1</PN_BrainCasing>
+    </costList>
+    <inspectorTabs>
+      <li>ITab_Shells</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until core overload</fuelLabel>
+        <fuelGizmoLabel>Core overload</fuelGizmoLabel>
+        <outOfFuelMessage>Cannot shoot: Needs new core</outOfFuelMessage>
+        <fuelFilter>
+          <thingDefs>
+            <li>PN_BrainCasing</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelMultiplier>10</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
+        <autoRefuelPercent>0</autoRefuelPercent>
+        <fuelIconPath>Things/Building/PN_cannoncore</fuelIconPath>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>200</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <building>
+      <turretGunDef>PN_Artillery_Turret</turretGunDef>
+      <turretTopDrawSize>3.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0.35)</turretTopOffset>
+      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>7.0</turretBurstCooldownTime>
+      <buildingTags Inherit="false">
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>PNRP_AutoArtillery</li>
+    </researchPrerequisites>
+    <uiIconPath>Things/Building/PN_Artillery_Ui</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>PN_Artillery_Turret</defName>
+    <label>PnL Howitzer Turret</label>
+    <description>Howitzer designed by PnL Industries. Using an automaton brain core, it has very good accuracy. However, it is necessary to periodically change the brain core due to excessive load in calculations.</description>
+    <graphicData>
+      <texPath>Things/Building/PN_Artillery_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(6.0,6.0)</drawSize>
+    </graphicData>
+    <recoilPower>30</recoilPower>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <weaponTags Inherit="false">
+    </weaponTags>
+    <!--<statBases>
+      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.98</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+    </statBases>-->
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>2.0</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <forcedMissRadiusClassicMortars>0</forcedMissRadiusClassicMortars>
+        <!--<isMortar>true</isMortar>-->
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>29.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>PNCannonSound</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_ChangeableProjectile" />
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>PN_Shell_HE</li>
+            <li>PN_Shell_CI</li>
+            <li>PN_Shell_EMP</li>
+            <li>PN_Shell_FF</li>
+            <li>PN_Shell_Smoke</li>
+            <li>PN_Shell_AG</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>PN_Shell</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>PN_Shell_EMP</li>
+            <li>PN_Shell_FF</li>
+            <li>PN_Shell_Smoke</li>
+            <li>PN_Shell_AG</li>
+          </disallowedThingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+
+  <!--==================================== 레일건 ====================================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>PN_Railgun_Base_Core</defName>
+    <label>PnL Railgun</label>
+    <description>Railgun designed by PnL Industry. It uses an automaton brain core to control antigrain to generate huge amounts of power to charge the railgun.\nHowever, it is necessary to periodically change the brain core due to excessive load in antigrain control.\n\nUnlike PnL Howitzer, there is no aiming correction function. The component built into the shell replace the aiming correction function, but not perfect.</description>
+    <!--<designatorDropdown>PN_Artillery_Dropdown</designatorDropdown>-->
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/PN_Artillery_Base</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <minifiedDef />
+    <!--<altitudeLayer>MoteOverhead</altitudeLayer>-->
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-3)</interactionCellOffset>    <!--상호작용 위치-->
+    <stealable>false</stealable>
+    <size>(3,3)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories Inherit="false" />
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tickerType>Normal</tickerType>
+    <designationHotKey>Misc4</designationHotKey>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <costStuffCount>150</costStuffCount>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <costList>
+      <Steel>150</Steel>
+      <PN_Component>6</PN_Component>
+      <ComponentSpacer>6</ComponentSpacer>
+      <PN_BrainCasingAntigrain>1</PN_BrainCasingAntigrain>
+    </costList>
+    <inspectorTabs>
+      <li>ITab_Shells</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>14.9</explosiveRadius>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+        <chanceToStartFire>0.22</chanceToStartFire>
+        <damageFalloff>true</damageFalloff>
+        <explosionEffect>GiantExplosion</explosionEffect>
+        <explosionSound>Explosion_GiantBomb</explosionSound>
+        <wickTicks>60~120</wickTicks>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until core overload</fuelLabel>
+        <fuelGizmoLabel>Core overload</fuelGizmoLabel>
+        <outOfFuelMessage>Cannot shoot: Needs new antigrain core</outOfFuelMessage>
+        <fuelFilter>
+          <thingDefs>
+            <li>PN_BrainCasingAntigrain</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelIsMortarBarrel>true</fuelIsMortarBarrel>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelMultiplier>10</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialAllowAutoRefuel>true</initialAllowAutoRefuel>
+        <autoRefuelPercent>0</autoRefuelPercent>
+        <fuelIconPath>Things/Building/PN_cannonAGcore</fuelIconPath>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>520</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>200</Mass>
+      <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <building>
+      <turretGunDef>PN_Railgun_Turret</turretGunDef>
+      <turretTopDrawSize>3.0</turretTopDrawSize>
+      <turretTopOffset>(0, 0.35)</turretTopOffset>
+      <turretBurstWarmupTime>4.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>14.0</turretBurstCooldownTime>
+      <buildingTags Inherit="false">
+      </buildingTags>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>PNRP_Railgun</li>
+    </researchPrerequisites>
+    <uiIconPath>Things/Building/PN_Railgun_Ui</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>PN_Railgun_Turret</defName>
+    <label>PnL Railgun Turret</label>
+    <description>Railgun designed by PnL Industries.</description>
+    <graphicData>
+      <texPath>Things/Building/PN_Railgun_Turret</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(6.0,6.0)</drawSize>
+    </graphicData>
+    <recoilPower>30</recoilPower>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <weaponTags Inherit="false">
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>4.5</warmupTime>
+        <forcedMissRadius>0</forcedMissRadius>
+        <forcedMissRadiusClassicMortars>0</forcedMissRadiusClassicMortars>
+        <!--<isMortar>true</isMortar>-->
+        <requireLineOfSight>true</requireLineOfSight>
+        <minRange>4.9</minRange>
+        <range>500</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>PN_PrototypeRailGun_Warmup_Sound</soundAiming>
+        <soundCast>PN_PrototypeRailGun_Fire_Sound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_ChangeableProjectile" />
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>PN_Shell_RG</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>PN_Shell_RG</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+</Defs>

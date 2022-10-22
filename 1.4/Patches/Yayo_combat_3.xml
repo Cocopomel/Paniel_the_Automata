@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Yayo's Combat 3</li>
+      <li>Yayo's Combat 3 [Adopted]</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+        <!--체인롱소드 SYS-->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName = "PN_Chainlongsword"]/equippedAngleOffset</xpath>
+          <value>
+            <equippedAngleOffset>0</equippedAngleOffset>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName = "PN_Chainlongsword"]/comps</xpath>
+        </li>
+
+        <!--스톰랜스 SYS-->
+        <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology">
+          <xpath>Defs/ThingDef[defName = "PN_StormLance_Bladelink"]/equippedAngleOffset</xpath>
+          <value>
+            <equippedAngleOffset>0</equippedAngleOffset>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Ideology">
+          <xpath>Defs/ThingDef[defName = "PN_StormLance_Bladelink"]/comps</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

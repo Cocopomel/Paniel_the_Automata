@@ -3,7 +3,14 @@
   <v1.3>
     <li>1.3</li>
     <li>Content</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">1.3Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">1.3Ideology</li>
+  </v1.3>
+  <v1.4>
+    <li>1.4</li>
+    <li>Content</li>
     <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
     <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
-  </v1.3>
+    <li IfModActive="Ludeon.RimWorld.Biotech">Biotech</li>
+  </v1.4>
 </loadFolders>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--승진-->
+  <ThoughtDef>
+    <defName>PN_TitlePromotion</defName>
+    <durationDays>7</durationDays>
+    <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>promoted to {TITLE}</label>
+        <description>I was promoted to {TITLE}. I love the recognition!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--해고-->
+  <ThoughtDef>
+    <defName>PN_TitleDemotion</defName>
+    <durationDays>7</durationDays>
+    <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>demoted to {TITLE}</label>
+        <description>I demoted to {TITLE}.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

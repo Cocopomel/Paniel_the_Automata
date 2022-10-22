@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================================== 시체 설정 ====================================-->
+  <AutomataRace.ThingDefInjectDef>
+    <defName>Comp_CorpseSelfDestruct_Inject</defName>
+    <conditions>
+      <li Class="AutomataRace.ThingDefInject.IsDefNameEqual">
+        <defName>Corpse_Paniel_Race</defName>
+      </li>
+    </conditions>
+    <comps>
+      <li Class="AutomataRace.CompProperties_SelfResurrect">
+        <resurrectDelayTick>200</resurrectDelayTick>
+        <hediffCondition>PN_ResurrectModule</hediffCondition>
+        <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+      </li>
+
+      <li Class="AutomataRace.CompProperties_ExplosiveInstant">
+        <explosiveRadius>1.9</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>0.5</preExplosionSpawnChance>
+        <wickTicks>200~750</wickTicks>
+        <awfulExplosiveMultiplier>5.0</awfulExplosiveMultiplier>
+        <poorExplosiveMultiplier>2.0</poorExplosiveMultiplier>
+      </li>
+    </comps>
+  </AutomataRace.ThingDefInjectDef>
+
+  <!--==================================== 고어 설정 ====================================-->
+  <ThingDef ParentName="BaseFilth">
+    <defName>Paniel_Oil</defName>
+    <label>Oil</label>
+    <thingClass>LiquidFuel</thingClass>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <Beauty>-30</Beauty>
+      <Cleanliness>-15</Cleanliness>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>2.0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(51, 51, 51, 180)</color>
+    </graphicData>
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>35~40</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <maxThickness>1</maxThickness>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+
+  <ThingCategoryDef>
+    <defName>PN_CorpseCategory</defName>
+    <label>Automaton corpses</label>
+    <parent>Corpses</parent>
+  </ThingCategoryDef>
+
+  <FleshTypeDef>
+    <defName>PN_Flesh</defName>
+    <corpseCategory>PN_CorpseCategory</corpseCategory>
+    <damageEffecter>Damage_HitMechanoid</damageEffecter>
+    <!--<genericWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechC</texture>
+      </li>
+    </genericWounds>
+    <bandagedWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedC</texture>
+      </li>
+    </bandagedWounds>
+    <hediffWounds>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <hediff>Scarification</hediff>
+        <wounds>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationA</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationB</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+          <li>
+            <texture>Things/Pawn/Wounds/ScarificationC</texture>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <displayOverApparel>false</displayOverApparel>
+            <displayPermanent>false</displayPermanent>
+          </li>
+        </wounds>
+      </li>
+      <li>
+        <hediff>MissingBodyPart</hediff>
+        <wounds>
+          <li>
+            <textureSouth>Things/Pawn/Wounds/MissingEye_Scar_south</textureSouth>
+            <textureNorth>Things/Pawn/Wounds/MissingEye_Scar_south</textureNorth>
+            <textureEast>Things/Pawn/Wounds/MissingEye_Scar_east</textureEast>
+            <textureWest>Things/Pawn/Wounds/MissingEye_Scar_east</textureWest>
+            <flipWest>true</flipWest>
+            <onlyOnPart>Eye</onlyOnPart>
+            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+            <flipOnRotation>South</flipOnRotation>
+            <tintWithSkinColor>true</tintWithSkinColor>
+            <missingBodyPartFresh>false</missingBodyPartFresh>
+            <scale>0.7</scale>
+          </li>
+          <li>
+            <textureSouth>Things/Pawn/Wounds/MissingEye_Fresh</textureSouth>
+            <textureNorth>Things/Pawn/Wounds/MissingEye_Fresh</textureNorth>
+            <textureEast>Things/Pawn/Wounds/MissingEye_Fresh</textureEast>
+            <textureWest>Things/Pawn/Wounds/MissingEye_Fresh</textureWest>
+            <flipWest>true</flipWest>
+            <onlyOnPart>Eye</onlyOnPart>
+            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+            <flipOnRotation>South</flipOnRotation>
+            <missingBodyPartFresh>true</missingBodyPartFresh>
+            <scale>0.7</scale>
+          </li>
+        </wounds>
+      </li>
+      <li>
+        <hediff>BionicEye</hediff>
+        <wounds>
+          <li>
+            <textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
+            <textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
+            <textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
+            <textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
+            <flipWest>true</flipWest>
+            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+            <flipOnRotation>South</flipOnRotation>
+            <scale>0.85</scale>
+          </li>
+        </wounds>
+      </li>
+      <li>
+        <hediff>ArchotechEye</hediff>
+        <wounds>
+          <li>
+            <textureSouth>Things/Pawn/Wounds/ArchotechEye_south</textureSouth>
+            <textureNorth>Things/Pawn/Wounds/ArchotechEye_south</textureNorth>
+            <textureEast>Things/Pawn/Wounds/ArchotechEye_east</textureEast>
+            <textureWest>Things/Pawn/Wounds/ArchotechEye_east</textureWest>
+            <flipWest>true</flipWest>
+            <flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+            <flipOnRotation>South</flipOnRotation>
+            <scale>0.85</scale>
+          </li>
+        </wounds>
+      </li>
+    </hediffWounds>-->
+  </FleshTypeDef>
+</Defs>
