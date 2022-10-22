@@ -9,8 +9,6 @@
 
 AdditionalVerb.dll
 SYS.dll
-TorgueAnty.dll
-
 
 [SutSutMan] (Mincho Slime Race modder : https://steamcommunity.com/sharedfiles/filedetails/?id=2477501851)
 
@@ -19,5 +17,4 @@ AutomataWearSetting.dll
 
 [Roo] (Anty Race modder : https://steamcommunity.com/sharedfiles/filedetails/?id=2297729625)
 
-TorgueAnty.dll
-ContDamPN.dll
+RooAssemblies.dll

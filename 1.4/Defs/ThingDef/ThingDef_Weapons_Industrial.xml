@@ -349,8 +349,8 @@
     <comps>
     </comps>
     <verbs>
-      <li Class="TorgueAnty.Verb_Properties_ShotGun">
-        <verbClass>TorgueAnty.Verb_Shoot_ShotGun</verbClass>
+      <li Class="PNTorgue.Verb_Properties_ShotGun">
+        <verbClass>PNTorgue.Verb_Shoot_ShotGun</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Revolver_Volley</defaultProjectile>
         <warmupTime>0.5</warmupTime>

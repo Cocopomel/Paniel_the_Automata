@@ -49,8 +49,8 @@
   </ThingDef>
 
   <ThingDef ParentName="PN_BaseBullet_Shell" Name="PN_Cl_Shell" Abstract="True">
-    <thingClass>TorgueAnty.Projectile_Torgue_Rocket</thingClass>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <thingClass>PNTorgue.Projectile_Torgue_Rocket</thingClass>
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <damageDef>PN_CLbomb</damageDef>
       <speed>205</speed>
       <explosionRadius>0.9</explosionRadius>
@@ -117,7 +117,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <subProjectile>PN_Bullet_Shell_HE_Sub</subProjectile>
       <clusterCount>16</clusterCount>
       <clusterRadius>6.9</clusterRadius>
@@ -151,7 +151,7 @@
 
   <DamageDef ParentName="Bomb">
     <defName>PN_CL_Bomb</defName>
-    <!---<workerClass>TorgueAnty.TorgueAnty_DamageWorker_AddInjury</workerClass>-->
+    <!---<workerClass>PNTorgue.PNTorgue_DamageWorker_AddInjury</workerClass>-->
   </DamageDef>
 
   <!--확산 소이탄-->
@@ -197,7 +197,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <subProjectile>PN_Bullet_Shell_CI_Sub</subProjectile>
       <clusterCount>16</clusterCount>
       <clusterRadius>8.1</clusterRadius>
@@ -274,7 +274,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <damageDef>EMP</damageDef>
       <subProjectile>PN_Bullet_Shell_EMP_Sub</subProjectile>
       <clusterCount>10</clusterCount>
@@ -358,7 +358,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <damageDef>Extinguish</damageDef>
       <subProjectile>PN_Bullet_Shell_FF_Sub</subProjectile>
       <clusterCount>10</clusterCount>
@@ -442,7 +442,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
-    <projectile Class="TorgueAnty.TorgueProjectileProps">
+    <projectile Class="PNTorgue.TorgueProjectileProps">
       <damageDef>Smoke</damageDef>
       <subProjectile>PN_Bullet_Shell_Smoke_Sub</subProjectile>
       <clusterCount>10</clusterCount>
