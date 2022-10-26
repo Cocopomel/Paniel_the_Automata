@@ -26,6 +26,13 @@
     </rulePack>
   </RulePackDef>
 
+  <ThingCategoryDef>
+    <defName>PN_WeaponsMeleeBladelink</defName>
+    <label>PnL Persona Weapons</label>
+    <parent>PN_WeaponsMelee</parent>
+    <iconPath>Icon/Paniel_HQ</iconPath>
+  </ThingCategoryDef>
+
   <ThingDef Abstract="True" Name="PN_MeleeWeaponUltratech" ParentName="PN_BaseWeapon">
     <techLevel>Ultra</techLevel>
     <statBases>
@@ -46,7 +53,7 @@
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
-      <li>WeaponsMelee</li>
+      <li>PN_WeaponsMelee</li>
     </thingCategories>
     <weaponTags>
       <li>PN_UltratechMelee</li>
@@ -82,7 +89,7 @@
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
-      <li>WeaponsMeleeBladelink</li>
+      <li>PN_WeaponsMeleeBladelink</li>
     </thingCategories>
     <thingSetMakerTags>
 

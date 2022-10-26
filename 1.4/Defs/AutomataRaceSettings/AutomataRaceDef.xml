@@ -217,7 +217,7 @@
               </hiddenUnderApparelTag>
             </li>
 
-            <li Class="MoharCustomHAR.MoharBodyAddon">
+            <!--<li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
               <path>Paniel/Heads/Face/Face</path>
               <bodyPart>PNHead</bodyPart>
@@ -323,7 +323,7 @@
               <hediffGraphics>
                 <PN_SyncAwful_Failure>Paniel/Heads/Face/RareFace/AwflSleep</PN_SyncAwful_Failure>
               </hediffGraphics>
-            </li>
+            </li>-->
 
             <li>
               <drawSize>1</drawSize>
@@ -701,7 +701,7 @@
           <li>PN_EliteSecurityHat</li>
 
           <!--모듈-->
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
+          <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
@@ -713,7 +713,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CraftingModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_PlantsModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CookingModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NursingModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NursingModule</li>-->
 
         </apparelList>
         <whiteApparelList>

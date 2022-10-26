@@ -31,13 +31,27 @@
     <relicChance>0</relicChance>
   </ThingDef>
 
+  <ThingCategoryDef>
+    <defName>PN_WeaponsRanged</defName>
+    <label>PnL Weapons</label>
+    <parent>WeaponsRanged</parent>
+    <iconPath>Icon/Paniel_HQ</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_WeaponsMelee</defName>
+    <label>PnL Weapons</label>
+    <parent>WeaponsMelee</parent>
+    <iconPath>Icon/Paniel_HQ</iconPath>
+  </ThingCategoryDef>
+
   <!--==================================== 근접 베이스 ====================================-->
   <ThingDef Name="PN_BaseMeleeWeapon" Abstract="True" ParentName="PN_BaseWeapon">
     <techLevel>Industrial</techLevel>
     <smeltable>true</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
-      <li>WeaponsMelee</li>
+      <li>PN_WeaponsMelee</li>
     </thingCategories>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -120,7 +134,7 @@
     <techLevel>Industrial</techLevel>
     <smeltable>true</smeltable>
     <thingCategories>
-      <li>WeaponsRanged</li>
+      <li>PN_WeaponsRanged</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>

@@ -138,9 +138,10 @@
         <thingDef>PN_PrototypeRailGun</thingDef>
         <countRange>1</countRange>
       </li>
-      <li Class="StockGenerator_WeaponsMelee">
-        <weaponTag>PN_Bladelink</weaponTag>
-        <countRange>1~2</countRange>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PN_WeaponsMeleeBladelink</categoryDef>
+        <thingDefCountRange>1</thingDefCountRange>
+        <countRange>1</countRange>
       </li>
 
       <!-- Apparel -->
