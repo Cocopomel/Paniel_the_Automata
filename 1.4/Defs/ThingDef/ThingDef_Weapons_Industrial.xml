@@ -846,6 +846,7 @@
     <description>An experimental railgun that fires powerful explosions in a narrow area.\nOnce fired, it will break down and cannot be used.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
+    <smeltable>false</smeltable>
     <graphicData>
       <texPath>Things/Weapons/PNPrototypeRailGun</texPath>
       <graphicClass>Graphic_Single</graphicClass>

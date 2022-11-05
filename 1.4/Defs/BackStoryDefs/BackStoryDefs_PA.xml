@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!--==================================== 전투형 ====================================-->
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory" Name="PanielSoldierBackStory_PA" Abstract="True">
-    <disallowedTraits>
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory" Name="PanielSoldierBackStory_PA" Abstract="True">
+    <disallowedTraitsChance>
       <li>
         <defName>Pyromaniac</defName>
         <chance>100</chance>
@@ -19,10 +19,10 @@
         <defName>SlowLearner</defName>
         <chance>100</chance>
       </li>
-    </disallowedTraits>
-  </AlienRace.BackstoryDef>
+    </disallowedTraitsChance>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory_PA">
     <defName>Paniel_MilitiaA_Backstory_PA</defName>
     <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
@@ -48,9 +48,9 @@
     <forcedHediffs>
       <li>PN_Give_Normal_Combat_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory_PA">
     <defName>Paniel_MilitiaB_Backstory_PA</defName>
     <title>Automaton Militia (PA)</title>
     <titleShort>Militia</titleShort>
@@ -80,9 +80,9 @@
     <forcedHediffs>
       <li>PN_Give_Good_Combat_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory_PA">
     <defName>Paniel_SoldierA_Backstory_PA</defName>
     <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
@@ -112,9 +112,9 @@
     <forcedHediffs>
       <li>PN_Give_Excellent_Combat_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory_PA">
     <defName>Paniel_SoldierB_Backstory_PA</defName>
     <title>Automaton Soldier (PA)</title>
     <titleShort>Soldier</titleShort>
@@ -144,9 +144,9 @@
     <forcedHediffs>
       <li>PN_Give_Masterwork_Combat_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielSoldierBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielSoldierBackStory_PA">
     <defName>Paniel_Royalguard_Backstory_PA</defName>
     <title>Automaton Royal guard (PA)</title>
     <titleShort>Royal guard</titleShort>
@@ -176,11 +176,11 @@
     <forcedHediffs>
       <li>PN_Give_Legendary_Combat_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
   <!--==================================== 제작형 ====================================-->
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory" Name="PanielWorkerBackStory_PA" Abstract="True">
-    <disallowedTraits>
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory" Name="PanielWorkerBackStory_PA" Abstract="True">
+    <disallowedTraitsChance>
       <li>
         <defName>Pyromaniac</defName>
         <chance>100</chance>
@@ -197,10 +197,10 @@
         <defName>SlowLearner</defName>
         <chance>100</chance>
       </li>
-    </disallowedTraits>
-  </AlienRace.BackstoryDef>
+    </disallowedTraitsChance>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory_PA">
     <defName>Paniel_ApprenticeA_Backstory_PA</defName>
     <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
@@ -226,9 +226,9 @@
     <forcedHediffs>
       <li>PN_Give_Normal_Engineer_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory_PA">
     <defName>Paniel_ApprenticeB_Backstory_PA</defName>
     <title>Automaton Apprentice (PA)</title>
     <titleShort>Apprentice</titleShort>
@@ -258,9 +258,9 @@
     <forcedHediffs>
       <li>PN_Give_Good_Engineer_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory_PA">
     <defName>Paniel_JourneymanA_Backstory_PA</defName>
     <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
@@ -290,9 +290,9 @@
     <forcedHediffs>
       <li>PN_Give_Excellent_Engineer_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory_PA">
     <defName>Paniel_JourneymanB_Backstory_PA</defName>
     <title>Automaton journeyman (PA)</title>
     <titleShort>Journeyman</titleShort>
@@ -322,9 +322,9 @@
     <forcedHediffs>
       <li>PN_Give_Masterwork_Engineer_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielWorkerBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielWorkerBackStory_PA">
     <defName>Paniel_Meister_Backstory_PA</defName>
     <title>Automaton Meister (PA)</title>
     <titleShort>Meister</titleShort>
@@ -354,11 +354,11 @@
     <forcedHediffs>
       <li>PN_Give_Legendary_Engineer_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
   <!--==================================== 가정형 ====================================-->
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory" Name="PanielMaidBackStory_PA" Abstract="True">
-    <disallowedTraits>
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory" Name="PanielMaidBackStory_PA" Abstract="True">
+    <disallowedTraitsChance>
       <li>
         <defName>Pyromaniac</defName>
         <chance>100</chance>
@@ -375,10 +375,10 @@
         <defName>SlowLearner</defName>
         <chance>100</chance>
       </li>
-    </disallowedTraits>
-  </AlienRace.BackstoryDef>
+    </disallowedTraitsChance>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory_PA">
     <defName>Paniel_MaidA_Backstory_PA</defName>
     <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
@@ -404,9 +404,9 @@
     <forcedHediffs>
       <li>PN_Give_Normal_Domestic_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory_PA">
     <defName>Paniel_MaidB_Backstory_PA</defName>
     <title>Automaton Maid (PA)</title>
     <titleShort>Maid</titleShort>
@@ -436,9 +436,9 @@
     <forcedHediffs>
       <li>PN_Give_Good_Domestic_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory_PA">
     <defName>Paniel_HousemaidA_Backstory_PA</defName>
     <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper Maid</titleShort>
@@ -468,9 +468,9 @@
     <forcedHediffs>
       <li>PN_Give_Excellent_Domestic_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory_PA">
     <defName>Paniel_HousemaidB_Backstory_PA</defName>
     <title>Automaton Housekeeper maid (PA)</title>
     <titleShort>Housekeeper</titleShort>
@@ -500,9 +500,9 @@
     <forcedHediffs>
       <li>PN_Give_Masterwork_Domestic_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
-  <AlienRace.BackstoryDef ParentName="PanielMaidBackStory_PA">
+  <AlienRace.AlienBackstoryDef ParentName="PanielMaidBackStory_PA">
     <defName>Paniel_Ladysmaid_Backstory_PA</defName>
     <title>Automaton Lady's maid (PA)</title>
     <titleShort>Lady's maid</titleShort>
@@ -532,11 +532,11 @@
     <forcedHediffs>
       <li>PN_Give_Legendary_Domestic_PA</li>
     </forcedHediffs>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 
   <!--==================================== 실험체 ====================================-->
 
-  <AlienRace.BackstoryDef ParentName="BasePanielBackStory">
+  <AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
     <defName>Paniel_Testsubject_Backstory</defName>
     <title>Automaton Test subject (PA)</title>
     <titleShort>Test subject</titleShort>
@@ -586,7 +586,7 @@
             <defName></defName>
         </li>-->
     </forcedTraits>
-    <disallowedTraits>
+    <disallowedTraitsChance>
       <li>
         <defName>NaturalMood</defName>
         <degree>2</degree>
@@ -617,6 +617,6 @@
         <degree>-2</degree>
         <chance>100</chance>
       </li>
-    </disallowedTraits>
-  </AlienRace.BackstoryDef>
+    </disallowedTraitsChance>
+  </AlienRace.AlienBackstoryDef>
 </Defs>

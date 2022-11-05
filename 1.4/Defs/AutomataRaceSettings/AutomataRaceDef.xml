@@ -145,7 +145,7 @@
             <li>PNHead6</li>
             <li>PNHead7</li>
             <li>PNHead8</li>-->
-            <li>HeadsAverageNormal</li>
+            <li>PN_HeadsAverageNormal</li>
           </headTypes>
           <bodyTypes>
             <li>Female</li>
@@ -328,7 +328,7 @@
             <li>
               <drawSize>1</drawSize>
               <path>Paniel/Ear/PanielLeftEar</path>
-              <bodyPart>left hearing sensor</bodyPart>
+              <bodyPartLabel>left hearing sensor</bodyPartLabel>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
@@ -364,7 +364,7 @@
             <li>
               <drawSize>1</drawSize>
               <path>Paniel/Ear/PanielRightEar</path>
-              <bodyPart>right hearing sensor</bodyPart>
+              <bodyPartLabel>right hearing sensor</bodyPartLabel>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
@@ -400,7 +400,7 @@
             <li>
               <drawSize>1</drawSize>
               <path>Paniel/Tail/PanielTail</path>
-              <bodyPart>tail</bodyPart>
+              <bodyPartLabel>tail</bodyPartLabel>
               <shaderType>CutoutComplex</shaderType>
               <inFrontOfBody>false</inFrontOfBody>
               <colorChannel>skin</colorChannel>
@@ -438,13 +438,6 @@
       <graphicPaths>
         <body>Paniel/Body/</body>
         <head>Paniel/Heads/</head>
-        <!--<head>
-          <path>Paniel/Heads/</path>
-          <headtypeGraphics>
-            <Male_AverageNormal>Path/To/Custom/Textures/Male_Custom</Male_AverageNormal>
-            <Female_AverageNormal>Path/To/Custom/Textures/Female_Custom</Female_AverageNormal>
-          </headtypeGraphics>
-        </head>-->
         <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
       </graphicPaths>
       <styleSettings>
@@ -533,9 +526,9 @@
           </li>
 
           <!--이데올로기-->
-          <li MayRequire="Ludeon.RimWorld.Ideology">
+          <!--<li MayRequire="Ludeon.RimWorld.Ideology">
             <original>PN_OfficerCommandThought</original>
-          </li>
+          </li>-->
         </replacerList>
         <cannotReceiveThoughts>
           <!--<li></li>-->
@@ -651,8 +644,8 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
 
           <!--Misc-->
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>
+          <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>-->
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
@@ -781,12 +774,11 @@
       <ComfyTemperatureMax>38</ComfyTemperatureMax>
       <ComfyTemperatureMin>4</ComfyTemperatureMin>
       <RestRateMultiplier>1.00</RestRateMultiplier> <!--수면효율-->
-      <HungerRateMultiplier>0.25</HungerRateMultiplier>
       <EatingSpeed>1</EatingSpeed>
       <ImmunityGainSpeed>1.20</ImmunityGainSpeed>
       <CarryingCapacity>100</CarryingCapacity>
       <PainShockThreshold>0.99</PainShockThreshold>
-      <ToxicSensitivity>0.2</ToxicSensitivity>
+      <ToxicResistance>0.8</ToxicResistance>
       <PsychicSensitivity>0.6</PsychicSensitivity>
       <GlobalLearningFactor>0.00</GlobalLearningFactor>
       <FoodPoisonChance>0.0</FoodPoisonChance>
@@ -949,4 +941,10 @@
     </comps>
     <modExtensions></modExtensions>
   </AlienRace.ThingDef_AlienRace>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>PN_HeadsAverageNormal</defName>
+    <graphicPath>Paniel/Heads/HeadsAverage_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
 </Defs>

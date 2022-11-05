@@ -50,8 +50,9 @@
       </li>
       <li Class="CompProperties_Biocodable"/>
     </comps>
-    <smeltable>true</smeltable>
+    <smeltable>false</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
+    <notifyMapRemoved>true</notifyMapRemoved>
     <thingCategories>
       <li>PN_WeaponsMelee</li>
     </thingCategories>
@@ -86,7 +87,7 @@
       </li>
       <li Class="CompProperties_Styleable"></li>
     </comps>
-    <smeltable>true</smeltable>
+    <smeltable>false</smeltable>
     <burnableByRecipe>true</burnableByRecipe>
     <thingCategories>
       <li>PN_WeaponsMeleeBladelink</li>

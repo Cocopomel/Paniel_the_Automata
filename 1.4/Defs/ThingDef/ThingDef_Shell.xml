@@ -418,9 +418,7 @@
       <li Class="CompProperties_Explosive">
         <explosiveDamageType>Smoke</explosiveDamageType>
         <explosiveRadius>11</explosiveRadius>
-        <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
-        <postExplosionSpawnChance>1</postExplosionSpawnChance>
-        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+        <postExplosionGasType>BlindSmoke</postExplosionGasType>
         <wickTicks>30~60</wickTicks>
       </li>
     </comps>
@@ -474,8 +472,7 @@
       <soundExplode>Explosion_Smoke</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
-      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
-      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionGasType>BlindSmoke</postExplosionGasType>
     </projectile>
   </ThingDef>
 

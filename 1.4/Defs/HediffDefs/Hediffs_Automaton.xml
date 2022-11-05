@@ -81,6 +81,7 @@
         <painFactor>0</painFactor>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
         <naturalHealingFactor>0</naturalHealingFactor>
+        <hungerRateFactorOffset>-0.75</hungerRateFactorOffset>
         <statFactors>
           <InjuryHealingFactor>0</InjuryHealingFactor>
         </statFactors>

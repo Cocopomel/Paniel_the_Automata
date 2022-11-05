@@ -902,14 +902,15 @@
     <label>PnL LSW bullet</label>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <explosionRadius>2.4</explosionRadius>
-      <damageDef>Smoke</damageDef>
       <speed>40</speed>
-      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
-      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <damageDef>Smoke</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>2.4</explosionRadius>
+      <postExplosionGasType>BlindSmoke</postExplosionGasType>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
       <arcHeightFactor>0.2</arcHeightFactor>
       <shadowSize>0.6</shadowSize>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <screenShakeFactor>0.5</screenShakeFactor>
     </projectile>
     <graphicData>
       <texPath>Things/Projectile/LauncherShot</texPath>
