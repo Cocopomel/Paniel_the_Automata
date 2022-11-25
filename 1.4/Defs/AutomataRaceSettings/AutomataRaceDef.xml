@@ -654,7 +654,7 @@
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
         <onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
-        <!--<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>-->
+        <onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
         <apparelList>
 
           <!--[Royalty]-->
@@ -752,6 +752,10 @@
           <li>PN_AutomatonFuel</li>
           <li>PN_antibiotics</li>
         </foodList>
+        <whiteGeneTags>
+          <li>HairColor</li>
+          <li>SkinColor</li>
+        </whiteGeneTags>
       </raceRestriction>
       <!--관계설정-->
       <relationSettings>
