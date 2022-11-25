@@ -448,9 +448,9 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <comps>
-      <li>
+      <!--<li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
+      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRifle_Sheath</texPath>
@@ -481,7 +481,7 @@
       </li>
     </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
@@ -514,6 +514,16 @@
         <accuracyShort>0.25</accuracyShort>
         <accuracyMedium>0.25</accuracyMedium>
         <accuracyLong>0.25</accuracyLong>
+      </li>-->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>30.9</range>
+        <soundCast>PNRifleSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
     <weaponTags>
@@ -705,9 +715,9 @@
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <comps>
-      <li>
+      <!--<li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
+      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNCannon_Sheath</texPath>
@@ -737,7 +747,7 @@
       </li>
     </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
@@ -776,6 +786,17 @@
         <accuracyShort>0</accuracyShort>
         <accuracyMedium>0</accuracyMedium>
         <accuracyLong>0</accuracyLong>
+      </li>-->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_AP</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <minRange>4.9</minRange>
+        <range>44.9</range>
+        <soundCast>PNCannonSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
     <weaponTags>

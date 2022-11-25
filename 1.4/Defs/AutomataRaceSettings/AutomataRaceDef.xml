@@ -654,6 +654,7 @@
         <onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
         <onlyBuildRaceRestrictedBuildings>false</onlyBuildRaceRestrictedBuildings>
         <onlyEatRaceRestrictedFood>false</onlyEatRaceRestrictedFood>
+        <!--<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>-->
         <apparelList>
 
           <!--[Royalty]-->
@@ -898,6 +899,14 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
+					<def>HumanlikeChild</def>
+					<minAge>0</minAge>
+				</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+					<def>HumanlikePreTeenager</def>
+					<minAge>0</minAge>
+				</li>
+        <li>
           <def>HumanlikeAdult</def>
           <minAge>0</minAge>
           <soundWounded>Pawn_DogSmall_Injured</soundWounded>
@@ -906,6 +915,29 @@
           <soundAngry>Pawn_DogSmall_Angry</soundAngry>
         </li>
       </lifeStageAges>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>0</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>0</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>0</BasicWorker>
+				<Warden>0</Warden>
+				<Handling>0</Handling>
+				<Cooking>0</Cooking>
+				<Hunting>0</Hunting>
+				<Construction>0</Construction>
+				<Growing>0</Growing>
+				<Mining>0</Mining>
+				<PlantCutting>0</PlantCutting>
+				<Smithing>0</Smithing>
+				<Tailoring>0</Tailoring>
+				<Art>0</Art>
+				<Crafting>0</Crafting>
+				<Hauling>0</Hauling>
+				<Cleaning>0</Cleaning>
+				<Research>0</Research>
+			</lifeStageWorkSettings>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -915,10 +947,10 @@
       </specialShadowData>
       <ageGenerationCurve>
         <points>
-          <li>(0,0)</li>
-          <li>(1,100)</li>
-          <li>(2,40)</li>
-          <li>(3,0)</li>
+          <li>(20,0)</li>
+          <li>(21,100)</li>
+          <li>(22,40)</li>
+          <li>(23,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>

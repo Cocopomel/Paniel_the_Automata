@@ -288,9 +288,9 @@
       <PN_Component>1</PN_Component>
     </costList>
     <comps>
-      <li>
+      <!--<li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
+      </li>-->
       <li Class="CompProperties_Styleable"></li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
@@ -321,7 +321,7 @@
       </li>
     </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
@@ -354,6 +354,16 @@
         <accuracyShort>0.25</accuracyShort>
         <accuracyMedium>0.25</accuracyMedium>
         <accuracyLong>0.25</accuracyLong>
+      </li>-->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
+        <warmupTime>0.7</warmupTime>
+        <range>30.9</range>
+        <soundCast>PNRoyalRifleSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
     <weaponTags>
@@ -677,9 +687,9 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <li>
+      <!--<li>
         <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>
+      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
@@ -709,7 +719,7 @@
       </li>
     </comps>
     <verbs>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_LSW_bomb</defaultProjectile>
@@ -810,6 +820,21 @@
         <accuracyShort>0</accuracyShort>
         <accuracyMedium>0</accuracyMedium>
         <accuracyLong>0</accuracyLong>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>-->
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_LSW_bomb</defaultProjectile>
+        <warmupTime>3.0</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>

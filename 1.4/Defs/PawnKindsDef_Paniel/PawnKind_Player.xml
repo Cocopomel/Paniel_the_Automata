@@ -18,8 +18,8 @@
 		</apparelTags>
 		<defaultFactionType>Paniel_PlayerFaction</defaultFactionType>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-		<minGenerationAge>1</minGenerationAge>
-		<maxGenerationAge>1</maxGenerationAge>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>23</maxGenerationAge>
 		<initialWillRange>10~13</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
@@ -53,8 +53,6 @@
 		<techHediffsMoney>0</techHediffsMoney>
 		<techHediffsTags>
 		</techHediffsTags>
-		<minGenerationAge>1</minGenerationAge>
-		<maxGenerationAge>2</maxGenerationAge>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PanielPlayerBasePawnKind">
@@ -85,7 +83,5 @@
 		<techHediffsMoney>0</techHediffsMoney>
 		<techHediffsTags>
 		</techHediffsTags>
-		<minGenerationAge>1</minGenerationAge>
-		<maxGenerationAge>2</maxGenerationAge>
 	</PawnKindDef>
 </Defs>
