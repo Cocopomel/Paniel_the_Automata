@@ -903,16 +903,24 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
 					<def>HumanlikeChild</def>
-					<minAge>0</minAge>
+					<minAge>0.0001</minAge>
 				</li>
         <li MayRequire="Ludeon.RimWorld.Biotech">
 					<def>HumanlikePreTeenager</def>
-					<minAge>0</minAge>
+					<minAge>0.0002</minAge>
 				</li>
         <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>0.0003</minAge>
+        </li>
+        <li>
           <def>HumanlikeAdult</def>
-          <minAge>0</minAge>
+          <minAge>0.0004</minAge>
           <soundWounded>Pawn_DogSmall_Injured</soundWounded>
           <soundDeath>Pawn_DogSmall_Dead</soundDeath>
           <soundCall>Pawn_DogSmall_Call</soundCall>
