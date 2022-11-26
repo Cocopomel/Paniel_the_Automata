@@ -357,7 +357,7 @@
         </thingDefs>
         <blockUnnecessaryUse>false</blockUnnecessaryUse>
       </li>
-      <li Class="CompProperties_UseEffectDestroySelf">
+      <li Class="CompProperties_UseEffect">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
