@@ -49,7 +49,7 @@
       <li Class="CompProperties_UseEffectPlaySound">
         <soundOnUsed>PsyAmpInstalled</soundOnUsed>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
       <li Class="CompProperties_Forbiddable"/>

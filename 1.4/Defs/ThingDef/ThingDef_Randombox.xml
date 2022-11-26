@@ -77,7 +77,7 @@
         <letterLabel>Paniel in black</letterLabel>
         <letterText>Sensing trouble, a mysterious [PAWN_kind] has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts?</letterText>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -126,7 +126,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -171,7 +171,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -216,7 +216,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -270,7 +270,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -311,7 +311,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
@@ -352,7 +352,7 @@
           </li>
         </samples>
       </li>
-      <li Class="CompProperties_UseEffect">
+      <li Class="CompProperties_UseEffectDestroySelf">
         <compClass>CompUseEffect_DestroySelf</compClass>
       </li>
     </comps>
