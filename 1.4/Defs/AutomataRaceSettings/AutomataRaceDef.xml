@@ -817,6 +817,8 @@
       <!-- 테크 -->
       <ConstructionSpeed>1.0</ConstructionSpeed>
       <ResearchSpeed>0.1</ResearchSpeed>
+      <!--임신-->
+      <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
     </statBases>
     <!--맨손 전투-->
     <tools>
@@ -909,53 +911,57 @@
       </litterSizeCurve>
       <lifeStageAges>
         <li>
-          <def>HumanlikeBaby</def>
+          <def>PNAdult</def>
           <minAge>0</minAge>
-        </li>
-        <li>
-					<def>HumanlikeChild</def>
-					<minAge>0.0001</minAge>
-				</li>
-        <li MayRequire="Ludeon.RimWorld.Biotech">
-					<def>HumanlikePreTeenager</def>
-					<minAge>0.0002</minAge>
-				</li>
-        <li>
-          <def>HumanlikeTeenager</def>
-          <minAge>0.0003</minAge>
-        </li>
-        <li>
-          <def>HumanlikeAdult</def>
-          <minAge>0.0004</minAge>
           <soundWounded>Pawn_DogSmall_Injured</soundWounded>
           <soundDeath>Pawn_DogSmall_Dead</soundDeath>
           <soundCall>Pawn_DogSmall_Call</soundCall>
           <soundAngry>Pawn_DogSmall_Angry</soundAngry>
         </li>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>999995</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>999996</minAge>
+        </li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">
+          <def>HumanlikePreTeenager</def>
+          <minAge>999997</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>999998</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>999999</minAge>
+        </li>
       </lifeStageAges>
       <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
-				<Firefighter>0</Firefighter>
-				<Patient>0</Patient>
-				<Doctor>0</Doctor>
-				<PatientBedRest>0</PatientBedRest>
-				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
-				<BasicWorker>0</BasicWorker>
-				<Warden>0</Warden>
-				<Handling>0</Handling>
-				<Cooking>0</Cooking>
-				<Hunting>0</Hunting>
-				<Construction>0</Construction>
-				<Growing>0</Growing>
-				<Mining>0</Mining>
-				<PlantCutting>0</PlantCutting>
-				<Smithing>0</Smithing>
-				<Tailoring>0</Tailoring>
-				<Art>0</Art>
-				<Crafting>0</Crafting>
-				<Hauling>0</Hauling>
-				<Cleaning>0</Cleaning>
-				<Research>0</Research>
-			</lifeStageWorkSettings>
+        <Firefighter>0</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>0</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>0</BasicWorker>
+        <Warden>0</Warden>
+        <Handling>0</Handling>
+        <Cooking>0</Cooking>
+        <Hunting>0</Hunting>
+        <Construction>0</Construction>
+        <Growing>0</Growing>
+        <Mining>0</Mining>
+        <PlantCutting>0</PlantCutting>
+        <Smithing>0</Smithing>
+        <Tailoring>0</Tailoring>
+        <Art>0</Art>
+        <Crafting>0</Crafting>
+        <Hauling>0</Hauling>
+        <Cleaning>0</Cleaning>
+        <Research>0</Research>
+      </lifeStageWorkSettings>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -997,4 +1003,10 @@
     <graphicPath>Paniel/Heads/HeadsAverage_Normal</graphicPath>
     <gender>None</gender>
   </HeadTypeDef>
+
+  <LifeStageDef>
+    <defName>PNAdult</defName>
+    <label>fully-manufactured</label>
+    <visible>false</visible>
+  </LifeStageDef>
 </Defs>
