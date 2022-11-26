@@ -67,8 +67,8 @@
   <Packaged_NormalAutomaton.label>포장된 오토마톤</Packaged_NormalAutomaton.label>
   <Packaged_NormalAutomaton.description>오토마톤이 포장되어 있는 상자입니다.</Packaged_NormalAutomaton.description>
   <Packaged_NormalAutomaton.comps.CompUsable.useLabel>포장 해체</Packaged_NormalAutomaton.comps.CompUsable.useLabel>
-  <Packaged_NormalAutomaton.comps.2.letterLabel>파니엘 기동</Packaged_NormalAutomaton.comps.2.letterLabel>
-  <Packaged_NormalAutomaton.comps.2.letterText>톱니가 맞물려 돌아가고, 의식이 깨어나며 [PAWN_kind]이(가) 기동을 시작했습니다. 그녀의 부품들은 올바르게 배치되었을까요?</Packaged_NormalAutomaton.comps.2.letterText>
+  <Packaged_NormalAutomaton.comps.4.letterLabel>파니엘 기동</Packaged_NormalAutomaton.comps.4.letterLabel>
+  <Packaged_NormalAutomaton.comps.4.letterText>톱니가 맞물려 돌아가고, 의식이 깨어나며 [PAWN_kind]이(가) 기동을 시작했습니다. 그녀의 부품들은 올바르게 배치되었을까요?</Packaged_NormalAutomaton.comps.4.letterText>
 
   <Packaged_NormalAutomatonSoldier.label>PnL 오토마톤™ (전투형)</Packaged_NormalAutomatonSoldier.label>
   <Packaged_NormalAutomatonSoldier.description>전투형 오토마톤이 포장된 박스. 해체하면 랜덤 등급의 전투형 오토마톤이 나옵니다.\n\n[확률표]\n빈약 : 0.39%\n평범 : 15.79%\n상급 : 54.28%\n완벽 : 27.40%\n걸작 : 2.14%</Packaged_NormalAutomatonSoldier.description>

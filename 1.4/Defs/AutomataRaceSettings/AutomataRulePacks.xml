@@ -9,6 +9,7 @@
         <li>PNAZ->Names/Automaton/PNAZ</li>
         <li>PNNick->Names/Automaton/PNNick</li>
         <li>PNDbPnL->Names/Automaton/PNDbPnL</li>
+        <li>PNPbar->Names/Automaton/PNPBAR</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>
@@ -20,7 +21,19 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>PNFirstNamer->[PNSN][PN09][PN09][PN09][PNAZ][PNAZ]</li>
+        <li>PNFirstNamer->[PNSN][PNAZ][PN09][PN09][PN09][PNAZ][PNAZ]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>PN_NamerNick</defName>
+    <include>
+      <li>PN_NamerUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>PNNickNamer->[PNPbar][PN09][PN09][PN09][PNAZ][PNAZ]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -30,10 +43,11 @@
     <include>
       <li>PN_NamerUtility</li>
       <li>PN_NamerFirst</li>
+      <li>PN_NamerNick</li>
     </include>
     <rulePack>
       <rulesStrings>
-        <li>r_name->[PNFirstNamer] [PNDbPnL]</li>
+        <li>r_name->[PNFirstNamer] '[PNNickNamer]' [PNDbPnL]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

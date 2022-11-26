@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--==================================== 모듈 ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierB_Module</defName>
+    <label>Specialization module</label>
+    <description>Research the ability modules available for (lged), (mast), (exc) model.</description>
+    <tab>PN_technology</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_TierB_Apparel</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_TierC_Module</defName>
+    <label>royal module</label>
+    <description>Research the ability modules available for (lged) model.</description>
+    <tab>PN_technology</tab>
+    <baseCost>3250</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>PNRP_TierC_Apparel</li>
+      <li>PNRP_TierB_Module</li>
+    </prerequisites>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

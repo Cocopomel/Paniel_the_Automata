@@ -8,8 +8,8 @@
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 		<invNutrition>1</invNutrition>
-		<minGenerationAge>1</minGenerationAge>
-		<maxGenerationAge>5</maxGenerationAge>
+		<minGenerationAge>20</minGenerationAge>
+		<maxGenerationAge>25</maxGenerationAge>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>13~21</initialResistanceRange>
 		<techHediffsChance>0</techHediffsChance>

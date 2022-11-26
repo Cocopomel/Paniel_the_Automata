@@ -255,7 +255,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
     <label>PnL royal rifle</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode(WIP).</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
@@ -658,7 +658,7 @@
 
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
-    <label>PnL multiple launcher</label>
+    <label>PnL multiple launcher (WIP)</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -666,11 +666,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+    <recipeMaker Inherit="false">
+      <!--<researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
-      </skillRequirements>
+      </skillRequirements>-->
     </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>

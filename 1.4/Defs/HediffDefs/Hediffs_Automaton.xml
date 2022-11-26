@@ -84,6 +84,7 @@
         <hungerRateFactorOffset>-0.75</hungerRateFactorOffset>
         <statFactors>
           <InjuryHealingFactor>0</InjuryHealingFactor>
+          <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
         </statFactors>
       </li>
     </stages>
@@ -122,6 +123,7 @@
           <li>GoJuiceAddiction</li>
           <li>GoJuiceTolerance</li>
           <li>Pregnant</li>
+          <li>PregnantHuman</li>
         </hediffToNullify>
         <showMessage>true</showMessage>
         <nullifyKey>PN_HediffNullifier</nullifyKey>

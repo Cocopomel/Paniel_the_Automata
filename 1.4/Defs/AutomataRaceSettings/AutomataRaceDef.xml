@@ -47,6 +47,9 @@
           <li>
             <defName>Kind</defName>
           </li>
+          <li>
+            <defName>Asexual</defName>
+          </li>
         </forcedRaceTraitEntries>
         <!--특성 제한-->
         <disallowedTraits>
@@ -105,9 +108,6 @@
             <defName>Bisexual</defName>
           </li>
           <li>
-            <defName>Asexual</defName>
-          </li>
-          <li>
             <defName>Transhumanist</defName>
           </li>
           <li>
@@ -129,6 +129,12 @@
           </li>
           <li>
             <defName>Immunity</defName>
+          </li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">
+            <defName>Delicate</defName>
+          </li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">
+            <defName>Recluse</defName>
           </li>
         </disallowedTraits>
         <additionalTraits>0</additionalTraits>
@@ -217,7 +223,7 @@
               </hiddenUnderApparelTag>
             </li>
 
-            <!--<li Class="MoharCustomHAR.MoharBodyAddon">
+            <li>
               <drawSize>1</drawSize>
               <path>Paniel/Heads/Face/Face</path>
               <bodyPart>PNHead</bodyPart>
@@ -226,7 +232,7 @@
               <layerInvert>false</layerInvert>
               <colorChannel>skin</colorChannel>
               <drawnInBed>false</drawnInBed>
-              <drawIfDead>false</drawIfDead>
+              <!--<drawIfDead>false</drawIfDead>-->
               <drawnDesiccated>false</drawnDesiccated>
               <alignWithHead>true</alignWithHead>
               <angle>0</angle>
@@ -250,7 +256,7 @@
                   </bodyTypes>
                 </east>
               </offsets>
-              <jobParams>
+              <!--<jobParams>
                 <hideIfJob>
                   <li>
                     <job>LayDown</job>
@@ -275,7 +281,7 @@
                     </postureOrMoving>
                   </li>
                 </hideIfJob>
-              </jobParams>
+              </jobParams>-->
               <hiddenUnderApparelTag>
                 <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
               </hiddenUnderApparelTag>
@@ -284,7 +290,7 @@
               </hediffGraphics>
             </li>
 
-            <li Class="MoharCustomHAR.MoharBodyAddon">
+            <!--<li Class="MoharCustomHAR.MoharBodyAddon">
               <drawSize>1</drawSize>
               <path>Paniel/Heads/Face/RareFace/RareFaceBase</path>
               <bodyPart>PNHead</bodyPart>
@@ -409,7 +415,7 @@
               <drawnDesiccated>false</drawnDesiccated>
               <offsets>
                 <north>
-                  <layerOffset>-0.275</layerOffset>
+                  <layerOffset>-0.2751</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
@@ -644,8 +650,8 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
 
           <!--Misc-->
-          <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
@@ -695,7 +701,7 @@
           <li>PN_EliteSecurityHat</li>
 
           <!--모듈-->
-          <!--<li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_IntensiveMedicalModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_FieldMedicModule</li>
@@ -707,7 +713,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CraftingModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_PlantsModule</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_CookingModule</li>
-          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NursingModule</li>-->
+          <li MayRequire="Ludeon.RimWorld.Ideology">PN_NursingModule</li>
 
         </apparelList>
         <whiteApparelList>

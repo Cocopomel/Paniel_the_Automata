@@ -419,7 +419,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Rifle</defName>
     <label>PnL rifle</label>
-    <description>Lever action rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode.</description>
+    <description>Lever action rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode(WIP).</description>
     <graphicData>
       <texPath>Things/Weapons/PNRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -686,7 +686,7 @@
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon</defName>
     <label>PnL portable cannon</label>
-    <description>portable cannon produced by PnL industry. It can fire high-explosive and penetrating rounds.</description>
+    <description>portable cannon produced by PnL industry. It can fire high-explosive(WIP) and penetrating rounds.</description>
     <graphicData>
       <texPath>Things/Weapons/PNCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
