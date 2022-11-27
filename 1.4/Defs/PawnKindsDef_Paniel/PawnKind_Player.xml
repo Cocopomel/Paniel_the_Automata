@@ -22,6 +22,8 @@
 		<maxGenerationAge>23</maxGenerationAge>
 		<initialWillRange>10~13</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		
 	</PawnKindDef>
 
 	<!-- 정착민 -->

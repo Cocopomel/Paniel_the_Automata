@@ -12,6 +12,7 @@
 		<maxGenerationAge>25</maxGenerationAge>
 		<initialWillRange>2~4</initialWillRange>
 		<initialResistanceRange>13~21</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
 		<techHediffsChance>0</techHediffsChance>
 		<techHediffsMoney>0</techHediffsMoney>
 		<techHediffsTags>
@@ -28,6 +29,7 @@
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
 		<invNutrition>2.55</invNutrition>
+		<humanPregnancyChance>0</humanPregnancyChance>
 		<apparelTags>
 			<li>IndustrialBasic</li>
 			<li>IndustrialAdvanced</li>

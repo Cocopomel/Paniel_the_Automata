@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AutomataWearSetting.WearSettingDef>
     <defName>PN_WearSetting_OfficerModule</defName>
@@ -95,7 +95,7 @@
       </li>
 
       <!--난사광 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_RapidFireModule</li>
         </wearList>
@@ -119,7 +119,7 @@
       </li>
 
       <!--근접전 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_CQCModule</li>
         </wearList>
@@ -143,7 +143,7 @@
       </li>
 
       <!--광부 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_MiningModule</li>
         </wearList>
@@ -167,7 +167,7 @@
       </li>
 
       <!--건축 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_ConstructionModule</li>
         </wearList>
@@ -191,7 +191,7 @@
       </li>
 
       <!--제작 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_CraftingModule</li>
         </wearList>
@@ -215,7 +215,7 @@
       </li>
 
       <!--농부 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_PlantsModule</li>
         </wearList>
@@ -239,7 +239,7 @@
       </li>
 
       <!--셰프 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_CookingModule</li>
         </wearList>
@@ -263,7 +263,7 @@
       </li>
 
       <!--간호 모듈-->
-      <li MayRequire="Ludeon.RimWorld.Ideology">
+      <li>
         <wearList>
           <li>PN_NursingModule</li>
         </wearList>
@@ -272,6 +272,59 @@
             <li>PN_SyncLegendary_Domestic</li>
             <li>PN_SyncMasterwork_Domestic</li>
             <li>PN_SyncExcellent_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <!--메카 모듈-->
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <wearList>
+          <li>PN_ArrayModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Combat</li>
+            <li>PN_SyncMasterwork_Combat</li>
+            <li>PN_SyncExcellent_Combat</li>
+            <li>PN_SyncLegendary_Engineer</li>
+            <li>PN_SyncMasterwork_Engineer</li>
+            <li>PN_SyncExcellent_Engineer</li>
+            <li>PN_SyncLegendary_Domestic</li>
+            <li>PN_SyncMasterwork_Domestic</li>
+            <li>PN_SyncExcellent_Domestic</li>
+          </orHediffDef>
+          <forbiddenHediffDef>
+            <li>PN_ModuleUnstable_Industrial</li>
+            <li>PN_ModuleUnstable_Spacer</li>
+          </forbiddenHediffDef>
+        </condition>
+        <cantReason>PN_CantReason_orhediff</cantReason>
+        <forceDropHediff>
+          <li>PN_ModuleUnstable_Industrial</li>
+          <li>PN_ModuleUnstable_Spacer</li>
+        </forceDropHediff>
+        <forceDrop>true</forceDrop>
+      </li>
+
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <wearList>
+          <li>PN_IntegratorModule</li>
+        </wearList>
+        <condition>
+          <orHediffDef>
+            <li>PN_SyncLegendary_Combat</li>
+            <li>PN_SyncLegendary_Engineer</li>
+            <li>PN_SyncLegendary_Domestic</li>
           </orHediffDef>
           <forbiddenHediffDef>
             <li>PN_ModuleUnstable_Industrial</li>

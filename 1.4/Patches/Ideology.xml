@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationFindMod">
     <mods>
@@ -38,6 +38,48 @@
             </value>
           </match>
         </li>
+
+        <!--모듈 어빌리티-->
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName = PN_RapidFireModuleHediff]/comps</xpath>
+          <value>
+            <li>
+              <li Class="HediffCompProperties_GiveAbility">
+                <abilityDef>PN_RapidFireAbility</abilityDef>
+              </li>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = PN_RapidFireModule]/descriptionHyperlinks</xpath>
+          <value>
+            <li>
+              <AbilityDef>PN_RapidFireAbility</AbilityDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/HediffDef[defName = PN_CQCModuleHediff]/comps</xpath>
+          <value>
+            <li>
+              <li Class="HediffCompProperties_GiveAbility">
+                <abilityDef>PN_CQCAbility</abilityDef>
+              </li>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName = PN_CQCModule]/descriptionHyperlinks</xpath>
+          <value>
+            <li>
+              <abilityDef>PN_CQCAbility</abilityDef>
+            </li>
+          </value>
+        </li>
+
       </operations>
     </match>
   </Operation>
