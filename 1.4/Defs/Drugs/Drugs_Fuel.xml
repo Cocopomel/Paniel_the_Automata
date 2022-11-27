@@ -157,6 +157,7 @@
     <addictionHediff>PN_AutomatonFuel_Addiction</addictionHediff>
     <canBinge>false</canBinge>
     <onGeneratedAddictedToleranceChance>0</onGeneratedAddictedToleranceChance>
+    <generateAddictionGenes>false</generateAddictionGenes>
   </ChemicalDef>
 
   <HediffDef ParentName="AddictionBase">
