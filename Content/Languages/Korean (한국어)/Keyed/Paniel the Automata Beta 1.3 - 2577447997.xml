@@ -7,7 +7,9 @@
 
   <PN_HediffNullifier>{0}(은)는 {1}에 면역입니다. 사유 : {0}(은)는 오토마톤입니다.</PN_HediffNullifier>
 
-  <PN_CantReason_orhediff>아이템 설명을 확인하세요.</PN_CantReason_orhediff>
+  <PN_CantReason_orhediff>아이템 설명을 확인하세요.<!--\n\n[사유]\n\n아래 건강상태 중 하나 보유 : \n\n{11}\n\n아래 건강상태 중 하나도 보유하면 안됨 : \n\n{15}--></PN_CantReason_orhediff>
+  <!--디버그용-->
+  <!--<PN_CantReason_orhediff>{0} 종족 제한 사항 : \n\n{3}나이 제한 : {4} ~ {5}\n\n{6}성별 제한 : {7}\n\n{8}체형 제한 : {9}\n\n{10}이하 헤디프 중 하나 보유 : \n\n{11}\n\n{12}이하 헤디프 전체 보유 : \n\n{13}\n\n{14}이하 헤디프 중 하나도 보유하면 안됨 : \n\n{15}</PN_CantReason_orhediff>-->
 
   <PN_AUTOMATA_MATERIAL>주 재료</PN_AUTOMATA_MATERIAL>
 

@@ -200,4 +200,9 @@
   <PN_ElectricalStabHediff.description>찔림.</PN_ElectricalStabHediff.description>
   <PN_ElectricalStabHediff.injuryProps.destroyedLabel>잘림</PN_ElectricalStabHediff.injuryProps.destroyedLabel>
   <PN_ElectricalStabHediff.injuryProps.destroyedOutLabel>잘림</PN_ElectricalStabHediff.injuryProps.destroyedOutLabel>
+
+  <PN_ArrayModuleHediff.label>대역폭 모듈</PN_ArrayModuleHediff.label>
+  <PN_ArrayModuleHediff.description>대역폭 모듈을 착용해서 생성된 상태</PN_ArrayModuleHediff.description>
+  <PN_IntegratorModuleHediff.label>통합자 모듈</PN_IntegratorModuleHediff.label>
+  <PN_IntegratorModuleHediff.description>통합자 모듈을 착용해서 생성된 상태</PN_IntegratorModuleHediff.description>
 </LanguageData>

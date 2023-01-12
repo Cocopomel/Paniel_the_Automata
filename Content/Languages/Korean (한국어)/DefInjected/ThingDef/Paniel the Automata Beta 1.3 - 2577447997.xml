@@ -295,4 +295,19 @@
   <PN_ApparelRoyalmeisterHatWithMonocle.description>왕실 공방에서 오토마톤에게 씌우는 모자와 단안경.\n\n금속과 천을 결합하는 PnL industry만의 독특한 기술로 만들어졌습니다.\n\n내장된 부품이 오토마톤과 연동하여 뛰어난 방어력을 제공하고 사용자의 작업을 보조합니다.</PN_ApparelRoyalmeisterHatWithMonocle.description>
   <PN_SilverCase.label>PnL 실버 케이스</PN_SilverCase.label>
   <PN_SilverCase.description>800 은이 들어있는 케이스. PnL 성과평가원에게 상납하여 신임장을 얻을 수 있습니다.\n\n특별한 보안 장치가 되어있어 제작자도 열 수 없습니다. 강제로 여는데 많은 노력이 드므로 상인들은 가격을 깎으려 할 것입니다.</PN_SilverCase.description>
+
+  <PN_ArrayModule.label>대역폭 모듈</PN_ArrayModule.label>
+  <PN_ArrayModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n모든 모델 (전설), (걸작), (완벽)\n\n이 모듈을 착용하면 메카노이드 대역폭과 제어 집단 능력이 향상됩니다.</PN_ArrayModule.description>
+  <PN_IntegratorModule.label>통합자 모듈</PN_IntegratorModule.label>
+  <PN_IntegratorModule.description>[주의]\n이 모듈은 호환되는 오토마톤만 설치 가능합니다.\n또한 모듈 시스템이 안정되어 있어야 합니다.\n\n[호환 모델 리스트]\n\n모든 모델 (전설)\n\n이 모듈을 착용하면 메카노이드 대역폭과 제어 집단 능력이 향상됩니다.</PN_IntegratorModule.description>
+  <PN_Mechlink.label>오토마톤 메크링크</PN_Mechlink.label>
+  <PN_Mechlink.description>오토마톤용으로 개조된 메크링크입니다.</PN_Mechlink.description>
+  <PN_Mechlink.comps.2.useLabel>메크링크 설치</PN_Mechlink.comps.2.useLabel>
+  <PN_ControlSublink.label>오토마톤 통제 서브링크 (표준)</PN_ControlSublink.label>
+  <PN_ControlSublink.description>오토마톤용으로 개조된 통제 서브링크 (표준)입니다.</PN_ControlSublink.description>
+  <PN_ControlSublink.comps.2.useLabel>통제 서브링크 (표준) 설치</PN_ControlSublink.comps.2.useLabel>
+  <PN_ControlSublinkHigh.label>오토마톤 통제 서브링크 (상급)</PN_ControlSublinkHigh.label>
+  <PN_ControlSublinkHigh.description>오토마톤용으로 개조된 통제 서브링크 (상급)입니다.</PN_ControlSublinkHigh.description>
+  <PN_ControlSublinkHigh.comps.2.useLabel>통제 서브링크 (상급) 설치</PN_ControlSublinkHigh.comps.2.useLabel>
+
 </LanguageData>
