@@ -654,6 +654,7 @@
           <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentDisapproved</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentHorrible</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">IdeoLeaderResentmentAbhorrent</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">IdeoRoleApparelRequirementNotMet</li>
           <!--Thoughts_Memory_Social-->
           <!--Thoughts_Memory_Terror-->
           <li MayRequire="Ludeon.RimWorld.Ideology">ObservedTerror</li>
@@ -667,6 +668,7 @@
           <!--Misc-->
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_OfficerCommandThought</li>
           <li MayRequire="Ludeon.RimWorld.Ideology">PN_MeisterAdviceThought</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">AgeReversalDemanded</li>
         </cannotReceiveThoughts>
       </thoughtSettings>
       <raceRestriction>
