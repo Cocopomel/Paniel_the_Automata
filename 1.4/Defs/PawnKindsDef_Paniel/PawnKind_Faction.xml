@@ -588,7 +588,7 @@
 		<gearHealthRange>1~1</gearHealthRange>
 		<biocodeWeaponChance>0.3</biocodeWeaponChance>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-		<apparelMoney>2600~3500</apparelMoney>
+		<apparelMoney>7000~10000</apparelMoney>
 		<apparelRequired>
 
 		</apparelRequired>
@@ -635,7 +635,7 @@
 		<apparelTags>
 			<li>BeltDefensePop</li>
 		</apparelTags>
-		<weaponMoney>500~1400</weaponMoney>
+		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
@@ -650,7 +650,7 @@
 		<apparelTags>
 			<li>BeltDefensePop</li>
 		</apparelTags>
-		<weaponMoney>850~1400</weaponMoney>
+		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
@@ -662,7 +662,7 @@
 		<weaponTags>
 			<li>PN_Cannon</li>
 		</weaponTags>
-		<weaponMoney>850~1400</weaponMoney>
+		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
 		</disallowedTraits>
