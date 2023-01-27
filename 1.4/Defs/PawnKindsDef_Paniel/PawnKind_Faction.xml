@@ -59,8 +59,17 @@
 			<li>Simple</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
-		<initialWillRange>0~1</initialWillRange>
-		<initialResistanceRange>10~17</initialResistanceRange>
+		<initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>6~10</initialResistanceRange>
+		<humanPregnancyChance>0</humanPregnancyChance>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.75</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.03</Hussar>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+      </xenotypeChances>
+    </xenotypeSet>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
@@ -243,8 +252,17 @@
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
-		<initialWillRange>2~4</initialWillRange>
-		<initialResistanceRange>12~20</initialResistanceRange>
+		<initialWillRange>5~7</initialWillRange>
+    <initialResistanceRange>26~40</initialResistanceRange>
+    <humanPregnancyChance>0</humanPregnancyChance>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+      </xenotypeChances>
+    </xenotypeSet>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
@@ -352,8 +370,16 @@
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
+		<initialWillRange>8~11</initialWillRange>
+    <initialResistanceRange>38~58</initialResistanceRange>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+      </xenotypeChances>
+    </xenotypeSet>
 	</PawnKindDef>
 
 	<!--NPC Only-->
@@ -382,29 +408,43 @@
 			<li>Advanced</li>
 			<li>ImplantEmpireCommon</li>
 		</techHediffsTags>
-		<initialWillRange>3~5</initialWillRange>
-		<initialResistanceRange>7~11</initialResistanceRange>
+		<useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+      </xenotypeChances>
+    </xenotypeSet>
 	</PawnKindDef>
 
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SeniorDirector</defName>
 		<label>senior director</label>
+		<initialWillRange>10~13</initialWillRange>
+    <initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_VP</defName>
 		<label>VP</label>
+		<initialWillRange>11~14</initialWillRange>
+    <initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_SVP</defName>
 		<label>SVP</label>
+		<initialWillRange>12~15</initialWillRange>
+    <initialResistanceRange>25~39</initialResistanceRange>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_NPCBasePawnKind">
 		<defName>PN_CEO</defName>
 		<label>CEO</label>
+		<initialWillRange>13~16</initialWillRange>
+    <initialResistanceRange>38~58</initialResistanceRange>
 	</PawnKindDef>
 
 	<!--security-->
