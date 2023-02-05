@@ -65,9 +65,12 @@
     <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet>
       <xenotypeChances>
-        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.75</Neanderthal>
-        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.03</Hussar>
-        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+        <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.1</Pigskin>
+				<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.1</Neanderthal>
+        <Impid MayRequire="Ludeon.RimWorld.Biotech">0.1</Impid>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.1</Yttakin>
+        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.05</Highmate>
       </xenotypeChances>
     </xenotypeSet>
 	</PawnKindDef>
@@ -258,9 +261,9 @@
     <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet>
       <xenotypeChances>
-        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
-        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
-        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+        <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.2</Yttakin>
+        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.2</Highmate>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.2</Genie>
       </xenotypeChances>
     </xenotypeSet>
 	</PawnKindDef>
@@ -375,9 +378,9 @@
     <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet>
       <xenotypeChances>
-        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
-        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
-        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+				<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.2</Yttakin>
+        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.2</Highmate>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.2</Genie>
       </xenotypeChances>
     </xenotypeSet>
 	</PawnKindDef>
@@ -411,9 +414,9 @@
 		<useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet>
       <xenotypeChances>
-        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
-        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
-        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
+        <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.2</Yttakin>
+        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.2</Highmate>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.2</Genie>
       </xenotypeChances>
     </xenotypeSet>
 	</PawnKindDef>
@@ -474,6 +477,12 @@
 		</techHediffsTags>
 		<initialWillRange>1~3</initialWillRange>
 		<initialResistanceRange>15~24</initialResistanceRange>
+		<xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.25</Neanderthal>
+        <Impid MayRequire="Ludeon.RimWorld.Biotech">0.25</Impid>
+      </xenotypeChances>
+    </xenotypeSet>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="PN_PanielBasePawnKind">
@@ -663,6 +672,7 @@
 		</disallowedTraits>
 		<apparelRequired>
 			<li>Apparel_ShieldBelt</li>
+			<li>PN_CQCModule</li>
 		</apparelRequired>
 	</PawnKindDef>
 
@@ -675,6 +685,9 @@
 		<apparelTags>
 			<li>BeltDefensePop</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>PN_RapidFireModule</li>
+		</apparelRequired>
 		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -690,6 +703,9 @@
 		<apparelTags>
 			<li>BeltDefensePop</li>
 		</apparelTags>
+		<apparelRequired>
+			<li>PN_RapidFireModule</li>
+		</apparelRequired>
 		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>
@@ -702,6 +718,12 @@
 		<weaponTags>
 			<li>PN_Cannon</li>
 		</weaponTags>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>PN_RapidFireModule</li>
+		</apparelRequired>
 		<weaponMoney>1100~2500</weaponMoney>
 		<disallowedTraits>
 			<li>Brawler</li>

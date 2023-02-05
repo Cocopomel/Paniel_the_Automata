@@ -88,9 +88,10 @@
           </li>
         </capMods>
         <statOffsets>
-          <MeleeHitChance>4</MeleeHitChance>
-          <MeleeDodgeChance>4</MeleeDodgeChance>
-          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+          <MeleeHitChance>2</MeleeHitChance>
+          <MeleeDodgeChance>2</MeleeDodgeChance>
+          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.10</MeleeDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -134,9 +135,10 @@
           </li>
         </capMods>
         <statOffsets>
-          <MeleeHitChance>-3</MeleeHitChance>
-          <MeleeDodgeChance>-3</MeleeDodgeChance>
-          <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+          <MeleeHitChance>-4</MeleeHitChance>
+          <MeleeDodgeChance>-4</MeleeDodgeChance>
+          <IncomingDamageFactor>-0.25</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">-0.20</MeleeDamageFactor>
         </statOffsets>
       </li>
     </stages>

@@ -61,7 +61,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncNormal_Base">
+  <HediffDef ParentName="PN_SyncNormal_Base_C">
     <defName>PN_SyncNormal_Combat_PA</defName>
     <label>Combat model (norm)</label>
   </HediffDef>
@@ -89,7 +89,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncGood_Base">
+  <HediffDef ParentName="PN_SyncGood_Base_C">
     <defName>PN_SyncGood_Combat_PA</defName>
     <label>Combat model (good)</label>
   </HediffDef>

@@ -42,7 +42,7 @@
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
       <MeleeDodgeChance>1</MeleeDodgeChance>
-      <Flammability>-0.20</Flammability>
+      <Flammability>-0.60</Flammability>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>

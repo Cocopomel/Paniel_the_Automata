@@ -111,6 +111,54 @@
 
   <!--전투형 베이스-->
 
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncNormal_Base_C">
+    <description>This pawn is an automaton.\nAfter production, it was rated normal grade.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncGood_Base_C">
+    <description>This pawn is an automaton.\nAfter production, it was rated good grade.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.10</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
   <HediffDef ParentName="PN_Sync_Base" Abstract="True" Name="PN_SyncExcellent_Base_C">
     <description>This pawn is an automaton.\nAfter production, it was rated excellent grade.</description>
     <stages>
@@ -135,6 +183,7 @@
         </capMods>
         <statOffsets>
           <IncomingDamageFactor>-0.10</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.10</MeleeDamageFactor>
         </statOffsets>
       </li>
     </stages>
@@ -164,6 +213,7 @@
         </capMods>
         <statOffsets>
           <IncomingDamageFactor>-0.20</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.20</MeleeDamageFactor>
           <AimingDelayFactor>-0.10</AimingDelayFactor>
           <MentalBreakThreshold>-0.04</MentalBreakThreshold>
         </statOffsets>
@@ -194,7 +244,8 @@
           </li>
         </capMods>
         <statOffsets>
-          <IncomingDamageFactor>-0.40</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.35</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.35</MeleeDamageFactor>
           <AimingDelayFactor>-0.25</AimingDelayFactor>
           <MentalBreakThreshold>-0.08</MentalBreakThreshold>
         </statOffsets>
@@ -315,7 +366,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncNormal_Base">
+  <HediffDef ParentName="PN_SyncNormal_Base_C">
     <defName>PN_SyncNormal_Combat</defName>
     <label>Combat model (norm)</label>
   </HediffDef>
@@ -340,7 +391,7 @@
     </comps>
   </HediffDef>
 
-  <HediffDef ParentName="PN_SyncGood_Base">
+  <HediffDef ParentName="PN_SyncGood_Base_C">
     <defName>PN_SyncGood_Combat</defName>
     <label>Combat model (good)</label>
   </HediffDef>

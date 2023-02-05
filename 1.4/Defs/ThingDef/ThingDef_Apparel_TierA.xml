@@ -46,6 +46,11 @@
   <ThingDef ParentName="PN_ApparelBase">
     <defName>PN_ApparelBasic</defName>
     <label>PnL basic shirt and boots</label>
+    <recipeMaker>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <description>This is a basic paniel costume. It consists of a shirt and boots.</description>
     <graphicData>
       <texPath>Things/Apparel/PNBasic1</texPath>
@@ -109,6 +114,11 @@
   <ThingDef ParentName="PN_HatBase">
     <defName>PN_ApparelBasicHat</defName>
     <label>PnL basic hat</label>
+    <recipeMaker>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <description>This is a basic paniel hat.</description>
     <graphicData>
       <texPath>Things/Apparel/hats/PNbasichat1</texPath>
@@ -174,6 +184,9 @@
     <label>PnL cape</label>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Apparel/PNCape1</texPath>

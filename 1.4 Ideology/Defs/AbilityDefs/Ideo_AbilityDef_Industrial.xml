@@ -27,7 +27,7 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>84</Ability_Duration>
+      <Ability_Duration>167</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
@@ -76,7 +76,7 @@
     <uiOrder>3</uiOrder>
     <warmupStartSound>CombatCommand_Warmup</warmupStartSound>
     <statBases>
-      <Ability_Duration>84</Ability_Duration>
+      <Ability_Duration>167</Ability_Duration>
     </statBases>
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>

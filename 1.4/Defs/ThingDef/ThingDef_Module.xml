@@ -125,7 +125,7 @@
     <label>rapid fire module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module allows automaton to use rapid fire ability.</description>
     <descriptionHyperlinks>
-      <!--<AbilityDef>PN_RapidFireAbility</AbilityDef>-->
+      <AbilityDef MayRequire="Ludeon.RimWorld.Ideology">PN_RapidFireAbility</AbilityDef>
       <HediffDef>PN_RapidFireModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
@@ -169,9 +169,9 @@
       </li>
     </stages>
     <comps>
-      <!--<li Class="HediffCompProperties_GiveAbility">
+      <li Class="HediffCompProperties_GiveAbility" MayRequire="Ludeon.RimWorld.Ideology">
         <abilityDef>PN_RapidFireAbility</abilityDef>
-      </li>-->
+      </li>
     </comps>
   </HediffDef>
 
@@ -181,7 +181,7 @@
     <label>CQC module</label>
     <description>[CAUTION]\nThis module can only be installed on compatible models.\nAlso, the module system must be stable.\n\n[compatible models list]\n\nCombat model (legd), (mast), (exc)\n\nThis module increases the automaton's close quarters combat stat, and allows automaton to use CQC ability.</description>
     <descriptionHyperlinks>
-      <!--<AbilityDef>PN_CQCAbility</AbilityDef>-->
+      <AbilityDef MayRequire="Ludeon.RimWorld.Ideology">PN_CQCAbility</AbilityDef>
       <HediffDef>PN_CQCModuleHediff</HediffDef>
     </descriptionHyperlinks>
     <costList>
@@ -202,7 +202,7 @@
       </tags>
     </apparel>
     <comps>
-      <li Class="CompProperties_CauseHediff_Apparel">
+      <li Class="CompProperties_CauseHediff_Apparel" MayRequire="Ludeon.RimWorld.Ideology">
         <hediff>PN_CQCModuleHediff</hediff>
         <part>PNTorso</part>
       </li>
@@ -222,14 +222,15 @@
           <MeleeHitChance>3</MeleeHitChance>
           <MeleeDodgeChance>3</MeleeDodgeChance>
           <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
-          <IncomingDamageFactor>-0.15</IncomingDamageFactor>
+          <IncomingDamageFactor>-0.20</IncomingDamageFactor>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.15</MeleeDamageFactor>
         </statOffsets>
       </li>
     </stages>
     <comps>
-      <!--<li Class="HediffCompProperties_GiveAbility">
+      <li Class="HediffCompProperties_GiveAbility" MayRequire="Ludeon.RimWorld.Ideology">
         <abilityDef>PN_CQCAbility</abilityDef>
-      </li>-->
+      </li>
     </comps>
   </HediffDef>
 

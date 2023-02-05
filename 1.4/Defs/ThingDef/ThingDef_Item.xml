@@ -277,10 +277,10 @@
       <li>PNKit</li>
     </thingCategories>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
-      <Steel>15</Steel>
-      <Chemfuel>5</Chemfuel>
-      <Leather_Automaton>10</Leather_Automaton>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>30</Steel>
+      <Chemfuel>10</Chemfuel>
+      <Leather_Automaton>20</Leather_Automaton>
     </costList>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
