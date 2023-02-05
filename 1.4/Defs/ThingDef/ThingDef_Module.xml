@@ -221,7 +221,7 @@
         <statOffsets>
           <MeleeHitChance>3</MeleeHitChance>
           <MeleeDodgeChance>3</MeleeDodgeChance>
-          <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+          <ShootingAccuracyPawn>-12</ShootingAccuracyPawn>
           <AimingDelayFactor>0.40</AimingDelayFactor>
           <IncomingDamageFactor>-0.20</IncomingDamageFactor>
           <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.15</MeleeDamageFactor>
