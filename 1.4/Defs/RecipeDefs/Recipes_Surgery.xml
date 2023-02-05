@@ -56,7 +56,7 @@
     <effectWorking>Repair</effectWorking>
     <workAmount>2000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
-    <isViolation>true</isViolation>
+    <isViolation>false</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <ingredients Inherit="false">
@@ -81,7 +81,7 @@
     <effectWorking>Repair</effectWorking>
     <workAmount>2000</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
-    <isViolation>true</isViolation>
+    <isViolation>false</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
   </RecipeDef>
@@ -108,6 +108,7 @@
     <workerClass>AutomataRace.Recipe_RemoveBrain</workerClass>
     <jobString>Remove central nervous.</jobString>
     <workAmount>2000</workAmount>
+    <isViolation>true</isViolation>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <researchPrerequisite>PNRP_Brain</researchPrerequisite>
     <uiIconThing>PN_Brain</uiIconThing>

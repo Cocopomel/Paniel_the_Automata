@@ -373,6 +373,7 @@
     <targetsBodyPart>false</targetsBodyPart>
     <anesthetize>false</anesthetize>
     <workAmount>600</workAmount>
+    <isViolation>false</isViolation>
     <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
     <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
     <ingredients>
