@@ -35,5 +35,6 @@
         <li>Cloth</li>
       </thingDefs>
     </apparelStuffFilter>
+    <melaninRange>0</melaninRange>
   </FactionDef>
 </Defs>

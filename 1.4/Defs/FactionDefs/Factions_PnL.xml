@@ -38,6 +38,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
+    <melaninRange>0</melaninRange>
   </FactionDef>
 
   <!--행성지부(NPC)-->
@@ -91,6 +92,7 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
     </disallowedPrecepts>
+    <melaninRange>0</melaninRange>
     <backstoryCategories>
       <li>Offworld</li>
     </backstoryCategories>
