@@ -9,6 +9,16 @@
 			<li>PN_AutomatonFuel_Addiction</li>
 			<li>PN_Maintenance</li>-->
     </forcedHediffs>
+    <forcedTraits>
+      <li>
+          <defname>Kind</defname>
+          <chance>100</chance>
+      </li>
+      <li>
+        <defname>Asexual</defname>
+        <chance>100</chance>
+      </li>
+    </forcedTraits>
     <spawnCategories>
       <li>PN_storys</li>
     </spawnCategories>
