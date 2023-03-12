@@ -137,7 +137,7 @@
             <defName>Recluse</defName>
           </li>
         </disallowedTraits>
-        <additionalTraits>0</additionalTraits>
+        <additionalTraits>1</additionalTraits>
         <immuneToXenophobia>true</immuneToXenophobia>
         <alienPartGenerator>
           <atlasScale>4</atlasScale>

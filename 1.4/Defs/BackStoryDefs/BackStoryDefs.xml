@@ -9,16 +9,99 @@
 			<li>PN_AutomatonFuel_Addiction</li>
 			<li>PN_Maintenance</li>-->
     </forcedHediffs>
-    <forcedTraits>
+    <forcedTraitsChance>
       <li>
-          <defname>Kind</defname>
-          <chance>100</chance>
+          <defName>Kind</defName>
       </li>
       <li>
-        <defname>Asexual</defname>
-        <chance>100</chance>
+        <defName>Asexual</defName>
       </li>
-    </forcedTraits>
+    </forcedTraitsChance>
+    <disallowedTraitsChance>
+      <li>
+        <defName>ShootingAccuracy</defName>
+      </li>
+      <li>
+        <defName>Tough</defName>
+      </li>
+      <li>
+        <defName>DrugDesire</defName>
+      </li>
+      <li>
+        <defName>Cannibal</defName>
+      </li>
+      <li>
+        <defName>Greedy</defName>
+      </li>
+      <li>
+        <defName>Jealous</defName>
+      </li>
+      <li>
+        <defName>DislikesMen</defName>
+      </li>
+      <li>
+        <defName>DislikesWomen</defName>
+      </li>
+      <li>
+        <defName>Xenophobia</defName>
+      </li>
+      <li>
+        <defName>AnnoyingVoice</defName>
+      </li>
+      <li>
+        <defName>CreepyBreathing</defName>
+      </li>
+      <li>
+        <defName>Wimp</defName>
+      </li>
+      <li>
+        <defName>Nudist</defName>
+      </li>
+      <li>
+        <defName>Abrasive</defName>
+      </li>
+      <li>
+        <defName>Masochist</defName>
+      </li>
+      <li>
+        <defName>Ascetic</defName>
+      </li>
+      <li>
+        <defName>Gay</defName>
+      </li>
+      <li>
+        <defName>Bisexual</defName>
+      </li>
+      <li>
+        <defName>Transhumanist</defName>
+      </li>
+      <li>
+        <defName>BodyPurist</defName>
+      </li>
+      <li>
+        <defName>GreatMemory</defName>
+      </li>
+      <li>
+        <defName>Gourmand</defName>
+      </li>
+      <li>
+        <defName>Beauty</defName>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <defName>Beauty</defName>
+        <degree>-2</degree>
+      </li>
+      <li>
+        <defName>Immunity</defName>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <defName>Delicate</defName>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <defName>Recluse</defName>
+      </li>
+    </disallowedTraitsChance>
     <spawnCategories>
       <li>PN_storys</li>
     </spawnCategories>
