@@ -44,6 +44,7 @@
     <isViolation>true</isViolation>
     <targetsBodyPart>false</targetsBodyPart>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+    <ingredients Inherit="false"></ingredients>
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -66,7 +67,7 @@
             <li>PN_RepairKit</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
     </ingredients>
   </RecipeDef>

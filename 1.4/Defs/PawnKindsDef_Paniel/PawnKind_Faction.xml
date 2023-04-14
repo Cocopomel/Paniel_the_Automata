@@ -21,6 +21,7 @@
 			<thingDef>PN_AutomatonFuel</thingDef>
 			<countRange>3~5</countRange>
 		</inventoryOptions>
+		<allowOldAgeInjuries>false</allowOldAgeInjuries>
 	</PawnKindDef>
 
 	<PawnKindDef Name="PN_HumanBasePawnKind" Abstract="True">

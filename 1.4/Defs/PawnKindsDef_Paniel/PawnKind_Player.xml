@@ -23,7 +23,7 @@
 		<initialWillRange>10~13</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
 		<humanPregnancyChance>0</humanPregnancyChance>
-		
+		<allowOldAgeInjuries>false</allowOldAgeInjuries>
 	</PawnKindDef>
 
 	<!-- 정착민 -->

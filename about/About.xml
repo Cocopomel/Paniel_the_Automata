@@ -62,4 +62,8 @@ and Rimworld Korea Discord members.
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>goudaquiche.MoharFramework</li>
 	</forceLoadAfter>
+	<incompatibleWith>
+		<li>Ykara.elStrages.EPOE</li>
+		<li>Ykara.elStrages.EPNOE</li>
+	</incompatibleWith>
 </ModMetaData>
