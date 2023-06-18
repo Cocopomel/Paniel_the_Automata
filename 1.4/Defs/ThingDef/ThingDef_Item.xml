@@ -197,7 +197,7 @@
     </graphicData>
     <isTechHediff>false</isTechHediff>
     <thingCategories Inherit="false">
-      <li>PN_BrainCoreCatagory</li>
+      <li>PN_AutomatonCatagory</li>
     </thingCategories>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <statBases>
