@@ -18,3 +18,4 @@ AutomataWearSetting.dll
 [Roo] (Anty Race modder : https://steamcommunity.com/sharedfiles/filedetails/?id=2297729625)
 
 RooAssemblies.dll
+PN_ItemFormChange

@@ -165,7 +165,6 @@
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
@@ -254,8 +253,8 @@
   <!--==================================== 로열 라이플 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalRifle</defName>
-    <label>PnL royal rifle</label>
-    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode(WIP).</description>
+    <label>PnL royal rifle (Burst)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between burst shot mode and point shot mode.</description>
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
@@ -270,7 +269,6 @@
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
@@ -288,9 +286,6 @@
       <PN_Component>1</PN_Component>
     </costList>
     <comps>
-      <!--<li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>-->
       <li Class="CompProperties_Styleable"></li>
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
@@ -319,48 +314,145 @@
           <angle>30</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change point shot</label>
+            <description>It fires slowly, but has a high accuracy and range.</description>
+            <thingDef>PN_RoyalRifle_Point</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
-      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>0.7</warmupTime>
-        <range>30.9</range>
-        <soundCast>PNRoyalRifleSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>It fires quickly, but has a low accuracy and range.</desc>
-        <label>rapid fire</label>
-        <texPath>UI/Commands/Pew</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.0</accuracyShort>
-        <accuracyMedium>0.0</accuracyMedium>
-        <accuracyLong>0.0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
-        <warmupTime>2.3</warmupTime>
-        <range>36.9</range>
-        <soundCast>PNRoyalRifleSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>It fires slowly, but has a high accuracy and range.</desc>
-        <label>accurate fire</label>
-        <texPath>UI/Commands/Snipe</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.25</accuracyShort>
-        <accuracyMedium>0.25</accuracyMedium>
-        <accuracyLong>0.25</accuracyLong>
-      </li>-->
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
         <range>30.9</range>
+        <soundCast>PNRoyalRifleSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--포인트-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalRifle_Point</defName>
+    <label>PnL royal rifle (Point)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal guard rifle produced by PnL industry. Users can choose between bust shot mode and point shot mode.</description>
+    <techLevel>Spacer</techLevel>
+    <relicChance>1</relicChance>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.6</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+      <PN_Component>1</PN_Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalRifle_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalRifle_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0.15,0.3,0.05)</position>
+          <angle>-45</angle>
+        </northOffset>
+        <southOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>-45</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>-30</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>30</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change burst shot</label>
+            <description>It fires quickly, but has a low accuracy and range.</description>
+            <thingDef>PN_RoyalRifle</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalRifle</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>36.9</range>
         <soundCast>PNRoyalRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -430,7 +522,6 @@
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
@@ -541,7 +632,7 @@
     <techLevel>Spacer</techLevel>
     <relicChance>1</relicChance>
     <graphicData>
-      <texPath>Things/Weapons/PNRoyalMachinegun</texPath>
+      <texPath>Things/Weapons/PNRoyalMachinegun_carry</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -552,7 +643,6 @@
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
-      <li>RewardStandardLowFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
@@ -562,7 +652,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Plasteel>150</Plasteel>
@@ -598,15 +688,29 @@
           <angle>-70</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change mount mode</label>
+            <description>Mount machine gun on the ground. It moves very slowly, but it can unleash heavy firepower.</description>
+            <thingDef>PN_RoyalMachinegun_Mount</thingDef>
+            <transformCooldown>120</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_RoyalMachinegun</defaultProjectile>
-        <warmupTime>2.6</warmupTime>
+        <warmupTime>1.0</warmupTime>
         <range>30.9</range>
-        <burstShotCount>20</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <soundCast>PNRoyalMachinegunSound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -638,6 +742,129 @@
     </weaponClasses>
   </ThingDef>
 
+  <!--거치-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalMachinegun_Mount</defName>
+    <label>PnL royal machine gun (Mounted)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nroyal machine gun produced by PnL industry.</description>
+    <techLevel>Spacer</techLevel>
+    <relicChance>1</relicChance>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalMachinegun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.15</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>0.07</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <ComponentSpacer>8</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Styleable"></li>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalMachinegun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <revertData>
+          <label>overheating</label>
+          <description>If it overheats, will return to carry mode.</description>
+          <thingDef>PN_RoyalMachinegun</thingDef>
+          <revertAfterTicks>1200</revertAfterTicks>
+          <transformCooldown>3600</transformCooldown>
+        </revertData>
+        <transformData>
+          <li>
+            <label>change carry mode</label>
+            <description>Retrieves the machine gun from the ground so it can be carried.</description>
+            <thingDef>PN_RoyalMachinegun</thingDef>
+            <transformCooldown>3600</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_RoyalMachinegun</defaultProjectile>
+        <warmupTime>0.07</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>PNRoyalMachinegunSound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_Machinegun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-99</MoveSpeed>
+    </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+  </ThingDef>
+
   <ThingDef ParentName="PN_BaseBullet">
     <defName>PN_Bullet_RoyalMachinegun</defName>
     <label>PnL machinegun bullet</label>
@@ -658,7 +885,7 @@
 
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_RoyalLSW</defName>
-    <label>PnL multiple launcher (WIP)</label>
+    <label>PnL multiple launcher (HE)</label>
     <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -666,11 +893,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker Inherit="false">
-      <!--<researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
+    <recipeMaker>
+      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
-      </skillRequirements>-->
+      </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
       <li>RewardStandardLowFreq</li>
@@ -687,9 +914,6 @@
       <PN_Component>2</PN_Component>
     </costList>
     <comps>
-      <!--<li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
@@ -717,9 +941,44 @@
           <angle>-70</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change Incendiary shell</label>
+            <description>use Incendiary shell</description>
+            <thingDef>PN_RoyalLSW_IE</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change EMP shell</label>
+            <description>use EMP shell</description>
+            <thingDef>PN_RoyalLSW_EMP</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Smoke shell</label>
+            <description>use Smoke shell</description>
+            <thingDef>PN_RoyalLSW_Smoke</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Firefoam shell</label>
+            <description>use Firefoam shell</description>
+            <thingDef>PN_RoyalLSW_FF</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
-      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
+      <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_LSW_bomb</defaultProjectile>
@@ -730,17 +989,132 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <label>Frag</label>
-        <texPath>UI/Commands/HE</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--소이-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalLSW_IE</defName>
+    <label>PnL multiple launcher (Incendiary)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalLSW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>7</Mass>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change HE shell</label>
+            <description>use HE shell</description>
+            <thingDef>PN_RoyalLSW</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change EMP shell</label>
+            <description>use EMP shell</description>
+            <thingDef>PN_RoyalLSW_EMP</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Smoke shell</label>
+            <description>use Smoke shell</description>
+            <thingDef>PN_RoyalLSW_Smoke</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Firefoam shell</label>
+            <description>use Firefoam shell</description>
+            <thingDef>PN_RoyalLSW_FF</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_LSW_Flame</defaultProjectile>
@@ -751,17 +1125,132 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <label>Incendiary</label>
-        <texPath>UI/Commands/Flame</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--전자기-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalLSW_EMP</defName>
+    <label>PnL multiple launcher (EMP)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalLSW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>7</Mass>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change HE shell</label>
+            <description>use HE shell</description>
+            <thingDef>PN_RoyalLSW</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Incendiary shell</label>
+            <description>use Incendiary shell</description>
+            <thingDef>PN_RoyalLSW_IE</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Smoke shell</label>
+            <description>use Smoke shell</description>
+            <thingDef>PN_RoyalLSW_Smoke</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Firefoam shell</label>
+            <description>use Firefoam shell</description>
+            <thingDef>PN_RoyalLSW_FF</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_LSW_EMP</defaultProjectile>
@@ -772,17 +1261,132 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <label>EMP</label>
-        <texPath>UI/Commands/EMP</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--연막-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalLSW_Smoke</defName>
+    <label>PnL multiple launcher (Smoke)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalLSW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>7</Mass>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change HE shell</label>
+            <description>use HE shell</description>
+            <thingDef>PN_RoyalLSW</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Incendiary shell</label>
+            <description>use Incendiary shell</description>
+            <thingDef>PN_RoyalLSW_IE</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change EMP shell</label>
+            <description>use EMP shell</description>
+            <thingDef>PN_RoyalLSW_EMP</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Firefoam shell</label>
+            <description>use Firefoam shell</description>
+            <thingDef>PN_RoyalLSW_FF</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_LSW_Smoke</defaultProjectile>
@@ -793,41 +1397,135 @@
         <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
-        <label>Smoke</label>
-        <texPath>UI/Commands/Smoke</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_LSW_FF</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
-        <range>23.9</range>
-        <forcedMissRadius>0.9</forcedMissRadius>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>Shot_IncendiaryLauncher</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
-        <label>Firefoam</label>
-        <texPath>UI/Commands/FF</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-      </li>-->
+    </verbs>
+    <weaponTags>
+      <li>PN_RoyalRifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponClasses>
+      <li>Ultratech</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--소방-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_RoyalLSW_FF</defName>
+    <label>PnL multiple launcher (Firefoam)</label>
+    <description>[caution] : Automaton exclusive weapon.\n\nA launcher that can fire a variety of grenades. Users can fire Frag, Incendiary, EMP, Smoke, and Firefoam grenades.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/PNRoyalLSW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>75000</WorkToMake>
+      <Mass>7</Mass>
+      <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+      <PN_Component>2</PN_Component>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRoyalLSW_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change HE shell</label>
+            <description>use HE shell</description>
+            <thingDef>PN_RoyalLSW</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Incendiary shell</label>
+            <description>use Incendiary shell</description>
+            <thingDef>PN_RoyalLSW_IE</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change EMP shell</label>
+            <description>use EMP shell</description>
+            <thingDef>PN_RoyalLSW_EMP</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+          <li>
+            <label>change Smoke shell</label>
+            <description>use Smoke shell</description>
+            <thingDef>PN_RoyalLSW_Smoke</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_LSW_bomb</defaultProjectile>
+        <defaultProjectile>PN_Bullet_LSW_FF</defaultProjectile>
         <warmupTime>3.0</warmupTime>
         <range>23.9</range>
         <forcedMissRadius>0.9</forcedMissRadius>

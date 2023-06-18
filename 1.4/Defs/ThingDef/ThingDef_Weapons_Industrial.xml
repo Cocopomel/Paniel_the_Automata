@@ -418,8 +418,8 @@
   <!--==================================== 레버액션 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Rifle</defName>
-    <label>PnL rifle</label>
-    <description>Lever action rifle produced by PnL industry. Users can choose between rapid fire mode and accuracy mode(WIP).</description>
+    <label>PnL rifle (Burst)</label>
+    <description>Lever action rifle produced by PnL industry. Users can choose between burst shot mode and point shot mode.</description>
     <graphicData>
       <texPath>Things/Weapons/PNRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -448,9 +448,6 @@
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <comps>
-      <!--<li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNRifle_Sheath</texPath>
@@ -479,48 +476,137 @@
           <angle>30</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change point shot</label>
+            <description>It fires slowly, but has a high accuracy and range.</description>
+            <thingDef>PN_Rifle_Point</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
-      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
-        <warmupTime>0.7</warmupTime>
-        <range>30.9</range>
-        <soundCast>PNRifleSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>It fires quickly, but has a low accuracy and range.</desc>
-        <label>rapid fire</label>
-        <texPath>UI/Commands/Pew</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.0</accuracyShort>
-        <accuracyMedium>0.0</accuracyMedium>
-        <accuracyLong>0.0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
-        <warmupTime>2.3</warmupTime>
-        <range>36.9</range>
-        <soundCast>PNRifleSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <desc>It fires slowly, but has a high accuracy and range.</desc>
-        <label>accurate fire</label>
-        <texPath>UI/Commands/Snipe</texPath>
-        <accuracyTouch>0.0</accuracyTouch>
-        <accuracyShort>0.25</accuracyShort>
-        <accuracyMedium>0.25</accuracyMedium>
-        <accuracyLong>0.25</accuracyLong>
-      </li>-->
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
         <warmupTime>0.7</warmupTime>
         <range>30.9</range>
+        <soundCast>PNRifleSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_Rifle</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_Rifle_Point</defName>
+    <label>PnL rifle (Point)</label>
+    <description>Lever action rifle produced by PnL industry. Users can choose between burst shot mode and point shot mode.</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNRifle_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNRifle_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <!--x축 (-서 +동) , 레이어 , y축 (-남 +북)-->
+        <northOffset>
+          <position>(0.15,0.3,0)</position>
+          <angle>-45</angle>
+        </northOffset>
+        <southOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>-45</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0)</position>
+          <angle>-30</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0)</position>
+          <angle>30</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change burst shot</label>
+            <description>It fires quickly, but has a low accuracy and range.</description>
+            <thingDef>PN_Rifle</thingDef>
+            <transformCooldown>30</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_Rifle</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>36.9</range>
         <soundCast>PNRifleSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -572,7 +658,7 @@
     <label>PnL machine gun</label>
     <description>Machine gun produced by PnL industry.</description>
     <graphicData>
-      <texPath>Things/Weapons/PNMachinegun</texPath>
+      <texPath>Things/Weapons/PNMachinegun_carry</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -593,7 +679,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -627,15 +713,148 @@
           <angle>-70</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change mount mode</label>
+            <description>Mount machinegun on the ground. It moves very slowly, but it can unleash heavy firepower.</description>
+            <thingDef>PN_Machinegun_Mount</thingDef>
+            <transformCooldown>120</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Machinegun</defaultProjectile>
-        <warmupTime>2.6</warmupTime>
+        <warmupTime>1</warmupTime>
         <range>30.9</range>
-        <burstShotCount>40</burstShotCount>
+        <burstShotCount>12</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <weaponTags>
+
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--거치-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_Machinegun_Mount</defName>
+    <label>PnL machine gun (Mounted)</label>
+    <description>Machine gun produced by PnL industry.</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNMachinegun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.35</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>0.03</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <revertData>
+          <label>overheating</label>
+          <description>If it overheats, will return to carry mode.</description>
+          <thingDef>PN_Machinegun</thingDef>
+          <revertAfterTicks>1200</revertAfterTicks>
+          <transformCooldown>3600</transformCooldown>
+        </revertData>
+        <transformData>
+          <li>
+            <label>change carry mode</label>
+            <description>Retrieves the machinegun for carry.</description>
+            <thingDef>PN_Machinegun</thingDef>
+            <transformCooldown>3600</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_Machinegun</defaultProjectile>
+        <warmupTime>0.03</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>10</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -660,7 +879,7 @@
     </tools>
     <equippedAngleOffset>45</equippedAngleOffset>
     <equippedStatOffsets>
-      <MoveSpeed>-0.25</MoveSpeed>
+      <MoveSpeed>-99</MoveSpeed>
     </equippedStatOffsets>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -685,8 +904,8 @@
   <!--==================================== 포터블 캐논 ====================================-->
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon</defName>
-    <label>PnL portable cannon</label>
-    <description>portable cannon produced by PnL industry. It can fire high-explosive(WIP) and penetrating rounds.</description>
+    <label>PnL portable cannon (AP)</label>
+    <description>portable cannon produced by PnL industry. It can fire high-explosive and penetrating rounds.</description>
     <graphicData>
       <texPath>Things/Weapons/PNCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -715,9 +934,6 @@
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <comps>
-      <!--<li>
-        <compClass>AdditionalVerb.Comp_VerbSaveable</compClass>
-      </li>-->
       <li Class="SYS.CompProperties_Sheath">
         <sheathOnlyGraphicData>
           <texPath>Things/Weapons/SYS/PNCannon_Sheath</texPath>
@@ -745,52 +961,134 @@
           <angle>-70</angle>
         </westOffset>
       </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change HE shot</label>
+            <description>use HE bullet.</description>
+            <thingDef>PN_Cannon_HE</thingDef>
+            <transformCooldown>120</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
     </comps>
     <verbs>
-      <!--<li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_AP</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
-        <minRange>4.9</minRange>
-        <range>44.9</range>
-        <soundCast>PNCannonSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>Single target bullet with high penetration.</desc>
-        <label>AP</label>
-        <texPath>UI/Commands/AP</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
-      </li>
-      <li Class="AdditionalVerb.VerbProperties_Custom">
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>PN_Bullet_HE</defaultProjectile>
-        <forcedMissRadius>0.01</forcedMissRadius>
-        <warmupTime>3.5</warmupTime>
-        <minRange>4.9</minRange>
-        <range>44.9</range>
-        <soundCast>PNCannonSound</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <muzzleFlashScale>14</muzzleFlashScale>
-        <desc>Creates a small explosion on hit.</desc>
-        <label>HE</label>
-        <texPath>UI/Commands/HE</texPath>
-        <accuracyTouch>0</accuracyTouch>
-        <accuracyShort>0</accuracyShort>
-        <accuracyMedium>0</accuracyMedium>
-        <accuracyLong>0</accuracyLong>
-      </li>-->
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_AP</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <minRange>4.9</minRange>
+        <range>44.9</range>
+        <soundCast>PNCannonSound</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>PN_Cannon</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15.7</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+      <li>LongShots</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_Cannon_HE</defName>
+    <label>PnL portable cannon (HE)</label>
+    <description>portable cannon produced by PnL industry. It can fire high-explosive and penetrating rounds.</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>68000</WorkToMake>
+      <Mass>9.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNCannon_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNCannon_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,-0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,-0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,-0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,-0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>CompQuality</li>
+        </sharedComps>
+        <transformData>
+          <li>
+            <label>change AP shot</label>
+            <description>use AP bullet.</description>
+            <thingDef>PN_Cannon</thingDef>
+            <transformCooldown>120</transformCooldown>
+            <soundOnTransform>Interact_Rifle</soundOnTransform>
+          </li>
+        </transformData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_HE</defaultProjectile>
+        <forcedMissRadius>0.01</forcedMissRadius>
         <warmupTime>3.5</warmupTime>
         <minRange>4.9</minRange>
         <range>44.9</range>

@@ -141,24 +141,42 @@
   <PN_Revolver.tools.0.label>손잡이</PN_Revolver.tools.0.label>
   <PN_Revolver.tools.1.label>총열</PN_Revolver.tools.1.label>
   <PN_Bullet_Revolver_Volley.label>리볼버탄</PN_Bullet_Revolver_Volley.label>
-  <PN_Rifle.label>PnL 라이플</PN_Rifle.label>
+  <PN_Rifle.label>PnL 라이플 (신속)</PN_Rifle.label>
   <PN_Rifle.description>PnL Industry에서 생산한 레버 액션 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_Rifle.description>
-  <PN_Rifle.verbs.0.label>신속 사격</PN_Rifle.verbs.0.label>
-  <PN_Rifle.verbs.0.desc>빠르게 사격하지만 사정거리와 명중률이 낮습니다.</PN_Rifle.verbs.0.desc>
-  <PN_Rifle.verbs.1.label>정밀 사격</PN_Rifle.verbs.1.label>
-  <PN_Rifle.verbs.1.desc>느리게 사격하지만 사정거리와 명중률이 높습니다.</PN_Rifle.verbs.1.desc>
+  <PN_Rifle.comps.5.transformData.0.label>정밀사격으로 변경</PN_Rifle.comps.5.transformData.0.label>
+  <PN_Rifle.comps.5.transformData.0.description>정확도와 사거리가 증가하지만 조준속도가 느려집니다.</PN_Rifle.comps.5.transformData.0.description>
   <PN_Rifle.tools.0.label>개머리판</PN_Rifle.tools.0.label>
   <PN_Rifle.tools.1.label>총열</PN_Rifle.tools.1.label>
+  <PN_Rifle_Point.label>PnL 라이플 (정밀)</PN_Rifle_Point.label>
+  <PN_Rifle_Point.description>PnL Industry에서 생산한 레버 액션 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_Rifle_Point.description>
+  <PN_Rifle_Point.comps.5.transformData.0.label>신속사격으로 변경</PN_Rifle_Point.comps.5.transformData.0.label>
+  <PN_Rifle_Point.comps.5.transformData.0.description>정확도와 사거리가 감소하지만 조준속도가 빨라집니다.</PN_Rifle_Point.comps.5.transformData.0.description>
+  <PN_Rifle_Point.tools.0.label>개머리판</PN_Rifle_Point.tools.0.label>
+  <PN_Rifle_Point.tools.1.label>총열</PN_Rifle_Point.tools.1.label>
   <PN_Bullet_Rifle.label>라이플탄</PN_Bullet_Rifle.label>
   <PN_Machinegun.label>PnL 기관총</PN_Machinegun.label>
   <PN_Machinegun.description>PnL Industry에서 생산한 기관총.</PN_Machinegun.description>
   <PN_Machinegun.tools.0.label>총열</PN_Machinegun.tools.0.label>
+  <PN_Machinegun.comps.5.transformData.0.label>고정모드로 변경</PN_Machinegun.comps.5.transformData.0.label>
+  <PN_Machinegun.comps.5.transformData.0.description>기관총을 지면에 거치합니다. 거의 이동할 수 없지만 강력한 화력을 퍼부을 수 있습니다.</PN_Machinegun.comps.5.transformData.0.description>
+  <PN_Machinegun_Mount.label>PnL 기관총 (고정)</PN_Machinegun_Mount.label>
+  <PN_Machinegun_Mount.description>PnL Industry에서 생산한 기관총.</PN_Machinegun_Mount.description>
+  <PN_Machinegun_Mount.tools.0.label>총열</PN_Machinegun_Mount.tools.0.label>
+  <PN_Machinegun_Mount.comps.5.revertData.label>과열</PN_Machinegun_Mount.comps.5.revertData.label>
+  <PN_Machinegun_Mount.comps.5.revertData.description>게이지가 가득차면 운반 모드로 변경됩니다.</PN_Machinegun_Mount.comps.5.revertData.description>
+  <PN_Machinegun_Mount.comps.5.transformData.0.label>운반모드로 변경</PN_Machinegun_Mount.comps.5.transformData.0.label>
+  <PN_Machinegun_Mount.comps.5.transformData.0.description>운반할 수 있게 지면에서 기관총을 회수합니다.</PN_Machinegun_Mount.comps.5.transformData.0.description>
   <PN_Bullet_Machinegun.label>기관총탄</PN_Bullet_Machinegun.label>
-  <PN_Cannon.label>PnL 휴대용 캐논</PN_Cannon.label>
+  <PN_Cannon.label>PnL 휴대용 캐논 (AP)</PN_Cannon.label>
   <PN_Cannon.description>PnL Industry에서 생산한 휴대용 캐논. 고폭탄과 관통탄을 선택할 수 있습니다.</PN_Cannon.description>
-  <PN_Cannon.verbs.0.label>관통탄</PN_Cannon.verbs.0.label>
-  <PN_Cannon.verbs.1.label>고폭탄</PN_Cannon.verbs.1.label>
+  <PN_Cannon.comps.5.transformData.0.label>HE탄으로 변경</PN_Cannon.comps.5.transformData.0.label>
+  <PN_Cannon.comps.5.transformData.0.description>고폭탄으로 변경합니다.</PN_Cannon.comps.5.transformData.0.description>
   <PN_Cannon.tools.0.label>총열</PN_Cannon.tools.0.label>
+  <PN_Cannon_HE.label>PnL 휴대용 캐논 (HE)</PN_Cannon_HE.label>
+  <PN_Cannon_HE.description>PnL Industry에서 생산한 휴대용 캐논. 고폭탄과 관통탄을 선택할 수 있습니다.</PN_Cannon_HE.description>
+  <PN_Cannon_HE.comps.5.transformData.0.label>AP탄으로 변경</PN_Cannon_HE.comps.5.transformData.0.label>
+  <PN_Cannon_HE.comps.5.transformData.0.description>관통탄으로 변경합니다.</PN_Cannon_HE.comps.5.transformData.0.description>
+  <PN_Cannon_HE.tools.0.label>총열</PN_Cannon_HE.tools.0.label>
   <PN_Bullet_HE.label>고폭탄</PN_Bullet_HE.label>
   <PN_Bullet_AP.label>관통탄</PN_Bullet_AP.label>
   <PN_TwinPistol.label>PnL 트윈 피스톨</PN_TwinPistol.label>
@@ -167,24 +185,69 @@
   <PN_TwinPistol.tools.1.label>발차기</PN_TwinPistol.tools.1.label>
   <PN_TwinPistol.tools.2.label>근접사격</PN_TwinPistol.tools.2.label>
   <PN_Bullet_TwinPistol.label>트윈피스톨탄</PN_Bullet_TwinPistol.label>
-  <PN_RoyalRifle.label>PnL 로열 라이플</PN_RoyalRifle.label>
+  <PN_RoyalRifle.label>PnL 로열 라이플 (신속)</PN_RoyalRifle.label>
   <PN_RoyalRifle.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_RoyalRifle.description>
-  <PN_RoyalRifle.verbs.0.label>신속 사격</PN_RoyalRifle.verbs.0.label>
-  <PN_RoyalRifle.verbs.0.desc>빠르게 사격하지만 사정거리와 명중률이 낮습니다.</PN_RoyalRifle.verbs.0.desc>
-  <PN_RoyalRifle.verbs.1.label>정밀 사격</PN_RoyalRifle.verbs.1.label>
-  <PN_RoyalRifle.verbs.1.desc>느리게 사격하지만 사정거리와 명중률이 높습니다.</PN_RoyalRifle.verbs.1.desc>
   <PN_RoyalRifle.tools.0.label>개머리판</PN_RoyalRifle.tools.0.label>
   <PN_RoyalRifle.tools.1.label>총열</PN_RoyalRifle.tools.1.label>
+  <PN_RoyalRifle.comps.6.transformData.0.label>정밀사격으로 변경</PN_RoyalRifle.comps.6.transformData.0.label>
+  <PN_RoyalRifle.comps.6.transformData.0.description>정확도와 사거리가 증가하지만 조준속도가 느려집니다.</PN_RoyalRifle.comps.6.transformData.0.description>
+  <PN_RoyalRifle_Point.label>PnL 로열 라이플 (정밀)</PN_RoyalRifle_Point.label>
+  <PN_RoyalRifle_Point.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 라이플. 신속 사격 모드와 정밀 사격 모드를 선택할 수 있습니다.</PN_RoyalRifle_Point.description>
+  <PN_RoyalRifle_Point.tools.0.label>개머리판</PN_RoyalRifle_Point.tools.0.label>
+  <PN_RoyalRifle_Point.tools.1.label>총열</PN_RoyalRifle_Point.tools.1.label>
+  <PN_RoyalRifle_Point.comps.6.transformData.0.label>신속사격으로 변경</PN_RoyalRifle_Point.comps.6.transformData.0.label>
+  <PN_RoyalRifle_Point.comps.6.transformData.0.description>정확도와 사거리가 감소하지만 조준속도가 빨라집니다.</PN_RoyalRifle_Point.comps.6.transformData.0.description>
   <PN_Bullet_RoyalRifle.label>라이플탄</PN_Bullet_RoyalRifle.label>
-  <PN_RoyalLSW.label>PnL 멀티 런쳐</PN_RoyalLSW.label>
+  <PN_RoyalLSW.label>PnL 멀티 런쳐 (HE)</PN_RoyalLSW.label>
   <PN_RoyalLSW.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW.description>
-  <PN_RoyalLSW.verbs.0.label>폭발</PN_RoyalLSW.verbs.0.label>
-  <PN_RoyalLSW.verbs.1.label>소이</PN_RoyalLSW.verbs.1.label>
-  <PN_RoyalLSW.verbs.2.label>전자기</PN_RoyalLSW.verbs.2.label>
-  <PN_RoyalLSW.verbs.3.label>연막</PN_RoyalLSW.verbs.3.label>
-  <PN_RoyalLSW.verbs.4.label>소방거품</PN_RoyalLSW.verbs.4.label>
-  <PN_RoyalLSW.tools.0.label>개머리판</PN_RoyalLSW.tools.0.label>
-  <PN_RoyalLSW.tools.1.label>총열</PN_RoyalLSW.tools.1.label>
+  <PN_RoyalLSW.comps.5.transformData.0.label>소이탄으로 변경</PN_RoyalLSW.comps.5.transformData.0.label>
+  <PN_RoyalLSW.comps.5.transformData.0.description>소이탄으로 변경합니다.</PN_RoyalLSW.comps.5.transformData.0.description>
+  <PN_RoyalLSW.comps.5.transformData.1.label>EMP탄으로 변경</PN_RoyalLSW.comps.5.transformData.1.label>
+  <PN_RoyalLSW.comps.5.transformData.1.description>EMP탄으로 변경합니다.</PN_RoyalLSW.comps.5.transformData.1.description>
+  <PN_RoyalLSW.comps.5.transformData.2.label>연막탄으로 변경</PN_RoyalLSW.comps.5.transformData.2.label>
+  <PN_RoyalLSW.comps.5.transformData.2.description>연막탄으로 변경합니다.</PN_RoyalLSW.comps.5.transformData.2.description>
+  <PN_RoyalLSW.comps.5.transformData.3.label>소방거품탄으로 변경</PN_RoyalLSW.comps.5.transformData.3.label>
+  <PN_RoyalLSW.comps.5.transformData.3.description>소방거품탄으로 변경합니다.</PN_RoyalLSW.comps.5.transformData.3.description>
+  <PN_RoyalLSW_IE.label>PnL 멀티 런쳐 (소이)</PN_RoyalLSW_IE.label>
+  <PN_RoyalLSW_IE.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW_IE.description>
+  <PN_RoyalLSW_IE.comps.5.transformData.0.label>HE탄으로 변경</PN_RoyalLSW_IE.comps.5.transformData.0.label>
+  <PN_RoyalLSW_IE.comps.5.transformData.0.description>고폭탄으로 변경합니다.</PN_RoyalLSW_IE.comps.5.transformData.0.description>
+  <PN_RoyalLSW_IE.comps.5.transformData.1.label>EMP탄으로 변경</PN_RoyalLSW_IE.comps.5.transformData.1.label>
+  <PN_RoyalLSW_IE.comps.5.transformData.1.description>EMP탄으로 변경합니다.</PN_RoyalLSW_IE.comps.5.transformData.1.description>
+  <PN_RoyalLSW_IE.comps.5.transformData.2.label>연막탄으로 변경</PN_RoyalLSW_IE.comps.5.transformData.2.label>
+  <PN_RoyalLSW_IE.comps.5.transformData.2.description>연막탄으로 변경합니다.</PN_RoyalLSW_IE.comps.5.transformData.2.description>
+  <PN_RoyalLSW_IE.comps.5.transformData.3.label>소방거품탄으로 변경</PN_RoyalLSW_IE.comps.5.transformData.3.label>
+  <PN_RoyalLSW_IE.comps.5.transformData.3.description>소방거품탄으로 변경합니다.</PN_RoyalLSW_IE.comps.5.transformData.3.description>
+  <PN_RoyalLSW_EMP.label>PnL 멀티 런쳐 (EMP)</PN_RoyalLSW_EMP.label>
+  <PN_RoyalLSW_EMP.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW_EMP.description>
+  <PN_RoyalLSW_EMP.comps.5.transformData.0.label>HE탄으로 변경</PN_RoyalLSW_EMP.comps.5.transformData.0.label>
+  <PN_RoyalLSW_EMP.comps.5.transformData.0.description>고폭탄으로 변경합니다.</PN_RoyalLSW_EMP.comps.5.transformData.0.description>
+  <PN_RoyalLSW_EMP.comps.5.transformData.1.label>소이탄으로 변경</PN_RoyalLSW_EMP.comps.5.transformData.1.label>
+  <PN_RoyalLSW_EMP.comps.5.transformData.1.description>소이탄으로 변경합니다.</PN_RoyalLSW_EMP.comps.5.transformData.1.description>
+  <PN_RoyalLSW_EMP.comps.5.transformData.2.label>연막탄으로 변경</PN_RoyalLSW_EMP.comps.5.transformData.2.label>
+  <PN_RoyalLSW_EMP.comps.5.transformData.2.description>연막탄으로 변경합니다.</PN_RoyalLSW_EMP.comps.5.transformData.2.description>
+  <PN_RoyalLSW_EMP.comps.5.transformData.3.label>소방거품탄으로 변경</PN_RoyalLSW_EMP.comps.5.transformData.3.label>
+  <PN_RoyalLSW_EMP.comps.5.transformData.3.description>소방거품탄으로 변경합니다.</PN_RoyalLSW_EMP.comps.5.transformData.3.description>
+  <PN_RoyalLSW_Smoke.label>PnL 멀티 런쳐 (연막)</PN_RoyalLSW_Smoke.label>
+  <PN_RoyalLSW_Smoke.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW_Smoke.description>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.0.label>HE탄으로 변경</PN_RoyalLSW_Smoke.comps.5.transformData.0.label>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.0.description>고폭탄으로 변경합니다.</PN_RoyalLSW_Smoke.comps.5.transformData.0.description>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.1.label>소이탄으로 변경</PN_RoyalLSW_Smoke.comps.5.transformData.1.label>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.1.description>소이탄으로 변경합니다.</PN_RoyalLSW_Smoke.comps.5.transformData.1.description>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.2.label>EMP탄으로 변경</PN_RoyalLSW_Smoke.comps.5.transformData.2.label>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.2.description>EMP탄으로 변경합니다.</PN_RoyalLSW_Smoke.comps.5.transformData.2.description>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.3.label>소방거품탄으로 변경</PN_RoyalLSW_Smoke.comps.5.transformData.3.label>
+  <PN_RoyalLSW_Smoke.comps.5.transformData.3.description>소방거품탄으로 변경합니다.</PN_RoyalLSW_Smoke.comps.5.transformData.3.description>
+  <PN_RoyalLSW_FF.label>PnL 멀티 런쳐 (소방)</PN_RoyalLSW_FF.label>
+  <PN_RoyalLSW_FF.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n다양한 유탄을 발사할 수 있는 런쳐. 폭발, 소이, 전자기, 연막, 소방거품 유탄을 발사할 수 있습니다.</PN_RoyalLSW_FF.description>
+  <PN_RoyalLSW_FF.comps.5.transformData.0.label>HE탄으로 변경</PN_RoyalLSW_FF.comps.5.transformData.0.label>
+  <PN_RoyalLSW_FF.comps.5.transformData.0.description>고폭탄으로 변경합니다.</PN_RoyalLSW_FF.comps.5.transformData.0.description>
+  <PN_RoyalLSW_FF.comps.5.transformData.1.label>소이탄으로 변경</PN_RoyalLSW_FF.comps.5.transformData.1.label>
+  <PN_RoyalLSW_FF.comps.5.transformData.1.description>소이탄으로 변경합니다.</PN_RoyalLSW_FF.comps.5.transformData.1.description>
+  <PN_RoyalLSW_FF.comps.5.transformData.2.label>EMP탄으로 변경</PN_RoyalLSW_FF.comps.5.transformData.2.label>
+  <PN_RoyalLSW_FF.comps.5.transformData.2.description>EMP으로 변경합니다.</PN_RoyalLSW_FF.comps.5.transformData.2.description>
+  <PN_RoyalLSW_FF.comps.5.transformData.3.label>연막탄으로 변경</PN_RoyalLSW_FF.comps.5.transformData.3.label>
+  <PN_RoyalLSW_FF.comps.5.transformData.3.description>연막탄으로 변경합니다.</PN_RoyalLSW_FF.comps.5.transformData.3.description>
   <PN_Bullet_LSW_bomb.label>멀티런쳐 유탄</PN_Bullet_LSW_bomb.label>
   <PN_Bullet_LSW_Flame.label>멀티런쳐 유탄</PN_Bullet_LSW_Flame.label>
   <PN_Bullet_LSW_EMP.label>멀티런쳐 유탄</PN_Bullet_LSW_EMP.label>
@@ -241,10 +304,23 @@
   <PN_RoyalHeavySlug.tools.0.label>손잡이</PN_RoyalHeavySlug.tools.0.label>
   <PN_RoyalHeavySlug.tools.1.label>총열</PN_RoyalHeavySlug.tools.1.label>
   <PN_Bullet_HeavySlug.label>헤비슬러그탄</PN_Bullet_HeavySlug.label>
+
   <PN_RoyalMachinegun.label>PnL 로열 기관총</PN_RoyalMachinegun.label>
   <PN_RoyalMachinegun.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 기관총.</PN_RoyalMachinegun.description>
   <PN_RoyalMachinegun.tools.0.label>손잡이</PN_RoyalMachinegun.tools.0.label>
   <PN_RoyalMachinegun.tools.1.label>총열</PN_RoyalMachinegun.tools.1.label>
+  <PN_RoyalMachinegun.comps.6.transformData.0.label>고정모드로 변경</PN_RoyalMachinegun.comps.6.transformData.0.label>
+  <PN_RoyalMachinegun.comps.6.transformData.0.description>기관총을 지면에 거치합니다. 거의 이동할 수 없지만 강력한 화력을 퍼부을 수 있습니다.</PN_RoyalMachinegun.comps.6.transformData.0.description>
+  
+  <PN_RoyalMachinegun_Mount.label>PnL 로열 기관총 (고정)</PN_RoyalMachinegun_Mount.label>
+  <PN_RoyalMachinegun_Mount.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 기관총.</PN_RoyalMachinegun_Mount.description>
+  <PN_RoyalMachinegun_Mount.tools.0.label>손잡이</PN_RoyalMachinegun_Mount.tools.0.label>
+  <PN_RoyalMachinegun_Mount.tools.1.label>총열</PN_RoyalMachinegun_Mount.tools.1.label>
+  <PN_RoyalMachinegun_Mount.comps.6.revertData.label>과열</PN_RoyalMachinegun_Mount.comps.6.revertData.label>
+  <PN_RoyalMachinegun_Mount.comps.6.revertData.description>게이지가 가득차면 운반 모드로 변경됩니다.</PN_RoyalMachinegun_Mount.comps.6.revertData.description>
+  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>운반모드로 변경</PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>
+  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>운반할 수 있게 지면에서 기관총을 회수합니다.</PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>
+
   <PN_Bullet_RoyalMachinegun.label>로열기관총탄</PN_Bullet_RoyalMachinegun.label>
   <PN_RoyalHammer_Bladelink.label>PnL 스톰 해머</PN_RoyalHammer_Bladelink.label>
   <PN_RoyalHammer_Bladelink.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 워해머. 적을 타격하면 내장된 과충전 코어가 적을 감전시켜 전기 화상을 입힙니다.</PN_RoyalHammer_Bladelink.description>
