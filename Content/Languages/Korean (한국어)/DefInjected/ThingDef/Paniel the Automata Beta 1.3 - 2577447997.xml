@@ -334,7 +334,7 @@
   <PN_BrainCasingAntigrain.label>오토마톤 반물질 코어</PN_BrainCasingAntigrain.label>
   <PN_BrainCasingAntigrain.description>레일건에 사용하는 두뇌 코어.</PN_BrainCasingAntigrain.description>
   <PN_OTPCard.label>PnL OTP 카드</PN_OTPCard.label>
-  <PN_OTPCard.description>PnL Industry에서 보안 회선에 연결할때 사용하는 일회용 OTP 카드.</PN_OTPCard.description>
+  <PN_OTPCard.description>PnL Industry에서 보안 회선에 연결할때 사용하는 일회용 OTP 카드.\n\n통신기에서 PnL 로지스틱스에게 PnL 상선을 요청할때 사용합니다</PN_OTPCard.description>
   <PN_Railgun_Turret.label>PnL 곡사포 터렛</PN_Railgun_Turret.label>
   <PN_Railgun_Turret.description>PnL 인더스트리에서 디자인한 레일건. 오토마톤 두뇌 코어를 사용하여 반물질을 제어해 레일건에 필요한 전력을 생성합니다. 그러나 과도한 계산으로 코어가 과부화 되기 때문에 주기적으로 반물질 코어를 교체해야 합니다.\n\n곡사포와는 다르게 조준 보정 기능이 없습니다. 포탄에 내장된 부품이 이를 대신하지만 완벽하진 않습니다.</PN_Railgun_Turret.description>
   <PN_Railgun_Base_Core.comps.3.fuelLabel>코어 과부하까지 남은 발사 수</PN_Railgun_Base_Core.comps.3.fuelLabel>

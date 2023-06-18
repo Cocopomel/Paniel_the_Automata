@@ -528,6 +528,8 @@
     <equippedAngleOffset>45</equippedAngleOffset>
   </ThingDef>
 
+  <!--정밀-->
+
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Rifle_Point</defName>
     <label>PnL rifle (Point)</label>
@@ -613,7 +615,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>PN_Rifle</li>
+
     </weaponTags>
     <tools>
       <li>
@@ -865,7 +867,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>PN_Machinegun</li>
+
     </weaponTags>
     <tools>
       <li>
@@ -1098,7 +1100,7 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>PN_Cannon</li>
+
     </weaponTags>
     <tools>
       <li>

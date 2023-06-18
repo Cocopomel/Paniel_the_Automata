@@ -493,7 +493,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>PN_OTPCard</defName>
     <label>PnL OTP card</label>
-    <description>A disposable OTP card used to connect to a secure line in the PnL industry.</description>
+    <description>A disposable OTP card used to connect to a secure line in the PnL industry. \n\nIt is used to request a PnL trader ship by contacting PnL logistics from the Comms console.</description>
     <graphicData>
       <texPath>Things/Item/PNOTPCard</texPath>
       <graphicClass>Graphic_Single</graphicClass>
