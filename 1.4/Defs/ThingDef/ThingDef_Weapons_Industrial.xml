@@ -478,7 +478,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <transformData>
           <li>
@@ -589,7 +595,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <transformData>
           <li>
@@ -717,7 +729,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <transformData>
           <li>
@@ -829,7 +847,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <revertData>
           <label>overheating</label>
@@ -965,7 +989,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <transformData>
           <li>
@@ -1072,7 +1102,13 @@
       </li>
       <li Class="PN_ItemFormChange.CompPropertiesFormChange">
         <sharedComps>
-          <li>CompQuality</li>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
         </sharedComps>
         <transformData>
           <li>
