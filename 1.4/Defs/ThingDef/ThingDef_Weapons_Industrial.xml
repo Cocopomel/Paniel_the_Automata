@@ -693,7 +693,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -753,7 +753,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>PN_Bullet_Machinegun</defaultProjectile>
-        <warmupTime>1</warmupTime>
+        <warmupTime>1.8</warmupTime>
         <range>30.9</range>
         <burstShotCount>12</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -860,14 +860,14 @@
           <description>If it overheats, will return to carry mode.</description>
           <thingDef>PN_Machinegun</thingDef>
           <revertAfterTicks>1200</revertAfterTicks>
-          <transformCooldown>3600</transformCooldown>
+          <transformCooldown>4800</transformCooldown>
         </revertData>
         <transformData>
           <li>
             <label>change carry mode</label>
             <description>Retrieves the machinegun for carry.</description>
             <thingDef>PN_Machinegun</thingDef>
-            <transformCooldown>3600</transformCooldown>
+            <transformCooldown>4800</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
           </li>
         </transformData>
