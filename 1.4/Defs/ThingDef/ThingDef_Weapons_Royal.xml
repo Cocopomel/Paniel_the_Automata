@@ -503,7 +503,7 @@
     <label>PnL rifle bullet</label>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>22</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.38</armorPenetrationBase>
       <speed>100</speed>
