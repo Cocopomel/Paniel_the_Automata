@@ -860,15 +860,15 @@
           <label>overheating</label>
           <description>If it overheats, will return to carry mode.</description>
           <thingDef>PN_Machinegun</thingDef>
-          <revertAfterTicks>1200</revertAfterTicks>
-          <transformCooldown>4800</transformCooldown>
+          <revertAfterTicks>900</revertAfterTicks>
+          <transformCooldown>4500</transformCooldown>
         </revertData>
         <transformData>
           <li>
             <label>change carry mode</label>
             <description>Retrieves the machinegun for carry.</description>
             <thingDef>PN_Machinegun</thingDef>
-            <transformCooldown>4800</transformCooldown>
+            <transformCooldown>4500</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
           </li>
         </transformData>
