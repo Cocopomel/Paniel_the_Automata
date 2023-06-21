@@ -87,8 +87,8 @@
       <turretGunDef>PN_Artillery_Turret</turretGunDef>
       <turretTopDrawSize>3.0</turretTopDrawSize>
       <turretTopOffset>(0, 0.35)</turretTopOffset>
-      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
-      <turretBurstCooldownTime>7.0</turretBurstCooldownTime>
+      <turretBurstWarmupTime>1.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>14.0</turretBurstCooldownTime>
       <buildingTags Inherit="false">
       </buildingTags>
     </building>
