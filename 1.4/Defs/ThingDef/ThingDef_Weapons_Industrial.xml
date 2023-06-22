@@ -495,6 +495,8 @@
             <thingDef>PN_Rifle_Point</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Snipe</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -613,6 +615,8 @@
             <thingDef>PN_Rifle</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Pew</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -748,6 +752,8 @@
             <thingDef>PN_Machinegun_Mount</thingDef>
             <transformCooldown>120</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/MG_Mount</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -764,9 +770,6 @@
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
       </li>
     </verbs>
     <weaponTags>
@@ -866,6 +869,8 @@
           <thingDef>PN_Machinegun</thingDef>
           <revertAfterTicks>900</revertAfterTicks>
           <transformCooldown>4500</transformCooldown>
+          <iconPath>UI/Commands/MG_Mount</iconPath>
+          <iconSize>1</iconSize>
         </revertData>
         <transformData>
           <li>
@@ -874,6 +879,8 @@
             <thingDef>PN_Machinegun</thingDef>
             <transformCooldown>4500</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/MG_Carry</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -890,9 +897,6 @@
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
       </li>
     </verbs>
     <weaponTags>
@@ -1010,6 +1014,8 @@
             <thingDef>PN_Cannon_HE</thingDef>
             <transformCooldown>120</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/HE</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1049,6 +1055,8 @@
       <li>LongShots</li>
     </weaponClasses>
   </ThingDef>
+
+  <!--고폭탄캐논-->
 
   <ThingDef ParentName="PN_BaseMakeableGun">
     <defName>PN_Cannon_HE</defName>
@@ -1124,6 +1132,8 @@
             <thingDef>PN_Cannon</thingDef>
             <transformCooldown>120</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/AP</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1140,6 +1150,9 @@
         <soundCast>PNCannonSound</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
       </li>
     </verbs>
     <weaponTags>

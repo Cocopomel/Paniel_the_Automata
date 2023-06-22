@@ -332,6 +332,8 @@
             <thingDef>PN_RoyalRifle_Point</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Snipe</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -456,6 +458,8 @@
             <thingDef>PN_RoyalRifle</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Pew</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -720,6 +724,8 @@
             <thingDef>PN_RoyalMachinegun_Mount</thingDef>
             <transformCooldown>120</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/MG_Mount</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -736,9 +742,6 @@
         <soundCast>PNRoyalMachinegunSound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
       </li>
     </verbs>
     <weaponTags>
@@ -842,6 +845,8 @@
           <thingDef>PN_RoyalMachinegun</thingDef>
           <revertAfterTicks>900</revertAfterTicks>
           <transformCooldown>4500</transformCooldown>
+          <iconPath>UI/Commands/MG_Mount</iconPath>
+          <iconSize>1</iconSize>
         </revertData>
         <transformData>
           <li>
@@ -850,6 +855,8 @@
             <thingDef>PN_RoyalMachinegun</thingDef>
             <transformCooldown>4500</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/MG_Carry</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -866,9 +873,6 @@
         <soundCast>PNRoyalMachinegunSound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
       </li>
     </verbs>
     <weaponTags>
@@ -987,6 +991,8 @@
             <thingDef>PN_RoyalLSW_IE</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Flame</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change EMP shell</label>
@@ -994,6 +1000,8 @@
             <thingDef>PN_RoyalLSW_EMP</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/EMP</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Smoke shell</label>
@@ -1001,6 +1009,8 @@
             <thingDef>PN_RoyalLSW_Smoke</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Smoke</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Firefoam shell</label>
@@ -1008,6 +1018,8 @@
             <thingDef>PN_RoyalLSW_FF</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/FF</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1130,6 +1142,8 @@
             <thingDef>PN_RoyalLSW</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/HE</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change EMP shell</label>
@@ -1137,6 +1151,8 @@
             <thingDef>PN_RoyalLSW_EMP</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/EMP</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Smoke shell</label>
@@ -1144,6 +1160,8 @@
             <thingDef>PN_RoyalLSW_Smoke</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Smoke</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Firefoam shell</label>
@@ -1151,6 +1169,8 @@
             <thingDef>PN_RoyalLSW_FF</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/FF</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1273,6 +1293,8 @@
             <thingDef>PN_RoyalLSW</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/HE</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Incendiary shell</label>
@@ -1280,6 +1302,8 @@
             <thingDef>PN_RoyalLSW_IE</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Flame</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Smoke shell</label>
@@ -1287,6 +1311,8 @@
             <thingDef>PN_RoyalLSW_Smoke</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Smoke</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Firefoam shell</label>
@@ -1294,6 +1320,8 @@
             <thingDef>PN_RoyalLSW_FF</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/FF</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1416,6 +1444,8 @@
             <thingDef>PN_RoyalLSW</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/HE</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Incendiary shell</label>
@@ -1423,6 +1453,8 @@
             <thingDef>PN_RoyalLSW_IE</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Flame</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change EMP shell</label>
@@ -1430,6 +1462,8 @@
             <thingDef>PN_RoyalLSW_EMP</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/EMP</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Firefoam shell</label>
@@ -1437,6 +1471,8 @@
             <thingDef>PN_RoyalLSW_FF</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/FF</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
@@ -1559,6 +1595,8 @@
             <thingDef>PN_RoyalLSW</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/HE</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Incendiary shell</label>
@@ -1566,6 +1604,8 @@
             <thingDef>PN_RoyalLSW_IE</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Flame</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change EMP shell</label>
@@ -1573,6 +1613,8 @@
             <thingDef>PN_RoyalLSW_EMP</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/EMP</iconPath>
+            <iconSize>1</iconSize>
           </li>
           <li>
             <label>change Smoke shell</label>
@@ -1580,6 +1622,8 @@
             <thingDef>PN_RoyalLSW_Smoke</thingDef>
             <transformCooldown>30</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
+            <iconPath>UI/Commands/Smoke</iconPath>
+            <iconSize>1</iconSize>
           </li>
         </transformData>
       </li>
