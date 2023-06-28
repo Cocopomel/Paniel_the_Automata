@@ -163,9 +163,14 @@
   <PN_Machinegun_Mount.description>PnL Industry에서 생산한 기관총.</PN_Machinegun_Mount.description>
   <PN_Machinegun_Mount.tools.0.label>총열</PN_Machinegun_Mount.tools.0.label>
   <PN_Machinegun_Mount.comps.5.revertData.label>과열</PN_Machinegun_Mount.comps.5.revertData.label>
-  <PN_Machinegun_Mount.comps.5.revertData.description>게이지가 가득차면 운반 모드로 변경됩니다.</PN_Machinegun_Mount.comps.5.revertData.description>
-  <PN_Machinegun_Mount.comps.5.transformData.0.label>운반모드로 변경</PN_Machinegun_Mount.comps.5.transformData.0.label>
-  <PN_Machinegun_Mount.comps.5.transformData.0.description>운반할 수 있게 지면에서 기관총을 회수합니다.</PN_Machinegun_Mount.comps.5.transformData.0.description>
+  <PN_Machinegun_Mount.comps.5.revertData.description>게이지가 가득차면 냉각 모드로 변경됩니다.</PN_Machinegun_Mount.comps.5.revertData.description>
+  <PN_Machinegun_Mount.comps.5.transformData.0.label>긴급 철수</PN_Machinegun_Mount.comps.5.transformData.0.label>
+  <PN_Machinegun_Mount.comps.5.transformData.0.description>기관총을 회수하고 긴급히 움직입니다. 냉각 패널티는 그대로 적용됩니다.</PN_Machinegun_Mount.comps.5.transformData.0.description>
+  <PN_Machinegun_Overheated.label>PnL 기관총 (과열됨)</PN_Machinegun_Overheated.label>
+  <PN_Machinegun_Overheated.description>PnL Industry에서 생산한 기관총.</PN_Machinegun_Overheated.description>
+  <PN_Machinegun_Overheated.tools.0.label>총열</PN_Machinegun_Overheated.tools.0.label>
+  <PN_Machinegun_Overheated.comps.5.revertData.label>냉각</PN_Machinegun_Overheated.comps.5.revertData.label>
+  <PN_Machinegun_Overheated.comps.5.revertData.description>냉각이 완료되면 성능이 정상으로 돌아옵니다.</PN_Machinegun_Overheated.comps.5.revertData.description>
   <PN_Bullet_Machinegun.label>기관총탄</PN_Bullet_Machinegun.label>
   <PN_Cannon.label>PnL 휴대용 캐논 (AP)</PN_Cannon.label>
   <PN_Cannon.description>PnL Industry에서 생산한 휴대용 캐논. 고폭탄과 관통탄을 선택할 수 있습니다.</PN_Cannon.description>
@@ -317,9 +322,16 @@
   <PN_RoyalMachinegun_Mount.tools.0.label>손잡이</PN_RoyalMachinegun_Mount.tools.0.label>
   <PN_RoyalMachinegun_Mount.tools.1.label>총열</PN_RoyalMachinegun_Mount.tools.1.label>
   <PN_RoyalMachinegun_Mount.comps.6.revertData.label>과열</PN_RoyalMachinegun_Mount.comps.6.revertData.label>
-  <PN_RoyalMachinegun_Mount.comps.6.revertData.description>게이지가 가득차면 운반 모드로 변경됩니다.</PN_RoyalMachinegun_Mount.comps.6.revertData.description>
-  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>운반모드로 변경</PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>
-  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>운반할 수 있게 지면에서 기관총을 회수합니다.</PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>
+  <PN_RoyalMachinegun_Mount.comps.6.revertData.description>게이지가 가득차면 냉각 모드로 변경됩니다.</PN_RoyalMachinegun_Mount.comps.6.revertData.description>
+  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>긴급 철수</PN_RoyalMachinegun_Mount.comps.6.transformData.0.label>
+  <PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>기관총을 회수하고 긴급히 움직입니다. 냉각 패널티는 그대로 적용됩니다.</PN_RoyalMachinegun_Mount.comps.6.transformData.0.description>
+
+  <PN_RoyalMachinegun_Overheated.label>PnL 로열 기관총 (과열됨)</PN_RoyalMachinegun_Overheated.label>
+  <PN_RoyalMachinegun_Overheated.description>[주의] : 이 무기는 오토마톤 전용입니다.\n\n근위대에서 사용하기 위해 PnL Industry에서 제작한 기관총.</PN_RoyalMachinegun_Overheated.description>
+  <PN_RoyalMachinegun_Overheated.tools.0.label>손잡이</PN_RoyalMachinegun_Overheated.tools.0.label>
+  <PN_RoyalMachinegun_Overheated.tools.1.label>총열</PN_RoyalMachinegun_Overheated.tools.1.label>
+  <PN_RoyalMachinegun_Overheated.comps.6.revertData.label>냉각</PN_RoyalMachinegun_Overheated.comps.6.revertData.label>
+  <PN_RoyalMachinegun_Overheated.comps.6.revertData.description>냉각이 완료되면 성능이 정상으로 돌아옵니다.</PN_RoyalMachinegun_Overheated.comps.6.revertData.description>
 
   <PN_Bullet_RoyalMachinegun.label>로열기관총탄</PN_Bullet_RoyalMachinegun.label>
   <PN_RoyalHammer_Bladelink.label>PnL 스톰 해머</PN_RoyalHammer_Bladelink.label>

@@ -773,7 +773,7 @@
       </li>
     </verbs>
     <weaponTags>
-
+      <li>PN_Machinegun</li>
     </weaponTags>
     <tools>
       <li>
@@ -865,21 +865,21 @@
         </sharedComps>
         <revertData>
           <label>overheating</label>
-          <description>If it overheats, will return to carry mode.</description>
-          <thingDef>PN_Machinegun</thingDef>
-          <revertAfterTicks>900</revertAfterTicks>
-          <transformCooldown>4500</transformCooldown>
-          <iconPath>UI/Commands/MG_Mount</iconPath>
+          <description>If it overheats, will change to cooling mode.</description>
+          <thingDef>PN_Machinegun_Overheated</thingDef>
+          <revertAfterTicks>800</revertAfterTicks>
+          <transformCooldown>2000</transformCooldown>
+          <iconPath>UI/Commands/MG_overheat</iconPath>
           <iconSize>1</iconSize>
         </revertData>
         <transformData>
           <li>
-            <label>change carry mode</label>
-            <description>Retrieves the machinegun for carry.</description>
-            <thingDef>PN_Machinegun</thingDef>
-            <transformCooldown>4500</transformCooldown>
+            <label>emergency withdrawal</label>
+            <description>Fold the mount and move urgently. Cooling penalty still applies.</description>
+            <thingDef>PN_Machinegun_Overheated</thingDef>
+            <transformCooldown>2000</transformCooldown>
             <soundOnTransform>Interact_Rifle</soundOnTransform>
-            <iconPath>UI/Commands/MG_Carry</iconPath>
+            <iconPath>UI/Commands/MG_withdrawal</iconPath>
             <iconSize>1</iconSize>
           </li>
         </transformData>
@@ -915,6 +915,122 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <equippedStatOffsets>
       <MoveSpeed>-99</MoveSpeed>
+    </equippedStatOffsets>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+  </ThingDef>
+
+  <!--과열-->
+
+  <ThingDef ParentName="PN_BaseMakeableGun">
+    <defName>PN_Machinegun_Overheated</defName>
+    <label>PnL machine gun (overheated)</label>
+    <description>Machine gun produced by PnL industry.</description>
+    <graphicData>
+      <texPath>Things/Weapons/PNMachinegun_carry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <thingSetMakerTags Inherit="false">
+
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.35</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.28</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="SYS.CompProperties_Sheath">
+        <sheathOnlyGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Sheath</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </sheathOnlyGraphicData>
+        <fullGraphicData>
+          <texPath>Things/Weapons/SYS/PNMachinegun_Full</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+        </fullGraphicData>
+        <drawPosition>Back</drawPosition>
+        <northOffset>
+          <position>(0,0.3,0.05)</position>
+          <angle>25</angle>
+        </northOffset>
+        <southOffset>
+          <position>(0,-0.3,0.05)</position>
+          <angle>-25</angle>
+        </southOffset>
+        <eastOffset>
+          <position>(-0.15,-0.3,0.05)</position>
+          <angle>70</angle>
+        </eastOffset>
+        <westOffset>
+          <position>(0.15,-0.3,0.05)</position>
+          <angle>-70</angle>
+        </westOffset>
+      </li>
+      <li Class="PN_ItemFormChange.CompPropertiesFormChange">
+        <sharedComps>
+          <li>RimWorld.CompProperties_Styleable</li>
+          <li>RimWorld.CompStyleable</li>
+          <li>RimWorld.CompProperties_Biocodable</li>
+          <li>RimWorld.CompBiocodable</li>
+          <li>RimWorld.CompQuality</li>
+          <li>RimWorld.CompProperties_Art</li>
+          <li>RimWorld.CompArt</li>
+          <li MayRequire="Mlie.YayosCombat3">RimWorld.CompReloadable</li>
+        </sharedComps>
+        <revertData>
+          <label>Cooling</label>
+          <description>Performance returns to normal when cooling is complete.</description>
+          <thingDef>PN_Machinegun</thingDef>
+          <revertAfterTicks>1700</revertAfterTicks>
+          <transformCooldown>2500</transformCooldown>
+          <iconPath>UI/Commands/MG_cooling</iconPath>
+          <iconSize>1</iconSize>
+        </revertData>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>PN_Bullet_Machinegun</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>30.9</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-1.00</MoveSpeed>
     </equippedStatOffsets>
     <weaponClasses>
       <li>RangedHeavy</li>
