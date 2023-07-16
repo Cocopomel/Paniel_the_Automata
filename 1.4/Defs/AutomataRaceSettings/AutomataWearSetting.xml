@@ -2,7 +2,9 @@
 <Defs>
   <AutomataWearSetting.WearSettingDef>
     <defName>PN_WearSetting_OfficerModule</defName>
-    <targetRace>Paniel_Race</targetRace>
+    <targetRaces>
+      <li>Paniel_Race</li>
+    </targetRaces>
     <wearSetting>
 
       <!--지휘 모듈-->
