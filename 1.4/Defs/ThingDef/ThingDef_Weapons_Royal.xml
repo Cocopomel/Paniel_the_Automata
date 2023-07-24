@@ -910,14 +910,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>PNRP_RoyalWeapons</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
+    <recipeMaker Inherit="false">
+
     </recipeMaker>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
+    <thingSetMakerTags Inherit="false">
+
     </thingSetMakerTags>
     <statBases>
       <WorkToMake>75000</WorkToMake>
@@ -999,7 +996,7 @@
       </li>
     </verbs>
     <weaponTags>
-      
+
     </weaponTags>
     <tools>
       <li>
