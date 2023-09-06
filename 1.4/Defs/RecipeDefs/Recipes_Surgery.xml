@@ -111,6 +111,7 @@
     <workAmount>2000</workAmount>
     <isViolation>true</isViolation>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
     <researchPrerequisite>PNRP_Brain</researchPrerequisite>
     <uiIconThing>PN_Brain</uiIconThing>
     <ingredients>
