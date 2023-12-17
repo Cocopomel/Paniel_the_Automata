@@ -397,5 +397,17 @@
   <PN_ControlSublinkHigh.label>오토마톤 통제 서브링크 (상급)</PN_ControlSublinkHigh.label>
   <PN_ControlSublinkHigh.description>오토마톤용으로 개조된 통제 서브링크 (상급)입니다.</PN_ControlSublinkHigh.description>
   <PN_ControlSublinkHigh.comps.2.useLabel>통제 서브링크 (상급) 설치</PN_ControlSublinkHigh.comps.2.useLabel>
+  <PN_RemoteRepairer.label>오토마톤 원격 수리기</PN_RemoteRepairer.label>
+  <PN_RemoteRepairer.description>오토마톤용으로 개조된 원격 수리기입니다.</PN_RemoteRepairer.description>
+  <PN_RemoteRepairer.comps.2.useLabel>원격 수리기 설치</PN_RemoteRepairer.comps.2.useLabel>
+  <PN_MechFormfeeder.label>오토마톤 배양 연산기</PN_MechFormfeeder.label>
+  <PN_MechFormfeeder.description>오토마톤용으로 개조된 배양 연산기입니다.</PN_MechFormfeeder.description>
+  <PN_MechFormfeeder.comps.2.useLabel>배양 연산기 설치</PN_MechFormfeeder.comps.2.useLabel>
+  <PN_RemoteShielder.label>오토마톤 원격 보호막 생성기</PN_RemoteShielder.label>
+  <PN_RemoteShielder.description>오토마톤용으로 개조된 원격 보호막 생성기입니다.</PN_RemoteShielder.description>
+  <PN_RemoteShielder.comps.2.useLabel>원격 보호막 생성기 설치</PN_RemoteShielder.comps.2.useLabel>
+  <PN_RepairProbe.label>오토마톤 수리 탐침기</PN_RepairProbe.label>
+  <PN_RepairProbe.description>오토마톤용으로 개조된 수리 탐침기입니다.</PN_RepairProbe.description>
+  <PN_RepairProbe.comps.2.useLabel>수리 탐침기 설치</PN_RepairProbe.comps.2.useLabel>
 
 </LanguageData>

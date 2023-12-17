@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!--오토마톤 메카링크-->
+  <!--오토마톤 메크링크-->
   <ThingDef ParentName="MechanitorImplantBase">
     <defName>PN_Mechlink</defName>
     <label>automaton mechlink</label>
@@ -81,7 +81,38 @@
     <researchPrerequisite>PNRP_Mechlink</researchPrerequisite>
   </RecipeDef>
 
-  <ThingDef ParentName="ControlSublinkBase">
+  <!--오토마톤 서브링크-->
+  <ThingDef Abstract="True" Name="PN_MechanitorImplantBase" ParentName="MechanitorImplantBase">
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>-4</Beauty>
+      <Mass>1</Mass>
+      <MarketValue>1200</MarketValue>
+      <DeteriorationRate>0</DeteriorationRate>
+      <WorkToMake>3200</WorkToMake>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+      <color>(154,124,104)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <tradeability>None</tradeability>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="PN_ControlSublinkBase" ParentName="PN_MechanitorImplantBase">
+    <descriptionHyperlinks>
+      <HediffDef>ControlSublinkImplant</HediffDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MaxInstallCount>3</MaxInstallCount>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_ControlSublinkBase">
     <defName>PN_ControlSublink</defName>
     <label>automaton control sublink (standard)</label>
     <description>This is a modified control sublink (standard) for automaton.</description>
@@ -89,9 +120,6 @@
       <SignalChip>1</SignalChip>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
-    <recipeMaker>
-      <researchPrerequisite>StandardMechtech</researchPrerequisite>
-    </recipeMaker>
     <comps>
       <li Class="CompProperties_Usable">
         <compClass>CompUsableImplant</compClass>
@@ -107,8 +135,8 @@
       </li>
     </comps>
   </ThingDef>
-  
-  <ThingDef ParentName="ControlSublinkBase">
+
+  <ThingDef ParentName="PN_ControlSublinkBase">
     <defName>PN_ControlSublinkHigh</defName>
     <label>automaton control sublink (high)</label>
     <description>This is a modified control sublink (high) for automaton.</description>
@@ -117,9 +145,6 @@
       <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>3</ComponentSpacer>
     </costList>
-    <recipeMaker>
-      <researchPrerequisite>HighMechtech</researchPrerequisite>
-    </recipeMaker>
     <comps>
       <li Class="CompProperties_Usable">
         <compClass>CompUsableImplant</compClass>
@@ -211,6 +236,290 @@
     </ingredients>
     <products>
       <PN_ControlSublinkHigh>1</PN_ControlSublinkHigh>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>PNRP_Mechlink</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Remote repairer -->
+  <ThingDef ParentName="PN_MechanitorImplantBase">
+    <defName>PN_RemoteRepairer</defName>
+    <label>automaton remote repairer</label>
+    <description>This is a modified remote repairer for automaton.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RemoteRepairerImplant</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <PowerfocusChip>1</PowerfocusChip>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxInstallCount>3</MaxInstallCount>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Implant {0_label}</useLabel>
+        <userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>RemoteRepairerImplant</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <canUpgrade>true</canUpgrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_RemoteRepairer_Automaton</defName>
+    <label>make automaton remote repairer</label>
+    <description>make automaton remote repairer</description>
+    <jobString>Making automaton remote repairer.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2000</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RemoteRepairer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_RemoteRepairer>1</PN_RemoteRepairer>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>PNRP_Mechlink</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Mech gestation processorr -->
+  <ThingDef ParentName="PN_MechanitorImplantBase">
+    <defName>PN_MechFormfeeder</defName>
+    <label>automaton mech gestation processor</label>
+    <description>This is a modified mech gestation processor for automaton.</description>
+    <descriptionHyperlinks>
+      <HediffDef>MechFormfeederImplant</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <SignalChip>1</SignalChip>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxInstallCount>6</MaxInstallCount>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Implant {0_label}</useLabel>
+        <userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>MechFormfeederImplant</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <canUpgrade>true</canUpgrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_MechFormfeeder_Automaton</defName>
+    <label>make automaton mech gestation processor</label>
+    <description>make automaton mech gestation processor</description>
+    <jobString>Making automaton mech gestation processor.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2000</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MechFormfeeder</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_MechFormfeeder>1</PN_MechFormfeeder>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>PNRP_Mechlink</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Remote shielder -->
+  <ThingDef ParentName="PN_MechanitorImplantBase">
+    <defName>PN_RemoteShielder</defName>
+    <label>automaton remote shielder</label>
+    <description>This is a modified remote shielder for automaton.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RemoteShielderImplant</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <PowerfocusChip>1</PowerfocusChip>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxInstallCount>3</MaxInstallCount>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Implant {0_label}</useLabel>
+        <userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>RemoteShielderImplant</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <canUpgrade>true</canUpgrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_RemoteShielder_Automaton</defName>
+    <label>make automaton remote shielder</label>
+    <description>make automaton remote shielder</description>
+    <jobString>Making automaton remote shielder.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2000</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RemoteShielder</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_RemoteShielder>1</PN_RemoteShielder>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>PNRP_Mechlink</researchPrerequisite>
+  </RecipeDef>
+
+  <!-- Repair probe -->
+  <ThingDef ParentName="PN_MechanitorImplantBase">
+    <defName>PN_RepairProbe</defName>
+    <label>automaton repair probe</label>
+    <description>This is a modified repair probe for automaton.</description>
+    <descriptionHyperlinks>
+      <HediffDef>RepairProbeImplant</HediffDef>
+    </descriptionHyperlinks>
+    <costList>
+      <NanostructuringChip>1</NanostructuringChip>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxInstallCount>6</MaxInstallCount>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Implant {0_label}</useLabel>
+        <userMustHaveHediff>MechlinkImplant</userMustHaveHediff>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>RepairProbeImplant</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <canUpgrade>true</canUpgrade>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_RepairProbe_Automaton</defName>
+    <label>make automaton repair probe</label>
+    <description>make automaton repair probe</description>
+    <jobString>Making automaton repair probe.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2000</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RepairProbe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_RepairProbe>1</PN_RepairProbe>
     </products>
     <skillRequirements>
       <Crafting>6</Crafting>
