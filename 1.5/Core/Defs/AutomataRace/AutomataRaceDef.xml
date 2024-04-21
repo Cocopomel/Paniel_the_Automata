@@ -121,88 +121,46 @@
             </li>
 
 						<!-- 슬립 페이스 -->
-						<!--<li>
+						<li>
               <drawSize>1</drawSize>
-              <path>Paniel/Heads/Face/Face</path>
-              <bodyPart>PNHead</bodyPart>
+              <path>Paniel/Heads/PNSleep/PNSleep</path>
               <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>false</inFrontOfBody>
+              <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <colorChannel>skin</colorChannel>
-              <drawnInBed>false</drawnInBed>
-              <drawnDesiccated>false</drawnDesiccated>
               <alignWithHead>true</alignWithHead>
-              <angle>0</angle>
+              <conditions>
+								<RotStage>Fresh,Rotting,Dessicated</RotStage>
+								<BodyPart>
+									<bodyPart>PNHead</bodyPart>
+								</BodyPart>
+								<Posture>
+									<drawnStanding>false</drawnStanding>
+									<drawnLaying>true</drawnLaying>
+									<drawnInBed>true</drawnInBed>
+								</Posture>
+							</conditions>
               <offsets>
                 <north>
-                  <layerOffset>-0.275</layerOffset>
+                  <layerOffset>-0.276</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </north>
                 <south>
-                  <layerOffset>-0.325</layerOffset>
+                  <layerOffset>-0.276</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </south>
                 <east>
-                  <layerOffset>-0.325</layerOffset>
+                  <layerOffset>-0.276</layerOffset>
                   <bodyTypes>
                     <Female>(0,0)</Female>
                   </bodyTypes>
                 </east>
               </offsets>
-              <jobs>
-                <drawNoJob>false</drawNoJob>
-                <jobs>
-                  <li>
-                    <job>LayDown</job>
-                    <drawPostures>
-                      <li>
-                        <key>LayingInBed</key>
-                        <value>false</value>
-                      </li>
-                      <li>
-                        <key>LayingOnGroundFaceUp</key>
-                        <value>false</value>
-                      </li>
-                      <li>
-                        <key>LayingOnGroundNormal</key>
-                        <value>false</value>
-                      </li>
-                    </drawPostures>
-                    <drawMoving>true</drawMoving>
-                    <drawUnmoving>false</drawUnmoving>
-                  </li>
-                  <li>
-                    <job>Wait_Downed</job>
-                    <drawPostures>
-                      <li>
-                        <key>LayingInBed</key>
-                        <value>false</value>
-                      </li>
-                      <li>
-                        <key>LayingOnGroundFaceUp</key>
-                        <value>false</value>
-                      </li>
-                      <li>
-                        <key>LayingOnGroundNormal</key>
-                        <value>false</value>
-                      </li>
-                    </drawPostures>
-                    <drawMoving>true</drawMoving>
-                    <drawUnmoving>false</drawUnmoving>
-                  </li>
-                </jobs>
-              </jobs>
-              <hiddenUnderApparelTag>
-                <li MayRequire="Ludeon.RimWorld.Ideology">PN_Burka</li>
-              </hiddenUnderApparelTag>
-              <backstoryGraphics>
-                <Paniel_Awful_Backstory>Paniel/Heads/Face/RareFace/AwflFace</Paniel_Awful_Backstory>
-              </backstoryGraphics>
-            </li>-->
+            </li>
 
 						<li>
               <drawSize>1</drawSize>
