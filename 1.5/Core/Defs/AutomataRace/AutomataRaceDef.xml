@@ -8,7 +8,7 @@
 		<tradeability>None</tradeability>
 		<alienRace>
 			<generalSettings>
-				<maleGenderProbability>0.00000000001</maleGenderProbability>
+				<maleGenderProbability>0</maleGenderProbability>
 				<immuneToAge>false</immuneToAge>
 				<maxDamageForSocialfight>8</maxDamageForSocialfight>				<!--사회적 싸움 최대 데미지-->
 				<minAgeForAdulthood>0</minAgeForAdulthood>				<!--성인 배경 최소나이-->
@@ -498,7 +498,7 @@
 			<meatColor>(255, 255, 255)</meatColor>
 			<!-- Gore -->
 			<nameCategory>HumanStandard</nameCategory>
-			<hasGenders>true</hasGenders>
+			<hasGenders>false</hasGenders>
 			<body>PanielBody</body>
 			<baseHungerRate>1</baseHungerRate>			<!--배고픔-->
 			<baseBodySize>1</baseBodySize>

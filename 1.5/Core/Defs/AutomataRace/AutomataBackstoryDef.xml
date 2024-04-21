@@ -2,7 +2,6 @@
 <Defs>
 	
 	<AlienRace.AlienBackstoryDef Name="BasePanielBackStory" Abstract="True">
-		<maleCommonality>0</maleCommonality>
 		<forcedHediffs>
 
 		</forcedHediffs>
