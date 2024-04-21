@@ -457,7 +457,7 @@
 			<!-- Gore -->
 			<nameCategory>HumanStandard</nameCategory>
 			<hasGenders>false</hasGenders>
-			<body>PanielBody</body>
+			<body>PNBody</body>
 			<baseHungerRate>1</baseHungerRate>			<!--배고픔-->
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1.0</baseHealthScale>			<!--몸빵-->
@@ -539,7 +539,7 @@
 				</points>
 			</ageGenerationCurve>
 			<hediffGiverSets>
-				<li>Human</li>
+				<li>PN_HediffGiverSet</li>
 			</hediffGiverSets>
 			<renderTree>Humanlike</renderTree>
 		</race>

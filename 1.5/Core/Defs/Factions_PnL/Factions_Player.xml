@@ -13,7 +13,7 @@
     <label>Test Subject</label>
     <description>This is the settlement where PnL industry is experimenting.</description>
     <isPlayer>true</isPlayer>
-    <basicMemberKind>Paniel_ColonistPawn</basicMemberKind>
+    <basicMemberKind>PN_ColonistPawn</basicMemberKind>
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>

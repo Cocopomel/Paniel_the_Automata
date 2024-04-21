@@ -3,7 +3,8 @@
 	
 	<AlienRace.AlienBackstoryDef Name="BasePanielBackStory" Abstract="True">
 		<forcedHediffs>
-
+			<li>PN_Immune_System</li>
+			<li>PN_Learning_Limit_System</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 

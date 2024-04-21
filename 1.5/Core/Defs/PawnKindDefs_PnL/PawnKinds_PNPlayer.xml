@@ -28,7 +28,7 @@
 
 	<!-- 정착민 -->
 	<PawnKindDef ParentName="PanielPlayerBasePawnKind">
-		<defName>Paniel_ColonistPawn</defName>
+		<defName>PN_ColonistPawn</defName>
 		<label>Paniel colonist</label>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
@@ -59,7 +59,7 @@
 
 	<!-- 실험체 -->
 	<PawnKindDef ParentName="PanielPlayerBasePawnKind">
-		<defName>Paniel_Testsubject</defName>
+		<defName>PN_Testsubject</defName>
 		<label>Paniel test subject</label>
 		<chemicalAddictionChance>0</chemicalAddictionChance>
 		<forceNormalGearQuality>true</forceNormalGearQuality>

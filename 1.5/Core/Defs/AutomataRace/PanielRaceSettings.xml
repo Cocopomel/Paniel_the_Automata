@@ -8,7 +8,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>Paniel_Testsubject</li>
+                <li>PN_Testsubject</li>
               </kindDefs>
               <chance>100.0</chance>
             </li>

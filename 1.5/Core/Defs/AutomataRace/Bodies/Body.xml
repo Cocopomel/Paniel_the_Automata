@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <BodyDef>
-    <defName>PanielBody</defName>
+    <defName>PNBody</defName>
     <label>Automaton</label>
     <corePart>
       <!--몸통-->

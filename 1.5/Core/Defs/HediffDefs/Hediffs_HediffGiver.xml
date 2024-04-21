@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffGiverSetDef>
+    <defName>PN_HediffGiverSet</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Bleeding">
+        <hediff>PN_OilLoss</hediff>
+      </li>
+
+      <li Class="HediffGiver_Hypothermia">
+        <hediff>PN_OverCooling</hediff>
+      </li>
+
+      <li Class="HediffGiver_Heat">
+        <hediff>PN_Overheating</hediff>
+      </li>
+
+      <li Class="HediffGiver_Birthday">
+        <hediff>Dementia</hediff>
+        <partsToAffect>
+          <li>Brain</li>
+        </partsToAffect>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0.85, 0)</li>
+            <li>(0.95, 0.0093)</li>
+            <li>(1.15, 0.093)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+
+      <li Class="HediffGiver_Birthday">
+        <hediff>Alzheimers</hediff>
+        <partsToAffect>
+          <li>PNBrain</li>
+        </partsToAffect>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0.42, 0)</li>
+            <li>(0.7, 0.00061)</li>
+            <li>(0.9, 0.0012)</li>
+            <li>(1, 0.002)</li>
+            <li>(1.5, 0.003)</li>
+          </points>
+        </ageFractionChanceCurve>
+        <averageSeverityPerDayBeforeGeneration>0.001</averageSeverityPerDayBeforeGeneration>
+      </li>
+
+      <li Class="HediffGiver_BrainInjury">
+        <hediff>TraumaSavant</hediff>
+        <partsToAffect>
+          <li>PNBrain</li>
+        </partsToAffect>
+        <chancePerDamagePct>0.12</chancePerDamagePct>
+        <letterLabel>Trauma savant</letterLabel>
+        <letter>[PAWN_nameDef]'s brain injury has caused [PAWN_objective] to develop strange savant-like abilities.</letter>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>
