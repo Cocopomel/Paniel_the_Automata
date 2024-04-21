@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlienRace.AlienBackstoryDef Name="BasePanielBackStory" Abstract="True">
+		<maleCommonality>0</maleCommonality>
+		<forcedHediffs>
+
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 일반 -->	<!-- 유년기 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PN_Test1</defName>
+		<title>test1</title>
+		<titleShort>test1</titleShort>
+		<description>aa</description>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>PN_Test1</li>
+		</spawnCategories>
+		
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 일반 -->	<!-- 성년기 -->
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PN_Test2</defName>
+		<title>test2</title>
+		<titleShort>test2</titleShort>
+		<description>aa</description>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>PN_Test2</li>
+		</spawnCategories>
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

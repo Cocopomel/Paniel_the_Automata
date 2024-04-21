@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead1</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead1</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead2</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead2</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead3</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead4</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead4</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead5</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead5</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead6</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead6</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead7</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead7</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead8</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead8</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead9</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead9</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead10</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead10</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead11</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead11</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+		<defName>PNHead12</defName>
+		<graphicPath>Paniel/Heads/PNHead/PNHead12</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+</Defs>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>PN_AutomatonCatagory</defName>
+    <label>PnL Industry</label>
+    <parent>Manufactured</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <!--==================================== 오토마톤 가죽 ====================================-->
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Automaton</defName>
+    <label>automaton skin</label>
+    <description>leather made for automaton production. looks like human leather.</description>
+    <graphicData>
+      <color>(255,240,227)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.64</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <thingCategories>
+      <li>PN_AutomatonCatagory</li>
+    </thingCategories>
+    <tradeTags Inherit="false">
+
+    </tradeTags>
+    <tradeability>Buyable</tradeability>
+    <stuffProps>
+      <color>(255,240,227)</color>
+      <commonality>0.0025</commonality>
+    </stuffProps>
+  </ThingDef>
+</Defs>
