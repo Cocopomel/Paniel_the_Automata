@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="PN_PartBase_Shell" ParentName="PN_PartBase" Abstract="True">
+    <stackLimit>2</stackLimit>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+      
+    </comps>
+  </ThingDef>
+</Defs>

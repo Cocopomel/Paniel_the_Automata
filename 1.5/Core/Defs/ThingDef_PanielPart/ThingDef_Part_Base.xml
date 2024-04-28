@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>PN_PartCatagory</defName>
+    <label>Paniel Part</label>
+    <parent>PN_AutomatonCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingDef Name="PN_PartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <stackLimit>2</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <tradeTags>
+      <li>PN_PanielParts</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>14</pathCost>
+  </ThingDef>
+
+  <HediffDef Name="PN_PartHediffBase" Abstract="True">
+    <!--<hediffClass>Hediff_Implant</hediffClass>-->
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <!--<stages>
+      <li>
+        <label>(awfl)</label>
+      </li>
+      <li>
+        <label>(poor)</label>
+        <minSeverity>0.15</minSeverity>
+      </li>
+      <li>
+        <label>(norm)</label>
+        <minSeverity>0.3</minSeverity>
+      </li>
+      <li>
+        <label>(good)</label>
+        <minSeverity>0.45</minSeverity>
+      </li>
+      <li>
+        <label>(exc)</label>
+        <minSeverity>0.6</minSeverity>
+      </li>
+      <li>
+        <label>(mast)</label>
+        <minSeverity>0.75</minSeverity>
+      </li>
+      <li>
+        <label>(legd)</label>
+        <minSeverity>0.9</minSeverity>
+      </li>
+    </stages>-->
+  </HediffDef>
+
+</Defs>
