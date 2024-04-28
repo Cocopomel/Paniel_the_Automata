@@ -5,6 +5,7 @@
 		<forcedHediffs>
 			<li>PN_Immune_System</li>
 			<li>PN_Learning_Limit_System</li>
+			<li>PN_AutomatonFuel_Addiction</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 

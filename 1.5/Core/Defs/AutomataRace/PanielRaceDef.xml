@@ -24,7 +24,7 @@
 						<ingestible>false</ingestible>
 					</li>
 				</chemicalSettings>
-				
+
 				<!--특성 강제 부여-->
 				<forcedRaceTraitEntries>
 
@@ -42,13 +42,13 @@
 					<borderScale>1</borderScale>
 					<headTypes Inherit="False">
 						<li>PNHead1</li>
-            <li>PNHead2</li>
-            <li>PNHead3</li>
-            <li>PNHead4</li>
-            <li>PNHead5</li>
-            <li>PNHead6</li>
-            <li>PNHead7</li>
-            <li>PNHead8</li>
+						<li>PNHead2</li>
+						<li>PNHead3</li>
+						<li>PNHead4</li>
+						<li>PNHead5</li>
+						<li>PNHead6</li>
+						<li>PNHead7</li>
+						<li>PNHead8</li>
 						<li>PNHead9</li>
 						<li>PNHead10</li>
 						<li>PNHead11</li>
@@ -87,49 +87,49 @@
 					<!--신체 부착물-->
 					<bodyAddons>
 						<li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Hairs/Addon/Hair</path>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>false</inFrontOfBody>
-              <colorChannel>hair</colorChannel>
-              <alignWithHead>true</alignWithHead>
+							<drawSize>1</drawSize>
+							<path>Paniel/Hairs/Addon/Hair</path>
+							<shaderType>CutoutComplex</shaderType>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<alignWithHead>true</alignWithHead>
 							<conditions>
 								<BodyPart>
 									<bodyPart>PNHead</bodyPart>
 								</BodyPart>
 							</conditions>
-              <offsets>
-                <north>
-                  <layerOffset>-0.275</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <south>
-                  <layerOffset>-0.326</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <east>
-                  <layerOffset>-0.326</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
+							<offsets>
+								<north>
+									<layerOffset>-0.275</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</north>
+								<south>
+									<layerOffset>-0.326</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</south>
+								<east>
+									<layerOffset>-0.326</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
 
 						<!-- 슬립 페이스 -->
 						<li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Heads/PNSleep/PNSleep</path>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>true</inFrontOfBody>
-              <layerInvert>false</layerInvert>
-              <colorChannel>skin</colorChannel>
-              <alignWithHead>true</alignWithHead>
-              <conditions>
+							<drawSize>1</drawSize>
+							<path>Paniel/Heads/PNSleep/PNSleep</path>
+							<shaderType>CutoutComplex</shaderType>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<colorChannel>skin</colorChannel>
+							<alignWithHead>true</alignWithHead>
+							<conditions>
 								<RotStage>Fresh,Rotting,Dessicated</RotStage>
 								<BodyPart>
 									<bodyPart>PNHead</bodyPart>
@@ -140,129 +140,129 @@
 									<drawnInBed>true</drawnInBed>
 								</Posture>
 							</conditions>
-              <offsets>
-                <north>
-                  <layerOffset>-0.276</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <south>
-                  <layerOffset>-0.276</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <east>
-                  <layerOffset>-0.276</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
+							<offsets>
+								<north>
+									<layerOffset>-0.276</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</north>
+								<south>
+									<layerOffset>-0.276</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</south>
+								<east>
+									<layerOffset>-0.276</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
 
 						<li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Ear/PanielLeftEar</path>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>false</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
-              <alignWithHead>true</alignWithHead>
-              <conditions>
+							<drawSize>1</drawSize>
+							<path>Paniel/Ear/PanielLeftEar</path>
+							<shaderType>CutoutComplex</shaderType>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<alignWithHead>true</alignWithHead>
+							<conditions>
 								<BodyPart>
 									<bodyPartLabel>left auditory sensor</bodyPartLabel>
 								</BodyPart>
 							</conditions>
-              <offsets>
-                <north>
-                  <layerOffset>-0.279</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <south>
-                  <layerOffset>-0.324</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <east>
-                  <layerOffset>-0.327</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
+							<offsets>
+								<north>
+									<layerOffset>-0.279</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</north>
+								<south>
+									<layerOffset>-0.324</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</south>
+								<east>
+									<layerOffset>-0.327</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
 
-            <li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Ear/PanielRightEar</path>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>false</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
-              <alignWithHead>true</alignWithHead>
-              <conditions>
+						<li>
+							<drawSize>1</drawSize>
+							<path>Paniel/Ear/PanielRightEar</path>
+							<shaderType>CutoutComplex</shaderType>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<alignWithHead>true</alignWithHead>
+							<conditions>
 								<BodyPart>
 									<bodyPartLabel>right auditory sensor</bodyPartLabel>
 								</BodyPart>
 							</conditions>
-              <offsets>
-                <north>
-                  <layerOffset>-0.279</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </north>
-                <south>
-                  <layerOffset>-0.324</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </south>
-                <east>
-                  <layerOffset>-0.327</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
+							<offsets>
+								<north>
+									<layerOffset>-0.279</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</north>
+								<south>
+									<layerOffset>-0.324</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</south>
+								<east>
+									<layerOffset>-0.327</layerOffset>
+									<bodyTypes>
+										<Female>(0,0)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
 
-            <li>
-              <drawSize>1</drawSize>
-              <path>Paniel/Tail/PanielTail</path>
-              <shaderType>CutoutComplex</shaderType>
-              <inFrontOfBody>false</inFrontOfBody>
-              <colorChannel>skin</colorChannel>
-              <defaultOffset>Tail</defaultOffset>
+						<li>
+							<drawSize>1</drawSize>
+							<path>Paniel/Tail/PanielTail</path>
+							<shaderType>CutoutComplex</shaderType>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>skin</colorChannel>
+							<defaultOffset>Tail</defaultOffset>
 							<conditions>
 								<BodyPart>
 									<bodyPart>PNTail</bodyPart>
 								</BodyPart>
 							</conditions>
-              <offsets>
-                <north>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-                    <Female>(0,0.55)</Female>
-                  </bodyTypes>
-                </north>
-                <south>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-                    <Female>(-0.42,0.22)</Female>
-                  </bodyTypes>
-                </south>
-                <east>
-                  <layerOffset>0</layerOffset>
-                  <bodyTypes>
-                    <Female>(-0.42,0.22)</Female>
-                  </bodyTypes>
-                </east>
-              </offsets>
-            </li>
+							<offsets>
+								<north>
+									<layerOffset>0</layerOffset>
+									<bodyTypes>
+										<Female>(0,0.55)</Female>
+									</bodyTypes>
+								</north>
+								<south>
+									<layerOffset>0</layerOffset>
+									<bodyTypes>
+										<Female>(-0.42,0.22)</Female>
+									</bodyTypes>
+								</south>
+								<east>
+									<layerOffset>0</layerOffset>
+									<bodyTypes>
+										<Female>(-0.42,0.22)</Female>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
 
 					</bodyAddons>
 				</alienPartGenerator>
@@ -317,7 +317,7 @@
 
 				</weaponList>
 				<foodList>
-
+					<li>PN_AutomatonFuel</li>
 				</foodList>
 				<whiteGeneTags>
 
@@ -562,9 +562,9 @@
 		<label>fully-manufactured</label>
 		<visible>false</visible>
 		<silhouetteGraphicData>
-      <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1</drawSize>
-    </silhouetteGraphicData>
+			<texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</silhouetteGraphicData>
 	</LifeStageDef>
 </Defs>
