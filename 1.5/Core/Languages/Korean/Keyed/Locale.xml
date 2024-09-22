@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <PN_CommandCancelAssembleLabel>조립 취소</PN_CommandCancelAssembleLabel>
+  <PN_CommandCancelAssembleDesc>.</PN_CommandCancelAssembleDesc>
+
+  <PN_CommandAssembleNewLabel>오토마톤 조립</PN_CommandAssembleNewLabel>
+  <PN_CommandAssembleNewDesc>.</PN_CommandAssembleNewDesc>
+
+  <PN_CommandReassembleLabel>오토마톤 재설계</PN_CommandReassembleLabel>
+  <PN_CommandReassembleDesc>.</PN_CommandReassembleDesc>
+
+  <PN_FloatMenuReassembleLabel>오토마톤 재설계</PN_FloatMenuReassembleLabel>
+
+  <PN_TabPawnCapacityLabel>개요</PN_TabPawnCapacityLabel>
+  <PN_TabPawnSkillLabel>코어</PN_TabPawnSkillLabel>
+</LanguageData>
