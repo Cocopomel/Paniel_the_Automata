@@ -9,4 +9,43 @@
       
     </comps>
   </ThingDef>
+  
+  <ThingDef ParentName="PN_PartBase_Body">
+    <defName>PN_ATModule_BaseShell</defName>
+    <label>paniel base shell</label>
+    <description>.</description>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>true</isDefault>
+        <targetParts>
+          <li>Shell</li>
+        </targetParts>
+        <hediff>PN_BaseShell</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>PN_BaseShell</defName>
+    <label>base shell</label>
+    <description>.</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
 </Defs>

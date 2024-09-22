@@ -1,12 +1,65 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef Name="PN_PartBase_Body" ParentName="PN_PartBase" Abstract="True">
-    <stackLimit>2</stackLimit>
+    <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
     <comps>
-      
+      <li><compClass>CompQuality</compClass></li>
     </comps>
   </ThingDef>
+
+  <ThingDef ParentName="PN_PartBase_Body">
+    <defName>PN_ATModule_BaseMainframe</defName>
+    <label>paniel base mainframe</label>
+    <description>.</description>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>true</isDefault>
+        <targetParts>
+          <li>MainFrame</li>
+        </targetParts>
+        <hediff>PN_BaseMainframe</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>PN_BaseMainframe</defName>
+    <label>base mainframe</label>
+    <description>.</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.50</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
 </Defs>

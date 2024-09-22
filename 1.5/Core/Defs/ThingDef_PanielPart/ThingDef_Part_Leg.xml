@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef Name="PN_PartBase_Leg" ParentName="PN_PartBase" Abstract="True">
-    <stackLimit>2</stackLimit>
+    <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
     <comps>
-      
+      <li><compClass>CompQuality</compClass></li>
     </comps>
   </ThingDef>
+
+  <ThingDef ParentName="PN_PartBase_Leg">
+    <defName>PN_ATModule_BaseLeg</defName>
+    <label>paniel base leg</label>
+    <description>.</description>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>true</isDefault>
+        <targetParts>
+          <li>LeftLeg</li>
+          <li>RightLeg</li>
+        </targetParts>
+        <hediff>PN_BaseLeg</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>PN_BaseLeg</defName>
+    <label>base leg</label>
+    <description>.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.5</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
 </Defs>

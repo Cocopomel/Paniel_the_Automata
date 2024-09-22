@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef Name="PN_PartBase_Head" ParentName="PN_PartBase" Abstract="True">
-    <stackLimit>2</stackLimit>
+    <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
     <comps>
-      
+      <li><compClass>CompQuality</compClass></li>
+    </comps>
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <targetParts>
+          <li>Core</li>
+        </targetParts>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_PartBase_Head">
+    <defName>PN_ATModule_CombatCore</defName>
+    <label>paniel combat core test</label>
+    <description>.</description>
+    
+    <inspectorTabs>
+      <li>ModuleAutomata.ITab_AutomataCore</li>
+    </inspectorTabs>
+
+    <comps>
+      <li Class="ModuleAutomata.CompProperties_AutomataCore">
+        <qualitySkillValues>
+          <Awful>2</Awful>
+          <Poor>3</Poor>
+          <Normal>5</Normal>
+          <Good>7</Good>
+          <Excellent>10</Excellent>
+          <Masterwork>13</Masterwork>
+          <Legendary>17</Legendary>
+        </qualitySkillValues>
+        <sourcePawnSkillMultiplier>0.33333334</sourcePawnSkillMultiplier>
+        <workDisables>
+          <li>Intellectual</li>
+          <li>Mining</li>
+          <li>PlantWork</li>
+          <li>Cleaning</li>
+          <li>Cooking</li>
+          <li>Crafting</li>
+          <li>Artistic</li>
+          <li>Animals</li>
+          <li>Intellectual</li>
+          <li>Social</li>
+          <li>Caring</li>
+          <li>ManualSkilled</li>
+        </workDisables>
+      </li>
     </comps>
   </ThingDef>
 </Defs>
