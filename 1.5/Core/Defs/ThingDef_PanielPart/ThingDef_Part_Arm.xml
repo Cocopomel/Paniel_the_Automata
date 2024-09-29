@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="PN_PartBase_Arm" ParentName="PN_PartBase" Abstract="True">
+  <ThingDef Name="PN_PartItemBase_Arm" ParentName="PN_PartItemBase" Abstract="True">
     <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
+    <thingCategories>
+      <li>PN_PartC_Arm</li>
+    </thingCategories>
     <comps>
-      <li><compClass>CompQuality</compClass></li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="PN_PartBase_Arm">
+  <!--급조(기본) 팔-->
+
+  <ThingDef ParentName="PN_PartItemBase_Arm">
     <defName>PN_ATModule_BaseArm</defName>
-    <label>paniel base arm</label>
+    <label>paniel makeshift arm</label>
     <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
 
     <modExtensions>
       <li Class="ModuleAutomata.AutomataModuleExtension">
@@ -29,11 +40,100 @@
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>PN_BaseArm</defName>
-    <label>base arm</label>
+    <label>makeshift arm</label>
     <description>.</description>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.5</partEfficiency>
+      <partEfficiency>0.6</partEfficiency>
     </addedPartProps>
   </HediffDef>
+
+  <!--수제-->
+
+  <ThingDef ParentName="PN_PartItemBase_Arm">
+    <defName>PN_ATModule_HandiArm</defName>
+    <label>paniel handicraft arm</label>
+    <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>false</isDefault>
+        <targetParts>
+          <li>LeftArm</li>
+          <li>RightArm</li>
+        </targetParts>
+        <hediff>PN_HandiArm_norm</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef Name="PN_HandiArmBase" ParentName="AddedBodyPartBase" Abstract="True">
+    <description>.</description>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_awlf</defName>
+    <label>Handicraft arm (awlf)</label>
+    <addedPartProps>
+      <partEfficiency>0.6</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_poor</defName>
+    <label>Handicraft arm (poor)</label>
+    <addedPartProps>
+      <partEfficiency>0.7</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_norm</defName>
+    <label>Handicraft arm (norm)</label>
+    <addedPartProps>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_good</defName>
+    <label>Handicraft arm (good)</label>
+    <addedPartProps>
+      <partEfficiency>0.9</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_exc</defName>
+    <label>Handicraft arm (exc)</label>
+    <addedPartProps>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_mast</defName>
+    <label>Handicraft arm (mast)</label>
+    <addedPartProps>
+      <partEfficiency>1.1</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiArmBase">
+    <defName>PN_HandiArm_legd</defName>
+    <label>Handicraft arm (legd)</label>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!--정밀-->
+
+  <!--정품-->
 </Defs>

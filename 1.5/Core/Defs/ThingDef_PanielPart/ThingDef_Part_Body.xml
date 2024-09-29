@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="PN_PartBase_Body" ParentName="PN_PartBase" Abstract="True">
+  <ThingDef Name="PN_PartItemBase_Body" ParentName="PN_PartItemBase" Abstract="True">
     <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
+    <thingCategories>
+      <li>PN_PartC_Body</li>
+    </thingCategories>
     <comps>
-      <li><compClass>CompQuality</compClass></li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="PN_PartBase_Body">
-    <defName>PN_ATModule_BaseMainframe</defName>
-    <label>paniel base mainframe</label>
+  <!--급조-->
+
+  <ThingDef ParentName="PN_PartItemBase_Body">
+    <defName>PN_ATModule_BaseChassi</defName>
+    <label>paniel makeshift Chassi</label>
     <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
 
     <modExtensions>
       <li Class="ModuleAutomata.AutomataModuleExtension">
@@ -21,14 +32,14 @@
         <targetParts>
           <li>MainFrame</li>
         </targetParts>
-        <hediff>PN_BaseMainframe</hediff>
+        <hediff>PN_BaseChassi</hediff>
       </li>
     </modExtensions>
   </ThingDef>
 
   <HediffDef>
-    <defName>PN_BaseMainframe</defName>
-    <label>base mainframe</label>
+    <defName>PN_BaseChassi</defName>
+    <label>makeshift Chassi</label>
     <description>.</description>
 
     <hediffClass>HediffWithComps</hediffClass>
@@ -38,15 +49,15 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <postFactor>0.50</postFactor>
+            <postFactor>0.80</postFactor>
           </li>
           <li>
             <capacity>Sight</capacity>
-            <postFactor>0.50</postFactor>
+            <postFactor>0.60</postFactor>
           </li>
           <li>
             <capacity>Hearing</capacity>
-            <postFactor>0.50</postFactor>
+            <postFactor>0.60</postFactor>
           </li>
         </capMods>
         <statOffsets>
@@ -56,10 +67,239 @@
         </statOffsets>
       </li>
     </stages>
-    
+
     <isBad>false</isBad>
     <priceImpact>true</priceImpact>
     <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
+  <!--수제-->
+
+  <ThingDef ParentName="PN_PartItemBase_Body">
+    <defName>PN_ATModule_HandiChassi</defName>
+    <label>paniel handicraft Chassi</label>
+    <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>false</isDefault>
+        <targetParts>
+          <li>MainFrame</li>
+        </targetParts>
+        <hediff>PN_HandiChassi_norm</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef Name="PN_HandiBodyBase" ParentName="AddedBodyPartBase" Abstract="True">
+    <description>.</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_awlf</defName>
+    <label>Handicraft arm (awlf)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.60</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.60</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_poor</defName>
+    <label>Handicraft arm (poor)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.85</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.70</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.70</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_norm</defName>
+    <label>Handicraft arm (norm)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.80</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_good</defName>
+    <label>Handicraft arm (good)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>0.90</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_exc</defName>
+    <label>Handicraft arm (exc)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>1.00</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>1.00</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>1.00</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_mast</defName>
+    <label>Handicraft arm (mast)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>1.00</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>1.10</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>1.10</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_HandiBodyBase">
+    <defName>PN_HandiChassi_legd</defName>
+    <label>Handicraft arm (legd)</label>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>1.10</postFactor>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <postFactor>1.20</postFactor>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <postFactor>1.20</postFactor>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
 </Defs>

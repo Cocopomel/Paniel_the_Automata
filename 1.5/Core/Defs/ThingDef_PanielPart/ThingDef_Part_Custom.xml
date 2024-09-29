@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="PN_PartItemBase_Custom" ParentName="PN_PartItemBase" Abstract="True">
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <comps>
+
+    </comps>
+  </ThingDef>
+ 
+  <!--실험 임플란트 (테스트)-->
+
+  <ThingDef ParentName="PN_PartItemBase_Body">
+    <defName>PN_ATModule_CustomExperimental</defName>
+    <label>Experimental core implant</label>
+    <description>.</description>
+
+    <modExtensions>
+
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef ParentName="PN_ImplantHediffBase">
+    <defName>PN_ExperimentalImplantHediff</defName>
+    <label>Experimental core implant</label>
+    <description>Warning: This implant is not a PnL licensed implant. When installed, the performance of the Automaton will decrease.\n\n
+
+This implant makes the automaton learn like a human, but makes it mentally unstable.\n\n
+    
+This implant cannot be removed after installation.</description>
+    <descriptionHyperlinks>
+      <ThingDef>PN_ATModule_CustomExperimental</ThingDef>
+    </descriptionHyperlinks>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>1.0</PsychicSensitivity>
+          <GlobalLearningFactor>0.80</GlobalLearningFactor>
+          <MentalBreakThreshold>0.12</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+    <comps>
+      <!--대충 학습제한 Hediff 삭제 내용-->
+    </comps>
+  </HediffDef>
+
+
+
+
+
+
+
+
+
+</Defs>

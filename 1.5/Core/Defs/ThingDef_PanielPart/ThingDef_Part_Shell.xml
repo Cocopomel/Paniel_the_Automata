@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="PN_PartBase_Shell" ParentName="PN_PartBase" Abstract="True">
-    <stackLimit>2</stackLimit>
+
+  <!--재질 선택 가능하게 및 등급있음-->
+  <!--급조/일반/정찰/헤비-->
+  <!--일반기준:플레이트아머-->
+
+  <ThingDef Name="PN_PartItemBase_Shell" ParentName="PN_PartItemBase" Abstract="True">
+    <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
+    <thingCategories>
+      <li>PN_PartC_Shell</li>
+    </thingCategories>
     <comps>
-      
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
     </comps>
   </ThingDef>
-  
-  <ThingDef ParentName="PN_PartBase_Body">
+
+  <!--급조-->
+
+  <ThingDef ParentName="PN_PartItemBase_Shell">
     <defName>PN_ATModule_BaseShell</defName>
-    <label>paniel base shell</label>
+    <label>paniel makeshift shell</label>
     <description>.</description>
 
     <modExtensions>
@@ -26,9 +38,9 @@
     </modExtensions>
   </ThingDef>
 
-  <HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
     <defName>PN_BaseShell</defName>
-    <label>base shell</label>
+    <label>base makeshift shell</label>
     <description>.</description>
 
     <hediffClass>HediffWithComps</hediffClass>
@@ -42,10 +54,137 @@
         </statOffsets>
       </li>
     </stages>
-    
+
     <isBad>false</isBad>
     <priceImpact>true</priceImpact>
     <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
+  <!--일반-->
+
+  <ThingDef ParentName="PN_PartItemBase_Shell">
+    <defName>PN_ATModule_HandiShell</defName>
+    <label>paniel handicraft shell</label>
+    <description>.</description>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataModuleExtension">
+        <isDefault>false</isDefault>
+        <targetParts>
+          <li>Shell</li>
+        </targetParts>
+        <hediff>PN_HandiShell_norm</hediff>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <HediffDef Name="PN_PartItem_Shell" ParentName="AddedBodyPartBase" Abstract="True">
+    <description>.</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_awlf</defName>
+    <label>handicraft shell (awlf)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_poor</defName>
+    <label>handicraft shell (poor)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_norm</defName>
+    <label>handicraft shell (norm)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_good</defName>
+    <label>handicraft shell (good)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_exc</defName>
+    <label>handicraft shell (exc)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_mast</defName>
+    <label>handicraft shell (mast)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="PN_PartItem_Shell">
+    <defName>PN_HandiShell_legd</defName>
+    <label>handicraft shell (legd)</label>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
 </Defs>

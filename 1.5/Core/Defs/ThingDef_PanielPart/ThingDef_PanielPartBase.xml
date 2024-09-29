@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>PN_PartCatagory</defName>
+    <label>Paniel Part</label>
+    <parent>PN_AutomatonCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Core</defName>
+    <label>Core Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Body</defName>
+    <label>Arm Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Arm</defName>
+    <label>Arm Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Leg</defName>
+    <label>Arm Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Shell</defName>
+    <label>Arm Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>PN_PartC_Custom</defName>
+    <label>Arm Part</label>
+    <parent>PN_PartCatagory</parent>
+    <iconPath>UI/Icons/PNCT_PnL</iconPath>
+  </ThingCategoryDef>
+
+  <ThingDef Name="PN_PartItemBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+      <Beauty>-4</Beauty>
+      <DeteriorationRate>2.0</DeteriorationRate>
+      <Mass>1</Mass>
+    </statBases>
+    <tradeTags>
+      <li>PN_PanielParts</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <HediffDef Name="PN_ImplantHediffBase" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <priceImpact>true</priceImpact>
+    <countsAsAddedPartOrImplant>true</countsAsAddedPartOrImplant>
+    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+  </HediffDef>
+
+  <HediffDef Name="PN_AddedBodyPartBase" ParentName="PN_ImplantHediffBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <priceImpact>true</priceImpact>
+  </HediffDef>
+
+</Defs>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef Name="PN_PartBase_Head" ParentName="PN_PartBase" Abstract="True">
+  <ThingDef Name="PN_PartItemBase_Head" ParentName="PN_PartItemBase" Abstract="True">
     <stackLimit>1</stackLimit>
     <statBases>
       <Mass>1</Mass>
     </statBases>
     <comps>
-      <li><compClass>CompQuality</compClass></li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
     </comps>
     <modExtensions>
       <li Class="ModuleAutomata.AutomataModuleExtension">
@@ -17,11 +19,11 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="PN_PartBase_Head">
+  <ThingDef ParentName="PN_PartItemBase_Head">
     <defName>PN_ATModule_CombatCore</defName>
     <label>paniel combat core test</label>
     <description>.</description>
-    
+
     <inspectorTabs>
       <li>ModuleAutomata.ITab_AutomataCore</li>
     </inspectorTabs>
