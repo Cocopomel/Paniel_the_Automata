@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--==================================== 티어B 병사 ====================================-->
+
+  <ThingDef ParentName="PN_ApparelBase">
+    <defName>PN_ApparelSoldier</defName>
+    <label>PnL soldier uniform</label>
+    <description>This is the uniform worn by the military on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNSoldier1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <DevilstrandCloth>50</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <MaxHitPoints>340</MaxHitPoints>
+      <Mass>12</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>10</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+      <MeleeDodgeChance>1</MeleeDodgeChance>
+      <Flammability>-0.60</Flammability>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNSoldier</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_Soldier</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelSoldierHat</defName>
+    <label>PnL soldier side cap</label>
+    <description>This is the hat worn by the military on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense. But it doesn't help in situations other than combat.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNSoldierhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <DevilstrandCloth>20</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>1.5</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+      <MeleeHitChance>1</MeleeHitChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNSoldierhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Soldier</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어B 작업복 ====================================-->
+  <ThingDef ParentName="PN_ApparelBase">
+    <defName>PN_ApparelWorker</defName>
+    <label>PnL engineer uniform</label>
+    <description>This is the uniform worn by the Automaton at the factory.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you adequate defense. It also has a function to assist the user's work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNWorker1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <DevilstrandCloth>40</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.69</StuffEffectMultiplierArmor>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>7</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <MiningYield>0.10</MiningYield>
+      <ConstructSuccessChance>0.10</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNWorker</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Paniel_Engineer</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelWorkerHat</defName>
+    <label>PnL Engineer newsie cap</label>
+    <description>This is the hat worn by the Automaton at the factory.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you adequate defense. It also has a function to assist the user's work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNWorkerhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>15750</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.69</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+      <MiningYield>0.05</MiningYield>
+      <ConstructSuccessChance>0.05</ConstructSuccessChance>
+      <FixBrokenDownBuildingSuccessChance>0.05</FixBrokenDownBuildingSuccessChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNWorkerhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Engineer</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어B 메이드 ====================================-->
+  <ThingDef ParentName="PN_ApparelBase">
+    <defName>PN_ApparelMaid</defName>
+    <label>PnL housekeeper uniform</label>
+    <description>This is the uniform worn by the automaton in the noble mansion.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you adequate defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNHousekeeper1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <DevilstrandCloth>40</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.69</StuffEffectMultiplierArmor>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>7</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ButcheryFleshEfficiency>0.10</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.10</PlantHarvestYield>
+      <MedicalTendQuality>0.15</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.10</NegotiationAbility>
+      <SocialImpact>0.10</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNHousekeeper</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Paniel_Housekeeper</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_ApparelMaidHat</defName>
+    <label>PnL housekeeper hat</label>
+    <description>This is the hat worn by the automaton in the noble mansion.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nThe built-in parts work with the automaton to give you adequate defense. It also has a function that assists users in their work.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNHousekeeperhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="false">
+        <li>PN_AutomatonBench</li>
+      </recipeUsers>
+      <skillRequirements Inherit="false">
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>PNRP_TierB_Apparel</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>15750</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.6</Flammability>
+      <StuffEffectMultiplierArmor>0.69</StuffEffectMultiplierArmor>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+      <PlantHarvestYield>0.05</PlantHarvestYield>
+      <MedicalTendQuality>0.10</MedicalTendQuality>
+      <MedicalSurgerySuccessChance>0.05</MedicalSurgerySuccessChance>
+      <NegotiationAbility>0.05</NegotiationAbility>
+      <SocialImpact>0.05</SocialImpact>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNHousekeeperhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_Housekeeper</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier3</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!--==================================== 티어B 엘리트 시큐리티 ====================================-->
+  
+  <ThingDef ParentName="PN_ApparelBase">
+    <defName>PN_EliteSecurityUniform</defName>
+    <label>PnL elite security uniform</label>
+    <description>This is the uniform worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense.</description>
+    <graphicData>
+      <texPath>Things/Apparel/PNEliteSecurity1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>80</Plasteel>
+      <Uranium>10</Uranium>
+    </costList>
+    <recipeMaker Inherit="false">
+    
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>9</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>32</Insulation_Cold>
+      <Insulation_Heat>9</Insulation_Heat>
+      <EquipDelay>11</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MeleeDodgeChance>1</MeleeDodgeChance>
+      <Flammability>-0.20</Flammability>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PNEliteSecurity</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Paniel_EliteSecurity</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="PN_HatBase">
+    <defName>PN_EliteSecurityHat</defName>
+    <label>PnL elite security beret</label>
+    <description>This is the hat worn by the PnL security on automata.\n\nThis clothing is made with PnL industry's unique technology that combines metal and fabric.\n\nBuilt-in parts work in conjunction with the automaton to provide good defense.</description>
+    <graphicData>
+      <texPath>Things/Apparel/hats/PNEliteSecurityhat1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>30</Plasteel>
+    </costList>
+    <recipeMaker Inherit="false">
+
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>15750</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.46</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+      <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+      <MeleeHitChance>1</MeleeHitChance>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/hats/PNEliteSecurityhat</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Paniel_EliteSecurity</li>
+      </tags>
+      <defaultOutfitTags>
+
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(255,255,255)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
