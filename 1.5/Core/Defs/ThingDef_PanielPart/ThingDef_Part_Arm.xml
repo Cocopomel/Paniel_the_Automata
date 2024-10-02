@@ -27,13 +27,14 @@
     </graphicData>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>true</isDefault>
-        <targetParts>
-          <li>LeftArm</li>
-          <li>RightArm</li>
-        </targetParts>
-        <hediff>PN_BaseArm</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Normal>PN_BaseArm</Normal>
+        </hediffs>
+        <parts>
+          <li>PN_LeftArm</li>
+          <li>PN_RightArm</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>
@@ -58,14 +59,22 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Item/PNModuleIndustrial</texPath>
     </graphicData>
+    
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>false</isDefault>
-        <targetParts>
-          <li>LeftArm</li>
-          <li>RightArm</li>
-        </targetParts>
-        <hediff>PN_HandiArm_norm</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Awful>PN_HandiArm_awlf</Awful>
+          <Poor>PN_HandiArm_poor</Poor>
+          <Normal>PN_HandiArm_norm</Normal>
+          <Good>PN_HandiArm_good</Good>
+          <Excellent>PN_HandiArm_exc</Excellent>
+          <Masterwork>PN_HandiArm_mast</Masterwork>
+          <Legendary>PN_HandiArm_legd</Legendary>
+        </hediffs>
+        <parts>
+          <li>PN_LeftArm</li>
+          <li>PN_RightArm</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>

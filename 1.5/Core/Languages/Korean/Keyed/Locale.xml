@@ -11,6 +11,10 @@
 
   <PN_FloatMenuReassembleLabel>오토마톤 재설계</PN_FloatMenuReassembleLabel>
 
-  <PN_TabPawnCapacityLabel>개요</PN_TabPawnCapacityLabel>
-  <PN_TabPawnSkillLabel>코어</PN_TabPawnSkillLabel>
+  <PN_DialogAssembleTitleLabel>PNL Industry</PN_DialogAssembleTitleLabel>
+  <PN_DialogTabPawnCapacityLabel>개요</PN_DialogTabPawnCapacityLabel>
+  <PN_DialogTabPawnSkillLabel>코어</PN_DialogTabPawnSkillLabel>
+  <PN_DialogTabPawnAppearanceLabel>외형</PN_DialogTabPawnAppearanceLabel>
+
+  <PN_DialogEmptyModuleElementLabel>없음</PN_DialogEmptyModuleElementLabel>
 </LanguageData>

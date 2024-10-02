@@ -27,12 +27,13 @@
     </graphicData>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>true</isDefault>
-        <targetParts>
-          <li>MainFrame</li>
-        </targetParts>
-        <hediff>PN_BaseChassi</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Normal>PN_BaseChassi</Normal>
+        </hediffs>
+        <parts>
+          <li>PN_Chassi</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>
@@ -85,12 +86,19 @@
     </graphicData>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>false</isDefault>
-        <targetParts>
-          <li>MainFrame</li>
-        </targetParts>
-        <hediff>PN_HandiChassi_norm</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Awful>PN_HandiChassi_awlf</Awful>
+          <Poor>PN_HandiChassi_poor</Poor>
+          <Normal>PN_HandiChassi_norm</Normal>
+          <Good>PN_HandiChassi_good</Good>
+          <Excellent>PN_HandiChassi_exc</Excellent>
+          <Masterwork>PN_HandiChassi_mast</Masterwork>
+          <Legendary>PN_HandiChassi_legd</Legendary>
+        </hediffs>
+        <parts>
+          <li>PN_Chassi</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>

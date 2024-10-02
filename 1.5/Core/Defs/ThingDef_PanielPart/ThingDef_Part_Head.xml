@@ -11,10 +11,10 @@
       </li>
     </comps>
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <targetParts>
-          <li>Core</li>
-        </targetParts>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <parts>
+          <li>PN_Core</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>

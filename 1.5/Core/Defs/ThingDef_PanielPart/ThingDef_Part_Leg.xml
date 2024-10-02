@@ -27,13 +27,14 @@
     </graphicData>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>true</isDefault>
-        <targetParts>
-          <li>LeftLeg</li>
-          <li>RightLeg</li>
-        </targetParts>
-        <hediff>PN_BaseLeg</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Normal>PN_BaseLeg</Normal>
+        </hediffs>
+        <parts>
+          <li>PN_LeftLeg</li>
+          <li>PN_RightLeg</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>
@@ -60,13 +61,20 @@
     </graphicData>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>false</isDefault>
-        <targetParts>
-          <li>LeftLeg</li>
-          <li>RightLeg</li>
-        </targetParts>
-        <hediff>PN_HandiLeg_norm</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Awful>PN_HandiLeg_awlf</Awful>
+          <Poor>PN_HandiLeg_poor</Poor>
+          <Normal>PN_HandiLeg_norm</Normal>
+          <Good>PN_HandiLeg_good</Good>
+          <Excellent>PN_HandiLeg_exc</Excellent>
+          <Masterwork>PN_HandiLeg_mast</Masterwork>
+          <Legendary>PN_HandiLeg_legd</Legendary>
+        </hediffs>
+        <parts>
+          <li>PN_LeftLeg</li>
+          <li>PN_RightLeg</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>

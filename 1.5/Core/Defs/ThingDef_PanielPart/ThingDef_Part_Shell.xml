@@ -28,12 +28,13 @@
     <description>.</description>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>true</isDefault>
-        <targetParts>
-          <li>Shell</li>
-        </targetParts>
-        <hediff>PN_BaseShell</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Normal>PN_BaseShell</Normal>
+        </hediffs>
+        <parts>
+          <li>PN_Shell</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>
@@ -68,12 +69,19 @@
     <description>.</description>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleExtension">
-        <isDefault>false</isDefault>
-        <targetParts>
-          <li>Shell</li>
-        </targetParts>
-        <hediff>PN_HandiShell_norm</hediff>
+      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+        <hediffs>
+          <Awful>PN_HandiShell_awlf</Awful>
+          <Poor>PN_HandiShell_poor</Poor>
+          <Normal>PN_HandiShell_norm</Normal>
+          <Good>PN_HandiShell_good</Good>
+          <Excellent>PN_HandiShell_exc</Excellent>
+          <Masterwork>PN_HandiShell_mast</Masterwork>
+          <Legendary>PN_HandiShell_legd</Legendary>
+        </hediffs>
+        <parts>
+          <li>PN_Shell</li>
+        </parts>
       </li>
     </modExtensions>
   </ThingDef>
