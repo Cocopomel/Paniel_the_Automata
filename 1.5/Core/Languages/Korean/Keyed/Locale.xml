@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <PN_AutomataCoreItemLabel>{0} ({1})</PN_AutomataCoreItemLabel>
+
   <PN_CommandCancelAssembleLabel>조립 취소</PN_CommandCancelAssembleLabel>
   <PN_CommandCancelAssembleDesc>.</PN_CommandCancelAssembleDesc>
 
@@ -16,5 +18,8 @@
   <PN_DialogTabPawnSkillLabel>코어</PN_DialogTabPawnSkillLabel>
   <PN_DialogTabPawnAppearanceLabel>외형</PN_DialogTabPawnAppearanceLabel>
 
+  <PN_DialogTabNoSelectedCoreLabel>현재 선택된 코어 모듈 없음</PN_DialogTabNoSelectedCoreLabel>
   <PN_DialogEmptyModuleElementLabel>없음</PN_DialogEmptyModuleElementLabel>
+
+  <PN_DialogFloatMenuOptionNoModuleCandidate>선택 가능한 모듈 없음</PN_DialogFloatMenuOptionNoModuleCandidate>
 </LanguageData>

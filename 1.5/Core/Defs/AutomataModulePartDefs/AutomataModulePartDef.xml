@@ -26,20 +26,6 @@
     <label>custom</label>
   </ModuleAutomata.AutomataModulePartDef>
   
-  <ModuleAutomata.AutomataModulePartDef>
-    <defName>PN_Hair</defName>
-    <label>hair</label>
-    <description>.</description>
-    <required>true</required>
-  </ModuleAutomata.AutomataModulePartDef>
-  
-  <ModuleAutomata.AutomataModulePartDef>
-    <defName>PN_Face</defName>
-    <label>face</label>
-    <description>.</description>
-    <required>true</required>
-  </ModuleAutomata.AutomataModulePartDef>
-  
   <ModuleAutomata.AutomataModulePartDef Name="PN_ModulePart_Arm" Abstract="True">
     <description>.</description>
   </ModuleAutomata.AutomataModulePartDef>
@@ -47,11 +33,13 @@
   <ModuleAutomata.AutomataModulePartDef ParentName="PN_ModulePart_Arm">
     <defName>PN_LeftArm</defName>
     <label>left arm</label>
+    <targetBodyCustomLabel>left arm</targetBodyCustomLabel>
   </ModuleAutomata.AutomataModulePartDef>
   
   <ModuleAutomata.AutomataModulePartDef ParentName="PN_ModulePart_Arm">
     <defName>PN_RightArm</defName>
     <label>right arm</label>
+    <targetBodyCustomLabel>right arm</targetBodyCustomLabel>
   </ModuleAutomata.AutomataModulePartDef>
   
   <ModuleAutomata.AutomataModulePartDef Name="PN_ModulePart_Leg" Abstract="True">
@@ -61,11 +49,13 @@
   <ModuleAutomata.AutomataModulePartDef ParentName="PN_ModulePart_Leg">
     <defName>PN_LeftLeg</defName>
     <label>left leg</label>
+    <targetBodyCustomLabel>left leg</targetBodyCustomLabel>
   </ModuleAutomata.AutomataModulePartDef>
   
   <ModuleAutomata.AutomataModulePartDef ParentName="PN_ModulePart_Leg">
     <defName>PN_RightLeg</defName>
     <label>right leg</label>
+    <targetBodyCustomLabel>right leg</targetBodyCustomLabel>
   </ModuleAutomata.AutomataModulePartDef>
   
 </Defs>

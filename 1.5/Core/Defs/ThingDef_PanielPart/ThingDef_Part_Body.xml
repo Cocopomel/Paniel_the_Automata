@@ -15,7 +15,29 @@
     </comps>
   </ThingDef>
 
+  <ModuleAutomata.AutomataModuleDef Name="PN_ModuleBase_Chassi" Abstract="True">
+    <adaptParts>
+      <li>PN_Chassi</li>
+    </adaptParts>
+  </ModuleAutomata.AutomataModuleDef>
+
   <!--급조-->
+
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Chassi">
+    <defName>PN_ATModule_BaseChassi</defName>
+    <label>makeshift chassi</label>
+    <description>.</description>
+    <ingredientThingDef>ComponentSpacer</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">
+        <hediffs>
+          <Normal>PN_BaseChassi</Normal>
+        </hediffs>
+      </li>
+    </properties>
+    <isDefault>true</isDefault>
+  </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Body">
     <defName>PN_ATModule_BaseChassi</defName>
@@ -25,17 +47,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Item/PNModuleIndustrial</texPath>
     </graphicData>
-
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
-        <hediffs>
-          <Normal>PN_BaseChassi</Normal>
-        </hediffs>
-        <parts>
-          <li>PN_Chassi</li>
-        </parts>
-      </li>
-    </modExtensions>
   </ThingDef>
 
   <HediffDef>
@@ -76,17 +87,12 @@
 
   <!--수제-->
 
-  <ThingDef ParentName="PN_PartItemBase_Body">
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Chassi">
     <defName>PN_ATModule_HandiChassi</defName>
-    <label>paniel handicraft Chassi</label>
-    <description>.</description>
-    <graphicData Inherit="false">
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/PNModuleIndustrial</texPath>
-    </graphicData>
-
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+    <ingredientThingDef>PN_ATModule_HandiChassi</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">
         <hediffs>
           <Awful>PN_HandiChassi_awlf</Awful>
           <Poor>PN_HandiChassi_poor</Poor>
@@ -96,11 +102,18 @@
           <Masterwork>PN_HandiChassi_mast</Masterwork>
           <Legendary>PN_HandiChassi_legd</Legendary>
         </hediffs>
-        <parts>
-          <li>PN_Chassi</li>
-        </parts>
       </li>
-    </modExtensions>
+    </properties>
+  </ModuleAutomata.AutomataModuleDef>
+
+  <ThingDef ParentName="PN_PartItemBase_Body">
+    <defName>PN_ATModule_HandiChassi</defName>
+    <label>paniel handicraft Chassi</label>
+    <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
   </ThingDef>
 
   <HediffDef Name="PN_HandiBodyBase" ParentName="AddedBodyPartBase" Abstract="True">

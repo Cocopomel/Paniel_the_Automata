@@ -15,29 +15,31 @@
     </comps>
   </ThingDef>
 
+  <ModuleAutomata.AutomataModuleDef Name="PN_ModuleBase_Arm" Abstract="True">
+    <adaptParts>
+      <li>PN_LeftArm</li>
+      <li>PN_RightArm</li>
+    </adaptParts>
+  </ModuleAutomata.AutomataModuleDef>
+
+
   <!--급조(기본) 팔-->
-
-  <ThingDef ParentName="PN_PartItemBase_Arm">
+  
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Arm">
     <defName>PN_ATModule_BaseArm</defName>
-    <label>paniel makeshift arm</label>
+    <label>makeshift arm</label>
     <description>.</description>
-    <graphicData Inherit="false">
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/PNModuleIndustrial</texPath>
-    </graphicData>
-
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+    <ingredientThingDef>ComponentIndustrial</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">
         <hediffs>
           <Normal>PN_BaseArm</Normal>
         </hediffs>
-        <parts>
-          <li>PN_LeftArm</li>
-          <li>PN_RightArm</li>
-        </parts>
       </li>
-    </modExtensions>
-  </ThingDef>
+    </properties>
+    <isDefault>true</isDefault>
+  </ModuleAutomata.AutomataModuleDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>PN_BaseArm</defName>
@@ -51,17 +53,12 @@
 
   <!--수제-->
 
-  <ThingDef ParentName="PN_PartItemBase_Arm">
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Arm">
     <defName>PN_ATModule_HandiArm</defName>
-    <label>paniel handicraft arm</label>
-    <description>.</description>
-    <graphicData Inherit="false">
-      <graphicClass>Graphic_Single</graphicClass>
-      <texPath>Things/Item/PNModuleIndustrial</texPath>
-    </graphicData>
-    
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
+    <ingredientThingDef>PN_ATModule_HandiArm</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">
         <hediffs>
           <Awful>PN_HandiArm_awlf</Awful>
           <Poor>PN_HandiArm_poor</Poor>
@@ -71,12 +68,18 @@
           <Masterwork>PN_HandiArm_mast</Masterwork>
           <Legendary>PN_HandiArm_legd</Legendary>
         </hediffs>
-        <parts>
-          <li>PN_LeftArm</li>
-          <li>PN_RightArm</li>
-        </parts>
       </li>
-    </modExtensions>
+    </properties>
+  </ModuleAutomata.AutomataModuleDef>
+
+  <ThingDef ParentName="PN_PartItemBase_Arm">
+    <defName>PN_ATModule_HandiArm</defName>
+    <label>paniel handicraft arm</label>
+    <description>.</description>
+    <graphicData Inherit="false">
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/PNModuleIndustrial</texPath>
+    </graphicData>
   </ThingDef>
 
   <HediffDef Name="PN_HandiArmBase" ParentName="AddedBodyPartBase" Abstract="True">

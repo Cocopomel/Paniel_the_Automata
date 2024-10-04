@@ -11,16 +11,31 @@
     </comps>
   </ThingDef>
  
+  <ModuleAutomata.AutomataModuleDef Name="PN_ModuleBase_Custom" Abstract="True">
+    <adaptParts>
+      <li>PN_CustomModule</li>
+    </adaptParts>
+  </ModuleAutomata.AutomataModuleDef>
+
   <!--실험 임플란트 (테스트)-->
+
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Custom">
+    <defName>PN_ATModule_CustomExperimental</defName>
+    <ingredientThingDef>PN_ATModule_CustomExperimental</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">
+        <hediffs>
+          <Normal>PN_ExperimentalImplantHediff</Normal>
+        </hediffs>
+      </li>
+    </properties>
+  </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Body">
     <defName>PN_ATModule_CustomExperimental</defName>
     <label>Experimental core implant</label>
     <description>.</description>
-
-    <modExtensions>
-
-    </modExtensions>
   </ThingDef>
 
   <HediffDef ParentName="PN_ImplantHediffBase">

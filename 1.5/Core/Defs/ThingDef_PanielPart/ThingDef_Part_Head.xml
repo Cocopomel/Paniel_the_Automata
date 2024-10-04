@@ -10,14 +10,22 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
-        <parts>
-          <li>PN_Core</li>
-        </parts>
-      </li>
-    </modExtensions>
   </ThingDef>
+  
+  <ModuleAutomata.AutomataModuleDef Name="PN_ModuleBase_Core" Abstract="True">
+    <adaptParts>
+      <li>PN_Core</li>
+    </adaptParts>
+  </ModuleAutomata.AutomataModuleDef>
+
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Core">
+    <defName>PN_ATModule_CombatCore</defName>
+    <ingredientThingDef>PN_ATModule_CombatCore</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_Thing</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_Core" />
+    </properties>
+  </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Head">
     <defName>PN_ATModule_CombatCore</defName>
@@ -30,6 +38,8 @@
 
     <comps>
       <li Class="ModuleAutomata.CompProperties_AutomataCore">
+        <specializationIconPath>UI/Icons/Combat</specializationIconPath>
+
         <qualitySkillValues>
           <Awful>2</Awful>
           <Poor>3</Poor>

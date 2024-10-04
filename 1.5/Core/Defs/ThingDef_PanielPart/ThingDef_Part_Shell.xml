@@ -18,181 +18,85 @@
         <compClass>CompQuality</compClass>
       </li>
     </comps>
+    
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
   </ThingDef>
 
+  <ModuleAutomata.AutomataModuleDef Name="PN_ModuleBase_Shell" Abstract="True">
+    <adaptParts>
+      <li>PN_Shell</li>
+    </adaptParts>
+  </ModuleAutomata.AutomataModuleDef>
+
   <!--급조-->
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Shell">
+    <defName>PN_ATModule_BaseShell</defName>
+    <ingredientThingDef>PN_ATModule_BaseShell</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_StatChange">
+        <qualityMultiplier>
+          <Awful>0.6</Awful>
+          <Poor>0.7</Poor>
+          <Normal>0.8</Normal>
+          <Good>0.9</Good>
+          <Excellent>1.0</Excellent>
+          <Masterwork>1.1</Masterwork>
+          <Legendary>1.2</Legendary>
+        </qualityMultiplier>
+        <statOffsets>
+          <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
+          <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+          <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </properties>
+    <isDefault>true</isDefault>
+  </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">
     <defName>PN_ATModule_BaseShell</defName>
     <label>paniel makeshift shell</label>
     <description>.</description>
-
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
-        <hediffs>
-          <Normal>PN_BaseShell</Normal>
-        </hediffs>
-        <parts>
-          <li>PN_Shell</li>
-        </parts>
-      </li>
-    </modExtensions>
   </ThingDef>
 
-  <HediffDef ParentName="AddedBodyPartBase">
-    <defName>PN_BaseShell</defName>
-    <label>base makeshift shell</label>
-    <description>.</description>
-
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-    <stages>
-      <li>
+  <!--일반-->
+  <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Shell">
+    <defName>PN_ATModule_HandiShell</defName>
+    <ingredientThingDef>PN_ATModule_HandiShell</ingredientThingDef>
+    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
+    <properties>
+      <li Class="ModuleAutomata.AutomataModuleProperty_StatChange">
+        <qualityMultiplier>
+          <Awful>0.6</Awful>
+          <Poor>0.7</Poor>
+          <Normal>0.8</Normal>
+          <Good>0.9</Good>
+          <Excellent>1.0</Excellent>
+          <Masterwork>1.1</Masterwork>
+          <Legendary>1.2</Legendary>
+        </qualityMultiplier>
         <statOffsets>
+          <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
+          <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+          <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
           <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
           <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
           <ArmorRating_Heat>0.1</ArmorRating_Heat>
         </statOffsets>
       </li>
-    </stages>
-
-    <isBad>false</isBad>
-    <priceImpact>true</priceImpact>
-    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
-  </HediffDef>
-
-  <!--일반-->
+    </properties>
+    <isDefault>true</isDefault>
+  </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">
     <defName>PN_ATModule_HandiShell</defName>
     <label>paniel handicraft shell</label>
     <description>.</description>
-
-    <modExtensions>
-      <li Class="ModuleAutomata.AutomataModuleThingExtension">
-        <hediffs>
-          <Awful>PN_HandiShell_awlf</Awful>
-          <Poor>PN_HandiShell_poor</Poor>
-          <Normal>PN_HandiShell_norm</Normal>
-          <Good>PN_HandiShell_good</Good>
-          <Excellent>PN_HandiShell_exc</Excellent>
-          <Masterwork>PN_HandiShell_mast</Masterwork>
-          <Legendary>PN_HandiShell_legd</Legendary>
-        </hediffs>
-        <parts>
-          <li>PN_Shell</li>
-        </parts>
-      </li>
-    </modExtensions>
   </ThingDef>
-
-  <HediffDef Name="PN_PartItem_Shell" ParentName="AddedBodyPartBase" Abstract="True">
-    <description>.</description>
-
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
-
-    <isBad>false</isBad>
-    <priceImpact>true</priceImpact>
-    <allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_awlf</defName>
-    <label>handicraft shell (awlf)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_poor</defName>
-    <label>handicraft shell (poor)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_norm</defName>
-    <label>handicraft shell (norm)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_good</defName>
-    <label>handicraft shell (good)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_exc</defName>
-    <label>handicraft shell (exc)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_mast</defName>
-    <label>handicraft shell (mast)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="PN_PartItem_Shell">
-    <defName>PN_HandiShell_legd</defName>
-    <label>handicraft shell (legd)</label>
-    <stages>
-      <li>
-        <statOffsets>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </stages>
-  </HediffDef>
-
 </Defs>
