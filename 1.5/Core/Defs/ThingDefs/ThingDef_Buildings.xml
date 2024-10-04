@@ -144,5 +144,34 @@
     <researchPrerequisites>
       <!--<li>PNRP_Production</li>-->
     </researchPrerequisites>
+
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataAssembleUIExtension">
+        <capacityDefs>
+          <li>Consciousness</li>
+          <li>Moving</li>
+          <li>Manipulation</li>
+          <li>Talking</li>
+          <li>Sight</li>
+          <li>Hearing</li>
+        </capacityDefs>
+        <statDefs>
+          <li>GlobalLearningFactor</li>
+          <li>ArmorRating_Sharp</li>
+          <li>ArmorRating_Blunt</li>
+          <li>ArmorRating_Heat</li>
+          <li>Flammability</li>
+          <li>IncomingDamageFactor</li>
+        </statDefs>
+
+        <defaultModuleSetting>
+          <PN_Chassi>PN_ATModule_BaseChassi</PN_Chassi>
+          <PN_LeftArm>PN_ATModule_BaseArm</PN_LeftArm>
+          <PN_RightArm>PN_ATModule_BaseArm</PN_RightArm>
+          <PN_LeftLeg>PN_ATModule_BaseLeg</PN_LeftLeg>
+          <PN_RightLeg>PN_ATModule_BaseLeg</PN_RightLeg>
+        </defaultModuleSetting>
+      </li>
+    </modExtensions>
   </ThingDef>
 </Defs>

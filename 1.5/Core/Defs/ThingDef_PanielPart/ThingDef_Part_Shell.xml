@@ -56,7 +56,6 @@
         </statOffsets>
       </li>
     </properties>
-    <isDefault>true</isDefault>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">
@@ -91,7 +90,6 @@
         </statOffsets>
       </li>
     </properties>
-    <isDefault>true</isDefault>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">

@@ -36,7 +36,6 @@
         </hediffs>
       </li>
     </properties>
-    <isDefault>true</isDefault>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Body">
