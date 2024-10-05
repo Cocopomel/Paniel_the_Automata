@@ -16,9 +16,11 @@
   <PN_DialogAssembleTitleLabel>PNL Industry</PN_DialogAssembleTitleLabel>
   <PN_DialogTabPawnCapacityLabel>개요</PN_DialogTabPawnCapacityLabel>
   <PN_DialogTabPawnSkillLabel>코어</PN_DialogTabPawnSkillLabel>
-  <PN_DialogTabPawnAppearanceLabel>외형</PN_DialogTabPawnAppearanceLabel>
-
   <PN_DialogTabNoSelectedCoreLabel>현재 선택된 코어 모듈 없음</PN_DialogTabNoSelectedCoreLabel>
+
+  <PN_DialogHairSelectorLabel>머리: </PN_DialogHairSelectorLabel>
+  <PN_DialogHeadSelectorLabel>얼굴: </PN_DialogHeadSelectorLabel>
+
   <PN_DialogEmptyModuleElementLabel>없음</PN_DialogEmptyModuleElementLabel>
 
   <PN_DialogFloatMenuOptionNoModuleCandidate>선택 가능한 모듈 없음</PN_DialogFloatMenuOptionNoModuleCandidate>
