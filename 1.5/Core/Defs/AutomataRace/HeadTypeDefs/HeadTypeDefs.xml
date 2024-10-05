@@ -3,84 +3,84 @@
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadA</defName>
 		<label>A</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead1</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadA</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadB</defName>
 		<label>B</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead2</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadB</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadC</defName>
 		<label>C</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead3</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadC</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadD</defName>
 		<label>D</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead4</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadD</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadE</defName>
 		<label>E</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead5</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadE</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadF</defName>
 		<label>F</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead6</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadF</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadG</defName>
 		<label>G</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead7</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadG</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadH</defName>
 		<label>H</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead8</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadH</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadI</defName>
 		<label>I</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead9</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadI</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadJ</defName>
 		<label>J</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead10</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadJ</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadK</defName>
 		<label>K</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead11</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadK</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 
   <HeadTypeDef ParentName="AverageBase">
 		<defName>PNHeadL</defName>
 		<label>L</label>
-		<graphicPath>Paniel/Heads/PNHead/PNHead12</graphicPath>
+		<graphicPath>Paniel/Heads/PNHead/PNHeadL</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 </Defs>
