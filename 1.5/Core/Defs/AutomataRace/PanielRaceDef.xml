@@ -41,18 +41,18 @@
 					<atlasScale>4</atlasScale>
 					<borderScale>1</borderScale>
 					<headTypes Inherit="False">
-						<li>PNHead1</li>
-						<li>PNHead2</li>
-						<li>PNHead3</li>
-						<li>PNHead4</li>
-						<li>PNHead5</li>
-						<li>PNHead6</li>
-						<li>PNHead7</li>
-						<li>PNHead8</li>
-						<li>PNHead9</li>
-						<li>PNHead10</li>
-						<li>PNHead11</li>
-						<li>PNHead12</li>
+						<li>PNHeadA</li>
+						<li>PNHeadB</li>
+						<li>PNHeadC</li>
+						<li>PNHeadD</li>
+						<li>PNHeadE</li>
+						<li>PNHeadF</li>
+						<li>PNHeadG</li>
+						<li>PNHeadH</li>
+						<li>PNHeadI</li>
+						<li>PNHeadJ</li>
+						<li>PNHeadK</li>
+						<li>PNHeadL</li>
 					</headTypes>
 					<bodyTypes>
 						<li>Female</li>
