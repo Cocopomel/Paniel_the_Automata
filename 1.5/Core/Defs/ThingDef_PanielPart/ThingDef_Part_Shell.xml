@@ -28,6 +28,13 @@
     <adaptParts>
       <li>PN_Shell</li>
     </adaptParts>
+    <additionalIngredientsOnAssemble>
+      <Leather_Automaton>50</Leather_Automaton>
+    </additionalIngredientsOnAssemble>
+    <additionalIngredientsOnModify>
+      <Leather_Automaton>25</Leather_Automaton>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </additionalIngredientsOnModify>
   </ModuleAutomata.AutomataModuleDef>
 
   <!--급조-->

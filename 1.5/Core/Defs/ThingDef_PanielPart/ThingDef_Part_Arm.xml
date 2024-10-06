@@ -20,6 +20,9 @@
       <li>PN_LeftArm</li>
       <li>PN_RightArm</li>
     </adaptParts>
+    <additionalIngredientsOnModify>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </additionalIngredientsOnModify>
   </ModuleAutomata.AutomataModuleDef>
 
 
@@ -30,6 +33,7 @@
     <label>makeshift arm</label>
     <description>.</description>
     <ingredientThingDef>ComponentIndustrial</ingredientThingDef>
+    <isSharedIngredient>true</isSharedIngredient>
     <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
     <properties>
       <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">

@@ -146,7 +146,7 @@
     </researchPrerequisites>
 
     <modExtensions>
-      <li Class="ModuleAutomata.AutomataAssembleUIExtension">
+      <li Class="ModuleAutomata.AutomataAssembleUIModExtension">
         <capacityDefs>
           <li>Consciousness</li>
           <li>Moving</li>

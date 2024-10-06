@@ -19,6 +19,12 @@
     <adaptParts>
       <li>PN_Chassi</li>
     </adaptParts>
+    <additionalIngredientsOnAssemble>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </additionalIngredientsOnAssemble>
+    <additionalIngredientsOnModify>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </additionalIngredientsOnModify>
   </ModuleAutomata.AutomataModuleDef>
 
   <!--급조-->
@@ -28,6 +34,7 @@
     <label>makeshift chassi</label>
     <description>.</description>
     <ingredientThingDef>ComponentSpacer</ingredientThingDef>
+    <isSharedIngredient>true</isSharedIngredient>
     <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
     <properties>
       <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">

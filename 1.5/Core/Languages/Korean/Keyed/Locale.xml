@@ -13,7 +13,9 @@
 
   <PN_FloatMenuReassembleLabel>오토마톤 재설계</PN_FloatMenuReassembleLabel>
 
-  <PN_DialogAssembleTitleLabel>PNL Industry</PN_DialogAssembleTitleLabel>
+  <PN_DialogAssembleTitleLabel>PNL\n오토마톤 조립</PN_DialogAssembleTitleLabel>
+  <PN_DialogModifyTitleLabel>PNL\n오토마톤 개조</PN_DialogModifyTitleLabel>
+  <PN_DialogOrderTitleLabel>PNL\n오토마톤 주문</PN_DialogOrderTitleLabel>
   <PN_DialogTabPawnCapacityLabel>개요</PN_DialogTabPawnCapacityLabel>
   <PN_DialogTabPawnSkillLabel>코어</PN_DialogTabPawnSkillLabel>
   <PN_DialogTabNoSelectedCoreLabel>현재 선택된 코어 모듈 없음</PN_DialogTabNoSelectedCoreLabel>

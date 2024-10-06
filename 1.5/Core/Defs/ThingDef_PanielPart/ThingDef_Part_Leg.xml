@@ -20,6 +20,9 @@
       <li>PN_LeftLeg</li>
       <li>PN_RightLeg</li>
     </adaptParts>
+    <additionalIngredientsOnModify>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </additionalIngredientsOnModify>
   </ModuleAutomata.AutomataModuleDef>
 
   <!--급조-->
@@ -29,6 +32,7 @@
     <label>makeshift leg</label>
     <description>.</description>
     <ingredientThingDef>ComponentIndustrial</ingredientThingDef>
+    <isSharedIngredient>true</isSharedIngredient>
     <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
     <properties>
       <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">
