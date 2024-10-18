@@ -19,7 +19,7 @@
   <PN_DialogTabPawnCapacityLabel>개요</PN_DialogTabPawnCapacityLabel>
   <PN_DialogTabPawnSkillLabel>코어</PN_DialogTabPawnSkillLabel>
   <PN_DialogTabNoSelectedCoreLabel>현재 선택된 코어 모듈 없음</PN_DialogTabNoSelectedCoreLabel>
-  <PN_DialogTabNoSelectedCoreLabel>알 수 없는 코어 모듈</PN_DialogTabNoSelectedCoreLabel>
+  <PN_DialogTabUnknownCoreLabel>알 수 없는 코어 모듈</PN_DialogTabUnknownCoreLabel>
 
   <PN_DialogHairSelectorLabel>머리: </PN_DialogHairSelectorLabel>
   <PN_DialogHeadSelectorLabel>얼굴: </PN_DialogHeadSelectorLabel>
