@@ -20,9 +20,7 @@
       <li>PN_LeftArm</li>
       <li>PN_RightArm</li>
     </adaptParts>
-    <additionalIngredientsOnModify>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </additionalIngredientsOnModify>
+    <affectedByQuality>true</affectedByQuality>
   </ModuleAutomata.AutomataModuleDef>
 
 
@@ -32,16 +30,20 @@
     <defName>PN_ATModule_BaseArm</defName>
     <label>makeshift arm</label>
     <description>.</description>
-    <ingredientThingDef>ComponentIndustrial</ingredientThingDef>
-    <isSharedIngredient>true</isSharedIngredient>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">
-        <hediffs>
-          <Normal>PN_BaseArm</Normal>
-        </hediffs>
-      </li>
-    </properties>
+    <uiOrder>1</uiOrder>
+
+    <mainIngredientDef>ComponentIndustrial</mainIngredientDef>
+    <affectedByQuality>false</affectedByQuality>
+    <subIngredients>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </subIngredients>
+    <installWorkAmount>1200</installWorkAmount>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_BodyPartHediff">
+      <hediffs>
+        <Normal>PN_BaseArm</Normal>
+      </hediffs>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <HediffDef ParentName="AddedBodyPartBase">
@@ -58,21 +60,25 @@
 
   <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Arm">
     <defName>PN_ATModule_HandiArm</defName>
-    <ingredientThingDef>PN_ATModule_HandiArm</ingredientThingDef>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_BodyPartHediff">
-        <hediffs>
-          <Awful>PN_HandiArm_awlf</Awful>
-          <Poor>PN_HandiArm_poor</Poor>
-          <Normal>PN_HandiArm_norm</Normal>
-          <Good>PN_HandiArm_good</Good>
-          <Excellent>PN_HandiArm_exc</Excellent>
-          <Masterwork>PN_HandiArm_mast</Masterwork>
-          <Legendary>PN_HandiArm_legd</Legendary>
-        </hediffs>
-      </li>
-    </properties>
+    <uiOrder>2</uiOrder>
+
+    <mainIngredientDef>PN_ATModule_HandiArm</mainIngredientDef>
+    <subIngredients>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </subIngredients>
+    <installWorkAmount>2000</installWorkAmount>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_BodyPartHediff">
+      <hediffs>
+        <Awful>PN_HandiArm_awlf</Awful>
+        <Poor>PN_HandiArm_poor</Poor>
+        <Normal>PN_HandiArm_norm</Normal>
+        <Good>PN_HandiArm_good</Good>
+        <Excellent>PN_HandiArm_exc</Excellent>
+        <Masterwork>PN_HandiArm_mast</Masterwork>
+        <Legendary>PN_HandiArm_legd</Legendary>
+      </hediffs>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Arm">

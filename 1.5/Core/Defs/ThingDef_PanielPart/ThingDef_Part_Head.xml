@@ -16,28 +16,22 @@
     <adaptParts>
       <li>PN_Core</li>
     </adaptParts>
+
+    <affectedByQuality>true</affectedByQuality>
+    <isCore>true</isCore>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_Core" />
   </ModuleAutomata.AutomataModuleDef>
 
   <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Core">
     <defName>PN_ATModule_CombatCore</defName>
-    <ingredientThingDef>PN_ATModule_CombatCore</ingredientThingDef>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_Thing</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_Core" />
-    </properties>
-  </ModuleAutomata.AutomataModuleDef>
+    <uiOrder>1</uiOrder>
 
-  <ThingDef ParentName="PN_PartItemBase_Head">
-    <defName>PN_ATModule_CombatCore</defName>
-    <label>paniel combat core test</label>
-    <description>.</description>
+    <mainIngredientDef>PN_ATModule_CombatCore</mainIngredientDef>
+    <installWorkAmount>5000</installWorkAmount>
 
-    <inspectorTabs>
-      <li>ModuleAutomata.ITab_AutomataCore</li>
-    </inspectorTabs>
-
-    <comps>
-      <li Class="ModuleAutomata.CompProperties_AutomataCore">
+    <modExtensions>
+      <li Class="ModuleAutomata.AutomataCoreModExtension">
         <specializationIconPath>UI/Icons/Combat</specializationIconPath>
 
         <qualitySkillValues>
@@ -65,6 +59,20 @@
           <li>ManualSkilled</li>
         </workDisables>
       </li>
+    </modExtensions>
+  </ModuleAutomata.AutomataModuleDef>
+
+  <ThingDef ParentName="PN_PartItemBase_Head">
+    <defName>PN_ATModule_CombatCore</defName>
+    <label>paniel combat core test</label>
+    <description>.</description>
+
+    <inspectorTabs>
+      <li>ModuleAutomata.ITab_AutomataCore</li>
+    </inspectorTabs>
+
+    <comps>
+      <li Class="ModuleAutomata.CompProperties_AutomataCore" />
     </comps>
   </ThingDef>
 </Defs>

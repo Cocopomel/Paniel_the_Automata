@@ -19,12 +19,8 @@
     <adaptParts>
       <li>PN_Chassi</li>
     </adaptParts>
-    <additionalIngredientsOnAssemble>
-      <ComponentIndustrial>5</ComponentIndustrial>
-    </additionalIngredientsOnAssemble>
-    <additionalIngredientsOnModify>
-      <ComponentIndustrial>10</ComponentIndustrial>
-    </additionalIngredientsOnModify>
+
+    <affectedByQuality>true</affectedByQuality>
   </ModuleAutomata.AutomataModuleDef>
 
   <!--급조-->
@@ -33,16 +29,17 @@
     <defName>PN_ATModule_BaseChassi</defName>
     <label>makeshift chassi</label>
     <description>.</description>
-    <ingredientThingDef>ComponentSpacer</ingredientThingDef>
-    <isSharedIngredient>true</isSharedIngredient>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">
-        <hediffs>
-          <Normal>PN_BaseChassi</Normal>
-        </hediffs>
-      </li>
-    </properties>
+    <uiOrder>1</uiOrder>
+    
+    <mainIngredientDef>ComponentSpacer</mainIngredientDef>
+    <affectedByQuality>false</affectedByQuality>
+    <installWorkAmount>2000</installWorkAmount>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_ImplantHediff">
+      <hediffs>
+        <Normal>PN_BaseChassi</Normal>
+      </hediffs>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Body">
@@ -95,21 +92,22 @@
 
   <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Chassi">
     <defName>PN_ATModule_HandiChassi</defName>
-    <ingredientThingDef>PN_ATModule_HandiChassi</ingredientThingDef>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_ImplantHediff">
-        <hediffs>
-          <Awful>PN_HandiChassi_awlf</Awful>
-          <Poor>PN_HandiChassi_poor</Poor>
-          <Normal>PN_HandiChassi_norm</Normal>
-          <Good>PN_HandiChassi_good</Good>
-          <Excellent>PN_HandiChassi_exc</Excellent>
-          <Masterwork>PN_HandiChassi_mast</Masterwork>
-          <Legendary>PN_HandiChassi_legd</Legendary>
-        </hediffs>
-      </li>
-    </properties>
+    <uiOrder>2</uiOrder>
+    
+    <mainIngredientDef>PN_ATModule_HandiChassi</mainIngredientDef>
+    <installWorkAmount>3000</installWorkAmount>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_ImplantHediff">
+      <hediffs>
+        <Awful>PN_HandiChassi_awlf</Awful>
+        <Poor>PN_HandiChassi_poor</Poor>
+        <Normal>PN_HandiChassi_norm</Normal>
+        <Good>PN_HandiChassi_good</Good>
+        <Excellent>PN_HandiChassi_exc</Excellent>
+        <Masterwork>PN_HandiChassi_mast</Masterwork>
+        <Legendary>PN_HandiChassi_legd</Legendary>
+      </hediffs>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Body">

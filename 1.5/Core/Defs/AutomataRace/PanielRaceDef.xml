@@ -552,18 +552,10 @@
 
 		</recipes>
 		<comps>
-
+      <li Class="ModuleAutomata.CompProperties_AutomataCore" />
+			<li Class="ModuleAutomata.CompProperties_Automata" />
 		</comps>
 		<modExtensions>
-			<li Class="ModuleAutomata.AutomataModExtension">
-				<fixedIngredientsOnAssemble>
-					<ComponentIndustrial>5</ComponentIndustrial>
-					<Gold>10</Gold>
-				</fixedIngredientsOnAssemble>
-				<fixedIngredientsOnModify>
-					<ComponentIndustrial>1</ComponentIndustrial>
-				</fixedIngredientsOnModify>
-			</li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 

@@ -28,41 +28,38 @@
     <adaptParts>
       <li>PN_Shell</li>
     </adaptParts>
-    <additionalIngredientsOnAssemble>
-      <Leather_Automaton>50</Leather_Automaton>
-    </additionalIngredientsOnAssemble>
-    <additionalIngredientsOnModify>
-      <Leather_Automaton>25</Leather_Automaton>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </additionalIngredientsOnModify>
+    
+    <affectedByQuality>true</affectedByQuality>
+    <affectedByStuff>true</affectedByStuff>
   </ModuleAutomata.AutomataModuleDef>
 
   <!--급조-->
   <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Shell">
     <defName>PN_ATModule_BaseShell</defName>
-    <ingredientThingDef>PN_ATModule_BaseShell</ingredientThingDef>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_StatChange">
-        <qualityMultiplier>
-          <Awful>0.6</Awful>
-          <Poor>0.7</Poor>
-          <Normal>0.8</Normal>
-          <Good>0.9</Good>
-          <Excellent>1.0</Excellent>
-          <Masterwork>1.1</Masterwork>
-          <Legendary>1.2</Legendary>
-        </qualityMultiplier>
-        <statOffsets>
-          <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
-          <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
-          <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </properties>
+    <uiOrder>1</uiOrder>
+    
+    <mainIngredientDef>PN_ATModule_BaseShell</mainIngredientDef>
+    <subIngredients>
+      <Leather_Automaton>50</Leather_Automaton>
+    </subIngredients>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_Shell">
+      <qualityMultiplier>
+        <Awful>0.6</Awful>
+        <Poor>0.7</Poor>
+        <Normal>0.8</Normal>
+        <Good>0.9</Good>
+        <Excellent>1.0</Excellent>
+        <Masterwork>1.1</Masterwork>
+        <Legendary>1.2</Legendary>
+      </qualityMultiplier>
+      <statOffsets>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      </statOffsets>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">
@@ -74,29 +71,30 @@
   <!--일반-->
   <ModuleAutomata.AutomataModuleDef ParentName="PN_ModuleBase_Shell">
     <defName>PN_ATModule_HandiShell</defName>
-    <ingredientThingDef>PN_ATModule_HandiShell</ingredientThingDef>
-    <ingredientWorkerClass>ModuleAutomata.AutomataModuleIngredientWorker_ThingDef</ingredientWorkerClass>
-    <properties>
-      <li Class="ModuleAutomata.AutomataModuleProperty_StatChange">
-        <qualityMultiplier>
-          <Awful>0.6</Awful>
-          <Poor>0.7</Poor>
-          <Normal>0.8</Normal>
-          <Good>0.9</Good>
-          <Excellent>1.0</Excellent>
-          <Masterwork>1.1</Masterwork>
-          <Legendary>1.2</Legendary>
-        </qualityMultiplier>
-        <statOffsets>
-          <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
-          <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
-          <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
-          <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-          <ArmorRating_Heat>0.1</ArmorRating_Heat>
-        </statOffsets>
-      </li>
-    </properties>
+    <uiOrder>2</uiOrder>
+    
+    <mainIngredientDef>PN_ATModule_HandiShell</mainIngredientDef>
+    <subIngredients>
+      <Leather_Automaton>50</Leather_Automaton>
+    </subIngredients>
+
+    <worker Class="ModuleAutomata.AutomataModuleWorker_Shell">
+      <qualityMultiplier>
+        <Awful>0.6</Awful>
+        <Poor>0.7</Poor>
+        <Normal>0.8</Normal>
+        <Good>0.9</Good>
+        <Excellent>1.0</Excellent>
+        <Masterwork>1.1</Masterwork>
+        <Legendary>1.2</Legendary>
+      </qualityMultiplier>
+      <statOffsets>
+        <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+        <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      </statOffsets>
+    </worker>
   </ModuleAutomata.AutomataModuleDef>
 
   <ThingDef ParentName="PN_PartItemBase_Shell">

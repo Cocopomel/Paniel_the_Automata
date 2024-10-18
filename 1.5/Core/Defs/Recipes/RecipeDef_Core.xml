@@ -45,7 +45,7 @@
 
     <modExtensions>
       <li Class="ModuleAutomata.MakeAutomatonCoreRecipeExtension">
-        <targetCoreDef>PN_ATModule_CombatCore</targetCoreDef>
+        <targetCoreModuleDef>PN_ATModule_CombatCore</targetCoreModuleDef>
       </li>
     </modExtensions>
   </RecipeDef>
