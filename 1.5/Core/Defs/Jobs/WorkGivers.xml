@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>PN_HaulAutomataToAssembler</defName>
+    <label>haul automata to assembler</label>
+    <giverClass>ModuleAutomata.WorkGiver_HaulAutomataToAssembler</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul</verb>
+    <gerund>hauling</gerund>
+    <priorityInType>110</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>PN_HaulIngredientsToAssembler</defName>
+    <label>haul ingredients to assembler</label>
+    <giverClass>ModuleAutomata.WorkGiver_HaulIngredientsToAssembler</giverClass>
+    <workType>Hauling</workType>
+    <verb>haul</verb>
+    <gerund>hauling</gerund>
+    <priorityInType>110</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>PN_AssembleAutomata</defName>
+    <label>assemble automata</label>
+    <giverClass>ModuleAutomata.WorkGiver_AssembleAutomata</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>95</priorityInType>
+    <verb>assemble</verb>
+    <gerund>assembling at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+</Defs>

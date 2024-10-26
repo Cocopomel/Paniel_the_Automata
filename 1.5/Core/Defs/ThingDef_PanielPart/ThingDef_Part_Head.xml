@@ -44,20 +44,9 @@
           <Legendary>17</Legendary>
         </qualitySkillValues>
         <sourcePawnSkillMultiplier>0.33333334</sourcePawnSkillMultiplier>
-        <workDisables>
-          <li>Intellectual</li>
-          <li>Mining</li>
-          <li>PlantWork</li>
-          <li>Cleaning</li>
-          <li>Cooking</li>
-          <li>Crafting</li>
-          <li>Artistic</li>
-          <li>Animals</li>
-          <li>Intellectual</li>
-          <li>Social</li>
-          <li>Caring</li>
-          <li>ManualSkilled</li>
-        </workDisables>
+        
+        <childhoodBackstory>PN_Test1</childhoodBackstory>
+        <adulthoodBackstory>PN_Test2</adulthoodBackstory>
       </li>
     </modExtensions>
   </ModuleAutomata.AutomataModuleDef>
