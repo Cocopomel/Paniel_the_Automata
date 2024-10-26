@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <PN_AutomataCoreItemLabel>{0} ({1}) ({2})</PN_AutomataCoreItemLabel>
-
   <PN_CommandCancelAssembleLabel>조립 취소</PN_CommandCancelAssembleLabel>
   <PN_CommandCancelAssembleDesc>.</PN_CommandCancelAssembleDesc>
 
   <PN_CommandAssembleNewLabel>오토마톤 조립</PN_CommandAssembleNewLabel>
   <PN_CommandAssembleNewDesc>.</PN_CommandAssembleNewDesc>
-
   <PN_CommandReassembleLabel>오토마톤 재설계</PN_CommandReassembleLabel>
   <PN_CommandReassembleDesc>.</PN_CommandReassembleDesc>
 
@@ -25,6 +22,13 @@
   <PN_DialogHeadSelectorLabel>얼굴: </PN_DialogHeadSelectorLabel>
 
   <PN_DialogEmptyModuleElementLabel>없음</PN_DialogEmptyModuleElementLabel>
+  <PN_DialogCancelInstallModuleOption>{0} (현재 장착됨)</PN_DialogCancelInstallModuleOption>
+  <PN_DialogCancelInstallModuleIfEmptyOption>없음</PN_DialogCancelInstallModuleIfEmptyOption>
 
   <PN_DialogFloatMenuOptionNoModuleCandidate>선택 가능한 모듈 없음</PN_DialogFloatMenuOptionNoModuleCandidate>
+
+  <PN_MessageAssembleNewAutomataComplete>오토마타 조립이 완료되었습니다: {0}</PN_MessageAssembleNewAutomataComplete>
+  <PN_MessageModifyAutomataComplete>오토마타 개조가 완료되었습니다: {0}</PN_MessageModifyAutomataComplete>
+
+  <PN_JobFailReasonNoIngredients>재료 없음</PN_JobFailReasonNoIngredients>
 </LanguageData>
