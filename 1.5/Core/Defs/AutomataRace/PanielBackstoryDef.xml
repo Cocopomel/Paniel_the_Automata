@@ -9,7 +9,7 @@
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 
-	<!-- 일반 -->	<!-- 유년기 -->
+	<!-- 테스트 -->	<!-- 유년기 -->
 	
 	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
 		<defName>PN_Test1</defName>
@@ -25,7 +25,7 @@
 		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
 	</AlienRace.AlienBackstoryDef>
 	
-	<!-- 일반 -->	<!-- 성년기 -->
+	<!-- 테스트 -->	<!-- 성년기 -->
 	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
 		<defName>PN_Test2</defName>
 		<title>test2</title>
@@ -35,6 +35,98 @@
 		
 		<spawnCategories>
 			<li>PN_Test2</li>
+		</spawnCategories>
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 플레이어제조 -->	<!-- 유년기 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PNBS_MadeInColony</defName>
+		<title>made in colony</title>
+		<titleShort>made in colony</titleShort>
+		<description>made in colony</description>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>PNBS_colony</li>
+		</spawnCategories>
+		
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 정품 -->	<!-- 유년기 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PNBS_MadeInPnL</defName>
+		<title>made in PnL</title>
+		<titleShort>made in PnL</titleShort>
+		<description>made in PnL</description>
+		<slot>Childhood</slot>
+
+		<spawnCategories>
+			<li>PNBS_pnl</li>
+			<li>PNBS_experimental</li>
+		</spawnCategories>
+		
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 군용 -->	<!-- 성년기 -->
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PNBS_MilitaryPaniel</defName>
+		<title>military paniel</title>
+		<titleShort>military</titleShort>
+		<description>military paniel</description>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>PNBS_military</li>
+			<li>PNBS_colony</li>
+		</spawnCategories>
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 산업용 -->	<!-- 성년기 -->
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PNBS_IndustrialPaniel</defName>
+		<title>industrial paniel</title>
+		<titleShort>industrial</titleShort>
+		<description>industrial paniel</description>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>PNBS_industrial</li>
+			<li>PNBS_colony</li>
+		</spawnCategories>
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 가정용 -->	<!-- 성년기 -->
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PN_DomesticPaniel</defName>
+		<title>domestic paniel</title>
+		<titleShort>domestic</titleShort>
+		<description>domestic paniel</description>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>PNBS_domestic</li>
+			<li>PNBS_colony</li>
+		</spawnCategories>
+		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 실험용 -->	<!-- 성년기 -->
+	<AlienRace.AlienBackstoryDef ParentName="BasePanielBackStory">
+		<defName>PN_ExperimentalPaniel</defName>
+		<title>experimental paniel</title>
+		<titleShort>experimental</titleShort>
+		<description>experimental paniel</description>
+		<slot>Adulthood</slot>
+		
+		<spawnCategories>
+			<li>PNBS_experimental</li>
 		</spawnCategories>
 		<!--<workDisables>Intellectual,Artistic,Cooking,Crafting</workDisables>-->
 	</AlienRace.AlienBackstoryDef>

@@ -45,8 +45,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>PN_Test1</li>
-					<li>PN_Test2</li>
+					<li>PNBS_colony</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
@@ -76,8 +75,7 @@
 		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>PN_Test1</li>
-					<li>PN_Test2</li>
+					<li>PNBS_experimental</li>
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
